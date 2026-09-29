@@ -89,7 +89,10 @@ details ul { padding-left: 1rem; margin: .2rem 0; }
 .nv { color: var(--warn); }
 a { color: var(--accent); }
 .disclaimer { font-size: .78rem; color: var(--muted); margin-top: 1.5rem; }
-.autor { font-size: .78rem; color: var(--muted); margin: .3rem 0 0; }
+.pie-autor { display: flex; align-items: center; gap: .9rem; flex-wrap: wrap; margin-top: 1rem; padding-top: .9rem; border-top: 1px solid var(--line); }
+.logo-ies { width: 150px; height: auto; display: block; }
+@media (prefers-color-scheme: dark) { .logo-ies { filter: brightness(0) invert(1); opacity: .85; } }
+.autor { font-size: .78rem; color: var(--muted); margin: 0; }
 .print-only { display: none; }
 #informe, #resolucion, #exencion, #solicitudes, #listado { display: none; }
 

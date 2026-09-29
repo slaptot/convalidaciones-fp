@@ -52,3 +52,5 @@ Cada ciclo se puede analizar con tres planes: LO 3/2022 en Aragón, LO 3/2022 de
 ## Autoría
 
 Aplicación desarrollada por **Alberto Muñoz Fuertes** — alberto.munoz.fuertes@proton.me
+
+[IES Leonardo de Chabacier](https://chabacier.es) · El logotipo del centro se incluye en `img/` y es propiedad del IES.
