@@ -21,6 +21,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Radioterapia y Dosimetría | SAN309 | Superior | LO 3/2022 |
 | Documentación y Administración Sanitarias | SAN303 | Superior | LO 3/2022 |
 | Administración de Sistemas Informáticos en Red | IFC301 | Superior | LO 3/2022 |
+| Desarrollo de Aplicaciones Multiplataforma | IFC302 | Superior | LO 3/2022 |
 | Asesoría de Imagen Personal y Corporativa | IMP301 | Superior | LO 3/2022 |
 | Estética Integral y Bienestar | IMP302 | Superior | LO 3/2022 |
 | Estilismo y Dirección de Peluquería | IMP303 | Superior | LO 3/2022 |
