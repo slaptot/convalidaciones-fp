@@ -21,6 +21,15 @@
   const norm = (s) => (s || '').toString().trim().toUpperCase().replace(/^ECP/, 'UC');
   const GENERAL_LOGSE = 'Cualquier ciclo LOGSE';
 
+  /* Las tablas escriben el título con su norma entre paréntesis
+     ("Técnico Superior en … (LOE, RD 1629/2009, de 30 de octubre)"),
+     mientras que el catálogo usa solo el nombre. Se comparan sin ese añadido. */
+  const tituloBase = (t) => norm(t).split(' (')[0].replace(/\s+/g, ' ').trim();
+  const mismoTitulo = (a, b) => {
+    const x = tituloBase(a), y = tituloBase(b);
+    return x === y || x.startsWith(y) || y.startsWith(x);
+  };
+
   // Pseudo-módulo: desde la LO 3/2022 la formación en empresa no es un módulo con código
   const FORMACION_EMPRESA = {
     codigo: 'FE', nombre: 'Periodo de formación en empresa', tipo: 'empresa', comun: 'empresa',
@@ -188,7 +197,8 @@
     // 2. Tabla del título: módulos de títulos anteriores (LOGSE)
     for (const fila of ciclo.convalidaciones_titulos_anteriores || []) {
       const usados = fila.origen_modulo.map((om) =>
-        logse.find((a) => norm(a.modulo) === norm(om) && (a.titulo === GENERAL_LOGSE || norm(a.titulo) === norm(fila.origen_titulo))));
+        logse.find((a) => norm(a.modulo) === norm(om)
+          && (a.titulo === GENERAL_LOGSE || mismoTitulo(a.titulo, fila.origen_titulo))));
       if (!usados.every(Boolean)) continue;
       fila.destino_modulos.forEach((d) => add(d, {
         estado: 'convalidable', resuelve: 'Dirección del centro', calificacion: cal('tabla'),

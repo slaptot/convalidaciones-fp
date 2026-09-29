@@ -368,7 +368,7 @@ r = est('ifc302', comunes.map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: '
 comunes.forEach((m) => assert.equal(r[m], 'superado', m));
 // Y el ciclo completo de ASIR convalida 0483 y 0484 en ambos
 ['ifc302', 'ifc303'].forEach((c) => {
-  const x = est(c, [{ tipo: 'titulo', ciclo: 'ifc301', titulo: 'TS Administración de Sistemas Informáticos en Red', docs: ['cert_academica'] }]);
-  assert.ok(x['0483'] && x['0484'], c);
+  const x = est(c, [{ tipo: 'titulo', ciclo: 'ifc301', titulo: CICLOS.ifc301.ciclo.nombre, docs: ['cert_academica'] }]);
+  assert.equal(x['0483'], 'convalidable', c); assert.equal(x['0484'], 'convalidable', c);
 });
 console.log('OK: DAM y DAW');
