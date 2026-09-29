@@ -400,15 +400,16 @@
   };
 
   function pintarListado(c, amb, filas) {
-    // La formación en empresa va por el expediente de exención, no por este listado
-    const resueltos = filas.filter((f) => (f.mejor || f.bloqueo) && f.modulo.tipo !== 'empresa');
+    // Solo lo solicitado: la formación en empresa va por el expediente de exención y el
+    // Proyecto no es convalidable, así que no procede listarlo
+    const resueltos = filas.filter((f) => f.mejor && f.modulo.tipo !== 'empresa');
     const cuerpo = resueltos.length
       ? resueltos.map(({ modulo: m, mejor }) => {
           const favorable = mejor && ['convalidable', 'superado', 'exento'].includes(mejor.estado);
           return `<tr>
             <td class="cod">${h(m.codigo)}</td>
             <td>${h(nombreModulo(m, amb))}</td>
-            <td>${favorable ? 'Favorable' : mejor && mejor.estado === 'ministerio' ? 'Remitido al Ministerio' : 'Desfavorable'}</td>
+            <td>${favorable ? 'Favorable' : mejor.estado === 'ministerio' ? 'Remitido al Ministerio' : 'Pendiente de estudio'}</td>
             <td class="num">${favorable && mejor ? h(calificacionCorta(mejor)) : ''}</td>
           </tr>`;
         }).join('')
