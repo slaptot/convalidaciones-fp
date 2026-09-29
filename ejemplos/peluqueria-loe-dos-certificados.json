@@ -1,0 +1,96 @@
+{
+ "centro": "IES Ejemplo",
+ "membrete": "",
+ "localidad": "",
+ "director": "",
+ "fecha_res": "",
+ "alumno": "Ejemplo · Peluquería plan LOE",
+ "dni": "",
+ "curso": "2025-2026",
+ "ciclo": "peluqueria",
+ "ambito": "loe",
+ "notas": "Certificados IMPQ0208 Peluquería e IMPQ0108 Servicios auxiliares completos, FOL de otro ciclo LOE y 20 meses de experiencia. Del certificado de nivel 1 solo cuenta MF0058_1, como parte de la pareja que convalida el 0842: el 0636 Estética de manos y pies no se convalida pese al nombre del certificado.",
+ "aportaciones": [
+  {
+   "tipo": "mf",
+   "codigo": "MF0347_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0058_1",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0348_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0349_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0350_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0351_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0352_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0059_1",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0060_1",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "modulo_loe",
+   "codigo": "0644",
+   "nombre": "Formación y orientación laboral",
+   "titulo": "Técnico en Estética y Belleza (LOE)",
+   "docs": [
+    "cert_academica"
+   ]
+  },
+  {
+   "tipo": "experiencia",
+   "meses": 20,
+   "relacionada": true,
+   "docs": [
+    "vida_laboral",
+    "contrato_empresa"
+   ]
+  }
+ ]
+}
