@@ -27,7 +27,7 @@
   let state = cargar() || nuevo();
 
   function nuevo() {
-    return { alumno: '', dni: '', curso: '', ciclo: Object.keys(CICLOS)[0], ambito: 'aragon', aportaciones: [], notas: '' };
+    return { centro: '', alumno: '', dni: '', curso: '', ciclo: Object.keys(CICLOS)[0], ambito: 'aragon', aportaciones: [], notas: '' };
   }
   function cargar() {
     try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; }
@@ -45,6 +45,7 @@
       .map(([id, c]) => `<option value="${id}">${h(c.ciclo.nombre.replace(/\s*\(LOGSE\)$/, ''))} (${h(c.ciclo.grado)}${c.ciclo.plan === 'LOGSE' ? ', LOGSE' : ''})</option>`)
       .join('');
     sel.value = state.ciclo;
+    $('#centro').value = state.centro || '';
     $('#alumno').value = state.alumno;
     $('#dni').value = state.dni;
     $('#curso').value = state.curso;
@@ -281,10 +282,123 @@
     $('#no-verificado').innerHTML = nv.map((x) => `<li>${h(x)}</li>`).join('');
     $('#bloque-nv').hidden = !nv.length;
 
-    $('#print-head').innerHTML = `<h2>Análisis de convalidaciones</h2>
-      <p><b>Alumno/a:</b> ${h(state.alumno || '—')} · <b>DNI/NIE:</b> ${h(state.dni || '—')} · <b>Curso:</b> ${h(state.curso || '—')}</p>
-      <p><b>Ciclo:</b> ${h(c.ciclo.nombre)} (${h(c.ciclo.codigo)}) · Plan: ${amb === 'aragon' ? 'Aragón' : 'MEFP'} · Fecha del análisis: ${new Date().toLocaleDateString('es-ES')}</p>
-      ${state.notas ? `<p><b>Observaciones:</b> ${h(state.notas)}</p>` : ''}`;
+    pintarInforme(c, amb, filas, avisos, n);
+  }
+
+  // ---------- Anexo imprimible ----------
+  // Etiquetas cortas para el anexo (en la tabla se repiten mucho)
+  const TIPO_CORTO = {
+    modulo_loe: 'Módulo LOE', modulo_logse: 'Módulo LOGSE', uc: 'UC acreditada',
+    mf: 'MF de certificado', uf: 'UF de certificado', universidad: 'Estudios universitarios',
+    experiencia: 'Experiencia laboral', certificado: 'Certificado',
+  };
+  const DOC_CORTO = {
+    cert_academica: 'Certificación académica', cert_uc: 'Certificación de UC',
+    cert_profesionalidad: 'Certificado de profesionalidad', acreditacion_parcial: 'Acreditación parcial acumulable',
+    programas_univ: 'Programas sellados', cert_univ_programas: 'Certificación de la universidad',
+    prl_basico: 'PRL nivel básico', vida_laboral: 'Certificado TGSS/ISM',
+    contrato_empresa: 'Contrato o certificado de empresa', cert_eoi: 'Certificado EOI', titulo_univ: 'Título universitario',
+  };
+  const doc = (d) => DOC_CORTO[d] || N.documentos[d] || d;
+
+  const ESTADO_INFORME = {
+    superado: 'Superado (traslado de nota)',
+    convalidable: 'Convalidable',
+    exento: 'Exención',
+    ministerio: 'Propuesta al Ministerio',
+    revisar: 'A estudiar',
+  };
+
+  function pintarInforme(c, amb, filas, avisos, n) {
+    const hoy = new Date().toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+    const plan = amb === 'aragon' ? 'Aragón' : 'Ministerio (ámbito MEFPD)';
+    const totalHoras = filas.reduce((s, f) => s + (f.modulo.horas[amb] || 0), 0);
+
+    const aportadas = state.aportaciones.length
+      ? state.aportaciones.map((a, i) => {
+          const faltan = N.requeridos(a).filter((d) => !a.docs.includes(d));
+          return `<tr>
+            <td class="num">${i + 1}</td>
+            <td>${h(TIPO_CORTO[a.tipo])}</td>
+            <td>${h(describir(a))}</td>
+            <td>${a.docs.length ? a.docs.map((d) => h(doc(d))).join('<br>') : '—'}</td>
+            <td>${faltan.length ? `<span class="falta">${faltan.map((d) => h(doc(d))).join('<br>')}</span>` : 'Completa'}</td>
+          </tr>`;
+        }).join('')
+      : `<tr><td colspan="5" class="vacio-td">No se ha registrado documentación.</td></tr>`;
+
+    const resultado = filas.map(({ modulo: m, mejor, bloqueo }) => {
+      const estado = mejor ? ESTADO_INFORME[mejor.estado] : bloqueo ? 'No convalidable' : 'Debe cursarlo';
+      const horas = m.horas[amb];
+      return `<tr class="${mejor ? 'r-si' : 'r-no'}">
+        <td class="cod">${h(m.codigo)}</td>
+        <td>${h(m.nombre)}</td>
+        <td class="num">${horas || '—'}</td>
+        <td>${h(estado)}</td>
+        <td>${mejor ? h(mejor.motivo) : bloqueo ? h(bloqueo) : '—'}</td>
+        <td>${mejor ? h(mejor.resuelve) : '—'}</td>
+        <td>${mejor ? h(mejor.calificacion) : '—'}</td>
+      </tr>`;
+    }).join('');
+
+    // Normas efectivamente aplicadas en este expediente
+    const normas = [...new Set(filas.filter((f) => f.mejor).map((f) => f.mejor.fundamento))];
+    const advertencias = [...new Set([...avisos, ...filas.filter((f) => f.mejor && f.mejor.aviso).map((f) => f.mejor.aviso)])];
+
+    $('#informe').innerHTML = `
+      <header class="inf-head">
+        <div class="inf-centro">${h(state.centro || '')}</div>
+        <h1>Anexo · Análisis de convalidaciones y exenciones</h1>
+        <p class="inf-sub">Propuesta de resolución. Documento de trabajo, no es una resolución administrativa.</p>
+      </header>
+
+      <table class="inf-datos">
+        <tr><th>Alumno/a</th><td>${h(state.alumno || '—')}</td><th>DNI/NIE</th><td>${h(state.dni || '—')}</td></tr>
+        <tr><th>Ciclo formativo</th><td colspan="3">${h(c.ciclo.nombre)} (${h(c.ciclo.codigo)}) · Grado ${h(c.ciclo.grado)} · ${h(c.ciclo.familia)}</td></tr>
+        <tr><th>Plan de estudios</th><td>${h(plan)}</td><th>Curso académico</th><td>${h(state.curso || '—')}</td></tr>
+        <tr><th>Fecha del análisis</th><td colspan="3">${h(hoy)}</td></tr>
+      </table>
+
+      <h2>1. Documentación aportada</h2>
+      <table class="inf-tabla">
+        <colgroup><col style="width:4%"><col style="width:15%"><col style="width:40%"><col style="width:26%"><col style="width:15%"></colgroup>
+        <thead><tr><th class="num">#</th><th>Tipo</th><th>Detalle</th><th>Documentación aportada</th><th>Falta</th></tr></thead>
+        <tbody>${aportadas}</tbody>
+      </table>
+
+      <h2>2. Resultado por módulo profesional</h2>
+      <table class="inf-tabla">
+        <colgroup><col style="width:7%"><col style="width:24%"><col style="width:6%"><col style="width:12%"><col style="width:25%"><col style="width:16%"><col style="width:10%"></colgroup>
+        <thead><tr><th>Código</th><th>Módulo profesional</th><th class="num">Horas</th><th>Resultado</th><th>Fundamento de hecho</th><th>Resuelve</th><th>Calificación</th></tr></thead>
+        <tbody>${resultado}</tbody>
+      </table>
+
+      <h2>3. Resumen</h2>
+      <table class="inf-tabla inf-resumen">
+        <tbody>
+          <tr><th>Módulos convalidados, con nota trasladada o exentos</th><td class="num">${n.conv}</td></tr>
+          <tr><th>Pendientes de otro órgano o de estudio individual</th><td class="num">${n.min}</td></tr>
+          <tr><th>Horas reconocidas sobre el total del ciclo</th><td class="num">${n.horas} de ${totalHoras}</td></tr>
+          <tr><th>Aportaciones con documentación incompleta</th><td class="num">${n.faltan}</td></tr>
+        </tbody>
+      </table>
+
+      ${state.notas ? `<h2>4. Observaciones</h2><p class="inf-parrafo">${h(state.notas)}</p>` : ''}
+
+      ${advertencias.length ? `<h2>${state.notas ? 5 : 4}. Advertencias a comprobar antes de resolver</h2>
+        <ul class="inf-lista">${advertencias.map((a) => `<li>${h(a)}</li>`).join('')}</ul>` : ''}
+
+      ${normas.length ? `<h2>${(state.notas ? 5 : 4) + (advertencias.length ? 1 : 0)}. Normativa aplicada</h2>
+        <ul class="inf-lista">${normas.map((x) => `<li>${h(x)}</li>`).join('')}</ul>` : ''}
+
+      <div class="inf-firmas">
+        <div><p class="inf-lugar">En ____________________, a ____ de ______________ de 20____</p></div>
+        <div class="inf-firma"><p>Elaborado por (Secretaría)</p><div class="inf-linea"></div><p class="inf-fdo">Fdo.: ____________________</p></div>
+        <div class="inf-firma"><p>V.º B.º Dirección del centro</p><div class="inf-linea"></div><p class="inf-fdo">Fdo.: ____________________</p></div>
+      </div>
+
+      <p class="inf-pie">Documento generado con la herramienta de análisis de convalidaciones. El resultado es orientativo:
+      la resolución corresponde al órgano competente conforme al RD 659/2023, al RD 1085/2020 y a la normativa autonómica aplicable.</p>`;
   }
 
   function refrescar() {
@@ -301,7 +415,7 @@
     refrescar();
 
     $('#ambito').addEventListener('change', (e) => { state.ambito = e.target.value; refrescar(); });
-    for (const id of ['alumno', 'dni', 'curso', 'notas']) {
+    for (const id of ['centro', 'alumno', 'dni', 'curso', 'notas']) {
       $('#' + id).addEventListener('input', (e) => { state[id] = e.target.value; guardar(); pintarResultados(); });
     }
     $('#ciclo').addEventListener('change', (e) => {

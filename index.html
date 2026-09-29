@@ -25,6 +25,7 @@
   <main class="grid">
     <section class="panel entrada">
       <h2>1 · Expediente</h2>
+      <label>Centro <input id="centro" autocomplete="off" placeholder="Nombre del centro"></label>
       <div class="fila">
         <label>Alumno/a <input id="alumno" autocomplete="off"></label>
         <label>DNI/NIE <input id="dni" autocomplete="off"></label>
@@ -47,7 +48,6 @@
     </section>
 
     <section class="panel salida">
-      <div id="print-head" class="print-only"></div>
       <h2>3 · Resultado por módulo</h2>
       <div id="resumen" class="kpis"></div>
       <div id="avisos"></div>
@@ -73,6 +73,8 @@
       <p class="disclaimer">Herramienta de apoyo. El resultado es orientativo; la resolución corresponde al órgano competente según la normativa vigente.</p>
     </section>
   </main>
+
+  <section id="informe" class="print-only"></section>
 
   <script src="data/normativa.js"></script>
   <script src="data/certificados.js"></script>

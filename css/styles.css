@@ -87,14 +87,54 @@ details ul { padding-left: 1rem; margin: .2rem 0; }
 a { color: var(--accent); }
 .disclaimer { font-size: .78rem; color: var(--muted); margin-top: 1.5rem; }
 .print-only { display: none; }
+#informe { display: none; }
 
 @media print {
-  :root { --bg: #fff; --panel: #fff; --text: #000; --muted: #444; --line: #bbb; }
-  .top, .entrada { display: none; }
-  .grid { display: block; padding: 0; }
-  .panel { border: none; padding: 0; }
-  .print-only { display: block; }
-  details { display: none; }
-  body { font-size: 11px; }
-  tr { page-break-inside: avoid; }
+  @page { size: A4; margin: 14mm 12mm 16mm; }
+  :root { --text: #000; --muted: #333; --line: #999; }
+  html, body { background: #fff; color: #000; font-family: Georgia, "Times New Roman", serif; font-size: 9.5pt; }
+  .top, main { display: none !important; }
+  #informe { display: block; }
+
+  /* Cabecera del anexo */
+  .inf-head { border-bottom: 2px solid #000; padding-bottom: 6pt; margin-bottom: 10pt; }
+  .inf-centro { font-size: 9pt; text-transform: uppercase; letter-spacing: .08em; min-height: 11pt; }
+  #informe h1 { font-size: 13.5pt; margin: 4pt 0 2pt; letter-spacing: .01em; }
+  .inf-sub { margin: 0; font-size: 8.5pt; font-style: italic; color: #333; }
+  #informe h2 { font-size: 10.5pt; margin: 12pt 0 4pt; padding-bottom: 2pt; border-bottom: 1px solid #000;
+                text-transform: none; letter-spacing: 0; color: #000; break-after: avoid; }
+
+  /* Ficha de datos */
+  .inf-datos { width: 100%; border-collapse: collapse; margin-bottom: 4pt; }
+  .inf-datos th, .inf-datos td { border: 1px solid #999; padding: 3pt 5pt; text-align: left; font-size: 9pt; vertical-align: top; }
+  .inf-datos th { width: 22%; background: #f0f0f0; font-weight: bold; text-transform: none; letter-spacing: 0; color: #000; }
+
+  /* Tablas del anexo */
+  .inf-tabla { width: 100%; border-collapse: collapse; }
+  .inf-tabla th, .inf-tabla td { border: 1px solid #999; padding: 3pt 4pt; vertical-align: top; font-size: 8.5pt; text-align: left; }
+  .inf-tabla thead th { background: #e8e8e8; font-weight: bold; font-size: 8pt; text-transform: uppercase;
+                        letter-spacing: .03em; color: #000; }
+  .inf-tabla thead { display: table-header-group; }
+  .inf-tabla tr { break-inside: avoid; }
+  .inf-tabla .cod { font-family: "Courier New", monospace; white-space: nowrap; font-weight: bold; }
+  .inf-tabla .num { text-align: right; white-space: nowrap; }
+  .inf-tabla th.num { text-align: right; }
+  .inf-tabla .r-si td { background: #f4f4f4; }
+  .inf-tabla .r-no td { color: #444; }
+  .falta { font-weight: bold; }
+  .vacio-td { text-align: center; font-style: italic; color: #444; }
+  .inf-resumen th { background: #f0f0f0; text-align: left; text-transform: none; letter-spacing: 0; color: #000; }
+  .inf-resumen td { width: 22%; font-weight: bold; }
+  .inf-parrafo { margin: 0; font-size: 9pt; }
+  .inf-lista { margin: 0; padding-left: 14pt; font-size: 8.5pt; }
+  .inf-lista li { margin-bottom: 2pt; break-inside: avoid; }
+
+  /* Firmas */
+  .inf-firmas { margin-top: 18pt; break-inside: avoid; text-align: center; }
+  .inf-lugar { font-size: 9pt; margin: 0 0 14pt; text-align: right; }
+  .inf-firma { display: inline-block; width: 45%; vertical-align: top; font-size: 8.5pt; }
+  .inf-firma p { margin: 0; }
+  .inf-linea { border-bottom: 1px solid #000; height: 34pt; margin: 0 14pt; }
+  .inf-fdo { margin-top: 3pt; }
+  .inf-pie { margin-top: 14pt; padding-top: 4pt; border-top: 1px solid #999; font-size: 7.5pt; color: #333; }
 }
