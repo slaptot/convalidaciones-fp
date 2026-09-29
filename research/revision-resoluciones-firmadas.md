@@ -4,7 +4,9 @@ Fecha: 29/09/2026. Documentos revisados: los dos localizados en la carpeta de De
 Criterio: redacción corregida tras leer el art. 53 del Decreto 91/2024 en el BOA firmado
 (csv BOA20240606002) y el Decreto 107/2025 (csv BOA20250918002).
 
-## 1. Resolución individual (la alumna, 29/09/2026)
+## 1. Resolución individual (alumna, 29/09/2026)
+
+> Datos identificativos omitidos: el repositorio es público.
 
 | # | Defecto | Gravedad | Fundamento |
 |---|---|---|---|
