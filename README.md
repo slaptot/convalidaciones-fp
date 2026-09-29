@@ -9,6 +9,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Sistemas Microinformáticos y Redes | IFC201 | Medio | LO 3/2022 |
 | Estética y Belleza | IMP202 | Medio | LO 3/2022 |
 | Cuidados Auxiliares de Enfermería | SAN201 | Medio | LOGSE |
+| Peluquería y Cosmética Capilar | IMP203 | Medio | LO 3/2022 |
 | Termalismo y Bienestar | IMP304 | Superior | LO 3/2022 |
 
 Cada ciclo se puede analizar con tres planes: LO 3/2022 en Aragón, LO 3/2022 del Ministerio y LOE a extinguir (con FOL, EIE y FCT). Los cuatro ciclos LOE tienen datos del plan antiguo; TCAE es LOGSE y no lo tuvo.

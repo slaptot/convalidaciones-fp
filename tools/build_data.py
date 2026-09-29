@@ -22,6 +22,7 @@ COMUNES = {
     "TCAE-06": "rel_equipo", "TCAE-07": "fol_logse",
     # Plan LOE a extinguir: FOL, EIE y FCT siguen siendo módulos del ciclo
     "0218": "fol_loe", "0229": "fol_loe", "0644": "fol_loe", "1648": "fol_loe",
+    "0851": "fol_loe", "0852": "eie_loe",
     "0219": "eie_loe", "0230": "eie_loe", "0645": "eie_loe", "1649": "eie_loe",
 }
 
@@ -192,6 +193,20 @@ build("estetica", "estetica.json", {
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
     # RD 1024/2024 y RD 150/2022: UC suprimidas -> vigentes
     "equivalencias": {"UC0345_1": ["UC2583_1"], "UC0356_2": ["UC0354_2"], "UC0357_2": ["UC2826_2"], "UC0359_2": ["UC2826_2"]},
+})
+
+build("peluqueria", "peluqueria.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+    # RD 544/2023 (desdobla UC0351_2), RD 1024/2024 y RD 532/2025
+    "equivalencias": {
+        "UC0351_2": ["UC2685_2", "UC2686_2"],
+        "UC0356_2": ["UC0354_2"], "UC0357_2": ["UC2826_2"], "UC0359_2": ["UC2826_2"],
+    },
+    "no_verificado_extra": [
+        "La herramienta de CATEDU convalida 0845 con ECP2685_2 o ECP2686_2 por separado; el Anexo V A las pone en la misma celda, lo que exige acreditar las dos (art. 15.3).",
+    ],
 })
 
 build("tcae", "tcae.json", {

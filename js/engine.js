@@ -167,7 +167,9 @@
         motivo: `Módulo ${m.codigo} superado en ${hit.titulo || 'otro ciclo'}`,
         fundamento: normativa.fundamentos.mismo_codigo, aportes: [hit],
         aviso: ['digitalizacion', 'sostenibilidad'].includes(m.comun)
-          ? 'RD 659/2023 art. 126.3: exige misma familia profesional y mismo grado; comprobar.' : undefined,
+          ? 'RD 659/2023 art. 126.3: exige misma familia profesional y mismo grado; comprobar.'
+          : m.comun === 'tutoria'
+            ? 'Módulo propio de Aragón: lo resuelve la Administración educativa autonómica (RD 1085/2020 art. 8.2).' : undefined,
       });
     }
 

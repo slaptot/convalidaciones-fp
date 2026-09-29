@@ -498,6 +498,159 @@
       ]
     },
     {
+      "codigo": "IMPQ0208",
+      "nombre": "Peluquería",
+      "familia": "Imagen Personal",
+      "nivel": 2,
+      "norma": {
+        "ref": "RD 716/2011, de 20 de mayo (anexo I), modificado por el RD 189/2013, de 15 de marzo (solo los apartados III «Requisitos mínimos de espacios, instalaciones y equipamientos» y IV «Prescripción de los formadores» de los anexos)",
+        "boe": "BOE-A-2011-11948",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-11948"
+      },
+      "vigente": true,
+      "cualificacion_referencia": "IMP119_2 Peluquería (RD 1087/2005, de 16 de septiembre, anexo CXIX). La CUALIFICACIÓN fue modificada parcialmente por el RD 615/2020 (UC0352_2 renombrada) y por el RD 150/2022 (MF0058_1 pasa a 90 h en la cualificación) y actualizada íntegramente por el RD 544/2023, de 27 de junio (BOE-A-2023-17384), que suprimió la UC0351_2 y la desdobló en UC2685_2 y UC2686_2 y renombró UC0347_2, UC0348_2 y UC0349_2. El CERTIFICADO no ha sido actualizado y conserva la estructura y las denominaciones de 2011.",
+      "duracion_total_horas": 710,
+      "mf": [
+        {
+          "codigo": "MF0347_2",
+          "nombre": "Análisis del cuero cabelludo y cabello, protocolos de trabajos técnicos y cuidados capilares estéticos",
+          "horas": 90,
+          "uc": "UC0347_2",
+          "uc_vigente": [],
+          "uf": []
+        },
+        {
+          "codigo": "MF0058_1",
+          "nombre": "Higiene y asepsia aplicadas a peluquería (transversal)",
+          "horas": 40,
+          "uc": "UC0058_1",
+          "uc_vigente": [],
+          "uf": []
+        },
+        {
+          "codigo": "MF0348_2",
+          "nombre": "Color en peluquería (transversal)",
+          "horas": 90,
+          "uc": "UC0348_2",
+          "uc_vigente": [],
+          "uf": []
+        },
+        {
+          "codigo": "MF0349_2",
+          "nombre": "Peinados, acabados y recogidos",
+          "horas": 120,
+          "uc": "UC0349_2",
+          "uc_vigente": [],
+          "uf": [
+            {
+              "codigo": "UF0532",
+              "nombre": "Cambios de forma temporal en el cabello",
+              "horas": 90
+            },
+            {
+              "codigo": "UF0533",
+              "nombre": "Aplicación de pelucas, postizos y extensiones",
+              "horas": 30
+            }
+          ]
+        },
+        {
+          "codigo": "MF0350_2",
+          "nombre": "Cambios de forma permanente del cabello",
+          "horas": 70,
+          "uc": "UC0350_2",
+          "uc_vigente": [],
+          "uf": []
+        },
+        {
+          "codigo": "MF0351_2",
+          "nombre": "Corte de cabello y técnicas complementarias (transversal)",
+          "horas": 120,
+          "uc": "UC0351_2",
+          "uc_vigente": [
+            "UC2685_2",
+            "UC2686_2"
+          ],
+          "uf": [
+            {
+              "codigo": "UF0534",
+              "nombre": "Corte del cabello",
+              "horas": 90
+            },
+            {
+              "codigo": "UF0535",
+              "nombre": "Cuidado de barba y bigote",
+              "horas": 30
+            }
+          ]
+        },
+        {
+          "codigo": "MF0352_2",
+          "nombre": "Asesoramiento y venta de productos y servicios para la Imagen Personal (transversal)",
+          "horas": 60,
+          "uc": "UC0352_2",
+          "uc_vigente": [],
+          "uf": []
+        },
+        {
+          "codigo": "MP0115",
+          "nombre": "Módulo de prácticas profesionales no laborales de Peluquería",
+          "horas": 120,
+          "uc": null,
+          "uc_vigente": [],
+          "uf": []
+        }
+      ]
+    },
+    {
+      "codigo": "IMPQ0108",
+      "nombre": "Servicios auxiliares de peluquería",
+      "familia": "Imagen Personal",
+      "nivel": 1,
+      "norma": {
+        "ref": "RD 1379/2009, de 28 de agosto (anexo I), modificado por el RD 1675/2010; el apartado IV del anexo I fue ANULADO por la Sentencia del TS de 9 de febrero de 2011 (BOE-A-2011-4084) y sustituido por la DF 3a.Uno del RD 716/2011, de 20 de mayo; modificado además por el RD 189/2013, de 15 de marzo (apartados III y IV)",
+        "boe": "BOE-A-2009-14961",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-14961"
+      },
+      "vigente": true,
+      "cualificacion_referencia": "IMP022_1 Servicios auxiliares de peluquería (RD 295/2004, de 20 de febrero, anexo XXII). La CUALIFICACIÓN fue actualizada íntegramente por el RD 150/2022, de 22 de febrero (BOE-A-2022-4204), que le dio nueva redacción: hoy incorpora además UC2581_1 y UC2582_1, renombra UC0059_1 y UC0060_1 y eleva el MF0058_1 de la cualificación a 90 h. El CERTIFICADO no ha sido actualizado y conserva la estructura y las denominaciones de 2009. OJO: IMP118_1 NO es esta cualificación, sino «Servicios auxiliares de estética».",
+      "duracion_total_horas": 330,
+      "mf": [
+        {
+          "codigo": "MF0058_1",
+          "nombre": "Higiene y asepsia aplicadas a peluquería (transversal)",
+          "horas": 40,
+          "uc": "UC0058_1",
+          "uc_vigente": [],
+          "uf": []
+        },
+        {
+          "codigo": "MF0059_1",
+          "nombre": "Montajes para cambios de forma e inicio del peinado",
+          "horas": 90,
+          "uc": "UC0059_1",
+          "uc_vigente": [],
+          "uf": []
+        },
+        {
+          "codigo": "MF0060_1",
+          "nombre": "Aplicación de cosméticos para los cambios de color del cabello",
+          "horas": 80,
+          "uc": "UC0060_1",
+          "uc_vigente": [],
+          "uf": []
+        },
+        {
+          "codigo": "MP0069",
+          "nombre": "Módulo de prácticas profesionales no laborales de Servicios auxiliares de peluquería",
+          "horas": 120,
+          "uc": null,
+          "uc_vigente": [],
+          "uf": []
+        }
+      ]
+    },
+    {
       "codigo": "IFCT0209",
       "nombre": "Sistemas microinformáticos",
       "familia": "Informática y Comunicaciones",
@@ -1024,7 +1177,20 @@
     "El anexo II del RD 1076/2012 escribe el código del certificado en minúsculas ('afdA0111'); el código correcto es AFDA0111.",
     "AFDA0111: el BOE dice 'Duración de la formación asociada: 750 horas'. Muchas fuentes secundarias dicen 630 h, que es la suma de los MF SIN el módulo de prácticas MP0364 (120 h). Usar 750.",
     "Modificaciones posteriores comprobadas que NO alteran horas ni estructura MF/UF: RD 1675/2010, RD 716/2011 y RD 189/2013 sobre el RD 1373/2008 (solo formadores, contenidos del MF0352_2, espacios y supresión de la formación a distancia); RD 189/2013 y RD 628/2013 sobre los RD 686/2011 y RD 1531/2011 (solo espacios y formadores); RD 189/2013 sobre el RD 1076/2012. Todos los certificados de este fichero siguen VIGENTES a 29/09/2026.",
-    "Oferta PARALELA (no sustitutiva) en Informática: el RD 207/2025, de 18 de marzo (BOE-A-2025-6797), regula los grados A, B y C de las familias Administración y Gestión, Agraria, Informática y Comunicaciones y Madera, Mueble y Corcho, y crea certificados profesionales de Grado C derivados de los TÍTULOS de FP (códigos del tipo IFC_C_001_4B, IFC_C_002_4B, IFC_C_003_4B a partir del título de Técnico en Sistemas Microinformáticos y Redes, e IFC_C_001_3B, IFC_C_002_3B, IFC_C_003_3B a partir del Título Profesional Básico). Verificado: ese RD NO contiene disposición derogatoria alguna y NO menciona IFCT0209, IFCT0309, IFCT0110 ni IFCT0210. Son ofertas paralelas que conviven con los certificados antiguos."
+    "Oferta PARALELA (no sustitutiva) en Informática: el RD 207/2025, de 18 de marzo (BOE-A-2025-6797), regula los grados A, B y C de las familias Administración y Gestión, Agraria, Informática y Comunicaciones y Madera, Mueble y Corcho, y crea certificados profesionales de Grado C derivados de los TÍTULOS de FP (códigos del tipo IFC_C_001_4B, IFC_C_002_4B, IFC_C_003_4B a partir del título de Técnico en Sistemas Microinformáticos y Redes, e IFC_C_001_3B, IFC_C_002_3B, IFC_C_003_3B a partir del Título Profesional Básico). Verificado: ese RD NO contiene disposición derogatoria alguna y NO menciona IFCT0209, IFCT0309, IFCT0110 ni IFCT0210. Son ofertas paralelas que conviven con los certificados antiguos.",
+    "PELUQUERÍA - CORRECCIÓN DE CÓDIGOS SUPUESTOS EN EL ENCARGO: IMPQ0208 «Peluquería» (nivel 2, IMP119_2) es correcto, pero NO lo establece el RD 1373/2008 sino el anexo I del RD 716/2011, de 20 de mayo (BOE-A-2011-11948), cuyo art. 2 enumera cinco certificados: anexo I IMPQ0208 Peluquería (N2); anexo II IMPE0109 Bronceado, maquillaje y depilación avanzada (N3); anexo III IMPE0209 Maquillaje integral (N3); anexo IV IMPQ0308 Tratamientos capilares estéticos (N3, IMP397_3, RD 327/2008); anexo V IMPQ0109 Peluquería técnico-artística (N3, IMP249_3, RD 790/2007). Es decir: IMPQ0109 es «Peluquería técnico-artística» (nivel 3) y NO «Servicios auxiliares de peluquería». Este último es IMPQ0108, anexo I del RD 1379/2009, de 28 de agosto (BOE-A-2009-14961), cuyo anexo II es IMPE0108 «Servicios auxiliares de estética». NO EXISTE ningún certificado «IMPQ0110»: el código IMAQ0110 (con el que suele confundirse) es «Instalación y mantenimiento de ascensores», de la familia Instalación y Mantenimiento.",
+    "PELUQUERÍA - cualificación de referencia de IMPQ0108: el BOE dice literalmente «IMP022_1 Servicios auxiliares de peluquería (R.D. 295/2004, de 20 de febrero)». La suposición del encargo (IMP118_1) es incorrecta: IMP118_1 es «Servicios auxiliares de ESTÉTICA» (RD 1087/2005), que es la cualificación de referencia de IMPE0108, no de IMPQ0108.",
+    "PELUQUERÍA - relación con el título de Técnico en Peluquería y Cosmética Capilar (RD 1588/2011, de 4 de noviembre, BOE-A-2011-19537, art. 6): cualificación COMPLETA «Peluquería IMP119_2» (UC0347_2, UC0058_1, UC0348_2, UC0349_2, UC0350_2, UC0351_2 y UC0352_2) y cualificación INCOMPLETA «Cuidados estéticos de manos y pies IMP121_2» (UC0356_2, UC0357_2 y UC0359_2). Por tanto el certificado que cubre la cualificación completa del título es IMPQ0208, y la parte de IMP121_2 la cubre el IMPP0108, ya presente en este fichero. IMPQ0108 (nivel 1) no está citado en el art. 6 del título, pero comparte con él la UC0058_1, que sí figura entre las UC del título: acreditar IMPQ0108 acredita, entre otras, la UC0058_1 y sirve para la convalidación del módulo profesional correspondiente.",
+    "PELUQUERÍA - comprobación de horas (BOE + ficha del SEPE de cada certificado, leídas el 29/09/2026): IMPQ0208 = 90+40+90+120+70+120+60 = 590 h de MF + 120 h de MP0115 = 710 h («Duración de la formación asociada: 710 horas»); UF de MF0349_2 = 90+30 = 120 h; UF de MF0351_2 = 90+30 = 120 h. IMPQ0108 = 40+90+80 = 210 h de MF + 120 h de MP0069 = 330 h. Ambas fichas del SEPE incluyen, como en el resto del fichero, una columna «H. Q» con las horas del MF de la CUALIFICACIÓN (180, 60, 150, 150, 90, 150, 60 para IMPQ0208), que NO deben usarse para convalidaciones.",
+    "PELUQUERÍA - UC renumeradas: la única UC de estos dos certificados que ha sido SUPRIMIDA es la UC0351_2 «Cortar el cabello y realizar el arreglo y rasurado de barba y bigote», desdoblada por el RD 544/2023, de 27 de junio (BOE-A-2023-17384, que da nueva redacción al anexo CXIX, IMP119_2) en UC2685_2 «Realizar técnicas de corte del cabello» y UC2686_2 «Realizar técnicas de barbería». Correspondencia (RD 544/2023 anexos X-a y X-b, reproducida por el RD 532/2025 anexos II-a y II-b): UC0351_2 -> ECP2685_2 (sin requisitos adicionales) y UC0351_2 -> ECP2686_2 (sin requisitos adicionales); en sentido inverso, ECP2685_2 solo equivale a UC0351_2 si «además, debe tener acreditado el ECP2686_2», y viceversa. Es decir, quien tenga el MF0351_2 del certificado obtiene los DOS estándares; quien tenga solo uno de los dos ECP no cubre la UC0351_2 completa. Todas las demás UC (UC0058_1, UC0059_1, UC0060_1, UC0347_2, UC0348_2, UC0349_2, UC0350_2 y UC0352_2) conservan su número y solo cambian el prefijo UC->ECP (RD 532/2025, art. 5.1), por lo que su 'uc_vigente' va vacío.",
+    "PELUQUERÍA - cambios de DENOMINACIÓN sin cambio de código (no afectan a la convalidación, que se resuelve por código, pero sí al cotejo por nombre): RD 615/2020 (BOE-A-2020-8151): UC0352_2 pasa de «Asesorar y vender productos y servicios para la Imagen Personal» a «Vender productos y servicios para la imagen personal». RD 544/2023: UC0347_2 pasa a «Realizar protocolos normalizados de trabajo, preparación del entorno profesional y cuidados estéticos capilares»; UC0348_2 a «Realizar cambios de coloración total o parcial en el cabello y pelo del rostro»; UC0349_2 a «Realizar cambios de forma temporal en el cabello, peinarlo y/o recogerlo». RD 150/2022 (BOE-A-2022-4204): UC0059_1 pasa a «Realizar montajes para cambios de forma e inicio del peinado» y UC0060_1 a «Realizar operaciones auxiliares de coloración capilar». Los certificados IMPQ0208 e IMPQ0108 siguen usando las denominaciones antiguas porque no han sido actualizados.",
+    "PELUQUERÍA - vigencia a 29/09/2026: ambos certificados SIGUEN VIGENTES. Comprobadas hoy las «Referencias posteriores» del BOE (XML de cada disposición): el RD 716/2011 solo registra el RD 189/2013 (espacios y formadores); el RD 1379/2009 registra el RD 1675/2010, el RD 716/2011 (que actualiza su anexo I), el RD 189/2013 y la Sentencia del TS de 9/02/2011. Ninguna norma los deroga ni los sustituye. Se les aplica, por tanto, la DT 1a.1 del RD 659/2023: su oferta queda integrada en el Grado C con la denominación de certificados profesionales. Contraste adicional: todofp.es (buscadorcertificados/fichaCP) sigue mostrando fichas activas de IMPQ0208 e IMPQ0108 a fecha de hoy.",
+    "PELUQUERÍA - anulación judicial que conviene conocer: la Sentencia de 9 de febrero de 2011, de la Sala Tercera del TS (BOE-A-2011-4084), declaró la NULIDAD del apartado IV «Prescripción de los formadores» del anexo I del RD 1379/2009 (es decir, del IMPQ0108). El vacío se cubrió con la DF 3a.Uno del RD 716/2011, que sustituyó íntegramente esa tabla. La anulación no afectó a la estructura MF/UF ni a las horas del certificado.",
+    "PELUQUERÍA - oferta PARALELA (no sustitutiva) bajo el RD 659/2023: el RD 209/2025, de 18 de marzo (BOE-A-2025-6699), hermano del RD 207/2025 ya citado en este fichero, regula los grados A, B y C de las familias Imagen Personal, Imagen y Sonido, Instalación y Mantenimiento y Química. Su art. 4 establece, a partir del título de Técnico en Peluquería y Cosmética Capilar (RD 1588/2011), los certificados profesionales de Grado C IMP_C_005_4B «Técnicas de corte de cabello y estilismo», IMP_C_006_4B «Cambios de forma del cabello, recogidos y coloración capilar» e IMP_C_007_4B «Análisis capilar y comercialización de cosméticos en peluquería»; y, a partir del Título Profesional Básico, el IMP_C_001_3B «Técnicas básicas de peluquería». Verificado: el RD 209/2025 NO contiene disposición derogatoria alguna y NO menciona IMPQ0208 ni IMPQ0108.",
+    "PELUQUERÍA - barrido del nuevo catálogo 2026: el único certificado profesional de la familia Imagen Personal aprobado uno a uno hasta hoy es el del RD 488/2026, de 17 de junio (BOE-A-2026-13294), «Certificado profesional en Procedimientos y técnicas de micropigmentación», que no cita ningún código IMPQ. No se ha localizado ningún «Certificado profesional en Peluquería» que sustituya al IMPQ0208 ni al IMPQ0108.",
+    "PELUQUERÍA - discrepancias menores de denominación detectadas al cotejar BOE y SEPE: (a) la UF0532 se llama «Cambios de forma temporal en el cabello» en el apartado I del anexo (y en la ficha del SEPE) pero «Cambios de forma temporal en el cabello: peinados, acabados y recogidos» en la ficha detallada del apartado III; se ha conservado la forma breve, coherente con el resto del fichero. (b) La UF0535 es «Cuidado de barba y bigote» en el BOE (apartados I y III) y «Cuidados de barba y bigote» en la ficha del SEPE; se ha conservado la del BOE. (c) El apartado III del RD 716/2011 escribe el MF0352_2 en minúsculas («asesoramiento y venta de productos y servicios para la imagen personal»). En todos los casos prevalece el código (regla R7 de normativa-general.md).",
+    "PELUQUERÍA - los módulos MF0058_1, MF0348_2, MF0351_2 y MF0352_2 están marcados como TRANSVERSALES en el anexo I del RD 716/2011, y el MF0058_1 del IMPQ0108 es el mismo módulo (40 h) que el del IMPQ0208: superar el MF0058_1 en cualquiera de los dos certificados acredita la misma UC0058_1/ECP0058_1. El MF0352_2 (60 h) es además idéntico al del IMPQ0208 y al del IMPP0208 ya recogido en este fichero.",
+    "Normas nuevas usadas en esta ampliación (leídas hoy, 29/09/2026, en texto del BOE): RD 716/2011 (BOE-A-2011-11948); RD 1379/2009 (BOE-A-2009-14961); RD 1588/2011 (BOE-A-2011-19537, título de Técnico en Peluquería y Cosmética Capilar); RD 544/2023 (BOE-A-2023-17384, actualiza IMP119_2); RD 150/2022 (BOE-A-2022-4204, actualiza IMP022_1); RD 615/2020 (BOE-A-2020-8151); RD 532/2025 (BOE-A-2025-13147, anexos I, II-a y II-b); RD 1024/2024 (BOE-A-2024-24101, verificado que NO toca IMP119_2 ni IMP022_1); RD 209/2025 (BOE-A-2025-6699); RD 488/2026 (BOE-A-2026-13294); Sentencia del TS de 9/02/2011 (BOE-A-2011-4084). Fichas del SEPE: IMPQ0208_ficha.pdf e IMPQ0108_ficha.pdf."
   ],
   "no_verificado": [
     "Certificados de profesionalidad de la familia IMP (estética) asociados a las cualificaciones IMP120_2 e IMP121_2: pendiente de verificación.",
@@ -1037,6 +1203,13 @@
     "Correspondencia concreta entre los certificados antiguos (IFCT0209, IFCT0309, IFCT0110, IFCT0210, IMPP0108, IMPP0208, IMPP0308, AFDA0111) y los nuevos códigos de Grado C del RD 207/2025 (IFC_C_xxx) u otros: NO está enunciada en ningún BOE localizado. Habría que cotejar los anexos del RD 207/2025 módulo a módulo.",
     "No se ha comprobado si existen RD hermanos del RD 207/2025 (misma fecha, 18/03/2025) para las familias Imagen Personal, Sanidad y Actividades Físicas y Deportivas.",
     "No se han leído el RD 1087/2005 (que establece IMP120_2 e IMP121_2), el RD 615/2020 ni el RD 1024/2024 completos; por tanto no se ha verificado si las cualificaciones IMP120_2 e IMP121_2 fueron modificadas en su contenido después de 2008, más allá de las renumeraciones de UC ya recogidas.",
-    "No se ha consultado la Orden EFD/206/2026 en detalle más allá de comprobar que no contiene ECP de la familia Servicios Socioculturales y a la Comunidad."
+    "No se ha consultado la Orden EFD/206/2026 en detalle más allá de comprobar que no contiene ECP de la familia Servicios Socioculturales y a la Comunidad.",
+    "IMPQ0109 «Peluquería técnico-artística» (nivel 3, IMP249_3, RD 790/2007) e IMPQ0308 «Tratamientos capilares estéticos» (nivel 3, IMP397_3, RD 327/2008), ambos del RD 716/2011: identificados y confirmados como existentes, pero NO se han volcado en este fichero (el encargo se limita a los niveles 1 y 2, y ninguno de los dos corresponde a una cualificación del título de Técnico en Peluquería y Cosmética Capilar). No se han verificado sus horas, módulos ni UC renumeradas.",
+    "No se ha leído el RD 189/2013 (BOE-A-2013-3092) en su texto completo para IMPQ0208/IMPQ0108: se ha aceptado, por coherencia con el resto del fichero y con el propio título de la disposición registrado en el BOE, que solo modifica los apartados III y IV de los anexos y no las horas ni la estructura MF/UF.",
+    "No se ha leído el RD 1675/2010 para comprobar su efecto exacto sobre el RD 1379/2009 (según el análisis del BOE modifica el art. 4, la DT 3a y los apartados 3 y 4 del anexo y suprime el art. 5; se asume que no altera la estructura MF/UF ni las horas del anexo I).",
+    "No se ha leído el texto de la Sentencia del TS de 9/02/2011 (BOE-A-2011-4084) más allá de su título y de la referencia del BOE, que acota la nulidad al apartado IV del anexo I del RD 1379/2009.",
+    "No se han cotejado los anexos I, II y III del RD 209/2025 módulo a módulo para establecer la correspondencia concreta entre IMPQ0208/IMPQ0108 y los nuevos certificados profesionales de Grado C IMP_C_005_4B, IMP_C_006_4B, IMP_C_007_4B e IMP_C_001_3B: esa correspondencia no está enunciada en ningún BOE localizado.",
+    "No se ha comprobado si las Órdenes EFD/206/2026 y EFD/374/2026 ni el RD 636/2026 (que actualizan el anexo I del RD 532/2025) afectan a los ECP de peluquería (ECP0058_1, ECP0059_1, ECP0060_1, ECP0347_2 a ECP0352_2, ECP2685_2, ECP2686_2). Solo se comprobó en la consulta anterior que no afectaban a los ECP de la familia Servicios Socioculturales y a la Comunidad.",
+    "No se ha hecho un barrido día a día del BOE de 2025-2026: podrían existir certificados profesionales nuevos de la familia Imagen Personal no detectados. Sí se han comprobado hoy las «Referencias posteriores» del BOE de los RD 716/2011 y 1379/2009, que no registran ninguna derogación ni sustitución."
   ]
 }

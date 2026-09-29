@@ -209,3 +209,22 @@ for (const c of ['smr', 'estetica']) {
 assert.equal(est('smr', [{ tipo: 'modulo_loe', codigo: '0218', nombre: 'Formación y orientación laboral', docs: [] }], 'loe')['0229'], 'convalidable');
 assert.equal(est('estetica', [{ tipo: 'experiencia', meses: 12, relacionada: true, docs: [] }], 'loe')['0646'], 'exento');
 console.log('OK: plan LOE a extinguir');
+
+// ---- Peluquería y Cosmética Capilar ----
+require('../data/ciclos/peluqueria.js');
+// UC0351_2 la desdobló el RD 544/2023: hacen falta las dos vigentes
+r = est('peluqueria', [{ tipo: 'mf', codigo: 'MF0351_2', docs: ['cert_profesionalidad'] }]);
+assert.ok(Object.values(r).some((x) => x === 'convalidable'), 'MF0351_2 acredita UC2685_2 + UC2686_2');
+// Certificado IMPQ0208 completo
+r = est('peluqueria', ['MF0347_2', 'MF0058_1', 'MF0348_2', 'MF0349_2', 'MF0350_2', 'MF0351_2', 'MF0352_2']
+  .map((c) => ({ tipo: 'mf', codigo: c, docs: ['cert_profesionalidad'] })));
+assert.ok(Object.values(r).filter((x) => x === 'convalidable').length >= 4);
+// Módulos compartidos con Estética y Belleza: traslado de nota
+r = est('peluqueria', ['0636', '0640', '0643'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'Técnico en Estética y Belleza', docs: [] })));
+for (const m of ['0636', '0640', '0643']) assert.equal(r[m], 'superado', m);
+// Los tres planes existen y el LOE trae FOL, EIE y FCT
+for (const amb of ['aragon', 'mefp', 'loe']) assert.ok(Object.keys(est('peluqueria', [], amb)).length > 10, amb);
+r = est('peluqueria', [], 'loe');
+assert.ok('0851' in r && '0852' in r && '0853' in r);
+assert.equal(est('peluqueria', [{ tipo: 'experiencia', meses: 12, relacionada: true, docs: [] }], 'loe')['0853'], 'exento');
+console.log('OK: Peluquería y Cosmética Capilar');
