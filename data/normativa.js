@@ -135,7 +135,7 @@
         calificacion: 'ipe', fundamento: 'RD 659/2023 arts. 126.5 y 127.b.5º; RD 1085/2020 DA 6ª',
         evaluar(ctx) {
           const fol = ctx.loe.filter((a) => RE.fol.test(a.nombre || ''));
-          if (fol.length) return { motivo: 'FOL (LOE) superado → IPE I', aportes: fol };
+          if (fol.length) return { motivo: 'FOL (LOE) superado en otro ciclo', aportes: fol };
         },
       },
       {
@@ -147,7 +147,7 @@
           if (!fol.length) return;
           const prl = certs(ctx, 'prl_basico');
           return {
-            motivo: 'FOL (LOGSE) + certificado de PRL nivel básico → IPE I',
+            motivo: 'FOL (LOGSE) + certificado de PRL nivel básico',
             aportes: [...fol, ...prl],
             faltan_extra: prl.length ? [] : ['prl_basico'],
           };
@@ -158,7 +158,7 @@
         calificacion: 'tabla', fundamento: 'RD 1085/2020 DA 2ª, Anexo II y DA 6ª',
         evaluar(ctx) {
           const c = certs(ctx, 'ciclo_prl_logse');
-          if (c.length) return { motivo: 'Título TS Prevención de Riesgos Profesionales (LOGSE) → IPE I', aportes: c };
+          if (c.length) return { motivo: 'Título de TS en Prevención de Riesgos Profesionales (LOGSE)', aportes: c };
         },
       },
       {
@@ -166,7 +166,7 @@
         calificacion: 'ipe', fundamento: 'RD 659/2023 arts. 126.5 y 127.b.5º; RD 1085/2020 DA 6ª',
         evaluar(ctx) {
           const eie = ctx.loe.filter((a) => RE.eie.test(a.nombre || ''));
-          if (eie.length) return { motivo: `${eie.map((a) => a.nombre || a.codigo).join(', ')} (LOE) → IPE II`, aportes: eie };
+          if (eie.length) return { motivo: `${eie.map((a) => a.nombre || a.codigo).join(', ')} (LOE) superado en otro ciclo`, aportes: eie };
         },
       },
       {
@@ -175,7 +175,7 @@
         evaluar(ctx) {
           const m = logse(ctx, 'Administración, gestión y comercialización en la pequeña empresa',
             'Administración y gestión de un pequeño establecimiento comercial');
-          if (m.length) return { motivo: `${m[0].modulo} (LOGSE) → IPE II`, aportes: m };
+          if (m.length) return { motivo: `${m[0].modulo} (LOGSE)`, aportes: m };
         },
       },
       {
@@ -183,7 +183,7 @@
         calificacion: 'tabla', fundamento: 'RD 1085/2020 Anexo III (redacción RD 500/2024) y DA 6ª',
         evaluar(ctx) {
           const c = certs(ctx, 'ciclo_comercio_admin');
-          if (c.length) return { motivo: 'Ciclo completo de Comercio y Marketing o Administración → IPE II', aportes: c };
+          if (c.length) return { motivo: 'Ciclo completo de Comercio y Marketing o Administración', aportes: c };
         },
       },
       {
