@@ -69,9 +69,12 @@
     $('#familia').value = state.familia || '';
 
     const lista = ciclosFiltrados();
-    $('#ciclo').innerHTML = lista
-      .map(([id, c]) => `<option value="${id}">${h(c.ciclo.nombre.replace(/\s*\(LOGSE\)$/, ''))} · ${h(codigoCiclo(c))}${c.ciclo.plan === 'LOGSE' ? ' (LOGSE)' : ''}</option>`)
-      .join('');
+    const opcion = ([id, c]) => `<option value="${id}">${h(c.ciclo.nombre.replace(/\s*\(LOGSE\)$/, ''))} · ${h(codigoCiclo(c))}${c.ciclo.plan === 'LOGSE' ? ' (LOGSE)' : ''}</option>`;
+    const completos = lista.filter(([, c]) => !c.ciclo.parcial);
+    const catalogo = lista.filter(([, c]) => c.ciclo.parcial);
+    $('#ciclo').innerHTML =
+      (completos.length ? `<optgroup label="Con normativa cargada">${completos.map(opcion).join('')}</optgroup>` : '')
+      + (catalogo.length ? `<optgroup label="Catálogo de Aragón (solo reglas generales)">${catalogo.map(opcion).join('')}</optgroup>` : '');
     if (!lista.some(([id]) => id === state.ciclo) && lista.length) state.ciclo = lista[0][0];
     $('#ciclo').value = state.ciclo;
 

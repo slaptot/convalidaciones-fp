@@ -264,6 +264,9 @@
     }
 
     const avisosGlobales = [
+      ...(ciclo.ciclo.parcial
+        ? ['Ciclo del catálogo de Aragón: solo se aplican las reglas generales (módulos con el mismo código, FOL, EIE, inglés, exención). Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.']
+        : []),
       ...(modulos.length <= 1 ? ['No hay datos de este plan de estudios para el ciclo seleccionado.'] : []),
       ...titulos.avisos,
       ...derivado.avisos,

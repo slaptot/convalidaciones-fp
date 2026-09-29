@@ -12,6 +12,8 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Peluquería y Cosmética Capilar | IMP203 | Medio | LO 3/2022 |
 | Termalismo y Bienestar | IMP304 | Superior | LO 3/2022 |
 
+Además, el **catálogo completo de Aragón** (151 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas, marcado como "solo reglas generales": funcionan los módulos con el mismo código, FOL, EIE, inglés y la exención, pero falta el anexo de convalidaciones de cada título y su correspondencia con estándares de competencia.
+
 Cada ciclo se puede analizar con tres planes: LO 3/2022 en Aragón, LO 3/2022 del Ministerio y LOE a extinguir (con FOL, EIE y FCT). Los cuatro ciclos LOE tienen datos del plan antiguo; TCAE es LOGSE y no lo tuvo.
 
 ## Uso

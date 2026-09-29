@@ -216,3 +216,86 @@ build("tcae", "tcae.json", {
 })
 
 build_certificados()
+
+
+# Palabras clave para clasificar los módulos del catálogo (no traen tipo)
+PATRONES = [
+    (r"formaci[oó]n y orientaci[oó]n laboral", "comun", "fol_loe"),
+    (r"empresa e iniciativa emprendedora", "comun", "eie_loe"),
+    (r"formaci[oó]n en centros? de trabajo", "empresa", "empresa"),
+    (r"formaci[oó]n en empresa", "empresa", "empresa"),
+    (r"itinerario personal para la empleabilidad i\b|itinerario personal para la empleabilidad$", "comun", "ipe1"),
+    (r"itinerario personal para la empleabilidad ii", "comun", "ipe2"),
+    (r"digitalizaci[oó]n aplicada", "comun", "digitalizacion"),
+    (r"sostenibilidad aplicada", "comun", "sostenibilidad"),
+    (r"ingl[eé]s profesional ii", "comun", "ingles2"),
+    (r"ingl[eé]s", "comun", "ingles"),
+    (r"proyecto", "proyecto", "proyecto"),
+    (r"tutor[ií]a", "comun", "tutoria"),
+    (r"optativo", "optativo", "optativo"),
+    (r"primeros auxilios", "especifico", "primeros_auxilios"),
+]
+
+
+def clasificar(codigo, nombre):
+    """Devuelve (tipo, clave común) de un módulo del catálogo."""
+    if codigo in COMUNES:
+        clave = COMUNES[codigo]
+        tipo = {"fol_loe": "comun", "eie_loe": "comun"}.get(clave, "comun")
+        return tipo, clave
+    n = nombre.lower()
+    for patron, tipo, clave in PATRONES:
+        if re.search(patron, n):
+            return tipo, clave
+    return "especifico", "especifico"
+
+
+def build_catalogo(ya_cargados):
+    """data/catalogo.js: los ciclos de Aragón sin reglas propias todavía.
+
+    Llevan los módulos y sus horas, así que las reglas generales (módulo con el
+    mismo código, FOL, EIE, inglés, exención...) ya funcionan con ellos.
+    """
+    d = json.loads((ROOT / "research" / "catalogo-aragon.json").read_text())
+    familias = {f["codigo"]: f["nombre"] for f in d["familias"]}
+    fuera = {c.upper() for c in ya_cargados}
+    ciclos = {}
+    for c in d["ciclos"]:
+        if c["codigo"].upper() in fuera:
+            continue
+        mods = []
+        for m in c["modulos"]:
+            tipo, comun = clasificar(m["codigo"], m["nombre"])
+            mods.append({
+                "codigo": m["codigo"], "nombre": m["nombre"], "tipo": tipo, "comun": comun,
+                "horas": {"aragon": m.get("horas"), "mefp": None, "loe": None},
+                "curso": {"aragon": m.get("curso"), "mefp": None, "loe": None},
+            })
+        # Los módulos LOE llevan código numérico de cuatro cifras; si no, es un plan LOGSE
+        plan = "LOE" if any(re.fullmatch(r"\d{4}", m["codigo"]) for m in mods) else "LOGSE"
+        ciclos[c["codigo"]] = {
+            "ciclo": {
+                "codigo": c["codigo"], "nombre": c["nombre"], "grado": c["grado"],
+                "familia": familias.get(c["familia"], c["familia"]), "plan": plan,
+                "parcial": True,
+                "normas": [{"ref": "Catálogo de CATEDU (Gobierno de Aragón)",
+                            "url": "https://centrosdocentes.catedu.es/awc/",
+                            "nota": "Módulos y horas del currículo de Aragón. Faltan las tablas de convalidación del título y las correspondencias con estándares de competencia."}],
+            },
+            "modulos": mods,
+            "convalidaciones_titulos_anteriores": [], "convalidaciones_loe": [],
+            "uc_a_modulos": [], "uc_descripciones": {}, "uc_equivalencias": {},
+            "notas": [], "no_verificado": [
+                "Ciclo del catálogo: solo se aplican las reglas generales. Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.",
+                "Denominación y horas según la herramienta de CATEDU; conviene contrastarlas con el RD del título y con el currículo publicado en el BOA.",
+            ],
+        }
+    js = "// Generado por tools/build_data.py a partir de research/catalogo-aragon.json. No editar a mano.\n"
+    js += "window.CICLOS = window.CICLOS || {};\n"
+    js += "Object.assign(window.CICLOS, %s);\n" % json.dumps(ciclos, ensure_ascii=False, separators=(",", ":"))
+    (ROOT / "data" / "catalogo.js").write_text(js)
+    print(f"catálogo: {len(ciclos)} ciclos pendientes de normativa, "
+          f"{sum(len(c['modulos']) for c in ciclos.values())} módulos")
+
+
+build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203"])
