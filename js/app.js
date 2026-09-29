@@ -288,6 +288,7 @@
 
     pintarInforme(c, amb, filas, avisos, n);
     pintarResolucion(c, amb, filas);
+    pintarExencion(c, amb, filas);
   }
 
   // ---------- Resolución de la dirección del centro ----------
@@ -469,6 +470,59 @@
     pintarResultados();
   }
 
+  // ---------- Resolución de exención de la formación en empresa ----------
+  function pintarExencion(c, amb, filas) {
+    const fila = filas.find((f) => f.modulo.tipo === 'empresa');
+    const mejor = fila && fila.mejor;
+    const exp = state.aportaciones.filter((a) => a.tipo === 'experiencia');
+    const meses = exp.filter((a) => a.relacionada).reduce((s, a) => s + (a.meses || 0), 0);
+    const total = mejor && mejor.estado === 'exento';
+    const nombreMod = fila
+      ? `${fila.modulo.codigo === 'FE' ? '' : `${fila.modulo.codigo} `}${fila.modulo.nombre}`
+      : 'periodo de formación en empresa u organismo equiparado';
+    const docs = [...new Set(exp.flatMap((a) => a.docs))];
+
+    $('#exencion').innerHTML = `
+      <div class="res-membrete">${h(state.centro || '')}${state.membrete ? `<br>${h(state.membrete).replace(/\n/g, '<br>')}` : ''}</div>
+
+      <h1 class="res-titulo">Resolución de la dirección del centro sobre exención del periodo de formación en empresa u organismo equiparado</h1>
+
+      <p class="res-p">Vista la solicitud presentada por el/la alumno/a y la documentación acreditativa de la experiencia
+      laboral aportada.</p>
+      <p class="res-p">De conformidad con la Ley Orgánica 3/2022, de 31 de marzo (artículo 39.2.b); el Real Decreto 659/2023,
+      de 18 de julio (artículos 131 y 161.1); y el Decreto 91/2024, de 5 de junio, del Gobierno de Aragón (artículos 49 a 51):</p>
+      <p class="res-p"><b>SE RESUELVE:</b> Con fecha ${h(fechaCorta(state.fecha_res))}, conceder la
+      <b>exención ${total ? 'total' : 'parcial'}</b> del ${h(nombreMod)} al/a la alumno/a
+      <b>${h(state.alumno || '____________________')}</b> con DNI: <b>${h(state.dni || '____________')}</b>,
+      matriculado/a en el ciclo formativo de ${h(c.ciclo.nombre)}${state.curso ? `, curso ${h(state.curso)}` : ''},
+      por corresponderse la experiencia laboral acreditada con la formación del ciclo.</p>
+
+      <table class="res-tabla">
+        <colgroup><col style="width:34%"><col style="width:66%"></colgroup>
+        <tbody>
+          <tr><th>Experiencia laboral acreditada</th><td>${meses ? `${meses} meses a tiempo completo o equivalente` : '____________________'}</td></tr>
+          <tr><th>Alcance de la exención</th><td>${total ? 'Total' : 'Parcial (indíquense los resultados de aprendizaje eximidos)'}</td></tr>
+          <tr><th>Documentación aportada</th><td>${docs.length ? docs.map((d) => h(doc(d))).join('; ') : '____________________'}</td></tr>
+        </tbody>
+      </table>
+
+      <p class="res-p">La exención se hará constar en los documentos de evaluación y no afectará a la calificación de los
+      módulos profesionales cuyos resultados de aprendizaje se desarrollen entre el centro y la empresa
+      (artículo 131.6 del Real Decreto 659/2023 y artículo 51.3 del Decreto 91/2024).</p>
+
+      <p class="res-p res-recursos"><b>MODO DE IMPUGNACIÓN / RECURSOS:</b> Contra la presente resolución, que no agota la
+      vía administrativa, se podrá interponer Recurso de Alzada ante la persona titular de la Dirección General competente
+      en materia de Formación Profesional en el plazo de un mes a contar desde el día siguiente a su notificación, de
+      conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, y el artículo 53 del Decreto 91/2024.</p>
+
+      <p class="res-lugar">En ${h(state.localidad || '____________________')}, a ${h(fechaLarga(state.fecha_res))}</p>
+      <div class="res-firma">
+        <p>LA/EL DIRECTORA/DIRECTOR DEL CENTRO</p>
+        <div class="res-linea"></div>
+        <p>Fdo.: ${h(state.director || '____________________')}</p>
+      </div>`;
+  }
+
   // ---------- Eventos ----------
   function init() {
     pintarCabecera();
@@ -540,6 +594,7 @@
     };
     $('#btn-imprimir').addEventListener('click', () => imprimir('doc-anexo'));
     $('#btn-resolucion').addEventListener('click', () => imprimir('doc-resolucion'));
+    $('#btn-exencion').addEventListener('click', () => imprimir('doc-exencion'));
   }
 
   document.addEventListener('DOMContentLoaded', init);
