@@ -1,0 +1,1012 @@
+// Generado por tools/build_data.py a partir de research/ssc301.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["ssc301"] = {
+ "ciclo": {
+  "codigo": "SSC301",
+  "nombre": "Técnico Superior en Animación Sociocultural y Turística",
+  "grado": "superior",
+  "familia": "Servicios Socioculturales y a la Comunidad",
+  "normas": [
+   {
+    "ref": "RD 1684/2011, de 18 de noviembre",
+    "boe": "BOE-A-2011-20272",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-20272",
+    "nota": "Título y enseñanzas mínimas (BOE núm. 311, de 27/12/2011, págs. 142168-142251; en vigor 28/12/2011). Sustituye los títulos LOGSE de Técnico Superior en Animación Sociocultural (RD 2058/1995) y en Animación Turística (RD 274/2000) y deroga ambos y sus currículos (RD 1264/1997 y RD 278/2003). ATENCIÓN: el BOE NO publica texto consolidado de este RD (act.php redirige a doc.php); hay que leer el original y aplicarle a mano el RD 1085/2020 (deroga el anexo IV) y el RD 500/2024 (modifica los arts. 2, 6, 10, 12 y 15 y los anexos I y III y SUSTITUYE los anexos V A) y V B)). No consta corrección de errores de este RD en su ficha del BOE."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Deroga el anexo IV del RD 1684/2011. Las convalidaciones LOGSE→LOGSE están en su anexo I, las LOGSE→LOE en su anexo II (bloque «Servicios Socioculturales y a la Comunidad», GRADO SUPERIOR, y bloque «Hostelería y Turismo» para Animación Turística), las LOE→LOE en su anexo III y las de módulos de títulos publicados desde el 5/03/2017 en su anexo IV (tabla «Cualquier ciclo formativo»: 1124 ↔ 0017, 1124 → 1328). Consolidado a 07/04/2026. Modificado por el RD 393/2022 (anexo III, EIE), el RD 659/2023 (art. 3 y anexos II y III), el RD 500/2024 (anexo III, DA 1.ª y nueva DA 6.ª) y el RD 262/2026 (art. 3.7 bis). DA 5.ª: las convalidaciones de los anexos I a IV y las de los anexos de los RD de títulos posteriores al 5/03/2017 se aplican a los módulos de cualquier ciclo, con independencia del título."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709/1710 (anexo V, 50 h cada uno), 1665 Digitalización GS (anexo VII, 30 h), 1708 Sostenibilidad (anexo VIII, 30 h) y 0179 Inglés profesional GS (anexo X, 50 h). Arts. 126-128 (convalidaciones) y 131 (exención de la formación en empresa). Art. 96.1: bloques del ciclo."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de los títulos de GRADO SUPERIOR a la LO 3/2022. Animación Sociocultural y Turística es el número 6.º de la letra b) del artículo primero.Dos (ciclos CON el antiguo módulo 0179 Inglés): SUPRIME 1133 FOL, 1134 EIE y 1135 FCT (art. cuarto.Dos.c).1.º y art. séptimo.Dos.a); 0179 «Inglés» pasa a «Inglés Profesional (GS)» con el currículo básico del anexo X del RD 659/2023 (50 h) y AÑADE 1709, 1710, 1665, 1708 y un módulo optativo de 80 h; «Proyecto» pasa a «Proyecto intermodular» (código 1132). Art. segundo: nivel 5A del MECU. Art. tercero.Diecinueve: nueva redacción del art. 6 (cualificaciones) y SUSTITUCIÓN de los anexos V A) y V B). Art. sexto.Uno: nueva redacción del art. 15 (convalidaciones y exenciones); a diferencia de los ciclos de Sanidad, este ciclo NO está excluido de la exención del periodo de formación en empresa (art. 15.8). Art. octavo.Setenta y cinco: nuevo anexo III (profesorado) = anexo LXXVI del RD 500/2024. DA 1.ª y anexo I: minoración horaria solo para CCAA con lengua cooficial (no afecta a Aragón). DA 2.ª y anexo XCI: nuevos créditos ECTS (1124=8, 0344=8, 1128=8, 1123=10, 1131=8, 0020=3, 1129=8, 1130=8, 1126=11, 1125=17). DT única: en 2024-25 se implanta 1.º curso. La corrección de errores BOE-A-2025-10205 (23/05/2025) solo afecta a las tablas del RD 881/2011 (Estética Integral y Bienestar)."
+   },
+   {
+    "ref": "RD 2058/1995, de 22 de diciembre",
+    "boe": "BOE-A-1996-3833",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-3833",
+    "nota": "Título LOGSE anterior de Técnico Superior en Animación Sociocultural. DEROGADO por el RD 1684/2011. Es el título de origen (o de destino histórico) que aparece en los anexos I y II del RD 1085/2020. Módulos: Organización y gestión de una pequeña empresa de actividades de tiempo libre y socioeducativas; Desarrollo comunitario; Animación cultural; Animación de ocio y tiempo libre; Animación y dinámica de grupos; Metodología de la intervención social; FCT; FOL. Tiene los mismos efectos profesionales y académicos que el título actual (DA 3.ª.2 del RD 1684/2011)."
+   },
+   {
+    "ref": "RD 274/2000, de 25 de febrero",
+    "boe": "BOE-A-2000-4822",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2000-4822",
+    "nota": "Título LOGSE anterior de Técnico Superior en Animación Turística (familia Hostelería y Turismo). DEROGADO por el RD 1684/2011. Sus módulos incluyen, entre otros, «Técnicas de comunicación para animación», «Actividades y recursos culturales» y «Animación en el ámbito turístico» (comprobado en el texto del RD). Tiene los mismos efectos profesionales y académicos que el título actual (DA 3.ª.2 del RD 1684/2011)."
+   },
+   {
+    "ref": "Orden ECD/82/2013, de 23 de enero",
+    "boe": "BOE-A-2013-964",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-964",
+    "nota": "Currículo LOE (plan anterior) del ámbito de gestión del MEC. Su anexo II fija: 1.º curso 1123 130 h, 1124 105, 1125 210, 0344 110, 1128 105, 1131 120, 1133 FOL 90 y 90 h de «horario reservado para el módulo impartido en inglés» = 960 h; 2.º curso (2 trimestres) 0020 40, 0179 130, 1126 135, 1129 100, 1130 95, 1134 EIE 60 y 40 h de horario reservado para inglés, más 1135 FCT 400 h y 1132 Proyecto 40 h en el tercer trimestre. Total 2000 h. DEROGADA por la Orden EFD/659/2024 (disp. derogatoria única, letra u).1.º)."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito de gestión del MEFPD (BOE núm. 158, de 1/07/2024). Este ciclo está en su ANEXO LXXVIII (art. 6.3.br), con apartados A (distribución horaria) y B (espacios); no hay apartado C. 1.º curso: 1124 130 h, 1128 100, 0344 130, 1123 170, 1131 100, 1125 170, 1709 100, 1708 35 y 0179 70 (30 sesiones semanales; 1005 h); 2.º curso: 0020 60, 1129 190, 1130 190, 1126 230, 1710 100, 1665 35, optativa 80, 1712 Inglés Profesional II (GS) 60 y 1132 Proyecto Intermodular 50 (30 sesiones; 995 h). Total 2000 h. Módulos bilingües: 0344, 1123, 1125, 1129, 1130 y 1126. Art. 8.3.b): al tener también 1712 (60 h), la oferta bilingüe en inglés no incrementa el horario semanal. Art. 13: la formación en empresa va incluida en las 2000 h (500 h en dual general, 700 h en dual intensivo)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra las unidades de competencia como estándares de competencia profesional (ECP). Anexo I: todas las UC de este título pasan a ECP con el MISMO número (ECP1020_3 … ECP1876_3, incluidas ECP1867_2 y ECP1868_2 de nivel 2). Cambian de denominación UC1020_3, UC1023_3, UC1874_3 y UC1875_3 (véanse las notas). Ninguna UC de este título figura en los anexos II-a/II-b de equivalencias por supresión (comprobado)."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+    "nota": "Currículo vigente de Aragón para grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004; corrección de errores de 26/02/2025 que solo afecta a los anexos XXXVI, XL, XXIV y LXXI). Este ciclo está en su ANEXO LXV (art. 5.3.bk), código de ciclo SSC301: 1.º curso 0020 (33 h, 1 sesión), 1123 (233, 7), 1124 (133, 4), 0344 (133, 4), 1128 (133, 4), 1131 (133, 4), 1709 (100, 3), 1665 (33, 1) y 0179 (67, 2) = 998 h; 2.º curso 1125 (200, 6), 1126 (200, 6), 1129 (167, 5), 1130 (167, 5), 1132 (67, 2), 1710 (67, 2), 1708 (33, 1) y módulo optativo (100, 3) = 1001 h. 30 sesiones semanales en cada curso. La suma de las filas da 1999 h y la fila de totales del BOA dice 2000 h (redondeo). Solo horario diurno; no hay módulos propios de tutoría. Art. 12: el optativo es anual y va en 2.º. Art. 13: convalidación de los optativos (con los códigos AOP1004 y AOP1002 tras el Decreto 107/2025). DT 2.ª.3: tabla de equivalencias 1709 ≡ FOL, 1710 ≡ EIE y 0179 Inglés profesional (GS) ≡ 0179 Inglés del plan a extinguir. Deroga la Orden de 26 de noviembre de 2013 (disp. derogatoria única, letra s).1.º)."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025 (csv BOA20250918002). Modifica el Decreto 91/2024 y las Órdenes ECD/842/2024 y ECD/843/2024. En la ECD/843/2024 (art. tercero) NO toca el anexo LXV de este ciclo, pero RENOMBRA los módulos optativos comunes: A170 pasa a AOP1004 «Comunicación profesional en Inglés (GS)», A171 pasa a AOP1002 «Segunda lengua profesional Francés» y A172 pasa a AOP1003 «Ofimática avanzada aplicada al sector profesional», y reescribe el art. 13 (convalidación de optativos: B2 de inglés → AOP1004, B1 de francés → AOP1002; un optativo superado en un CFGS puede convalidarse en cualquier otro CFGS). También modifica el anexo VIII del Decreto 91/2024 (módulos idénticos, IPE I/II aportando FOL/EIE, convalidación por acreditación de unidades de competencia de cualquier procedencia). Existe una corrección de errores de este Decreto (BOA 19/01/2026) que no se ha leído."
+   },
+   {
+    "ref": "Decreto 91/2024, de 5 de junio, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.todofp.es/dam/jcr:cda9c643-4e37-4726-b6e8-dc2b2c890e07/aragon-brscgi-ordenaci-n.pdf",
+    "nota": "Ordenación de la FP del Grado D y del Grado E en Aragón (BOA núm. 109, de 06/06/2024), modificado por el Decreto 107/2025. Art. 48: las convalidaciones se rigen por el RD 659/2023, los RD de cada título y el RD 1085/2020. Art. 49.1: la exención del periodo de formación en empresa se rige por los arts. 131 y 161 del RD 659/2023 y solo vale la experiencia laboral de los cinco años anteriores a la solicitud. Art. 49.2: quedan exceptuados de la exención solo los ciclos de grado superior de Sanidad de los RD 1685/2007, 1687/2011, 905/2013, 767/2014, 768/2014, 769/2014, 770/2014, 771/2014 y 772/2014: SSC301 NO está entre ellos, luego la exención es posible. Art. 9.3: el currículo incorpora un módulo optativo anual en 2.º curso."
+   },
+   {
+    "ref": "Orden de 26 de noviembre de 2013, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.todofp.es/dam/jcr:470859d9-4fac-40f8-a85c-952da0e82607/araanimacion-sociocultural-y-turistica-pdf.pdf",
+    "nota": "Currículo LOE (plan anterior) de este ciclo en Aragón; BOA núm. 248, de 19/12/2013 (csv BOA20131219002). Anexo I: 0020 42 h, 0179 Inglés 128, 1123 160, 1124 126, 1125 192, 1126 147, 0344 128, 1128 160, 1129 126, 1130 126, 1131 96, 1132 Proyecto 40, 1133 FOL 96, 1134 EIE 63, 1135 FCT 370 = 2000 h (a diferencia de otros ciclos, NO tiene módulos propios de Aragón A109/A110 de inglés). Anexos II (espacios), III A/B/C (profesorado), IV (convalidaciones LOGSE, idéntico al anexo IV del RD 1684/2011) y V A)/V B) (UC). DEROGADA por la Orden ECD/843/2024."
+   },
+   {
+    "ref": "RD 653/2017, de 23 de junio (TS Enseñanza y Animación Sociodeportiva)",
+    "boe": "BOE-A-2017-8301",
+    "url": "https://www.boe.es/eli/es/rd/2017/06/23/653",
+    "nota": "Título posterior al 5/03/2017 con módulos 1123 y 1124 idénticos a los de este ciclo (mismo código, denominación, resultados de aprendizaje, contenidos y duración: 80 h y 65 h). Su anexo IV b) (aplicable a cualquier ciclo por la DA 5.ª del RD 1085/2020) recoge como formación aportada el módulo 1136 Valoración de la condición física e intervención en accidentes para convalidar 0020 Primeros auxilios en el ciclo «Animación Sociocultural y Turística», y 1124 → 0017, 0211 y 1328. En Aragón es el ciclo AFD301."
+   },
+   {
+    "ref": "RD 651/2017, de 23 de junio (TS Acondicionamiento físico) y RD 652/2017, de 23 de junio (Técnico en Actividades ecuestres)",
+    "boe": "BOE-A-2017-7981; BOE-A-2017-7982",
+    "url": "https://www.boe.es/eli/es/rd/2017/06/23/651",
+    "nota": "Títulos posteriores al 5/03/2017 cuyo anexo IV cita expresamente este ciclo: RD 651/2017 anexo IV b) (1124 de TS Enseñanza y Animación Sociodeportiva y de TS Animación Sociocultural y Turística → 0017 en Acondicionamiento Físico) y c) (1136 → 0020 en, entre otros, TS Animación Sociocultural y Turística); RD 652/2017 anexo IV b) (1124 de ambos ciclos → 1328 Atención a grupos en Actividades Ecuestres). Segundo enlace: https://www.boe.es/eli/es/rd/2017/06/23/652"
+   },
+   {
+    "ref": "RD 699/2019, de 29 de noviembre (TS Termalismo y bienestar)",
+    "boe": "BOE-A-2020-341",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-341",
+    "nota": "Título con módulos 1123 y 1124 idénticos a los de este ciclo (80 h y 65 h de currículo básico; mismos resultados de aprendizaje y criterios, salvo retoques de redacción; ECTS 10 y 8 tras el RD 500/2024). En Aragón es IMP304 (1123 en 1.º y 1124 en 2.º curso, frente a 1.º y 1.º en SSC301). Ver research/termalismo.json: su anexo IV solo recoge 0017 ↔ 1124 (a y c), no la identidad de 1123/1124, que se apoya en el art. 3.2 del RD 1085/2020 y el art. 126 del RD 659/2023."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "0020",
+   "nombre": "Primeros auxilios",
+   "tipo": "especifico",
+   "comun": "primeros_auxilios",
+   "horas": {
+    "aragon": 33,
+    "mefp": 60,
+    "loe": 42
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1123",
+   "nombre": "Actividades de ocio y tiempo libre",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": 170,
+    "loe": 160
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1124",
+   "nombre": "Dinamización grupal",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 130,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1125",
+   "nombre": "Animación y gestión cultural",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 170,
+    "loe": 192
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1126",
+   "nombre": "Animación turística",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 230,
+    "loe": 147
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0344",
+   "nombre": "Metodología de la intervención social",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 130,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1128",
+   "nombre": "Desarrollo comunitario",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 100,
+    "loe": 160
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1129",
+   "nombre": "Información juvenil",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 190,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1130",
+   "nombre": "Intervención socioeducativa con jóvenes",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 190,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1131",
+   "nombre": "Contexto de la animación sociocultural",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 100,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1132",
+   "nombre": "Proyecto intermodular de animación sociocultural y turística",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": 40
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": "Denominación en el plan LOE: «Proyecto de animación sociocultural y turística». La API de centros docentes de Aragón lo devuelve como «Proyecto Intermodular de animación sociocultural y turística» (con «I» mayúscula); la Orden EFD/659/2024 lo llama «Proyecto Intermodular»."
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "En el plan LOE se llamaba «Inglés» (128 h en Aragón, Orden de 26/11/2013)."
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": "Sin código estatal. En Aragón: módulo anual de 100 h en 2.º curso (Orden ECD/843/2024, art. 12); lista abierta: AOP1004 Comunicación profesional en Inglés (GS) (antes A170), AOP1002 Segunda lengua profesional Francés (antes A171), AOP1003 Ofimática avanzada aplicada al sector profesional (antes A172; Decreto 107/2025) o módulos de diseño propio del centro. En el MEFP: 80 h en 2.º curso, repertorio de la Resolución de 27/06/2025 (BOE-A-2025-14430)."
+  },
+  {
+   "codigo": "1712",
+   "nombre": "Inglés Profesional II (GS)",
+   "tipo": "comun",
+   "comun": "ingles2",
+   "horas": {
+    "aragon": null,
+    "mefp": 60,
+    "loe": null
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": "Módulo del plan del MEFP (60 h, 2.º curso, 2 sesiones). No existe en Aragón ni en el RD 1684/2011."
+  },
+  {
+   "codigo": "1133",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1134",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1135",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 370
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Animación Sociocultural (LOGSE, RD 2058/1995, de 22 de diciembre)",
+   "origen_modulo": [
+    "Animación de ocio y tiempo libre"
+   ],
+   "destino_modulos": [
+    "1123"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Coincide con la fila del anexo IV del RD 1684/2011 (derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Sociocultural (LOGSE, RD 2058/1995, de 22 de diciembre)",
+   "origen_modulo": [
+    "Animación y dinámica de grupos"
+   ],
+   "destino_modulos": [
+    "1124"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Coincide con la fila del anexo IV del RD 1684/2011 (derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Sociocultural (LOGSE, RD 2058/1995, de 22 de diciembre)",
+   "origen_modulo": [
+    "Animación cultural"
+   ],
+   "destino_modulos": [
+    "1125"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Coincide con la fila del anexo IV del RD 1684/2011 (derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Sociocultural (LOGSE, RD 2058/1995, de 22 de diciembre)",
+   "origen_modulo": [
+    "Metodología de la intervención social"
+   ],
+   "destino_modulos": [
+    "0344"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Coincide con la fila del anexo IV del RD 1684/2011 (derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Sociocultural (LOGSE, RD 2058/1995, de 22 de diciembre)",
+   "origen_modulo": [
+    "Desarrollo comunitario"
+   ],
+   "destino_modulos": [
+    "1128"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Coincide con la fila del anexo IV del RD 1684/2011 (derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Turística (LOGSE, RD 274/2000, de 25 de febrero)",
+   "origen_modulo": [
+    "Técnicas de comunicación para animación",
+    "Animación en el ámbito turístico"
+   ],
+   "destino_modulos": [
+    "1126"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Coincide con la fila del anexo IV del RD 1684/2011 (derogado). Los dos módulos de origen están en la misma celda (en el BOE del RD 1085/2020, en un solo párrafo; en el anexo IV original del RD 1684/2011 eran dos párrafos): hacen falta los dos simultáneamente. Ambos son módulos distintos del RD 274/2000. En el anexo IV original la celda de destino de esta fila mostraba además «0344» por un defecto de maquetación; el anexo II del RD 1085/2020 solo consigna 1126"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Turística (LOGSE, RD 274/2000, de 25 de febrero)",
+   "origen_modulo": [
+    "Actividades y recursos culturales"
+   ],
+   "destino_modulos": [
+    "1125"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Coincide con la fila del anexo IV del RD 1684/2011 (derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Integración Social (LOGSE, RD 2061/1995, de 22 de diciembre)",
+   "origen_modulo": [
+    "Contexto y metodología de la intervención social"
+   ],
+   "destino_modulos": [
+    "0344"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Fila NUEVA respecto del anexo IV del RD 1684/2011 (derogado), que no la contenía"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación de Actividades Físicas y Deportivas (LOGSE, RD 2048/1995, de 22 de diciembre)",
+   "origen_modulo": [
+    "Animación y dinámica de grupos"
+   ],
+   "destino_modulos": [
+    "1124"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Fila NUEVA respecto del anexo IV del RD 1684/2011 (derogado), que no la contenía"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Educación Infantil (LOGSE, RD 2059/1995, de 22 de diciembre)",
+   "origen_modulo": [
+    "Animación y dinámica de grupos"
+   ],
+   "destino_modulos": [
+    "1124"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Fila NUEVA respecto del anexo IV del RD 1684/2011 (derogado), que no la contenía"
+  },
+  {
+   "origen_titulo": "Técnico en Cuidados Auxiliares de Enfermería (LOGSE, RD 546/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0020"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional 0020 Primeros Auxilios»: el ciclo completo de TCAE convalida 0020 en cualquier ciclo formativo de cualquier familia en el que aparezca"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Sociocultural o Técnico Superior en Animación Turística (LOGSE)",
+   "origen_modulo": [
+    "Formación en centro de trabajo del título de Técnico de Animación Turística o del título de Técnico de Animación Sociocultural"
+   ],
+   "destino_modulos": [
+    "1135"
+   ],
+   "fuente": "RD 1684/2011 anexo IV (DEROGADO por el RD 1085/2020, que no reprodujo esta fila). El módulo 1135 ya no existe tras el RD 500/2024; además, el art. 3.4 del RD 1085/2020 impide convalidar la FCT (solo cabe exención), y este ciclo NO está excluido de la exención del periodo de formación en empresa (art. 15.8 del RD 1684/2011 según el RD 500/2024 y art. 49.2 del Decreto 91/2024 de Aragón: la exclusión solo afecta a ciclos de Sanidad)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "1133"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla de FOL, y DA 2.ª. El módulo 1133 ya no existe tras el RD 500/2024; véase la DA 6.ª del RD 1085/2020 (→ 1709)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Sociocultural (LOGSE, RD 2058/1995, de 22 de diciembre); Técnico Superior en Animación de Actividades Físicas y Deportivas (LOGSE, RD 2048/1995, de 22 de diciembre); Técnico Superior en Animación Turística (LOGSE, RD 274/2000, de 25 de febrero)",
+   "origen_modulo": [
+    "Organización y gestión de una pequeña empresa de actividades de tiempo libre y socioeducativas"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II. Es el módulo de los tres ciclos LOGSE de animación (Servicios Socioculturales y a la Comunidad, Actividades Físicas y Deportivas y Hostelería y Turismo)"
+  },
+  {
+   "origen_titulo": "Ciclo Comercio (LOGSE, familia Comercio y Marketing)",
+   "origen_modulo": [
+    "Administración y gestión de un pequeño establecimiento comercial"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos LOGSE de la familia Agraria: Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996), Jardinería (RD 1714/1996), Explotaciones Agrarias Extensivas (RD 1715/1996), Explotaciones Agrícolas Intensivas (RD 1716/1996) y Explotaciones Ganaderas (RD 1717/1996)",
+   "origen_modulo": [
+    "Organización y gestión de una explotación agraria familiar"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Técnico en Gestión Administrativa (LOGSE, RD 1662/1994, de 22 de julio, familia Administración y Gestión)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Agencias de Viajes (LOGSE, familia Hostelería y Turismo)",
+   "origen_modulo": [
+    "Organización y control en agencias de viajes"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Restauración (LOGSE, familia Hostelería y Turismo)",
+   "origen_modulo": [
+    "Administración de establecimientos de restauración"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Ortoprotésica (LOGSE, familia Sanidad)",
+   "origen_modulo": [
+    "Administración y gestión de una unidad/gabinete de ortoprotésica"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Prótesis Dentales (LOGSE, familia Sanidad)",
+   "origen_modulo": [
+    "Organización, administración y gestión de una unidad/gabinete de prótesis dentales"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Audioprótesis (LOGSE, familia Sanidad)",
+   "origen_modulo": [
+    "Administración y gestión de un gabinete audioprotésico"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos LOGSE de la familia Agraria: Gestión y Organización de los Recursos Naturales y Paisajísticos y Gestión y Organización de Empresas Agropecuarias",
+   "origen_modulo": [
+    "Organización y gestión de una empresa agraria"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Administración y Finanzas (LOGSE, RD 1659/1994, de 22 de julio, familia Administración y Gestión)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1134 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado superior con Lengua Extranjera (inglés)",
+   "origen_modulo": [
+    "Lengua Extranjera (Inglés) / Lengua Extranjera de 90 horas cuando la lengua cursada y superada sea inglés / Lengua Extranjera en Comercio Internacional cuando sea inglés"
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Superior (0179 «Inglés Profesional» tras el RD 500/2024). Son tres filas distintas de la tabla, cualquiera de ellas basta"
+  },
+  {
+   "origen_titulo": "Técnico en Emergencias Sanitarias (LOE, RD 1397/2007, de 29 de octubre)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0020"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para determinados ciclos formativos» (redacción del RD 500/2024, disp. final primera.Cuatro): el ciclo completo convalida 0020 Primeros auxilios en cualquier ciclo formativo"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo LOE de grado medio o superior de las familias Comercio y Marketing o Administración y Gestión",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "1134"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción dada por el RD 500/2024, disp. final primera.Tres)"
+  }
+ ],
+ "convalidaciones_loe": [
+  {
+   "origen_codigos": [
+    "0017"
+   ],
+   "origen_nombre": "Habilidades sociales",
+   "origen_titulo": "Técnico Superior en Educación Infantil (LOE, RD 1394/2007, de 29 de octubre); Técnico Superior en Integración Social (LOE, RD 1074/2012, de 13 de julio); Técnico Superior en Promoción de Igualdad de Género (LOE, RD 779/2013, de 11 de octubre); Cualquier ciclo LOE (LO 2/2006) que incluya el módulo, de cualquier familia",
+   "destino_modulos": [
+    "1124"
+   ],
+   "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR"
+  },
+  {
+   "origen_codigos": [
+    "1136"
+   ],
+   "origen_nombre": "Valoración de la condición física e intervención en accidentes",
+   "origen_titulo": "Ciclos LOE con el módulo 1136 (TS Acondicionamiento físico, RD 651/2017; TS Enseñanza y animación sociodeportiva, RD 653/2017)",
+   "destino_modulos": [
+    "0020"
+   ],
+   "fuente": "RD 651/2017 anexo IV c) (Acondicionamiento Físico) y RD 653/2017 anexo IV b) (Enseñanza y Animación Sociodeportiva): el módulo 1136 convalida 0020 Primeros auxilios en, entre otros, el ciclo «Animación Sociocultural y Turística»; aplicables a cualquier ciclo por la DA 5.ª del RD 1085/2020. No figura en los anexos I-IV del RD 1085/2020. El módulo 1136 también existe en Termalismo y bienestar (RD 699/2019), cuyo anexo IV no recoge esta fila; la DA 5.ª extiende las filas de los anexos de los RD posteriores a 2017 a los módulos de cualquier ciclo, pero no se ha comprobado la identidad de ese 1136 con el de los RD 651/2017 y 653/2017"
+  },
+  {
+   "origen_codigos": [
+    "0179"
+   ],
+   "origen_nombre": "Inglés Profesional (de cualquier ciclo LOE de grado superior) / Certificado de Aptitud de Inglés de la EOI (RD 967/1988) / Certificado de Nivel Avanzado (B2) o superior de Inglés de la EOI (RD 1629/2006) / Título de Grado o equivalente en Filología Inglesa o en Traducción e Interpretación (Inglés)",
+   "origen_titulo": "Acreditación oficial de inglés / módulo 0179 de otro ciclo LOE; Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 26 de noviembre de 2013)",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con inglés» (son filas distintas: cualquiera basta), más el art. 3.7 del RD 1085/2020 (redacción dada por la disp. final 4.1 del RD 659/2023). El módulo 0179 de otro ciclo LOE de grado superior es idéntico por el art. 3.2"
+  },
+  {
+   "origen_codigos": [
+    "1123"
+   ],
+   "origen_nombre": "Actividades de ocio y tiempo libre",
+   "origen_titulo": "Técnico Superior en Termalismo y bienestar (LOE, RD 699/2019, de 29 de noviembre); Técnico Superior en Enseñanza y Animación Sociodeportiva (LOE, RD 653/2017, de 23 de junio)",
+   "destino_modulos": [
+    "1123"
+   ],
+   "fuente": "Módulos idénticos: mismo código, denominación, resultados de aprendizaje y criterios de evaluación (cotejados: solo difieren retoques de redacción), contenidos y duración de currículo básico. Art. 3.2 del RD 1085/2020 y art. 126 del RD 659/2023 (art. 15.1 del RD 1684/2011 en la redacción del RD 500/2024). NO figura como fila en ninguno de los anexos I a IV del RD 1085/2020 (comprobado en las 85 tablas del consolidado a 07/04/2026). 80 h de currículo básico en los dos títulos (RD 699/2019 anexo I y RD 1684/2011 anexo I); 10 ECTS en ambos tras el RD 500/2024. Coherente con research/termalismo.json (en Aragón, IMP304 tiene el 1123 en 1.º curso, como SSC301; la API de CATEDU lo marca como módulo común)."
+  },
+  {
+   "origen_codigos": [
+    "1124"
+   ],
+   "origen_nombre": "Dinamización grupal",
+   "origen_titulo": "Técnico Superior en Termalismo y bienestar (LOE, RD 699/2019, de 29 de noviembre); Técnico Superior en Enseñanza y Animación Sociodeportiva (LOE, RD 653/2017, de 23 de junio)",
+   "destino_modulos": [
+    "1124"
+   ],
+   "fuente": "Módulos idénticos: mismo código, denominación, resultados de aprendizaje y criterios de evaluación (cotejados: solo difieren retoques de redacción), contenidos y duración de currículo básico. Art. 3.2 del RD 1085/2020 y art. 126 del RD 659/2023 (art. 15.1 del RD 1684/2011 en la redacción del RD 500/2024). NO figura como fila en ninguno de los anexos I a IV del RD 1085/2020 (comprobado en las 85 tablas del consolidado a 07/04/2026). 65 h de currículo básico en los dos títulos; 8 ECTS en ambos tras el RD 500/2024. Coherente con research/termalismo.json. Aragón: IMP304 lo imparte en 2.º curso y SSC301 en 1.º; MEFP: Termalismo en 2.º y este ciclo en 1.º (por eso la API de CATEDU solo marca AFD301 como ciclo con el 1124 común en 1.º)."
+  },
+  {
+   "origen_codigos": [
+    "1133"
+   ],
+   "origen_nombre": "Formación y orientación laboral",
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 26 de noviembre de 2013)",
+   "destino_modulos": [
+    "1709"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), disposición transitoria segunda, apartados 2 y 3 (tabla de módulos equivalentes)"
+  },
+  {
+   "origen_codigos": [
+    "1134"
+   ],
+   "origen_nombre": "Empresa e iniciativa emprendedora",
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 26 de noviembre de 2013)",
+   "destino_modulos": [
+    "1710"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), disposición transitoria segunda, apartados 2 y 3 (tabla de módulos equivalentes)"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC1868_2",
+    "UC1869_3"
+   ],
+   "modulos": [
+    "1123"
+   ],
+   "fuente": "Anexo V A) del RD 1684/2011 (redacción VIGENTE dada por el RD 500/2024, art. tercero.Diecinueve, que sustituye el anexo). Mismos códigos de UC que el texto original; cambian solo algunas denominaciones. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1093_3"
+   ],
+   "modulos": [
+    "1124"
+   ],
+   "fuente": "Anexo V A) del RD 1684/2011 (redacción VIGENTE dada por el RD 500/2024, art. tercero.Diecinueve, que sustituye el anexo). Mismos códigos de UC que el texto original; cambian solo algunas denominaciones. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1867_2",
+    "UC1870_3"
+   ],
+   "modulos": [
+    "1124"
+   ],
+   "fuente": "Anexo V A) del RD 1684/2011 (redacción VIGENTE dada por el RD 500/2024, art. tercero.Diecinueve, que sustituye el anexo). Mismos códigos de UC que el texto original; cambian solo algunas denominaciones. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1431_3",
+    "UC1432_3",
+    "UC1433_3"
+   ],
+   "modulos": [
+    "1125"
+   ],
+   "fuente": "Anexo V A) del RD 1684/2011 (redacción VIGENTE dada por el RD 500/2024, art. tercero.Diecinueve, que sustituye el anexo). Mismos códigos de UC que el texto original; cambian solo algunas denominaciones. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1091_3",
+    "UC1092_3"
+   ],
+   "modulos": [
+    "1126"
+   ],
+   "fuente": "Anexo V A) del RD 1684/2011 (redacción VIGENTE dada por el RD 500/2024, art. tercero.Diecinueve, que sustituye el anexo). Mismos códigos de UC que el texto original; cambian solo algunas denominaciones. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1022_3",
+    "UC1024_3",
+    "UC1026_3"
+   ],
+   "modulos": [
+    "0344"
+   ],
+   "fuente": "Anexo V A) del RD 1684/2011 (redacción VIGENTE dada por el RD 500/2024, art. tercero.Diecinueve, que sustituye el anexo). Mismos códigos de UC que el texto original; cambian solo algunas denominaciones. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1020_3",
+    "UC1021_3",
+    "UC1023_3",
+    "UC1025_3"
+   ],
+   "modulos": [
+    "1128"
+   ],
+   "fuente": "Anexo V A) del RD 1684/2011 (redacción VIGENTE dada por el RD 500/2024, art. tercero.Diecinueve, que sustituye el anexo). Mismos códigos de UC que el texto original; cambian solo algunas denominaciones. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1874_3",
+    "UC1875_3"
+   ],
+   "modulos": [
+    "1129"
+   ],
+   "fuente": "Anexo V A) del RD 1684/2011 (redacción VIGENTE dada por el RD 500/2024, art. tercero.Diecinueve, que sustituye el anexo). Mismos códigos de UC que el texto original; cambian solo algunas denominaciones. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1876_3"
+   ],
+   "modulos": [
+    "1130"
+   ],
+   "fuente": "Anexo V A) del RD 1684/2011 (redacción VIGENTE dada por el RD 500/2024, art. tercero.Diecinueve, que sustituye el anexo). Mismos códigos de UC que el texto original; cambian solo algunas denominaciones. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1020_3",
+    "UC1021_3",
+    "UC1022_3",
+    "UC1023_3",
+    "UC1024_3",
+    "UC1025_3",
+    "UC1026_3",
+    "UC1091_3",
+    "UC1092_3",
+    "UC1093_3",
+    "UC1431_3",
+    "UC1432_3",
+    "UC1433_3",
+    "UC1867_2",
+    "UC1868_2",
+    "UC1869_3",
+    "UC1870_3",
+    "UC1874_3",
+    "UC1875_3",
+    "UC1876_3"
+   ],
+   "modulos": [
+    "1131"
+   ],
+   "fuente": "Nota del anexo V A) del RD 1684/2011 (redacción VIGENTE del RD 500/2024): quienes tengan acreditadas todas las unidades de competencia incluidas en el título, por reconocimiento de las competencias profesionales adquiridas por experiencia laboral, tendrán convalidado el módulo 1131 Contexto de la animación sociocultural",
+   "nota": "Requiere acreditar todas las UC del título"
+  }
+ ],
+ "uc_descripciones": {
+  "UC1020_3": "Establecer y mantener relación con los principales agentes comunitarios: población, técnicos y administraciones, dinamizando la relación recíproca entre ellos (cualificación SSC321_3) [ECP1020_3]",
+  "UC1021_3": "Promover la participación ciudadana en los proyectos y recursos comunitarios (cualificación SSC321_3) [ECP1021_3]",
+  "UC1022_3": "Dinamizar la planificación, desarrollo y evaluación de intervenciones y proyectos comunitarios y de participación ciudadana que se desarrollen entre los diferentes agentes que configuran una comunidad o una zona territorial (cualificación SSC321_3) [ECP1022_3]",
+  "UC1023_3": "Intervenir, apoyar y acompañar en la creación y desarrollo del tejido asociativo (cualificación SSC321_3 y SSC567_3) [ECP1023_3]",
+  "UC1024_3": "Establecer estrategias de comunicación y difusión de los diferentes proyectos y actuaciones comunitarias (cualificación SSC321_3) [ECP1024_3]",
+  "UC1025_3": "Aplicar procesos y técnicas de mediación en la gestión de conflictos entre agentes comunitarios (cualificación SSC321_3) [ECP1025_3]",
+  "UC1026_3": "Incorporar la perspectiva de género en los proyectos de intervención social (cualificación SSC321_3) [ECP1026_3]",
+  "UC1867_2": "Intervenir en procesos grupales en el marco del tiempo libre educativo y otros ámbitos de la educación no formal (cualificación SSC565_3) [ECP1867_2]",
+  "UC1868_2": "Aplicar técnicas y recursos educativos de animación en el tiempo libre y otros ámbitos de la educación no formal (cualificación SSC565_3) [ECP1868_2]",
+  "UC1869_3": "Coordinar la planificación, gestión y evaluación de proyectos de tiempo libre educativo y en otros ámbitos de la educación no formal (cualificación SSC565_3) [ECP1869_3]",
+  "UC1870_3": "Liderar equipos de personal monitor en proyectos de tiempo libre educativo y otros ámbitos de educación no formal (cualificación SSC565_3) [ECP1870_3]",
+  "UC1431_3": "Gestionar actividades culturales (cualificación SSC445_3) [ECP1431_3]",
+  "UC1432_3": "Programar y dinamizar proyectos culturales con las redes asociativas culturales, cívicas y sociales (cualificación SSC445_3) [ECP1432_3]",
+  "UC1433_3": "Desarrollar acciones de innovación, digitalización, comunicación, marketing cultural y participación social (cualificación SSC445_3) [ECP1433_3]",
+  "UC1874_3": "Organizar y gestionar servicios de información de interés para la juventud (cualificación SSC567_3) [ECP1874_3]",
+  "UC1875_3": "Organizar y gestionar acciones de dinamización de la información para jóvenes (cualificación SSC567_3) [ECP1875_3]",
+  "UC1876_3": "Organizar acciones socioeducativas dirigidas a jóvenes en el marco de la educación no formal (cualificación SSC567_3) [ECP1876_3]",
+  "UC1091_3": "Gestionar departamentos de animación turística (cualificación SSC329_3 (antes HOT329_3)) [ECP1091_3]",
+  "UC1092_3": "Diseñar, promocionar y evaluar proyectos de animación turística (cualificación SSC329_3 (antes HOT329_3)) [ECP1092_3]",
+  "UC1093_3": "Crear y dinamizar grupos en situaciones de ocio (cualificación SSC329_3 (antes HOT329_3)) [ECP1093_3]"
+ },
+ "uc_equivalencias": {},
+ "notas": [
+  "El campo 'horas' es el del currículo básico / enseñanzas mínimas: RD 1684/2011 anexo I para los módulos originales (725 h entre 0020, 1123-1126, 0344, 1128-1132) y RD 659/2023 para 0179 (50 h), 1709, 1710 (50 h cada uno), 1665, 1708 (30 h cada uno) y el optativo (80 h, RD 500/2024). Las horas reales de impartición están en 'horas_otras' con las claves 'aragon' (Orden ECD/843/2024, anexo LXV), 'mefp' (Orden EFD/659/2024, anexo LXXVIII) y 'loe' (plan LOE a extinguir de Aragón, Orden de 26/11/2013).",
+  "El BOE no ofrece texto consolidado del RD 1684/2011 (act.php redirige a doc.php): hay que combinar el texto original (https://www.boe.es/buscar/doc.php?id=BOE-A-2011-20272), el RD 1085/2020 (deroga el anexo IV) y el RD 500/2024 (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685: nuevos arts. 2, 6, 10, 12 y 15, anexo I, nuevo anexo III de profesorado y anexos V A) y V B) sustituidos).",
+  "Grupo del art. primero.Dos del RD 500/2024: este título es el número 6.º de la letra b), es decir, ciclos CON el antiguo módulo 0179 Inglés (no el de la letra a), que son los que ganan un 0179 nuevo). Por eso 0179 solo cambia de nombre («Inglés Profesional (GS)») y de currículo básico (anexo X del RD 659/2023, 50 h), y se suprimen 1133 FOL, 1134 EIE y 1135 FCT y se añaden 1709, 1710, 1665, 1708 y el optativo de 80 h.",
+  "Módulos suprimidos y añadidos por el RD 500/2024 (art. cuarto.Dos.c y art. séptimo.Dos): suprimidos 1133 Formación y orientación laboral, 1134 Empresa e iniciativa emprendedora y 1135 Formación en centros de trabajo; renombrados 0179 Inglés → Inglés Profesional (GS) y 1132 Proyecto de animación sociocultural y turística → Proyecto intermodular de animación sociocultural y turística (mismo código); añadidos 1709, 1710, 1665, 1708 y el módulo profesional optativo (sin código estatal).",
+  "En grado superior no existen los módulos de tutoría A996/A997 (comprobado en el anexo LXV de la Orden ECD/843/2024 y en la API de centros docentes de Aragón).",
+  "Los anexos V A) y V B) del RD 1684/2011 SÍ fueron sustituidos por el RD 500/2024 (art. tercero.Diecinueve), pero con los MISMOS códigos de UC (comprobado celda a celda contra el texto original): solo cambian denominaciones (UC1431_3, UC1432_3, UC1433_3, UC1867_2, UC1868_2, UC1869_3, UC1870_3). Por eso 'uc_a_modulos' y 'modulos_a_uc' llevan ambas versiones: la vigente ('vigente': true) y la original de 2011 ('vigente': false). El art. 6 (cualificaciones) también se reescribió: SSC565_3 pasa de «actividades» a «proyectos», SSC445_3 se renombra, HOT329_3 pasa a SSC329_3 y ya no se distingue completas de incompletas.",
+  "Celdas con varios elementos (art. 15.3 y 15.4 del RD 1684/2011 en la redacción del RD 500/2024): para convalidar 1123 hacen falta simultáneamente UC1868_2 + UC1869_3; para 1124 basta UC1093_3 O (UC1867_2 + UC1870_3) (son dos filas alternativas); para 1125, UC1431_3 + UC1432_3 + UC1433_3; para 1126, UC1091_3 + UC1092_3; para 0344, UC1022_3 + UC1024_3 + UC1026_3; para 1128, UC1020_3 + UC1021_3 + UC1023_3 + UC1025_3; para 1129, UC1874_3 + UC1875_3; para 1130, UC1876_3. En sentido inverso, superar 1124 acredita UC1867_2, UC1870_3 y UC1093_3, etc. Acreditar todas las UC del título convalida 1131. Los módulos 0020, 0179, 1132 y los nuevos comunes no tienen correspondencia con UC.",
+  "Nivel de UC1867 y UC1868: el RD 500/2024 escribe UC1867_2 y UC1868_2 (nivel 2) en el art. 6 y en los anexos V de ESTE título, pero UC1867_3 y UC1868_3 en el anexo V del RD 699/2019 (Termalismo) tal como lo sustituye; la cualificación SSC565_3 y el anexo I del RD 532/2025 (ECP1867_2, ECP1868_2) y la herramienta de competencias de CATEDU usan el nivel 2. Aquí se recogen _2 tal como figuran en el RD de este título; prevalece la codificación sobre la denominación (art. 15.6). 'equivalencias_uc' queda vacío porque ninguna UC de este título está suprimida (RD 532/2025, anexos II-a y II-b).",
+  "RD 532/2025 (anexo I) actualiza las denominaciones de cuatro UC, con el mismo código: UC1020_3 «Construir relaciones sostenibles con agentes comunitarios», UC1023_3 «Dinamizar la creación y el desarrollo del tejido asociativo», UC1874_3 «Establecer servicios de información de interés para la juventud» y UC1875_3 «Atender las necesidades de información y orientación de las personas jóvenes». En 'uc_descripciones' se ha mantenido la denominación del RD del título (RD 500/2024).",
+  "CONVALIDACIONES QUE CUADRAN CON OTROS CICLOS CARGADOS: (1) 1124 Dinamización grupal → 0211 Destrezas sociales del TG en Atención a Personas en Situación de Dependencia (RD 1085/2020 anexo III; ya figura en research/apsd.json). (2) 0017 Habilidades sociales de otros ciclos LOE → 1124: anexo III (Educación Infantil RD 1394/2007, Integración Social RD 1074/2012, Promoción de Igualdad de Género RD 779/2013) y anexo IV del RD 1085/2020 (cualquier ciclo). (3) 1124 → 0017 y 1124 → 1328 (anexo IV). (4) Termalismo y bienestar (RD 699/2019) comparte los módulos 1123 y 1124 idénticos (art. 3.2 del RD 1085/2020): coherente con research/termalismo.json, donde 1124 → 0017 (RD 699/2019 anexo IV c) y 0017 → 1124 (anexo IV b).",
+  "Otro título que comparte 1123 y 1124 idénticos y no figuraba en la petición: Técnico Superior en Enseñanza y Animación Sociodeportiva (RD 653/2017; Aragón AFD301), cotejado con el texto de su RD. Sus ECTS del 1124 tras el RD 500/2024 son 7 (8 en este ciclo).",
+  "En este título el anexo III del RD 1085/2020 (LOE→LOE) contiene una fila hacia APSD y tres hacia el 1124 (todas por el módulo 1124/0017); NO contiene ninguna fila para los demás módulos (1123, 1125, 1126, 0344, 1128, 1129, 1130, 1131). Las convalidaciones LOGSE→LOE del anexo II reproducen las siete filas del derogado anexo IV del RD 1684/2011 (menos las de FOL/EIE/FCT/inglés, que se reordenan en otras tablas) y añaden tres (Integración Social → 0344, Animación de Actividades Físicas y Deportivas → 1124 y Educación Infantil → 1124).",
+  "La fila LOGSE «Técnicas de comunicación para animación. Animación en el ámbito turístico.» → 1126 se ha recogido con los dos módulos unidos por «+» (hacen falta ambos): son dos módulos distintos del RD 274/2000 y en el anexo IV original del RD 1684/2011 ocupaban dos párrafos de la misma celda. En el anexo II del RD 1085/2020 figuran en un solo párrafo.",
+  "El art. 3.5 del RD 1085/2020 establece que el módulo de Proyecto de los ciclos de grado superior NO puede ser objeto de convalidación ni de exención: 1132 nunca se convalida. El art. 3.4 impide convalidar la FCT (solo exención): 1135 ya no existe y el periodo de formación en empresa sí admite exención en este ciclo (no está en la lista de Sanidad del art. 15.8 del RD 1684/2011 según el RD 500/2024 ni del art. 49.2 del Decreto 91/2024).",
+  "Efecto del RD 500/2024 sobre FOL y EIE: la DA 6.ª del RD 1085/2020 (añadida por su disp. final primera.Dos) ordena entender toda convalidación que dé como resultado FOL como hecha también a 1709 Itinerario personal para la empleabilidad I, y la que dé EIE, como hecha también a 1710. Por eso las filas de FOL y EIE siguen siendo operativas pese a la supresión de 1133 y 1134. En Aragón el Decreto 91/2024 (anexo VIII, 6.5, según el Decreto 107/2025) lo repite y el FOL LOGSE exige además la certificación de PRL de nivel básico.",
+  "Artículo 15 en la redacción del RD 500/2024: las convalidaciones se rigen por los arts. 126-128 del RD 659/2023; a este título (anterior al 5/03/2017) se le aplica el RD 1085/2020; si en una celda hay varias UC o varios módulos, hacen falta todos simultáneamente; ante discrepancias prevalece la codificación sobre la denominación.",
+  "La DA 3.ª.2 del RD 1684/2011 declara que los títulos LOGSE de Técnico Superior en Animación Sociocultural (RD 2058/1995) y en Animación Turística (RD 274/2000) tienen los mismos efectos profesionales y académicos que este título; también los de Técnico Especialista en Actividades Socioculturales (rama Administrativa y Comercial) y en Agencias de viaje (rama Hostelería y Turismo) (DA 3.ª.1). La DA 3.ª del RD 500/2024 traslada al módulo 1709 las referencias que la DA 3.ª.3 hacía al módulo de FOL (capacitación de nivel básico en PRL). La DA 3.ª.3 recoge además que la formación garantiza el nivel de conocimiento exigido en los diplomas de director/coordinador de actividades de tiempo libre educativo infantil y juvenil.",
+  "MEFP (Orden EFD/659/2024, anexo LXXVIII): 1.º curso 1124 130 h, 1128 100, 0344 130, 1123 170, 1131 100, 1125 170, 1709 100, 1708 35 y 0179 70 (1005 h, 30 sesiones); 2.º curso 0020 60, 1129 190, 1130 190, 1126 230, 1710 100, 1665 35, optativa 80, 1712 Inglés Profesional II (GS) 60 y 1132 Proyecto Intermodular 50 (995 h, 30 sesiones). Total 2000 h. Los módulos aparecen en el anexo con 1, 2 y 3 sesiones semanales; las columnas 1.º/2.º se han deducido de que cada curso suma 30 sesiones.",
+  "ARAGÓN, PLAN VIGENTE (Orden ECD/843/2024, anexo LXV, código SSC301, 30 sesiones semanales en cada curso): 1.º curso 0020 (33 h), 1123 (233), 1124 (133), 0344 (133), 1128 (133), 1131 (133), 1709 (100), 1665 (33) y 0179 (67) = 998 h; 2.º curso 1125 (200), 1126 (200), 1129 (167), 1130 (167), 1132 (67), 1710 (67), 1708 (33) y el optativo (100) = 1001 h. La suma es 1999 h (la API de centros docentes también da 1999) y la fila de totales del BOA dice 2000 h. Aragón NO tiene horario nocturno de este ciclo (la API solo devuelve DIURNO).",
+  "DISCREPANCIAS DE CURSO entre Aragón y el MEFP: 0020 Primeros auxilios (1.º en Aragón, 2.º en el MEFP), 1125 Animación y gestión cultural (2.º en Aragón, 1.º en el MEFP), 1665 Digitalización (1.º en Aragón, 2.º en el MEFP) y 1708 Sostenibilidad (2.º en Aragón, 1.º en el MEFP). El resto coincide de curso (y casi ninguno en horas).",
+  "PLAN LOE DE ARAGÓN (clave 'loe' de 'horas_otras'): Orden de 26 de noviembre de 2013 (BOA núm. 248, de 19/12/2013). 1.º curso (32 semanas x 30 h = 960 h): 0179 Inglés 128 h (4 h/sem), 1123 160 (5), 1125 192 (6), 0344 128 (4), 1128 160 (5), 1131 96 (3) y 1133 FOL 96 (3). 2.º curso (21 semanas lectivas x 30 h = 630 h, más 1135 FCT 370 h y 1132 Proyecto 40 h): 0020 42 (2), 1124 126 (6), 1126 147 (7), 1129 126 (6), 1130 126 (6) y 1134 EIE 63 (3). Total 2000 h. Es una deducción (véase no_verificado). A diferencia de otros ciclos LOE de Aragón, este NO tenía los módulos propios A109/A110 de inglés: su inglés era el 0179 Inglés de 128 h.",
+  "Comparación plan LOE → plan adaptado en Aragón: el bloque lectivo pasa de 1590 h + 370 h de FCT + 40 h de Proyecto a 1999/2000 h sin FCT; desaparecen 1133 FOL (96 h), 1134 EIE (63 h) y 1135 FCT (370 h) y entran 1709, 1710, 1665, 1708 y el optativo. 0179 pasa de 128 a 67 h. Cambian de curso 1124 (2.º → 1.º), 1125 (1.º → 2.º), 0020 (2.º → 1.º), 0344, 1128 y 1131 se mantienen en 1.º y 1126, 1129, 1130 en 2.º.",
+  "Transición en Aragón (Orden ECD/843/2024, DT 2.ª y DF 1.ª): en 2024/25 se implanta 1.º y en 2025/26 2.º curso; desde el 1/09/2026 todo el alumnado cursa la nueva ordenación. La tabla de equivalencias de la DT 2.ª.3 (1709 ≡ FOL, 1710 ≡ EIE, 0179 Inglés profesional (GS) ≡ 0179 Inglés) se ha recogido como filas del plan LOE a extinguir. En la modalidad virtual y semipresencial el plan a extinguir puede alargarse hasta el curso 2026/27 (DT 2.ª.7).",
+  "Módulos optativos en Aragón (art. 12.2 de la Orden ECD/843/2024 en la redacción del Decreto 107/2025, lista abierta y común a los ciclos de grado superior, módulo anual de 100 h en 2.º curso): AOP1004 Comunicación profesional en Inglés (GS) (anexo LXXIV; antes A170), AOP1002 Segunda lengua profesional Francés (anexo LXXV; antes A171), AOP1003 Ofimática avanzada aplicada al sector profesional (anexo LXXVI; antes A172) y módulos de diseño propio del centro. No hay lista cerrada específica de SSC301.",
+  "Créditos ECTS: el anexo XCI del RD 500/2024 reasigna los ECTS de este título a 1124=8, 0344=8, 1128=8, 1123=10, 1131=8, 0020=3, 1129=8, 1130=8, 1126=11 y 1125=17; sumados a 0179=5, 1709=5, 1710=5, 1665=3, 1708=3, 1132=5 y el optativo=5 dan los 120 ECTS. La API de centros docentes de Aragón usa exactamente esos valores (el 1132 y el optativo no traen ECTS en la API, salvo el 1132 con 5).",
+  "Denominaciones del módulo 1132: RD 1684/2011 art. 10 y anexo I «Proyecto de animación sociocultural y turística» (25 h); Orden de 26/11/2013 de Aragón «Proyecto de animación sociocultural y turística» (40 h); Orden ECD/82/2013 (MEC) la misma (40 h); Orden EFD/659/2024 «Proyecto Intermodular» (50 h); Orden ECD/843/2024 de Aragón, anexo LXV, «Proyecto intermodular de animación sociocultural y turística» (67 h); API de centros docentes «Proyecto Intermodular de animación sociocultural y turística». El RD 500/2024 solo ordena sustituir «Proyecto» por «Proyecto intermodular» manteniendo el resto de la denominación y el código.",
+  "MÓDULOS COMPARTIDOS CON OTROS TÍTULOS (convalidación automática en ambos sentidos por identidad de módulo, art. 3.2 del RD 1085/2020 y art. 126 del RD 659/2023): 1123 y 1124 con Termalismo y bienestar (RD 699/2019, IMP304) y con Enseñanza y Animación Sociodeportiva (RD 653/2017, AFD301), comprobados contra el texto de los tres RD (mismos resultados de aprendizaje y criterios, salvo 8 retoques de redacción en el 1124 y unos pocos en el 1123; misma duración de currículo básico). Módulos comunes del RD 659/2023 (0179, 1709, 1710, 1665, 1708) idénticos en todos los ciclos de grado superior. 0020 Primeros auxilios (35 h) coincide en código, denominación y duración con el de Integración Social (RD 1074/2012) y Promoción de Igualdad de Género (RD 779/2013), pero su identidad se resuelve por las reglas generales de la herramienta (clave 'primeros_auxilios').",
+  "0344 y 1128: la API de CATEDU marca 0344 como común con SSC303 (Integración Social) y SSC305 (Promoción de Igualdad de Género) y 1128 con SSC305, pero NO se ha establecido identidad normativa: el 0344 de Integración Social (RD 1074/2012) tiene 70 h como aquí, pero su criterio de evaluación 4.i) adicional sobre violencia de género y algunos contenidos difieren; el 0344 de Promoción de Igualdad de Género (RD 779/2013) dura 90 h y tiene 9 ECTS; el 1128 de RD 779/2013 (60 h) presenta retoques de redacción y variantes de contenido (cotejo parcial). No se han incluido como filas de identidad (véase no_verificado).",
+  "Decreto 91/2024 (Aragón), anexo VIII, según el Decreto 107/2025: apartado 3 (módulos con los mismos códigos, denominaciones o resultados de aprendizaje se consideran idénticos y se trasladan las calificaciones a solicitud del alumnado en la matrícula) y apartado 6.14 (convalidación por acreditación de unidades de competencia de cualquier procedencia mediante las tablas V A) de los RD). Estas reglas ya están recogidas en el motor general."
+ ],
+ "no_verificado": [
+  "Aragón: el anexo LXV de la Orden ECD/843/2024 se ha leído en el texto del BOA (csv BOA20240731004) sin cotejarlo con la corrección de errores de 26/02/2025 (que, según lo indicado, solo afecta a los anexos XXXVI, XL, XXIV y LXXI). Tampoco se ha leído la corrección de errores del Decreto 107/2025 (BOA 19/01/2026) ni se ha barrido el BOA posterior al 18/09/2025 en busca de otras modificaciones de la Orden ECD/843/2024.",
+  "La asignación de curso (1.º/2.º) de los módulos del plan LOE de Aragón y sus horas semanales es una DEDUCCIÓN aritmética: la Orden de 26/11/2013 solo da la duración total de cada módulo. Los módulos de 1.º son múltiplos de 32 h y los de 2.º múltiplos de 21 h; suman 960 h y 630 h y 30 h/semana en cada curso, lo que hace la partición única. No se ha localizado la resolución o instrucción de la Dirección General que la fije formalmente, ni si existió oferta a distancia o nocturna con otra distribución.",
+  "La lectura de los cursos del MEFP (Orden EFD/659/2024, anexo LXXVIII) se hace sobre el texto del BOE, donde las celdas vacías de las columnas 1.º y 2.º no se distinguen; se ha deducido que cada curso suma 30 sesiones. No se ha revisado visualmente la tabla del BOE.",
+  "No se ha comprobado si el RD 1085/2020 consolidado (07/04/2026) presenta en su anexo II la fila de Integración Social → 0344 de este ciclo con la misma colocación en la tabla original de 2020 que en el consolidado; se ha leído solo el consolidado. En la tabla del bloque Servicios Socioculturales (anexo II) las filas que siguen al encabezado «Animación Sociocultural (RD 2058/1995) → Promoción e Igualdad de Género» incluyen «Contexto y Metodología de la intervención social → 0344», módulo que no es de Animación Sociocultural sino de Integración Social; parece una fila mal colocada por la maquetación y NO se ha recogido bajo el título de Animación Sociocultural.",
+  "Identidad de 0344 con Integración Social (RD 1074/2012) y de 0344 y 1128 con Promoción de Igualdad de Género (RD 779/2013): no establecida (véase la nota). Tampoco se ha cotejado con el texto de cada RD la identidad de 0020 con los de otros ciclos, ni la de los módulos 1125, 1126, 1129, 1130 y 1131 (que la API de CATEDU no marca como comunes con ningún ciclo).",
+  "No se han revisado todos los RD de títulos posteriores al 5/03/2017 en busca de filas del anexo IV que citen este ciclo: se han leído los RD 651/2017 (Acondicionamiento físico), 652/2017 (Actividades ecuestres), 653/2017 (Enseñanza y animación sociodeportiva) y 699/2019 (Termalismo, vía research/termalismo.json). Otros títulos posteriores (por ejemplo, de Sanidad o de Servicios Socioculturales con 0020, 0017 o 1124) podrían contener filas equivalentes; la DA 5.ª del RD 1085/2020 las extiende igualmente a cualquier ciclo.",
+  "El anexo XCI del RD 500/2024 se ha leído en el texto del BOE; no se ha comprobado que las 'horas' de currículo básico de los módulos nuevos (0179 50 h, 1709/1710 50 h, 1665/1708 30 h, optativo 80 h) coincidan con las que el RD 500/2024 anexo I asigna a los ciclos del grupo b) para CCAA con lengua cooficial (no afecta a Aragón).",
+  "No se ha comprobado el anexo LXXVI del RD 500/2024 (nuevo anexo III de profesorado del RD 1684/2011) ni los anexos II (espacios) y III A)/B)/C) del RD 1684/2011 en lo relativo a especialidades docentes, espacios o equipamientos.",
+  "No se ha comprobado si las cualificaciones SSC321_3, SSC565_3, SSC445_3, SSC567_3 y SSC329_3 han sido actualizadas por algún real decreto posterior a su norma de creación más allá del cambio de prefijo del RD 532/2025; los anexos de cada RD de cualificación (CCCXXI, DLXV, CDXLV, DLXVII, CCCXXIX) proceden del anexo I del RD 532/2025, no de los RD 1368/2007, 567/2011, 1096/2011 y 1700/2007, que no se han abierto. No se ha revisado el certificado de profesionalidad asociado a ninguna de ellas.",
+  "La herramienta de competencias de CATEDU (research/competencias-catedu.json) recoge para 1124 los grupos ECP1093_3, (ECP1867_2 + ECP1869_3) y (ECP1867_2 + ECP1870_3), mientras que el anexo V A) del RD solo prevé UC1093_3 y (UC1867_2 + UC1870_3), y para 1123 solo ECP1868_2 (el RD exige UC1868_2 + UC1869_3). Parece una discrepancia de esa herramienta, no una modificación normativa; no se ha podido confirmar.",
+  "La URL del BOA de la Orden ECD/843/2024 es la indicada como verificada por otros agentes (MLKOB=1345326480505, PDF); la de la Orden de 26/11/2013 y del Decreto 91/2024 apuntan a los PDF alojados en todofp.es (fichas de currículos de CCAA: https://www.todofp.es/que-estudiar/familias-profesionales/servicios-socioculturales-comunidad/animacion-sociocultural-turistica/curriculos-ccaa.html). No se ha buscado ni comprobado su versión en el buscador del BOA.",
+  "todofp.es (https://www.todofp.es/que-estudiar/familias-profesionales/servicios-socioculturales-comunidad/animacion-sociocultural-turistica.html) no publica tablas de convalidación de este ciclo; su ficha aún lista el plan de 1.º curso «en el curso 24-25» y no aporta datos adicionales sobre módulos. Se ha usado solo para localizar los currículos por CCAA.",
+  "No se ha verificado si el RD 209/2025 u otras normas de desarrollo de los grados A, B y C de la FP en la familia Servicios Socioculturales y a la Comunidad afectan a las convalidaciones o a los estándares de este título, ni la lista concreta de módulos optativos autorizados a cada centro de Aragón."
+ ]
+};

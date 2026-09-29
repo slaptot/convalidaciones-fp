@@ -322,3 +322,10 @@ assert.equal(est('apsd', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habilid
 // Y el propio ciclo ya no es del catálogo
 assert.ok(!CICLOS.ssc302.ciclo.parcial && CICLOS.ssc302.convalidaciones_titulos_anteriores.length > 5);
 console.log('OK: Educación Infantil');
+
+// Animación Sociocultural: 1124 convalida Destrezas sociales en APSD, y comparte 1123/1124 con Termalismo
+require('../data/ciclos/ssc301.js');
+assert.equal(est('apsd', [{ tipo: 'modulo_loe', codigo: '1124', nombre: 'Dinamización grupal', titulo: 'TS Animación Sociocultural y Turística', docs: [] }])['0211'], 'convalidable');
+r = est('ssc301', ['1123', '1124'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Termalismo y bienestar', docs: [] })));
+assert.equal(r['1123'], 'superado'); assert.equal(r['1124'], 'superado');
+console.log('OK: Animación Sociocultural y Turística');
