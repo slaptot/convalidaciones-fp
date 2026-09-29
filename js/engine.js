@@ -105,9 +105,10 @@
   }
 
   function planDeEstudios(ciclo, ambito) {
-    const mods = ciclo.modulos.filter((m) => m.horas?.[ambito] != null || m.tipo === 'optativo');
-    // En LOGSE la FCT es un módulo propio del título
-    return ciclo.ciclo.plan === 'LOGSE' ? mods : [...mods, FORMACION_EMPRESA];
+    const mods = ciclo.modulos.filter((m) => m.horas?.[ambito] != null
+      || (m.tipo === 'optativo' && ambito !== 'loe'));
+    // Solo se añade el pseudo-módulo si el plan no tiene ya FCT (LOGSE y LOE a extinguir sí la tienen)
+    return mods.some((m) => m.tipo === 'empresa') ? mods : [...mods, FORMACION_EMPRESA];
   }
 
   function faltanDocs(normativa, r) {
@@ -261,6 +262,7 @@
     }
 
     const avisosGlobales = [
+      ...(modulos.length <= 1 ? ['No hay datos de este plan de estudios para el ciclo seleccionado.'] : []),
       ...titulos.avisos,
       ...derivado.avisos,
       ...(normativa.avisos_generales || []).map((f) => f(ctx)).filter(Boolean),

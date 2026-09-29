@@ -66,11 +66,13 @@ window.CICLOS["termalismo"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 333,
-    "mefp": 160
+    "mefp": 160,
+    "loe": 192
    },
    "curso": {
     "aragon": 2,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -81,11 +83,13 @@ window.CICLOS["termalismo"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 233,
-    "mefp": 170
+    "mefp": 170,
+    "loe": 160
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -96,11 +100,13 @@ window.CICLOS["termalismo"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 200,
-    "mefp": 220
+    "mefp": 220,
+    "loe": 192
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -111,11 +117,13 @@ window.CICLOS["termalismo"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 167,
-    "mefp": 230
+    "mefp": 230,
+    "loe": 192
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -126,11 +134,13 @@ window.CICLOS["termalismo"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 133,
-    "mefp": 130
+    "mefp": 130,
+    "loe": 126
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -141,11 +151,13 @@ window.CICLOS["termalismo"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 133,
-    "mefp": 200
+    "mefp": 200,
+    "loe": 147
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -156,11 +168,13 @@ window.CICLOS["termalismo"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 133,
-    "mefp": 160
+    "mefp": 160,
+    "loe": 147
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -171,11 +185,13 @@ window.CICLOS["termalismo"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 200,
-    "mefp": 200
+    "mefp": 200,
+    "loe": 147
    },
    "curso": {
     "aragon": 1,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -186,11 +202,13 @@ window.CICLOS["termalismo"] = {
    "comun": "proyecto",
    "horas": {
     "aragon": 67,
-    "mefp": 50
+    "mefp": 50,
+    "loe": 40
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": "Antes 'Proyecto de Termalismo y bienestar'; renombrado por RD 500/2024 (DA 7ª), mismo código 1647."
   },
@@ -201,11 +219,13 @@ window.CICLOS["termalismo"] = {
    "comun": "ingles",
    "horas": {
     "aragon": 67,
-    "mefp": 70
+    "mefp": 70,
+    "loe": 128
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": "Antes '0179. Inglés' (130 h MEFP); RD 500/2024 lo renombra 'Inglés Profesional (GS)', mismo código, currículo básico del anexo X del RD 659/2023 (50 h, 5 ECTS). En Aragón (Orden ECD/843/2024) figura '0179. Inglés' con 0 h y '0179. Inglés profesional' con 67 h."
   },
@@ -216,11 +236,13 @@ window.CICLOS["termalismo"] = {
    "comun": "ipe1",
    "horas": {
     "aragon": 100,
-    "mefp": 100
+    "mefp": 100,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -231,11 +253,13 @@ window.CICLOS["termalismo"] = {
    "comun": "ipe2",
    "horas": {
     "aragon": 67,
-    "mefp": 100
+    "mefp": 100,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -246,11 +270,13 @@ window.CICLOS["termalismo"] = {
    "comun": "digitalizacion",
    "horas": {
     "aragon": 33,
-    "mefp": 35
+    "mefp": 35,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -261,11 +287,13 @@ window.CICLOS["termalismo"] = {
    "comun": "sostenibilidad",
    "horas": {
     "aragon": 33,
-    "mefp": 35
+    "mefp": 35,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -276,11 +304,13 @@ window.CICLOS["termalismo"] = {
    "comun": "ingles2",
    "horas": {
     "aragon": null,
-    "mefp": 60
+    "mefp": 60,
+    "loe": null
    },
    "curso": {
     "aragon": null,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": "Solo en el plan del MEFP (Orden EFD/659/2024, art. 11.3, anexo II); no figura en el RD del título ni en el currículo de Aragón."
   },
@@ -291,13 +321,66 @@ window.CICLOS["termalismo"] = {
    "comun": "optativo",
    "horas": {
     "aragon": 100,
-    "mefp": 80
+    "mefp": 80,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": "Sin código estatal; 80 h de currículo básico (RD 500/2024 art. 4). Repertorio MEFP: Resolución 27/06/2025 (BOE-A-2025-14430)."
+  },
+  {
+   "codigo": "1648",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "fol_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": "Suprimido por RD 500/2024 (sustituido por IPE I/II); vigente solo en ordenación LOE anterior (2º curso hasta 2024-25)."
+  },
+  {
+   "codigo": "1649",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "eie_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": "Suprimido por RD 500/2024 (sustituido por IPE I/II); vigente solo en ordenación LOE anterior (2º curso hasta 2024-25)."
+  },
+  {
+   "codigo": "1650",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 370
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": "Suprimido por RD 500/2024; sustituido por el periodo de formación en empresa u organismo equiparado (RD 659/2023, título IV), integrado en los módulos, no es módulo con código."
   }
  ],
  "convalidaciones_titulos_anteriores": [
@@ -369,6 +452,16 @@ window.CICLOS["termalismo"] = {
    ],
    "destino_modulos": [
     "1136"
+   ],
+   "fuente": "RD 699/2019 Anexo IV a)"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE (LO 1/1990) — el RD no especifica el título de origen",
+   "origen_modulo": [
+    "Administración, gestión y comercialización en la pequeña empresa"
+   ],
+   "destino_modulos": [
+    "1649"
    ],
    "fuente": "RD 699/2019 Anexo IV a)"
   }

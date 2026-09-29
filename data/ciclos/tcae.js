@@ -66,11 +66,13 @@ window.CICLOS["tcae"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 367,
-    "mefp": 350
+    "mefp": 350,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -81,11 +83,13 @@ window.CICLOS["tcae"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 167,
-    "mefp": 155
+    "mefp": 155,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -96,11 +100,13 @@ window.CICLOS["tcae"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 133,
-    "mefp": 130
+    "mefp": 130,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -111,11 +117,13 @@ window.CICLOS["tcae"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 133,
-    "mefp": 130
+    "mefp": 130,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -126,11 +134,13 @@ window.CICLOS["tcae"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 67,
-    "mefp": 65
+    "mefp": 65,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -141,11 +151,13 @@ window.CICLOS["tcae"] = {
    "comun": "rel_equipo",
    "horas": {
     "aragon": 67,
-    "mefp": 65
+    "mefp": 65,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -156,11 +168,13 @@ window.CICLOS["tcae"] = {
    "comun": "fol_logse",
    "horas": {
     "aragon": 67,
-    "mefp": 65
+    "mefp": 65,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -171,11 +185,13 @@ window.CICLOS["tcae"] = {
    "comun": "empresa",
    "horas": {
     "aragon": 400,
-    "mefp": 440
+    "mefp": 440,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   }

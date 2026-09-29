@@ -84,11 +84,13 @@ window.CICLOS["apsd"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 133,
-    "mefp": 130
+    "mefp": 130,
+    "loe": 125
    },
    "curso": {
     "aragon": 2,
-    "mefp": 1
+    "mefp": 1,
+    "loe": 1
    },
    "nota": null
   },
@@ -99,11 +101,13 @@ window.CICLOS["apsd"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 133,
-    "mefp": 190
+    "mefp": 190,
+    "loe": 145
    },
    "curso": {
     "aragon": 1,
-    "mefp": 2
+    "mefp": 2,
+    "loe": 2
    },
    "nota": null
   },
@@ -114,11 +118,13 @@ window.CICLOS["apsd"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 167,
-    "mefp": 160
+    "mefp": 160,
+    "loe": 140
    },
    "curso": {
     "aragon": 1,
-    "mefp": 2
+    "mefp": 2,
+    "loe": 1
    },
    "nota": null
   },
@@ -129,11 +135,13 @@ window.CICLOS["apsd"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 200,
-    "mefp": 190
+    "mefp": 190,
+    "loe": 235
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": 1
    },
    "nota": null
   },
@@ -144,11 +152,13 @@ window.CICLOS["apsd"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 67,
-    "mefp": 100
+    "mefp": 100,
+    "loe": 100
    },
    "curso": {
     "aragon": 2,
-    "mefp": 1
+    "mefp": 1,
+    "loe": 2
    },
    "nota": null
   },
@@ -159,11 +169,13 @@ window.CICLOS["apsd"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 233,
-    "mefp": 190
+    "mefp": 190,
+    "loe": 235
    },
    "curso": {
     "aragon": 2,
-    "mefp": 1
+    "mefp": 1,
+    "loe": 1
    },
    "nota": null
   },
@@ -174,11 +186,13 @@ window.CICLOS["apsd"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 233,
-    "mefp": 250
+    "mefp": 250,
+    "loe": 205
    },
    "curso": {
     "aragon": 1,
-    "mefp": 2
+    "mefp": 2,
+    "loe": 2
    },
    "nota": null
   },
@@ -189,11 +203,13 @@ window.CICLOS["apsd"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 133,
-    "mefp": 100
+    "mefp": 100,
+    "loe": 95
    },
    "curso": {
     "aragon": 2,
-    "mefp": 1
+    "mefp": 1,
+    "loe": 1
    },
    "nota": null
   },
@@ -204,11 +220,13 @@ window.CICLOS["apsd"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 133,
-    "mefp": 160
+    "mefp": 160,
+    "loe": 130
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": 2
    },
    "nota": null
   },
@@ -219,11 +237,13 @@ window.CICLOS["apsd"] = {
    "comun": "primeros_auxilios",
    "horas": {
     "aragon": 33,
-    "mefp": 60
+    "mefp": 60,
+    "loe": 40
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": 1
    },
    "nota": null
   },
@@ -234,11 +254,13 @@ window.CICLOS["apsd"] = {
    "comun": "ingles",
    "horas": {
     "aragon": 67,
-    "mefp": 70
+    "mefp": 70,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -249,11 +271,13 @@ window.CICLOS["apsd"] = {
    "comun": "ipe1",
    "horas": {
     "aragon": 100,
-    "mefp": 100
+    "mefp": 100,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -264,11 +288,13 @@ window.CICLOS["apsd"] = {
    "comun": "ipe2",
    "horas": {
     "aragon": 67,
-    "mefp": 100
+    "mefp": 100,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -279,11 +305,13 @@ window.CICLOS["apsd"] = {
    "comun": "digitalizacion",
    "horas": {
     "aragon": 33,
-    "mefp": 35
+    "mefp": 35,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -294,11 +322,13 @@ window.CICLOS["apsd"] = {
    "comun": "sostenibilidad",
    "horas": {
     "aragon": 33,
-    "mefp": 35
+    "mefp": 35,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -309,11 +339,13 @@ window.CICLOS["apsd"] = {
    "comun": "proyecto",
    "horas": {
     "aragon": 67,
-    "mefp": 50
+    "mefp": 50,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -324,11 +356,13 @@ window.CICLOS["apsd"] = {
    "comun": "optativo",
    "horas": {
     "aragon": 100,
-    "mefp": 80
+    "mefp": 80,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -339,11 +373,13 @@ window.CICLOS["apsd"] = {
    "comun": "tutoria",
    "horas": {
     "aragon": 33,
-    "mefp": null
+    "mefp": null,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": null
+    "mefp": null,
+    "loe": null
    },
    "nota": null
   },
@@ -354,11 +390,64 @@ window.CICLOS["apsd"] = {
    "comun": "tutoria",
    "horas": {
     "aragon": 33,
-    "mefp": null
+    "mefp": null,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": null
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0218",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "fol_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 90
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0219",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "eie_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 60
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0220",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 400
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
    },
    "nota": null
   }
@@ -433,6 +522,26 @@ window.CICLOS["apsd"] = {
     "0214"
    ],
    "fuente": "RD 1085/2020 anexo II (antes RD 1593/2011 anexo IV)"
+  },
+  {
+   "origen_titulo": "Técnico en Atención Sociosanitaria (LOGSE, RD 496/2003)",
+   "origen_modulo": [
+    "Administración, gestión y comercialización en la pequeña empresa"
+   ],
+   "destino_modulos": [
+    "0219"
+   ],
+   "fuente": "RD 1593/2011 anexo IV (derogado por RD 1085/2020; el módulo 0219 ya no existe tras el RD 499/2024)"
+  },
+  {
+   "origen_titulo": "Técnico en Atención Sociosanitaria (LOGSE, RD 496/2003)",
+   "origen_modulo": [
+    "Formación en centro de trabajo"
+   ],
+   "destino_modulos": [
+    "0218"
+   ],
+   "fuente": "RD 1593/2011 anexo IV, texto original (derogado). El texto dice 0218, que es FOL; lo lógico sería 0220 (FCT). Es probablemente una errata del BOE."
   },
   {
    "origen_titulo": "Técnico en Cuidados Auxiliares de Enfermería (LOGSE, RD 546/1995)",

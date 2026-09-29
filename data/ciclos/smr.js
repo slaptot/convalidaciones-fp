@@ -114,11 +114,13 @@ window.CICLOS["smr"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 200,
-    "mefp": 190
+    "mefp": 190,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -129,11 +131,13 @@ window.CICLOS["smr"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 167,
-    "mefp": 170
+    "mefp": 170,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -144,11 +148,13 @@ window.CICLOS["smr"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 200,
-    "mefp": 220
+    "mefp": 220,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -159,11 +165,13 @@ window.CICLOS["smr"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 200,
-    "mefp": 220
+    "mefp": 220,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -174,11 +182,13 @@ window.CICLOS["smr"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 200,
-    "mefp": 190
+    "mefp": 190,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -189,11 +199,13 @@ window.CICLOS["smr"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 133,
-    "mefp": 160
+    "mefp": 160,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -204,11 +216,13 @@ window.CICLOS["smr"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 167,
-    "mefp": 220
+    "mefp": 220,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -219,11 +233,13 @@ window.CICLOS["smr"] = {
    "comun": "especifico",
    "horas": {
     "aragon": 200,
-    "mefp": 160
+    "mefp": 160,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -234,11 +250,13 @@ window.CICLOS["smr"] = {
    "comun": "ingles",
    "horas": {
     "aragon": 67,
-    "mefp": 70
+    "mefp": 70,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -249,11 +267,13 @@ window.CICLOS["smr"] = {
    "comun": "ipe1",
    "horas": {
     "aragon": 100,
-    "mefp": 100
+    "mefp": 100,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -264,11 +284,13 @@ window.CICLOS["smr"] = {
    "comun": "ipe2",
    "horas": {
     "aragon": 67,
-    "mefp": 100
+    "mefp": 100,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -279,11 +301,13 @@ window.CICLOS["smr"] = {
    "comun": "digitalizacion",
    "horas": {
     "aragon": 33,
-    "mefp": 35
+    "mefp": 35,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -294,11 +318,13 @@ window.CICLOS["smr"] = {
    "comun": "sostenibilidad",
    "horas": {
     "aragon": 33,
-    "mefp": 35
+    "mefp": 35,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 1
+    "mefp": 1,
+    "loe": null
    },
    "nota": null
   },
@@ -309,11 +335,13 @@ window.CICLOS["smr"] = {
    "comun": "proyecto",
    "horas": {
     "aragon": 67,
-    "mefp": 50
+    "mefp": 50,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -324,11 +352,13 @@ window.CICLOS["smr"] = {
    "comun": "optativo",
    "horas": {
     "aragon": 100,
-    "mefp": 80
+    "mefp": 80,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": 2
+    "mefp": 2,
+    "loe": null
    },
    "nota": null
   },
@@ -339,11 +369,13 @@ window.CICLOS["smr"] = {
    "comun": "tutoria",
    "horas": {
     "aragon": 33,
-    "mefp": null
+    "mefp": null,
+    "loe": null
    },
    "curso": {
     "aragon": 1,
-    "mefp": null
+    "mefp": null,
+    "loe": null
    },
    "nota": null
   },
@@ -354,11 +386,13 @@ window.CICLOS["smr"] = {
    "comun": "tutoria",
    "horas": {
     "aragon": 33,
-    "mefp": null
+    "mefp": null,
+    "loe": null
    },
    "curso": {
     "aragon": 2,
-    "mefp": null
+    "mefp": null,
+    "loe": null
    },
    "nota": null
   }

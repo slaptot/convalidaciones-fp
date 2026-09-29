@@ -405,7 +405,7 @@
 
   function pintarInforme(c, amb, filas, avisos, n) {
     const hoy = new Date().toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
-    const plan = amb === 'aragon' ? 'Aragón' : 'Ministerio (ámbito MEFPD)';
+    const plan = amb === 'aragon' ? 'LO 3/2022 · Aragón' : amb === 'mefp' ? 'LO 3/2022 · Ministerio (ámbito MEFPD)' : 'LOE a extinguir';
     const totalHoras = filas.reduce((s, f) => s + (f.modulo.horas[amb] || 0), 0);
 
     const aportadas = state.aportaciones.length

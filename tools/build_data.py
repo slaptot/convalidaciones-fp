@@ -20,6 +20,9 @@ COMUNES = {
     "1708": "sostenibilidad",
     "0020": "primeros_auxilios",
     "TCAE-06": "rel_equipo", "TCAE-07": "fol_logse",
+    # Plan LOE a extinguir: FOL, EIE y FCT siguen siendo módulos del ciclo
+    "0218": "fol_loe", "0229": "fol_loe", "0644": "fol_loe", "1648": "fol_loe",
+    "0219": "eie_loe", "0230": "eie_loe", "0645": "eie_loe", "1649": "eie_loe",
 }
 
 CODIGO_LOE = re.compile(r"^(\d{4})\.\s*(.+)$")
@@ -36,22 +39,25 @@ def horas_ambito(m, claves):
 
 
 def modulos(d, cfg):
+    """Un módulo entra en cada plan (ámbito) solo si ese plan le asigna horas."""
     out = []
+    loe = cfg.get("loe")
     for m in d["modulos"]:
-        if not m.get("vigente"):
-            continue
         cod = m["codigo"] or "OPT"
         if cod in cfg.get("excluir", []):
             continue
-        ha, ca = cfg["aragon"](m)
-        hm, cm = cfg["mefp"](m)
+        hl, cl = loe(m) if loe else (None, None)
+        if not m.get("vigente") and hl is None:
+            continue  # módulo suprimido sin datos del plan LOE
+        ha, ca = (cfg["aragon"](m) if m.get("vigente") else (None, None))
+        hm, cm = (cfg["mefp"](m) if m.get("vigente") else (None, None))
         out.append({
             "codigo": cod,
             "nombre": m["nombre"],
             "tipo": m["tipo"],
             "comun": COMUNES.get(cod, "tutoria" if cod.startswith("A99") else m["tipo"]),
-            "horas": {"aragon": ha, "mefp": hm},
-            "curso": {"aragon": ca, "mefp": cm},
+            "horas": {"aragon": ha, "mefp": hm, "loe": hl},
+            "curso": {"aragon": ca, "mefp": cm, "loe": cl},
             "nota": m.get("nota"),
         })
     return out
@@ -142,6 +148,7 @@ def _termalismo_aragon(m):
 
 
 build("apsd", "apsd.json", {
+    "loe": lambda m: horas_ambito(m, ["mec_ECD_340_2012"]),
     "aragon": lambda m: horas_ambito(m, ["aragon_ECD_842_2024"]) if m["codigo"] not in ("A997", "A996") else (m["horas"], m["curso"]),
     "mefp": lambda m: horas_ambito(m, ["mefp_EFD_657_2024"]),
     "excluir": ["A995"],  # Tutoría III: solo régimen nocturno
@@ -153,6 +160,7 @@ build("apsd", "apsd.json", {
 })
 
 build("termalismo", "termalismo.json", {
+    "loe": lambda m: ((m.get("horas_otras") or {}).get("Aragon_Orden_ECD_993_2021_LOE"), None),
     "aragon": _termalismo_aragon,
     "mefp": lambda m: (m.get("horas"), m.get("curso")),
     "equivalencias": {"UC1867_2": ["UC1867_3"], "UC1868_2": ["UC1868_3"]},

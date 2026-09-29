@@ -181,3 +181,23 @@ assert.ok(f.filas.every((x) => !x.mejor) && f.avisos.some((a) => a.includes('Gra
 f = full('apsd', [{ tipo: 'titulo', titulo: 'Técnico en Cuidados Auxiliares de Enfermería (LOGSE, RD 546/1995)', docs: [] }]);
 assert.deepEqual(f.filas.find((x) => x.modulo.codigo === '0216').mejor.faltan, ['cert_academica']);
 console.log('OK: título completo');
+
+// ---- Plan LOE a extinguir ----
+r = est('apsd', [], 'loe');
+assert.ok('0218' in r && '0219' in r && '0220' in r, 'el plan LOE conserva FOL, EIE y FCT');
+assert.ok(!('1709' in r) && !('0156' in r), 'sin módulos de la LO 3/2022');
+// FOL de otro ciclo LOE convalida el FOL del plan LOE
+assert.equal(est('apsd', [{ tipo: 'modulo_loe', codigo: '1648', nombre: 'Formación y orientación laboral', docs: [] }], 'loe')['0218'], 'convalidable');
+// EIE de otro ciclo LOE convalida el EIE
+assert.equal(est('apsd', [{ tipo: 'modulo_loe', codigo: '1649', nombre: 'Empresa e iniciativa emprendedora', docs: [] }], 'loe')['0219'], 'convalidable');
+// La FCT no se convalida: solo exención por experiencia
+r = est('apsd', [{ tipo: 'experiencia', meses: 12, relacionada: true, docs: [] }], 'loe');
+assert.equal(r['0220'], 'exento');
+assert.ok(!('FE' in r));
+// Los tres certificados en el plan LOE: mismos 7 módulos
+r = est('apsd', ['MF1016_2','MF1017_2','MF1018_2','MF1019_2','MF0249_2','MF0250_2','MF0251_2','MF1423_2','MF1424_2','MF1425_2']
+  .map((c) => ({ tipo: 'mf', codigo: c, docs: ['cert_profesionalidad'] })), 'loe');
+for (const m of ['0210', '0213', '0214', '0215', '0216', '0217', '0831']) assert.equal(r[m], 'convalidable', m);
+// Un ciclo sin datos del plan LOE avisa en vez de callar
+assert.ok(full('smr', [], 'loe').avisos.some((a) => a.includes('No hay datos de este plan')));
+console.log('OK: plan LOE a extinguir');

@@ -131,7 +131,7 @@
     // Reglas generales. aplica_a = valores de "comun" de los módulos del ciclo.
     reglas_generales: [
       {
-        id: 'C2', aplica_a: ['ipe1'], estado: 'convalidable', resuelve: 'Dirección del centro (automática)',
+        id: 'C2', aplica_a: ['ipe1', 'fol_loe'], estado: 'convalidable', resuelve: 'Dirección del centro (automática)',
         calificacion: 'ipe', fundamento: 'RD 659/2023 arts. 126.5 y 127.b.5º; RD 1085/2020 DA 6ª',
         evaluar(ctx) {
           const fol = ctx.loe.filter((a) => RE.fol.test(a.nombre || ''));
@@ -139,7 +139,7 @@
         },
       },
       {
-        id: 'C4', aplica_a: ['ipe1'], estado: 'convalidable', resuelve: 'Dirección del centro',
+        id: 'C4', aplica_a: ['ipe1', 'fol_loe'], estado: 'convalidable', resuelve: 'Dirección del centro',
         calificacion: 'ipe', fundamento: 'RD 1085/2020 Anexo II y DA 3ª; Aragón Anexo VIII ap. 6.5',
         aviso: 'El art. 127.b.5º RD 659/2023 no exige PRL; todofp y Aragón sí lo piden para FOL LOGSE.',
         evaluar(ctx) {
@@ -154,7 +154,7 @@
         },
       },
       {
-        id: 'C5', aplica_a: ['ipe1'], estado: 'convalidable', resuelve: 'Dirección del centro',
+        id: 'C5', aplica_a: ['ipe1', 'fol_loe'], estado: 'convalidable', resuelve: 'Dirección del centro',
         calificacion: 'tabla', fundamento: 'RD 1085/2020 DA 2ª, Anexo II y DA 6ª',
         evaluar(ctx) {
           const c = certs(ctx, 'ciclo_prl_logse');
@@ -162,7 +162,7 @@
         },
       },
       {
-        id: 'C3', aplica_a: ['ipe2'], estado: 'convalidable', resuelve: 'Dirección del centro (automática)',
+        id: 'C3', aplica_a: ['ipe2', 'eie_loe'], estado: 'convalidable', resuelve: 'Dirección del centro (automática)',
         calificacion: 'ipe', fundamento: 'RD 659/2023 arts. 126.5 y 127.b.5º; RD 1085/2020 DA 6ª',
         evaluar(ctx) {
           const eie = ctx.loe.filter((a) => RE.eie.test(a.nombre || ''));
@@ -170,7 +170,7 @@
         },
       },
       {
-        id: 'C6', aplica_a: ['ipe2'], estado: 'convalidable', resuelve: 'Dirección del centro',
+        id: 'C6', aplica_a: ['ipe2', 'eie_loe'], estado: 'convalidable', resuelve: 'Dirección del centro',
         calificacion: 'tabla', fundamento: 'RD 1085/2020 Anexo II (cuadro EIE) y DA 6ª',
         evaluar(ctx) {
           const m = logse(ctx, 'Administración, gestión y comercialización en la pequeña empresa',
@@ -179,7 +179,7 @@
         },
       },
       {
-        id: 'C7', aplica_a: ['ipe2'], estado: 'convalidable', resuelve: 'Dirección del centro',
+        id: 'C7', aplica_a: ['ipe2', 'eie_loe'], estado: 'convalidable', resuelve: 'Dirección del centro',
         calificacion: 'tabla', fundamento: 'RD 1085/2020 Anexo III (redacción RD 500/2024) y DA 6ª',
         evaluar(ctx) {
           const c = certs(ctx, 'ciclo_comercio_admin');
@@ -196,7 +196,7 @@
         },
       },
       {
-        id: 'A-6.15', aplica_a: ['fol_logse'], estado: 'convalidable', resuelve: 'Dirección del centro',
+        id: 'A-6.15', aplica_a: ['fol_logse', 'fol_loe'], estado: 'convalidable', resuelve: 'Dirección del centro',
         calificacion: 'tabla',
         fundamento: 'Aragón, Decreto 91/2024 Anexo VIII ap. 6.15 (redacción de la Resolución de 3/12/2025, BOA 16/12/2025)',
         aviso: 'Regla autonómica de Aragón: en FOL LOGSE solo cabe en grado medio.',

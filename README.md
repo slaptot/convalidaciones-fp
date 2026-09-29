@@ -11,6 +11,8 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Cuidados Auxiliares de Enfermería | SAN201 | Medio | LOGSE |
 | Termalismo y Bienestar | IMP304 | Superior | LO 3/2022 |
 
+Cada ciclo se puede analizar con tres planes: LO 3/2022 en Aragón, LO 3/2022 del Ministerio y LOE a extinguir (con FOL, EIE y FCT). APSD y Termalismo tienen datos del plan LOE.
+
 ## Uso
 
 - Abrir `index.html` en el navegador (funciona sin servidor), o bien `python3 -m http.server 8765`.
