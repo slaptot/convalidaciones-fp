@@ -117,6 +117,9 @@ a { color: var(--accent); }
   .res-tabla .num { text-align: center; }
   .res-tabla th.num { text-align: center; }
   .res-recursos { font-size: 9pt; margin-top: 14pt; }
+  .res-apartado { font-size: 10pt; font-weight: bold; margin: 10pt 0 3pt; border: none; text-transform: none; letter-spacing: 0; }
+  .res-nota { font-size: 8pt; color: #333; margin-top: 2pt; }
+  .res-recibi { font-size: 9pt; margin: 6pt 0 0; }
   .res-lugar { margin: 20pt 0 0; }
   .res-firma { margin-top: 10pt; text-align: center; break-inside: avoid; }
   .res-firma p { margin: 0; }

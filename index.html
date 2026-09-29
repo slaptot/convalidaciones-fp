@@ -36,6 +36,14 @@
           <label>Localidad <input id="localidad" placeholder="Calatayud"></label>
           <label>Fecha de la resolución <input id="fecha_res" type="date"></label>
         </div>
+        <div class="fila">
+          <label>Titularidad del centro
+            <select id="titularidad"><option value="publico">Público (recurso de alzada)</option><option value="privado">Privado (reclamación)</option></select></label>
+          <label>Servicio Provincial
+            <select id="provincia"><option value="Zaragoza">Zaragoza</option><option value="Huesca">Huesca</option><option value="Teruel">Teruel</option></select></label>
+        </div>
+        <label id="lbl-adscrito" hidden>Centro público de adscripción (resuelve la exención en centros privados)
+          <input id="adscrito" placeholder="IES ..."></label>
         <label>Directora/Director <input id="director" placeholder="Nombre y apellidos"></label>
       </details>
       <div class="fila">

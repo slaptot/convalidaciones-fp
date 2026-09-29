@@ -28,7 +28,7 @@
   let state = cargar() || nuevo();
 
   function nuevo() {
-    return { centro: '', membrete: '', localidad: '', director: '', fecha_res: '', alumno: '', dni: '', curso: '', ciclo: Object.keys(CICLOS)[0], ambito: 'aragon', aportaciones: [], notas: '' };
+    return { centro: '', membrete: '', localidad: '', director: '', fecha_res: '', titularidad: 'publico', provincia: 'Zaragoza', adscrito: '', alumno: '', dni: '', curso: '', ciclo: Object.keys(CICLOS)[0], ambito: 'aragon', aportaciones: [], notas: '' };
   }
   function cargar() {
     try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; }
@@ -55,6 +55,10 @@
     $('#localidad').value = state.localidad || '';
     $('#director').value = state.director || '';
     $('#fecha_res').value = state.fecha_res || new Date().toISOString().slice(0, 10);
+    $('#titularidad').value = state.titularidad || 'publico';
+    $('#provincia').value = state.provincia || 'Zaragoza';
+    $('#adscrito').value = state.adscrito || '';
+    $('#lbl-adscrito').hidden = (state.titularidad || 'publico') !== 'privado';
     $('#alumno').value = state.alumno;
     $('#dni').value = state.dni;
     $('#curso').value = state.curso;
@@ -324,63 +328,6 @@
     pintarExencion(c, amb, filas);
   }
 
-  // ---------- Resolución de la dirección del centro ----------
-  const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
-
-  function fechaLarga(iso) {
-    const d = iso ? new Date(`${iso}T00:00:00`) : new Date();
-    return `${d.getDate()} de ${MESES[d.getMonth()]} de ${d.getFullYear()}`;
-  }
-  function fechaCorta(iso) {
-    const d = iso ? new Date(`${iso}T00:00:00`) : new Date();
-    return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
-  }
-
-  function pintarResolucion(c, amb, filas) {
-    // Solo lo que resuelve el propio centro: convalidaciones y traslados de nota
-    const conv = filas.filter((f) => f.mejor && ['convalidable', 'superado'].includes(f.mejor.estado));
-    const cuerpo = conv.length
-      ? conv.map(({ modulo: m }) => `<tr>
-          <td class="cod">${h(m.codigo)}</td>
-          <td>${h(nombreModulo(m, amb))}</td>
-          <td class="num">${m.curso[amb] || ''}</td>
-          <td></td>
-        </tr>`).join('')
-      : `<tr><td colspan="4" class="vacio-td">No procede convalidar ningún módulo.</td></tr>`;
-
-    $('#resolucion').innerHTML = `
-      <div class="res-membrete">${h(state.centro || '')}${state.membrete ? `<br>${h(state.membrete).replace(/\n/g, '<br>')}` : ''}</div>
-
-      <h1 class="res-titulo">Resolución de la dirección del centro sobre convalidación de módulos profesionales</h1>
-
-      <p class="res-p">Vistas las solicitudes presentadas por el alumnado y la documentación aportada.</p>
-      <p class="res-p">De conformidad con la Ley Orgánica 3/2022, de 31 de marzo; el Real Decreto 659/2023, de 18 de julio;
-      el Real Decreto 1085/2020, de 9 de diciembre; y el Decreto 91/2024, de 5 de junio, del Gobierno de Aragón
-      (artículo 48 y Anexo VIII):</p>
-      <p class="res-p"><b>SE RESUELVE:</b> Con fecha ${h(fechaCorta(state.fecha_res))}, convalidar los módulos profesionales
-      que se relacionan a continuación e incorporar la presente resolución al expediente académico del/de la alumno/a:
-      <b>${h(state.alumno || '____________________')}</b> con DNI: <b>${h(state.dni || '____________')}</b>,
-      matriculado/a en el ciclo formativo de ${h(c.ciclo.nombre)}${state.curso ? `, curso ${h(state.curso)}` : ''}.</p>
-
-      <table class="res-tabla">
-        <colgroup><col style="width:12%"><col style="width:58%"><col style="width:10%"><col style="width:20%"></colgroup>
-        <thead><tr><th>Código</th><th>Nombre Módulo</th><th class="num">Curso</th><th>Registro/calificación</th></tr></thead>
-        <tbody>${cuerpo}</tbody>
-      </table>
-
-      <p class="res-p res-recursos"><b>MODO DE IMPUGNACIÓN / RECURSOS:</b> Contra la presente resolución, que no agota la
-      vía administrativa, se podrá interponer Recurso de Alzada ante la persona titular de la Dirección General competente
-      en materia de Formación Profesional en el plazo de un mes a contar desde el día siguiente a su notificación, de
-      conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, y el artículo 53 del Decreto 91/2024.</p>
-
-      <p class="res-lugar">En ${h(state.localidad || '____________________')}, a ${h(fechaLarga(state.fecha_res))}</p>
-      <div class="res-firma">
-        <p>LA/EL DIRECTORA/DIRECTOR DEL CENTRO</p>
-        <div class="res-linea"></div>
-        <p>Fdo.: ${h(state.director || '____________________')}</p>
-      </div>`;
-  }
-
   // ---------- Anexo imprimible ----------
   // Etiquetas cortas para el anexo (en la tabla se repiten mucho)
   const TIPO_CORTO = {
@@ -493,14 +440,127 @@
         <div class="inf-firma"><p>V.º B.º Dirección del centro</p><div class="inf-linea"></div><p class="inf-fdo">Fdo.: ____________________</p></div>
       </div>
 
-      <p class="inf-pie">Documento generado con la herramienta de análisis de convalidaciones. El resultado es orientativo:
-      la resolución corresponde al órgano competente conforme al RD 659/2023, al RD 1085/2020 y a la normativa autonómica aplicable.</p>`;
+      <p class="inf-pie">Documento generado con la herramienta de análisis de convalidaciones. Es una propuesta de trabajo interna:
+      no constituye resolución administrativa ni se notifica al interesado. La resolución corresponde en cada caso al órgano
+      competente: a la dirección del centro (artículos 127.1.a y 128.1 del RD 659/2023; artículo 8 del RD 1085/2020; artículo 50.4
+      y apartado 6 del Anexo VIII del Decreto 91/2024), a la Dirección General competente en los Grados D y E (artículo 50.4,
+      párrafo segundo, y apartado 8 del Anexo VIII) o a la Subdirección General de Ordenación e Innovación de la FP del Ministerio
+      (artículo 9 del RD 1085/2020). Antes de resolver debe contrastarse el resultado con el texto vigente de las normas citadas.
+      Normativa consolidada empleada: BOE a 07/04/2026 y Decreto 91/2024 (versión de 09/01/2026).</p>`;
   }
 
   function refrescar() {
     guardar();
     pintarAportaciones();
     pintarResultados();
+  }
+
+  // ---------- Resolución de la dirección del centro ----------
+  const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+
+  function fechaLarga(iso) {
+    const d = iso ? new Date(`${iso}T00:00:00`) : new Date();
+    return `${d.getDate()} de ${MESES[d.getMonth()]} de ${d.getFullYear()}`;
+  }
+  function fechaCorta(iso) {
+    const d = iso ? new Date(`${iso}T00:00:00`) : new Date();
+    return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
+  }
+
+  // Expresión breve para la columna "Registro/calificación" (Anexo VIII, aps. 15-24)
+  const calificacionCorta = (r) => (r.calificacion || '').split(' (')[0];
+
+  // Pie de recursos: art. 53 del Decreto 91/2024, distinto según titularidad y tipo de resolución
+  function recursos(tipo) {
+    const privado = state.titularidad === 'privado';
+    const sp = `la persona titular de la Dirección del Servicio Provincial del Departamento competente en las enseñanzas no universitarias de ${h(state.provincia || '____________')}`;
+    const via = privado ? 'reclamación' : 'recurso de alzada';
+    const art = tipo === 'exencion' ? (privado ? '53.3' : '53.2') : '53.1.a)';
+    const cierre = tipo === 'exencion'
+      ? 'La resolución del recurso pondrá fin a la vía administrativa.'
+      : 'La resolución del recurso de alzada o reclamación pone fin a la vía administrativa y contra ella no cabrá ningún otro recurso administrativo, salvo el recurso extraordinario de revisión en los casos del artículo 125.1 de la Ley 39/2015, o bien recurso contencioso-administrativo.';
+    return `<p class="res-p res-recursos"><b>MODO DE IMPUGNACIÓN / RECURSOS:</b> Contra la presente resolución, que no pone fin a la
+      vía administrativa, podrá interponerse <b>${via}</b> ante ${sp}, en el plazo de <b>un mes</b> contado desde el día siguiente
+      al de su notificación, de conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, del Procedimiento
+      Administrativo Común de las Administraciones Públicas, y con el artículo ${art} del Decreto 91/2024, de 5 de junio, del
+      Gobierno de Aragón. Podrá presentarse ante este centro o ante el órgano competente para resolverlo (artículo 121.2 de la
+      Ley 39/2015). ${cierre}</p>`;
+  }
+
+  function notificacion() {
+    return `<p class="res-p res-recursos"><b>NOTIFICACIÓN.</b> La presente resolución se notifica íntegramente a la persona
+      interesada, de conformidad con el artículo 40 de la Ley 39/2015, de 1 de octubre.</p>
+      <p class="res-recibi">Recibí. Fecha: ____ / ____ / ________ &nbsp;&nbsp; Firma del/de la interesado/a: ____________________</p>`;
+  }
+
+  function firma(texto) {
+    return `<p class="res-lugar">En ${h(state.localidad || '____________________')}, a ${h(fechaLarga(state.fecha_res))}</p>
+      <div class="res-firma">
+        <p>${texto}</p>
+        <div class="res-linea"></div>
+        <p>Fdo.: ${h(state.director || '____________________')}</p>
+      </div>`;
+  }
+
+  function tablaModulos(filas, amb) {
+    return `<table class="res-tabla">
+        <colgroup><col style="width:12%"><col style="width:58%"><col style="width:10%"><col style="width:20%"></colgroup>
+        <thead><tr><th>Código</th><th>Nombre Módulo</th><th class="num">Curso</th><th>Registro/calificación</th></tr></thead>
+        <tbody>${filas.map(({ modulo: m, mejor }) => `<tr>
+          <td class="cod">${h(m.codigo)}</td>
+          <td>${h(nombreModulo(m, amb))}</td>
+          <td class="num">${m.curso[amb] || ''}</td>
+          <td>${h(calificacionCorta(mejor))}</td>
+        </tr>`).join('')}</tbody>
+      </table>`;
+  }
+
+  function pintarResolucion(c, amb, filas) {
+    // El Anexo VIII ap. 3 exige separar la convalidación del traslado de nota
+    const convalidados = filas.filter((f) => f.mejor && f.mejor.estado === 'convalidable');
+    const trasladados = filas.filter((f) => f.mejor && f.mejor.estado === 'superado');
+
+    const dispositivo = [];
+    if (convalidados.length) {
+      dispositivo.push(`<p class="res-p"><b>Primero. Convalidar</b> los módulos profesionales que se relacionan en el
+        <b>apartado A</b>, con la expresión de calificación que en él se indica.</p>
+        <h2 class="res-apartado">A · Módulos convalidados</h2>${tablaModulos(convalidados, amb)}`);
+    }
+    if (trasladados.length) {
+      dispositivo.push(`<p class="res-p"><b>${convalidados.length ? 'Segundo' : 'Primero'}. Declarar superados</b>, por tratarse
+        de módulos idénticos, y <b>trasladar la calificación</b> obtenida a los módulos relacionados en el
+        <b>apartado ${convalidados.length ? 'B' : 'A'}</b>, que <b>no son objeto de convalidación</b>, de acuerdo con el apartado 3
+        del Anexo VIII del Decreto 91/2024, de 5 de junio.</p>
+        <h2 class="res-apartado">${convalidados.length ? 'B' : 'A'} · Módulos idénticos: traslado de calificación</h2>${tablaModulos(trasladados, amb)}`);
+    }
+    if (!dispositivo.length) {
+      dispositivo.push(`<p class="res-p"><b>Primero.</b> No procede convalidar ningún módulo profesional con la documentación aportada.</p>`);
+    }
+
+    $('#resolucion').innerHTML = `
+      <div class="res-membrete">${h(state.centro || '')}${state.membrete ? `<br>${h(state.membrete).replace(/\n/g, '<br>')}` : ''}</div>
+
+      <h1 class="res-titulo">Resolución de la dirección del centro sobre convalidación de módulos profesionales</h1>
+
+      <p class="res-p">Vista la solicitud presentada por el/la alumno/a y la documentación aportada.</p>
+      <p class="res-p">De conformidad con la Ley Orgánica 3/2022, de 31 de marzo; el Real Decreto 659/2023, de 18 de julio
+      (artículos 126 a 128); el Real Decreto 1085/2020, de 9 de diciembre (artículos 8 y 10); y el Decreto 91/2024, de 5 de junio,
+      del Gobierno de Aragón (artículos 48, 50 y 51 y Anexo VIII, apartado 6):</p>
+      <p class="res-p"><b>SE RESUELVE:</b> Con fecha ${h(fechaCorta(state.fecha_res))}, respecto del/de la alumno/a
+      <b>${h(state.alumno || '____________________')}</b> con DNI: <b>${h(state.dni || '____________')}</b>,
+      matriculado/a en el ciclo formativo de ${h(c.ciclo.nombre)}${state.curso ? `, curso ${h(state.curso)}` : ''}:</p>
+
+      ${dispositivo.join('')}
+
+      <p class="res-p"><b>EFECTOS.</b> Conforme al artículo 50.8 del Decreto 91/2024, la presente resolución es efectiva desde el
+      momento de su concesión. Se incorporará al expediente académico del/de la alumno/a y se registrará en las actas de evaluación
+      y en cualquier certificación académica que se expida (artículo 51.2), con la expresión indicada en la columna
+      "Registro/calificación" (Anexo VIII, apartados 15 a 24). La documentación justificativa queda custodiada por este centro junto
+      a los documentos oficiales de evaluación (artículo 50.9).</p>
+
+      ${recursos('convalidacion')}
+      ${notificacion()}
+      ${firma('LA/EL DIRECTORA/DIRECTOR DEL CENTRO')}`;
   }
 
   // ---------- Resolución de exención de la formación en empresa ----------
@@ -510,20 +570,35 @@
     const exp = state.aportaciones.filter((a) => a.tipo === 'experiencia');
     const meses = exp.filter((a) => a.relacionada).reduce((s, a) => s + (a.meses || 0), 0);
     const total = mejor && mejor.estado === 'exento';
+    const privado = state.titularidad === 'privado';
+    const minimo = 'un año a tiempo completo o su equivalente (Grado D)';
     const nombreMod = fila
       ? `${fila.modulo.codigo === 'FE' ? '' : `${fila.modulo.codigo} `}${nombreModulo(fila.modulo, amb)}`
       : 'periodo de formación en empresa u organismo equiparado';
     const docs = [...new Set(exp.flatMap((a) => a.docs))];
 
+    const alcance = total
+      ? `<p class="res-p"><b>Alcance:</b> exención <b>total</b> del ${h(nombreMod)}.</p>`
+      : `<p class="res-p"><b>Alcance:</b> exención <b>parcial</b>. Quedan eximidos los siguientes resultados de aprendizaje del
+         periodo de formación en empresa u organismo equiparado, por coincidencia con las tareas profesionales acreditadas
+         (artículo 131.4 del Real Decreto 659/2023):</p>
+         <table class="res-tabla">
+           <colgroup><col style="width:38%"><col style="width:42%"><col style="width:20%"></colgroup>
+           <thead><tr><th>Módulo profesional</th><th>Resultado(s) de aprendizaje eximido(s)</th><th class="num">Horas (orientativo)</th></tr></thead>
+           <tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody>
+         </table>
+         <p class="res-p">El/la alumno/a deberá realizar el resto del periodo, por una duración de ____________ horas.</p>`;
+
     $('#exencion').innerHTML = `
       <div class="res-membrete">${h(state.centro || '')}${state.membrete ? `<br>${h(state.membrete).replace(/\n/g, '<br>')}` : ''}</div>
 
-      <h1 class="res-titulo">Resolución de la dirección del centro sobre exención del periodo de formación en empresa u organismo equiparado</h1>
+      <h1 class="res-titulo">Resolución sobre exención del periodo de formación en empresa u organismo equiparado</h1>
 
-      <p class="res-p">Vista la solicitud presentada por el/la alumno/a y la documentación acreditativa de la experiencia
-      laboral aportada.</p>
-      <p class="res-p">De conformidad con la Ley Orgánica 3/2022, de 31 de marzo (artículo 39.2.b); el Real Decreto 659/2023,
-      de 18 de julio (artículos 131 y 161.1); y el Decreto 91/2024, de 5 de junio, del Gobierno de Aragón (artículos 49 a 51):</p>
+      <p class="res-p">Vista la solicitud presentada por el/la alumno/a y la documentación acreditativa de la experiencia laboral
+      aportada${privado ? `, así como el informe y la documentación remitidos por el centro privado ${h(state.centro || '____________')} (artículo 50.7 del Decreto 91/2024)` : ''}.</p>
+      <p class="res-p">De conformidad con la Ley Orgánica 3/2022, de 31 de marzo (artículo 39.2.b); el Real Decreto 659/2023, de 18
+      de julio (artículos 131, 161 y 177.3); y el Decreto 91/2024, de 5 de junio, del Gobierno de Aragón (artículos 49, 50.6, 50.7
+      y 51.3):</p>
       <p class="res-p"><b>SE RESUELVE:</b> Con fecha ${h(fechaCorta(state.fecha_res))}, conceder la
       <b>exención ${total ? 'total' : 'parcial'}</b> del ${h(nombreMod)} al/a la alumno/a
       <b>${h(state.alumno || '____________________')}</b> con DNI: <b>${h(state.dni || '____________')}</b>,
@@ -533,27 +608,26 @@
       <table class="res-tabla">
         <colgroup><col style="width:34%"><col style="width:66%"></colgroup>
         <tbody>
-          <tr><th>Experiencia laboral acreditada</th><td>${meses ? `${meses} meses a tiempo completo o equivalente` : '____________________'}</td></tr>
-          <tr><th>Alcance de la exención</th><td>${total ? 'Total' : 'Parcial (indíquense los resultados de aprendizaje eximidos)'}</td></tr>
+          <tr><th>Experiencia laboral acreditada</th><td>${meses ? `${meses} meses a tiempo completo o equivalente` : '____________________'}
+            <div class="res-nota">Mínimo exigible: ${h(minimo)} (artículo 161.1 del RD 659/2023). Solo es válida la experiencia de
+            los cinco años anteriores a la solicitud (artículo 49.1 del Decreto 91/2024).</div></td></tr>
           <tr><th>Documentación aportada</th><td>${docs.length ? docs.map((d) => h(doc(d))).join('; ') : '____________________'}</td></tr>
         </tbody>
       </table>
 
-      <p class="res-p">La exención se hará constar en los documentos de evaluación y no afectará a la calificación de los
-      módulos profesionales cuyos resultados de aprendizaje se desarrollen entre el centro y la empresa
-      (artículo 131.6 del Real Decreto 659/2023 y artículo 51.3 del Decreto 91/2024).</p>
+      ${alcance}
 
-      <p class="res-p res-recursos"><b>MODO DE IMPUGNACIÓN / RECURSOS:</b> Contra la presente resolución, que no agota la
-      vía administrativa, se podrá interponer Recurso de Alzada ante la persona titular de la Dirección General competente
-      en materia de Formación Profesional en el plazo de un mes a contar desde el día siguiente a su notificación, de
-      conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, y el artículo 53 del Decreto 91/2024.</p>
+      <p class="res-p">La exención del periodo de formación en empresa u organismo equiparado se recogerá en los documentos de
+      evaluación y no afectará a las calificaciones de los módulos profesionales a los que pertenezcan los resultados de aprendizaje
+      compartidos entre centro de formación profesional y empresa u organismo equiparado. Será el equipo docente del centro de
+      formación profesional el responsable único de la evaluación y calificación (artículo 131.6 del Real Decreto 659/2023 y
+      artículo 51.3 del Decreto 91/2024).</p>
 
-      <p class="res-lugar">En ${h(state.localidad || '____________________')}, a ${h(fechaLarga(state.fecha_res))}</p>
-      <div class="res-firma">
-        <p>LA/EL DIRECTORA/DIRECTOR DEL CENTRO</p>
-        <div class="res-linea"></div>
-        <p>Fdo.: ${h(state.director || '____________________')}</p>
-      </div>`;
+      ${recursos('exencion')}
+      ${notificacion()}
+      ${firma(privado
+        ? `LA/EL DIRECTORA/DIRECTOR DEL CENTRO PÚBLICO DE ADSCRIPCIÓN${state.adscrito ? `<br>${h(state.adscrito)}` : ''}`
+        : 'LA/EL DIRECTORA/DIRECTOR DEL CENTRO')}`;
   }
 
   // ---------- Eventos ----------
@@ -564,8 +638,15 @@
     refrescar();
 
     $('#ambito').addEventListener('change', (e) => { state.ambito = e.target.value; refrescar(); });
-    for (const id of ['centro', 'membrete', 'localidad', 'director', 'fecha_res', 'alumno', 'dni', 'curso', 'notas']) {
+    for (const id of ['centro', 'membrete', 'localidad', 'director', 'fecha_res', 'adscrito', 'alumno', 'dni', 'curso', 'notas']) {
       $('#' + id).addEventListener('input', (e) => { state[id] = e.target.value; guardar(); pintarResultados(); });
+    }
+    for (const id of ['titularidad', 'provincia']) {
+      $('#' + id).addEventListener('change', (e) => {
+        state[id] = e.target.value;
+        $('#lbl-adscrito').hidden = state.titularidad !== 'privado';
+        guardar(); pintarResultados();
+      });
     }
     $('#ciclo').addEventListener('change', (e) => {
       if (state.aportaciones.some((a) => a.tipo === 'modulo_logse') &&
