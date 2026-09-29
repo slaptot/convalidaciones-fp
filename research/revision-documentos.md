@@ -147,3 +147,106 @@ El encabezado del anexo ya dice «Propuesta de resolución. Documento de trabajo
 6. **Jerarquía orgánica Servicio Provincial / dirección de centro.** No he leído el decreto de estructura orgánica del Departamento que confirme que el Servicio Provincial es el superior jerárquico a efectos del art. 121.1 LPAC. No es necesario para la corrección propuesta, porque el art. 53.1.a) del Decreto 91/2024 designa el órgano de forma expresa.
 7. **Anexos I a V, VII y XI del Decreto 91/2024** (sustituidos por la Resolución de 3/12/2025): no los he abierto. Sólo he leído el **Anexo VIII** completo, más los Anexos IX y X de forma incidental.
 8. **Si `engine.js` ya bloquea** la exención en los ciclos de Sanidad de Grado Superior del art. 49.2 D91 y en el régimen intensivo (art. 131.1 RD 659). Lo señalo como comprobación pendiente sobre el motor, no sobre los textos.
+
+---
+
+## Contraste con el BOA auténtico (29/09/2026)
+
+**Conclusión previa:** el BOA **confirma el fondo** de la corrección propuesta (el recurso contra la resolución de la dirección del centro se interpone **ante la Dirección del Servicio Provincial**, nunca ante la Dirección General), pero **desmiente la atribución de la cita**: el texto que el PDF consolidado presenta como «artículo 53.1» del Decreto 91/2024 **no es el del Decreto 91/2024 original**, sino el que le dio el **Decreto 107/2025, de 10 de septiembre**. El **artículo 53.3 tampoco existe en el Decreto 91/2024**: lo incorporó ese mismo Decreto 107/2025.
+
+### Fuentes auténticas efectivamente descargadas y leídas
+
+| Norma | BOA | csv | URL exacta usada |
+|---|---|---|---|
+| **Decreto 91/2024, de 5 de junio** (texto original) | BOA núm. **109**, de **06/06/2024**, sección I. Disposiciones Generales, Departamento de Educación, Ciencia y Universidades. Art. 53 en pp. **15533-15534**. | **BOA20240606002** | PDF oficial firmado: `https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1336515330404` (155 pp.)<br>HTML oficial: `https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&PIECE=BOLE&DOCS=1-27&DOCR=2&SEC=BOA&RNG=200&SEPARADOR=&SECC-C=&PUBL-C=20240606&PUBL=&@PUBL-E=`<br>Sumario: `…BRSCGI?CMD=VERLST&BASE=BOLE&DOCS=1-200&SEC=BOA&SEPARADOR=&PUBL-C=20240606` |
+| **Decreto 107/2025, de 10 de septiembre** (modifica el D91) | BOA núm. **181**, de **18/09/2025**, sección I. Disposiciones Generales, Departamento de Educación, Cultura y Deporte. Modificación del art. 53 en pp. 12-13 del documento. | **BOA20250918002** | `https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404` (94 pp.) |
+| **Orden ECD/36/2026, de 12 de enero** (corrección de error material del D107/2025) | BOA núm. **11**, de **19/01/2026**, sección III. Otras Disposiciones y Acuerdos. | **BOA20260119017** | `https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1431015170404` |
+
+Los dos PDF llevan la cabecera «BOLETÍN OFICIAL DE ARAGÓN» y el csv impreso en todas sus páginas; **no** llevan el sello «TEXTO SIN VALOR JURÍDICO». El texto que sigue está transcrito de esos PDF y cotejado con el HTML oficial de la base BOLE del BOA (coinciden palabra por palabra).
+
+---
+
+### 1. Artículo 53 en la redacción ORIGINAL del BOA (06/06/2024) — transcripción literal e íntegra
+
+> **Artículo 53. Recursos.**
+>
+> 1. Ante la Resolución emitida en respuesta a la solicitud de convalidación, la persona interesada podrá interponer recurso de alzada en el plazo de un mes a contar desde el día siguiente al de su notificación, de acuerdo con lo establecido en los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Dicho recurso se presentará:
+>
+> a) En el caso de que la resolución sea emitida por la Dirección del centro educativo, ante la Dirección del Servicio Provincial del Departamento competente en las enseñanzas no universitarias.
+>
+> b) En el caso de que la resolución sea emitida por la Dirección General competente en los Grados D y E de Formación Profesional, ante la persona titular del Departamento competente en las enseñanzas no universitarias.
+>
+> c) En caso de ser emitida por el Ministerio competente en las enseñanzas no universitarias, se interpondrá ante la Secretaría General de Formación Profesional u órgano de mayor rango en materia de Formación Profesional del mismo Ministerio.
+>
+> Contra la Resolución del recurso de alzada no cabrá ningún otro recurso administrativo, salvo el recurso extraordinario de revisión, en los casos establecidos en el artículo 125.1 de la Ley 39/2015, de 1 de octubre, o bien recurso contencioso-administrativo, según lo previsto en la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa.
+>
+> 2. Contra la Resolución de exención total o parcial del periodo de formación en empresa u organismo equiparado dictada por la Dirección del centro docente, la persona interesada podrá interponer recurso de alzada ante la Dirección del Servicio Provincial correspondiente del Departamento competente en las enseñanzas no universitarias, cuya resolución pondrá fin a la vía administrativa.
+
+**El artículo 53 original tiene DOS apartados. No hay apartado 3. No aparece la palabra «reclamación». No se distingue entre centro público y centro privado.**
+
+---
+
+### 2. Modificación por el Decreto 107/2025, de 10 de septiembre — transcripción literal
+
+Artículo primero, apartado **Diecinueve** (BOA núm. 181, csv BOA20250918002, pp. 12-13):
+
+> **Diecinueve.** Se incorpora el apartado 3 del artículo 53 y el apartado 1 queda redactado como sigue:
+>
+> «1. Ante la resolución emitida en respuesta a la solicitud de convalidación, la persona interesada podrá interponer recurso de alzada, de acuerdo con lo establecido en los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, en el caso de estar matriculada en un centro docente público, o reclamación, en el caso de estar matriculada en un centro docente privado, en ambos casos en el plazo de un mes a contar desde el día siguiente al de su notificación. Dicho recurso o reclamación se presentará:
+>
+> a) En el caso de que la resolución sea emitida por la Dirección del centro educativo, ante la Dirección del Servicio Provincial del Departamento competente en las enseñanzas no universitarias.
+>
+> b) En el caso de que la resolución sea emitida por la Dirección General competente en los Grados D y E de Formación Profesional, ante la persona titular del Departamento competente en las enseñanzas no universitarias.
+>
+> c) En caso de ser emitida por el Ministerio competente en las enseñanzas no universitarias, se interpondrá ante la Secretaría General de Formación Profesional u órgano de mayor rango en materia de Formación Profesional del mismo Ministerio.
+>
+> Contra la resolución del recurso de alzada o reclamación no cabrá ningún otro recurso administrativo, salvo el recurso extraordinario de revisión, en los casos establecidos en el artículo 125.1 de la Ley 39/2015, de 1 de octubre, o bien recurso contencioso-administrativo».
+>
+> «3. Contra la resolución de los/as Directores/as de los centros privados, la persona interesada podrá presentar reclamación ante la Dirección del Servicio Provincial correspondiente del Departamento competente en las enseñanzas no universitarias, cuya resolución pondrá fin a la vía administrativa».
+
+**Entrada en vigor** (disposición final segunda del Decreto 107/2025, leída): «Este Decreto entrará en vigor el día siguiente al de su publicación en el "Boletín Oficial de Aragón"» → **19/09/2025**.
+
+**El Decreto 107/2025 NO modifica el apartado 2 del artículo 53**, que por tanto sigue teniendo la redacción original de 2024 transcrita arriba.
+
+---
+
+### 3. ¿Difiere el consolidado del BOA?
+
+| Punto verificado en el consolidado | Veredicto contra el BOA |
+|---|---|
+| Art. **53.1.a)**: el recurso contra la resolución de la dirección del centro se presenta **ante la Dirección del Servicio Provincial** | **CONFIRMADO.** Literal e idéntico en las dos redacciones (2024 y 2025). La corrección propuesta en el apartado A.2 de esta revisión es correcta: la «Dirección General competente en materia de Formación Profesional» no aparece en ningún momento como destinataria del recurso contra una resolución del centro. |
+| Art. **53.1**: distingue **alzada** (centro público) / **reclamación** (centro privado) | **CONFIRMADO, pero sólo desde el 19/09/2025**, por el Decreto 107/2025. En el Decreto 91/2024 original no existía esa distinción: sólo «recurso de alzada». |
+| Art. **53.2**: regula específicamente la **exención** de la formación en empresa, alzada ante la Dirección del Servicio Provincial, **cuya resolución pone fin a la vía administrativa** | **CONFIRMADO, y además es texto original de 2024**, no modificado. Coincide palabra por palabra con lo citado en el apartado B.3. |
+| Art. **53.3**: centros privados, reclamación ante el Servicio Provincial, fin de la vía administrativa | **CONFIRMADO en cuanto a su contenido**, pero **es un apartado incorporado por el Decreto 107/2025**, no del Decreto 91/2024. |
+| Diferencias de detalle | (a) El consolidado (y el D107/2025) **suprime** el inciso final del 53.1 original «…, según lo previsto en la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa». (b) El D107/2025 escribe «Contra la **resolución** de los/as Directores/as…» en minúscula; la cita del apartado B.3 la transcribió con mayúscula. Es la única discrepancia literal detectada, y es irrelevante. |
+
+**Consecuencia práctica para la herramienta:** las citas deben hacerse al **«artículo 53.1.a) del Decreto 91/2024, de 5 de junio, en la redacción dada por el Decreto 107/2025, de 10 de septiembre»** y al **«artículo 53.3 del Decreto 91/2024, incorporado por el Decreto 107/2025»**. El **artículo 53.2** puede citarse sin más, porque es redacción originaria.
+
+---
+
+### 4. Arts. 48 a 51 en el BOA auténtico — resumen en lo relativo a quién resuelve y a los plazos
+
+| Precepto | Estado en el BOA | Qué dice sobre órgano/plazo |
+|---|---|---|
+| **Art. 48** (convalidación de módulos) | **Texto original de 2024, no modificado** por el Decreto 107/2025 ni por ninguna otra norma localizada. | No atribuye competencia ni fija plazos. Sólo remisión al Cap. VI Tít. II del RD 659/2023, a los RD de cada título y al RD 1085/2020, y las reglas de no reaportación (48.3). **Errata en el texto auténtico:** el art. 48.4 remite al «artículo 128 del **Real Decreto 629/2023**, de 18 de julio» — debe entenderse 659/2023. La errata está en el BOA original y **no ha sido corregida**; comprobado tanto en el PDF (p. 15531) como en el HTML oficial. |
+| **Art. 49** (exención) | **49.1 y 49.2 originales**. El **49.3 fue incorporado por el Decreto 107/2025** (apartado Diecisiete): «3. La solicitud de exención de la formación en empresa u organismo equiparado deberá presentarse en cada uno de los cursos en los que se realice». | Confirmados literalmente el 49.1 (remisión a arts. 131 y 161 RD 659/2023, justificación por art. 177.3, experiencia de los **cinco años anteriores**) y el 49.2 (exclusión de los nueve ciclos de Grado Superior de Sanidad). La cita del 49.3 en el apartado B.1 de esta revisión debe atribuirse al Decreto 107/2025. |
+| **Art. 50** (procedimiento) | **50.1, 50.2, 50.4, 50.5, 50.6, 50.8, 50.9 y 50.10 originales.** El **50.3 y el 50.7 fueron sustituidos por el Decreto 107/2025** (apartado Dieciocho). | **Quién resuelve — sin cambios desde 2024:** 50.4 párr. 1.º «Cuando la competencia para resolver la convalidación corresponda al titular de la Dirección de un centro docente, procederá a su resolución»; párr. 2.º remisión a la **Dirección General competente en los Grados D y E**; párr. 3.º remisión telemática al **Ministerio**. Confirmado literal.<br>**Plazo de resolución de convalidación (50.5) — sin cambios: seis meses.** Confirmado literal.<br>**Plazo de resolución de exención (50.7) — MODIFICADO:** el texto original decía sólo «El plazo máximo para resolver y notificar la resolución del procedimiento de exención será de un mes, a contar desde la fecha de presentación de la solicitud en el centro docente». La frase «**En el caso de centros docentes privados la resolución será competencia de la persona titular de la dirección del centro público al que estén adscritos, previa remisión de la documentación aportada por el/la alumno/a e informe del centro privado**» **la añadió el Decreto 107/2025**. La corrección propuesta en el apartado B.1 (firmante distinto en centro privado) es correcta, pero debe citarse como «art. 50.7 en la redacción dada por el Decreto 107/2025».<br>**Plazos de presentación (50.3) — REESCRITO POR COMPLETO.** Original 2024: «El plazo ordinario de presentación de las solicitudes de convalidación será hasta el último día hábil del mes de septiembre. En cualquier otro caso, el plazo será de quince días desde la fecha de la matriculación. En el caso de las solicitudes de exención […] hasta dos meses antes de comenzar este periodo, si bien el plazo será de quince días desde la fecha de matriculación, siempre que ésta sea posterior al 1 de diciembre». Redacción vigente (D107/2025): convalidación, hasta el último día hábil de **septiembre** en presencial, **ampliado a octubre** en virtual y semipresencial, y **quince días** desde la matrícula para matrículas posteriores; exención, **dos meses** antes del inicio del periodo en presencial (o quince días desde la matrícula si ésta es posterior al 1 de diciembre) y, en virtual/semipresencial/modular, hasta el último día hábil de septiembre o quince días desde la matriculación. |
+| **Art. 51** (efectos académicos) | **Texto original de 2024, no modificado.** | Confirmados literalmente y sin variación los tres apartados citados en esta revisión, incluido el 51.3 («se recogerá en los documentos de evaluación y no afectará a las calificaciones de los módulos profesionales a los que pertenezcan los resultados de aprendizaje compartidos…»). |
+| **Art. 52** (plazos extraordinarios) | **Texto original, no modificado.** | Confirmado. Única diferencia con la cita del apartado A.1: el BOA escribe «Dirección del **Centro Docente**» con mayúsculas. El contenido —sólo plazos extraordinarios, no el plazo ordinario— queda confirmado. |
+
+---
+
+### 5. Otras normas revisadas y su incidencia sobre los arts. 48-53
+
+- **Orden ECD/36/2026, de 12 de enero** (BOA núm. 11, 19/01/2026, csv BOA20260119017): da publicidad al Acuerdo del Gobierno de Aragón de 13/11/2025 que corrige **tres** errores materiales del Decreto 107/2025 — el art. 56.6.c) («antes del 1 de noviembre» → «antes del 10 de enero»), el primer párrafo del **anexo X** (el firmante deja de ser la Dirección del Servicio Provincial y pasa a ser la Dirección del centro docente) y el apartado cuarenta y seis («disposición adicional sexta» → «disposición adicional quinta»). **Ninguna de las tres afecta a los artículos 48 a 53.** Leído el PDF completo.
+- **Decreto 107/2025, apartado Cuarenta y ocho**: sustituye o modifica numerosos anexos del Decreto 91/2024. En lo que interesa a esta revisión, **modifica el apartado 3 del Anexo VIII** (le añade dos párrafos sobre los módulos Inglés 0156 y 0179 de la LOE, y cambia «los mismos resultados» por «**los** mismos resultados»), el punto 5, el 9 y el 10 del apartado 6, **añade un punto 14** al apartado 6 (convalidación por acreditación de unidades de competencia) y reescribe el primer párrafo del apartado 10. La frase clave citada en el apartado A.4 de esta revisión («Dichos módulos profesionales no deberán, por tanto, ser objeto de convalidación») **se mantiene literalmente** en la redacción vigente.
+- **Resolución de 3 de diciembre de 2025**, del Director General de Planificación, Centros y Formación Profesional, «por la que se modifican los anexos I, II, III, IV, V, VII, VIII, XI a) y XI b) del Decreto 91/2024…»: localizada en el BOA por su título; **afecta a anexos, no al articulado**. No he abierto su texto en esta comprobación.
+- **Búsqueda de correcciones de errores del propio Decreto 91/2024**: realizada sobre la base BOLE (texto completo, «errores del Decreto 91/2024»); **no existe ninguna**. La única corrección de errores en esta cadena normativa es la de la Orden ECD/36/2026 sobre el Decreto 107/2025.
+- **Búsqueda de modificaciones posteriores del articulado**: sobre la base BOLE, consulta a texto completo «modifica el Decreto 91/2024» (38 resultados, revisados uno a uno por título). La **única** norma que modifica el articulado del Decreto 91/2024 es el **Decreto 107/2025**. El resto son órdenes de autorización de centros, convocatorias, resoluciones sobre anexos o instrucciones que se limitan a citarlo.
+
+### 6. Método y limitaciones de esta comprobación
+
+- Todas las descargas se han hecho con `curl -A "Mozilla/5.0"` contra `https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI` (base `BOLE`), con `CMD=VERLST` para sumarios y búsqueda avanzada, `CMD=VERDOC` para el HTML oficial y `CMD=VEROBJ&MLKOB=…` para el PDF firmado. **No ha hecho falta recurrir al BOE ni a buscadores de terceros.**
+- El texto se ha extraído del PDF con `pypdf` y se ha cotejado contra el HTML oficial de la base BOLE; en el art. 53 y en los arts. 48-52 ambas extracciones coinciden. Se ha deshecho la partición silábica de fin de línea propia del PDF; no se ha alterado ninguna otra grafía.
+- **No he verificado** la firma electrónica de los PDF ni el csv contra el servicio de verificación del Gobierno de Aragón; me he limitado a comprobar que el csv figura impreso en cada página y que el documento procede del servidor `boa.aragon.es`.
+- **No he leído** en esta comprobación los anexos del Decreto 91/2024 en el BOA (sólo el articulado) ni el texto de la Resolución de 3/12/2025.

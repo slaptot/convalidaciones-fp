@@ -475,15 +475,18 @@
     const privado = state.titularidad === 'privado';
     const sp = `la persona titular de la Dirección del Servicio Provincial del Departamento competente en las enseñanzas no universitarias de ${h(state.provincia || '____________')}`;
     const via = privado ? 'reclamación' : 'recurso de alzada';
+    // El 53.2 es redacción original del Decreto 91/2024; el 53.1 y el 53.3 los dio el Decreto 107/2025
     const art = tipo === 'exencion' ? (privado ? '53.3' : '53.2') : '53.1.a)';
+    const norma = (tipo === 'exencion' && !privado)
+      ? 'del Decreto 91/2024, de 5 de junio, del Gobierno de Aragón'
+      : 'del Decreto 91/2024, de 5 de junio, del Gobierno de Aragón, en la redacción dada por el Decreto 107/2025, de 10 de septiembre';
     const cierre = tipo === 'exencion'
       ? 'La resolución del recurso pondrá fin a la vía administrativa.'
       : 'La resolución del recurso de alzada o reclamación pone fin a la vía administrativa y contra ella no cabrá ningún otro recurso administrativo, salvo el recurso extraordinario de revisión en los casos del artículo 125.1 de la Ley 39/2015, o bien recurso contencioso-administrativo.';
     return `<p class="res-p res-recursos"><b>MODO DE IMPUGNACIÓN / RECURSOS:</b> Contra la presente resolución, que no pone fin a la
       vía administrativa, podrá interponerse <b>${via}</b> ante ${sp}, en el plazo de <b>un mes</b> contado desde el día siguiente
       al de su notificación, de conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, del Procedimiento
-      Administrativo Común de las Administraciones Públicas, y con el artículo ${art} del Decreto 91/2024, de 5 de junio, del
-      Gobierno de Aragón. Podrá presentarse ante este centro o ante el órgano competente para resolverlo (artículo 121.2 de la
+      Administrativo Común de las Administraciones Públicas, y con el artículo ${art} ${norma}. Podrá presentarse ante este centro o ante el órgano competente para resolverlo (artículo 121.2 de la
       Ley 39/2015). ${cierre}</p>`;
   }
 
