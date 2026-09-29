@@ -347,5 +347,6 @@ console.log('OK: Actividades Domésticas y Limpieza de Edificios');
 require('../data/ciclos/ssc305.js');
 assert.equal(est('apsd', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habilidades sociales', titulo: 'TS Promoción de Igualdad de Género', docs: [] }])['0211'], 'convalidable');
 // Servicios Socioculturales completa: los siete ciclos con normativa propia
+require('../data/ciclos/ssc304.js');
 ['apsd', 'fpb128', 'ssc301', 'ssc302', 'ssc303', 'ssc304', 'ssc305'].forEach((c) => assert.ok(CICLOS[c] && !CICLOS[c].ciclo.parcial, c));
 console.log('OK: Servicios Socioculturales completa (7 ciclos)');
