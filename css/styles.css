@@ -90,8 +90,9 @@ details ul { padding-left: 1rem; margin: .2rem 0; }
 a { color: var(--accent); }
 .disclaimer { font-size: .78rem; color: var(--muted); margin-top: 1.5rem; }
 .pie-autor { display: flex; align-items: center; gap: .9rem; flex-wrap: wrap; margin-top: 1rem; padding-top: .9rem; border-top: 1px solid var(--line); }
-.logo-ies { width: 150px; height: auto; display: block; }
-@media (prefers-color-scheme: dark) { .logo-ies { filter: brightness(0) invert(1); opacity: .85; } }
+/* El logotipo es oscuro sobre fondo transparente: se le pone un fondo claro
+   para que se lea igual en modo claro y en modo oscuro. */
+.logo-ies { width: 170px; height: auto; display: block; background: #fff; padding: .45rem .6rem; border-radius: 8px; }
 .autor { font-size: .78rem; color: var(--muted); margin: 0; }
 .print-only { display: none; }
 #informe, #resolucion, #exencion, #solicitudes, #listado { display: none; }
