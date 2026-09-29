@@ -335,3 +335,10 @@ require('../data/ciclos/imp303.js');
 assert.equal(est('imp303', [{ tipo: 'modulo_loe', codigo: '0750', nombre: 'x', titulo: 'TS Estética Integral y Bienestar', docs: [] }])['0750'], 'superado');
 assert.equal(est('imp302', [{ tipo: 'modulo_loe', codigo: '0750', nombre: 'x', titulo: 'TS Estilismo y Dirección de Peluquería', docs: [] }])['0750'], 'superado');
 console.log('OK: Estilismo y Dirección de Peluquería');
+
+// Actividades Domésticas (grado básico): ámbitos y sin 3005
+require('../data/ciclos/fpb128.js');
+r = est('fpb128', [{ tipo: 'modulo_loe', codigo: '3011', nombre: 'Comunicación y sociedad I', docs: ['cert_academica'] }]);
+assert.equal(r['3161'], 'convalidable');
+assert.ok(!('3005' in est('fpb128', [])), 'este título no tiene el módulo 3005');
+console.log('OK: Actividades Domésticas y Limpieza de Edificios');
