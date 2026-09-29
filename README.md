@@ -21,6 +21,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Radioterapia y Dosimetría | SAN309 | Superior | LO 3/2022 |
 | Documentación y Administración Sanitarias | SAN303 | Superior | LO 3/2022 |
 | Estética Integral y Bienestar | IMP302 | Superior | LO 3/2022 |
+| Educación Infantil | SSC302 | Superior | LO 3/2022 |
 | Integración Social | SSC303 | Superior | LO 3/2022 |
 | Termalismo y Bienestar | IMP304 | Superior | LO 3/2022 |
 

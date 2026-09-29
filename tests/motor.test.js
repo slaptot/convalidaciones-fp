@@ -311,3 +311,10 @@ r = est('apsd', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habilidades soci
                  { tipo: 'modulo_loe', codigo: '0343', nombre: 'Sistemas aumentativos y alternativos de comunicación', titulo: 'TS Integración Social', docs: [] }]);
 assert.equal(r['0211'], 'convalidable'); assert.equal(r['0214'], 'convalidable');
 console.log('OK: Integración Social');
+
+// Educación Infantil: su 0017 convalida Destrezas sociales en APSD
+require('../data/ciclos/ssc302.js');
+assert.equal(est('apsd', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habilidades sociales', titulo: 'TS Educación Infantil', docs: [] }])['0211'], 'convalidable');
+// Y el propio ciclo ya no es del catálogo
+assert.ok(!CICLOS.ssc302.ciclo.parcial && CICLOS.ssc302.convalidaciones_titulos_anteriores.length > 5);
+console.log('OK: Educación Infantil');
