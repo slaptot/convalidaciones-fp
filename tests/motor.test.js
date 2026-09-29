@@ -242,3 +242,14 @@ assert.equal(est('fpb_peluqueria_estetica', [{ tipo: 'experiencia', meses: 12, r
 assert.ok(!CICLOS.fpb_peluqueria_estetica.ciclo.parcial);
 for (const amb of ['aragon', 'mefp', 'loe']) assert.ok(Object.keys(est('fpb_peluqueria_estetica', [], amb)).length > 10, amb);
 console.log('OK: Grado Básico Peluquería y Estética');
+
+// ---- Catálogo con correspondencias de CATEDU ----
+require('../data/catalogo.js');
+require('../data/competencias.js');
+// Educación Infantil: competencia acreditada -> módulo convalidado
+f = full('SSC302', [{ tipo: 'uc', codigo: 'ECP1028_3', via: 'Procedimiento de acreditación de competencias', docs: ['cert_uc'] }]);
+assert.ok(f.filas.some((x) => x.mejor && x.mejor.estado === 'convalidable'));
+assert.ok(f.avisos.some((a) => a.includes('CATEDU')), 'debe avisar del origen de los datos');
+// Los ciclos con normativa propia no se tocan
+assert.ok(!CICLOS.apsd.ciclo.parcial && CICLOS.apsd.uc_a_modulos[0].fuente.includes('Anexo V A'));
+console.log('OK: catálogo con competencias');

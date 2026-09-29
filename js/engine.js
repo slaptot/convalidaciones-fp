@@ -265,7 +265,9 @@
 
     const avisosGlobales = [
       ...(ciclo.ciclo.parcial
-        ? ['Ciclo del catálogo de Aragón: solo se aplican las reglas generales (módulos con el mismo código, FOL, EIE, inglés, exención). Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.']
+        ? [ciclo.ciclo.competencias_catedu
+            ? 'Ciclo del catálogo de Aragón: las correspondencias con estándares de competencia proceden de la herramienta de CATEDU y no se han contrastado con el anexo V del RD del título. Falta además el anexo de convalidaciones con títulos anteriores.'
+            : 'Ciclo del catálogo de Aragón: solo se aplican las reglas generales (módulos con el mismo código, FOL, EIE, inglés, exención). Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.']
         : []),
       ...(modulos.length <= 1 ? ['No hay datos de este plan de estudios para el ciclo seleccionado.'] : []),
       ...titulos.avisos,
