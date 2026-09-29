@@ -1,0 +1,799 @@
+// Generado por tools/build_data.py a partir de research/san305.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["san305"] = {
+ "ciclo": {
+  "codigo": "SAN305",
+  "nombre": "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear",
+  "grado": "superior",
+  "familia": "Sanidad",
+  "normas": [
+   {
+    "ref": "RD 770/2014, de 12 de septiembre",
+    "boe": "BOE-A-2014-10067",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10067",
+    "nota": "Título y enseñanzas mínimas (BOE núm. 241, de 4/10/2014; en vigor 5/10/2014). Sustituye la regulación del título LOGSE de Técnico Superior en Imagen para el Diagnóstico (RD 545/1995) y deroga el RD 545/1995 y el RD 557/1995 (su currículo). Duración 2.000 h; currículo básico del anexo I = 1.100 h (55 %). ATENCIÓN: el BOE NO publica texto consolidado de este RD (act.php devuelve 302/404); hay que leer el texto original y aplicarle a mano el RD 1085/2020 y el RD 500/2024. Según el análisis del BOE, las ÚNICAS modificaciones son esas dos: no hay corrección de errores."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Deroga el anexo IV del RD 770/2014 (disposición derogatoria única.2, que cita expresamente el RD 770/2014). Las convalidaciones LOGSE→LOGSE pasan a su anexo I, las LOGSE→LOE a su anexo II (bloque «Sanidad», GRADO SUPERIOR) y las LOE→LOE a su anexo III. Art. 3.7: reglas de convalidación del módulo de inglés."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709/1710 (anexo V, 50 h cada uno), 1665 (anexo VII, 30 h), 1708 (anexo VIII, 30 h) y 0179 Inglés Profesional GS (anexo X, 50 h). Arts. 126-128 y 131: reglas de convalidación y exención. Art. 96.1: bloques del ciclo. Art. 102: optatividad. Su DF 4.ª MODIFICA el RD 1085/2020: nueva redacción del art. 3.7, del anexo II cuadro tercero y del anexo III cuadro cuarto (los módulos 0156 y 0179 pasan a llamarse «Inglés Profesional»)."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de los títulos de GS a la LO 3/2022. Este título está en el grupo del artículo primero.Dos.a) (ciclos de GS SIN el antiguo módulo de Inglés), apartado 57.º; por eso se AÑADE 0179 Inglés Profesional (GS). Modifica los arts. 2, 10, 12 y 15 y los anexos I y III del RD 770/2014. Art. cuarto.Uno y art. séptimo.Uno: SUPRIME 1356 FOL, 1357 EIE y 1358 FCT y AÑADE 0179, 1709, 1710, 1665, 1708 y un módulo profesional optativo de 80 h; 1355 «Proyecto de imagen para el diagnóstico y medicina nuclear» pasa a «Proyecto intermodular». Art. segundo: nivel 5A del MECU. Art. octavo.Cincuenta y siete: nuevo anexo III (profesorado) = anexo LVIII del RD 500/2024. NO modifica los anexos IV (ya derogado), V A) ni V B). DT única: en 2024-25 se implanta 1.º curso."
+   },
+   {
+    "ref": "RD 500/2024, art. sexto.Uno (nuevo art. 15.8 del RD 770/2014)",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "«Quedan exceptuados de la posible exención del periodo de formación [en empresa] u organismo equiparado los ciclos formativos de grado superior de la familia profesional de Sanidad establecidos en los siguientes reales decretos: RD 1685/2007; RD 1687/2011; RD 905/2013; RD 767/2014; RD 768/2014; RD 769/2014; RD 770/2014; RD 771/2014 y RD 772/2014». Es decir, ESTE ciclo no admite exención del periodo de formación en empresa, ni en el ámbito estatal ni en Aragón."
+   },
+   {
+    "ref": "RD 545/1995, de 7 de abril",
+    "boe": "BOE-A-1995-14226",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1995-14226",
+    "nota": "Título LOGSE de Técnico Superior en Imagen para el Diagnóstico (antecesor), DEROGADO por el RD 770/2014. Sus módulos profesionales son: Organización y gestión del área de trabajo asignada en la unidad/gabinete de imagen para el diagnóstico; Fundamentos y técnicas de exploración en radiología convencional; Fundamentos y técnicas de exploración radiológica mediante equipos de digitalización de imágenes; Fundamentos y técnicas de exploración en medicina nuclear; Protección radiológica; Anatomía radiológica; Procesado y tratamiento de la imagen radiológica; Formación en centro de trabajo; Formación y orientación laboral. Conserva efectos académicos y profesionales equivalentes (DA 3.ª.2 del RD 770/2014)."
+   },
+   {
+    "ref": "RD 557/1995, de 7 de abril",
+    "boe": "BOE-A-1995-14227",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1995-14227",
+    "nota": "Currículo LOGSE del ciclo de Imagen para el Diagnóstico. DEROGADO por la disposición derogatoria única.2 del RD 770/2014."
+   },
+   {
+    "ref": "RD 887/2011, de 24 de junio",
+    "boe": "BOE-A-2011-11825",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-11825",
+    "nota": "Complementa el CNCP y crea la cualificación SAN627_3 Imagen para el diagnóstico (UC2078_3 a UC2086_3), que el título incorpora completa (art. 6.1 del RD 770/2014)."
+   },
+   {
+    "ref": "RD 1087/2005, de 16 de septiembre",
+    "boe": "BOE-A-2005-16420",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2005-16420",
+    "nota": "Establece la cualificación SAN127_3 Radioterapia, que el título incorpora de forma INCOMPLETA (UC0388_3, UC0390_3, UC0391_3 y UC0394_3; art. 6.2 del RD 770/2014)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra las unidades de competencia como estándares de competencia profesional (ECP). Anexo I: las once UC de este título cambian solo de prefijo y conservan número y denominación (ECP2078_3, ECP2079_3, ECP2080_3, ECP2081_3, ECP2082_3, ECP2083_3, ECP2084_3, ECP2085_3, ECP2086_3, ECP0388_3, ECP0390_3, ECP0391_3, ECP0394_3). Ninguna de ellas aparece en las tablas de equivalencias (anexos II-a/II-b), por lo que no hay UC suprimidas ni refundidas en este título."
+   },
+   {
+    "ref": "Orden ECD/1540/2015, de 21 de julio",
+    "boe": "BOE-A-2015-8475",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-8475",
+    "nota": "Currículo LOE (plan anterior) del ámbito de gestión del MEC. Su anexo II fija: 1.º curso 1345 130 h (4 h/sem), 1346 230 (7), 1347 230 (7), 1348 130 (4), 1356 FOL 90 (3) y 90 h de horario reservado para el módulo impartido en inglés (3); 2.º curso (2 trimestres) 1349 120 (6), 1350 80 (4), 1351 80 (4), 1352 80 (4), 1353 120 (6), 1354 80 (4) y 40 h de horario reservado para inglés (2); y en el 3.er trimestre 1358 FCT 400 h y 1355 Proyecto 40 h. Total 2000 h. En ese anexo el módulo 1345 se denomina «Atención técnico-sanitaria al paciente». DEROGADA por la Orden EFD/659/2024."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito de gestión del MEFPD para los ciclos de grado superior (BOE núm. 158, de 1/07/2024). Este título en su ANEXO LXX (art. 5.3.bk), apartado A «Secuenciación, temporalización y distribución horaria». 30 sesiones semanales en 1.º y 30 en 2.º; total 2000 h. Módulos marcados como bilingües: 1348, 1346, 1347, 1349 y 1353."
+   },
+   {
+    "ref": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&SEC=BUSQUEDA_AVANZADA&DOCN=000197007",
+    "nota": "Currículo LOE (plan anterior) de este título en Aragón; BOA núm. 106, de 5/06/2015 (csv BOA20150605004). Anexo I: desarrollo de los módulos con su duración (1345-1358 más los módulos propios A115 y A116 «Lengua extranjera profesional: inglés 1 y 2»). Anexos II (espacios), III A/B/C/D (profesorado), IV (convalidaciones LOGSE, idéntico al anexo IV del RD 770/2014) y V A)/V B) (UC, idénticos a los del RD). Implantación: 1.º en 2015/16 y 2.º en 2016/17. NO contiene tabla de secuenciación por cursos ni de horas semanales."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&SEC=BUSQUEDA_AVANZADA&DOCN=007942793",
+    "nota": "Currículo vigente de Aragón para los ciclos de grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004). Este título en su ANEXO LVII (art. 5.3.bc), código de ciclo SAN305, con la tabla «Distribución horaria», espacios y equipamientos. Solo horario diurno de 2 cursos, 30 h semanales en cada uno. Art. 12: el módulo optativo es anual y se imparte en 2.º curso (A170 Comunicación profesional en Inglés (GS), A171 Segunda lengua profesional Francés, A172 Ofimática avanzada aplicada al sector profesional, o módulos de diseño propio del centro). Su corrección de errores de 26/02/2025 solo afecta a los anexos XXXVI, XL, XXIV y LXXI, es decir, NO a este título."
+   },
+   {
+    "ref": "Decreto 91/2024, de 5 de junio, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&SEC=BUSQUEDA_AVANZADA&DOCN=007941532",
+    "nota": "Ordenación de la FP del Grado D y del Grado E en Aragón (BOA núm. 109, de 6/06/2024, csv BOA20240606002). Su art. 49.2 excluye de la exención del periodo de formación en empresa a los nueve ciclos de grado superior de la familia de Sanidad, ENTRE ELLOS ESTE (RD 770/2014). El Decreto 107/2025 no modificó ese apartado. Art. 9.3 y 9.5: módulo optativo."
+   },
+   {
+    "ref": "RD 1147/2011, de 29 de julio",
+    "boe": "BOE-A-2011-13118",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13118",
+    "nota": "Ordenación general de la FP del sistema educativo vigente cuando se aprobó el título. Su art. 38.3 fue derogado por el RD 1085/2020."
+   },
+   {
+    "ref": "RD 772/2014, de 12 de septiembre",
+    "boe": "BOE-A-2014-10069",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10069",
+    "nota": "Título de Técnico Superior en Radioterapia y Dosimetría (SAN309 en Aragón). Comparte con este título los módulos 1345, 1346, 1347 y 1348 con IGUAL código y denominación; en Aragón el primer curso de SAN305 y SAN309 es común. Se recoge por su efecto de convalidación automática entre ambos ciclos."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "1345",
+   "nombre": "Atención al paciente",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 130,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1346",
+   "nombre": "Fundamentos físicos y equipos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": 220,
+    "loe": 256
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1347",
+   "nombre": "Anatomía por la imagen",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": 220,
+    "loe": 224
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1348",
+   "nombre": "Protección radiológica",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1349",
+   "nombre": "Técnicas de radiología simple",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 170,
+    "loe": 147
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1350",
+   "nombre": "Técnicas de radiología especial",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 130,
+    "loe": 84
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1351",
+   "nombre": "Técnicas de tomografía computarizada y ecografía",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 130,
+    "loe": 84
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1352",
+   "nombre": "Técnicas de imagen por resonancia magnética",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 130,
+    "loe": 84
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1353",
+   "nombre": "Técnicas de imagen en medicina nuclear",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 170,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1354",
+   "nombre": "Técnicas de radiofarmacia",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 130,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1355",
+   "nombre": "Proyecto intermodular de imagen para el diagnóstico y medicina nuclear",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": 40
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1356",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1357",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1358",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 370
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A115",
+   "nombre": "Lengua extranjera profesional: inglés 1 (módulo propio de Aragón, plan LOE)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A116",
+   "nombre": "Lengua extranjera profesional: inglés 2 (módulo propio de Aragón, plan LOE)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 42
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Anatomía radiológica"
+   ],
+   "destino_modulos": [
+    "1347"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, GRADO SUPERIOR (antes RD 770/2014 anexo IV, derogado; se repite en el anexo IV de la Orden de 5 de mayo de 2015 de Aragón)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Protección radiológica"
+   ],
+   "destino_modulos": [
+    "1348"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, GRADO SUPERIOR (antes RD 770/2014 anexo IV, derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Fundamentos y técnicas de exploración en radiología convencional"
+   ],
+   "destino_modulos": [
+    "1349",
+    "1350"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, GRADO SUPERIOR (antes RD 770/2014 anexo IV, derogado). La celda de destino contiene los dos módulos"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Fundamentos y técnicas de exploración radiológica mediante equipos de digitalización de imágenes"
+   ],
+   "destino_modulos": [
+    "1351",
+    "1352"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, GRADO SUPERIOR (antes RD 770/2014 anexo IV, derogado). La celda de destino contiene los dos módulos"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Fundamentos y técnicas de exploración en medicina nuclear"
+   ],
+   "destino_modulos": [
+    "1353",
+    "1354"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, GRADO SUPERIOR (antes RD 770/2014 anexo IV, derogado). La celda de destino contiene los dos módulos"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Formación en centro de trabajo del título de Técnico Superior en Imagen para el Diagnóstico"
+   ],
+   "destino_modulos": [
+    "1358"
+   ],
+   "fuente": "RD 770/2014 anexo IV (DEROGADO por el RD 1085/2020, que no reprodujo esta fila en su anexo II). Figura también en el anexo IV de la Orden de 5 de mayo de 2015 de Aragón. El módulo 1358 ya no existe tras el RD 500/2024 y, además, este ciclo está excluido de la exención del periodo de formación en empresa (art. 15.8 del RD 770/2014 en la redacción del RD 500/2024 y art. 49.2 del Decreto 91/2024 de Aragón)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Radioterapia (LOGSE, RD 544/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Protección radiológica"
+   ],
+   "destino_modulos": [
+    "1348"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, GRADO SUPERIOR"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "1356"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro primero (FOL). El módulo 1356 ya no existe tras el RD 500/2024"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Ortoprotésica (LOGSE, RD 542/1995) / Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995) / Técnico Superior en Audioprótesis (LOGSE, RD 62/2001)",
+   "origen_modulo": [
+    "Administración y gestión de una unidad/gabinete de Ortoprotésica; Organización, administración y gestión de una unidad/gabinete de prótesis dentales; Administración y gestión de un gabinete audioprotésico (cada uno por separado)"
+   ],
+   "destino_modulos": [
+    "1357"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro segundo (EIE), filas de la familia Sanidad. El módulo 1357 ya no existe tras el RD 500/2024"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Comercio Internacional (LOGSE)",
+   "origen_modulo": [
+    "Lengua Extranjera en Comercio Internacional, cuando la lengua cursada y superada sea inglés"
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro tercero, bloque Grado Superior (redacción de la DF 4.ª.Dos del RD 659/2023)"
+  },
+  {
+   "origen_titulo": "Título de Grado, o equivalente, en Filología Inglesa o en Traducción e Interpretación (Inglés)",
+   "origen_modulo": [
+    "Titulación universitaria"
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro cuarto (redacción de la DF 4.ª.Tres del RD 659/2023)"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo LOE de grado medio o superior de las familias profesionales Comercio y Marketing o Administración y Gestión",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "1357"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro tercero «Para determinados ciclos formativos», en la redacción dada por la DF 1.ª.Tres del RD 500/2024 (antes citaba nominalmente Técnico en Gestión Administrativa y Técnico Superior en Administración y Finanzas). El módulo 1357 ya no existe tras el RD 500/2024"
+  }
+ ],
+ "convalidaciones_loe": [
+  {
+   "origen_codigos": [
+    "1345"
+   ],
+   "origen_nombre": "Atención al paciente",
+   "origen_titulo": "Técnico Superior en Radioterapia y Dosimetría (LOE, RD 772/2014)",
+   "destino_modulos": [
+    "1345"
+   ],
+   "fuente": "Módulo común a los dos ciclos con igual código y denominación: art. 15.1 del RD 770/2014 en la redacción del RD 500/2024 y art. 126 del RD 659/2023. NO figura en el RD 1085/2020"
+  },
+  {
+   "origen_codigos": [
+    "1346"
+   ],
+   "origen_nombre": "Fundamentos físicos y equipos",
+   "origen_titulo": "Técnico Superior en Radioterapia y Dosimetría (LOE, RD 772/2014)",
+   "destino_modulos": [
+    "1346"
+   ],
+   "fuente": "Módulo común a los dos ciclos con igual código y denominación: art. 15.1 del RD 770/2014 en la redacción del RD 500/2024 y art. 126 del RD 659/2023"
+  },
+  {
+   "origen_codigos": [
+    "1347"
+   ],
+   "origen_nombre": "Anatomía por la imagen",
+   "origen_titulo": "Técnico Superior en Radioterapia y Dosimetría (LOE, RD 772/2014)",
+   "destino_modulos": [
+    "1347"
+   ],
+   "fuente": "Módulo común a los dos ciclos con igual código y denominación: art. 15.1 del RD 770/2014 en la redacción del RD 500/2024 y art. 126 del RD 659/2023"
+  },
+  {
+   "origen_codigos": [
+    "1348"
+   ],
+   "origen_nombre": "Protección radiológica",
+   "origen_titulo": "Técnico Superior en Radioterapia y Dosimetría (LOE, RD 772/2014)",
+   "destino_modulos": [
+    "1348"
+   ],
+   "fuente": "Módulo común a los dos ciclos con igual código y denominación: art. 15.1 del RD 770/2014 en la redacción del RD 500/2024 y art. 126 del RD 659/2023"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC2078_3",
+    "UC0388_3",
+    "UC0391_3"
+   ],
+   "modulos": [
+    "1345"
+   ],
+   "fuente": "RD 770/2014 anexo V A) (texto original, no modificado por el RD 500/2024: redacción vigente). Las tres UC en la misma celda: hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC2079_3",
+    "UC0390_3"
+   ],
+   "modulos": [
+    "1347"
+   ],
+   "fuente": "RD 770/2014 anexo V A) (texto original = redacción vigente). Las dos UC en la misma celda"
+  },
+  {
+   "uc": [
+    "UC2086_3",
+    "UC0394_3"
+   ],
+   "modulos": [
+    "1348"
+   ],
+   "fuente": "RD 770/2014 anexo V A) (texto original = redacción vigente). Las dos UC en la misma celda"
+  },
+  {
+   "uc": [
+    "UC2080_3"
+   ],
+   "modulos": [
+    "1349",
+    "1350"
+   ],
+   "fuente": "RD 770/2014 anexo V A) (texto original = redacción vigente). Una sola UC convalida los dos módulos"
+  },
+  {
+   "uc": [
+    "UC2081_3"
+   ],
+   "modulos": [
+    "1351"
+   ],
+   "fuente": "RD 770/2014 anexo V A) (texto original = redacción vigente)"
+  },
+  {
+   "uc": [
+    "UC2082_3"
+   ],
+   "modulos": [
+    "1352"
+   ],
+   "fuente": "RD 770/2014 anexo V A) (texto original = redacción vigente)"
+  },
+  {
+   "uc": [
+    "UC2083_3",
+    "UC2084_3"
+   ],
+   "modulos": [
+    "1353"
+   ],
+   "fuente": "RD 770/2014 anexo V A) (texto original = redacción vigente). Las dos UC en la misma celda"
+  },
+  {
+   "uc": [
+    "UC2085_3"
+   ],
+   "modulos": [
+    "1354"
+   ],
+   "fuente": "RD 770/2014 anexo V A) (texto original = redacción vigente)"
+  }
+ ],
+ "uc_descripciones": {
+  "UC2078_3": "Gestionar el área técnica de trabajo en una unidad de radiodiagnóstico y/o de medicina nuclear [ECP2078_3]",
+  "UC2079_3": "Preparar al paciente de acuerdo a las características anatomofisiológicas y patológicas, en función de la prescripción, para la obtención de imágenes [ECP2079_3]",
+  "UC2080_3": "Obtener imágenes médicas utilizando equipos de radiografía simple, radiografía con contraste y radiología intervencionista [ECP2080_3]",
+  "UC2081_3": "Obtener imágenes médicas utilizando equipos de tomografía computarizada (TAC) y colaborar en exploraciones ecográficas (ECO) [ECP2081_3]",
+  "UC2082_3": "Obtener imágenes médicas utilizando equipos de resonancia magnética (RM) [ECP2082_3]",
+  "UC2083_3": "Obtener imágenes médicas y estudios funcionales utilizando equipos de medicina nuclear: gammagrafía simple, tomografía de emisión de fotón único (SPECT y SPECT-TAC) [ECP2083_3]",
+  "UC2084_3": "Obtener registros de imagen metabólica/molecular del cuerpo humano con fines diagnósticos, utilizando equipos detectores de emisión de positrones (PET y PET-TAC) [ECP2084_3]",
+  "UC2085_3": "Colaborar en la aplicación de tratamientos radiometabólicos y en la obtención de resultados por radioinmunoanálisis (RIA) en medicina nuclear [ECP2085_3]",
+  "UC2086_3": "Aplicar normas de radioprotección en unidades de radiodiagnóstico y medicina nuclear [ECP2086_3]",
+  "UC0388_3": "Gestionar una unidad de radioterapia [ECP0388_3]",
+  "UC0390_3": "Utilizar las radiaciones ionizantes de acuerdo a las características anatómicas y fisiopatológicas de las enfermedades [ECP0390_3]",
+  "UC0391_3": "Asistir al paciente durante su estancia en la unidad de radioterapia [ECP0391_3]",
+  "UC0394_3": "Realizar los procedimientos de protección radiológica hospitalaria, bajo la supervisión del facultativo [ECP0394_3]"
+ },
+ "uc_equivalencias": {},
+ "notas": [
+  "EXENCIÓN DE LA FORMACIÓN EN EMPRESA: este ciclo está EXCLUIDO de la posible exención del periodo de formación en empresa u organismo equiparado, por doble vía. (1) Estado: art. 15.8 del RD 770/2014 en la redacción dada por el art. sexto.Uno del RD 500/2024, que exceptúa a los nueve ciclos de grado superior de Sanidad de los RD 1685/2007, 1687/2011, 905/2013, 767/2014, 768/2014, 769/2014, 770/2014, 771/2014 y 772/2014. (2) Aragón: art. 49.2 del Decreto 91/2024, de 5 de junio (BOA núm. 109, de 6/06/2024, csv BOA20240606002), que excluye a esos mismos nueve ciclos; el Decreto 107/2025 no modificó ese apartado.",
+  "El campo 'horas' es el del currículo básico / enseñanzas mínimas. Para los módulos 1345-1355 es el del anexo I del RD 770/2014 (55 % de 2000 h = 1100 h exactas); para 0179, 1709, 1710, 1665 y 1708 es el de los anexos X, V, VII y VIII del RD 659/2023; para el módulo optativo, el del nuevo art. 10.3 del RD 770/2014. Las horas reales de impartición están en 'horas_otras', claves 'aragon' (Orden ECD/843/2024, anexo LVII, SAN305) y 'mefp' (Orden EFD/659/2024, anexo LXX).",
+  "El BOE no ofrece texto consolidado del RD 770/2014: hay que combinar el texto original (BOE-A-2014-10067), el RD 1085/2020 (deroga el anexo IV) y el RD 500/2024 (nuevos arts. 2, 10, 12 y 15 y nuevos anexos I y III). Según la ficha de análisis del BOE no existen otras modificaciones ni correcciones de errores.",
+  "Grupo del art. primero.Dos del RD 500/2024: este título es el número 57.º de la letra a), es decir, ciclos de grado superior SIN el antiguo módulo de Inglés. Por eso se le AÑADE el módulo 0179 Inglés Profesional (GS) de 50 h de currículo básico (en los ciclos del grupo b) y c) el módulo 0179 ya existía y solo se renombra).",
+  "Módulos SUPRIMIDOS por el RD 500/2024: 1356 Formación y orientación laboral, 1357 Empresa e iniciativa emprendedora y 1358 Formación en centros de trabajo. Módulos AÑADIDOS: 0179 Inglés Profesional (GS), 1709 Itinerario personal para la empleabilidad I, 1710 Itinerario personal para la empleabilidad II, 1665 Digitalización aplicada a los sectores productivos (GS), 1708 Sostenibilidad aplicada al sistema productivo y un módulo profesional optativo de 80 h. Además 1355 pasa de «Proyecto de imagen para el diagnóstico y medicina nuclear» a «Proyecto intermodular…». El RD 770/2014 NO tenía módulo de Inglés en su redacción original.",
+  "El anexo I del RD 500/2024 es una tabla de adaptación horaria que minora el currículo básico del 55 % al 50 %, pero su DA 1.ª la limita EXPRESAMENTE a las comunidades autónomas con lengua cooficial (y excluye de la minoración el Proyecto intermodular, 0179, 1708, 1665, 1709, 1710 y los optativos). Aragón no tiene lengua cooficial a estos efectos, por lo que aquí se conservan las horas originales del RD 770/2014.",
+  "Suma del currículo básico tras el RD 500/2024: 795 h de los módulos 1345-1355 supervivientes + 50 (0179) + 50 (1709) + 50 (1710) + 30 (1665) + 30 (1708) + 80 (optativo) = 1085 h sobre 2000.",
+  "El RD 500/2024 NO modificó los anexos V A) ni V B) del RD 770/2014 (el art. tercero solo sustituye esos anexos en el RD 1685/2007 y otros títulos concretos, no en éste). Por tanto la REDACCIÓN VIGENTE de los anexos V A) y V B) es IDÉNTICA a la ORIGINAL de 2014; por eso en 'uc_a_modulos' y 'modulos_a_uc' solo hay entradas con vigente=true. El anexo IV (convalidaciones LOGSE) sí fue derogado, por el RD 1085/2020.",
+  "Los anexos IV, V A) y V B) de la Orden de 5 de mayo de 2015 de Aragón reproducen literalmente los del RD 770/2014 (comprobado en el PDF del BOA núm. 106 de 5/06/2015).",
+  "Celdas con varios elementos en los anexos V: en el V A), 1345 exige UC2078_3 + UC0388_3 + UC0391_3 simultáneamente; 1347 exige UC2079_3 + UC0390_3; 1348 exige UC2086_3 + UC0394_3; 1353 exige UC2083_3 + UC2084_3. La UC2080_3 convalida por sí sola los módulos 1349 y 1350. En el anexo V B), para acreditar la UC2080_3 hay que superar LOS DOS módulos 1349 y 1350 a la vez.",
+  "Los módulos 1346 Fundamentos físicos y equipos, 1355 Proyecto intermodular, 0179, 1709, 1710, 1665, 1708 y el optativo NO tienen correspondencia con ninguna unidad de competencia en los anexos V A) y V B): no acreditan competencias ni se convalidan por acreditación de UC.",
+  "MÓDULOS COMUNES CON RADIOTERAPIA Y DOSIMETRÍA (LOE, RD 772/2014; código SAN309 en Aragón): 1345 Atención al paciente, 1346 Fundamentos físicos y equipos, 1347 Anatomía por la imagen y 1348 Protección radiológica, con el mismo código y denominación en ambos títulos. Se convalidan automáticamente en los dos sentidos (art. 15.1 del RD 770/2014 en la redacción del RD 500/2024 y art. 126 del RD 659/2023) aunque no figuren en el RD 1085/2020. La API oficial de Aragón confirma que el primer curso de SAN305 y SAN309 es común.",
+  "ANEXO III DEL RD 1085/2020 (LOE→LOE): NO contiene ninguna fila específica de este título ni de sus módulos 1345-1355. La tabla «Sanidad» del anexo III solo recoge convalidaciones hacia Técnico en Emergencias Sanitarias y Técnico en Farmacia y Parafarmacia. Las únicas reglas LOE→LOE aplicables a este ciclo son las de los cuadros generales (FOL, EIE, inglés y «para determinados ciclos formativos») y la de módulos comunes con Radioterapia y Dosimetría.",
+  "Aragón (Orden ECD/843/2024, anexo LVII, código SAN305, 30 h semanales en cada curso). Primer curso: 1345 (167 h), 1346 (267), 1347 (267), 1348 (100), 1709 (100), 1665 (33) y 0179 (67). Segundo curso: 1349 (200), 1350 (100), 1351 (100), 1352 (100), 1353 (167), 1354 (67), 1355 (67), 1710 (67), 1708 (33) y el módulo optativo (100). La fila de totales del BOA dice 2000 h, pero la suma aritmética de las filas es 2002 h (1001 en 1.º y 1001 en 2.º): es un redondeo del propio documento, y la API oficial de Aragón devuelve precisamente 2002 h como duración total.",
+  "A diferencia de los ciclos de grado medio, Aragón NO añade módulos propios de Tutoría (A997/A996) en este ciclo de grado superior. Tampoco hay tabla de horario nocturno para SAN305: la API de centros docentes de Aragón solo devuelve oferta DIURNA.",
+  "Módulos optativos en Aragón (art. 12.2 de la Orden ECD/843/2024, lista abierta y común a todos los ciclos de grado superior, módulo anual de 2.º curso, 100 h): A170 Comunicación profesional en Inglés (GS), A171 Segunda lengua profesional Francés, A172 Ofimática avanzada aplicada al sector profesional, y módulos de diseño propio del centro. El art. 13 regula sus convalidaciones (A170 con un certificado B2; A171 con un B1).",
+  "MEFP (Orden EFD/659/2024, anexo LXX): 1.º con 1345 (130 h), 1348 (100), 1346 (220), 1347 (220), 1709 (100), 1710 (100), 1708 (35) y 0179 (70) = 975 h y 30 sesiones semanales; 2.º con 1350 (130), 1354 (130), 1351 (130), 1352 (130), 1349 (170), 1353 (170), 1665 (35), el optativo (80) y 1355 (50) = 1025 h y 30 sesiones. Total 2000 h. Llamativo: el MEFP sitúa 1710 (IPE II) y 1708 en 1.º y 1665 en 2.º, justo al revés que Aragón en los dos últimos.",
+  "DISCREPANCIA DE DENOMINACIÓN DEL MÓDULO 1345: el RD 770/2014 (art. 10 y anexo I) y el currículo de Aragón lo llaman «Atención al paciente»; la Orden ECD/1540/2015 y la Orden EFD/659/2024 del ámbito MEFPD lo llaman «Atención técnico-sanitaria al paciente». Conforme al art. 15.6 del RD 770/2014 (redacción del RD 500/2024) prevalece el CÓDIGO sobre la denominación.",
+  "PLAN LOE (anterior al RD 500/2024), clave 'loe' de 'horas_otras': distribución de ARAGÓN según la Orden de 5 de mayo de 2015 (BOA núm. 106, de 5/06/2015). Duraciones del anexo I: 1345 128 h, 1346 256, 1347 224, 1348 128, 1349 147, 1350 84, 1351 84, 1352 84, 1353 126, 1354 64, 1355 40, 1356 FOL 96, 1357 EIE 63, 1358 FCT 370, A115 64 y A116 42. Suma exacta 2000 h. Los módulos de 1.º son los de duración múltiplo de 32 (32 semanas x 30 h = 960 h: 1345, 1346, 1347, 1348, 1354, 1356 y A115) y los de 2.º los de duración múltiplo de 21 (21 semanas x 30 h = 630 h: 1349, 1350, 1351, 1352, 1353, 1357 y A116) más 1355 (40 h) y 1358 (370 h), 1040 h en total.",
+  "PLAN LOE, ámbito MEC/MEFP: Orden ECD/1540/2015, de 21 de julio (BOE-A-2015-8475), anexo II. 1.º curso: 1345 130 h (4 h/sem), 1346 230 (7), 1347 230 (7), 1348 130 (4), 1356 FOL 90 (3) y 90 h de «horario reservado para el módulo impartido en inglés» (3). 2.º curso, dos trimestres: 1349 120 (6), 1350 80 (4), 1351 80 (4), 1352 80 (4), 1353 120 (6), 1354 80 (4) y 40 h de horario reservado para inglés (2); tercer trimestre: 1358 FCT 400 h y 1355 Proyecto 40 h. Total 2000 h. No incluía módulo de EIE: el 1357 solo existe en el RD del título. En 'horas_otras.loe' se ha guardado la versión de ARAGÓN.",
+  "En el plan LOE de Aragón existían además dos módulos propios: A115 y A116 «Lengua extranjera profesional: inglés 1 y 2» (64 y 42 h). Según el art. 17.5 de la Orden de 5 de mayo de 2015 se convalidaban con los módulos de igual denominación de cualquier otro ciclo LOE de grado medio o superior y con la acreditación de un nivel B1 o superior de la misma lengua. Han desaparecido con el plan del RD 500/2024, en el que su función la cumplen 0179 y, en su caso, el optativo A170.",
+  "El módulo LOGSE «Procesado y tratamiento de la imagen radiológica» del título de Técnico Superior en Imagen para el Diagnóstico (RD 545/1995) NO tiene ninguna convalidación reconocida hacia módulos del título LOE: no aparece ni en el anexo IV del RD 770/2014 ni en el anexo II del RD 1085/2020.",
+  "Art. 15 en la redacción del RD 500/2024: las convalidaciones se rigen por los arts. 126-128 del RD 659/2023; al RD 770/2014 (título anterior al 5/3/2017) se le aplica el RD 1085/2020; si en una celda hay varias UC o varios módulos, hacen falta todos simultáneamente; siguen siendo válidas las UC acreditadas por el derogado RD 1224/2009; ante discrepancias prevalece el código sobre la denominación; y el apartado 8 excluye a este ciclo de la exención del periodo de formación en empresa.",
+  "El título LOGSE de Técnico Superior en Imagen para el Diagnóstico (RD 545/1995) tiene los mismos efectos académicos y profesionales que este título (DA 3.ª.2 del RD 770/2014), igual que el título de Técnico Especialista en Radiodiagnóstico, rama Sanitaria, de la Ley 14/1970 (DA 3.ª.1). La DA 3.ª del RD 500/2024 traslada a 1709 (IPE I) las referencias que la DA 3.ª hacía al módulo de FOL.",
+  "DA 3.ª.4 del RD 770/2014: la formación del título incluye los contenidos para obtener la acreditación necesaria para operar con instalaciones de rayos X con fines de diagnóstico médico (Instrucción IS-17 del CSN) y los contenidos de la Guía de Seguridad 5.6 del CSN (apéndices I, II y IV) para la licencia de operador con campo de aplicación en Medicina Nuclear (RD 1836/1999 y RD 35/2008).",
+  "Cambio de códigos UC→ECP (RD 532/2025, anexo I): las trece UC de este título conservan número y denominación y solo cambian de prefijo (ECP2078_3, ECP2079_3, ECP2080_3, ECP2081_3, ECP2082_3, ECP2083_3, ECP2084_3, ECP2085_3, ECP2086_3, ECP0388_3, ECP0390_3, ECP0391_3 y ECP0394_3). Ninguna figura en los anexos II-a/II-b de equivalencias, por lo que 'equivalencias_uc' está vacío."
+ ],
+ "no_verificado": [
+  "No se ha podido consultar la ficha del título en todofp.es: las URL https://www.todofp.es/que-estudiar/loe/sanidad/imagen-diagnostico-medicina-nuclear.html y .../imagen-para-el-diagnostico-y-medicina-nuclear.html devuelven 404 y no se ha localizado la nueva dirección. Todos los datos proceden del BOE, del BOA y de la API oficial de centros docentes de Aragón (centrosdocentes.catedu.es/awc).",
+  "La asignación a 1.º/2.º curso de las horas del plan LOE de Aragón ('horas_otras.loe') NO figura en la Orden de 5 de mayo de 2015, que solo da la duración total de cada módulo en su anexo I. Se ha deducido de la única partición aritméticamente posible (960 h = 32 semanas x 30 h en 1.º; 630 h = 21 semanas x 30 h más Proyecto y FCT en 2.º). El caso más llamativo es 1354 Técnicas de radiofarmacia, que por esa vía queda en 1.º curso. No se ha localizado resolución o instrucción de la Dirección General de FP de Aragón que fije formalmente esa secuenciación.",
+  "No se ha comprobado si hubo modificaciones o correcciones de errores de la Orden de 5 de mayo de 2015 (Aragón) anteriores a su sustitución por la Orden ECD/843/2024, ni si existió oferta a distancia o nocturna de SAN305 en el plan LOE con distribución horaria distinta.",
+  "No se ha verificado el anexo LVIII del RD 500/2024 (nuevo anexo III de profesorado del RD 770/2014) ni los anexos II (espacios y equipamientos) ni III A)-III D) originales.",
+  "No se ha consultado la herramienta de competencias de Aragón (https://centrosdocentes.catedu.es/awc/public/competencias) para contrastar los anexos V A) y V B): sus endpoints api/tab2_modulos_superados.php y api/tab4_convalidar_modulos.php no admiten el parámetro codciclo y devuelven 404 con él, y trabajan con listas globales de módulos. Las tablas V A) y V B) aquí recogidas proceden directamente del BOE y se han contrastado con el PDF del BOA de la Orden de 5 de mayo de 2015.",
+  "No se ha comprobado si existe un real decreto de aspectos específicos de los grados A, B y C de FP para la familia profesional de Sanidad (análogo al RD 209/2025 de Imagen Personal) ni su posible efecto sobre convalidaciones o estándares de este título.",
+  "No se han revisado los certificados de profesionalidad asociados a SAN627_3 y SAN127_3 ni su posible efecto en la acreditación de estándares.",
+  "No se ha verificado la distribución horaria del plan vigente ni del plan LOE en comunidades autónomas distintas de Aragón y del ámbito de gestión del MEC/MEFPD.",
+  "La columna «Bilingüe» del anexo LXX de la Orden EFD/659/2024 (marcada en 1346, 1347, 1348, 1349 y 1353) no se ha incorporado a los datos de módulos, ni se han comprobado los efectos horarios de la oferta bilingüe.",
+  "Las filas del anexo I del RD 1085/2020 (LOGSE→LOGSE) se han reconstruido interpretando los atributos rowspan de la tabla del XML del BOE. Se han verificado contra el texto plano, pero conviene cotejarlas con el PDF oficial antes de usarlas en producción.",
+  "La fila del anexo II del RD 1085/2020 que hace aportar «Protección radiológica» del Técnico Superior en Imagen para el Diagnóstico hacia el 1348 de Radioterapia y Dosimetría cita el «RD 539/1995», que en realidad corresponde a Laboratorio de Diagnóstico Clínico. Se ha interpretado como errata por RD 545/1995, pero no se ha localizado corrección de errores que lo confirme."
+ ]
+};

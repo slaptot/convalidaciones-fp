@@ -250,6 +250,12 @@ build("san308", "san308.json", {
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
 })
 
+build("san305", "san305.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+})
+
 build("fpb_peluqueria_estetica", "fpb-peluqueria-estetica.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -362,4 +368,4 @@ def build_catalogo(ya_cargados):
 
 
 build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108",
-                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN306", "SAN308"])
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308"])
