@@ -78,6 +78,32 @@
     return { pares, avisos };
   }
 
+  /* Un título completo aportado se traduce a lo que ya sabe evaluar el motor:
+     la fila "Ciclo completo" de las tablas, las reglas de ciclo completo
+     (Emergencias, Comercio/Administración, PRL) y, si es un título cargado,
+     sus módulos uno a uno. */
+  function expandirTitulos(aportaciones, ciclos) {
+    const extra = [], avisos = [];
+    for (const a of aportaciones.filter((x) => x.tipo === 'titulo')) {
+      if (a.gb) {
+        avisos.push('Los títulos de Grado Básico convalidan ámbitos de Grado Básico (RD 1085/2020 art. 2.2); no dan convalidación directa en un ciclo de grado medio o superior.');
+        continue;
+      }
+      if (a.clave) extra.push({ tipo: 'certificado', clave: a.clave, docs: a.docs });
+      if (a.titulo) extra.push({ tipo: 'modulo_logse', titulo: a.titulo, modulo: 'Ciclo completo', docs: a.docs });
+      const c = a.ciclo && ciclos[a.ciclo];
+      if (c) {
+        for (const m of c.modulos) {
+          if (m.tipo === 'optativo') continue;
+          extra.push(c.ciclo.plan === 'LOGSE'
+            ? { tipo: 'modulo_logse', titulo: c.ciclo.nombre, modulo: m.nombre, docs: a.docs }
+            : { tipo: 'modulo_loe', codigo: m.codigo, nombre: m.nombre, titulo: c.ciclo.nombre, docs: a.docs });
+        }
+      }
+    }
+    return { extra, avisos };
+  }
+
   function planDeEstudios(ciclo, ambito) {
     const mods = ciclo.modulos.filter((m) => m.horas?.[ambito] != null || m.tipo === 'optativo');
     // En LOGSE la FCT es un módulo propio del título
@@ -93,7 +119,9 @@
     return [...faltan];
   }
 
-  function evaluar(ciclo, normativa, aportaciones, ambito = 'aragon') {
+  function evaluar(ciclo, normativa, aportadas, ambito = 'aragon') {
+    const titulos = expandirTitulos(aportadas, window.CICLOS || {});
+    const aportaciones = [...aportadas, ...titulos.extra];
     const modulos = planDeEstudios(ciclo, ambito);
     const enPlan = new Set(modulos.map((m) => m.codigo));
     const candidatos = {};
@@ -130,6 +158,7 @@
 
     // 1. Mismo código: módulo idéntico, se traslada la nota
     for (const m of modulos) {
+      if (m.tipo === 'optativo') continue; // "OPT" no es un código estatal: se convalida por la regla C24
       const hit = loe.find((a) => norm(a.codigo) === norm(m.codigo));
       if (!hit) continue;
       add(m.codigo, {
@@ -232,6 +261,7 @@
     }
 
     const avisosGlobales = [
+      ...titulos.avisos,
       ...derivado.avisos,
       ...(normativa.avisos_generales || []).map((f) => f(ctx)).filter(Boolean),
     ];

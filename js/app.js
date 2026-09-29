@@ -8,6 +8,7 @@
   const TIPOS = {
     modulo_loe: 'Módulo LOE / LO 3/2022 superado',
     modulo_logse: 'Módulo de título anterior (LOGSE)',
+    titulo: 'Título completo de FP (GB, GM o GS)',
     uc: 'Unidad de competencia acreditada',
     mf: 'Módulo formativo de certificado (MF)',
     uf: 'Unidad formativa de certificado (UF)',
@@ -37,6 +38,8 @@
   }
 
   const ciclo = () => CICLOS[state.ciclo];
+  // Algunos códigos vienen con aclaraciones entre paréntesis: para mostrar basta el código
+  const codigoCiclo = (c) => (c.ciclo.codigo || '').split(/[\s(]/)[0];
 
   // ---------- Formulario de expediente ----------
   function pintarCabecera() {
@@ -89,6 +92,26 @@
         return `<label>Módulo superado <select name="logse" required>
           <optgroup label="Tabla del título (${h(c.ciclo.nombre)})">${opts.join('')}</optgroup>
           <optgroup label="Cualquier ciclo LOGSE">${gen}</optgroup>${mismo}</select></label>`;
+      }
+      case 'titulo': {
+        const vistos = new Set();
+        const tablas = [];
+        for (const f of c.convalidaciones_titulos_anteriores || []) {
+          if (!f.origen_modulo.some((m) => /ciclo completo/i.test(m)) || vistos.has(f.origen_titulo)) continue;
+          vistos.add(f.origen_titulo);
+          tablas.push(`<option value="titulo|${h(f.origen_titulo)}">${h(f.origen_titulo)}</option>`);
+        }
+        const generales = N.titulos_generales
+          .map((t) => `<option value="clave|${h(t.clave)}">${h(t.label)}</option>`).join('');
+        const cargados = Object.entries(CICLOS).filter(([id]) => id !== state.ciclo)
+          .map(([id, x]) => `<option value="ciclo|${h(id)}">${h(x.ciclo.nombre)} (${h(codigoCiclo(x))})</option>`).join('');
+        return `<label>Título completo aportado <select name="titulo" required>
+            ${tablas.length ? `<optgroup label="Tabla de este ciclo">${tablas.join('')}</optgroup>` : ''}
+            <optgroup label="Reglas generales">${generales}</optgroup>
+            <optgroup label="Otros títulos de esta herramienta">${cargados}</optgroup>
+            <optgroup label="Grado Básico"><option value="gb|">Título de Grado Básico (cualquier ciclo)</option></optgroup>
+          </select></label>
+          <p class="pista">Aplica de una vez lo que corresponda: filas de "ciclo completo", reglas generales y, en los títulos cargados, los módulos con el mismo código.</p>`;
       }
       case 'uc': {
         const ucs = { ...(c.uc_descripciones || {}) };
@@ -192,6 +215,13 @@
     const a = { tipo, docs: fd.getAll('doc') };
     if (tipo === 'modulo_loe') Object.assign(a, { codigo: fd.get('codigo').trim(), nombre: fd.get('nombre'), titulo: fd.get('titulo') });
     if (tipo === 'modulo_logse') { const [t, m] = fd.get('logse').split('||'); Object.assign(a, { titulo: t, modulo: m }); }
+    if (tipo === 'titulo') {
+      const [clase, valor] = fd.get('titulo').split('|');
+      if (clase === 'clave') Object.assign(a, { clave: valor, label: N.titulos_generales.find((t) => t.clave === valor)?.label });
+      else if (clase === 'ciclo') Object.assign(a, { ciclo: valor, titulo: CICLOS[valor].ciclo.nombre });
+      else if (clase === 'gb') Object.assign(a, { gb: true, label: 'Título de Grado Básico' });
+      else Object.assign(a, { titulo: valor });
+    }
     if (tipo === 'uc') Object.assign(a, { codigo: fd.get('codigo').trim().toUpperCase(), via: fd.get('via') });
     if (tipo === 'mf' || tipo === 'uf') Object.assign(a, { codigo: fd.get('codigo') });
     if (tipo === 'universidad') Object.assign(a, { titulacion: fd.get('titulacion'), asignaturas: fd.get('asignaturas') });
@@ -204,6 +234,7 @@
     switch (a.tipo) {
       case 'modulo_loe': return `${a.codigo} ${a.nombre || ''}${a.titulo ? ` — ${a.titulo}` : ''}`;
       case 'modulo_logse': return `${a.modulo} — ${a.titulo}`;
+      case 'titulo': return `${a.label || a.titulo} — título completo`;
       case 'uc': return `${a.codigo} ${ciclo().uc_descripciones?.[a.codigo] || ''} (${a.via})`;
       case 'mf': {
         const m = buscarMf(a.codigo);
@@ -417,7 +448,7 @@
 
       <table class="inf-datos">
         <tr><th>Alumno/a</th><td>${h(state.alumno || '—')}</td><th>DNI/NIE</th><td>${h(state.dni || '—')}</td></tr>
-        <tr><th>Ciclo formativo</th><td colspan="3">${h(c.ciclo.nombre)} (${h(c.ciclo.codigo)}) · Grado ${h(c.ciclo.grado)} · ${h(c.ciclo.familia)}</td></tr>
+        <tr><th>Ciclo formativo</th><td colspan="3">${h(c.ciclo.nombre)} (${h(codigoCiclo(c))}) · Grado ${h(c.ciclo.grado)} · ${h(c.ciclo.familia)}</td></tr>
         <tr><th>Plan de estudios</th><td>${h(plan)}</td><th>Curso académico</th><td>${h(state.curso || '—')}</td></tr>
         <tr><th>Fecha del análisis</th><td colspan="3">${h(hoy)}</td></tr>
       </table>

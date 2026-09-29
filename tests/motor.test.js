@@ -163,3 +163,21 @@ assert.equal(r['0634'], 'convalidable');
 f = full('tcae', [{ tipo: 'mf', codigo: 'MF0249_2', docs: ['cert_profesionalidad'] }]);
 assert.ok(f.filas.every((x) => !x.mejor));
 console.log('OK: certificados de otras familias');
+
+// ---- Título completo aportado ----
+// TCAE (LOGSE) completo -> 0216, 0217 y 0020 de APSD
+r = est('apsd', [{ tipo: 'titulo', titulo: 'Técnico en Cuidados Auxiliares de Enfermería (LOGSE, RD 546/1995)', docs: ['cert_academica'] }]);
+for (const m of ['0216', '0217', '0020']) assert.equal(r[m], 'convalidable', m);
+// Regla general por clave: Emergencias Sanitarias -> 0020
+assert.equal(est('apsd', [{ tipo: 'titulo', clave: 'ciclo_emergencias', docs: ['cert_academica'] }])['0020'], 'convalidable');
+// Título cargado: APSD completo aportado a Termalismo -> módulos con el mismo código
+r = est('termalismo', [{ tipo: 'titulo', ciclo: 'apsd', titulo: 'Técnico en APSD', docs: ['cert_academica'] }]);
+assert.equal(r['0212'], 'superado');
+assert.equal(r['OPT'], null, 'el optativo no se traslada entre ciclos');
+// Grado Básico: solo aviso
+f = full('apsd', [{ tipo: 'titulo', gb: true, docs: [] }]);
+assert.ok(f.filas.every((x) => !x.mejor) && f.avisos.some((a) => a.includes('Grado Básico')));
+// La certificación académica se reclama si no se marca
+f = full('apsd', [{ tipo: 'titulo', titulo: 'Técnico en Cuidados Auxiliares de Enfermería (LOGSE, RD 546/1995)', docs: [] }]);
+assert.deepEqual(f.filas.find((x) => x.modulo.codigo === '0216').mejor.faltan, ['cert_academica']);
+console.log('OK: título completo');

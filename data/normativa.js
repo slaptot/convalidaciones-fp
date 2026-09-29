@@ -31,6 +31,7 @@
       modulo_loe: ['cert_academica'],
       modulo_logse: ['cert_academica'],
       uc: ['cert_uc', 'cert_profesionalidad'],
+      titulo: ['cert_academica'],
       mf: ['cert_profesionalidad', 'acreditacion_parcial'],
       uf: ['cert_profesionalidad', 'acreditacion_parcial'],
       universidad: ['cert_academica', 'programas_univ', 'cert_univ_programas'],
@@ -42,7 +43,8 @@
     requeridos(a) {
       switch (a.tipo) {
         case 'modulo_loe':
-        case 'modulo_logse': return ['cert_academica'];
+        case 'modulo_logse':
+        case 'titulo': return ['cert_academica'];
         case 'uc': return [a.via === 'Certificado de profesionalidad' ? 'cert_profesionalidad' : 'cert_uc'];
         case 'mf':
         case 'uf': return (a.docs || []).includes('cert_profesionalidad') ? [] : ['acreditacion_parcial'];
@@ -68,6 +70,13 @@
       ciclo_emergencias: 'cert_academica', ciclo_comercio_admin: 'cert_academica',
       ciclo_prl_logse: 'cert_academica', optativo_otro_ciclo: 'cert_academica',
     },
+
+    // Títulos completos que convalidan por sí mismos (reglas generales)
+    titulos_generales: [
+      { clave: 'ciclo_emergencias', label: 'Técnico en Emergencias Sanitarias (LOE) — título completo' },
+      { clave: 'ciclo_comercio_admin', label: 'Título completo (GM o GS) de Comercio y Marketing o Administración y Gestión' },
+      { clave: 'ciclo_prl_logse', label: 'Técnico Superior en Prevención de Riesgos Profesionales (LOGSE)' },
+    ],
 
     // Módulos LOGSE aportables desde cualquier ciclo (RD 1085/2020, Anexo II)
     modulos_logse_generales: [
