@@ -15,6 +15,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Anatomía Patológica y Citodiagnóstico | SAN301 | Superior | LO 3/2022 |
 | Dietética | SAN302 | Superior | LOGSE |
 | Higiene Bucodental | SAN304 | Superior | LO 3/2022 |
+| Laboratorio Clínico y Biomédico | SAN306 | Superior | LO 3/2022 |
 | Documentación y Administración Sanitarias | SAN303 | Superior | LO 3/2022 |
 | Termalismo y Bienestar | IMP304 | Superior | LO 3/2022 |
 

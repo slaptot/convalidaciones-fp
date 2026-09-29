@@ -1,0 +1,1210 @@
+{
+ "ciclo": {
+  "codigo": "SAN306",
+  "nombre": "Técnico Superior en Laboratorio Clínico y Biomédico",
+  "grado": "superior",
+  "familia": "Sanidad",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 771/2014, de 12 de septiembre",
+    "boe": "BOE-A-2014-10068",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10068",
+    "nota": "Título y enseñanzas mínimas (BOE núm. 235, de 27/09/2014). Su art. 1.2 declara que sustituye la regulación del título LOGSE de Técnico Superior en Laboratorio de Diagnóstico Clínico (RD 539/1995, de 7 de abril). Duración 2000 h; anexo I = 1100 h de currículo básico (55 %). ATENCIÓN: el BOE NO publica texto consolidado de este RD (act.php redirige a doc.php); hay que leer el original y aplicarle a mano el RD 1085/2020 y el RD 500/2024."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Su disposición derogatoria única.2 DEROGA el anexo IV (convalidaciones) del RD 771/2014, que cita expresamente. Las convalidaciones LOGSE→LOE pasan a su anexo II (cuadro «Sanidad», grado superior) y las LOE→LOE a su anexo III (donde este título NO aparece). DA 5ª: las tablas se aplican al módulo en cualquier ciclo que lo incluya. Modificado por el RD 393/2022, la DF 4ª del RD 659/2023, la DF 1ª del RD 500/2024 y la DF 3ª del RD 262/2026."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709/1710 (anexo V, 50 h cada uno), 1665 (anexo VII, 30 h), 1708 (anexo VIII, 30 h) y 0179 (anexo X, 50 h). Arts. 126-128 y 131: reglas de convalidación y exención. Art. 96.1: bloques del ciclo."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de los títulos de GRADO SUPERIOR a la LO 3/2022. Laboratorio Clínico y Biomédico es el número 58.º del grupo del art. primero.Dos.a) (CFGS SIN el antiguo módulo de Inglés). Modifica los arts. 2, 10, 12 y 15 y los anexos I y III del RD 771/2014 (la nota final del BOE así lo recoge); NO toca el art. 6 ni los anexos V A) y V B). Art. séptimo.Uno: SUPRIME 1376 FOL, 1377 EIE y 1378 FCT y AÑADE 0179 Inglés profesional (GS), 1709, 1710, 1665 y 1708; el módulo 1375 «Proyecto» pasa a llamarse «Proyecto intermodular» conservando código y horas. Art. cuarto.Uno.e): módulo optativo de 80 h de currículo básico. Art. sexto.Uno: nueva redacción del art. 15, cuyo apartado 8 EXCLUYE a este ciclo de la exención del periodo de formación en empresa. Art. octavo: nuevo anexo III de profesorado (anexo LIX del RD 500/2024). Anexo XCI: ECTS. DA 7ª: «Proyecto» → «Proyecto intermodular». DF 1ª.Dos: nueva DA 6ª del RD 1085/2020 (FOL≡IPE I, EIE≡IPE II)."
+   },
+   {
+    "ref": "RD 1087/2005, de 16 de septiembre",
+    "boe": "BOE-A-2005-16342",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-16342",
+    "nota": "Establece las cualificaciones SAN124_3 Laboratorio de análisis clínicos (anexo CXXIV) y SAN125_3 Anatomía patológica y citología (anexo CXXV), incluidas en el título. NO VERIFICADO el identificador BOE-A, deducido; el contenido de ambas cualificaciones se ha comprobado a través del RD 532/2025."
+   },
+   {
+    "ref": "RD 295/2004, de 20 de febrero",
+    "boe": null,
+    "url": null,
+    "nota": "Establece la cualificación QUI020_3 Ensayos microbiológicos y biotecnológicos (anexo XX), de la que el título incorpora la UC0055_3. NO VERIFICADO en el BOE; citado por el art. 6.2.b) del RD 771/2014 y por el RD 532/2025."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra las unidades de competencia como estándares de competencia profesional (ECP). Para este título, TODAS las UC conservan su número y solo cambian de prefijo: ECP0369_3, ECP0370_3, ECP0371_3, ECP0372_3, ECP0373_3, ECP0374_3, ECP0375_3, ECP0381_3 y ECP0055_3. No hay ninguna UC suprimida ni ninguna tabla de equivalencias que afecte a este ciclo. Corrige además la denominación de UC0372_3: «Realizar análisis microbiológicos e identificar parásitos en muestras biológicas humanas» (el RD 771/2014 la escribe con erratas)."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/eli/es/o/2024/06/25/efd659",
+    "nota": "Currículo vigente del ámbito de gestión del MEFPD para los CFGS (BOE núm. 158, de 1/07/2024). Laboratorio Clínico y Biomédico en su ANEXO LXXI (art. 5.3.bl), apartado A (secuenciación y distribución horaria) y B (espacios). 30 sesiones semanales en cada curso, 2000 h. Deroga la Orden ECD/1541/2015, de 21 de julio (currículo LOE del ámbito MEC de este título). Art. 13: la formación en empresa va incluida en las 2000 h (500 h en dual general, 700 h en dual intensivo). Art. 8.3: en oferta bilingüe en inglés, 0179 pasa de 70 a 120 h y 1.º sube a 31 sesiones."
+   },
+   {
+    "ref": "Orden ECD/1541/2015, de 21 de julio",
+    "boe": null,
+    "url": null,
+    "nota": "Currículo LOE (plan anterior) de este título en el ámbito de gestión del MEC. DEROGADA por la Orden EFD/659/2024. NO SE HA LEÍDO su contenido."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&SEC=BUSQUEDA_AVANZADA&DOCN=007942793",
+    "nota": "Currículo vigente de Aragón para los CFGS (BOA núm. 148, de 31/07/2024, csv BOA20240731004). Laboratorio Clínico y Biomédico en su ANEXO LVIII (art. 5.3.bd), código de ciclo SAN306. Implantación: 1.º en 2024/25 y 2.º en 2025/26. Deroga la Orden de 5 de mayo de 2015. Tiene una CORRECCIÓN DE ERRORES publicada en el BOA de 26/02/2025 y fue modificada por el Decreto 107/2025, de 10 de septiembre (BOA núm. 181, de 18/09/2025, csv BOA20250918002); no se ha comprobado si alguna de esas modificaciones afecta al anexo LVIII."
+   },
+   {
+    "ref": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&SEC=BUSQUEDA_AVANZADA&DOCN=000196945",
+    "nota": "Currículo LOE (plan anterior) de este título en Aragón; BOA núm. 105, de 4/06/2015, csv BOA20150604001. Anexo I: desarrollo de los 12 módulos estatales (1367-1378) más dos módulos propios A117 y A118 «Lengua extranjera profesional: inglés 1 y 2» (64 y 42 h). Anexos II (espacios), III A)-III D) (profesorado), IV (convalidaciones LOGSE, idéntico al anexo IV del RD 771/2014) y V A)/V B) (UC). Implantación: 1.º en 2015/16 y 2.º en 2016/17. NO contiene tabla de secuenciación por cursos ni horas semanales. DEROGADA por la Orden ECD/843/2024."
+   },
+   {
+    "ref": "Decreto 91/2024, de 5 de junio, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/5929931/Decreto+91_2024+Consolidado+con+Decreto+107_2025+actualizado+14-10-2025.pdf/4b22b836-0390-1e9b-baf6-d55a27bc6532",
+    "nota": "Ordenación de la FP de Grado D y E en Aragón (BOA núm. 109, de 6/06/2024, csv BOA20240606002), modificado por el Decreto 107/2025. Su ART. 49.2 EXCLUYE de la exención de la formación en empresa a los nueve ciclos de grado superior de Sanidad, entre ellos éste. Arts. 48-53 y Anexo VIII: procedimiento de convalidaciones y expresión en los documentos de evaluación."
+   },
+   {
+    "ref": "RD 539/1995, de 7 de abril",
+    "boe": null,
+    "url": null,
+    "nota": "Título LOGSE de Técnico Superior en Laboratorio de Diagnóstico Clínico, antecesor de éste (art. 1.2 del RD 771/2014). Es el origen de las filas del anexo II del RD 1085/2020 hacia este ciclo y aparece también en el anexo I (LOGSE→LOGSE). NO SE HA LEÍDO su texto: sus denominaciones de módulos se toman literalmente de los anexos I y II del RD 1085/2020 y del anexo IV derogado del RD 771/2014."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "1367",
+   "nombre": "Gestión de muestras biológicas",
+   "horas": 100,
+   "horas_fuente": "RD 771/2014 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 160,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "1368",
+   "nombre": "Técnicas generales de laboratorio",
+   "horas": 110,
+   "horas_fuente": "RD 771/2014 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "1369",
+   "nombre": "Biología molecular y citogenética",
+   "horas": 100,
+   "horas_fuente": "RD 771/2014 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "1370",
+   "nombre": "Fisiopatología general",
+   "horas": 110,
+   "horas_fuente": "RD 771/2014 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "1371",
+   "nombre": "Análisis bioquímico",
+   "horas": 95,
+   "horas_fuente": "RD 771/2014 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 260,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 168,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "1372",
+   "nombre": "Técnicas de inmunodiagnóstico",
+   "horas": 70,
+   "horas_fuente": "RD 771/2014 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 170,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 106,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "1373",
+   "nombre": "Microbiología clínica",
+   "horas": 90,
+   "horas_fuente": "RD 771/2014 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 200,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 168,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "1374",
+   "nombre": "Técnicas de análisis hematológico",
+   "horas": 95,
+   "horas_fuente": "RD 771/2014 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 230,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 147,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "1375",
+   "nombre": "Proyecto intermodular de laboratorio clínico y biomédico",
+   "horas": 25,
+   "horas_fuente": "RD 771/2014 anexo I (como «Proyecto de laboratorio clínico y biomédico»); el RD 500/2024 (art. cuarto.Uno.c.2º y DA 7ª) solo lo renombra «Proyecto intermodular», manteniendo código y duración",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 40,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés profesional (GS)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo X (currículo básico); módulo AÑADIDO por el RD 500/2024 art. séptimo.Uno.b).1.º",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico); añadido por el RD 500/2024 art. séptimo.Uno.b).2.º",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico); añadido por el RD 500/2024 art. séptimo.Uno.b).3.º",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VII (currículo básico); añadido por el RD 500/2024 art. séptimo.Uno.b).4.º",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico); añadido por el RD 500/2024 art. séptimo.Uno.b).5.º",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 500/2024 art. cuarto.Uno.e) (nuevo art. 10.3 del RD 771/2014): 80 h de currículo básico; puede desarrollarse en un curso completo o en dos módulos cuatrimestrales",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1376",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 771/2014 anexo I (texto original)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 96,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "1377",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 771/2014 anexo I (texto original)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 63,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "1378",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 771/2014 anexo I (texto original)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 370,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "A117",
+   "nombre": "Lengua extranjera profesional: inglés 1 (módulo propio de Aragón, plan LOE)",
+   "horas": null,
+   "horas_fuente": "No tiene currículo básico estatal: módulo propio de Aragón",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 64,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  },
+  {
+   "codigo": "A118",
+   "nombre": "Lengua extranjera profesional: inglés 2 (módulo propio de Aragón, plan LOE)",
+   "horas": null,
+   "horas_fuente": "No tiene currículo básico estatal: módulo propio de Aragón",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 42,
+     "curso": null,
+     "fuente": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón), anexo I (duración de cada módulo). La orden NO publica tabla de secuenciación por cursos ni de horas semanales, por lo que el curso no se ha podido verificar"
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/consulta de laboratorio de diagnóstico clínico + Recogida, preparación y conservación de muestras biológicas humanas (la celda contiene los dos módulos: hacen falta ambos)",
+   "destino_modulos": [
+    "1367"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Sanidad», grado superior (antes RD 771/2014 anexo IV, derogado por la disposición derogatoria única.2 del RD 1085/2020)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": "Fundamentos y técnicas de análisis bioquímicos",
+   "destino_modulos": [
+    "1368",
+    "1371"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Sanidad», grado superior (antes RD 771/2014 anexo IV, derogado por la disposición derogatoria única.2 del RD 1085/2020)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": "Fundamentos y técnicas de análisis microbiológicos",
+   "destino_modulos": [
+    "1373"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Sanidad», grado superior (antes RD 771/2014 anexo IV, derogado por la disposición derogatoria única.2 del RD 1085/2020)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": "Fundamentos y técnicas de análisis hematológicos y citológicos",
+   "destino_modulos": [
+    "1374"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Sanidad», grado superior (antes RD 771/2014 anexo IV, derogado por la disposición derogatoria única.2 del RD 1085/2020)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": "Formación en centro de trabajo del título de Técnico Superior en Laboratorio de Diagnóstico Clínico",
+   "destino_modulos": [
+    "1378"
+   ],
+   "fuente": "RD 771/2014 anexo IV (DEROGADO por el RD 1085/2020). Esta fila NO se recogió en el anexo II del RD 1085/2020. El módulo 1378 ya no existe tras el RD 500/2024; la FCT se sustituye por el periodo de formación en empresa, que además NO admite exención en este ciclo (art. 15.8 del RD 771/2014 en la redacción del RD 500/2024)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/consulta de laboratorio de diagnóstico clínico + Obtención, preparación y conservación de muestras biológicas humanas (redacción del texto derogado)",
+   "destino_modulos": [
+    "1367"
+   ],
+   "fuente": "RD 771/2014 anexo IV (DEROGADO por el RD 1085/2020). Se recoge por la discrepancia de denominación con el anexo II vigente, que dice «Recogida, preparación y conservación de muestras biológicas humanas»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citología (LOGSE, RD 538/1995)",
+   "origen_modulo": "Proceso de tejidos y citopreparación",
+   "destino_modulos": [
+    "1368",
+    "1380"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Sanidad», grado superior, fila hacia el Técnico Superior en Anatomía Patológica y Citodiagnóstico (RD 767/2014). Por la DA 5ª del RD 1085/2020 la convalidación de 1368 es aplicable también en este ciclo; 1380 Procesamiento citológico y tisular no forma parte de SAN306"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/consulta de laboratorio de diagnóstico clínico + Recogida, preparación y conservación de muestras biológicas humanas",
+   "destino_modulos": [
+    "1367"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Sanidad», grado superior, fila hacia el Técnico Superior en Anatomía Patológica y Citodiagnóstico (RD 767/2014). Coincide con la fila propia de este título; se recoge por la DA 5ª del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": "Recogida, preparación y conservación de muestras biológicas + Fundamentos y técnicas de análisis bioquímico (la celda contiene los dos módulos)",
+   "destino_modulos": [
+    "0103"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Sanidad», grado superior, grado medio, fila hacia el Técnico en Farmacia y Parafarmacia (RD 1689/2007). El título LOGSE antecesor como formación aportada; 0103 Operaciones básicas de laboratorio no forma parte de SAN306"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "LOGSE: Operaciones administrativas y documentación sanitaria (Cuidados Auxiliares de Enfermería, RD 546/1995)",
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de anatomía patológica / citología (Anatomía Patológica y Citología, RD 538/1995)",
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de imagen para el diagnóstico (Imagen para el Diagnóstico, RD 545/1995)",
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de radioterapia (Radioterapia, RD 544/1995)",
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de dietética (Dietética, RD 536/1995)",
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de higiene bucodental (Higiene Bucodental, RD 537/1995)",
+    "LOGSE: Realización de análisis clínicos elementales bajo la supervisión del facultativo (Farmacia, RD 547/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico",
+   "destino_modulos": [
+    "LOGSE: Operaciones administrativas y documentación sanitaria (Cuidados Auxiliares de Enfermería, RD 546/1995)",
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de anatomía patológica / citología (Anatomía Patológica y Citología, RD 538/1995)",
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de imagen para el diagnóstico (Imagen para el Diagnóstico, RD 545/1995)",
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de radioterapia (Radioterapia, RD 544/1995)",
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de dietética (Dietética, RD 536/1995)",
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de higiene bucodental (Higiene Bucodental, RD 537/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citología (LOGSE, RD 538/1995)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Audioprótesis (LOGSE, RD 62/2001)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Dietética (LOGSE, RD 536/1995)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Ortoprotésica (LOGSE, RD 542/1995)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Radioterapia (LOGSE, RD 544/1995)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Audioprótesis (LOGSE, RD 62/2001)",
+   "origen_modulo": "Administración y gestión de un gabinete audioprotésico",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Ortoprotésica (LOGSE, RD 542/1995)",
+   "origen_modulo": "Administración y gestión de una unidad/gabinete de ortoprotésica",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995)",
+   "origen_modulo": "Organización, administración y gestión de una unidad/gabinete de prótesis dentales",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citología (LOGSE, RD 538/1995)",
+   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de anatomía patológica y citología",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995)",
+   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de imagen para el diagnóstico",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Radioterapia (LOGSE, RD 544/1995)",
+   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de radioterapia",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Dietética (LOGSE, RD 536/1995)",
+   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de dietética",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de higiene bucodental",
+   "destino_modulos": [
+    "LOGSE: Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico (Laboratorio de Diagnóstico Clínico, RD 539/1995)"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro «Familia: Sanidad»"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOGSE",
+   "origen_modulo": "Formación y Orientación Laboral (más la certificación de prevención de riesgos laborales de nivel básico)",
+   "destino_modulos": [
+    "1376",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones de los módulos profesionales de Formación y Orientación Laboral». El módulo 1376 ya no existe tras el RD 500/2024; por la DA 6ª.1 del RD 1085/2020 (añadida por la DF 1ª.Dos del RD 500/2024) la convalidación se entiende hecha también a 1709 IPE I"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1376",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de FOL, y DA 6ª.1 (RD 500/2024)"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOGSE",
+   "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa",
+   "destino_modulos": [
+    "1377",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora». El módulo 1377 ya no existe tras el RD 500/2024; por la DA 6ª.2 del RD 1085/2020 la convalidación se entiende hecha también a 1710 IPE II"
+  },
+  {
+   "origen_titulo": "Técnico en Comercio (LOGSE, familia Comercio y Marketing)",
+   "origen_modulo": "Administración y gestión de un pequeño establecimiento comercial",
+   "destino_modulos": [
+    "1377",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE, y DA 6ª.2 (RD 500/2024)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Administración y Finanzas (LOGSE, RD 1659/1994)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1377",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE, y DA 6ª.2 (RD 500/2024)"
+  },
+  {
+   "origen_titulo": "Técnico en Gestión Administrativa (LOGSE, RD 1662/1994)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1377",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE, y DA 6ª.2 (RD 500/2024)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Ortoprotésica (LOGSE, RD 542/1995)",
+   "origen_modulo": "Administración y gestión de una unidad/gabinete de Ortoprotésica",
+   "destino_modulos": [
+    "1377",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE (fila de Sanidad), y DA 6ª.2 (RD 500/2024)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995)",
+   "origen_modulo": "Organización, administración y gestión de una unidad/gabinete de prótesis dentales",
+   "destino_modulos": [
+    "1377",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE (fila de Sanidad), y DA 6ª.2 (RD 500/2024)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Audioprótesis (LOGSE, RD 62/2001)",
+   "origen_modulo": "Administración y gestión de un gabinete audioprotésico",
+   "destino_modulos": [
+    "1377",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE (fila de Sanidad), y DA 6ª.2 (RD 500/2024)"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOGSE de grado superior",
+   "origen_modulo": "Lengua Extranjera (Inglés)",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de módulos de inglés, bloque «Grado Superior» (redacción de la DF 4ª.Dos del RD 659/2023)"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOGSE de grado superior",
+   "origen_modulo": "Lengua Extranjera (duración de 90 horas), cuando la lengua cursada y superada sea inglés",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de módulos de inglés, bloque «Grado Superior»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Comercio Internacional (LOGSE)",
+   "origen_modulo": "Lengua Extranjera en Comercio Internacional, cuando la lengua cursada y superada sea inglés",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de módulos de inglés, bloque «Grado Superior»"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOE",
+   "origen_modulo": "Formación y orientación laboral",
+   "destino_modulos": [
+    "1376",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con formación y orientación laboral», más la DA 6ª.1 y el art. 127.b.5º del RD 659/2023"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOE",
+   "origen_modulo": "Empresa e iniciativa emprendedora",
+   "destino_modulos": [
+    "1377",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (sustituido por la DF 1ª.Tres del RD 500/2024), más la DA 6ª.2"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo de grado medio o superior de las familias profesionales Comercio y Marketing o Administración y Gestión (LOE)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1377",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (sustituido por la DF 1ª.Tres del RD 500/2024), más la DA 6ª.2"
+  },
+  {
+   "origen_titulo": "Certificado de Aptitud de Inglés de la EOI (RD 967/1988) o de Nivel Avanzado (B2) o superior de Inglés de la EOI (RD 1629/2006)",
+   "origen_modulo": "Acreditación oficial de inglés",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 art. 3.7 y anexo III, cuadro de inglés"
+  },
+  {
+   "origen_titulo": "Título de Grado, o equivalente, en Filología Inglesa o en Traducción e Interpretación (Inglés)",
+   "origen_modulo": "Titulación universitaria",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 art. 3.7 y anexo III, cuadro de inglés"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citodiagnóstico (LOE, RD 767/2014; SAN301 en Aragón)",
+   "origen_modulo": "1367. Gestión de muestras biológicas",
+   "destino_modulos": [
+    "1367"
+   ],
+   "fuente": "Módulo con el MISMO código, denominación y duración en los dos ciclos (RD 767/2014 y RD 771/2014; en Aragón, SAN301 y SAN306, ambos con las mismas horas en el anexo LVIII/LV de la Orden ECD/843/2024). No es una convalidación: procede el TRASLADO DE NOTA del art. 3.2 del RD 1085/2020 y del Anexo VIII ap. 3 del Decreto 91/2024 de Aragón. No figura en el anexo III del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citodiagnóstico (LOE, RD 767/2014; SAN301 en Aragón)",
+   "origen_modulo": "1368. Técnicas generales de laboratorio",
+   "destino_modulos": [
+    "1368"
+   ],
+   "fuente": "Módulo con el MISMO código, denominación y duración en los dos ciclos (RD 767/2014 y RD 771/2014; en Aragón, SAN301 y SAN306, ambos con las mismas horas en el anexo LVIII/LV de la Orden ECD/843/2024). No es una convalidación: procede el TRASLADO DE NOTA del art. 3.2 del RD 1085/2020 y del Anexo VIII ap. 3 del Decreto 91/2024 de Aragón. No figura en el anexo III del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citodiagnóstico (LOE, RD 767/2014; SAN301 en Aragón)",
+   "origen_modulo": "1369. Biología molecular y citogenética",
+   "destino_modulos": [
+    "1369"
+   ],
+   "fuente": "Módulo con el MISMO código, denominación y duración en los dos ciclos (RD 767/2014 y RD 771/2014; en Aragón, SAN301 y SAN306, ambos con las mismas horas en el anexo LVIII/LV de la Orden ECD/843/2024). No es una convalidación: procede el TRASLADO DE NOTA del art. 3.2 del RD 1085/2020 y del Anexo VIII ap. 3 del Decreto 91/2024 de Aragón. No figura en el anexo III del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citodiagnóstico (LOE, RD 767/2014; SAN301 en Aragón)",
+   "origen_modulo": "1370. Fisiopatología general",
+   "destino_modulos": [
+    "1370"
+   ],
+   "fuente": "Módulo con el MISMO código, denominación y duración en los dos ciclos (RD 767/2014 y RD 771/2014; en Aragón, SAN301 y SAN306, ambos con las mismas horas en el anexo LVIII/LV de la Orden ECD/843/2024). No es una convalidación: procede el TRASLADO DE NOTA del art. 3.2 del RD 1085/2020 y del Anexo VIII ap. 3 del Decreto 91/2024 de Aragón. No figura en el anexo III del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOE, RD 769/2014; SAN304 en Aragón)",
+   "origen_modulo": "1370. Fisiopatología general",
+   "destino_modulos": [
+    "1370"
+   ],
+   "fuente": "Módulo con el MISMO código, denominación y duración en los dos ciclos (200 h en Aragón en ambos). Traslado de nota, art. 3.2 del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo del Sistema de FP (Grado D) adaptado a la LO 3/2022",
+   "origen_modulo": "1709. Itinerario personal para la empleabilidad I / 1710. Itinerario personal para la empleabilidad II",
+   "destino_modulos": [
+    "1709",
+    "1710"
+   ],
+   "fuente": "RD 659/2023 art. 126.5: convalidación entre ofertas formativas, con posible unidad formativa complementaria de hasta 30 h"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo de GRADO SUPERIOR de la familia profesional Sanidad (LFP)",
+   "origen_modulo": "1665. Digitalización aplicada a los sectores productivos (GS)",
+   "destino_modulos": [
+    "1665"
+   ],
+   "fuente": "RD 659/2023 art. 126.3.b y 126.4.d: solo entre ciclos de la misma familia profesional y del mismo grado (no cabe de grado medio a superior)"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo de GRADO SUPERIOR de la familia profesional Sanidad (LFP)",
+   "origen_modulo": "1708. Sostenibilidad aplicada al sistema productivo",
+   "destino_modulos": [
+    "1708"
+   ],
+   "fuente": "RD 659/2023 art. 126.3.c: entre ciclos formativos de la misma familia profesional y del mismo grado"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo de GRADO SUPERIOR (LFP)",
+   "origen_modulo": "0179. Inglés profesional (GS)",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "Es el mismo módulo: traslado de nota (art. 3.2 del RD 1085/2020; Decreto 91/2024 de Aragón, Anexo VIII ap. 6.7)"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo del mismo grado (LFP)",
+   "origen_modulo": "Módulo profesional optativo superado",
+   "destino_modulos": [
+    "OPT"
+   ],
+   "fuente": "Decreto 91/2024 de Aragón, Anexo VIII ap. 6.9-6.10, a petición del alumnado y por el procedimiento de convalidación"
+  },
+  {
+   "origen_titulo": "Cualquier formación",
+   "origen_modulo": "—",
+   "destino_modulos": [
+    "1375"
+   ],
+   "fuente": "NO CONVALIDABLE NUNCA: el Proyecto intermodular no admite convalidación ni exención (RD 659/2023 art. 126.4.b; RD 1085/2020 art. 3.5; LO 3/2022 art. 41)"
+  },
+  {
+   "origen_titulo": "Experiencia laboral de al menos un año",
+   "origen_modulo": "—",
+   "destino_modulos": [
+    "FFE"
+   ],
+   "fuente": "NO CABE EXENCIÓN en este ciclo: art. 15.8 del RD 771/2014 en la redacción del art. sexto.Uno del RD 500/2024 (los nueve CFGS de Sanidad quedan exceptuados) y art. 49.2 del Decreto 91/2024 de Aragón"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0369_3",
+    "UC0370_3",
+    "UC0375_3"
+   ],
+   "modulos": [
+    "1367"
+   ],
+   "fuente": "Anexo V A) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto). Si en la celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0055_3",
+    "UC0373_3",
+    "UC0381_3"
+   ],
+   "modulos": [
+    "1369"
+   ],
+   "fuente": "Anexo V A) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto). Si en la celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0371_3"
+   ],
+   "modulos": [
+    "1371"
+   ],
+   "fuente": "Anexo V A) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto). Si en la celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0374_3"
+   ],
+   "modulos": [
+    "1372"
+   ],
+   "fuente": "Anexo V A) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto). Si en la celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0372_3"
+   ],
+   "modulos": [
+    "1373"
+   ],
+   "fuente": "Anexo V A) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto). Si en la celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0373_3"
+   ],
+   "modulos": [
+    "1374"
+   ],
+   "fuente": "Anexo V A) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto). Si en la celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)",
+   "vigente": true
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "1367"
+   ],
+   "uc": [
+    "UC0369_3",
+    "UC0370_3",
+    "UC0375_3"
+   ],
+   "fuente": "Anexo V B) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1369"
+   ],
+   "uc": [
+    "UC0055_3",
+    "UC0373_3",
+    "UC0381_3"
+   ],
+   "fuente": "Anexo V B) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1371"
+   ],
+   "uc": [
+    "UC0371_3"
+   ],
+   "fuente": "Anexo V B) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1372"
+   ],
+   "uc": [
+    "UC0374_3"
+   ],
+   "fuente": "Anexo V B) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1373"
+   ],
+   "uc": [
+    "UC0372_3"
+   ],
+   "fuente": "Anexo V B) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1374"
+   ],
+   "uc": [
+    "UC0373_3"
+   ],
+   "fuente": "Anexo V B) del RD 771/2014 (texto original de 2014, que sigue siendo el VIGENTE: el RD 500/2024 NO modificó los anexos V A) ni V B) de este real decreto)",
+   "vigente": true
+  }
+ ],
+ "equivalencias_uc": {},
+ "uc_descripciones": {
+  "UC0369_3": "Gestionar una unidad de un laboratorio de análisis clínicos [ECP0369_3]",
+  "UC0370_3": "Realizar los procedimientos de las fases preanalítica y postanalítica en el laboratorio clínico [ECP0370_3]",
+  "UC0371_3": "Realizar análisis de bioquímica clínica en muestras biológicas humanas [ECP0371_3]",
+  "UC0372_3": "Realizar análisis microbiológicos e identificar parásitos en muestras biológicas humanas (denominación del RD 532/2025; el RD 771/2014 la escribe con erratas: «Realizar análisis microbiológico e identificar parásitos em muestras biológicos humanas») [ECP0372_3]",
+  "UC0373_3": "Realizar análisis hematológicos y genéticos en muestras biológicas humanas y procedimientos para obtener hemoderivados [ECP0373_3]",
+  "UC0374_3": "Realizar técnicas inmunológicas de aplicación en las distintas áreas del laboratorio de análisis clínicos [ECP0374_3]",
+  "UC0375_3": "Gestionar una unidad de un laboratorio de anatomía patológica y citología [ECP0375_3]",
+  "UC0381_3": "Aplicar técnicas de inmunohistoquímica, inmunofluorescencia y biología molecular, bajo la supervisión del facultativo [ECP0381_3]",
+  "UC0055_3": "Realizar ensayos biotecnológicos, informando de los resultados [ECP0055_3]"
+ },
+ "cualificaciones": [
+  {
+   "codigo": "SAN124_3",
+   "nombre_vigente": "Laboratorio de análisis clínicos",
+   "completa": true,
+   "uc": [
+    "UC0369_3",
+    "UC0370_3",
+    "UC0371_3",
+    "UC0372_3",
+    "UC0373_3",
+    "UC0374_3"
+   ],
+   "uc_2014": [
+    "UC0369_3",
+    "UC0370_3",
+    "UC0371_3",
+    "UC0372_3",
+    "UC0373_3",
+    "UC0374_3"
+   ],
+   "norma": "RD 1087/2005, de 16 de septiembre (anexo CXXIV). Sin actualizaciones posteriores localizadas; el RD 532/2025 la recoge con sus seis UC convertidas en ECP con el mismo número"
+  },
+  {
+   "codigo": "SAN125_3",
+   "nombre_vigente": "Anatomía patológica y citología",
+   "completa": false,
+   "uc": [
+    "UC0375_3",
+    "UC0381_3"
+   ],
+   "uc_2014": [
+    "UC0375_3",
+    "UC0381_3"
+   ],
+   "norma": "RD 1087/2005, de 16 de septiembre (anexo CXXV). El título incorpora solo estas dos UC de las de la cualificación"
+  },
+  {
+   "codigo": "QUI020_3",
+   "nombre_vigente": "Ensayos microbiológicos y biotecnológicos",
+   "completa": false,
+   "uc": [
+    "UC0055_3"
+   ],
+   "uc_2014": [
+    "UC0055_3"
+   ],
+   "norma": "RD 295/2004, de 20 de febrero (anexo XX), familia profesional Química. El título incorpora solo la UC0055_3"
+  }
+ ],
+ "notas": [
+  "El campo 'horas' es el del currículo básico / enseñanzas mínimas del RD 771/2014 (anexo I: 1100 h, el 55 % de 2000 h). Las horas reales de impartición están en 'horas_otras' con las claves 'aragon' (Orden ECD/843/2024, anexo LVIII, SAN306), 'mefp' (Orden EFD/659/2024, anexo LXXI) y 'loe' (currículo anterior de Aragón, Orden de 5 de mayo de 2015).",
+  "El BOE no ofrece texto consolidado del RD 771/2014 (act.php redirige a doc.php): hay que combinar el texto original (BOE-A-2014-10068), el RD 1085/2020 (deroga el anexo IV) y el RD 500/2024 (nuevos arts. 2, 10, 12 y 15 y nuevos anexos I y III).",
+  "Grupo del art. primero.Dos del RD 500/2024: este título es el número 58.º de la letra a), es decir, CFGS SIN el antiguo módulo de Inglés. En efecto, el anexo I original del RD 771/2014 solo contenía los módulos 1367-1378 y NINGÚN módulo de Inglés. Por eso el RD 500/2024 le AÑADE 0179 Inglés profesional (GS) de 50 h de currículo básico (en los grupos b) y c) el módulo 0179 ya existía y solo se renombra).",
+  "Módulos SUPRIMIDOS por el RD 500/2024 (art. séptimo.Uno.a y art. cuarto.Uno.c.1º): 1376 Formación y orientación laboral, 1377 Empresa e iniciativa emprendedora y 1378 Formación en centros de trabajo. Módulos AÑADIDOS (art. séptimo.Uno.b): 0179, 1709, 1710, 1665 y 1708, más el módulo optativo de 80 h del nuevo art. 10.3. El módulo 1375 conserva su código y sus horas y solo cambia de nombre a «Proyecto intermodular de laboratorio clínico y biomédico».",
+  "EXENCIÓN DE LA FORMACIÓN EN EMPRESA: NO ES POSIBLE en este ciclo, ni por la norma estatal ni por la autonómica. (a) Estado: el art. 15.8 del RD 771/2014, en la redacción dada por el art. sexto.Uno del RD 500/2024, exceptúa expresamente de la exención a los nueve CFGS de Sanidad establecidos por los RD 1685/2007, 1687/2011, 905/2013, 767/2014, 768/2014, 769/2014, 770/2014, 771/2014 y 772/2014. (b) Aragón: el art. 49.2 del Decreto 91/2024, de 5 de junio (BOA núm. 109, de 6/06/2024, csv BOA20240606002), recoge la misma lista de ciclos excluidos, entre ellos Laboratorio Clínico y Biomédico.",
+  "El anexo IV del RD 771/2014 (convalidaciones LOGSE→LOE) está DEROGADO por la disposición derogatoria única.2 del RD 1085/2020, que cita expresamente el RD 771/2014. Su contenido se trasladó al anexo II del RD 1085/2020 con dos diferencias verificadas: (1) el anexo II dice «Recogida, preparación y conservación de muestras biológicas humanas» donde el anexo IV decía «Obtención, preparación y conservación de muestras biológicas humanas»; (2) el anexo II NO recoge la fila «Formación en centro de trabajo del título de TS en Laboratorio de Diagnóstico Clínico → 1378 Formación en centros de trabajo».",
+  "Este título NO APARECE en el anexo III del RD 1085/2020 (convalidaciones LOE→LOE): se ha revisado el cuadro «Sanidad» del anexo III completo y ninguno de los módulos 1367-1378 figura en él, ni como formación aportada ni como formación a convalidar. Las únicas convalidaciones LOE→LOE aplicables son las de los cuadros generales (FOL, EIE, inglés) y las derivadas de módulos idénticos.",
+  "MÓDULOS IDÉNTICOS CON OTROS CICLOS: los módulos 1367 Gestión de muestras biológicas, 1368 Técnicas generales de laboratorio, 1369 Biología molecular y citogenética y 1370 Fisiopatología general son COMUNES con el Técnico Superior en Anatomía Patológica y Citodiagnóstico (RD 767/2014, SAN301 en Aragón), con el mismo código, la misma denominación y, en el currículo de Aragón, las mismas horas (133, 233, 233 y 200 h, todos en 1.er curso en ambos ciclos). Además, 1370 Fisiopatología general es común con el Técnico Superior en Higiene Bucodental (RD 769/2014, SAN304 en Aragón), también con 200 h en 1.er curso. Al ser módulos idénticos no procede convalidación sino TRASLADO DE NOTA (art. 3.2 del RD 1085/2020 y Anexo VIII ap. 3 del Decreto 91/2024).",
+  "La API de CATEDU confirma que los cuatro módulos son comunes: get_info_ciclo.php?codciclo=SAN306 devuelve 'ciclos_comunes_curso1':'SAN301' para 1367, 1368 y 1369 y 'SAN301, SAN304' para 1370.",
+  "Aragón (Orden ECD/843/2024, anexo LVIII, código SAN306; datos tomados de la API oficial de CATEDU). Primer curso: 1367 (133 h, 4 h/sem), 1368 (233, 7), 1369 (233, 7), 1370 (200, 6), 0179 (67, 2), 1709 (100, 3) y 1665 (33, 1) = 999 h. Segundo curso: 1371 (233, 7), 1372 (100, 3), 1373 (200, 6), 1374 (200, 6), 1375 (67, 2), 1710 (67, 2), 1708 (33, 1) y el módulo optativo (100, 3) = 1000 h. La API da 1999 h de total (redondeo del propio documento frente a las 2000 h nominales). Solo hay horario DIURNO y no hay módulos propios de tutoría (A99x) en este ciclo.",
+  "MEFP (Orden EFD/659/2024, anexo LXXI, apartado A): 1.er curso 1368 (160 h, 5 sesiones), 1369 (160, 5), 1370 (190, 6), 1367 (160, 5), 1709 (100, 3), 1710 (100, 3), 1708 (35, 1) y 0179 (70, 2) = 975 h y 30 sesiones. 2.º curso 1372 (170, 5), 1373 (200, 6), 1374 (230, 7), 1371 (260, 8), 1665 (35, 1), optativa (80, 2) y 1375 (50, 1) = 1025 h y 30 sesiones. Total 2000 h. Módulos marcados como susceptibles de oferta bilingüe: 1368, 1369, 1370, 1367, 1373, 1374 y 1371.",
+  "Los anexos V A) y V B) del RD 771/2014 conservan su redacción ORIGINAL de 2014: el RD 500/2024 no los sustituyó (su art. tercero no incluye el RD 771/2014, y la nota de modificaciones del BOE solo cita los arts. 2, 10, 12, 15 y los anexos I y III). Por tanto, para este título la redacción vigente y la original coinciden.",
+  "Los módulos 1368 Técnicas generales de laboratorio, 1370 Fisiopatología general y 1375 Proyecto intermodular NO tienen correspondencia con ninguna unidad de competencia: no aparecen en los anexos V A) ni V B). A diferencia de otros títulos, el anexo V A) de éste NO contiene ninguna nota al pie que convalide un módulo por acreditar todas las UC del título.",
+  "Celdas con varias UC en el anexo V A): 1367 exige UC0369_3 + UC0370_3 + UC0375_3 simultáneamente, y 1369 exige UC0055_3 + UC0373_3 + UC0381_3 simultáneamente (art. 15.3 del RD 771/2014 en la redacción del RD 500/2024). La UC0373_3 aparece dos veces en el anexo V A): sola convalida 1374 y, junto con UC0055_3 y UC0381_3, convalida también 1369.",
+  "La herramienta de competencias de Aragón (https://centrosdocentes.catedu.es/awc/public/competencias) confirma exactamente el anexo V A) vigente: 1367 → ECP0369_3 + ECP0370_3 + ECP0375_3 (conjunto); 1369 → ECP0055_3 + ECP0373_3 + ECP0381_3 (conjunto); 1371 → ECP0371_3; 1372 → ECP0374_3; 1373 → ECP0372_3; 1374 → ECP0373_3. Todas las UC figuran como activas y sin equivalencias, y 1368, 1370 y 1375 no aparecen.",
+  "Cambio de códigos UC→ECP (RD 532/2025 anexo I): todas las UC de este título mantienen su número y solo cambian el prefijo (ECP0369_3, ECP0370_3, ECP0371_3, ECP0372_3, ECP0373_3, ECP0374_3, ECP0375_3, ECP0381_3 y ECP0055_3). No hay ninguna UC suprimida, por lo que 'equivalencias_uc' está vacío.",
+  "Reglas del art. 15 del RD 771/2014 en la redacción del RD 500/2024: las convalidaciones se rigen por los arts. 126-128 del RD 659/2023; al RD 771/2014 (título anterior al 5/3/2017) se le aplica el RD 1085/2020; si en una celda hay varias UC o varios módulos, hacen falta todos simultáneamente; ante discrepancias prevalece el código sobre la denominación; y la exención del periodo de formación en empresa NO es posible en este ciclo (apartado 8).",
+  "El módulo 1375 Proyecto intermodular NO admite convalidación ni exención por ninguna vía (RD 659/2023 art. 126.4.b; RD 1085/2020 art. 3.5; LO 3/2022 art. 41).",
+  "El ciclo tiene en Aragón 1999/2000 h, por lo que NO le afecta la Resolución de 24/11/2025 del Director General de Planificación, Centros y FP (BOA núm. 237, de 9/12/2025, csv BOA20251209025), que solo regula los ciclos con duración curricular SUPERIOR a 2000 horas.",
+  "PLAN LOE (anterior al RD 500/2024), clave 'loe' de 'horas_otras': distribución de ARAGÓN según la Orden de 5 de mayo de 2015 (BOA núm. 105, de 4/06/2015). Duraciones del anexo I: 1367 160 h, 1368 192, 1369 192, 1370 192, 1371 168, 1372 106, 1373 168, 1374 147, 1375 Proyecto 40, 1376 FOL 96, 1377 EIE 63 y 1378 FCT 370, más dos módulos propios de Aragón: A117 Lengua extranjera profesional: inglés 1 (64 h) y A118 Lengua extranjera profesional: inglés 2 (42 h). Suma exacta 2000 h. La orden NO publica secuenciación por cursos.",
+  "Comparación plan LOE → plan adaptado del RD 500/2024 en Aragón: el bloque lectivo pasa de 1630 h + 370 h de FCT a 1999/2000 h sin FCT; desaparecen 1376 FOL (96 h), 1377 EIE (63 h), 1378 FCT (370 h) y los módulos propios A117/A118 de inglés (106 h en total), y entran 0179, 1709, 1710, 1665, 1708 y el módulo optativo. Todos los módulos técnicos 1367-1374 cambian de horas."
+ ],
+ "no_verificado": [
+  "No se ha podido consultar la ficha del título en todofp.es: las URL https://www.todofp.es/que-estudiar/loe/sanidad/laboratorio-clinico-biomedico.html y https://www.todofp.es/que-estudiar/familias-profesionales/sanidad/laboratorio-clinico-y-biomedico.html devuelven 404 y no se ha localizado la nueva dirección. Todos los datos proceden del BOE, del BOA y de las herramientas oficiales de Aragón (CATEDU).",
+  "Las horas y los cursos de Aragón se han tomado de la API oficial de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=SAN306), no del PDF del anexo LVIII de la Orden ECD/843/2024. El BOA no publica los anexos en HTML y no se ha extraído el PDF de 2,5 MB. La numeración del anexo (LVIII) y la letra del art. 5.3 (bd) sí se han leído en el texto HTML de la orden.",
+  "No se ha comprobado si la CORRECCIÓN DE ERRORES de la Orden ECD/843/2024 (BOA de 26/02/2025) o el Decreto 107/2025, de 10 de septiembre (que modifica también esa orden), alteran el anexo LVIII de este ciclo. Los datos de CATEDU son posteriores a ambas normas, por lo que presumiblemente ya los incorporan.",
+  "La asignación a 1.º/2.º curso del plan LOE ('horas_otras.loe.curso') es NULL: la Orden de 5 de mayo de 2015 de Aragón solo publica la duración total de cada módulo (anexo I) y no incluye tabla de secuenciación ni de horas semanales. No se ha localizado ninguna resolución o instrucción que fije formalmente esa secuenciación, y la suma de los módulos no admite una partición evidente en 960 h + 1040 h.",
+  "En el anexo LXXI de la Orden EFD/659/2024 el módulo 1710 Itinerario personal para la empleabilidad II figura en PRIMER curso (3 sesiones, 100 h), no en segundo. La suma por cursos cuadra con ese reparto (975 h y 30 sesiones en 1.º; 1025 h y 30 sesiones en 2.º), pero es una ubicación anómala que podría ser una errata del BOE. Se reproduce tal cual y no se ha localizado corrección de errores.",
+  "No se ha leído el texto del RD 539/1995 (título LOGSE de Técnico Superior en Laboratorio de Diagnóstico Clínico). Las denominaciones exactas de sus módulos se han tomado literalmente de los anexos I y II del RD 1085/2020 y del anexo IV derogado del RD 771/2014, que no siempre coinciden entre sí (p. ej. «unidad/gabinete» en el anexo I frente a «unidad/consulta» en el anexo II, y «Recogida» frente a «Obtención»).",
+  "Las filas del anexo I del RD 1085/2020 (LOGSE→LOGSE) se recogen íntegras por exigencia del encargo, pero tienen valor práctico limitado: el ciclo LOGSE de Laboratorio de Diagnóstico Clínico está extinguido desde el curso 2016/17 en Aragón y solo pueden aplicarse a quien siga matriculado en un ciclo LOGSE.",
+  "No se han verificado los identificadores BOE-A del RD 1087/2005 ni del RD 295/2004 (cualificaciones profesionales); se citan por su referencia en el art. 6 del RD 771/2014 y en el RD 532/2025.",
+  "No se ha comprobado el anexo LIX del RD 500/2024 (nuevo anexo III de profesorado) ni los anexos II y III del RD 771/2014 en lo relativo a espacios, equipamientos y especialidades docentes.",
+  "No se han revisado los certificados de profesionalidad asociados a SAN124_3, SAN125_3 y QUI020_3 ni su posible efecto en la acreditación de estándares (art. 127.b.3º del RD 659/2023).",
+  "No se ha verificado la lista concreta de módulos optativos autorizados en Aragón para SAN306 ni si existe oferta nocturna, virtual o semipresencial de este ciclo con distribución horaria distinta (CATEDU solo devuelve horario DIURNO).",
+  "No se ha contrastado la distribución horaria del plan LOE en comunidades autónomas distintas de Aragón ni en el ámbito del MEC (Orden ECD/1541/2015, no leída).",
+  "El anexo I del RD 500/2024 («Tabla de adaptación horaria del currículo básico para CFGS») reduce el currículo básico del 55 % al 50 % para los ciclos del grupo a). Aquí se han conservado las horas originales del RD 771/2014 (columna «Horas originales (Currículo básico: 55 %)») y no se ha aplicado la minoración, igual que se hizo en el resto de fichas de este repositorio; queda constancia de la discrepancia.",
+  "La fila «Experiencia laboral → FFE» de 'convalidaciones_titulos_anteriores' usa el pseudocódigo 'FFE' (formación en empresa u organismo equiparado), que no es un código de módulo: se incluye para que la herramienta pueda mostrar la exclusión expresa de la exención."
+ ]
+}

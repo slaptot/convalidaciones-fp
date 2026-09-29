@@ -279,3 +279,9 @@ assert.equal(r['TCAE-04'], 'convalidable');
 // Y el propio ciclo: sin exención por el art. 49.2
 assert.ok(!full('san304', [{ tipo: 'experiencia', meses: 24, relacionada: true, docs: [] }]).filas.some((x) => x.mejor && x.mejor.estado === 'exento'));
 console.log('OK: Higiene Bucodental');
+
+// Laboratorio Clínico: módulos idénticos con Anatomía Patológica
+require('../data/ciclos/san306.js');
+r = est('san306', ['1367', '1368', '1369', '1370'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Anatomía Patológica', docs: [] })));
+for (const m of ['1367', '1368', '1369', '1370']) assert.equal(r[m], 'superado', m);
+console.log('OK: Laboratorio Clínico');
