@@ -291,6 +291,7 @@ require('../data/ciclos/san309.js');
 r = est('san309', ['1345', '1346', '1347', '1348'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Imagen para el Diagnóstico', docs: [] })));
 for (const m of ['1345', '1346', '1347', '1348']) assert.equal(r[m], 'superado', m);
 // Sanidad completa: los once ciclos con normativa propia
+['san305', 'san308'].forEach((c) => require(`../data/ciclos/${c}.js`));
 const sanidad = ['tcae', 'san202', 'san203', 'san301', 'san302', 'san303', 'san304', 'san305', 'san306', 'san308', 'san309'];
 sanidad.forEach((c) => assert.ok(CICLOS[c] && !CICLOS[c].ciclo.parcial, c));
 console.log('OK: Sanidad completa (11 ciclos)');
