@@ -246,9 +246,13 @@ console.log('OK: Grado Básico Peluquería y Estética');
 // ---- Catálogo con correspondencias de CATEDU ----
 require('../data/catalogo.js');
 require('../data/competencias.js');
-// Educación Infantil: competencia acreditada -> módulo convalidado
-f = full('SSC302', [{ tipo: 'uc', codigo: 'ECP1028_3', via: 'Procedimiento de acreditación de competencias', docs: ['cert_uc'] }]);
-assert.ok(f.filas.some((x) => x.mejor && x.mejor.estado === 'convalidable'));
+// Un ciclo cualquiera del catálogo: competencia acreditada -> módulo convalidado
+const delCatalogo = Object.entries(CICLOS)
+  .find(([, c]) => c.ciclo.parcial && c.ciclo.competencias_catedu && c.uc_a_modulos.length);
+assert.ok(delCatalogo, 'debe quedar algún ciclo con correspondencias de CATEDU');
+const [idCat, cicloCat] = delCatalogo;
+f = full(idCat, cicloCat.uc_a_modulos[0].uc.map((u) => ({ tipo: 'uc', codigo: u, via: 'Procedimiento de acreditación de competencias', docs: ['cert_uc'] })));
+assert.ok(f.filas.some((x) => x.mejor && x.mejor.estado === 'convalidable'), idCat);
 assert.ok(f.avisos.some((a) => a.includes('CATEDU')), 'debe avisar del origen de los datos');
 // Los ciclos con normativa propia no se tocan
 assert.ok(!CICLOS.apsd.ciclo.parcial && CICLOS.apsd.uc_a_modulos[0].fuente.includes('Anexo V A'));
