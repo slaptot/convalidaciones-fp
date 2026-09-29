@@ -270,3 +270,12 @@ assert.ok(!('FE' in r) && r['D010'] === 'exento');
 // Anatomía Patológica: módulos idénticos con Laboratorio Clínico
 assert.equal(est('san301', [{ tipo: 'modulo_loe', codigo: '1367', nombre: 'Gestión de muestras biológicas', titulo: 'TS Laboratorio Clínico', docs: [] }])['1367'], 'superado');
 console.log('OK: ciclos de Sanidad');
+
+// Higiene Bucodental: exploración + prevención bucodental (LOGSE) -> TCAE
+require('../data/ciclos/san304.js');
+r = est('tcae', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)', modulo: 'Exploración bucodental', docs: [] },
+                 { tipo: 'modulo_logse', titulo: 'Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)', modulo: 'Prevención bucodental', docs: [] }]);
+assert.equal(r['TCAE-04'], 'convalidable');
+// Y el propio ciclo: sin exención por el art. 49.2
+assert.ok(!full('san304', [{ tipo: 'experiencia', meses: 24, relacionada: true, docs: [] }]).filas.some((x) => x.mejor && x.mejor.estado === 'exento'));
+console.log('OK: Higiene Bucodental');

@@ -1,0 +1,807 @@
+// Generado por tools/build_data.py a partir de research/san304.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["san304"] = {
+ "ciclo": {
+  "codigo": "SAN304",
+  "nombre": "Técnico Superior en Higiene Bucodental",
+  "grado": "superior",
+  "familia": "Sanidad",
+  "normas": [
+   {
+    "ref": "RD 769/2014, de 12 de septiembre",
+    "boe": "BOE-A-2014-10066",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10066",
+    "nota": "Título y enseñanzas mínimas (BOE núm. 241, de 4/10/2014, págs. 79186-79253; en vigor 5/10/2014). Sustituye la regulación del título LOGSE de Técnico Superior en Higiene Bucodental (RD 537/1995) y deroga el RD 537/1995 y el RD 549/1995 (su currículo). ATENCIÓN: el BOE NO publica texto consolidado de este RD (act.php redirige a doc.php); hay que leer el original y aplicarle a mano el RD 500/2024 y el RD 1085/2020. Anexo I: 1.100 h de currículo básico (55 % de 2.000). Art. 14.3: 120 créditos ECTS."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Deroga el anexo IV del RD 769/2014. Las convalidaciones LOGSE→LOGSE están en su anexo I, las LOGSE→LOE en su anexo II (bloque «Sanidad», grado superior) y las LOE→LOE en su anexo III. Su DA 6.ª (añadida por el RD 500/2024) traslada a 1709 y 1710 las convalidaciones que den como resultado FOL y EIE."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709/1710 (anexo V, 50 h cada uno), 1665 (anexo VII, 30 h), 1708 (anexo VIII, 30 h) y 0179 Inglés profesional GS (anexo X, 50 h). Arts. 126-128 (convalidaciones) y 131 (exención del periodo de formación en empresa). Art. 96.1: bloques del ciclo. Arts. 106 y 151-164: periodo en empresa."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de los títulos de grado superior a la LO 3/2022. Modifica los arts. 2, 10, 12 y 15 y los anexos I y III del RD 769/2014 (así lo recoge el análisis del BOE: NO toca el art. 6 ni los anexos V A) y V B)). Higiene Bucodental está en el GRUPO del art. primero.Dos.a) (ciclos SIN el antiguo módulo de Inglés), ordinal 56.º; por eso se AÑADE 0179 Inglés Profesional (GS). Art. cuarto.Uno: suprime 0739 FOL, 0740 EIE y 0741 FCT; renombra el módulo «Proyecto» como «Proyecto intermodular» (0738); añade 0179, 1709, 1710, 1665, 1708 y un módulo profesional optativo (80 h de currículo básico). Art. segundo: nivel 5A del MECU. Art. sexto.Uno (nuevo art. 15.8): los nueve ciclos de GS de Sanidad, entre ellos el del RD 769/2014, quedan EXCEPTUADOS de la posible exención del periodo de formación en empresa. Art. octavo.Cincuenta y seis: nuevo anexo III (profesorado) = anexo LVII del RD 500/2024. DA 1.ª y anexo I: minoración de horas solo para CCAA con lengua cooficial (no aplica a Aragón). DA 2.ª y anexo XCI: adaptación de créditos ECTS. DT única: en 2024-25 se implanta 1.º curso."
+   },
+   {
+    "ref": "RD 140/2011, de 4 de febrero",
+    "boe": "BOE-A-2011-3946",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-3946",
+    "nota": "Complementa el Catálogo Nacional de Cualificaciones Profesionales con cuatro cualificaciones de la familia Sanidad, entre ellas SAN489_3 Higiene bucodental (anexo CDLXXXIX), la única cualificación completa incluida en este título. Sigue vigente y sin actualizaciones posteriores de sus UC."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra las unidades de competencia como estándares de competencia profesional (ECP). Anexo I: UC1591_3 a UC1596_3 de SAN489_3 pasan a ECP1591_3 a ECP1596_3 manteniendo el número, el nivel 3 y la denominación. Ninguna de ellas aparece en los anexos II-a/II-b (tablas de equivalencia), es decir, no hay UC suprimidas ni refundidas en este título."
+   },
+   {
+    "ref": "Orden ECD/1539/2015, de 21 de julio",
+    "boe": "BOE-A-2015-8474",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-8474",
+    "nota": "Currículo LOE (plan anterior) del ámbito de gestión del MECD (BOE núm. 180, de 29/07/2015). Anexo II (secuenciación): 1.º curso 0730 105 h (3 h/sem), 0731 170 (5), 0732 135 (4), 0733 180 (6), «horario reservado para inglés» 90 (3), 1370 190 (6) y 0739 FOL 90 (3); 2.º curso 0734 105 (5), 0735 115 (6), 0736 120 (6), 0737 120 (6), 0020 40 (2), 0740 EIE 60 (3), «horario reservado para inglés» 40 (2), 0738 Proyecto 40 h y 0741 FCT 400 h. Total 2.000 h. Anexo III: módulos susceptibles de impartirse en inglés (0731, 0733, 1370, 0734, 0735, 0736, 0737)."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito de gestión del MEFPD para los ciclos de grado superior (BOE núm. 158, de 1/07/2024). Higiene Bucodental en su ANEXO LXIX (art. 5.3.bj), apartados A (secuenciación y distribución horaria) y B (espacios y equipamientos). 30 sesiones semanales en cada curso. Art. 8: oferta bilingüe (0179 pasaría a 120 h y 31 sesiones en 1.º). Art. 12: optatividad. Art. 13: el periodo en empresa es siempre dual, 500 h en dual general y 700 h en dual intensivo, dentro de las 2.000 h."
+   },
+   {
+    "ref": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&SEC=BUSQUEDA_AVANZADA&DOCN=000196858",
+    "nota": "Currículo LOE (plan anterior) de Técnico Superior en Higiene Bucodental en Aragón; BOA núm. 103, de 2/06/2015 (csv BOA20150602004). Anexo I: desarrollo de los módulos con su duración (0730 96 h, 0731 160, 0732 128, 0733 192, 0734 105, 0735 126, 0736 165, 0737 126, 0020 35, 1370 192, 0738 40, 0739 FOL 96, 0740 EIE 63, 0741 FCT 370, más los módulos propios de Aragón A113 Lengua extranjera profesional: inglés 1, 64 h, y A114 Lengua extranjera profesional: inglés 2, 42 h). Suma exacta 2.000 h. Art. 17.5: A113/A114 convalidan con módulos de igual denominación de cualquier ciclo LOE y con la acreditación B1. NO contiene tabla de secuenciación por cursos ni horas semanales. Derogada por la Orden ECD/843/2024 (disposición derogatoria única, letra q, apartado 3)."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&SEC=BUSQUEDA_AVANZADA&DOCN=007942793",
+    "nota": "Currículo vigente de Aragón para los ciclos de grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004). Higiene Bucodental en su ANEXO LVI (art. 5.3.bb), código de ciclo SAN304, pág. 22126 del BOA. Solo horario diurno de 2 cursos, 30 h semanales en cada uno, total 2.000 h. Art. 12: módulo optativo anual en 2.º curso. Art. 13: convalidaciones de módulos optativos (A113+A114 del plan a extinguir → A170). Art. 14: el periodo de formación en empresa se rige por el Decreto 91/2024. DA 1.ª: reconocimiento automático de módulos con el mismo código. DT 2.ª: tabla de equivalencias FOL→1709, EIE→1710 y 0179 Inglés→0179 Inglés profesional (GS). DF 1.ª: implantación de 1.º en 2024/2025 y de 2.º en 2025/2026."
+   },
+   {
+    "ref": "Decreto 91/2024, de 5 de junio, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&PIECE=BOLE&DOCS=1-1&DOCR=1&SEC=BUSQUEDA_AVANZADA&SEPARADOR=&PUBL=20240606",
+    "nota": "Ordenación de la FP del Grado D y del Grado E en Aragón (BOA núm. 109, de 6/06/2024, csv BOA20240606002). Su art. 49.2 excluye de la exención del periodo de formación en empresa a los nueve ciclos de grado superior de la familia Sanidad, entre ellos el establecido por el RD 769/2014 (Higiene Bucodental). El Decreto 107/2025 no modificó ese apartado. Art. 9.3 y 9.5: módulo optativo. Art. 98.2: complementos formativos."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "0730",
+   "nombre": "Recepción y logística en la clínica dental",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0731",
+   "nombre": "Estudio de la cavidad oral",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 160,
+    "loe": 160
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0732",
+   "nombre": "Exploración de la cavidad oral",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 140,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0733",
+   "nombre": "Intervención bucodental",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 200,
+    "loe": 192
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0734",
+   "nombre": "Epidemiología en salud oral",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 170,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0735",
+   "nombre": "Educación para la salud oral",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 160,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0736",
+   "nombre": "Conservadora, periodoncia, cirugía e implantes",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": 190,
+    "loe": 165
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0737",
+   "nombre": "Prótesis y ortodoncia",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 160,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0020",
+   "nombre": "Primeros auxilios",
+   "tipo": "especifico",
+   "comun": "primeros_auxilios",
+   "horas": {
+    "aragon": 33,
+    "mefp": 60,
+    "loe": 35
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1370",
+   "nombre": "Fisiopatología general",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 190,
+    "loe": 192
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0738",
+   "nombre": "Proyecto intermodular de higiene bucodental",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": 40
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0739",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0740",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0741",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 370
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A113",
+   "nombre": "Lengua extranjera profesional: inglés 1 (módulo propio de Aragón, plan LOE)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A114",
+   "nombre": "Lengua extranjera profesional: inglés 2 (módulo propio de Aragón, plan LOE)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 42
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de higiene bucodental"
+   ],
+   "destino_modulos": [
+    "0730"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 769/2014 anexo IV, derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": [
+    "Exploración bucodental"
+   ],
+   "destino_modulos": [
+    "0731",
+    "0732"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 769/2014 anexo IV, derogado). Celda con dos módulos de destino: se convalidan los dos"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": [
+    "Prevención bucodental"
+   ],
+   "destino_modulos": [
+    "0733",
+    "0736",
+    "0737"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 769/2014 anexo IV, derogado). Celda con tres módulos de destino: se convalidan los tres"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": [
+    "Vigilancia epidemiológica bucodental"
+   ],
+   "destino_modulos": [
+    "0734"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (en el anexo II el módulo de destino figura como «0734. Epidemiologia en salud oral», sin tilde). Antes RD 769/2014 anexo IV, derogado"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": [
+    "Educación sanitaria y promoción de la salud"
+   ],
+   "destino_modulos": [
+    "0735"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 769/2014 anexo IV, derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": [
+    "Formación en centro de trabajo del título de Higiene Bucodental"
+   ],
+   "destino_modulos": [
+    "0741"
+   ],
+   "fuente": "RD 769/2014 anexo IV (derogado por el RD 1085/2020, que NO reprodujo esta fila en su anexo II). El módulo 0741 ya no existe tras el RD 500/2024; la FCT se sustituye por el periodo de formación en empresa, cuya exención está además EXCLUIDA para este ciclo (art. 15.8 del RD 769/2014 en la redacción del RD 500/2024 y art. 49.2 del Decreto 91/2024 de Aragón)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Dietética (LOGSE, RD 536/1995)",
+   "origen_modulo": [
+    "Educación sanitaria y promoción de la salud"
+   ],
+   "destino_modulos": [
+    "0735"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Salud Ambiental (LOGSE, RD 540/1995)",
+   "origen_modulo": [
+    "Educación sanitaria y promoción de la salud"
+   ],
+   "destino_modulos": [
+    "0735"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior"
+  },
+  {
+   "origen_titulo": "Técnico en Cuidados Auxiliares de Enfermería (LOGSE, RD 546/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0020"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones del módulo profesional 0020 Primeros Auxilios» (válido para cualquier ciclo formativo de cualquier familia profesional en el que aparezca)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0739",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de FOL. Traslado a 1709 por la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Ortoprotésica (LOGSE, RD 542/1995)",
+   "origen_modulo": [
+    "Administración y gestión de una unidad/gabinete de Ortoprotésica"
+   ],
+   "destino_modulos": [
+    "0740",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE (válido para cualquier ciclo formativo). Traslado a 1710 por la DA 6.ª del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995)",
+   "origen_modulo": [
+    "Organización, administración y gestión de una unidad/gabinete de prótesis dentales"
+   ],
+   "destino_modulos": [
+    "0740",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE (válido para cualquier ciclo formativo). Traslado a 1710 por la DA 6.ª del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Audioprótesis (LOGSE, RD 62/2001)",
+   "origen_modulo": [
+    "Administración y gestión de un gabinete audioprotésico"
+   ],
+   "destino_modulos": [
+    "0740",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE (válido para cualquier ciclo formativo). Traslado a 1710 por la DA 6.ª del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico en Gestión administrativa (LOGSE, RD 1662/1994)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0740",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE. Traslado a 1710 por la DA 6.ª del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Administración y finanzas (LOGSE, RD 1659/1994)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0740",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro de EIE. Traslado a 1710 por la DA 6.ª del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Comercio Internacional (LOGSE)",
+   "origen_modulo": [
+    "Lengua Extranjera en Comercio Internacional, cuando la lengua cursada y superada sea inglés"
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Superior"
+  },
+  {
+   "origen_titulo": "Técnico en Emergencias Sanitarias (LOE, RD 1397/2007)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0020"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para determinados ciclos formativos» (0020 Primeros auxilios para cualquier ciclo formativo)"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés (Escuela Oficial de Idiomas o título universitario)",
+   "origen_modulo": [
+    "Certificado de Aptitud de Inglés de la EOI (RD 967/1988)"
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro de convalidaciones de inglés (la celda de destino incluye 0156 Inglés Profesional y 0179 Inglés Profesional)"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés (Escuela Oficial de Idiomas o título universitario)",
+   "origen_modulo": [
+    "Certificado de Nivel Avanzado (B2), o superior, de Inglés de la EOI (RD 1629/2006)"
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro de convalidaciones de inglés (la celda de destino incluye 0156 Inglés Profesional y 0179 Inglés Profesional)"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés (Escuela Oficial de Idiomas o título universitario)",
+   "origen_modulo": [
+    "Título de Grado, o equivalente, en Filología Inglesa o en Traducción e Interpretación (Inglés)"
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro de convalidaciones de inglés (la celda de destino incluye 0156 Inglés Profesional y 0179 Inglés Profesional)"
+  }
+ ],
+ "convalidaciones_loe": [
+  {
+   "origen_codigos": [
+    "1370"
+   ],
+   "origen_nombre": "Fisiopatología general",
+   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citodiagnóstico (LOE, RD 767/2014); Técnico Superior en Laboratorio Clínico y Biomédico (LOE, RD 771/2014)",
+   "destino_modulos": [
+    "1370"
+   ],
+   "fuente": "Módulo común a los dos títulos con igual código y denominación: art. 126 del RD 659/2023 (nueva redacción del art. 15.1 del RD 769/2014 dada por el RD 500/2024) y DA 1.ª de la Orden ECD/843/2024 de Aragón. No figura en el RD 1085/2020"
+  },
+  {
+   "origen_codigos": [
+    "0739"
+   ],
+   "origen_nombre": "Formación y orientación laboral",
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (plan LOE a extinguir, RD 769/2014 antes del RD 500/2024)",
+   "destino_modulos": [
+    "1709"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), DT 2.ª, apartados 2 a 4 (tabla de equivalencias entre la ordenación del RD 1147/2011 y la del RD 659/2023), y DA 6.ª del RD 1085/2020"
+  },
+  {
+   "origen_codigos": [
+    "0740"
+   ],
+   "origen_nombre": "Empresa e iniciativa emprendedora",
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (plan LOE a extinguir, RD 769/2014 antes del RD 500/2024)",
+   "destino_modulos": [
+    "1710"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), DT 2.ª, apartados 2 a 4, y DA 6.ª del RD 1085/2020"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC1591_3"
+   ],
+   "modulos": [
+    "0730"
+   ],
+   "fuente": "RD 769/2014 anexo V A) (redacción vigente; el RD 500/2024 no modificó este anexo)"
+  },
+  {
+   "uc": [
+    "UC1592_3"
+   ],
+   "modulos": [
+    "0731"
+   ],
+   "fuente": "RD 769/2014 anexo V A) (redacción vigente; el RD 500/2024 no modificó este anexo)"
+  },
+  {
+   "uc": [
+    "UC1593_3"
+   ],
+   "modulos": [
+    "0732",
+    "0733"
+   ],
+   "fuente": "RD 769/2014 anexo V A) (redacción vigente). Una sola UC convalida los dos módulos de la celda"
+  },
+  {
+   "uc": [
+    "UC1594_3"
+   ],
+   "modulos": [
+    "0734"
+   ],
+   "fuente": "RD 769/2014 anexo V A) (redacción vigente). En el BOE el módulo figura como «0734. Epidemiologia en salud oral», sin tilde"
+  },
+  {
+   "uc": [
+    "UC1595_3"
+   ],
+   "modulos": [
+    "0735"
+   ],
+   "fuente": "RD 769/2014 anexo V A) (redacción vigente)"
+  },
+  {
+   "uc": [
+    "UC1596_3"
+   ],
+   "modulos": [
+    "0736",
+    "0737"
+   ],
+   "fuente": "RD 769/2014 anexo V A) (redacción vigente). Una sola UC convalida los dos módulos de la celda"
+  }
+ ],
+ "uc_descripciones": {
+  "UC1591_3": "Gestionar el área de trabajo en un gabinete bucodental [ECP1591_3]",
+  "UC1592_3": "Identificar las características anatómicas, fisiológicas y patológicas del aparato estomatognático para su valoración y registro [ECP1592_3]",
+  "UC1593_3": "Explorar el estado de salud bucodental de los pacientes/usuarios de los servicios de salud, con fines epidemiológicos e intervenir mediante actuaciones directas [ECP1593_3]",
+  "UC1594_3": "Evaluar la salud bucodental de las personas y de la comunidad, mediante actividades de vigilancia epidemiológica [ECP1594_3]",
+  "UC1595_3": "Fomentar la salud bucodental de las personas y de la comunidad, mediante actividades de educación sanitaria y promoción de la salud [ECP1595_3]",
+  "UC1596_3": "Realizar las técnicas odontológicas propias, delegadas o de ayuda dentro del equipo de salud bucodental [ECP1596_3]"
+ },
+ "uc_equivalencias": {},
+ "notas": [
+  "El campo 'horas' es el del currículo básico / enseñanzas mínimas del RD 769/2014 (55 % de 2.000 h = 1.100 h: 0730 60, 0731 110, 0732 75, 0733 110, 0734 60, 0735 60, 0736 75, 0737 75, 0020 35, 1370 110, 0738 25, 0739 50, 0740 35 y 0741 220). Las horas reales de impartición están en 'horas_otras' con las claves 'aragon' (Orden ECD/843/2024, anexo LVI, SAN304), 'mefp' (Orden EFD/659/2024, anexo LXIX) y 'loe' (Orden de 5 de mayo de 2015 de Aragón).",
+  "El BOE no ofrece texto consolidado del RD 769/2014: hay que combinar el texto original (BOE-A-2014-10066), el RD 1085/2020 (deroga el anexo IV) y el RD 500/2024 (nuevos arts. 2, 10, 12 y 15 y nuevos anexos I y III). No consta corrección de errores.",
+  "Grupo del art. primero.Dos del RD 500/2024: Higiene Bucodental es el ordinal 56.º de la letra a), es decir, ciclos SIN el antiguo módulo de Inglés. Por eso se le AÑADE el módulo 0179 Inglés Profesional (GS) de 50 h de currículo básico (en los ciclos de los grupos b) y c) el módulo 0179 ya existía y solo se renombra).",
+  "Módulos SUPRIMIDOS por el RD 500/2024: 0739 Formación y orientación laboral, 0740 Empresa e iniciativa emprendedora y 0741 Formación en centros de trabajo. Módulos AÑADIDOS: 0179 Inglés Profesional (GS), 1709 IPE I, 1710 IPE II, 1665 Digitalización aplicada a los sectores productivos (GS), 1708 Sostenibilidad aplicada al sistema productivo y un módulo profesional optativo de 80 h. Además, 0738 «Proyecto de higiene bucodental» pasa a llamarse «Proyecto intermodular».",
+  "El RD 500/2024 NO modificó el artículo 6 (cualificaciones y unidades de competencia) ni los anexos V A) y V B) de este título: el análisis del BOE indica expresamente «SE MODIFICA los arts. 2, 10, 12, 15, anexos I, III». Por eso las tablas V A) y V B) vigentes coinciden literalmente con las de 2014.",
+  "EXENCIÓN DE LA FORMACIÓN EN EMPRESA: este ciclo está DOBLEMENTE excluido. (1) Art. 15.8 del RD 769/2014, en la redacción del RD 500/2024 art. sexto.Uno: quedan exceptuados de la posible exención los nueve ciclos de grado superior de Sanidad de los RD 1685/2007, 1687/2011, 905/2013, 767/2014, 768/2014, 769/2014, 770/2014, 771/2014 y 772/2014. (2) Art. 49.2 del Decreto 91/2024, de 5 de junio, del Gobierno de Aragón (BOA núm. 109, de 6/06/2024, csv BOA20240606002), que excluye esos mismos nueve ciclos de grado superior de Sanidad; el Decreto 107/2025 no modificó ese apartado.",
+  "Aragón (Orden ECD/843/2024, anexo LVI, código SAN304, 30 h semanales en cada curso). Primer curso: 0730 (67 h), 0731 (167), 0732 (133), 0733 (200), 0020 (33), 1370 (200), 1709 (100), 1665 (33) y 0179 (67) = 1.000 h. Segundo curso: 0734 (133), 0735 (167), 0736 (233), 0737 (200), 0738 (67), 1710 (67), 1708 (33) y el módulo optativo (100) = 1.000 h. Total exacto 2.000 h. A diferencia de los ciclos de grado medio, la orden de grado superior NO incluye módulos propios de Tutoría.",
+  "Aragón NO tiene horario nocturno para este ciclo: el anexo LVI solo recoge la distribución diurna de dos cursos.",
+  "Módulos optativos en Aragón (art. 12.2 de la Orden ECD/843/2024, lista abierta y común a todos los ciclos de grado superior, 100 h en 2.º curso): A170 Comunicación profesional en Inglés (GS) (anexo LXXIV), A171 Segunda lengua profesional Francés (anexo LXXV), A172 Ofimática avanzada aplicada al sector profesional (anexo LXXVI) y módulos de diseño propio del centro. No hay lista cerrada específica de Higiene Bucodental.",
+  "MEFP (Orden EFD/659/2024, anexo LXIX): 1.º con 0730 (100 h), 0732 (140), 0731 (160), 0733 (200), 1370 (190), 1709 (100), 1708 (35) y 0179 (70) = 995 h, 30 sesiones semanales; 2.º con 0020 (60), 0734 (170), 0735 (160), 0737 (160), 0736 (190), 1710 (100), 1665 (35), optativa (80) y 0738 Proyecto Intermodular (50) = 1.005 h, 30 sesiones. Total 2.000 h. Módulos marcados como susceptibles de impartirse en lengua extranjera: 0731, 0733, 1370, 0734, 0735, 0737 y 0736. La formación en empresa va incluida en esas 2.000 h: 500 h en dual general y 700 h en dual intensivo (art. 13).",
+  "Discrepancias de curso entre Aragón y el MEFP: 0020 Primeros auxilios (1.º en Aragón, 2.º en el MEFP), 1665 Digitalización (1.º en Aragón, 2.º en el MEFP) y 1708 Sostenibilidad (2.º en Aragón, 1.º en el MEFP). Los módulos técnicos 0730-0737, 1370, 0738, 0179, 1709 y 1710 coinciden de curso y solo difieren en horas.",
+  "Los módulos 0732 Exploración de la cavidad oral y 0733 Intervención bucodental comparten celda en los anexos V A) y V B), igual que 0736 Conservadora, periodoncia, cirugía e implantes y 0737 Prótesis y ortodoncia. En el sentido UC→módulos (anexo V A), una sola UC (UC1593_3 o UC1596_3) convalida los dos módulos de su celda; en el sentido módulos→UC (anexo V B), hay que tener superados los DOS módulos a la vez para acreditar la UC (art. 15.3 y 15.4 del RD 769/2014 en la redacción del RD 500/2024).",
+  "Los módulos 0020 Primeros auxilios, 1370 Fisiopatología general, 0738 Proyecto intermodular, 0179, 1709, 1710, 1665, 1708 y el optativo NO tienen correspondencia con ninguna unidad de competencia: no aparecen en los anexos V A) ni V B). El título solo acredita competencias a través de 0730-0737.",
+  "A diferencia de otros títulos, el anexo V A) de este RD no tiene nota al pie que convalide ningún módulo por la acreditación de TODAS las unidades de competencia. Lo que sí preveía el art. 15.3 original (hoy sustituido) era la convalidación del módulo de FOL con todas las UC acreditadas, un año de experiencia laboral y la formación de nivel básico en PRL.",
+  "Artículo 15 en la redacción del RD 500/2024: las convalidaciones se rigen por los arts. 126-128 del RD 659/2023; al RD 769/2014 (título anterior al 5/3/2017) se le aplica el RD 1085/2020; si en una celda hay varias UC o varios módulos, hacen falta todos simultáneamente; ante discrepancias prevalece la codificación sobre la denominación; y la exención del periodo de formación en empresa (art. 131 del RD 659/2023) está excluida para este ciclo.",
+  "Cambio de códigos UC→ECP (RD 532/2025 anexo I): las seis UC de este título mantienen su número, nivel y denominación y solo cambian el prefijo (ECP1591_3, ECP1592_3, ECP1593_3, ECP1594_3, ECP1595_3 y ECP1596_3). Ninguna figura en los anexos II-a/II-b de equivalencias, por lo que 'equivalencias_uc' está vacío.",
+  "El título LOGSE de Técnico Superior en Higiene Bucodental (RD 537/1995) y el título de Técnico Especialista en Higienista Dental, rama Sanitaria (Ley 14/1970), tienen los mismos efectos académicos y profesionales que este título (DA 3.ª del RD 769/2014). La DA 3.ª del RD 500/2024 traslada a 1709 (IPE I) las referencias que esa DA hacía al módulo de FOL (capacitación de nivel básico en PRL, 45 h lectivas mínimas).",
+  "RELACIÓN CON EL TÍTULO DE PRÓTESIS DENTALES (LOE, RD 1687/2011): no hay ninguna convalidación en el RD 1085/2020 entre Higiene Bucodental LOE y Prótesis Dentales LOE ni módulos comunes. La única relación está en el anexo I (LOGSE→LOGSE), entre los títulos de 1995.",
+  "MÓDULOS COMUNES CON OTROS TÍTULOS LOE: 1370 Fisiopatología general solo aparece, dentro de los seis títulos de Sanidad de grado superior de 2014, en el RD 767/2014 (Anatomía Patológica y Citodiagnóstico) y en el RD 771/2014 (Laboratorio Clínico y Biomédico) — coincide con la tabla de módulos comunes de 1.º curso de Aragón (SAN301 y SAN306). 0020 Primeros auxilios es transversal a numerosos títulos (en Aragón comparte 1.º curso con SAN202, SEA202, SSC201 y SSC301-SSC306). 0179, 1709, 1710, 1665 y 1708 son comunes a todos los ciclos de grado superior tras el RD 500/2024.",
+  "PLAN LOE (anterior al RD 500/2024), clave 'loe' de 'horas_otras': duraciones de ARAGÓN según la Orden de 5 de mayo de 2015 (BOA núm. 103, de 2/06/2015): 0730 96 h, 0731 160, 0732 128, 0733 192, 0734 105, 0735 126, 0736 165, 0737 126, 0020 35, 1370 192, 0738 40, 0739 FOL 96, 0740 EIE 63, 0741 FCT 370, A113 64 y A114 42. Suma exacta 2.000 h. Aragón añadía dos módulos propios de inglés (A113 y A114) que el RD 769/2014 no contemplaba.",
+  "PLAN LOE, ámbito MEC/MEFP: Orden ECD/1539/2015, de 21 de julio (BOE-A-2015-8474), anexo II. 1.º curso (30 h/sem): 0730 105, 0731 170, 0732 135, 0733 180, horario reservado para inglés 90, 1370 190 y 0739 FOL 90 = 960 h. 2.º curso (30 h/sem en dos trimestres más un trimestre de FCT): 0734 105, 0735 115, 0736 120, 0737 120, 0020 40, 0740 EIE 60, horario reservado para inglés 40, 0738 Proyecto 40 y 0741 FCT 400 = 1.040 h. Total 2.000 h. En 'horas_otras.loe' se ha guardado la versión de ARAGÓN.",
+  "Comparación plan LOE → plan adaptado del RD 500/2024 en Aragón: el bloque lectivo pasa de 1.630 h + 370 h de FCT a 2.000 h sin FCT; desaparecen 0739 FOL (96 h), 0740 EIE (63 h), 0741 FCT (370 h) y los módulos propios A113/A114 (106 h) y entran 0179 (67), 1709 (100), 1710 (67), 1665 (33), 1708 (33) y el módulo optativo (100). Todos los módulos técnicos 0730-0737, 0020, 1370 y 0738 aumentan de horas.",
+  "El cuadro de EIE del anexo II del RD 1085/2020 contiene además otras filas de módulos LOGSE de otras familias (Administración y gestión de un pequeño establecimiento comercial; Organización y gestión de una explotación agraria familiar; Organización y gestión de una pequeña empresa de actividades de tiempo libre y socioeducativas; Organización y control en agencias de viajes; Administración de establecimientos de restauración; Organización y gestión de una empresa agraria). Todas ellas son «para cualquier ciclo formativo» y, por tanto, aplicables también a este título; aquí solo se han recogido las más habituales y las de la familia Sanidad.",
+  "En las filas del anexo I del RD 1085/2020 (LOGSE→LOGSE) el campo 'destino_modulos' NO contiene códigos de módulo de SAN304, sino la denominación literal del módulo LOGSE de destino con su ciclo entre paréntesis: los títulos LOGSE no tenían códigos numéricos de módulo. Esas filas se incluyen porque el encargo pide recoger todas las apariciones del título y sus módulos en ambos sentidos, pero no producen convalidaciones directas sobre el plan vigente de SAN304."
+ ],
+ "no_verificado": [
+  "No se ha podido consultar la ficha del título en todofp.es: las URL https://www.todofp.es/que-estudiar/loe/sanidad/higiene-bucodental.html y https://www.todofp.es/que-puedo-estudiar/oferta-formativa/sanidad/higiene-bucodental.html devuelven 404 y no se ha localizado la nueva dirección. Todos los datos proceden del BOE, del BOA y de la API de centros docentes de Aragón (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=SAN304).",
+  "La Orden de 5 de mayo de 2015 de Aragón NO incluye tabla de secuenciación por cursos ni de horas semanales (solo la duración total de cada módulo, en el anexo I). El campo 'curso' de 'horas_otras.loe' se ha tomado de la secuenciación del anexo II de la Orden ECD/1539/2015 del MECD (1.º: 0730, 0731, 0732, 0733, 1370, 0739 e inglés; 2.º: 0734, 0735, 0736, 0737, 0020, 0740, inglés, 0738 y 0741), que con las horas aragonesas da 928 h en 1.º (29 h/semana × 32 semanas) y 1.072 h en 2.º. NO se ha localizado ninguna resolución o instrucción de la Dirección General de FP de Aragón que fije formalmente esa secuenciación, por lo que el reparto por cursos del plan LOE aragonés queda SIN VERIFICAR.",
+  "No se ha comprobado si hubo modificaciones o correcciones de errores de la Orden de 5 de mayo de 2015 (Aragón) anteriores a su derogación por la Orden ECD/843/2024, ni si existió oferta a distancia, semipresencial o nocturna de SAN304 en el plan LOE con distribución horaria distinta.",
+  "No se ha verificado si existe alguna resolución de Aragón posterior a la Orden ECD/843/2024 que autorice oferta nocturna, a distancia o semipresencial de SAN304, ni la lista concreta de módulos optativos autorizados a cada centro.",
+  "No se ha comprobado el anexo LVII del RD 500/2024 (nuevo anexo III de profesorado) ni el anexo I del RD 769/2014 en lo relativo a especialidades docentes, espacios o equipamientos más allá de la tabla de horas.",
+  "No se ha comprobado el anexo XCI del RD 500/2024 (adaptación de créditos ECTS) para este título; los créditos ECTS recogidos en 'horas_fuente' son los del texto original del RD 769/2014 (suman 120).",
+  "No se ha revisado si existe certificado de profesionalidad asociado a la cualificación SAN489_3 ni su posible efecto en la acreditación de estándares.",
+  "No se han localizado herramientas públicas de Aragón que confirmen los anexos V A) y V B) de este ciclo: las rutas api/tab1_competencias_acreditadas.php y api/tab2_modulos_superados.php de centrosdocentes.catedu.es devuelven «File not found» para SAN304.",
+  "No se ha verificado la distribución horaria del plan LOE ni del plan vigente en comunidades autónomas distintas de Aragón y del ámbito de gestión del MEC/MEFPD.",
+  "No se ha comprobado si algún real decreto posterior al RD 500/2024 (por ejemplo, de regulación de los grados A, B y C de la familia Sanidad) afecta a las convalidaciones o a los estándares de este título.",
+  "La clave 'A170' usada como destino en la fila de convalidación de A113+A114 es el código del módulo optativo propio de Aragón (Comunicación profesional en Inglés, GS) y no un módulo del RD 769/2014; solo es aplicable si el centro oferta ese módulo como optativo."
+ ]
+};
