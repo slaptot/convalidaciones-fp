@@ -654,13 +654,15 @@
 
   function tablaModulos(filas, amb) {
     return `<table class="res-tabla">
-        <colgroup><col style="width:12%"><col style="width:58%"><col style="width:10%"><col style="width:20%"></colgroup>
-        <thead><tr><th>Código</th><th>Nombre Módulo</th><th class="num">Curso</th><th>Registro/calificación</th></tr></thead>
+        <colgroup><col style="width:9%"><col style="width:33%"><col style="width:7%"><col style="width:16%"><col style="width:35%"></colgroup>
+        <thead><tr><th>Código</th><th>Nombre Módulo</th><th class="num">Curso</th><th>Calificación</th><th>Fundamento</th></tr></thead>
         <tbody>${filas.map(({ modulo: m, mejor }) => `<tr>
           <td class="cod">${h(m.codigo)}</td>
           <td>${h(nombreModulo(m, amb))}</td>
           <td class="num">${m.curso[amb] || ''}</td>
           <td>${h(calificacionFinal(m.codigo, mejor))}</td>
+          <td>${h(mejor.motivo)}<div class="res-nota">${h(mejor.fundamento)}</div>
+            ${mejor.faltan.length ? `<div class="res-nota falta">Falta: ${mejor.faltan.map((d) => h(N.documentos[d] || d)).join('; ')}</div>` : ''}</td>
         </tr>`).join('')}</tbody>
       </table>`;
   }
@@ -672,45 +674,41 @@
 
     const dispositivo = [];
     if (convalidados.length) {
-      dispositivo.push(`<p class="res-p"><b>Primero. Convalidar</b> los módulos profesionales que se relacionan en el
-        <b>apartado A</b>, con la expresión de calificación que en él se indica.</p>
-        <h2 class="res-apartado">A · Módulos convalidados</h2>${tablaModulos(convalidados, amb)}`);
+      dispositivo.push(`<h2 class="res-apartado">A · Módulos que procede convalidar</h2>${tablaModulos(convalidados, amb)}`);
     }
     if (trasladados.length) {
-      dispositivo.push(`<p class="res-p"><b>${convalidados.length ? 'Segundo' : 'Primero'}. Declarar superados</b>, por tratarse
-        de módulos idénticos, y <b>trasladar la calificación</b> obtenida a los módulos relacionados en el
-        <b>apartado ${convalidados.length ? 'B' : 'A'}</b>, que <b>no son objeto de convalidación</b>, de acuerdo con el apartado 3
-        del Anexo VIII del Decreto 91/2024, de 5 de junio.</p>
-        <h2 class="res-apartado">${convalidados.length ? 'B' : 'A'} · Módulos idénticos: traslado de calificación</h2>${tablaModulos(trasladados, amb)}`);
+      dispositivo.push(`<h2 class="res-apartado">${convalidados.length ? 'B' : 'A'} · Módulos idénticos: traslado de calificación</h2>
+        <p class="res-p">No son objeto de convalidación (apartado 3 del Anexo VIII del Decreto 91/2024): se traslada la nota.</p>
+        ${tablaModulos(trasladados, amb)}`);
     }
     if (!dispositivo.length) {
-      dispositivo.push(`<p class="res-p"><b>Primero.</b> No procede convalidar ningún módulo profesional con la documentación aportada.</p>`);
+      dispositivo.push(`<p class="res-p">No procede convalidar ningún módulo profesional con la documentación aportada.</p>`);
     }
 
     $('#resolucion').innerHTML = `
       <div class="res-membrete">${h(state.centro || '')}${state.membrete ? `<br>${h(state.membrete).replace(/\n/g, '<br>')}` : ''}</div>
 
-      <h1 class="res-titulo">Resolución de la dirección del centro sobre convalidación de módulos profesionales</h1>
+      <h1 class="res-titulo">Propuesta de convalidación de módulos profesionales</h1>
+      <p class="res-sub">Documento interno de cotejo. No es una resolución administrativa: la dirección del centro resolverá
+      con su propio modelo.</p>
 
-      <p class="res-p">Vista la solicitud presentada por el/la alumno/a y la documentación aportada.</p>
-      <p class="res-p">De conformidad con la Ley Orgánica 3/2022, de 31 de marzo; el Real Decreto 659/2023, de 18 de julio
-      (artículos 126 a 128); el Real Decreto 1085/2020, de 9 de diciembre (artículos 8 y 10); y el Decreto 91/2024, de 5 de junio,
-      del Gobierno de Aragón (artículos 48, 50 y 51 y Anexo VIII, apartado 6):</p>
-      <p class="res-p"><b>SE RESUELVE:</b> Con fecha ${h(fechaCorta(state.fecha_res))}, respecto del/de la alumno/a
-      <b>${h(state.alumno || '____________________')}</b> con DNI: <b>${h(state.dni || '____________')}</b>,
-      matriculado/a en el ciclo formativo de ${h(c.ciclo.nombre)}${state.curso ? `, curso ${h(state.curso)}` : ''}:</p>
+      <table class="res-tabla res-datos">
+        <colgroup><col style="width:22%"><col style="width:28%"><col style="width:22%"><col style="width:28%"></colgroup>
+        <tbody>
+          <tr><th>Alumno/a</th><td>${h(state.alumno || '')}</td><th>DNI/NIE</th><td>${h(state.dni || '')}</td></tr>
+          <tr><th>Ciclo formativo</th><td colspan="3">${h(c.ciclo.nombre)} (${h(codigoCiclo(c))})</td></tr>
+          <tr><th>Curso académico</th><td>${h(state.curso || '')}</td><th>Plan de estudios</th>
+            <td>${amb === 'aragon' ? 'LO 3/2022 · Aragón' : amb === 'mefp' ? 'LO 3/2022 · Ministerio' : 'LOE a extinguir'}</td></tr>
+          <tr><th>Fecha del cotejo</th><td colspan="3">${h(fechaLarga(state.fecha_res))}</td></tr>
+        </tbody>
+      </table>
 
       ${dispositivo.join('')}
 
-      <p class="res-p"><b>EFECTOS.</b> Conforme al artículo 50.8 del Decreto 91/2024, la presente resolución es efectiva desde el
-      momento de su concesión. Se incorporará al expediente académico del/de la alumno/a y se registrará en las actas de evaluación
-      y en cualquier certificación académica que se expida (artículo 51.2), con la expresión indicada en la columna
-      "Registro/calificación" (Anexo VIII, apartados 15 a 24). La documentación justificativa queda custodiada por este centro junto
-      a los documentos oficiales de evaluación (artículo 50.9).</p>
-
-      ${recursos('convalidacion')}
-      ${notificacion()}
-      ${firma('LA/EL DIRECTORA/DIRECTOR DEL CENTRO')}`;
+      <p class="res-p res-recursos">Base normativa aplicada: Ley Orgánica 3/2022, de 31 de marzo; Real Decreto 659/2023, de 18 de
+      julio (artículos 126 a 128); Real Decreto 1085/2020, de 9 de diciembre (artículos 8 y 10); y Decreto 91/2024, de 5 de junio,
+      del Gobierno de Aragón (artículos 48, 50 y 51 y Anexo VIII, apartado 6). La expresión de la calificación sigue los apartados
+      15 a 24 de ese Anexo VIII.</p>`;
   }
 
   // ---------- Resolución de exención de la formación en empresa ----------
@@ -873,11 +871,7 @@
       document.body.className = clase;
       window.print();
     };
-    $('#btn-imprimir').addEventListener('click', () => imprimir('doc-anexo'));
     $('#btn-resolucion').addEventListener('click', () => imprimir('doc-resolucion'));
-    $('#btn-exencion').addEventListener('click', () => imprimir('doc-exencion'));
-    $('#btn-solicitudes').addEventListener('click', () => imprimir('doc-solicitudes'));
-    $('#btn-listado').addEventListener('click', () => imprimir('doc-listado'));
   }
 
   document.addEventListener('DOMContentLoaded', init);
