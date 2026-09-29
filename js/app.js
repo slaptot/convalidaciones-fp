@@ -556,7 +556,8 @@
       y apartado 6 del Anexo VIII del Decreto 91/2024), a la Dirección General competente en los Grados D y E (artículo 50.4,
       párrafo segundo, y apartado 8 del Anexo VIII) o a la Subdirección General de Ordenación e Innovación de la FP del Ministerio
       (artículo 9 del RD 1085/2020). Antes de resolver debe contrastarse el resultado con el texto vigente de las normas citadas.
-      Normativa consolidada empleada: BOE a 07/04/2026 y Decreto 91/2024 (versión de 09/01/2026).</p>`;
+      Normativa consolidada empleada: BOE a 07/04/2026 y Decreto 91/2024 (versión de 09/01/2026).<br>
+      Aplicación desarrollada por Alberto Muñoz Fuertes · alberto.munoz.fuertes@proton.me</p>`;
   }
 
   function refrescar() {
@@ -583,27 +584,19 @@
   // Pie de recursos: art. 53 del Decreto 91/2024, distinto según titularidad y tipo de resolución
   function recursos(tipo) {
     const privado = state.titularidad === 'privado';
-    const sp = `la persona titular de la Dirección del Servicio Provincial del Departamento competente en las enseñanzas no universitarias de ${h(state.provincia || '____________')}`;
     const via = privado ? 'reclamación' : 'recurso de alzada';
-    // El 53.2 es redacción original del Decreto 91/2024; el 53.1 y el 53.3 los dio el Decreto 107/2025
     const art = tipo === 'exencion' ? (privado ? '53.3' : '53.2') : '53.1.a)';
+    // El 53.2 es redacción original del Decreto 91/2024; el 53.1 y el 53.3 los dio el Decreto 107/2025
     const norma = (tipo === 'exencion' && !privado)
-      ? 'del Decreto 91/2024, de 5 de junio, del Gobierno de Aragón'
-      : 'del Decreto 91/2024, de 5 de junio, del Gobierno de Aragón, en la redacción dada por el Decreto 107/2025, de 10 de septiembre';
-    const cierre = tipo === 'exencion'
-      ? 'La resolución del recurso pondrá fin a la vía administrativa.'
-      : 'La resolución del recurso de alzada o reclamación pone fin a la vía administrativa y contra ella no cabrá ningún otro recurso administrativo, salvo el recurso extraordinario de revisión en los casos del artículo 125.1 de la Ley 39/2015, o bien recurso contencioso-administrativo.';
-    return `<p class="res-p res-recursos"><b>MODO DE IMPUGNACIÓN / RECURSOS:</b> Contra la presente resolución, que no pone fin a la
-      vía administrativa, podrá interponerse <b>${via}</b> ante ${sp}, en el plazo de <b>un mes</b> contado desde el día siguiente
-      al de su notificación, de conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, del Procedimiento
-      Administrativo Común de las Administraciones Públicas, y con el artículo ${art} ${norma}. Podrá presentarse ante este centro o ante el órgano competente para resolverlo (artículo 121.2 de la
-      Ley 39/2015). ${cierre}</p>`;
+      ? 'Decreto 91/2024' : 'Decreto 91/2024 (redacción del Decreto 107/2025)';
+    return `<p class="res-recursos"><b>Modo de impugnación:</b> ${via} ante la Dirección del Servicio Provincial de
+      ${h(state.provincia || '____________')}, en el plazo de un mes desde el día siguiente a la notificación; puede presentarse
+      en este centro. Su resolución pone fin a la vía administrativa. Arts. 121 y 122 de la Ley 39/2015 y art. ${art} del ${norma}.</p>`;
   }
 
   function notificacion() {
-    return `<p class="res-p res-recursos"><b>NOTIFICACIÓN.</b> La presente resolución se notifica íntegramente a la persona
-      interesada, de conformidad con el artículo 40 de la Ley 39/2015, de 1 de octubre.</p>
-      <p class="res-recibi">Recibí. Fecha: ____ / ____ / ________ &nbsp;&nbsp; Firma del/de la interesado/a: ____________________</p>`;
+    return `<p class="res-recursos"><b>Notificación</b> (art. 40 de la Ley 39/2015). Recibí. Fecha: ____ / ____ / ______
+      &nbsp;&nbsp; Firma: ____________________</p>`;
   }
 
   function firma(texto) {

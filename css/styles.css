@@ -89,6 +89,7 @@ details ul { padding-left: 1rem; margin: .2rem 0; }
 .nv { color: var(--warn); }
 a { color: var(--accent); }
 .disclaimer { font-size: .78rem; color: var(--muted); margin-top: 1.5rem; }
+.autor { font-size: .78rem; color: var(--muted); margin: .3rem 0 0; }
 .print-only { display: none; }
 #informe, #resolucion, #exencion, #solicitudes, #listado { display: none; }
 
@@ -127,7 +128,7 @@ a { color: var(--accent); }
   .res-tabla .cod { font-family: "Courier New", monospace; }
   .res-tabla .num { text-align: center; }
   .res-tabla th.num { text-align: center; }
-  .res-recursos { font-size: 9pt; margin-top: 14pt; }
+  .res-recursos { font-size: 8pt; line-height: 1.3; text-align: justify; margin: 10pt 0 0; }
   .res-apartado { font-size: 10pt; font-weight: bold; margin: 10pt 0 3pt; border: none; text-transform: none; letter-spacing: 0; }
   .res-nota { font-size: 8pt; color: #333; margin-top: 2pt; }
   .res-recibi { font-size: 9pt; margin: 6pt 0 0; }

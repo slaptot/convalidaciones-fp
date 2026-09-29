@@ -48,3 +48,7 @@ Cada ciclo se puede analizar con tres planes: LO 3/2022 en Aragón, LO 3/2022 de
 1. Crear `research/<ciclo>.json` con la misma estructura que `apsd.json`.
 2. Añadir una llamada `build(...)` en `tools/build_data.py`.
 3. Incluir el `<script>` en `index.html`.
+
+## Autoría
+
+Aplicación desarrollada por **Alberto Muñoz Fuertes** — alberto.munoz.fuertes@proton.me
