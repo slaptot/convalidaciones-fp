@@ -350,3 +350,11 @@ assert.equal(est('apsd', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habilid
 require('../data/ciclos/ssc304.js');
 ['apsd', 'fpb128', 'ssc301', 'ssc302', 'ssc303', 'ssc304', 'ssc305'].forEach((c) => assert.ok(CICLOS[c] && !CICLOS[c].ciclo.parcial, c));
 console.log('OK: Servicios Socioculturales completa (7 ciclos)');
+
+// Asesoría de Imagen: 1071 idéntico al de Estilismo y Dirección de Peluquería
+require('../data/ciclos/imp301.js');
+assert.equal(est('imp301', [{ tipo: 'modulo_loe', codigo: '1071', nombre: 'x', titulo: 'TS Estilismo y Dirección de Peluquería', docs: [] }])['1071'], 'superado');
+// Imagen Personal completa: los siete ciclos con normativa propia
+['fpb_peluqueria_estetica', 'estetica', 'peluqueria', 'imp301', 'imp302', 'imp303', 'termalismo']
+  .forEach((c) => assert.ok(CICLOS[c] && !CICLOS[c].ciclo.parcial, c));
+console.log('OK: Imagen Personal completa (7 ciclos)');

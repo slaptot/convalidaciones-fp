@@ -1,0 +1,1212 @@
+{
+ "ciclo": {
+  "codigo": "IMP301",
+  "nombre": "Técnico Superior en Asesoría de Imagen Personal y Corporativa",
+  "grado": "superior",
+  "familia": "Imagen Personal",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 1685/2011, de 18 de noviembre",
+    "boe": "BOE-A-2011-20273",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-20273",
+    "nota": "Título y enseñanzas mínimas (BOE núm. 311, de 27/12/2011, págs. 142252-142328; en vigor 28/12/2011). Verificado: es el RD del título Técnico Superior en Asesoría de Imagen Personal y Corporativa (2000 h, Imagen Personal, CINE-5b; art. 14.3: 120 ECTS entre los 14 módulos originales). ATENCIÓN: el BOE NO publica texto consolidado (estado_consolidacion 0): hay que leer el texto original y aplicarle a mano el RD 1085/2020 y el RD 500/2024. Las «referencias posteriores» del BOE son solo tres: RD 1085/2020 (SE DEROGA el anexo indicado), RD 500/2024 (SE MODIFICA: arts. 2, 10, 12, 15, anexos I y III y referencias indicadas) y la Orden ECD/84/2013 (currículo del MEC). Art. 1.2 y disp. derogatoria única: sustituye y deroga el RD 627/1995 (TS en Asesoría de Imagen Personal, LOGSE) y el RD 197/1996 (su currículo). A diferencia del RD 1577/2011, ESTE RD SÍ tiene anexo de convalidaciones: el ANEXO IV (art. 15.1) recogía las convalidaciones LOGSE→LOE (Asesoría de belleza→1182, Estilismo en el vestir→1183, Protocolo y usos sociales→1185+1186, Técnicas de embellecimiento personal→1187+1184, Imagen personal y comunicación→1188, más Administración, gestión y comercialización en la pequeña empresa→1192 y la FCT del título LOGSE→1193); el RD 1085/2020 lo deroga (disp. derogatoria única.2) y esas filas hay que leerlas hoy en su anexo II. Las tablas de correspondencia con UC son los ANEXOS V A) y V B) (arts. 16.1 y 16.2; numeración V, no IV): el RD 500/2024 NO los sustituye para este título ni toca su art. 6, de modo que siguen en la redacción original de 2011 (con los nombres de UC actualizados por normas posteriores). Anexo I: módulos 1181-1189, 1071, 1190, 1191, 1192 y 1193; 1071 Dirección y comercialización es el único módulo que comparte con otro título (RD 1577/2011). Anexo II: espacios (aula polivalente y aula técnica de asesoría de imagen). Disposición adicional tercera.1: el título LOGSE TS en Asesoría de Imagen Personal (RD 627/1995) tiene los mismos efectos profesionales y académicos que este título. Implantación en 2012/2013 (disp. final segunda). El RD no asigna código de ciclo; IMP301 es el código de Aragón."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Deroga el anexo de convalidaciones del RD 1685/2011 (disp. derogatoria única.2, y su lista de RD afectados) junto con los de otros muchos títulos. Leído su texto consolidado descargado hoy (última actualización 07/04/2026, en vigor 27/04/2026). Datos específicos de este título: (1) anexo II (LOGSE→LOE), bloque Imagen Personal, GRADO SUPERIOR: fila «Técnico Superior en Asesoría de Imagen Personal (RD 627/1995) → Técnico Superior en Asesoría de Imagen Personal y Corporativa (RD 1685/2011)» con CINCO celdas: Asesoría de belleza→1182; Estilismo en el vestir→1183; Protocolo y usos sociales→1185 y 1186; Técnicas de embellecimiento personal→1187 y 1184; Imagen personal y comunicación→1188. Confirma que el LOGSE enlaza con ESTE ciclo (no con IMP303). (2) anexo I (LOGSE→LOGSE): una fila con el título LOGSE de Asesoría de Imagen Personal como origen y «Dirección técnico-artística (Peluquería, RD 629/1995)» como destino: fuera de alcance (destino no es este ciclo). (3) anexo III (LOE→LOE): NO contiene ninguna fila con módulos de este título (búsqueda por texto de 1181-1190 y 1071 y del RD 1685/2011 sin resultados fuera del anexo II y de la lista de derogaciones); solo las tablas generales de FOL, EIE e inglés. (4) anexo IV (títulos posteriores a 5/3/2017) y anexo V (solicitud): sin relación con este título. Art. 3.2: módulos con el mismo código, denominación, resultados de aprendizaje, contenidos y duración son idénticos y trasladan la calificación. Art. 3.4: la FCT nunca se convalida (solo exención). Art. 3.5: el Proyecto de GS no se convalida ni se exime. DA 5.ª: las convalidaciones de los anexos se aplican a los módulos de cualquier ciclo con independencia del título. DA 6.ª (añadida por el RD 500/2024): FOL→1709 y EIE→1710. Modificado por el RD 393/2022, el RD 659/2023, el RD 500/2024 y el RD 262/2026 (art. 3.7 bis, Lengua de Signos), según el propio consolidado y research/verificacion-2026-09.md."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709/1710 (anexo V, 50 h cada uno), 1665 Digitalización GS (anexo VII, 30 h), 1708 Sostenibilidad (anexo VIII, 30 h) y 0179 Inglés profesional GS (anexo X, 50 h) (horas tomadas de research/imp303.json). Arts. 126-128 (convalidaciones) y 131 (exención de la formación en empresa)."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de títulos de GRADO SUPERIOR a la LO 3/2022 (BOE núm. 129, de 28/05/2024). Asesoría de Imagen Personal y Corporativa es el número 43.º de la letra a) del artículo primero.Dos (grupo de ciclos SIN el antiguo módulo de Inglés; los grupos b y c ya lo tenían). Suprime 1191 Formación y orientación laboral, 1192 Empresa e iniciativa emprendedora y 1193 Formación en centros de trabajo (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a)); añade 0179 Inglés Profesional (GS), 1709, 1710, 1665, 1708 y un módulo optativo de 80 h de currículo básico (art. cuarto.Uno.c).3.º y e), art. séptimo.Uno.b)); el módulo 1190 «Proyecto de asesoría de imagen personal y corporativa» pasa a «Proyecto intermodular…» manteniendo código y resto de la denominación (art. cuarto.Uno.c).2.º y DA 7.ª). Art. quinto.Uno: nuevo art. 12 (profesorado); art. octavo.Cuarenta y tres: nuevo anexo III = anexo XLIV del RD 500/2024. Art. sexto.Uno: nuevo art. 15 (convalidaciones): arts. 126-128 del RD 659/2023; a este título (anterior al 5/3/2017) se le aplica el RD 1085/2020; celdas con varias UC o módulos = todos simultáneamente; prevalece la codificación sobre la denominación; exención de la formación en empresa según art. 131 del RD 659/2023 (el apartado 8, que excluye la exención, afecta solo a ciclos de Sanidad, no a este). NO figura en el artículo tercero (que sustituye el art. 6 y las tablas de UC de otros títulos): el art. 6 y los anexos V A)/V B) del RD 1685/2011 no se tocan. DA 1.ª y anexo I: minoración horaria solo para CCAA con lengua cooficial (dato tomado de imp302.json/imp303.json, no verificado de nuevo). DA 2.ª y anexo XCI: nuevos ECTS (1181=9, 1182=11, 1183=14, 1184=11, 1185=9, 1186=5, 1187=11, 1188=7, 1189=6, 1071=6; no reasigna el proyecto). DA 3.ª: las referencias al módulo FOL de la DA 3.ª del RD 1685/2011 se entienden hechas a 1709. DT única: en 2024-25 se implanta 1.º curso; el 2.º sigue con la ordenación anterior. DF 1.ª.Dos: nueva DA 6.ª del RD 1085/2020 (FOL→1709, EIE→1710)."
+   },
+   {
+    "ref": "Corrección de errores del RD 500/2024",
+    "boe": "BOE-A-2025-10205",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10205",
+    "nota": "BOE núm. 124, de 23/05/2025. Según research/verificacion-2026-09.md (leída allí): solo rectifica el art. 6.e) y los anexos IV A)/IV B) del RD 881/2011 (Estética Integral y Bienestar, Micropigmentación IMP799_3 / UC0064). NO afecta a este título."
+   },
+   {
+    "ref": "RD 544/2023, de 27 de junio",
+    "boe": "BOE-A-2023-17384",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-17384",
+    "nota": "BOE núm. 179, de 28/07/2023. Su art. 4 actualiza íntegramente IMP249_3 «Peluquería técnico-artística» (anexo II): UC0793_3 pasa a «Asesorar a las personas usuarias y producciones de medios escénicos, audiovisuales o de moda/fotografía sobre el cuidado y transformación estética del cabello y pelo del rostro» y UC0795_3 a «Gestionar las actividades desarrolladas en empresas de imagen personal» (mismos códigos; leído en su anexo II). El desdoblamiento de UC0351_2 en UC2685_2 y UC2686_2 (anexo X) NO afecta a este título: no incluye UC0351_2. Su art. 7 modifica parcialmente IMP397_3 (UC0795_3 y MF0795_3; en este título solo se incorpora de esa cualificación UC0352_2)."
+   },
+   {
+    "ref": "RD 615/2020, de 30 de junio",
+    "boe": "BOE-A-2020-8151",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-8151",
+    "nota": "BOE núm. 197, de 20/07/2020. Modifica parcialmente IMP397_3: UC0352_2 pasa de «Asesorar y vender productos y servicios para la Imagen Personal» a «Vender productos y servicios para la Imagen Personal» (la forma actual figura también en el RD 1024/2024 y en el RD 532/2025)."
+   },
+   {
+    "ref": "RD 1024/2024, de 8 de octubre",
+    "boe": "BOE-A-2024-24101",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24101",
+    "nota": "BOE núm. 280, de 20/11/2024 (en vigor 21/11/2024). Su art. 8 y anexo XI dan nueva redacción íntegra a IMP395_3 «Asesoría integral de imagen personal» (RD 327/2008, anexo CCCXCV): mismos seis códigos UC1248_3 a UC1253_3 pero con nombres nuevos para UC1249_3 a UC1253_3 (véase uc_descripciones); formación asociada 990 h (MF1248_3 150, MF1249_3 240, MF1250_3 240, MF1251_3 90, MF1252_3 150, MF1253_3 120). Su disp. adicional única (anexos XVII-a/XVII-b, equivalencias de UC suprimidas) no menciona ninguna UC de este título. Buscadas en su texto UC0793_3 y UC0795_3: no las modifica."
+   },
+   {
+    "ref": "RD 327/2008, de 29 de febrero",
+    "boe": "BOE-A-2008-4729",
+    "url": "https://www.boe.es/eli/es/rd/2008/02/29/327",
+    "nota": "Establece IMP395_3 «Asesoría integral de imagen personal» (anexo CCCXCV; actualizada íntegramente por el RD 1024/2024) e IMP397_3 «Tratamientos capilares estéticos» (anexo CCCXCVII; modificada parcialmente por el RD 615/2020 y el RD 544/2023). El título incorpora IMP395_3 completa e IMP397_3 solo con UC0352_2."
+   },
+   {
+    "ref": "RD 790/2007, de 15 de junio",
+    "boe": "BOE-A-2007-12650",
+    "url": "https://www.boe.es/eli/es/rd/2007/06/15/790",
+    "nota": "Establece IMP249_3 «Peluquería técnico-artística» (anexo CCXLIX), hoy en la redacción del RD 544/2023. El título la incorpora de forma INCOMPLETA: solo UC0793_3 y UC0795_3."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra las unidades de competencia como estándares de competencia profesional (ECP). Anexo I: todas las UC de este título pasan a ECP con el MISMO número (ECP1248_3, ECP1249_3, ECP1250_3, ECP1251_3, ECP1252_3, ECP1253_3, ECP0793_3, ECP0795_3, ECP0352_2) y con las denominaciones vigentes del RD 1024/2024 y del RD 544/2023 (leído). Anexos II-a/II-b: sin equivalencias que afecten a este título. Según research/verificacion-2026-09.md lo modifican después el RD 636/2026 (no afecta a Imagen Personal) y las Órdenes EFD/206/2026 y EFD/374/2026 (no revisadas aquí)."
+   },
+   {
+    "ref": "RD 627/1995, de 21 de abril",
+    "boe": "BOE-A-1995-21130",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1995-21130",
+    "nota": "Título LOGSE de Técnico Superior en Asesoría de Imagen Personal (1700 h), derogado por el RD 1685/2011 (junto con su currículo, RD 197/1996, BOE-A-1996-5695). Es el título LOGSE que el RD 1085/2020 (anexo II) enlaza con ESTE ciclo. Módulos asociados a una unidad de competencia: Asesoría de belleza; Técnicas de embellecimiento personal; Estilismo en el vestir; Protocolo y usos sociales; Imagen personal y comunicación; Administración, gestión y comercialización en la pequeña empresa; más el transversal Relaciones en el entorno de trabajo, FOL y FCT. La ficha de todofp.es dice que este ciclo «equivale al título LOGSE Técnico Superior en Asesoría de Imagen Personal (título no vigente)»."
+   },
+   {
+    "ref": "RD 1577/2011, de 4 de noviembre (Técnico Superior en Estilismo y Dirección de Peluquería, IMP303)",
+    "boe": "BOE-A-2011-19352",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19352",
+    "nota": "Título con el que este ciclo comparte el módulo 1071 Dirección y comercialización. CONFIRMADO comparando el texto de los dos anexos I: mismo código, misma denominación, 55 h de currículo básico y 6 ECTS (6 también en el anexo XCI del RD 500/2024); los resultados de aprendizaje y criterios de evaluación coinciden palabra por palabra salvo «los usuarios»→«las personas usuarias» en un criterio, y los contenidos básicos coinciden salvo ese mismo cambio en un epígrafe y signos de puntuación; solo difieren las orientaciones pedagógicas (lista de objetivos generales y competencias que el módulo contribuye a alcanzar: RD 1577/2011 objetivos a), b), c), m), n), p), q), r), s), t), v), w) e y) y competencias a), b), c), e), l), m), ñ), o), p), q), s) y u); RD 1685/2011 objetivos a), c), n), q), s), t), u), w) y x) y competencias a), c), j), m), n), ñ), o) y q)). La Orden ECD/84/2013 lo rotula «módulo transversal a otros títulos de FP». Ver research/imp303.json (que en sus notas indica que 0750 es el único módulo específico común con otro ciclo: incompleto, 1071 también se comparte con IMP301)."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+    "nota": "Currículo vigente de Aragón para grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004). Este ciclo en su ANEXO XXXIII (art. 5.3.af), código de ciclo IMP301: 1.º curso 1181 (133 h, 4 sesiones), 1182 (167, 5), 1183 (200, 6), 1187 (200, 6), 1188 (100, 3), 1709 (100, 3), 1665 (33, 1) y 0179 (67, 2) = 1000 h; 2.º curso 1184 (233, 7), 1185 (233, 7), 1186 (67, 2), 1189 (100, 3), 1071 (100, 3), 1190 (67, 2), 1710 (67, 2), 1708 (33, 1) y módulo optativo (100, 3) = 1000 h. 30 sesiones semanales en cada curso; suma 2000 h (la API de centros docentes de Aragón da también 2000). Su corrección de errores de 26/02/2025 solo afecta a los anexos XXXVI, XL, XXIV y LXXI (dato ya verificado por otro agente, no reverificado). Art. 12: el optativo es anual y va en 2.º (A170 Comunicación profesional en Inglés (GS), A171 Segunda lengua profesional Francés, A172 Ofimática avanzada aplicada al sector profesional o módulos de diseño propio del centro; renombrados AOP1004, AOP1002 y AOP1003 por el Decreto 107/2025). Art. 13: convalidaciones de optativos. DA 1.ª: reconocimiento automático de módulos con la misma codificación. DT 2.ª: transición entre planes (FOL→1709, EIE→1710, 0179 Inglés→0179 Inglés profesional (GS)); a partir del 1/09/2026 el alumnado debe cursar la totalidad de los módulos del nuevo plan; en modalidad virtual y semipresencial el plan a extinguir se mantiene, para quien tenga cinco o más módulos superados, hasta el curso 2026/2027 inclusive. Deroga la Orden de 20 de noviembre de 2013 de este ciclo (disp. derogatoria única, k).1). Espacios del anexo XXXIII: aula polivalente y aula técnica de asesoría de imagen, coherentes con el RD 1685/2011."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito de gestión del MEFPD (BOE núm. 158, de 1/07/2024). Este ciclo está en su ANEXO XLI (art. 6.3.ai), apartado A (secuenciación y distribución horaria): 1.º curso 1181 (100 h), 1182 (170), 1187 (170), 1184 (160), 1183 (190), 1709 (100), 1708 (35) y 0179 (70) = 995 h; 2.º curso 1186 (160), 1188 (130), 1189 (160), 1071 (130), 1185 (160), 1710 (100), 1665 (35), optativa (80) y 1190 Proyecto intermodular (50) = 1005 h; total 2000 h, 30 sesiones semanales en cada curso. Módulos marcados como bilingües: 1182, 1187, 1184, 1183, 1188, 1189, 1071 y 1185. Deroga la Orden ECD/84/2013 (disp. derogatoria única, l).1.º). DA 2.ª: reconocimiento de módulos con la misma codificación. DT 2.ª: FOL→1709, EIE→1710, Inglés→0179 Inglés profesional (GS). Espacios: aula polivalente y aula técnica de asesoría de imagen."
+   },
+   {
+    "ref": "Orden de 20 de noviembre de 2013, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&PIECE=BOLE&DOCS=1-33&DOCR=3&SEC=BOA_SUMARIO&RNG=200&SEPARADOR=&PUBL=20131217",
+    "nota": "Currículo LOE (plan anterior) de este ciclo en Aragón; BOA núm. 246, de 17/12/2013. Art. 10: módulos 1181-1189, 1071, 1190, 1191, 1192, 1193 y los dos módulos propios de Aragón A081 Lengua extranjera profesional: inglés 1 y A082 inglés 2. Art. 17.5: A081/A082 convalidables con los módulos de igual denominación de cualquier título LOE de GS o GM (o con certificado de nivel intermedio o avanzado de EOI de la misma lengua). Art. 17.1: convalidaciones según el anexo IV del RD 1685/2011. Art. 13: no se establecen módulos que sea necesario superar para cursar otros. Implantación desde 2014/15 (DF 1.ª). DEROGADA por la Orden ECD/843/2024. Los anexos de la orden (PDF) no se han leído: ver la Resolución de 8 de enero de 2014 para horas y cursos."
+   },
+   {
+    "ref": "Resolución de 8 de enero de 2014, del Director General de Ordenación Académica (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&PIECE=BOLE&DOCS=1-60&DOCR=31&SEC=BOA_SUMARIO&RNG=200&SEPARADOR=&PUBL=20140130",
+    "nota": "BOA núm. 21, de 30/01/2014: regula las distribuciones horarias de varios ciclos formativos de GM y GS en régimen presencial. Su ANEXO VII es el de este ciclo (código IMP301, RD 1685/2011, Orden de 20/11/2013), modalidad diurna: total de horas y horas semanales por curso de cada módulo (1181 128 h, 1182 160, 1183 192, 1184 147, 1185 147, 1186 63, 1187 192, 1188 128, 1189 84, 1071 84, A081 64, A082 42, 1190 40, 1191 96, 1192 63, 1193 370; total 2000 h). 1.º curso: 1181, 1182, 1183, 1187, 1188, A081, 1191 (960 h); 2.º curso: 1184, 1185, 1186, 1189, 1071, A082, 1192 (630 h) más 1190 y 1193 (FCT en el 3.er trimestre). Es la fuente de las horas y cursos del plan LOE (clave 'loe')."
+   },
+   {
+    "ref": "Orden ECD/84/2013, de 23 de enero",
+    "boe": "BOE-A-2013-966",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-966",
+    "nota": "Currículo LOE (plan anterior) del ámbito del MEC (BOE núm. 27, de 31/01/2013). Su anexo II fija: 1.º curso (30 h/sem) 1181 105 h, 1182 150, 1183 200, 1184 150, 1187 175, 1191 FOL 90 y 90 h de horario reservado para inglés; 2.º curso 1185 130, 1186 80, 1188 110, 1189 90, 1071 90 (marcado como módulo transversal a otros títulos), 1192 EIE 60 y 40 h de inglés, más 1190 Proyecto 40 h y 1193 FCT 400 h. Total 2000 h. DEROGADA por la Orden EFD/659/2024. No se incluye en 'horas_otras'."
+   },
+   {
+    "ref": "Decreto 91/2024, de 5 de junio, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.todofp.es/dam/jcr:cda9c643-4e37-4726-b6e8-dc2b2c890e07/aragon-brscgi-ordenaci-n.pdf",
+    "nota": "Ordenación de la FP del Grado D y del Grado E en Aragón (BOA núm. 109, de 06/06/2024). Citado en la Orden ECD/843/2024. Su Anexo VIII (convalidaciones) fue modificado por la Resolución de 3/12/2025 (BOA nº 242, 16/12/2025) y su corrección de 16/01/2026, según research/verificacion-2026-09.md; NO se ha reabierto aquí (ver no_verificado). Enlace tomado de research/imp302.json e imp303.json."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025 (csv BOA20250918002). Dato dado por verificado por otro agente: renombra los módulos optativos de Aragón (A170→AOP1004, A171→AOP1002, A172→AOP1003). Enlace y referencia tomados de research/ssc302.json; no se ha comprobado aquí su efecto sobre el anexo XXXIII."
+   },
+   {
+    "ref": "Ficha del título en todofp.es",
+    "boe": null,
+    "url": "https://www.todofp.es/que-estudiar/familias-profesionales/imagen-personal/asesoria-imagen-personal-corporativa.html",
+    "nota": "Ficha oficial del MEFPD (consultada hoy). Confirma 2000 h, Grado Superior, nivel MECU 5A, plan adaptado a la LO 3/2022 desde 1.º en 2024-25 (2.º no cambia ese año), el módulo «Proyecto intermodular de asesoría de imagen personal y corporativa» y que este título «equivale al título LOGSE Técnico Superior en Asesoría de Imagen Personal (título no vigente)». No publica tablas de convalidación."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "1181",
+   "nombre": "Asesoría cosmética",
+   "horas": 70,
+   "horas_fuente": "RD 1685/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1182",
+   "nombre": "Diseño de imagen integral",
+   "horas": 90,
+   "horas_fuente": "RD 1685/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 170,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 160,
+     "curso": 1,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1183",
+   "nombre": "Estilismo en vestuario y complementos",
+   "horas": 120,
+   "horas_fuente": "RD 1685/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": 1,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1184",
+   "nombre": "Asesoría de peluquería",
+   "horas": 90,
+   "horas_fuente": "RD 1685/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 147,
+     "curso": 2,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1185",
+   "nombre": "Protocolo y organización de eventos",
+   "horas": 75,
+   "horas_fuente": "RD 1685/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 147,
+     "curso": 2,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1186",
+   "nombre": "Usos sociales",
+   "horas": 45,
+   "horas_fuente": "RD 1685/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1187",
+   "nombre": "Asesoría estética",
+   "horas": 105,
+   "horas_fuente": "RD 1685/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 170,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": 1,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1188",
+   "nombre": "Habilidades comunicativas",
+   "horas": 65,
+   "horas_fuente": "RD 1685/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1189",
+   "nombre": "Imagen corporativa",
+   "horas": 55,
+   "horas_fuente": "RD 1685/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 84,
+     "curso": 2,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1071",
+   "nombre": "Dirección y comercialización",
+   "horas": 55,
+   "horas_fuente": "RD 1685/2011 anexo I (currículo básico, 55 %). Módulo COMÚN (transversal) con el TS en Estilismo y Dirección de Peluquería (IMP303, RD 1577/2011): mismo código, denominación, 55 h y 6 ECTS",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 84,
+     "curso": 2,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1190",
+   "nombre": "Proyecto intermodular de asesoría de imagen personal y corporativa",
+   "horas": 25,
+   "horas_fuente": "RD 1685/2011 anexo I (allí denominado «Proyecto de asesoría de imagen personal y corporativa»); renombrado «Proyecto intermodular» por el RD 500/2024 art. cuarto.Uno.c).2.º y DA 7.ª. La denominación con «Intermodular» es también la de la Orden ECD/843/2024, la Orden EFD/659/2024 (que lo llama solo «Proyecto Intermodular»), la ficha de todofp.es y la API de centros docentes de Aragón",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 40,
+     "curso": 2,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre). Ojo: la tabla del Proyecto (1190) no asigna horas semanales a ningún curso; se le asigna el 2.º por ser el módulo final del ciclo (deducción, no dato de la resolución)"
+    }
+   }
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo X (currículo básico); añadido por el RD 500/2024 art. séptimo.Uno.b).1.º",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 500/2024 art. cuarto.Uno.e) (nuevo art. 10.3 del RD 1685/2011): 80 h de currículo básico",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1191",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 1685/2011 anexo I (texto original)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1192",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 1685/2011 anexo I (texto original)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "1193",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 1685/2011 anexo I (texto original)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 370,
+     "curso": 2,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "A081",
+   "nombre": "Lengua extranjera profesional: inglés 1 (módulo propio de Aragón)",
+   "horas": null,
+   "horas_fuente": "Módulo propio de Aragón del plan LOE: Orden de 20 de noviembre de 2013, art. 10. No existe en el RD 1685/2011",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 64,
+     "curso": 1,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  },
+  {
+   "codigo": "A082",
+   "nombre": "Lengua extranjera profesional: inglés 2 (módulo propio de Aragón)",
+   "horas": null,
+   "horas_fuente": "Módulo propio de Aragón del plan LOE: Orden de 20 de noviembre de 2013, art. 10. No existe en el RD 1685/2011",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 42,
+     "curso": 2,
+     "fuente": "Orden de 20 de noviembre de 2013 de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón; BOA núm. 246, de 17/12/2013), art. 10 (relación de módulos); horas totales y curso tomados de la Resolución de 8 de enero de 2014 del Director General de Ordenación Académica (BOA núm. 21, de 30/01/2014), anexo VII, modalidad diurna presencial: la tabla da las horas totales de cada módulo y las horas semanales por curso (1.º = 960 h; 2.º = 630 h lectivas + 40 h de Proyecto + 370 h de FCT en el 3.er trimestre)"
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Asesoría de Imagen Personal (LOGSE, RD 627/1995, de 21 de abril)",
+   "origen_modulo": "Asesoría de belleza.",
+   "destino_modulos": [
+    "1182"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Imagen Personal, GRADO SUPERIOR: fila «Técnico Superior en Asesoría de Imagen Personal (RD 627/1995) → Técnico Superior en Asesoría de Imagen Personal y Corporativa (RD 1685/2011)»: «Asesoría de belleza» → «1182. Diseño de imagen integral»; coincide con el anexo IV original del RD 1685/2011 (art. 15.1), derogado por el RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asesoría de Imagen Personal (LOGSE, RD 627/1995, de 21 de abril)",
+   "origen_modulo": "Estilismo en el vestir.",
+   "destino_modulos": [
+    "1183"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Imagen Personal, GRADO SUPERIOR: fila «Técnico Superior en Asesoría de Imagen Personal (RD 627/1995) → Técnico Superior en Asesoría de Imagen Personal y Corporativa (RD 1685/2011)»: «Estilismo en el vestir» → «1183. Estilismo en vestuario y complementos»; coincide con el anexo IV original del RD 1685/2011 (art. 15.1), derogado por el RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asesoría de Imagen Personal (LOGSE, RD 627/1995, de 21 de abril)",
+   "origen_modulo": "Protocolo y usos sociales.",
+   "destino_modulos": [
+    "1185",
+    "1186"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Imagen Personal, GRADO SUPERIOR: fila «Técnico Superior en Asesoría de Imagen Personal (RD 627/1995) → Técnico Superior en Asesoría de Imagen Personal y Corporativa (RD 1685/2011)»: «Protocolo y usos sociales» → «1185. Protocolo y organización de eventos» y «1186. Usos sociales» en la MISMA celda (se convalidan ambos); coincide con el anexo IV original del RD 1685/2011 (art. 15.1), derogado por el RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asesoría de Imagen Personal (LOGSE, RD 627/1995, de 21 de abril)",
+   "origen_modulo": "Técnicas de embellecimiento personal.",
+   "destino_modulos": [
+    "1187",
+    "1184"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Imagen Personal, GRADO SUPERIOR: fila «Técnico Superior en Asesoría de Imagen Personal (RD 627/1995) → Técnico Superior en Asesoría de Imagen Personal y Corporativa (RD 1685/2011)»: «Técnicas de embellecimiento personal» → «1187. Asesoría estética» y «1184. Asesoría de peluquería» en la MISMA celda (se convalidan ambos); coincide con el anexo IV original del RD 1685/2011 (art. 15.1), derogado por el RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asesoría de Imagen Personal (LOGSE, RD 627/1995, de 21 de abril)",
+   "origen_modulo": "Imagen personal y comunicación.",
+   "destino_modulos": [
+    "1188"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Imagen Personal, GRADO SUPERIOR: fila «Técnico Superior en Asesoría de Imagen Personal (RD 627/1995) → Técnico Superior en Asesoría de Imagen Personal y Corporativa (RD 1685/2011)»: «Imagen personal y comunicación» → «1188. Habilidades comunicativas»; coincide con el anexo IV original del RD 1685/2011 (art. 15.1), derogado por el RD 1085/2020. Los únicos módulos del RD 627/1995 sin fila propia en el anexo II son el transversal «Relaciones en el entorno de trabajo» y la FCT (la FCT nunca se convalida, art. 3.4; el anexo IV original la enlazaba con 1193)"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado medio y de grado superior (todos)",
+   "origen_modulo": "Formación y Orientación Laboral (más la certificación de prevención de riesgos laborales de nivel básico)",
+   "destino_modulos": [
+    "1191",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Formación y Orientación Laboral» (grado medio y grado superior). El módulo 1191 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I. Ojo: en Aragón, según research/verificacion-2026-09.md, FOL de GS LOGSE NO se convalida aportando 1709 (Anexo VIII del Decreto 91/2024, ap. 6.15); no releído aquí"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1191",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla de FOL (ciclo completo de GS de Prevención de Riesgos Profesionales); la DA 2.ª del RD 1085/2020 recoge además esta convalidación para el título LOGSE. El módulo 1191 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado medio y de grado superior (todos)",
+   "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Comercio (LOGSE, familia Comercio y Marketing)",
+   "origen_modulo": "Administración y gestión de un pequeño establecimiento comercial",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996), Jardinería (RD 1714/1996), Explotaciones Agrarias Extensivas (RD 1715/1996), Explotaciones Agrícolas Intensivas (RD 1716/1996) y Explotaciones Ganaderas (RD 1717/1996), todos de 12 de julio (LOGSE, familia Agraria)",
+   "origen_modulo": "Organización y gestión de una explotación agraria familiar",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Gestión administrativa (LOGSE, RD 1662/1994, de 22 de julio; familia Administración y Gestión)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos Animación Sociocultural (Servicios Socioculturales y a la Comunidad), Animación de Actividades Físicas y Deportivas (Actividades Físicas y Deportivas) y Animación Turística (Hostelería y Turismo) (LOGSE)",
+   "origen_modulo": "Organización y gestión de una pequeña empresa de actividades de tiempo libre y socioeducativas",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Agencias de Viajes (LOGSE, familia Hostelería y Turismo)",
+   "origen_modulo": "Organización y control en agencias de viajes",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Restauración (LOGSE, familia Hostelería y Turismo)",
+   "origen_modulo": "Administración de establecimientos de restauración",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Ortoprotésica (LOGSE, familia Sanidad)",
+   "origen_modulo": "Administración y gestión de una unidad/gabinete de Ortoprotésica",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Prótesis Dentales (LOGSE, familia Sanidad)",
+   "origen_modulo": "Organización, administración y gestión de una unidad/gabinete de prótesis dentales",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Audioprótesis (LOGSE, familia Sanidad)",
+   "origen_modulo": "Administración y gestión de un gabinete audioprotésico",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos Gestión y Organización de los Recursos Naturales y Paisajísticos y Gestión y Organización de Empresas Agropecuarias (LOGSE, familia Agraria)",
+   "origen_modulo": "Organización y gestión de una empresa agraria",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Administración y finanzas (LOGSE, RD 1659/1994, de 22 de julio; familia Administración y Gestión)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (GRADO MEDIO Y GRADO SUPERIOR). El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II. Ojo: en Aragón, según research/verificacion-2026-09.md, aportando 1710 NO se convalida EIE (Anexo VIII del Decreto 91/2024, ap. 6.16); ese sentido es distinto de las filas EIE→1710 de esta tabla; no releído aquí"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado superior con el módulo Lengua Extranjera (inglés)",
+   "origen_modulo": "Lengua Extranjera (Inglés).",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Superior (destino «0179. Inglés Profesional») (fila «Lengua Extranjera (Inglés)»). En este título el 0179 es un módulo nuevo (RD 500/2024); el plan LOE de 2013 no tenía módulo de inglés estatal (90 h + 40 h de horario reservado para inglés en la Orden ECD/84/2013; en Aragón, los módulos propios A081/A082)"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado superior con Lengua Extranjera de 90 horas",
+   "origen_modulo": "Lengua Extranjera (duración de 90 horas, según reales decretos por los que se establecen los títulos de formación profesional y sus enseñanzas mínimas). Cuando la lengua extranjera cursada y superada sea inglés.",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Superior (destino «0179. Inglés Profesional») (fila de 90 horas; fila distinta de la anterior: cualquiera basta). En este título el 0179 es un módulo nuevo (RD 500/2024); el plan LOE de 2013 no tenía módulo de inglés estatal (90 h + 40 h de horario reservado para inglés en la Orden ECD/84/2013; en Aragón, los módulos propios A081/A082)"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado superior con Lengua Extranjera en Comercio Internacional",
+   "origen_modulo": "Lengua Extranjera en Comercio Internacional. Cuando la lengua extranjera cursada y superada sea inglés.",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Superior (destino «0179. Inglés Profesional») (fila «Lengua Extranjera en Comercio Internacional»; fila distinta de las anteriores: cualquiera basta). En este título el 0179 es un módulo nuevo (RD 500/2024); el plan LOE de 2013 no tenía módulo de inglés estatal (90 h + 40 h de horario reservado para inglés en la Orden ECD/84/2013; en Aragón, los módulos propios A081/A082)"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOE que incluyan el módulo de Formación y orientación laboral",
+   "origen_modulo": "Formación y orientación laboral.",
+   "destino_modulos": [
+    "1191",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con formación y orientación laboral». Coincide con el art. 15.2 original del RD 1685/2011. El módulo 1191 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOE que incluyan el módulo de Empresa e iniciativa emprendedora",
+   "origen_modulo": "Empresa e iniciativa emprendedora.",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción dada por el RD 500/2024, disp. final primera.Tres). Coincide con el art. 15.2 original del RD 1685/2011. El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos LOE de grado medio o superior de las familias profesionales Comercio y Marketing o Administración y Gestión",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1192",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción dada por el RD 500/2024, disp. final primera.Tres). Las celdas de la tabla se leen así: «Cualquier ciclo de grado medio o superior de las Familias Profesionales Comercio y Marketing o Administración y Gestión | Para cualquier ciclo formativo» y «Ciclo completo | Empresa e iniciativa emprendedora». El módulo 1192 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés",
+   "origen_modulo": "Certificado de Aptitud de Inglés de la EOI (RD 967/1988)",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con inglés» (fila propia; el destino de esa fila es «0156 Inglés Profesional / 0179 Inglés Profesional»), más el art. 3.7 del RD 1085/2020 (redacción dada por la disp. final 4.1 del RD 659/2023)"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés",
+   "origen_modulo": "Certificado de Nivel Avanzado (B2) o superior de Inglés de la EOI (RD 1629/2006)",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con inglés» (fila propia; el destino de esa fila es «0156 Inglés Profesional / 0179 Inglés Profesional»), más el art. 3.7 del RD 1085/2020 (redacción dada por la disp. final 4.1 del RD 659/2023)"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés",
+   "origen_modulo": "Título de Grado o equivalente en Filología Inglesa o en Traducción e Interpretación (Inglés)",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con inglés» (fila propia; el destino de esa fila es «0156 Inglés Profesional / 0179 Inglés Profesional»), más el art. 3.7 del RD 1085/2020 (redacción dada por la disp. final 4.1 del RD 659/2023)"
+  },
+  {
+   "origen_titulo": "Ciclos LOE de grado superior que incluyan el módulo",
+   "origen_modulo": "0179. Inglés Profesional (GS)",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "Módulos idénticos: mismo código, denominación y contenido normativo (anexo X del RD 659/2023). Art. 3.2 del RD 1085/2020 y art. 126 del RD 659/2023 (art. 15 del RD 1685/2011 en la redacción del RD 500/2024). OJO: la fila «0179 Inglés Profesional → 0156 Inglés Profesional» del anexo III del RD 1085/2020 apunta al módulo de GRADO MEDIO, no a este"
+  },
+  {
+   "origen_titulo": "Ciclos de grado superior adaptados por el RD 500/2024 (todos)",
+   "origen_modulo": "1709. Itinerario personal para la empleabilidad I",
+   "destino_modulos": [
+    "1709"
+   ],
+   "fuente": "Módulo común con igual código y denominación en todos los ciclos de grado superior adaptados: art. 3.2 del RD 1085/2020, art. 126 del RD 659/2023 y DA 1.ª de la Orden ECD/843/2024 (Aragón). Cada módulo convalida únicamente su homónimo"
+  },
+  {
+   "origen_titulo": "Ciclos de grado superior adaptados por el RD 500/2024 (todos)",
+   "origen_modulo": "1710. Itinerario personal para la empleabilidad II",
+   "destino_modulos": [
+    "1710"
+   ],
+   "fuente": "Módulo común con igual código y denominación en todos los ciclos de grado superior adaptados: art. 3.2 del RD 1085/2020, art. 126 del RD 659/2023 y DA 1.ª de la Orden ECD/843/2024 (Aragón). Cada módulo convalida únicamente su homónimo"
+  },
+  {
+   "origen_titulo": "Ciclos de grado superior adaptados por el RD 500/2024 (todos)",
+   "origen_modulo": "1665. Digitalización aplicada a los sectores productivos (GS)",
+   "destino_modulos": [
+    "1665"
+   ],
+   "fuente": "Módulo común con igual código y denominación en todos los ciclos de grado superior adaptados: art. 3.2 del RD 1085/2020, art. 126 del RD 659/2023 y DA 1.ª de la Orden ECD/843/2024 (Aragón). Cada módulo convalida únicamente su homónimo"
+  },
+  {
+   "origen_titulo": "Ciclos de grado superior adaptados por el RD 500/2024 (todos)",
+   "origen_modulo": "1708. Sostenibilidad aplicada al sistema productivo",
+   "destino_modulos": [
+    "1708"
+   ],
+   "fuente": "Módulo común con igual código y denominación en todos los ciclos de grado superior adaptados: art. 3.2 del RD 1085/2020, art. 126 del RD 659/2023 y DA 1.ª de la Orden ECD/843/2024 (Aragón). Cada módulo convalida únicamente su homónimo"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Estilismo y Dirección de Peluquería (LOE, RD 1577/2011, de 4 de noviembre; IMP303 en Aragón)",
+   "origen_modulo": "1071. Dirección y comercialización",
+   "destino_modulos": [
+    "1071"
+   ],
+   "fuente": "Módulo idéntico en ambos títulos: mismo código, denominación, duración de currículo básico (55 h) y ECTS (6); los resultados de aprendizaje y criterios de evaluación coinciden (comprobado comparando los anexos I de los RD 1577/2011 y 1685/2011; solo cambia «los usuarios»→«las personas usuarias» en un criterio) y los contenidos básicos coinciden salvo ese cambio y signos de puntuación; difieren solo las orientaciones pedagógicas (objetivos y competencias a los que contribuye). Art. 3.2 del RD 1085/2020 (mismo código: se traslada la calificación), art. 126 del RD 659/2023 (art. 15 en la redacción del RD 500/2024) y DA 1.ª de la Orden ECD/843/2024. NO figura como fila en los anexos I, II ni III del RD 1085/2020. En Aragón ambos ciclos lo cursan en 2.º con 100 h; en el MEFPD, 130 h en 2.º en IMP301 y en 1.º en IMP303. La API de centros docentes de Aragón no lo marca como común (ciclos_comunes_curso1 vacío en los dos ciclos), aunque el catálogo lo comparte"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asesoría de Imagen Personal y Corporativa (sentido inverso: hacia otros ciclos LOE)",
+   "origen_modulo": "1071. Dirección y comercialización",
+   "destino_modulos": [
+    "1071. Dirección y comercialización (en Técnico Superior en Estilismo y Dirección de Peluquería, RD 1577/2011)"
+   ],
+   "fuente": "Módulo idéntico en ambos títulos (ver la fila de identidad 1071↔1071 con IMP303 para el detalle de la comparación). NO figura como fila en los anexos I, II ni III del RD 1085/2020; se aplica por el art. 3.2 de ese RD y el art. 126 del RD 659/2023 (sentido inverso: de este título hacia IMP303)"
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de este mismo ciclo en Aragón (Orden de 20 de noviembre de 2013)",
+   "origen_modulo": "1191. Formación y orientación laboral",
+   "destino_modulos": [
+    "1709"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), DT 2.ª, apartados 2 a 4 (tabla de equivalencias entre la ordenación del RD 1147/2011 y la del RD 659/2023), y DA 6.ª del RD 1085/2020. La Orden EFD/659/2024 (MEFPD), DT 2.ª, recoge la misma equivalencia"
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de este mismo ciclo en Aragón (Orden de 20 de noviembre de 2013)",
+   "origen_modulo": "1192. Empresa e iniciativa emprendedora",
+   "destino_modulos": [
+    "1710"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), DT 2.ª, apartados 2 a 4, y DA 6.ª del RD 1085/2020. La Orden EFD/659/2024 (MEFPD), DT 2.ª, recoge la misma equivalencia"
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de este mismo ciclo en Aragón (Orden de 20 de noviembre de 2013)",
+   "origen_modulo": "A081. Lengua extranjera profesional: inglés 1 / A082. Lengua extranjera profesional: inglés 2",
+   "destino_modulos": [
+    "AOP1004 (módulo profesional optativo de Aragón: Comunicación profesional en Inglés (GS); código A170 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), art. 13.1, último párrafo, en la redacción del Decreto 107/2025 (código AOP1004 en lugar de A170): la superación de los módulos de los planes a extinguir denominados «Lengua Extranjera Profesional: Inglés 1» y «Lengua Extranjera Profesional: Inglés 2», propios de Aragón, permite convalidar el módulo optativo (el texto habla de los módulos en plural y no precisa si basta uno)"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de idioma (Aragón)",
+   "origen_modulo": "Certificado de nivel B2 de inglés (Orden de 11 de noviembre de 2014 de Aragón o norma que la sustituya)",
+   "destino_modulos": [
+    "AOP1004 (módulo profesional optativo de Aragón: Comunicación profesional en Inglés (GS); código A170 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), art. 13.1, en la redacción del Decreto 107/2025"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de idioma (Aragón)",
+   "origen_modulo": "Certificado de nivel B1 de francés (Orden de 11 de noviembre de 2014 de Aragón o norma que la sustituya)",
+   "destino_modulos": [
+    "AOP1002 (módulo profesional optativo de Aragón: Segunda lengua profesional Francés; código A171 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), art. 13.2, en la redacción del Decreto 107/2025"
+  },
+  {
+   "origen_titulo": "Otro ciclo formativo de grado superior (Aragón)",
+   "origen_modulo": "Módulo profesional optativo superado",
+   "destino_modulos": [
+    "Módulo profesional optativo (OPT), sin código estatal"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), art. 13.4: un optativo superado en un ciclo de grado superior puede aplicarse, si el alumnado lo desea, en cualquier otro ciclo de grado superior (o de grado medio si el módulo es común a ambos), con la calificación obtenida"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC1248_3"
+   ],
+   "modulos": [
+    "1182"
+   ],
+   "fuente": "Anexo V A) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1251_3"
+   ],
+   "modulos": [
+    "1183"
+   ],
+   "fuente": "Anexo V A) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0793_3",
+    "UC1249_3"
+   ],
+   "modulos": [
+    "1184"
+   ],
+   "fuente": "Anexo V A) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente). Las dos UC en la misma celda (se exigen ambas, art. 15.3 en la redacción del RD 500/2024)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1252_3"
+   ],
+   "modulos": [
+    "1185",
+    "1186"
+   ],
+   "fuente": "Anexo V A) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente). Los dos módulos en la misma celda: se convalidan ambos",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1250_3"
+   ],
+   "modulos": [
+    "1187"
+   ],
+   "fuente": "Anexo V A) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1253_3"
+   ],
+   "modulos": [
+    "1188"
+   ],
+   "fuente": "Anexo V A) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0795_3",
+    "UC0352_2"
+   ],
+   "modulos": [
+    "1071"
+   ],
+   "fuente": "Anexo V A) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente). Las dos UC en la misma celda (se exigen ambas)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "Todas las UC del título"
+   ],
+   "modulos": [
+    "1181"
+   ],
+   "fuente": "Anexo V A) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente): NOTA al pie: las personas matriculadas que tengan acreditadas todas las unidades de competencia incluidas en el título (UC1248_3 a UC1253_3, UC0793_3, UC0795_3 y UC0352_2), de acuerdo con el procedimiento del RD 1224/2009 (reconocimiento de las competencias profesionales adquiridas por experiencia laboral; el RD 500/2024 lo califica ya de derogado), tienen convalidado el módulo 1181 Asesoría cosmética. No hay ninguna UC que convalide por sí sola 1181, 1189 ni 1190",
+   "vigente": true
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "1182"
+   ],
+   "uc": [
+    "UC1248_3"
+   ],
+   "fuente": "Anexo V B) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1183"
+   ],
+   "uc": [
+    "UC1251_3"
+   ],
+   "fuente": "Anexo V B) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1184"
+   ],
+   "uc": [
+    "UC0793_3",
+    "UC1249_3"
+   ],
+   "fuente": "Anexo V B) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente). Las dos UC en la misma celda (se acreditan ambas)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1185",
+    "1186"
+   ],
+   "uc": [
+    "UC1252_3"
+   ],
+   "fuente": "Anexo V B) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente). Los dos módulos en la misma celda: hay que haberlos superado ambos (art. 15.4 en la redacción del RD 500/2024)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1187"
+   ],
+   "uc": [
+    "UC1250_3"
+   ],
+   "fuente": "Anexo V B) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1188"
+   ],
+   "uc": [
+    "UC1253_3"
+   ],
+   "fuente": "Anexo V B) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1071"
+   ],
+   "uc": [
+    "UC0795_3",
+    "UC0352_2"
+   ],
+   "fuente": "Anexo V B) del RD 1685/2011 (texto original de 2011; el RD 500/2024 no lo sustituye para este título y sigue vigente). Las dos UC en la misma celda (se acreditan ambas)",
+   "vigente": true
+  }
+ ],
+ "equivalencias_uc": {},
+ "uc_descripciones": {
+  "UC1248_3": "Realizar el estudio de la imagen personal para proponer proyectos de cambio personalizados [ECP1248_3] (sin cambios de nombre desde 2008)",
+  "UC1249_3": "Asesorar sobre cambios en su imagen personal mediante el cuidado y transformación estética del cabello y pelo facial (nombre vigente desde el RD 1024/2024; en 2008 y en el art. 6 del RD 1685/2011: «Asesorar a los clientes sobre cambios en su imagen personal mediante el cuidado y transformación estética del cabello y pelo del rostro») [ECP1249_3]",
+  "UC1250_3": "Asesorar sobre cambios en su imagen personal mediante cuidados estéticos (nombre vigente desde el RD 1024/2024; en 2011: «Asesorar a los clientes sobre cambios en su imagen personal mediante cuidados estéticos») [ECP1250_3]",
+  "UC1251_3": "Asesorar sobre cambios en la imagen personal mediante la indumentaria y los complementos (nombre vigente desde el RD 1024/2024; en 2011: «Asesorar a los clientes sobre cambios en su imagen personal mediante la indumentaria y los complementos») [ECP1251_3]",
+  "UC1252_3": "Asesorar en las actuaciones de protocolo, usos sociales y etiqueta relacionados con la imagen personal (nombre vigente desde el RD 1024/2024; en 2011: «Asesorar al cliente en las actuaciones de protocolo y usos sociales relacionados con la imagen personal») [ECP1252_3]",
+  "UC1253_3": "Asesorar en técnicas de comunicación relacionadas con la imagen personal (nombre vigente desde el RD 1024/2024; en 2011: «Asesorar al cliente en técnicas de comunicación relacionadas con la imagen personal») [ECP1253_3]",
+  "UC0793_3": "Asesorar a las personas usuarias y producciones de medios escénicos, audiovisuales o de moda/fotografía sobre el cuidado y transformación estética del cabello y pelo del rostro (nombre vigente desde el RD 544/2023; en 2011: «Asesorar a los clientes sobre su imagen personal, mediante el cuidado y transformación estética del cabello y el pelo del rostro») [ECP0793_3]",
+  "UC0795_3": "Gestionar las actividades desarrolladas en empresas de imagen personal (nombre vigente desde el RD 544/2023; en 2011: «Dirigir y gestionar las actividades desarrolladas en empresas de imagen personal») [ECP0795_3]",
+  "UC0352_2": "Vender productos y servicios para la Imagen Personal (nombre vigente desde el RD 615/2020; en 2011: «Asesorar y vender productos y servicios para la Imagen Personal») [ECP0352_2]"
+ },
+ "cualificaciones": [
+  {
+   "codigo": "IMP395_3",
+   "nombre_vigente": "Asesoría integral de imagen personal",
+   "completa": true,
+   "uc": [
+    "UC1248_3",
+    "UC1249_3",
+    "UC1250_3",
+    "UC1251_3",
+    "UC1252_3",
+    "UC1253_3"
+   ],
+   "uc_2011": [
+    "UC1248_3",
+    "UC1249_3",
+    "UC1250_3",
+    "UC1251_3",
+    "UC1252_3",
+    "UC1253_3"
+   ],
+   "norma": "RD 327/2008, de 29 de febrero (anexo CCCXCV), actualizada íntegramente por el RD 1024/2024, de 8 de octubre (art. 8 y anexo XI): mismos seis códigos de UC, nombres nuevos para UC1249_3 a UC1253_3. Única cualificación completa del título (art. 6.1 del RD 1685/2011, no modificado por el RD 500/2024)"
+  },
+  {
+   "codigo": "IMP249_3",
+   "nombre_vigente": "Peluquería técnico-artística",
+   "completa": false,
+   "uc": [
+    "UC0793_3",
+    "UC0795_3"
+   ],
+   "uc_2011": [
+    "UC0793_3",
+    "UC0795_3"
+   ],
+   "norma": "RD 790/2007, de 15 de junio (anexo CCXLIX), actualizada íntegramente por el RD 544/2023, de 27 de junio (anexo II). Cualificación incorporada de forma INCOMPLETA (art. 6.2.a del RD 1685/2011): solo UC0793_3 y UC0795_3 de las seis que hoy la componen (UC0793_3, UC0794_3, UC0795_3, UC2685_2, UC2686_2, UC0348_2)"
+  },
+  {
+   "codigo": "IMP397_3",
+   "nombre_vigente": "Tratamientos capilares estéticos",
+   "completa": false,
+   "uc": [
+    "UC0352_2"
+   ],
+   "uc_2011": [
+    "UC0352_2"
+   ],
+   "norma": "RD 327/2008, de 29 de febrero (anexo CCCXCVII), modificada parcialmente por el RD 615/2020 (UC0352_2) y el RD 544/2023 (art. 7: UC0795_3). Cualificación incorporada de forma INCOMPLETA (art. 6.2.b del RD 1685/2011): solo UC0352_2"
+  }
+ ],
+ "notas": [
+  "El campo 'horas' es el del currículo básico / enseñanzas mínimas del RD 1685/2011 (55 % de 2000 h = 1100 h: 70+90+120+90+75+45+105+65+55+55+25+50+35+220; en los módulos nuevos, el del RD 659/2023 y, para el optativo, el del RD 500/2024). Las horas reales de impartición están en 'horas_otras' con las claves 'aragon' (Orden ECD/843/2024, anexo XXXIII, IMP301), 'mefp' (Orden EFD/659/2024, anexo XLI) y 'loe' (plan anterior de Aragón, Orden de 20 de noviembre de 2013 y Resolución de 8 de enero de 2014).",
+  "El BOE no ofrece texto consolidado del RD 1685/2011 (estado_consolidacion 0): hay que combinar el texto original (BOE-A-2011-20273), el RD 1085/2020 (deroga su anexo IV de convalidaciones) y el RD 500/2024 (arts. 2, 10, 12, 15, anexos I y III y referencias indicadas, según las referencias posteriores del BOE). No hay corrección de errores aplicable (la BOE-A-2025-10205 es de otro título).",
+  "RD 500/2024, art. primero.Dos.a): Asesoría de Imagen Personal y Corporativa es el 43.º del grupo a) (ciclos SIN módulo de Inglés previo). Por eso se le AÑADE 0179 Inglés Profesional (GS) (50 h de currículo básico) además de 1709, 1710, 1665, 1708 y el módulo optativo (80 h). SUPRIME 1191 FOL, 1192 EIE y 1193 FCT (con su periodo de formación en empresa integrado, art. 10.5 nuevo). El módulo 1190 pasa a llamarse «Proyecto intermodular de asesoría de imagen personal y corporativa» (mantiene código). El plan LOE de 2013 no tenía módulo de inglés estatal: solo 90 h + 40 h de «horario reservado para el módulo impartido en inglés» en la Orden ECD/84/2013, y los módulos propios de Aragón A081/A082.",
+  "ANTECESOR LOGSE (confirmado): el TS en Asesoría de Imagen Personal (RD 627/1995) es el título LOGSE que sustituye el RD 1685/2011 (art. 1.2 y disp. derogatoria; DA 3.ª.1: mismos efectos profesionales y académicos) y el único que el anexo II del RD 1085/2020 enlaza con ESTE ciclo, como ya constaba en research/imp303.json (donde no enlaza con Estilismo y Dirección de Peluquería). Sus cinco filas son: Asesoría de belleza→1182; Estilismo en el vestir→1183; Protocolo y usos sociales→1185+1186; Técnicas de embellecimiento personal→1187+1184; Imagen personal y comunicación→1188. Las cinco figuraban ya en el anexo IV original del RD 1685/2011 (con otras dos filas que el RD 1085/2020 no recoge: Administración, gestión y comercialización en la pequeña empresa→1192, hoy cubierta por la tabla general de EIE, y FCT→1193, que el art. 3.4 del RD 1085/2020 impide convalidar).",
+  "1181, 1189 Y 1190 SIN ORIGEN LOGSE ESPECÍFICO: ninguna fila del anexo II del RD 1085/2020 lleva un módulo LOGSE a 1181 Asesoría cosmética ni a 1189 Imagen corporativa, y el Proyecto (1190) no se convalida ni se exime (art. 3.5). El módulo LOGSE transversal «Relaciones en el entorno de trabajo» del RD 627/1995 tampoco tiene fila. 1181 solo se convalida por la NOTA del anexo V A) (todas las UC del título acreditadas).",
+  "El anexo III (LOE→LOE) del RD 1085/2020 NO contiene ninguna fila con módulos de este título (bloque Imagen Personal de GS: solo Animaciones 3D→Caracterización y Maquillaje Profesional; filas de GM con Estética y Belleza y Peluquería y Cosmética Capilar); búsqueda por texto de 1181-1190, 1071 y del RD 1685/2011 sin resultados fuera del anexo II y de la lista de derogaciones. El anexo I (LOGSE→LOGSE) tiene una fila con TS Asesoría de Imagen Personal (RD 627/1995) como origen hacia Dirección técnico-artística (Peluquería, RD 629/1995): destino fuera de este ciclo, no recogida. Las filas generales (FOL, EIE, inglés) siguen el criterio de research/imp302.json y research/ssc302.json (destino: módulo LOE suprimido más el nuevo de la DA 6.ª). Los orígenes genéricos se han redactado sin empezar por «Cualquier ciclo formativo» para que el generador no los descarte.",
+  "MÓDULO COMÚN CON EL TS EN ESTILISMO Y DIRECCIÓN DE PELUQUERÍA (IMP303), ambos sentidos: 1071 Dirección y comercialización. Confirmado por comparación de los anexos I de los RD 1685/2011 y 1577/2011: mismo código, denominación, 55 h de currículo básico y 6 ECTS (también en el anexo XCI del RD 500/2024); resultados de aprendizaje y criterios de evaluación idénticos (salvo «los usuarios»→«las personas usuarias» en un criterio) y contenidos básicos idénticos salvo ese cambio y signos de puntuación; solo difieren las orientaciones pedagógicas. El RD 1085/2020 no incluye esta identidad como fila (aplica el art. 3.2 y el art. 126 del RD 659/2023, y la DA 1.ª de la Orden ECD/843/2024 sobre reconocimiento por misma codificación), luego el módulo superado en uno de los dos ciclos traslada su nota al otro. En Aragón ambos lo cursan en 2.º con 100 h; en el MEFPD, 130 h en 2.º en IMP301 y en 1.º en IMP303. AVISO: research/imp303.json (notas) dice que el único módulo específico común de IMP303 con otro ciclo es 0750; eso es incompleto, porque 1071 también se comparte con IMP301, y conviene añadir en imp303.json la fila inversa 1071↔1071 (este archivo la recoge en ambos sentidos).",
+  "Otros módulos compartidos: según research/catalogo-aragon.json y la API de centros docentes de Aragón, el único módulo específico de IMP301 que aparece en otro ciclo es 1071 (con IMP303); 1181-1190 son propios de este título y no están en IMP302, IMP202, IMP203 ni IMP304. Los transversales 0179, 1709, 1710, 1665 y 1708 se comparten con decenas de ciclos de GS (1708 aparece en la API solo con ELE202-203; 1709 y 0179, con muchos). No se ha encontrado convalidación LOE→LOE de este título con IMP302 (Estética Integral y Bienestar), IMP203 ni IMP304 (Termalismo y bienestar), coherente con research/imp302.json, peluqueria.json y estetica.json.",
+  "NUMERACIÓN DE LAS TABLAS UC↔MÓDULOS: en el RD 1685/2011 son los anexos V A) y V B) (arts. 16.1 y 16.2); los anexos IV son las convalidaciones LOGSE→LOE (art. 15.1, derogado por el RD 1085/2020). El RD 500/2024 NO sustituye V A)/V B) ni el art. 6 para este título (no figura en su artículo tercero), por lo que se recogen en su redacción original, con los nombres de UC actualizados: UC1249_3 a UC1253_3 (RD 1024/2024), UC0793_3 y UC0795_3 (RD 544/2023) y UC0352_2 (RD 615/2020). Los códigos no han cambiado y no hay UC suprimidas ni desdobladas que afecten a este título (el desdoblamiento de UC0351_2 del RD 544/2023 no le afecta), por lo que 'equivalencias_uc' queda vacío.",
+  "Las tablas UC↔módulos no relacionan ninguna UC con 1181 (solo la NOTA: todas las UC del título acreditadas), 1189 ni 1190. Además, la UC0793_3 sola o la UC0795_3 sola no convalidan ningún módulo: 1184 exige UC0793_3 + UC1249_3 y 1071 exige UC0795_3 + UC0352_2, ambas simultáneamente (art. 15.3 del RD 1685/2011 en la redacción del RD 500/2024). Coincide con la herramienta de Aragón (https://centrosdocentes.catedu.es/awc/public/competencias, research/competencias-catedu.json): 1182 con ECP1248_3; 1183 con ECP1251_3; 1184 con ECP0793_3 + ECP1249_3; 1185 y 1186 con ECP1252_3; 1187 con ECP1250_3; 1188 con ECP1253_3; 1071 con ECP0352_2 + ECP0795_3; 1181, 1189 y 1190 sin grupos. No hay discrepancia con el RD.",
+  "La API de centros docentes de Aragón (IMP301, nivel CFGS) devuelve 16 módulos más el optativo (OPT, 100 h) con horas y cursos idénticos a los del anexo XXXIII de la Orden ECD/843/2024, horas_totales 2000, y ECTS iguales a los del anexo XCI del RD 500/2024 (1181=9, 1182=11, 1183=14, 1184=11, 1185=9, 1186=5, 1187=11, 1188=7, 1189=6, 1071=6, 1190=5, 1709=5, 1710=5, 1665=3, 1708=3, 0179=5); a diferencia de otros ciclos, aquí no hay discrepancia de ECTS. Las cifras de ECTS no se han incorporado a los datos de módulos.",
+  "ARAGÓN, PLAN VIGENTE (Orden ECD/843/2024, anexo XXXIII, 30 sesiones semanales en cada curso): 1.º curso 1181 (133), 1182 (167), 1183 (200), 1187 (200), 1188 (100), 1709 (100), 1665 (33), 0179 (67) = 1000 h; 2.º curso 1184 (233), 1185 (233), 1186 (67), 1189 (100), 1071 (100), 1190 (67), 1710 (67), 1708 (33) y optativo (100) = 1000 h. Total 2000 h.",
+  "MEFP (Orden EFD/659/2024, anexo XLI): 1.º curso 1181 100 h, 1182 170, 1187 170, 1184 160, 1183 190, 1709 100, 1708 35, 0179 70 (995 h, 30 sesiones); 2.º curso 1186 160, 1188 130, 1189 160, 1071 130, 1185 160, 1710 100, 1665 35, optativa 80, 1190 50 (1005 h, 30 sesiones). Bilingües: 1182, 1187, 1184, 1183, 1188, 1189, 1071 y 1185. Las horas 'mefp' son las del apartado A del anexo.",
+  "DISCREPANCIAS DE CURSO entre Aragón y el MEFPD: 1184 Asesoría de peluquería (2.º en Aragón, 1.º en el MEFPD), 1188 Habilidades comunicativas (1.º en Aragón, 2.º en el MEFPD), 1665 Digitalización (1.º en Aragón, 2.º en el MEFPD) y 1708 Sostenibilidad (2.º en Aragón, 1.º en el MEFPD). Coinciden en 1181, 1182, 1183, 1187, 1709, 0179 (1.º) y 1185, 1186, 1189, 1071, 1190, 1710 y el optativo (2.º).",
+  "PLAN LOE DE ARAGÓN (clave 'loe' de 'horas_otras'): Orden de 20 de noviembre de 2013 (BOA núm. 246, de 17/12/2013) y Resolución de 8 de enero de 2014 (BOA núm. 21, de 30/01/2014, anexo VII, diurno): 1181 128 h (1.º), 1182 160 (1.º), 1183 192 (1.º), 1184 147 (2.º), 1185 147 (2.º), 1186 63 (2.º), 1187 192 (1.º), 1188 128 (1.º), 1189 84 (2.º), 1071 84 (2.º), A081 64 (1.º), A082 42 (2.º), 1190 40, 1191 FOL 96 (1.º), 1192 EIE 63 (2.º), 1193 FCT 370 (2.º, 3.er trimestre); total 2000 h. A diferencia de otros ciclos, aquí el curso SÍ figura en una fuente oficial (la resolución de distribución horaria); solo el curso del Proyecto 1190 (sin horas semanales en la tabla) se ha asignado por deducción. También existe modalidad nocturna en tres cursos en esa resolución; no se recoge.",
+  "PLAN LOE DEL MEC (Orden ECD/84/2013, anexo II; no se incluye en 'horas_otras'): 1.º curso 1181 105 h, 1182 150, 1183 200, 1184 150, 1187 175, 1191 FOL 90 y 90 h de horario reservado para inglés; 2.º curso 1185 130, 1186 80, 1188 110, 1189 90, 1071 90, 1192 EIE 60 y 40 h de inglés, más 1190 Proyecto 40 h y 1193 FCT 400 h. Total 2000 h.",
+  "Comparación plan LOE → plan adaptado en Aragón: el bloque lectivo pasa de 1590 h (incluidas las 106 h de A081/A082) + 370 h de FCT + 40 h de Proyecto a 2000 h sin FCT; desaparecen 1191 FOL (96 h), 1192 EIE (63 h), 1193 FCT (370 h) y los módulos propios A081/A082 (64 + 42 h); aparecen 0179, 1709, 1710, 1665, 1708 y el optativo, y el periodo de formación en empresa se integra en el currículo (el RD 500/2024 le da tratamiento propio, art. 10.5 nuevo).",
+  "Calendario de Aragón (Orden ECD/843/2024, DF 1.ª y DT 2.ª): el currículo de 1.º se implantó en 2024/25 y el de 2.º en 2025/26; a partir del 1/09/2026 el alumnado del plan a extinguir en modalidad presencial debe cursar el nuevo plan completo (con la tabla FOL→1709, EIE→1710, Inglés→0179 Inglés profesional (GS) aplicada en sentido inverso); en modalidad virtual y semipresencial el plan a extinguir se mantiene hasta el curso 2026/2027 para quien tenga cinco o más módulos superados.",
+  "Módulos optativos en Aragón (art. 12.2 de la Orden ECD/843/2024, lista abierta y común a los ciclos de grado superior, módulo anual de 100 h en 2.º curso, 3 sesiones): A170 Comunicación profesional en Inglés (GS), A171 Segunda lengua profesional Francés y A172 Ofimática avanzada aplicada al sector profesional, renombrados por el Decreto 107/2025 como AOP1004, AOP1002 y AOP1003 (dato dado por verificado por otro agente), o módulos de diseño propio del centro. Art. 13 (convalidaciones): AOP1004 con certificado B2 de inglés o con los módulos A081/A082 del plan a extinguir; AOP1002 con certificado B1 de francés; art. 13.4: un optativo superado sirve en cualquier otro ciclo de GS o de GM si el módulo es común a ambos.",
+  "Cambio de códigos UC→ECP (RD 532/2025 anexo I): todas las UC vigentes del título mantienen su número y solo cambia el prefijo (ECP1248_3, ECP1249_3, ECP1250_3, ECP1251_3, ECP1252_3, ECP1253_3, ECP0793_3, ECP0795_3, ECP0352_2). Las tablas V A)/V B) del RD 1685/2011 siguen empleando el prefijo UC.",
+  "Efectos de titulaciones equivalentes (DA 3.ª del RD 1685/2011): el título LOGSE de Técnico Superior en Asesoría de Imagen Personal (RD 627/1995) tiene los mismos efectos profesionales y académicos que este título. La DA 3.ª.2 (la formación del módulo FOL, si tiene al menos 45 h lectivas, capacita para funciones de nivel básico de prevención) se entiende hecha, tras el RD 500/2024, al módulo 1709. A diferencia del RD 1577/2011, este RD no equipara ningún título de Técnico Especialista de la Ley 14/1970.",
+  "Exención del periodo de formación en empresa: el nuevo art. 15.7 remite al art. 131 del RD 659/2023; a diferencia de los ciclos de Sanidad (art. 15.8), este ciclo NO está excluido de la exención por la norma estatal. Sobre Aragón, ver la Orden ECD/843/2024 art. 14 y el Decreto 91/2024 (no releídos).",
+  "Aragón, convalidaciones entre IPE y FOL/EIE según el Anexo VIII del Decreto 91/2024 modificado por la Resolución de 3/12/2025 (recogido por research/verificacion-2026-09.md y no releído aquí): 1709 convalida FOL (LOE de GM y GS y LOGSE de GM; no FOL LOGSE de GS); 1710 NO convalida EIE (LOE ni LOGSE). Las filas de FOL/EIE de este JSON reproducen el RD 1085/2020 y la DA 6.ª; en Aragón prevalece esa restricción.",
+  "Espacios: el RD 1685/2011 (anexo II), la Orden EFD/659/2024 (anexo XLI) y el anexo XXXIII de la Orden ECD/843/2024 coinciden en aula polivalente y aula técnica de asesoría de imagen (a diferencia de IMP303, donde el BOA no recoge el aula técnica de peluquería).",
+  "Profesorado: los anexos III A)/B)/C) originales del RD 1685/2011 fueron sustituidos por el nuevo anexo III (= anexo XLIV del RD 500/2024, art. octavo.Cuarenta y tres); no se ha revisado su contenido.",
+  "Familia Imagen Personal en el catálogo de Aragón: FPB108, IMP202, IMP203, IMP301, IMP302, IMP303 e IMP304 (research/catalogo-aragon.json); con este fichero están investigados los siete. La ficha de familia de todofp.es incluye además Caracterización y Maquillaje Profesional (RD 553/2012), que no está en el catálogo de Aragón y no tiene relación con IMP301 en el RD 1085/2020."
+ ],
+ "no_verificado": [
+  "Datos dados por verificados por otros agentes y NO comprobados de nuevo aquí: Orden ECD/843/2024 como currículo vigente de Aragón (BOA 148, 31/07/2024, csv BOA20240731004, https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf) y que su corrección de errores de 26/02/2025 solo afecta a los anexos XXXVI, XL, XXIV y LXXI; la existencia de la Orden EFD/659/2024 como currículo del Ministerio; el renombrado de optativos por el Decreto 107/2025 (A170→AOP1004, A171→AOP1002, A172→AOP1003). Sí se han leído aquí los dos textos para extraer el anexo de este ciclo (XXXIII y XLI).",
+  "El RD 1685/2011 no tiene texto consolidado en el BOE; se ha trabajado con el texto original (XML del BOE) más las modificaciones de RD 500/2024 y el análisis de referencias posteriores del BOE. No hay versión consolidada que confirme que los anexos V A)/V B) y el art. 6 siguen tal cual (se deduce de que el RD 500/2024 no los cita para este título: artículo tercero). https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-20273",
+  "El RD 1085/2020 consolidado (07/04/2026) se ha leído en texto extraído del HTML/XML del BOE; las cinco filas del anexo II para este título se han contrastado con el anexo IV original del RD 1685/2011, pero no visualmente con el PDF del BOE. No se ha comprobado que el RD 262/2026 u otras normas posteriores alteren esas tablas (según research/verificacion-2026-09.md solo añade el apartado 7 bis del art. 3, sobre Lengua de Signos). https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+  "No se ha reabierto el Decreto 91/2024 (ni su consolidado v5 de 09/01/2026) ni la Resolución de 3/12/2025 y su corrección de 16/01/2026 (https://educa.aragon.es/-/formacion-profesional/legislacion/normativa-autonomica): las reglas sobre FOL→1709 y EIE↔1710 en Aragón se citan de research/verificacion-2026-09.md.",
+  "No se ha localizado en Aragón una regla expresa para el alumnado del plan LOE de este ciclo que haya superado los módulos propios A081/A082 en relación con 0179 Inglés profesional (GS): la DT 2.ª de la Orden ECD/843/2024 solo cita el antiguo 0179 Inglés, que este ciclo no tenía; el art. 13.1 solo los vincula con el optativo AOP1004. https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+  "El anexo I de la Orden de 20 de noviembre de 2013 (duración de cada módulo, en PDF) no se ha leído: las horas y los cursos del plan LOE proceden de la Resolución de 8 de enero de 2014 (sus totales suman 2000 h y coinciden con la relación de módulos del art. 10 de la orden). El curso del Proyecto 1190 no figura en la resolución (se asigna 2.º por deducción). https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&PIECE=BOLE&DOCS=1-60&DOCR=31&SEC=BOA_SUMARIO&RNG=200&SEPARADOR=&PUBL=20140130",
+  "La NOTA del anexo V A) (convalidación de 1181 con todas las UC acreditadas) remite al RD 1224/2009, que el art. 15.5 del RD 500/2024 califica de derogado; no se ha comprobado qué norma lo sustituye ni si el procedimiento actual exige algún requisito adicional para esa convalidación (el RD 659/2023, art. 128, regula la convalidación por estándares de competencia). https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+  "No se ha comprobado el RD 565/2024 (BOE-A-2024-12502; modifica el RD 500/2024 añadiendo una DA 8.ª, según research/verificacion-2026-09.md) ni el RD 636/2026 ni las Órdenes EFD/206/2026 y EFD/374/2026 (actualizan ECP del RD 532/2025) en cuanto a las UC de este título. https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12502",
+  "No se ha verificado el contenido de la Resolución de 27 de junio de 2025 (BOE-A-2025-14430, repertorio de optativos del MEFPD) ni qué optativos concretos se autorizan para este ciclo, ni la lista de optativos autorizados a cada centro en Aragón. https://www.boe.es/boe/dias/2025/07/12/pdfs/BOE-A-2025-14430.pdf",
+  "No se ha revisado el nuevo anexo III de profesorado (anexo XLIV del RD 500/2024) ni los anexos III A)/B)/C) originales del RD 1685/2011 en cuanto a especialidades ni equipamientos. https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+  "No se han comprobado los certificados de profesionalidad asociados a IMP395_3, IMP249_3 e IMP397_3 ni su posible efecto en la acreditación de estándares, ni si el RD 209/2025 (grados A, B y C de FP) afecta a las convalidaciones de este título. https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24101",
+  "La comprobación de qué otros títulos LOE comparten módulos con este ciclo se ha hecho contra la API de centros docentes de Aragón (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=IMP301), research/catalogo-aragon.json y el texto del RD 1085/2020; no se han comparado los anexos I de los RD de otras familias que pudieran tener módulos homónimos con otro código (p. ej. protocolo o comunicación en Hostelería y Turismo, Comercio y Administración: el anexo III del RD 1085/2020 solo relaciona 0661/0172 entre otros títulos).",
+  "No se ha verificado si existe resolución de Aragón posterior a la Orden ECD/843/2024 que autorice oferta nocturna o a distancia de IMP301 (la API solo devuelve horario diurno). La ficha de todofp.es no publica tablas de convalidación. https://www.todofp.es/que-estudiar/familias-profesionales/imagen-personal/asesoria-imagen-personal-corporativa.html",
+  "Currículo básico de los módulos nuevos (50/50/50/30/30 h de 0179, 1709, 1710, 1665, 1708) tomado de research/imp303.json (RD 659/2023, anexos V, VII, VIII y X); no releído. https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889"
+ ]
+}
