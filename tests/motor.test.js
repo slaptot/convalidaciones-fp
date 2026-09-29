@@ -358,3 +358,17 @@ assert.equal(est('imp301', [{ tipo: 'modulo_loe', codigo: '1071', nombre: 'x', t
 ['fpb_peluqueria_estetica', 'estetica', 'peluqueria', 'imp301', 'imp302', 'imp303', 'termalismo']
   .forEach((c) => assert.ok(CICLOS[c] && !CICLOS[c].ciclo.parcial, c));
 console.log('OK: Imagen Personal completa (7 ciclos)');
+
+// DAM y DAW: cinco módulos idénticos, cotejados por las dos investigaciones
+['ifc302', 'ifc303'].forEach((c) => require(`../data/ciclos/${c}.js`));
+const comunes = ['0483', '0484', '0485', '0373', '0487'];
+r = est('ifc303', comunes.map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS DAM', docs: [] })));
+comunes.forEach((m) => assert.equal(r[m], 'superado', m));
+r = est('ifc302', comunes.map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS DAW', docs: [] })));
+comunes.forEach((m) => assert.equal(r[m], 'superado', m));
+// Y el ciclo completo de ASIR convalida 0483 y 0484 en ambos
+['ifc302', 'ifc303'].forEach((c) => {
+  const x = est(c, [{ tipo: 'titulo', ciclo: 'ifc301', titulo: 'TS Administración de Sistemas Informáticos en Red', docs: ['cert_academica'] }]);
+  assert.ok(x['0483'] && x['0484'], c);
+});
+console.log('OK: DAM y DAW');
