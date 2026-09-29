@@ -228,3 +228,17 @@ r = est('peluqueria', [], 'loe');
 assert.ok('0851' in r && '0852' in r && '0853' in r);
 assert.equal(est('peluqueria', [{ tipo: 'experiencia', meses: 12, relacionada: true, docs: [] }], 'loe')['0853'], 'exento');
 console.log('OK: Peluquería y Cosmética Capilar');
+
+// ---- Grado Básico: Peluquería y Estética (FPB108) ----
+require('../data/ciclos/fpb_peluqueria_estetica.js');
+// Ámbitos: el código antiguo convalida el nuevo (DA 3ª del RD 498/2024)
+assert.equal(est('fpb_peluqueria_estetica', [{ tipo: 'modulo_loe', codigo: '3009', nombre: 'Ciencias aplicadas I', docs: ['cert_academica'] }])['3163'], 'convalidable');
+assert.equal(est('fpb_peluqueria_estetica', [{ tipo: 'modulo_loe', codigo: '3011', nombre: 'Comunicación y sociedad I', docs: ['cert_academica'] }])['3161'], 'convalidable');
+// 3005 es común a los títulos de grado básico: traslado de nota
+assert.equal(est('fpb_peluqueria_estetica', [{ tipo: 'modulo_loe', codigo: '3005', nombre: 'Atención al cliente', docs: [] }])['3005'], 'superado');
+// Formación en empresa: solo exención
+assert.equal(est('fpb_peluqueria_estetica', [{ tipo: 'experiencia', meses: 12, relacionada: true, docs: [] }])['FE'], 'exento');
+// Los tres planes cuadran y el ciclo no es del catálogo
+assert.ok(!CICLOS.fpb_peluqueria_estetica.ciclo.parcial);
+for (const amb of ['aragon', 'mefp', 'loe']) assert.ok(Object.keys(est('fpb_peluqueria_estetica', [], amb)).length > 10, amb);
+console.log('OK: Grado Básico Peluquería y Estética');

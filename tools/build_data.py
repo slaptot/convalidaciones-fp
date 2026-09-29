@@ -20,6 +20,10 @@ COMUNES = {
     "1708": "sostenibilidad",
     "0020": "primeros_auxilios",
     "TCAE-06": "rel_equipo", "TCAE-07": "fol_logse",
+    # Grado básico: ámbitos, IPE y módulos propios de Aragón
+    "3161": "ambito_comunicacion", "3162": "ambito_comunicacion",
+    "3163": "ambito_ciencias", "3164": "ambito_ciencias",
+    "3159": "ipe_gb", "3160": "proyecto", "A123": "prl_aragon",
     # Plan LOE a extinguir: FOL, EIE y FCT siguen siendo módulos del ciclo
     "0218": "fol_loe", "0229": "fol_loe", "0644": "fol_loe", "1648": "fol_loe",
     "0851": "fol_loe", "0852": "eie_loe",
@@ -195,6 +199,14 @@ build("estetica", "estetica.json", {
     "equivalencias": {"UC0345_1": ["UC2583_1"], "UC0356_2": ["UC0354_2"], "UC0357_2": ["UC2826_2"], "UC0359_2": ["UC2826_2"]},
 })
 
+build("fpb_peluqueria_estetica", "fpb-peluqueria-estetica.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+    # RD 150/2022: reescribe las cualificaciones IMP022_1 e IMP118_1
+    "equivalencias": {"UC0345_1": ["UC2583_1"], "UC1224_1": ["UC1329_1"]},
+})
+
 build("peluqueria", "peluqueria.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -298,4 +310,4 @@ def build_catalogo(ya_cargados):
           f"{sum(len(c['modulos']) for c in ciclos.values())} módulos")
 
 
-build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203"])
+build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108"])
