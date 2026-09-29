@@ -23,7 +23,7 @@ Cada ciclo se puede analizar con tres planes: LO 3/2022 en Aragón, LO 3/2022 de
   - "Imprimir resolución": convalidación de módulos, con apartados separados para convalidación y traslado de nota.
   - "Imprimir exención": formación en empresa.
   - "Solicitudes": una hoja por módulo, con su documentación y el registro de entrada.
-  - "Listado provisional": estado por módulo, con el DNI parcialmente oculto.
+  - "Listado provisional": estado por módulo, con el documento enmascarado según el criterio de la AEPD (posiciones 4ª a 7ª) y alegaciones del art. 82 de la Ley 39/2015. Esta figura no está prevista en la normativa de convalidaciones: es práctica del centro, así que la AEPD solo ampara publicarla en tablón interior o en web de acceso restringido, nunca en web abierta. Ver `research/listado-provisional.md`.
   Las resoluciones llevan base legal, modo de impugnación y pie de notificación.
 - Los datos del membrete, la localidad, la directora o director y la fecha se rellenan en "Datos para la resolución de dirección".
 - En `ejemplos/` hay expedientes de muestra: ábrelos con "Abrir…".

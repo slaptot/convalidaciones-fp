@@ -388,10 +388,15 @@
   }
 
   // ---------- Listado provisional de solicitantes ----------
+  /* Enmascarado según la DA 7ª de la LO 3/2018 y el criterio de la AEPD (sorteo de 27/02/2019):
+     se muestran las posiciones 4ª a 7ª. DNI: ***4567**  ·  NIE: ****4567* */
   const dniParcial = (dni) => {
-    const d = (dni || '').trim();
-    if (d.length < 5) return d || '____________';
-    return d.slice(0, 2) + '*'.repeat(d.length - 4) + d.slice(-2);
+    const d = (dni || '').replace(/[\s-]/g, '').toUpperCase();
+    if (d.length < 8) return d || '____________';
+    const nie = /^[XYZ]/.test(d);
+    const desde = nie ? 4 : 3;
+    const visible = d.slice(desde, desde + 4);
+    return '*'.repeat(desde) + visible + '*'.repeat(Math.max(0, d.length - desde - 4));
   };
 
   function pintarListado(c, amb, filas) {
@@ -422,10 +427,12 @@
         <tbody>${cuerpo}</tbody>
       </table>
 
-      <p class="res-p res-recursos"><b>CARÁCTER PROVISIONAL.</b> Este listado no es una resolución. Las personas interesadas
-      podrán formular alegaciones ante la dirección del centro en el plazo de ____ días hábiles contados desde el día siguiente al
-      de su publicación. Transcurrido ese plazo se dictará la resolución, que se notificará individualmente y contra la que cabrá
-      el recurso que en ella se indique.</p>
+      <p class="res-p res-recursos"><b>CARÁCTER PROVISIONAL.</b> Este listado no es una resolución y su publicación no está
+      prevista en la normativa de convalidaciones: es una actuación interna de este centro, sin efectos de notificación. Las
+      personas interesadas podrán formular <b>alegaciones</b> ante la dirección del centro en el plazo de <b>diez días hábiles</b>
+      contados desde el día siguiente al de su publicación, de conformidad con el artículo 82 de la Ley 39/2015, de 1 de octubre.
+      El trámite es potestativo y no preclusivo. La resolución se notificará individualmente a cada persona interesada y contra
+      ella cabrá el recurso que en la propia resolución se indique.</p>
 
       ${firma('LA/EL DIRECTORA/DIRECTOR DEL CENTRO')}`;
   }
