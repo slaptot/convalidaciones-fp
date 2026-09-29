@@ -28,7 +28,7 @@
   let state = cargar() || nuevo();
 
   function nuevo() {
-    return { centro: '', membrete: '', localidad: '', director: '', fecha_res: '', titularidad: 'publico', provincia: 'Zaragoza', adscrito: '', alumno: '', dni: '', curso: '', ciclo: Object.keys(CICLOS)[0], ambito: 'aragon', aportaciones: [], notas: '' };
+    return { centro: '', membrete: '', localidad: '', director: '', fecha_res: '', titularidad: 'publico', provincia: 'Zaragoza', adscrito: '', grado: '', familia: '', alumno: '', dni: '', curso: '', ciclo: Object.keys(CICLOS)[0], ambito: 'aragon', aportaciones: [], notas: '' };
   }
   function cargar() {
     try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; }
@@ -43,13 +43,46 @@
   // Un módulo puede llamarse distinto según el plan de estudios
   const nombreModulo = (m, amb) => (m.nombres && m.nombres[amb]) || m.nombre;
 
+  // ---------- Catálogo de ciclos: grado y familia ----------
+  const GRADOS = { basico: 'Grado básico', medio: 'Grado medio', superior: 'Grado superior' };
+
+  const familiasDisponibles = (grado) => [...new Set(Object.values(CICLOS)
+    .filter((c) => !grado || c.ciclo.grado === grado)
+    .map((c) => c.ciclo.familia))].sort((a, b) => a.localeCompare(b, 'es'));
+
+  const ciclosFiltrados = () => Object.entries(CICLOS)
+    .filter(([, c]) => (!state.grado || c.ciclo.grado === state.grado)
+      && (!state.familia || c.ciclo.familia === state.familia))
+    .sort((a, b) => a[1].ciclo.nombre.localeCompare(b[1].ciclo.nombre, 'es'));
+
+  function pintarFiltros() {
+    const gradosConCiclos = [...new Set(Object.values(CICLOS).map((c) => c.ciclo.grado))];
+    $('#grado').innerHTML = `<option value="">Todos</option>` + Object.entries(GRADOS)
+      .filter(([k]) => gradosConCiclos.includes(k))
+      .map(([k, v]) => `<option value="${k}">${v}</option>`).join('');
+    $('#grado').value = state.grado || '';
+
+    const fams = familiasDisponibles(state.grado);
+    if (state.familia && !fams.includes(state.familia)) state.familia = '';
+    $('#familia').innerHTML = `<option value="">Todas</option>`
+      + fams.map((f) => `<option value="${h(f)}">${h(f)}</option>`).join('');
+    $('#familia').value = state.familia || '';
+
+    const lista = ciclosFiltrados();
+    $('#ciclo').innerHTML = lista
+      .map(([id, c]) => `<option value="${id}">${h(c.ciclo.nombre.replace(/\s*\(LOGSE\)$/, ''))} · ${h(codigoCiclo(c))}${c.ciclo.plan === 'LOGSE' ? ' (LOGSE)' : ''}</option>`)
+      .join('');
+    if (!lista.some(([id]) => id === state.ciclo) && lista.length) state.ciclo = lista[0][0];
+    $('#ciclo').value = state.ciclo;
+
+    const aviso = $('#aviso-catalogo');
+    aviso.hidden = lista.length > 0;
+    aviso.textContent = lista.length ? '' : 'Todavía no hay ciclos cargados con ese grado y esa familia.';
+  }
+
   // ---------- Formulario de expediente ----------
   function pintarCabecera() {
-    const sel = $('#ciclo');
-    sel.innerHTML = Object.entries(CICLOS)
-      .map(([id, c]) => `<option value="${id}">${h(c.ciclo.nombre.replace(/\s*\(LOGSE\)$/, ''))} (${h(c.ciclo.grado)}${c.ciclo.plan === 'LOGSE' ? ', LOGSE' : ''})</option>`)
-      .join('');
-    sel.value = state.ciclo;
+    pintarFiltros();
     $('#centro').value = state.centro || '';
     $('#membrete').value = state.membrete || '';
     $('#localidad').value = state.localidad || '';
@@ -752,6 +785,14 @@
         state[id] = e.target.value;
         $('#lbl-adscrito').hidden = state.titularidad !== 'privado';
         guardar(); pintarResultados();
+      });
+    }
+    for (const id of ['grado', 'familia']) {
+      $('#' + id).addEventListener('change', (e) => {
+        state[id] = e.target.value;
+        pintarFiltros();
+        pintarFormAlta();
+        refrescar();
       });
     }
     $('#ciclo').addEventListener('change', (e) => {
