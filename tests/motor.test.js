@@ -253,3 +253,20 @@ assert.ok(f.avisos.some((a) => a.includes('CATEDU')), 'debe avisar del origen de
 // Los ciclos con normativa propia no se tocan
 assert.ok(!CICLOS.apsd.ciclo.parcial && CICLOS.apsd.uc_a_modulos[0].fuente.includes('Anexo V A'));
 console.log('OK: catálogo con competencias');
+
+// ---- Ciclos de Sanidad ----
+['san202', 'san203', 'san301', 'san302', 'san303'].forEach((c) => require(`../data/ciclos/${c}.js`));
+// Emergencias Sanitarias: ciclo completo -> 0020 en APSD (ya estaba) y su propio plan
+assert.ok(Object.keys(est('san203', [])).length > 15);
+// Documentación Sanitaria: excluida de la exención en Aragón (art. 49.2 Decreto 91/2024)
+f = full('san303', [{ tipo: 'experiencia', meses: 24, relacionada: true, docs: ['vida_laboral', 'contrato_empresa'] }]);
+assert.ok(!f.filas.some((x) => x.mejor && x.mejor.estado === 'exento'), 'no debe conceder exención');
+assert.ok(f.avisos.some((a) => a.includes('49.2')), 'debe explicar por qué');
+// Farmacia sí admite exención (es grado medio)
+assert.equal(est('san202', [{ tipo: 'experiencia', meses: 12, relacionada: true, docs: [] }])['FE'], 'exento');
+// Dietética es LOGSE: FCT propia, sin pseudo-módulo
+r = est('san302', [{ tipo: 'experiencia', meses: 12, relacionada: true, docs: [] }]);
+assert.ok(!('FE' in r) && r['D010'] === 'exento');
+// Anatomía Patológica: módulos idénticos con Laboratorio Clínico
+assert.equal(est('san301', [{ tipo: 'modulo_loe', codigo: '1367', nombre: 'Gestión de muestras biológicas', titulo: 'TS Laboratorio Clínico', docs: [] }])['1367'], 'superado');
+console.log('OK: ciclos de Sanidad');

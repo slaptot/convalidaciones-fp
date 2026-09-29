@@ -199,6 +199,37 @@ build("estetica", "estetica.json", {
     "equivalencias": {"UC0345_1": ["UC2583_1"], "UC0356_2": ["UC0354_2"], "UC0357_2": ["UC2826_2"], "UC0359_2": ["UC2826_2"]},
 })
 
+build("san202", "san202.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+})
+
+build("san203", "san203.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+})
+
+build("san303", "san303.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+})
+
+build("san302", "san302.json", {
+    "plan": "LOGSE",
+    "loe": lambda m: (None, None),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+})
+
+build("san301", "san301.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+})
+
 build("fpb_peluqueria_estetica", "fpb-peluqueria-estetica.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -310,4 +341,5 @@ def build_catalogo(ya_cargados):
           f"{sum(len(c['modulos']) for c in ciclos.values())} módulos")
 
 
-build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108"])
+build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108",
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303"])

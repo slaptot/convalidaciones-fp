@@ -278,6 +278,7 @@
         calificacion: 'exento', fundamento: 'RD 659/2023 arts. 131 y 161.1; Aragón Decreto 91/2024 arts. 49-50',
         aviso: 'Solo régimen general (no intensivo). Experiencia de los últimos 5 años. En Aragón: solicitar hasta 2 meses antes del periodo en empresa, en cada curso.',
         evaluar(ctx) {
+          if (ctx.normativa.exencion_excluida.includes(ctx.ciclo.ciclo.codigo)) return;
           const e = ctx.exp.filter((a) => a.relacionada);
           const meses = e.reduce((s, a) => s + (a.meses || 0), 0);
           if (meses >= 12) return { motivo: `${meses} meses de experiencia relacionada (mínimo 12) → exención total posible`, aportes: e };
@@ -286,8 +287,15 @@
       },
     ],
 
+    /* Ciclos excluidos de la exención de la formación en empresa en Aragón.
+       Art. 49.2 del Decreto 91/2024 (BOA 109 de 06/06/2024): nueve títulos de grado
+       superior de Sanidad. De ellos, estos son los que se imparten en Aragón. */
+    exencion_excluida: ['SAN301', 'SAN303', 'SAN304', 'SAN305', 'SAN306', 'SAN308', 'SAN309'],
+
     // Avisos que dependen de lo aportado, no de un módulo concreto
     avisos_generales: [
+      (ctx) => ctx.exp.length && ctx.normativa.exencion_excluida.includes(ctx.ciclo.ciclo.codigo)
+        ? 'En Aragón no cabe exención de la formación en empresa en este ciclo: es uno de los nueve de grado superior de Sanidad excluidos por el art. 49.2 del Decreto 91/2024.' : null,
       (ctx) => ctx.loe.some((a) => a.codigo === '1664') && ctx.ciclo.ciclo.grado === 'superior'
         ? '1664 Digitalización (grado medio) no convalida 1665 (grado superior): RD 659/2023 art. 126.4.d y Aragón Anexo VIII ap. 5.' : null,
       (ctx) => ctx.loe.some((a) => a.codigo === '1710')
