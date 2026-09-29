@@ -304,3 +304,10 @@ assert.equal(r['0745'], 'superado'); assert.equal(r['0747'], 'superado');
 r = est('termalismo', ['0745', '0747'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Estética Integral', docs: [] })));
 assert.equal(r['0745'], 'superado'); assert.equal(r['0747'], 'superado');
 console.log('OK: Estética Integral y Bienestar');
+
+// Integración Social: sus módulos 0017 y 0343 convalidan en APSD (ya cargado por el otro lado)
+require('../data/ciclos/ssc303.js');
+r = est('apsd', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habilidades sociales', titulo: 'TS Integración Social', docs: [] },
+                 { tipo: 'modulo_loe', codigo: '0343', nombre: 'Sistemas aumentativos y alternativos de comunicación', titulo: 'TS Integración Social', docs: [] }]);
+assert.equal(r['0211'], 'convalidable'); assert.equal(r['0214'], 'convalidable');
+console.log('OK: Integración Social');
