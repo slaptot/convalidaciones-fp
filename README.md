@@ -1,0 +1,40 @@
+# Convalidaciones FP
+
+Web local para analizar la documentación de solicitudes de convalidación de FP.
+Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
+
+| Ciclo | Código | Grado | Plan |
+|---|---|---|---|
+| Atención a Personas en Situación de Dependencia | SSC201 | Medio | LO 3/2022 |
+| Sistemas Microinformáticos y Redes | IFC201 | Medio | LO 3/2022 |
+| Estética y Belleza | IMP202 | Medio | LO 3/2022 |
+| Cuidados Auxiliares de Enfermería | SAN201 | Medio | LOGSE |
+| Termalismo y Bienestar | IMP304 | Superior | LO 3/2022 |
+
+## Uso
+
+- Abrir `index.html` en el navegador (funciona sin servidor), o bien `python3 -m http.server 8765`.
+- El expediente se guarda automáticamente en el navegador. "Guardar expediente" lo exporta a JSON y "Abrir…" lo recupera.
+- "Imprimir / PDF" genera el informe.
+- En `ejemplos/` hay expedientes de muestra: ábrelos con "Abrir…".
+
+## Estructura
+
+- `research/`: investigación normativa con fuentes (BOE, BOA, todofp, CATEDU). Es la fuente de verdad de los datos.
+  - `normativa-general.md`: reglas generales con cita de artículo y dudas abiertas.
+  - `verificacion-2026-09.md`: comprobación de vigencia a 20/09/2026 y correcciones aplicadas.
+  - `certificados.json`: MF/UF por certificado y régimen jurídico de la acreditación parcial acumulable.
+  - `aragon-anexos-2025-12.md`: anexos del Decreto 91/2024 sustituidos en 12/2025 (solo modelos; sin efecto en las reglas).
+  - `aragon-formacion-empresa-2025.md`: Resolución de 24/11/2025 (duración de la formación en empresa en ciclos de más de 2.000 h; no afecta a la exención).
+- `tools/build_data.py`: convierte `research/*.json` en `data/ciclos/*.js`. Hay que ejecutarlo tras editar la investigación.
+- `data/normativa.js`: reglas generales (IPE, inglés, formación en empresa, universidad…), documentos y calificaciones.
+- `data/certificados.js`: catálogo de certificados de profesionalidad con sus módulos formativos (MF) y unidades formativas (UF), y la UC que acredita cada MF.
+- `js/engine.js`: motor de reglas.
+- `js/app.js`: interfaz.
+- `tests/motor.test.js`: pruebas del motor (`node tests/motor.test.js`).
+
+## Añadir un ciclo
+
+1. Crear `research/<ciclo>.json` con la misma estructura que `apsd.json`.
+2. Añadir una llamada `build(...)` en `tools/build_data.py`.
+3. Incluir el `<script>` en `index.html`.

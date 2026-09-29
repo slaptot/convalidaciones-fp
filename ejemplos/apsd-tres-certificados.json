@@ -1,0 +1,21 @@
+{
+ "alumno": "Ejemplo · tres certificados de profesionalidad + experiencia",
+ "dni": "",
+ "curso": "2026-2027",
+ "ciclo": "apsd",
+ "ambito": "aragon",
+ "notas": "Certificados completos SSCS0208 (instituciones), SSCS0108 (domicilio) y SSCG0111 (teleasistencia), más 24 meses de experiencia relacionada en los últimos 5 años. Resultado: 7 módulos convalidados (1132 h) y exención total de la formación en empresa.",
+ "aportaciones": [
+  {"tipo": "mf", "codigo": "MF1016_2", "docs": ["cert_profesionalidad"]},
+  {"tipo": "mf", "codigo": "MF1017_2", "docs": ["cert_profesionalidad"]},
+  {"tipo": "mf", "codigo": "MF1018_2", "docs": ["cert_profesionalidad"]},
+  {"tipo": "mf", "codigo": "MF1019_2", "docs": ["cert_profesionalidad"]},
+  {"tipo": "mf", "codigo": "MF0249_2", "docs": ["cert_profesionalidad"]},
+  {"tipo": "mf", "codigo": "MF0250_2", "docs": ["cert_profesionalidad"]},
+  {"tipo": "mf", "codigo": "MF0251_2", "docs": ["cert_profesionalidad"]},
+  {"tipo": "mf", "codigo": "MF1423_2", "docs": ["cert_profesionalidad"]},
+  {"tipo": "mf", "codigo": "MF1424_2", "docs": ["cert_profesionalidad"]},
+  {"tipo": "mf", "codigo": "MF1425_2", "docs": ["cert_profesionalidad"]},
+  {"tipo": "experiencia", "meses": 24, "relacionada": true, "docs": ["vida_laboral", "contrato_empresa"]}
+ ]
+}

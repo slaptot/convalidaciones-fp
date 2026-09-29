@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Convalidaciones FP</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>Convalidaciones FP</h1>
+      <p class="lead">Análisis de documentación por reglas normativas</p>
+    </div>
+    <nav class="acciones">
+      <button id="btn-nuevo" class="sec">Nuevo</button>
+      <button id="btn-abrir" class="sec">Abrir…</button>
+      <button id="btn-guardar" class="sec">Guardar expediente</button>
+      <button id="btn-imprimir">Imprimir / PDF</button>
+      <a class="enlace-ext" href="https://centrosdocentes.catedu.es/awc/" target="_blank" rel="noopener">Herramienta CATEDU ↗</a>
+      <input type="file" id="file" accept="application/json" hidden>
+    </nav>
+  </header>
+
+  <main class="grid">
+    <section class="panel entrada">
+      <h2>1 · Expediente</h2>
+      <div class="fila">
+        <label>Alumno/a <input id="alumno" autocomplete="off"></label>
+        <label>DNI/NIE <input id="dni" autocomplete="off"></label>
+      </div>
+      <div class="fila">
+        <label>Ciclo de destino <select id="ciclo"></select></label>
+        <label>Curso académico <input id="curso" placeholder="2026-2027"></label>
+      </div>
+      <label>Plan de estudios (horas y módulos)
+        <select id="ambito"><option value="aragon">Aragón (Órdenes ECD/842 y 843/2024)</option><option value="mefp">Ministerio (Órdenes EFD/657 y 659/2024)</option></select></label>
+      <label>Observaciones <textarea id="notas" rows="2"></textarea></label>
+
+      <h2>2 · Lo que aporta</h2>
+      <form id="form-alta">
+        <label>Tipo <select id="tipo" name="tipo"></select></label>
+        <div id="campos"></div>
+        <button type="submit">Añadir</button>
+      </form>
+      <ul id="lista-aportaciones" class="aportaciones"></ul>
+    </section>
+
+    <section class="panel salida">
+      <div id="print-head" class="print-only"></div>
+      <h2>3 · Resultado por módulo</h2>
+      <div id="resumen" class="kpis"></div>
+      <div id="avisos"></div>
+      <div class="tabla-wrap">
+        <table id="tabla-resultados">
+          <thead><tr><th>Código</th><th>Módulo</th><th>Estado</th><th>Motivo, órgano y fundamento</th><th>Documentación que falta</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <h3>Herramientas y enlaces</h3>
+      <ul class="fuentes">
+        <li><a href="https://centrosdocentes.catedu.es/awc/" target="_blank" rel="noopener">Competencias y convalidaciones FP (CATEDU, Gobierno de Aragón)</a> — cruce oficial entre módulos y estándares de competencia</li>
+        <li><a href="https://todofp.es/convalidaciones-equivalencias-homologaciones/convalidaciones.html" target="_blank" rel="noopener">Convalidaciones en todofp.es</a> — criterios y modelos del Ministerio</li>
+        <li><a href="https://educa.aragon.es/-/formacion-profesional/legislacion-autonomica/convalidaciones" target="_blank" rel="noopener">Convalidaciones en educa.aragon.es</a> — plazos, modelos e instrucciones de Aragón</li>
+        <li><a href="https://educa.aragon.es/-/formacion-profesional/legislacion-autonomica/convalidaciones" target="_blank" rel="noopener">Decreto 91/2024 de Aragón</a> — usar el consolidado v5; el Anexo VIII fue modificado por la Resolución de 3/12/2025 (BOA 16/12/2025) y su corrección (BOA 16/01/2026)</li>
+      </ul>
+      <h3>Normativa del ciclo</h3>
+      <ul id="fuentes" class="fuentes"></ul>
+      <div id="bloque-nv">
+        <h3>Pendiente de verificar</h3>
+        <ul id="no-verificado" class="nv"></ul>
+      </div>
+      <p class="disclaimer">Herramienta de apoyo. El resultado es orientativo; la resolución corresponde al órgano competente según la normativa vigente.</p>
+    </section>
+  </main>
+
+  <script src="data/normativa.js"></script>
+  <script src="data/certificados.js"></script>
+  <script src="data/ciclos/apsd.js"></script>
+  <script src="data/ciclos/termalismo.js"></script>
+  <script src="data/ciclos/tcae.js"></script>
+  <script src="data/ciclos/smr.js"></script>
+  <script src="data/ciclos/estetica.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

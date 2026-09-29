@@ -1,0 +1,500 @@
+// Generado por tools/build_data.py a partir de research/tcae.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["tcae"] = {
+ "ciclo": {
+  "codigo": "SAN201",
+  "nombre": "Técnico en Cuidados Auxiliares de Enfermería (LOGSE)",
+  "grado": "medio",
+  "familia": "Sanidad",
+  "normas": [
+   {
+    "ref": "RD 546/1995, de 7 de abril",
+    "boe": "BOE-A-1995-13533",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1995-13533",
+    "nota": "Título y enseñanzas mínimas (BOE 5/6/1995), dictado conforme a la LO 1/1990 (LOGSE). Duración: 1400 h. Cinco módulos asociados a UC, un transversal (Relaciones en el equipo de trabajo), FCT y FOL. En el BOE no consta ninguna modificación ni derogación posterior. Apartado 6.2: módulos convalidables con la FP ocupacional. Apartado 6.3: módulos con correspondencia con la práctica laboral. Ninguno de los dos se ha desarrollado con tablas vigentes."
+   },
+   {
+    "ref": "RD 558/1995, de 7 de abril",
+    "boe": "BOE-A-1995-13592",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1995-13592",
+    "nota": "Currículo del ámbito del MEC (hoy MEFPD), BOE 6/6/1995. Anexo I: horas de cada módulo (65+350+155+130+130+65+65+440 = 1400). Se aplica de forma supletoria a las CCAA (DF 1ª)."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Anexo I: convalidaciones LOGSE→LOGSE (FOL, Relaciones en el entorno de trabajo → Relaciones en el equipo de trabajo, cuadro de Sanidad, Atención Sociosanitaria y Documentación Sanitaria → TCAE). Anexo II: TCAE como formación aportada hacia títulos LOE. Art. 9.c: un título o módulo LOE aportado a un ciclo LOGSE lo resuelve el Ministerio. DT 2ª: FOL LOE → FOL LOGSE de grado medio lo resuelve el centro. Deroga la Orden de 20/12/2001, que contenía las convalidaciones LOGSE anteriores."
+   },
+   {
+    "ref": "Resolución de 13 de junio de 2025 (Aragón)",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/5216280/BRSCGI.pdf/163a88b3-898c-14b9-21ba-67937c7d52fe?t=1750920419961",
+    "nota": "BOA nº 121, de 26/06/2025 (csv BOA20250626027). Organización y distribución horaria del ciclo LOGSE en Aragón desde el curso 2025/26, en turno diurno o vespertino (anexo I) y nocturno (anexo II). Asigna el código SAN201 y numera los módulos del 001 al 008. Sustituye a las Resoluciones de 31/03/2003 (diurno) y 23/03/2004 (nocturno). En Aragón no hay una orden de currículo propia: el currículo es el del RD 558/1995 con esta distribución horaria."
+   },
+   {
+    "ref": "Decreto 91/2024, de 5 de junio (Aragón)",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/5929931/Decreto+91_2024+Consolidado+con+Decreto+107_2025+actualizado+14-10-2025.pdf/4b22b836-0390-1e9b-baf6-d55a27bc6532",
+    "nota": "Ordenación de la FP de Grado D y E en Aragón. Art. 48: convalidaciones según el RD 659/2023, los RD de título y el RD 1085/2020. Art. 49: exención de la FCT (TCAE no está entre los ciclos excluidos del art. 49.2, que son solo los de grado superior de Sanidad). DT 5ª: los ciclos LOGSE se evalúan según este Decreto. Anexo XXV: certificado de PRL de nivel básico para ciclos LOGSE."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Arts. 126-131 (convalidación y exención). Art. 127.b.4º: LOE aportado a un ciclo LOGSE → Ministerio. Arts. 131 y 161: exención de la formación en empresa con 1 año de experiencia."
+   },
+   {
+    "ref": "RD 1790/2011, de 16 de diciembre (SAN669_2)",
+    "boe": null,
+    "url": "https://incual.educacion.gob.es/documents/20195/94271/SAN669_2+-+Q_Documento+publicado/12e545b5-47c8-4651-a92f-32ced7cde37f",
+    "nota": "Crea la cualificación SAN669_2 Cuidados auxiliares sanitarios (UC2254_2 a UC2257_2), cuya competencia general reproduce la del título TCAE. Ninguna norma la vincula con los módulos LOGSE del título a efectos de convalidación. El identificador BOE-A no se ha comprobado."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Convierte las UC de SAN669_2 en ECP con el mismo número (UC2254_2→ECP2254_2, etc.)."
+   }
+  ],
+  "plan": "LOGSE"
+ },
+ "modulos": [
+  {
+   "codigo": "TCAE-01",
+   "nombre": "Técnicas básicas de enfermería",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 367,
+    "mefp": 350
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "TCAE-02",
+   "nombre": "Higiene del medio hospitalario y limpieza de material",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 155
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "TCAE-03",
+   "nombre": "Promoción de la salud y apoyo psicológico al paciente",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 130
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "TCAE-04",
+   "nombre": "Técnicas de ayuda odontológica/estomatológica",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 130
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "TCAE-05",
+   "nombre": "Operaciones administrativas y documentación sanitaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 65
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "TCAE-06",
+   "nombre": "Relaciones en el equipo de trabajo",
+   "tipo": "comun",
+   "comun": "rel_equipo",
+   "horas": {
+    "aragon": 67,
+    "mefp": 65
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "TCAE-07",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "fol_logse",
+   "horas": {
+    "aragon": 67,
+    "mefp": 65
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "TCAE-08",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": 400,
+    "mefp": 440
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOGSE de grado superior",
+   "origen_modulo": [
+    "Formación y orientación laboral"
+   ],
+   "destino_modulos": [
+    "TCAE-07"
+   ],
+   "fuente": "RD 1085/2020 anexo I, cuadro 'Cualquier familia' (FOL GS → FOL GS/GM)"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOGSE de grado medio",
+   "origen_modulo": [
+    "Formación y orientación laboral"
+   ],
+   "destino_modulos": [
+    "TCAE-07"
+   ],
+   "fuente": "RD 1085/2020 anexo I, cuadro 'Cualquier familia' (FOL GM → FOL GM)"
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOGSE de grado medio",
+   "origen_modulo": [
+    "Relaciones en el entorno de trabajo"
+   ],
+   "destino_modulos": [
+    "TCAE-06"
+   ],
+   "fuente": "RD 1085/2020 anexo I, cuadro 'Cualquier familia' (Relaciones en el entorno de trabajo GM → Relaciones en el equipo de trabajo GM)"
+  },
+  {
+   "origen_titulo": "Cualquier título LOE (LO 2/2006) de grado medio o superior",
+   "origen_modulo": [
+    "Formación y orientación laboral (módulo FOL de cualquier título LOE, sea cual sea su código)"
+   ],
+   "destino_modulos": [
+    "TCAE-07"
+   ],
+   "fuente": "RD 1085/2020 DT 2ª.1: mientras se imparta el ciclo LOGSE, la resuelve la dirección del centro"
+  },
+  {
+   "origen_titulo": "Técnico en Atención Sociosanitaria (LOGSE, RD 496/2003)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-02",
+    "TCAE-03",
+    "TCAE-01"
+   ],
+   "fuente": "RD 1085/2020 anexo I, cuadro de Sanidad (ciclo completo → Higiene del medio hospitalario y limpieza de material, Promoción de la salud y apoyo psicológico al paciente y Técnicas básicas de enfermería)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Documentación Sanitaria (LOGSE, RD 543/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citología (LOGSE, RD 538/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Audioprótesis (LOGSE, RD 62/2001)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Dietética (LOGSE, RD 536/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Ortoprotésica (LOGSE, RD 542/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Radioterapia (LOGSE, RD 544/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-04"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico en Farmacia (LOGSE, RD 547/1995)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "TCAE-03"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Audioprótesis (LOGSE, RD 62/2001)",
+   "origen_modulo": [
+    "Administración y gestión de un gabinete audioprotésico"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Ortoprotésica (LOGSE, RD 542/1995)",
+   "origen_modulo": [
+    "Administración y gestión de una unidad/gabinete de ortoprotésica"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995)",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de imagen para el diagnóstico"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Radioterapia (LOGSE, RD 544/1995)",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de radioterapia"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de higiene bucodental"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Dietética (LOGSE, RD 536/1995)",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de dietética"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citología (LOGSE, RD 538/1995)",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de anatomía patológica y citología"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995)",
+   "origen_modulo": [
+    "Organización, administración y gestión de una unidad/gabinete de prótesis dentales"
+   ],
+   "destino_modulos": [
+    "TCAE-05"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico en Farmacia (LOGSE, RD 547/1995)",
+   "origen_modulo": [
+    "Promoción de la salud y apoyo psicológico a las personas"
+   ],
+   "destino_modulos": [
+    "TCAE-03"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
+   "origen_modulo": [
+    "Exploración bucodental",
+    "Prevención bucodental (hacen falta los dos)"
+   ],
+   "destino_modulos": [
+    "TCAE-04"
+   ],
+   "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
+  }
+ ],
+ "convalidaciones_loe": [],
+ "uc_a_modulos": [],
+ "uc_descripciones": {
+  "UC2254_2": "Preparar los materiales de la consulta, unidad y servicio, y procesar la información sanitaria (SAN669_2, RD 1790/2011) [ECP2254_2]",
+  "UC2255_2": "Realizar actividades de acondicionamiento higiénico del paciente/usuario o de la paciente/usuaria y su entorno, así como del material e instrumental sanitario (SAN669_2) [ECP2255_2]",
+  "UC2256_2": "Aplicar cuidados auxiliares sanitarios especializados (SAN669_2) [ECP2256_2]",
+  "UC2257_2": "Prestar apoyo emocional al paciente/usuario o a la paciente/usuaria e intervenir en programas y actividades de educación para la salud (SAN669_2) [ECP2257_2]"
+ },
+ "uc_equivalencias": {},
+ "notas": [
+  "SITUACIÓN NORMATIVA (18/09/2026): sigue vigente solo el título LOGSE (RD 546/1995 y currículo RD 558/1995), de 1400 h. No se ha publicado en el BOE ningún título LOE ni LO 3/2022 que lo sustituya. El RD 499/2024 no menciona este título (búsqueda de 'Auxiliares de Enfermería', 'LOGSE' y '546/1995' en su texto consolidado: sin resultados), aunque educa.aragon.es lo enlaza en la ficha de SAN201.",
+  "TÍTULO NUEVO EN TRAMITACIÓN (va solo en notas, como se pidió): el MEFPD ha sometido a consulta pública previa el 'Proyecto de Real Decreto por el que se establece el título de FP de Grado Medio de Técnico en Cuidados de Enfermería y se fijan los aspectos básicos del currículo' (plazo del 12 al 25/06/2026; https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/consulta-publica-previa/abiertos/2026/prd-tecnicos-cuidados-enfermeria.html). Según la prensa (Redacción Médica, 12/06 y 20/07/2026): cambia la denominación a 'Técnico en Cuidados de Enfermería' (TCE, sin 'auxiliar'), pasa de 1400 a 2000 h y tendrá los módulos transversales de la LO 3/2022 (inglés profesional, IPE I y II, digitalización, sostenibilidad y proyecto intermodular). No tiene todavía código, módulos codificados, calendario de implantación ni currículo en Aragón.",
+  "Identificadores: los módulos LOGSE no tienen código numérico estatal. Uso TCAE-01 a TCAE-08 en el mismo orden que la numeración oficial de Aragón (001-008, Resolución de 13/06/2025): TCAE-0n = módulo 00n de SAN201 en Aragón. El orden del RD 546/1995 es otro: su módulo 1 es Operaciones administrativas (TCAE-05), el 2 es Técnicas básicas (TCAE-01), el 3 es Higiene (TCAE-02), el 4 es Promoción (TCAE-03), el 5 es Técnicas de ayuda odontológica (TCAE-04) y el 6 es Relaciones en el equipo (TCAE-06).",
+  "Horas: el campo 'horas' recoge la duración de los contenidos básicos del RD 546/1995 (enseñanzas mínimas; suman 735 h + FCT 240 h). 'mefp' recoge el currículo del RD 558/1995 (65/350/155/130/130/65/65 + FCT 440 = 1400). 'aragon' recoge la Resolución de 13/06/2025, turno diurno o vespertino: todos los módulos del centro en 1.º (30 h/semana) y la FCT de 400 h en el primer trimestre de 2.º. La suma de la tabla aragonesa es 1401 h, aunque su total indica 1400.",
+  "Aragón, turno nocturno (anexo II de la Resolución de 13/06/2025; mismas horas por módulo): en 1.º, TCAE-01 (11 h/sem), TCAE-02 (5), TCAE-07 (2); en 2.º, TCAE-03 (6), TCAE-04 (6), TCAE-05 (3), TCAE-06 (3); FCT de 400 h en el tercer trimestre de 2.º. Son 18 h/semana en cada curso.",
+  "Tipos: TCAE-06 (Relaciones en el equipo de trabajo, módulo transversal) y TCAE-07 (FOL) llevan tipo 'comun' por coherencia con los demás ficheros. No hay módulo de lengua extranjera, así que no se aplican las convalidaciones de lengua extranjera del anexo I del RD 1085/2020 ni el art. 3.7. Tampoco hay módulo de Proyecto.",
+  "Convalidaciones HACIA el ciclo LOGSE: (a) LOGSE→LOGSE según el anexo I del RD 1085/2020 (las del array 'convalidaciones_titulos_anteriores'); las resuelve la dirección del centro (art. 8.1) y se califican con la nota del módulo aportado, o con la media si son varios (art. 3.3). (b) FOL LOE → FOL LOGSE de grado medio: la resuelve el centro (DT 2ª.1). (c) Cualquier otro título o módulo LOE (LO 2/2006) aportado a este ciclo LOGSE: resolución individual del Ministerio, Subdirección General de Ordenación e Innovación de la FP (RD 1085/2020, art. 9.c; RD 659/2023, art. 127.b.4º), con la solicitud tramitada por el centro a través de la sede electrónica; en Aragón se califica 'CV-nota' (ver normativa-general.md, R4). (d) FP de la Ley 14/1970 y estudios universitarios: Ministerio (art. 9.a-b); sin nota si son anteriores a la LOGSE o universitarios (art. 3.10).",
+  "Convalidaciones que genera TCAE (ciclo completo LOGSE) HACIA otros títulos, según el RD 1085/2020: APSD (RD 1593/2011) → 0216 Atención sanitaria y 0217 Atención higiénica (anexo II, cuadro de Servicios Socioculturales), más 0020 Primeros auxilios en cualquier ciclo que lo incluya (anexo II, cuadro específico del 0020). Farmacia y Parafarmacia (RD 1689/2007): el módulo 'Promoción de la salud y apoyo psicológico al paciente' → 0105 Promoción de la salud (anexo II). Técnico en Atención Sociosanitaria (LOGSE): ciclo completo → Atención sanitaria e Higiene (anexo I). Técnico en Farmacia (LOGSE): ciclo completo, o el módulo Promoción de la salud y apoyo psicológico al paciente → Promoción de la salud y apoyo psicológico a las personas (anexo I).",
+  "FCT (TCAE-08): no se convalida nunca; solo admite exención total o parcial (RD 1085/2020, art. 3.4; RD 659/2023, art. 126.4.a). En Aragón se aplican a los ciclos LOGSE los arts. 49-50 del Decreto 91/2024: 1 año de experiencia a tiempo completo o su equivalente, relacionada con el ciclo y dentro de los 5 años anteriores; la resuelve la dirección del centro. TCAE no está entre los ciclos sin exención (art. 49.2 solo excluye los de grado superior de Sanidad). Hay que pedirla en cada curso en que se realice la FCT y, en presencial, hasta 2 meses antes de empezar.",
+  "Unidades de competencia: las cinco 'unidades de competencia' del RD 546/1995 son internas del título LOGSE, anteriores al CNCP y sin código UC. No hay norma que relacione las UC o ECP del CNCP ni los certificados de profesionalidad con los módulos de TCAE LOGSE, por lo que 'uc_a_modulos' y 'modulos_a_uc' van vacíos. Contrastado con la herramienta de Aragón (tab1_competencias_acreditadas.php, accion=calcular_modulos): UC2254_2 a UC2257_2 y ECP2254_2 a ECP2257_2 devuelven 'Ninguna de las competencias seleccionadas participa en reglas de convalidación de módulos impartidos en Aragón'. El control positivo (ECP2259_2 → 0210) sí funciona. obtener_modulos no incluye ningún módulo de TCAE. En las descripciones figuran las UC de SAN669_2 (Cuidados auxiliares sanitarios) como referencia para la acreditación de competencias.",
+  "todofp.es (ficha LOGSE, consultada el 18/09/2026) da 1400 h y llama al módulo transversal 'Relaciones en el entorno del trabajo'. El RD 546/1995, el RD 558/1995 y la Resolución de Aragón lo llaman 'Relaciones en el equipo de trabajo'; prevalece el RD.",
+  "Módulos idénticos (art. 3.2 del RD 1085/2020): 'Relaciones en el equipo de trabajo' y 'Formación y orientación laboral' aparecen con el mismo nombre en otros ciclos LOGSE de grado medio. El anexo I ya cubre FOL→FOL con carácter general. Para 'Relaciones en el equipo de trabajo' aportado desde otro ciclo LOGSE no hay fila expresa (ver no_verificado)."
+ ],
+ "no_verificado": [
+  "Curso de los módulos en el ámbito MEFP: el RD 558/1995 (DF 2ª) remite la distribución semanal a una norma del MEC que no he localizado. Asigno curso 1 a los módulos del centro (suman 960 h, un curso escolar) y curso 2 a la FCT (440 h) por analogía con el esquema LOGSE de 1400 h; es una deducción.",
+  "Que el título 'Técnico en Cuidados de Enfermería' no se haya publicado en el BOE entre el 20/07/2026 y el 18/09/2026: lo he comprobado solo con búsquedas web y en boe.es, sin revisar los sumarios diarios. Si se publica, habrá que añadir sus módulos, el calendario de implantación y las tablas de convalidación desde el título LOGSE.",
+  "Convalidación de 'Relaciones en el equipo de trabajo' aportando el módulo del mismo nombre de otro ciclo LOGSE de grado medio: el anexo I no la recoge expresamente. Podría tratarse como módulo idéntico (art. 3.2, traslado de nota) si coinciden capacidades, contenidos y duración, pero no lo he verificado.",
+  "IPE I (LO 3/2022) aportado para convalidar FOL LOGSE de TCAE: la DT 2ª del RD 1085/2020 habla solo de 'FOL de títulos LOE' y la DA 6ª establece la equivalencia en sentido inverso (FOL→IPE I). No consta ninguna regla expresa, así que previsiblemente lo resuelve el Ministerio (art. 9.c).",
+  "Identificador BOE-A del RD 1790/2011 (SAN669_2): no comprobado. La fecha (16/12/2011) sale del RD 532/2025 y de la ficha del INCUAL.",
+  "Que SAN669_2 no tenga todavía certificado de profesionalidad publicado: no lo he verificado. Algunas webs comerciales anuncian 'certificado' SAN669_2, pero no he localizado el RD.",
+  "Suma de la tabla de Aragón (1401 h frente al total de 1400 h indicado): lo tomo como redondeo de la propia Resolución y no lo he contrastado con el centro."
+ ]
+};

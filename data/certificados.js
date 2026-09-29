@@ -1,0 +1,1043 @@
+// Generado por tools/build_data.py a partir de research/certificados.json. No editar a mano.
+window.CERTIFICADOS = {
+ "regla_juridica": {
+  "mf_suelto_convalida": true,
+  "explicacion": "Matiz esencial: un MF superado SÍ puede acabar convalidando, pero NUNCA por sí mismo ni por el mero diploma o certificación académica del centro impartidor. La convalidación se resuelve SIEMPRE contra la UC/ECP (las tablas de los RD de los títulos son 'correspondencia de las UC acreditadas con los módulos profesionales'; no existe ninguna tabla MF->módulo). El MF opera como vía para acreditar la UC correspondiente: (1) Régimen RD 34/2008 (formación anterior al 23/07/2023 y transitoria): art. 16.2 'Quienes no superen la totalidad de los módulos asociados al certificado de profesionalidad y superen los módulos asociados a una o varias unidades de competencia del mismo, recibirán una certificación de los módulos superados que tendrá efectos de acreditación parcial acumulable de las competencias profesionales adquiridas'; y DA 1a.2 'Las unidades de competencia acreditadas por un certificado de profesionalidad o una acreditación parcial acumulable, expedida por la Administración laboral competente, seran reconocidas por la Administración educativa y surtirán los efectos de convalidación del módulo o módulos profesionales correspondientes de acuerdo con los reales decretos por los que se establecen cada uno de los títulos de formación profesional'. (2) Régimen RD 659/2023 (vigente): su DT 1a.2 dispone que 'cualquier referencia hecha a «módulo formativo», «capacidades» o «unidad formativa» deberá entenderse hecha a «módulo profesional», «resultados de aprendizaje» y «bloque formativo», respectivamente', de modo que el MF pasa a ser un módulo profesional de un Grado C; el art. 137.9 establece que 'Quienes no superen en su totalidad cualquier oferta formativa de formación profesional de Grado C, D o E recibirán una certificación académica de los módulos profesionales [...] que tendrá efectos acumulativos en el Sistema de Formación Profesional. Esta certificación dará derecho a la expedición por la Administración competente de los certificados o acreditaciones de grado inferior, de mayor nivel, correspondientes del Sistema de Formación Profesional que pudieran coincidir con el o los módulos profesionales superados'; y el art. 145.2 precisa que 'El certificado de competencia deberá detallar el módulo profesional superado y el estándar o estándares de competencia profesional asociados a él'. Es decir: MF superado -> certificado de competencia (Grado B) / acreditación parcial acumulable -> ECP/UC acreditada -> convalidación por los arts. 127.b.3o y 128 del RD 659/2023. REGLA OPERATIVA PARA EL MOTOR: aceptar el MF como aportación, pero exigir el documento oficial expedido por la Administración laboral o competente (acreditación parcial acumulable, certificación de módulos formativos superados o certificado de competencia) y resolver la convalidación por la UC/ECP asociada al MF (correspondencia 1 a 1 por código). No basta el diploma del centro de formación. La documentación exigible está tasada en el art. 6.3 del RD 1085/2020 y, en Aragón, en el Anexo VIII del Decreto 91/2024.",
+  "fuentes": [
+   "RD 34/2008, art. 16.2 (certificación de módulos superados con efectos de acreditación parcial acumulable) - BOE-A-2008-1628 - https://www.boe.es/buscar/act.php?id=BOE-A-2008-1628",
+   "RD 34/2008, DA 1a.2 (la acreditación parcial acumulable surte efectos de convalidación) - BOE-A-2008-1628",
+   "RD 34/2008, art. 6.2 (superar todas las UF de un MF da derecho a la certificación del MF y a la acreditación de la UC) - BOE-A-2008-1628",
+   "RD 659/2023, DT 1a.1 y 1a.2 (pervivencia de la ordenación de los certificados; MF=módulo profesional, UF=bloque formativo) - BOE-A-2023-16889 - https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+   "RD 659/2023, art. 137.9 (certificación académica de módulos con efectos acumulativos y derecho a certificados de grado inferior) - BOE-A-2023-16889",
+   "RD 659/2023, art. 145 (certificado de competencia: detalla el módulo profesional superado y el ECP asociado) - BOE-A-2023-16889",
+   "RD 659/2023, art. 126.1 (elementos convalidables: módulos profesionales y estándares de competencia acreditados; NO bloques formativos) - BOE-A-2023-16889",
+   "RD 659/2023, art. 127.b.3o (convalidación aportando certificados de profesionalidad, 'se resolverá de acuerdo con los estándares de competencia incluidos en los módulos profesionales'; CV computa como 5) - BOE-A-2023-16889",
+   "RD 659/2023, art. 128.2 (la experiencia profesional y la formación no formal no convalidan sin reconocimiento previo por acreditación de competencias) - BOE-A-2023-16889",
+   "RD 659/2023, DA 10a (equivalencia de los certificados de profesionalidad de niveles 1, 2 y 3 con los certificados profesionales) - BOE-A-2023-16889",
+   "RD 659/2023, DD única.1 (deroga el RD 34/2008 salvo su anexo IV) - BOE-A-2023-16889",
+   "RD 1085/2020, art. 3.9 (experiencia profesional y formación no formal no convalidan sin acreditación previa) - BOE-A-2020-17274 - https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+   "RD 1085/2020, art. 6.3 (documentación tasada: a) certificación oficial de la Administración competente para UC acreditadas por el procedimiento; b) Certificado de Profesionalidad del RD 34/2008) - BOE-A-2020-17274",
+   "RD 1085/2020, art. 8.1 (resuelve la dirección del centro cuando la correspondencia figura en los anexos I a IV) - BOE-A-2020-17274",
+   "Aragón, Decreto 91/2024, Anexo VIII ap. 10 y 19 (consolidado v5, actualizado a 09/01/2026, tras la Resolución de 3/12/2025, BOA 242 de 16/12/2025): exige 'Certificado de Profesionalidad expedido por la Administración Laboral competente, obtenido de acuerdo con lo establecido en el Real Decreto 34/2008 [...] o Certificado profesional expedido de acuerdo con lo establecido en el Real Decreto 659/2023', o bien 'Certificación oficial de la Administración competente' para las UC acreditadas por el procedimiento del RD 1224/2009 o del RD 659/2023; el registro es 'Convalidado' con la expresión 'CV-5' - https://educa.aragon.es/documents/20126/6133293/Consolidado+Decreto+91_2024+v5+Reducido.pdf",
+   "Aragón, Resolución de 14/07/2026 (matrícula a efectos de convalidación 2026/27), ap. primero y segundo: admite 'certificado de profesionalidad o módulos formativos acreditados en Aragón' - https://educa.aragon.es/-/formacion-profesional/legislacion-autonomica/convalidaciones",
+   "RD 532/2025, art. 5.1 y 5.2 (los ECP conservan el código numérico de la UC y solo cambian el prefijo UC->ECP) - BOE-A-2025-13147 - https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147"
+  ]
+ },
+ "certificados": [
+  {
+   "codigo": "SSCS0108",
+   "nombre": "Atención sociosanitaria a personas en el domicilio",
+   "familia": "Servicios Socioculturales y a la Comunidad",
+   "nivel": 2,
+   "norma": {
+    "ref": "RD 1379/2008, de 1 de agosto (anexo I), modificado por el RD 721/2011, de 20 de mayo (DF 2a) y por el RD 189/2013, de 15 de marzo",
+    "boe": "BOE-A-2008-14720",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-14720"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "SSC089_2 Atención sociosanitaria a personas en el domicilio (RD 295/2004), actualizada por el RD 151/2022",
+   "duracion_total_horas": 600,
+   "mf": [
+    {
+     "codigo": "MF0249_2",
+     "nombre": "Higiene y atención sanitaria domiciliaria",
+     "horas": 170,
+     "uc": "UC0249_2",
+     "uc_vigente": [
+      "UC2259_2"
+     ],
+     "uf": [
+      {
+       "codigo": "UF0119",
+       "nombre": "Características y necesidades de atención higiénico-sanitaria de las personas dependientes",
+       "horas": 70
+      },
+      {
+       "codigo": "UF0120",
+       "nombre": "Administración de alimentos y tratamientos a personas dependientes en el domicilio",
+       "horas": 50
+      },
+      {
+       "codigo": "UF0121",
+       "nombre": "Mejora de las capacidades físicas y primeros auxilios para las personas dependientes en el domicilio",
+       "horas": 50
+      }
+     ]
+    },
+    {
+     "codigo": "MF0250_2",
+     "nombre": "Atención y apoyo psicosocial domiciliario",
+     "horas": 210,
+     "uc": "UC0250_2",
+     "uc_vigente": [
+      "UC2260_2"
+     ],
+     "uf": [
+      {
+       "codigo": "UF0122",
+       "nombre": "Mantenimiento y rehabilitación psicosocial de las personas dependientes en domicilio",
+       "horas": 80
+      },
+      {
+       "codigo": "UF0123",
+       "nombre": "Apoyo a las gestiones cotidianas de las personas dependientes",
+       "horas": 50
+      },
+      {
+       "codigo": "UF0124",
+       "nombre": "Interrelación, comunicación y observación con la persona dependiente y su entorno",
+       "horas": 80
+      }
+     ]
+    },
+    {
+     "codigo": "MF0251_2",
+     "nombre": "Apoyo domiciliario y alimentación familiar",
+     "horas": 100,
+     "uc": "UC0251_2",
+     "uc_vigente": [
+      "UC2261_2",
+      "UC2262_2"
+     ],
+     "uf": [
+      {
+       "codigo": "UF0125",
+       "nombre": "Gestión, aprovisionamiento y cocina en la unidad familiar de personas dependientes",
+       "horas": 60
+      },
+      {
+       "codigo": "UF0126",
+       "nombre": "Mantenimiento, limpieza y organización del domicilio de personas dependientes",
+       "horas": 40
+      }
+     ]
+    },
+    {
+     "codigo": "MP0028",
+     "nombre": "Módulo de prácticas profesionales no laborales de Atención sociosanitaria a personas en el domicilio",
+     "horas": 120,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  },
+  {
+   "codigo": "SSCS0208",
+   "nombre": "Atención sociosanitaria a personas dependientes en instituciones sociales",
+   "familia": "Servicios Socioculturales y a la Comunidad",
+   "nivel": 2,
+   "norma": {
+    "ref": "RD 1379/2008, de 1 de agosto (anexo II), modificado por el RD 721/2011, de 20 de mayo (DF 2a), el RD 189/2013, de 15 de marzo, y el RD 625/2013, de 2 de agosto (DF 4a)",
+    "boe": "BOE-A-2008-14720",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-14720"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "SSC320_2 Atención sociosanitaria a personas dependientes en instituciones (RD 1368/2007), actualizada por el RD 151/2022",
+   "duracion_total_horas": 450,
+   "mf": [
+    {
+     "codigo": "MF1016_2",
+     "nombre": "Apoyo en la organización de intervenciones en el ámbito institucional",
+     "horas": 100,
+     "uc": "UC1016_2",
+     "uc_vigente": [
+      "UC2259_2"
+     ],
+     "uf": [
+      {
+       "codigo": "UF0127",
+       "nombre": "Apoyo en la recepción y acogida en instituciones de personas dependientes",
+       "horas": 30
+      },
+      {
+       "codigo": "UF0128",
+       "nombre": "Apoyo en la organización de actividades para personas dependientes en instituciones",
+       "horas": 70
+      }
+     ]
+    },
+    {
+     "codigo": "MF1017_2",
+     "nombre": "Intervención en la atención higiénico-alimentaria en instituciones",
+     "horas": 70,
+     "uc": "UC1017_2",
+     "uc_vigente": [
+      "UC2261_2"
+     ],
+     "uf": []
+    },
+    {
+     "codigo": "MF1018_2",
+     "nombre": "Intervención en la atención sociosanitaria en instituciones",
+     "horas": 70,
+     "uc": "UC1018_2",
+     "uc_vigente": [],
+     "uf": []
+    },
+    {
+     "codigo": "MF1019_2",
+     "nombre": "Apoyo psicosocial, atención relacional y comunicativa en instituciones",
+     "horas": 130,
+     "uc": "UC1019_2",
+     "uc_vigente": [
+      "UC2260_2"
+     ],
+     "uf": [
+      {
+       "codigo": "UF0129",
+       "nombre": "Animación social de personas dependientes en instituciones",
+       "horas": 30
+      },
+      {
+       "codigo": "UF0130",
+       "nombre": "Mantenimiento y mejora de las actividades diarias de personas dependientes en instituciones",
+       "horas": 50
+      },
+      {
+       "codigo": "UF0131",
+       "nombre": "Técnicas de comunicación con personas dependientes en instituciones",
+       "horas": 50
+      }
+     ]
+    },
+    {
+     "codigo": "MP0029",
+     "nombre": "Módulo de prácticas profesionales no laborales de Atención sociosanitaria a personas dependientes en instituciones",
+     "horas": 80,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  },
+  {
+   "codigo": "SSCG0111",
+   "nombre": "Gestión de llamadas de teleasistencia",
+   "familia": "Servicios Socioculturales y a la Comunidad",
+   "nivel": 2,
+   "norma": {
+    "ref": "RD 1697/2011, de 18 de noviembre (anexo I), modificado por el RD 189/2013, de 15 de marzo",
+    "boe": "BOE-A-2011-20102",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-20102"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "SSC443_2 Gestión de llamadas de teleasistencia (RD 1096/2011), actualizada por el RD 151/2022",
+   "duracion_total_horas": 310,
+   "mf": [
+    {
+     "codigo": "MF1423_2",
+     "nombre": "Atención y gestión de llamadas entrantes en un servicio de teleasistencia",
+     "horas": 90,
+     "uc": "UC1423_2",
+     "uc_vigente": [],
+     "uf": []
+    },
+    {
+     "codigo": "MF1424_2",
+     "nombre": "Emisión y gestión de llamadas salientes en un servicio de teleasistencia",
+     "horas": 60,
+     "uc": "UC1424_2",
+     "uc_vigente": [],
+     "uf": []
+    },
+    {
+     "codigo": "MF1425_2",
+     "nombre": "Manejo de herramientas, técnicas y habilidades para la prestación de un servicio de teleasistencia",
+     "horas": 80,
+     "uc": "UC1425_2",
+     "uc_vigente": [],
+     "uf": []
+    },
+    {
+     "codigo": "MP0416",
+     "nombre": "Módulo de prácticas profesionales no laborales de Gestión de llamadas de teleasistencia",
+     "horas": 80,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  },
+  {
+   "codigo": "IMPP0108",
+   "nombre": "Cuidados estéticos de manos y pies",
+   "familia": "Imagen Personal",
+   "nivel": 2,
+   "norma": {
+    "ref": "RD 1373/2008, de 1 de agosto, modificado por el RD 1675/2010, el RD 716/2011, el RD 189/2013 y corregido por la DF 1a del RD 109/2022 (anexo I)",
+    "boe": "BOE-A-2008-14554",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-14554"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "IMP121_2 Cuidados estéticos de manos y pies (RD 1087/2005)",
+   "duracion_total_horas": 360,
+   "mf": [
+    {
+     "codigo": "MF0356_2",
+     "nombre": "Seguridad y salud en los cuidados estéticos de manos y pies",
+     "horas": 70,
+     "uc": "UC0356_2",
+     "uc_vigente": [
+      "UC0354_2"
+     ],
+     "uf": []
+    },
+    {
+     "codigo": "MF0357_2",
+     "nombre": "Técnicas estéticas para el cuidado y embellecimiento de las uñas",
+     "horas": 70,
+     "uc": "UC0357_2",
+     "uc_vigente": [
+      "UC2826_2"
+     ],
+     "uf": []
+    },
+    {
+     "codigo": "MF0358_2",
+     "nombre": "Uñas artificiales",
+     "horas": 80,
+     "uc": "UC0358_2",
+     "uc_vigente": [],
+     "uf": []
+    },
+    {
+     "codigo": "MF0359_2",
+     "nombre": "Tratamientos estéticos de manos y pies",
+     "horas": 60,
+     "uc": "UC0359_2",
+     "uc_vigente": [
+      "UC2826_2"
+     ],
+     "uf": []
+    },
+    {
+     "codigo": "MP0021",
+     "nombre": "Módulo de prácticas profesionales no laborales de Cuidados estéticos de manos y pies",
+     "horas": 80,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  },
+  {
+   "codigo": "IMPP0208",
+   "nombre": "Servicios estéticos de higiene, depilación y maquillaje",
+   "familia": "Imagen Personal",
+   "nivel": 2,
+   "norma": {
+    "ref": "RD 1373/2008, de 1 de agosto, modificado por el RD 1675/2010, el RD 716/2011, el RD 189/2013 y corregido por la DF 1a del RD 109/2022 (anexo II)",
+    "boe": "BOE-A-2008-14554",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-14554"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "IMP120_2 Servicios estéticos de higiene, depilación y maquillaje (RD 1087/2005). El texto de 2008 decía erróneamente 'IMP020_2'; corregido por la DF 1a del RD 109/2022",
+   "duracion_total_horas": 640,
+   "mf": [
+    {
+     "codigo": "MF0354_2",
+     "nombre": "Seguridad y salud en servicios estéticos de higiene, depilación y maquillaje",
+     "horas": 120,
+     "uc": "UC0354_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0085",
+       "nombre": "Diagnóstico estético facial y corporal",
+       "horas": 60
+      },
+      {
+       "codigo": "UF0086",
+       "nombre": "Cosméticos y equipos para los cuidados estéticos de higiene, depilación y maquillaje",
+       "horas": 60
+      }
+     ]
+    },
+    {
+     "codigo": "MF0355_2",
+     "nombre": "Higiene e hidratación facial y corporal",
+     "horas": 120,
+     "uc": "UC0355_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0087",
+       "nombre": "Análisis y selección de medios para los cuidados estéticos de higiene e hidratación facial y corporal",
+       "horas": 30
+      },
+      {
+       "codigo": "UF0088",
+       "nombre": "Técnicas de higiene e hidratación facial y corporal",
+       "horas": 90
+      }
+     ]
+    },
+    {
+     "codigo": "MF0345_1",
+     "nombre": "Depilación mecánica y decoloración del vello",
+     "horas": 90,
+     "uc": "UC0345_1",
+     "uc_vigente": [
+      "UC2583_1"
+     ],
+     "uf": []
+    },
+    {
+     "codigo": "MF0065_2",
+     "nombre": "Maquillaje social",
+     "horas": 90,
+     "uc": "UC0065_2",
+     "uc_vigente": [],
+     "uf": []
+    },
+    {
+     "codigo": "MF0352_2",
+     "nombre": "Asesoramiento y venta de productos y servicios para la Imagen Personal",
+     "horas": 60,
+     "uc": "UC0352_2",
+     "uc_vigente": [],
+     "uf": []
+    },
+    {
+     "codigo": "MP0022",
+     "nombre": "Módulo de prácticas profesionales no laborales de Servicios estéticos de higiene, depilación y maquillaje",
+     "horas": 160,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  },
+  {
+   "codigo": "IMPP0308",
+   "nombre": "Hidrotermal",
+   "familia": "Imagen Personal",
+   "nivel": 3,
+   "norma": {
+    "ref": "RD 1373/2008, de 1 de agosto, modificado por el RD 1675/2010, el RD 716/2011, el RD 189/2013 y corregido por la DF 1a del RD 109/2022 (anexo III)",
+    "boe": "BOE-A-2008-14554",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-14554"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "IMP023_3 Hidrotermal (RD 295/2004, modificado por el RD 327/2008). El texto de 2008 decía erróneamente 'IMP023_2'; corregido por la DF 1a del RD 109/2022",
+   "duracion_total_horas": 570,
+   "mf": [
+    {
+     "codigo": "MF1260_3",
+     "nombre": "Diagnóstico y organización de servicios hidrotermales",
+     "horas": 120,
+     "uc": "UC1260_3",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0089",
+       "nombre": "Diagnóstico estético para la aplicación de técnicas hidrotermales",
+       "horas": 30
+      },
+      {
+       "codigo": "UF0090",
+       "nombre": "Protocolos de servicios hidrotermales estéticos",
+       "horas": 90
+      }
+     ]
+    },
+    {
+     "codigo": "MF0061_3",
+     "nombre": "Técnicas hidrotermales",
+     "horas": 150,
+     "uc": "UC0061_3",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0091",
+       "nombre": "Servicios termales adaptados en función del diagnóstico",
+       "horas": 60
+      },
+      {
+       "codigo": "UF0092",
+       "nombre": "Aplicación y/o supervisión de servicios termales",
+       "horas": 90
+      }
+     ]
+    },
+    {
+     "codigo": "MF0062_3",
+     "nombre": "Cosmética termal",
+     "horas": 60,
+     "uc": "UC0062_3",
+     "uc_vigente": [],
+     "uf": []
+    },
+    {
+     "codigo": "MF0063_3",
+     "nombre": "Masaje estético manual y mecánico",
+     "horas": 120,
+     "uc": "UC0063_3",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0093",
+       "nombre": "El masaje estético",
+       "horas": 30
+      },
+      {
+       "codigo": "UF0094",
+       "nombre": "Técnicas de masaje estético",
+       "horas": 90
+      }
+     ]
+    },
+    {
+     "codigo": "MP0023",
+     "nombre": "Módulo de prácticas profesionales no laborales de Hidrotermal",
+     "horas": 120,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  },
+  {
+   "codigo": "IFCT0209",
+   "nombre": "Sistemas microinformáticos",
+   "familia": "Informática y Comunicaciones",
+   "nivel": 2,
+   "norma": {
+    "ref": "RD 686/2011, de 13 de mayo, modificado por el RD 189/2013 y el RD 628/2013 (anexo I)",
+    "boe": "BOE-A-2011-10055",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-10055"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "IFC078_2 Sistemas Microinformáticos (RD 295/2004, modificado por el RD 1201/2007)",
+   "duracion_total_horas": 600,
+   "mf": [
+    {
+     "codigo": "MF0219_2",
+     "nombre": "Instalación y configuración de sistemas operativos (transversal)",
+     "horas": 140,
+     "uc": "UC0219_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0852",
+       "nombre": "Instalación y actualización de sistemas operativos",
+       "horas": 80
+      },
+      {
+       "codigo": "UF0853",
+       "nombre": "Explotación de las funcionalidades del sistema microinformático",
+       "horas": 60
+      }
+     ]
+    },
+    {
+     "codigo": "MF0220_2",
+     "nombre": "Implantación de los elementos de la red local (transversal)",
+     "horas": 160,
+     "uc": "UC0220_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0854",
+       "nombre": "Instalación y configuración de los nodos de una red de área local",
+       "horas": 90
+      },
+      {
+       "codigo": "UF0855",
+       "nombre": "Verificación y resolución de incidencias en una red de área local",
+       "horas": 70
+      }
+     ]
+    },
+    {
+     "codigo": "MF0221_2",
+     "nombre": "Instalación y configuración de aplicaciones informáticas",
+     "horas": 60,
+     "uc": "UC0221_2",
+     "uc_vigente": [],
+     "uf": []
+    },
+    {
+     "codigo": "MF0222_2",
+     "nombre": "Aplicaciones microinformáticas",
+     "horas": 200,
+     "uc": "UC0222_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0856",
+       "nombre": "Asistencia de usuarios en el uso de aplicaciones ofimáticas y de correo electrónico",
+       "horas": 40
+      },
+      {
+       "codigo": "UF0857",
+       "nombre": "Elaboración de documentos de texto",
+       "horas": 50
+      },
+      {
+       "codigo": "UF0858",
+       "nombre": "Elaboración de hojas de cálculo",
+       "horas": 50
+      },
+      {
+       "codigo": "UF0859",
+       "nombre": "Elaboración de presentaciones",
+       "horas": 30
+      },
+      {
+       "codigo": "UF0860",
+       "nombre": "Elaboración y modificación de imágenes u otros elementos gráficos",
+       "horas": 30
+      }
+     ]
+    },
+    {
+     "codigo": "MP0177",
+     "nombre": "Módulo de prácticas profesionales no laborales de Sistemas Microinformáticos",
+     "horas": 40,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  },
+  {
+   "codigo": "IFCT0309",
+   "nombre": "Montaje y reparación de sistemas microinformáticos",
+   "familia": "Informática y Comunicaciones",
+   "nivel": 2,
+   "norma": {
+    "ref": "RD 686/2011, de 13 de mayo, modificado por el RD 189/2013 y el RD 628/2013 (anexo II)",
+    "boe": "BOE-A-2011-10055",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-10055"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "IFC298_2 Montaje y Reparación de Sistemas Microinformáticos (RD 1201/2007)",
+   "duracion_total_horas": 510,
+   "mf": [
+    {
+     "codigo": "MF0953_2",
+     "nombre": "Montaje de equipos microinformáticos",
+     "horas": 150,
+     "uc": "UC0953_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0861",
+       "nombre": "Montaje y verificación de componentes",
+       "horas": 90
+      },
+      {
+       "codigo": "UF0862",
+       "nombre": "Instalación y configuración de periféricos microinformáticos",
+       "horas": 60
+      }
+     ]
+    },
+    {
+     "codigo": "MF0219_2",
+     "nombre": "Instalación y configuración de sistemas operativos (transversal)",
+     "horas": 140,
+     "uc": "UC0219_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0852",
+       "nombre": "Instalación y actualización de sistemas operativos",
+       "horas": 80
+      },
+      {
+       "codigo": "UF0853",
+       "nombre": "Explotación de las funcionalidades del sistema microinformático",
+       "horas": 60
+      }
+     ]
+    },
+    {
+     "codigo": "MF0954_2",
+     "nombre": "Reparación de equipamiento microinformático",
+     "horas": 180,
+     "uc": "UC0954_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0863",
+       "nombre": "Reparación y ampliación de equipos y componentes hardware microinformáticos",
+       "horas": 80
+      },
+      {
+       "codigo": "UF0864",
+       "nombre": "Resolución de averías lógicas en equipos microinformáticos",
+       "horas": 30
+      },
+      {
+       "codigo": "UF0865",
+       "nombre": "Reparación de impresoras",
+       "horas": 70
+      }
+     ]
+    },
+    {
+     "codigo": "MP0179",
+     "nombre": "Módulo de prácticas profesionales no laborales de Montaje y reparación de Sistemas Microinformáticos",
+     "horas": 40,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  },
+  {
+   "codigo": "IFCT0210",
+   "nombre": "Operación de sistemas informáticos",
+   "familia": "Informática y Comunicaciones",
+   "nivel": 2,
+   "norma": {
+    "ref": "RD 1531/2011, de 31 de octubre, modificado por el RD 189/2013 y el RD 628/2013 (anexo II)",
+    "boe": "BOE-A-2011-19503",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19503"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "IFC300_2 Operación de Sistemas Informáticos (RD 1201/2007)",
+   "duracion_total_horas": 600,
+   "mf": [
+    {
+     "codigo": "MF0219_2",
+     "nombre": "Instalación y configuración de sistemas operativos (transversal)",
+     "horas": 140,
+     "uc": "UC0219_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0852",
+       "nombre": "Instalación y actualización de sistemas operativos",
+       "horas": 80
+      },
+      {
+       "codigo": "UF0853",
+       "nombre": "Explotación de las funcionalidades del sistema microinformático",
+       "horas": 60
+      }
+     ]
+    },
+    {
+     "codigo": "MF0957_2",
+     "nombre": "Mantenimiento del subsistema físico de sistemas informáticos",
+     "horas": 150,
+     "uc": "UC0957_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF1349",
+       "nombre": "Mantenimiento e inventario del subsistema físico",
+       "horas": 90
+      },
+      {
+       "codigo": "UF1350",
+       "nombre": "Monitorización y gestión de incidencias de los sistemas físicos",
+       "horas": 60
+      }
+     ]
+    },
+    {
+     "codigo": "MF0958_2",
+     "nombre": "Mantenimiento del subsistema lógico de sistemas informáticos",
+     "horas": 150,
+     "uc": "UC0958_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF1351",
+       "nombre": "Gestión y operativa del software de un sistema informático",
+       "horas": 90
+      },
+      {
+       "codigo": "UF1352",
+       "nombre": "Monitorización y gestión de incidencias del software",
+       "horas": 60
+      }
+     ]
+    },
+    {
+     "codigo": "MF0959_2",
+     "nombre": "Mantenimiento de la seguridad en sistemas informáticos",
+     "horas": 120,
+     "uc": "UC0959_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF1353",
+       "nombre": "Monitorización de los accesos al sistema informático",
+       "horas": 90
+      },
+      {
+       "codigo": "UF1354",
+       "nombre": "Copia de seguridad y restauración de la información",
+       "horas": 30
+      }
+     ]
+    },
+    {
+     "codigo": "MP0286",
+     "nombre": "Módulo de prácticas profesionales no laborales de Operación de Sistemas Informáticos",
+     "horas": 40,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  },
+  {
+   "codigo": "IFCT0110",
+   "nombre": "Operación de redes departamentales",
+   "familia": "Informática y Comunicaciones",
+   "nivel": 2,
+   "norma": {
+    "ref": "RD 1531/2011, de 31 de octubre, modificado por el RD 189/2013 y el RD 628/2013 (anexo III)",
+    "boe": "BOE-A-2011-19503",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19503"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "IFC299_2 Operación de Redes Departamentales (RD 1201/2007)",
+   "duracion_total_horas": 530,
+   "mf": [
+    {
+     "codigo": "MF0220_2",
+     "nombre": "Implantación de los elementos de la red local (transversal)",
+     "horas": 160,
+     "uc": "UC0220_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF0854",
+       "nombre": "Instalación y configuración de los nodos de una red de área local",
+       "horas": 90
+      },
+      {
+       "codigo": "UF0855",
+       "nombre": "Verificación y resolución de incidencias en una red de área local",
+       "horas": 70
+      }
+     ]
+    },
+    {
+     "codigo": "MF0955_2",
+     "nombre": "Monitorización de la red local",
+     "horas": 180,
+     "uc": "UC0955_2",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF1344",
+       "nombre": "Instalación de componentes y monitorización de la red de área local",
+       "horas": 90
+      },
+      {
+       "codigo": "UF1345",
+       "nombre": "Mantenimiento de la red de área local y actualización de componentes",
+       "horas": 50
+      },
+      {
+       "codigo": "UF1346",
+       "nombre": "Gestión de la seguridad en la red de área local",
+       "horas": 40
+      }
+     ]
+    },
+    {
+     "codigo": "MF0956_2",
+     "nombre": "Interconexión de redes privadas y redes públicas",
+     "horas": 150,
+     "uc": "UC0956_2",
+     "uc_vigente": [
+      "UC2688_2"
+     ],
+     "uf": [
+      {
+       "codigo": "UF1347",
+       "nombre": "Instalación y configuración de los nodos de interconexión de redes privadas con públicas",
+       "horas": 90
+      },
+      {
+       "codigo": "UF1348",
+       "nombre": "Monitorización y resolución de incidencias en la interconexión de redes privadas con redes públicas",
+       "horas": 60
+      }
+     ]
+    },
+    {
+     "codigo": "MP0285",
+     "nombre": "Módulo de prácticas profesionales no laborales de Operación de Redes Departamentales",
+     "horas": 40,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  },
+  {
+   "codigo": "AFDA0111",
+   "nombre": "Fitness acuático e hidrocinesia",
+   "familia": "Actividades Físicas y Deportivas",
+   "nivel": 3,
+   "norma": {
+    "ref": "RD 1076/2012, de 13 de julio (anexo II), modificado por el RD 189/2013",
+    "boe": "BOE-A-2012-11325",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-11325"
+   },
+   "vigente": true,
+   "cualificacion_referencia": "AFD511_3 Fitness Acuático e Hidrocinesia (RD 146/2011)",
+   "duracion_total_horas": 750,
+   "mf": [
+    {
+     "codigo": "MF0273_3",
+     "nombre": "Valoración de las capacidades físicas (transversal)",
+     "horas": 130,
+     "uc": "UC0273_3",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF1703",
+       "nombre": "Aplicación de tests, pruebas y cuestionarios para la valoración de la condición física, biológica y motivacional",
+       "horas": 90
+      },
+      {
+       "codigo": "UF1704",
+       "nombre": "Tratamiento de datos de una batería de tests, pruebas y cuestionarios de valoración de la condición física, biológica y motivacional",
+       "horas": 40
+      }
+     ]
+    },
+    {
+     "codigo": "MF1663_3",
+     "nombre": "Habilidades y secuencias de fitness acuático",
+     "horas": 120,
+     "uc": "UC1663_3",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF1691",
+       "nombre": "Dominio técnico, interpretación y ejecución de secuencias y composiciones coreográficas en fitness acuático",
+       "horas": 50
+      },
+      {
+       "codigo": "UF1692",
+       "nombre": "Diseño coreográfico en fitness acuático",
+       "horas": 70
+      }
+     ]
+    },
+    {
+     "codigo": "MF1664_3",
+     "nombre": "Metodología y práctica del fitness acuático",
+     "horas": 190,
+     "uc": "UC1664_3",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF1693",
+       "nombre": "Programación en fitness acuático",
+       "horas": 70
+      },
+      {
+       "codigo": "UF1694",
+       "nombre": "Dirección y dinamización de actividades de fitness acuático",
+       "horas": 90
+      },
+      {
+       "codigo": "UF1709",
+       "nombre": "Eventos en fitness seco y acuático (transversal)",
+       "horas": 30
+      }
+     ]
+    },
+    {
+     "codigo": "MF1665_3",
+     "nombre": "Hidrocinesia",
+     "horas": 150,
+     "uc": "UC1665_3",
+     "uc_vigente": [],
+     "uf": [
+      {
+       "codigo": "UF1695",
+       "nombre": "Diseño de protocolos de hidrocinesia",
+       "horas": 80
+      },
+      {
+       "codigo": "UF1696",
+       "nombre": "Dirección y dinamización de sesiones de hidrocinesia",
+       "horas": 70
+      }
+     ]
+    },
+    {
+     "codigo": "MF0272_2",
+     "nombre": "Primeros auxilios (transversal)",
+     "horas": 40,
+     "uc": "UC0272_2",
+     "uc_vigente": [],
+     "uf": []
+    },
+    {
+     "codigo": "MP0364",
+     "nombre": "Módulo de prácticas profesionales no laborales de fitness acuático e hidrocinesia",
+     "horas": 120,
+     "uc": null,
+     "uc_vigente": [],
+     "uf": []
+    }
+   ]
+  }
+ ],
+ "notas": [
+  "CORRECCIÓN DE CÓDIGOS (importante): los códigos del encargo estaban intercambiados. Verificado en el PDF original del BOE (BOE núm. 218, de 09/09/2008, págs. 36676-36711): SSCS0108 = 'Atención sociosanitaria a personas en el domicilio' (anexo I, UC0249_2/UC0250_2/UC0251_2), y SSCS0208 = 'Atención sociosanitaria a personas dependientes en instituciones sociales' (anexo II, UC1016_2 a UC1019_2).",
+  "PREGUNTA 2 - todas las UF de un MF: sí equivale a superar el MF. RD 34/2008, art. 6.2, literal: 'La superación de todas las unidades formativas definidas para el módulo, siempre que el participante curse de forma consecutiva al menos una unidad formativa por año, dará derecho a la certificación de módulo formativo y a la acreditación de la unidad de competencia correspondiente.' Ojo a la condición de consecutividad (al menos una UF por año).",
+  "PREGUNTA 2 - UF suelta: NO acredita la UC ni convalida. RD 34/2008, art. 6.2, párrafo primero: las UF 'serán certificables siempre que se hayan desarrollado con los requisitos de calidad establecidos para impartir el módulo al que pertenecen. La certificación tendrá validez en el ámbito de la Administración laboral.' Es decir, efectos solo ante la Administración laboral, no ante la educativa. En el régimen vigente, la DT 1a.2 del RD 659/2023 convierte la UF en 'bloque formativo', y el art. 126.1 del RD 659/2023 no incluye los bloques formativos entre los elementos convalidables (solo módulos profesionales y estándares de competencia acreditados). Una UF suelta podría, como mucho, dar lugar a una 'acreditación parcial de competencia' de Grado A (art. 144), que no convalida módulos de Grado D.",
+  "PREGUNTA 3 - correspondencia MF/UC: sí, se mantiene 1 a 1 por número dentro de cada certificado (MF0249_2<->UC0249_2, MF1016_2<->UC1016_2, MF1423_2<->UC1423_2...). RD 34/2008, art. 5.1: 'Se entiende por módulo formativo del certificado de profesionalidad el bloque coherente de formación asociado a cada una de las unidades de competencia que configuran la cualificación acreditada mediante el certificado de profesionalidad.' Lo mismo ocurre en el CNCP/CNECP (MF2259_2 <-> UC2259_2 <-> ECP2259_2).",
+  "PREGUNTA 3 - UC renumeradas: los certificados SSCS0108 y SSCS0208 NO han sido actualizados tras el RD 151/2022, de modo que sus MF SIGUEN LLAMÁNDOSE MF0249_2, MF0250_2, MF0251_2, MF1016_2... No existen 'MF2259_2 del certificado'. El MF2259_2 que aparece en el RD 151/2022 es el módulo formativo de la CUALIFICACIÓN (CNCP), con duración distinta (60 h, frente a las 170 h del MF0249_2 del certificado): son cosas diferentes y no deben mezclarse.",
+  "Correspondencia UC suprimida -> UC/ECP vigente (RD 151/2022, anexos XIII-a y XIII-b; RD 532/2025, anexos II-a y II-b, que sustituyen el prefijo UC por ECP): UC0249_2 -> ECP2259_2 (sin requisitos adicionales); UC0250_2 -> ECP2260_2; UC0251_2 -> ECP2261_2 + ECP2262_2 (esta NO es 1 a 1: hacen falta las dos; el RD 532/2025 dice 'ECP2261_2 Además, debe tener acreditado el ECP2262_2' y viceversa); UC1016_2 -> ECP2259_2; UC1017_2 -> ECP2261_2; UC1019_2 -> ECP2260_2. La UC1018_2 NO fue suprimida: conserva su código (ECP1018_2) y solo cambió de denominación, que pasa a ser 'Facilitar la atención residencial en las actividades sociosanitarias en instituciones'.",
+  "Atención a la asimetría: varias UC antiguas distintas convergen en el mismo ECP (UC0249_2 y UC1016_2 -> ambas ECP2259_2; UC0250_2 y UC1019_2 -> ambas ECP2260_2; UC0251_2 y UC1017_2 -> ambas tocan ECP2261_2). El motor no debe asumir biyección.",
+  "UC1423_2, UC1424_2 y UC1425_2 (teleasistencia) NO fueron renumeradas por el RD 151/2022: conservan el número y solo cambiaron de denominación (UC1423_2 'Gestionar las llamadas y alarmas entrantes en el servicio de teleasistencia', UC1424_2 'Gestionar las llamadas salientes del servicio de teleasistencia', UC1425_2 'Aplicar herramientas telemáticas y habilidades sociales para la prestación del servicio de teleasistencia'). Con el RD 532/2025 pasan a ECP1423_2, ECP1424_2 y ECP1425_2.",
+  "Vigencia bajo el nuevo catálogo: los tres certificados SIGUEN VIGENTES con los mismos códigos y la misma estructura. RD 659/2023, DT 1a.1: 'Hasta tanto no se proceda reglamentariamente a su modificación, permanecerá vigente la ordenación de los certificados de profesionalidad recogida en cada uno de los reales decretos por los que se establecen y su oferta quedará integrada en los grados C del Sistema de Formación Profesional con la denominación de certificados profesionales.' Comprobadas hoy (29/09/2026) las 'Referencias posteriores' del BOE de ambos RD: no hay ninguna norma que los sustituya.",
+  "El RD 86/2026, de 11 de febrero (BOE-A-2026-3210) deroga el RD 1697/2011 ÚNICAMENTE en lo que afecta al certificado SSCE0110 'Docencia de la formación profesional para el empleo', 'manteniendo su vigencia en lo que respecta al resto de' certificados. SSCG0111 no resulta afectado.",
+  "El módulo de prácticas profesionales no laborales (MP0028, MP0029, MP0416) se incluye aquí por completitud, con 'uc': null porque no está asociado a ninguna UC. Según el RD 659/2023, DT 1a.3, una vez agotado el periodo transitorio de la DT 6a este módulo será suprimido y sus horas se repartirán proporcionalmente entre los restantes módulos profesionales, manteniendo la duración total.",
+  "UF0126: el texto original de 2008 tenía una incoherencia interna (la tabla resumen del anexo I decía 40 h y la ficha detallada de la UF decía 30 h). El RD 721/2011, DF 2a, apartado Uno, la resolvió expresamente 'sustituyendo en la unidad formativa «UF0126 Mantenimiento, limpieza y organización del domicilio de personas dependientes» la duración de las horas de impartición de 30 por la duración de 40 horas'. Valor vigente: 40 h. Cuadra además con MF0251_2 = 100 h (60+40).",
+  "Discrepancia menor de denominación: la tabla de 'Prescripción de los formadores' del RD 721/2011 llama al MF0251_2 'Atención domiciliaria y alimentación familiar', mientras que el anexo I del RD 1379/2008 y la ficha del SEPE lo llaman 'Apoyo domiciliario y alimentación familiar'. Se ha conservado esta última. Regla general aplicable (normativa-general.md, R7): si hay discrepancia de denominación, prevalece el código.",
+  "El RD 625/2013 (DF 4a) y el RD 189/2013 solo modifican los apartados III (espacios/equipamientos) y IV (prescripción de formadores) de los anexos. NO alteran la estructura MF/UF ni las horas.",
+  "Comprobación de horas (cuadran con las fichas oficiales del SEPE): SSCS0108 = 170+210+100 = 480 h de MF + 120 h de MP = 600 h. SSCS0208 = 100+70+70+130 = 370 h de MF + 80 h de MP = 450 h. SSCG0111 = 90+60+80 = 230 h de MF + 80 h de MP = 310 h.",
+  "Cuidado con las fichas del SEPE: incluyen una columna adicional con las horas del MF de la CUALIFICACIÓN (CNCP), que son mayores que las del MF del certificado (p. ej. 230 h frente a 170 h en MF0249_2). Para convalidaciones deben usarse las horas del certificado.",
+  "Laguna literal detectada: el art. 6.3 del RD 1085/2020 solo menciona, como documento b), el 'Certificado de Profesionalidad' completo, sin citar la acreditación parcial acumulable. La habilitación de esta última está en la DA 1a.2 del RD 34/2008 (norma especial y expresa) y, hoy, en los arts. 137.9 y 145 del RD 659/2023. El Anexo VIII del Decreto 91/2024 de Aragón reproduce la redacción del RD 1085/2020 y tampoco menciona expresamente la acreditación parcial acumulable. Recomendación para el motor: aceptar el MF, pero advertir al usuario de que debe aportar el documento oficial de la Administración laboral y de que el centro puede requerirlo expresamente.",
+  "El RD 34/2008 está DEROGADO por la DD única.1 del RD 659/2023 (salvo su anexo IV), pero sigue siendo el régimen aplicable a las acreditaciones expedidas a su amparo, que el art. 127.b.3o del RD 659/2023 sigue reconociendo nominalmente y que la DA 10a declara equivalentes a los certificados profesionales del mismo nivel.",
+  "Efecto en la nota: la convalidación por certificado de profesionalidad/profesional o por UC acreditada se registra como 'Convalidado' y computa como 5 (RD 659/2023, arts. 127.b.3o y 128.1). En Aragón, 'CV-5' (Decreto 91/2024, Anexo VIII, ap. 19 y 24).",
+  "Comprobado el 29/09/2026 que las normas que actualizan el anexo I del RD 532/2025 NO afectan a los ECP aquí citados: la Orden EFD/206/2026 (BOE-A-2026-5872) no contiene ningún ECP de la familia Servicios Socioculturales y a la Comunidad; la Orden EFD/374/2026 (BOE-A-2026-8957) solo toca los ECP1330_1, ECP1331_1, ECP1332_1 y ECP1750_3; y el RD 636/2026 (BOE-A-2026-16551) no toca ninguno de los ECP2259_2, ECP2260_2, ECP2261_2, ECP2262_2, ECP1018_2, ECP1423_2, ECP1424_2 ni ECP1425_2.",
+  "Formato de 'uc_vigente': se usan los códigos con prefijo UC (UC2259_2, UC1018_2...), que son los que emplea el Anexo V A del RD 1593/2011 en la redacción del RD 499/2024 y los que ya usa data/uc_a_modulos de la herramienta. Desde el RD 532/2025 el código oficial vigente es el mismo número con prefijo ECP (ECP2259_2, ECP1018_2...): UCxxxx_n y ECPxxxx_n designan el mismo estándar. El motor debe normalizar ambos prefijos antes de comparar.",
+  "Señal favorable en Aragón: la Resolución de 14/07/2026 (matrícula a efectos de convalidación, curso 2026/27) admite entre los requisitos de acceso a ese procedimiento el 'tener un certificado de profesionalidad o MÓDULOS FORMATIVOS ACREDITADOS en Aragón'. Es decir, la propia Administración aragonesa contempla expresamente los módulos formativos acreditados como vía de entrada al procedimiento de convalidación, no solo el certificado completo. Dato tomado de research/normativa-general.md, punto 7 (verificado en la consulta previa de 20/09/2026), no releído hoy en la fuente original.",
+  "Base literal de la equivalencia UCxxxx_n = ECPxxxx_n. RD 532/2025, art. 5.1: 'Los estándares de competencias profesionales mantendrán la denominación, el nivel, los medios de producción, la información utilizada y generada, y el código numérico de cuatro dígitos que tuvieran las respectivas unidades de competencia de las que derivan, con la salvedad de que irán encabezados por la sigla «ECP», en lugar de «UC», de acuerdo con lo establecido en el anexo I.' Su art. 5.2 añade que las «Realizaciones Profesionales» (RP) y los «Criterios de Realización» (CR) pasan a llamarse «Elementos de la Competencia» (EC) e «Indicadores de Calidad» (IC). Ojo: esta regla de mero cambio de prefijo NO se aplica a las UC que ya habían sido SUPRIMIDAS y sustituidas por otras con numeración distinta (RD 151/2022), como UC0249_2 -> UC/ECP2259_2; para esas hay que pasar primero por la tabla de correspondencia.",
+  "Cómo se está construyendo el nuevo catálogo (comprobado el 29/09/2026): los 'certificados profesionales' del RD 659/2023 se aprueban UNO A UNO por real decreto, con la fórmula 'por el que se establece el Certificado profesional en X, de la familia profesional Y, se fija su currículo y las ofertas de grados B y A incluidas en este certificado profesional'. Ejemplos localizados: RD 1/2026, RD 3/2026 y RD 4/2026 (BOE 13/01/2026); RD 86/2026 (Habilitación para la docencia, familia Servicios Socioculturales y a la Comunidad) y RD 87/2026 (BOE 12/02/2026); RD 488/2026 (Procedimientos y técnicas de micropigmentación, familia Imagen Personal), RD 489/2026 y RD 490/2026 (BOE 19/06/2026). NINGUNO de ellos sustituye a SSCS0108, SSCS0208 ni SSCG0111: el único de la familia SSC es el de docencia (antiguo SSCE0110). Mientras no se publique el suyo, los tres certificados de este fichero siguen rigiéndose por su RD original en virtud de la DT 1a del RD 659/2023.",
+  "TCAE / SAN669_2: NO EXISTE ningún certificado de profesionalidad ni certificado profesional. SAN669_2 'Cuidados auxiliares sanitarios' es solo una CUALIFICACIÓN del CNCP (RD 1790/2011, de 16 de diciembre, BOE-A-2012-809), que no registra ninguna 'Referencia posterior' en el BOE: nunca se desarrolló como certificado. La familia profesional Sanidad solo tiene tres certificados en todo el Repertorio del RD 34/2008: 'Atención sanitaria a múltiples víctimas y catástrofes' y 'Transporte sanitario' (RD 710/2011, BOE-A-2011-11215) y 'Tanatopraxia' (RD 1535/2011, BOE-A-2011-19240), ninguno referido a SAN669_2. Tampoco hay certificado profesional nuevo de familia Sanidad a 29/09/2026. CUIDADO: hay academias que anuncian 'SAN669_2, 900 horas' como si fuera un certificado; son los módulos formativos de la cualificación en INCUAL, no un certificado. El motor NO debe aceptar 'certificado de TCAE' como aportación.",
+  "CORRECCIÓN DE CÓDIGOS SUPUESTOS EN EL ENCARGO (familia Imagen Personal): IMPP0108 NO es 'Servicios estéticos de higiene, depilación y maquillaje', sino 'Cuidados estéticos de manos y pies' (cualificación IMP121_2). El de higiene/depilación/maquillaje (IMP120_2) es IMPP0208. Además: IMPE0108 es 'Servicios auxiliares de estética' (nivel 1, RD 1379/2009) y no corresponde a IMP120_2 ni a IMP121_2; y 'Maquillaje integral' es IMPE0209 (nivel 3, RD 716/2011), cuya cualificación de referencia es IMP024_3, NO IMP121_2.",
+  "CORRECCIÓN DE CÓDIGOS SUPUESTOS EN EL ENCARGO (familia Informática): IFCT0410 es 'Administración y diseño de redes departamentales' (nivel 3) e IFCT0510 es 'Gestión de sistemas informáticos' (nivel 3); ninguno de los dos corresponde a IFC299_2 ni a IFC300_2. Los correctos son IFCT0110 'Operación de redes departamentales' (IFC299_2) e IFCT0210 'Operación de sistemas informáticos' (IFC300_2), ambos del RD 1531/2011. IFCT0209 e IFCT0309 sí eran correctos y están en el RD 686/2011.",
+  "AVISO DE PARSEO del RD 686/2011: su artículo 2 enumera los anexos en un orden DISTINTO al de los anexos realmente publicados. El orden real es: anexo I = IFCT0209; anexo II = IFCT0309; anexo III = IFCT0109 (Seguridad informática); IV = IFCT0409; V = IFCT0509; VI = IFCT0609.",
+  "UC renumeradas en las familias IMP, IFC y AFD (RD 532/2025, anexos II-a y II-b, sobre la actualización del RD 1024/2024 para Imagen Personal): UC0345_1 -> ECP2583_1; UC0356_2 -> ECP0354_2; UC0357_2 y UC0359_2 -> ambas al mismo ECP2826_2 ('Además, debe tener acreditada la UC0359_2' / 'la UC0357_2', es decir hacen falta las dos); UC0956_2 -> ECP2688_2 (al que también converge la UC0960_2). TODAS las demás UC de IMPP0108, IMPP0208, IMPP0308, IFCT0209, IFCT0309, IFCT0210, IFCT0110 y AFDA0111 conservan su número y solo cambian el prefijo UC->ECP; por eso su 'uc_vigente' va vacío.",
+  "Convergencia a vigilar: la UC0356_2 del IMPP0108 pasa a ECP0354_2, que es exactamente el estándar al que corresponde la UC0354_2 del IMPP0208. Es decir, MF0356_2 (de un certificado) y MF0354_2 (del otro) acreditan hoy el MISMO estándar. El motor no debe asumir biyección MF<->ECP entre certificados distintos.",
+  "ERRATAS DEL BOE en el RD 1373/2008 (apartado III de los anexos), verificadas una a una; al parsear hay que corregirlas: la cabecera del MF0065_2 dice 'Asociado a la Unidad de Competencia: UC0345_1 Mejorar la armonía del rostro con estilos de maquillaje social' cuando la UC correcta es UC0065_2; la del MF0352_2 dice 'UC0352_1' cuando debe ser UC0352_2; y la del MF0062_3 dice 'UC0000_3: Aplicar cosmética termales los tratamientos hidrotermales' cuando debe ser UC0062_3. En los tres casos la denominación es correcta y solo falla el código, al revés que la regla general (prevalece el código): aquí prevalece el apartado I del anexo.",
+  "El anexo II del RD 1076/2012 escribe el código del certificado en minúsculas ('afdA0111'); el código correcto es AFDA0111.",
+  "AFDA0111: el BOE dice 'Duración de la formación asociada: 750 horas'. Muchas fuentes secundarias dicen 630 h, que es la suma de los MF SIN el módulo de prácticas MP0364 (120 h). Usar 750.",
+  "Modificaciones posteriores comprobadas que NO alteran horas ni estructura MF/UF: RD 1675/2010, RD 716/2011 y RD 189/2013 sobre el RD 1373/2008 (solo formadores, contenidos del MF0352_2, espacios y supresión de la formación a distancia); RD 189/2013 y RD 628/2013 sobre los RD 686/2011 y RD 1531/2011 (solo espacios y formadores); RD 189/2013 sobre el RD 1076/2012. Todos los certificados de este fichero siguen VIGENTES a 29/09/2026.",
+  "Oferta PARALELA (no sustitutiva) en Informática: el RD 207/2025, de 18 de marzo (BOE-A-2025-6797), regula los grados A, B y C de las familias Administración y Gestión, Agraria, Informática y Comunicaciones y Madera, Mueble y Corcho, y crea certificados profesionales de Grado C derivados de los TÍTULOS de FP (códigos del tipo IFC_C_001_4B, IFC_C_002_4B, IFC_C_003_4B a partir del título de Técnico en Sistemas Microinformáticos y Redes, e IFC_C_001_3B, IFC_C_002_3B, IFC_C_003_3B a partir del Título Profesional Básico). Verificado: ese RD NO contiene disposición derogatoria alguna y NO menciona IFCT0209, IFCT0309, IFCT0110 ni IFCT0210. Son ofertas paralelas que conviven con los certificados antiguos."
+ ],
+ "no_verificado": [
+  "Certificados de profesionalidad de la familia IMP (estética) asociados a las cualificaciones IMP120_2 e IMP121_2: pendiente de verificación.",
+  "Certificados de profesionalidad de la familia IFC asociados a las cualificaciones IFC078_2, IFC298_2, IFC299_2 e IFC300_2: pendiente de verificación.",
+  "Certificados asociados a IMP023_3 (Hidrotermal) y AFD511_3 (Termalismo): pendiente de verificación.",
+  "Certificado asociado a SAN669_2 (TCAE): pendiente de verificación.",
+  "No se ha cotejado la corrección de errores del RD 532/2025 (BOE-A-2025-23619, de 22/11/2025); solo se ha leído el texto original del RD 532/2025.",
+  "No se ha comprobado si alguna comunidad autónoma distinta de Aragón admite expresamente la certificación de MF superados como documento de convalidación.",
+  "Barrido del BOE 2026 en busca de nuevos certificados profesionales: se han identificado y leído los títulos de ocho reales decretos de 2026 (RD 1/2026, 3/2026, 4/2026, 86/2026, 87/2026, 488/2026, 489/2026, 490/2026), pero NO se ha hecho un barrido día a día y exhaustivo del BOE de 2025-2026, por lo que podrían existir otros certificados profesionales no detectados. Sí se han comprobado las 'Referencias posteriores' del BOE del RD 1379/2008 y del RD 1697/2011, que no registran ninguna sustitución.",
+  "Correspondencia concreta entre los certificados antiguos (IFCT0209, IFCT0309, IFCT0110, IFCT0210, IMPP0108, IMPP0208, IMPP0308, AFDA0111) y los nuevos códigos de Grado C del RD 207/2025 (IFC_C_xxx) u otros: NO está enunciada en ningún BOE localizado. Habría que cotejar los anexos del RD 207/2025 módulo a módulo.",
+  "No se ha comprobado si existen RD hermanos del RD 207/2025 (misma fecha, 18/03/2025) para las familias Imagen Personal, Sanidad y Actividades Físicas y Deportivas.",
+  "No se han leído el RD 1087/2005 (que establece IMP120_2 e IMP121_2), el RD 615/2020 ni el RD 1024/2024 completos; por tanto no se ha verificado si las cualificaciones IMP120_2 e IMP121_2 fueron modificadas en su contenido después de 2008, más allá de las renumeraciones de UC ya recogidas.",
+  "No se ha consultado la Orden EFD/206/2026 en detalle más allá de comprobar que no contiene ECP de la familia Servicios Socioculturales y a la Comunidad."
+ ]
+};
