@@ -1,0 +1,61 @@
+{
+ "centro": "IES Ejemplo",
+ "membrete": "",
+ "localidad": "",
+ "director": "",
+ "fecha_res": "",
+ "dni": "",
+ "curso": "2025-2026",
+ "alumno": "Ejemplo · SMR plan LOE",
+ "ciclo": "smr",
+ "ambito": "loe",
+ "notas": "Certificado IFCT0209 Sistemas microinformáticos completo, FOL de otro ciclo LOE y 18 meses de experiencia. MF0222_2 no convalida por sí solo: su UC va emparejada con otra.",
+ "aportaciones": [
+  {
+   "tipo": "mf",
+   "codigo": "MF0219_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0220_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0221_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0222_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "modulo_loe",
+   "codigo": "0218",
+   "nombre": "Formación y orientación laboral",
+   "titulo": "Técnico en APSD (LOE)",
+   "docs": [
+    "cert_academica"
+   ]
+  },
+  {
+   "tipo": "experiencia",
+   "meses": 18,
+   "relacionada": true,
+   "docs": [
+    "vida_laboral",
+    "contrato_empresa"
+   ]
+  }
+ ]
+}

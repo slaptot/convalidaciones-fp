@@ -1,0 +1,96 @@
+{
+ "centro": "IES Ejemplo",
+ "membrete": "",
+ "localidad": "",
+ "director": "",
+ "fecha_res": "",
+ "dni": "",
+ "curso": "2025-2026",
+ "alumno": "Ejemplo · Termalismo plan LOE",
+ "ciclo": "termalismo",
+ "ambito": "loe",
+ "notas": "Certificados IMPP0308 Hidrotermal y AFDA0111 Fitness acuático completos, FOL de otro ciclo LOE y 24 meses de experiencia. Combina certificados de dos familias profesionales.",
+ "aportaciones": [
+  {
+   "tipo": "mf",
+   "codigo": "MF1260_3",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0061_3",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0062_3",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0063_3",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0273_3",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF1663_3",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF1664_3",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF1665_3",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0272_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "modulo_loe",
+   "codigo": "0218",
+   "nombre": "Formación y orientación laboral",
+   "titulo": "Técnico en APSD (LOE)",
+   "docs": [
+    "cert_academica"
+   ]
+  },
+  {
+   "tipo": "experiencia",
+   "meses": 24,
+   "relacionada": true,
+   "docs": [
+    "vida_laboral",
+    "contrato_empresa"
+   ]
+  }
+ ]
+}

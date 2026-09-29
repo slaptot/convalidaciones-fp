@@ -1,0 +1,96 @@
+{
+ "centro": "IES Ejemplo",
+ "membrete": "",
+ "localidad": "",
+ "director": "",
+ "fecha_res": "",
+ "dni": "",
+ "curso": "2025-2026",
+ "alumno": "Ejemplo · Estética y Belleza plan LOE",
+ "ciclo": "estetica",
+ "ambito": "loe",
+ "notas": "Certificados IMPP0208 e IMPP0108 completos, EIE de otro ciclo LOE y 14 meses de experiencia. 0635 y 0639 no caen: falta UC2297_2 (depilación avanzada), de otra cualificación.",
+ "aportaciones": [
+  {
+   "tipo": "mf",
+   "codigo": "MF0354_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0355_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0345_1",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0065_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0352_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0356_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0357_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0358_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0359_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "modulo_loe",
+   "codigo": "0219",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "titulo": "Técnico en APSD (LOE)",
+   "docs": [
+    "cert_academica"
+   ]
+  },
+  {
+   "tipo": "experiencia",
+   "meses": 14,
+   "relacionada": true,
+   "docs": [
+    "vida_laboral",
+    "contrato_empresa"
+   ]
+  }
+ ]
+}

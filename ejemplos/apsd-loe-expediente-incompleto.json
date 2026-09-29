@@ -1,0 +1,52 @@
+{
+ "centro": "IES Ejemplo",
+ "membrete": "",
+ "localidad": "",
+ "director": "",
+ "fecha_res": "",
+ "dni": "",
+ "curso": "2025-2026",
+ "alumno": "Ejemplo · APSD plan LOE, expediente incompleto",
+ "ciclo": "apsd",
+ "ambito": "loe",
+ "notas": "Certificado SSCS0108 (domicilio) completo, FOL de un ciclo LOGSE sin certificado de PRL y 8 meses de experiencia. Sirve para ver los avisos de documentación que falta y la exención parcial.",
+ "aportaciones": [
+  {
+   "tipo": "mf",
+   "codigo": "MF0249_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0250_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "mf",
+   "codigo": "MF0251_2",
+   "docs": [
+    "cert_profesionalidad"
+   ]
+  },
+  {
+   "tipo": "modulo_logse",
+   "titulo": "Cualquier ciclo LOGSE",
+   "modulo": "Formación y orientación laboral",
+   "docs": [
+    "cert_academica"
+   ]
+  },
+  {
+   "tipo": "experiencia",
+   "meses": 8,
+   "relacionada": true,
+   "docs": [
+    "vida_laboral"
+   ]
+  }
+ ]
+}
