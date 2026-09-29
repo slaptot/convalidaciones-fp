@@ -489,7 +489,7 @@ window.CICLOS["san202"] = {
    "origen_titulo": "Técnico en Farmacia (LOGSE, RD 547/1995)",
    "origen_modulo": [
     "Realización de análisis clínicos elementales bajo la supervisión del facultativo",
-    "Promoción de la salud y apoyo psicológico a las personas (AMBOS en la misma celda: hacen falta los dos)"
+    "Promoción de la salud y apoyo psicológico a las personas"
    ],
    "destino_modulos": [
     "0105"
@@ -520,7 +520,7 @@ window.CICLOS["san202"] = {
    "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
    "origen_modulo": [
     "Recogida, preparación y conservación de muestras biológicas",
-    "Fundamentos y técnicas de análisis bioquímico (AMBOS en la misma celda: hacen falta los dos)"
+    "Fundamentos y técnicas de análisis bioquímico"
    ],
    "destino_modulos": [
     "0103"

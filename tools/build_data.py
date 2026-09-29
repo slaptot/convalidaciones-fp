@@ -89,7 +89,9 @@ def split_convalidaciones(d, codigos_ciclo, plan):
                         "origen_titulo": f["origen_titulo"], "destino_modulos": destinos,
                         "fuente": f["fuente"]})
         else:
-            origen = [s.strip() for s in re.split(r"\s\+\s", re.sub(r"\s*\(se requieren.*\)$", "", f["origen_modulo"]))]
+            # Las tablas añaden coletillas del tipo "(hacen falta los dos)": no son parte del nombre
+            limpio = re.sub(r"\s*\((?:se requieren|hacen falta|ambos|los dos|simult[áa]ne)[^)]*\)\s*$", "", f["origen_modulo"], flags=re.I)
+            origen = [x.strip() for x in re.split(r"\s\+\s", limpio)]
             anteriores.append({"origen_titulo": f["origen_titulo"], "origen_modulo": origen,
                                "destino_modulos": destinos, "fuente": f["fuente"]})
     # Unifica filas LOE con el mismo módulo de origen y destino

@@ -473,7 +473,7 @@ window.CICLOS["tcae"] = {
    "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
    "origen_modulo": [
     "Exploración bucodental",
-    "Prevención bucodental (hacen falta los dos)"
+    "Prevención bucodental"
    ],
    "destino_modulos": [
     "TCAE-04"

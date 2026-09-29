@@ -569,7 +569,7 @@ window.CICLOS["peluqueria"] = {
    "origen_titulo": "Técnico en Peluquería (LOGSE, RD 629/1995)",
    "origen_modulo": [
     "Anatomía y fisiología humanas básicas",
-    "Higiene, desinfección y esterilización aplicadas a peluquería (los dos módulos en la misma celda: hacen falta ambos)"
+    "Higiene, desinfección y esterilización aplicadas a peluquería"
    ],
    "destino_modulos": [
     "0640"

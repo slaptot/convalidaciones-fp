@@ -496,7 +496,7 @@ window.CICLOS["smr"] = {
    "origen_titulo": "Técnico en Explotación de Sistemas Informáticos (RD 497/2003, de 2 de mayo)",
    "origen_modulo": [
     "Implantación y Mantenimiento de Aplicaciones Ofimáticas y Corporativas",
-    "Operaciones con bases de datos ofimáticas y corporativas (ambos, según el RD 1085/2020; el anexo IV original del RD 1691/2007 solo exigía el primero)"
+    "Operaciones con bases de datos ofimáticas y corporativas"
    ],
    "destino_modulos": [
     "0223"
