@@ -40,6 +40,8 @@
   const ciclo = () => CICLOS[state.ciclo];
   // Algunos códigos vienen con aclaraciones entre paréntesis: para mostrar basta el código
   const codigoCiclo = (c) => (c.ciclo.codigo || '').split(/[\s(]/)[0];
+  // Un módulo puede llamarse distinto según el plan de estudios
+  const nombreModulo = (m, amb) => (m.nombres && m.nombres[amb]) || m.nombre;
 
   // ---------- Formulario de expediente ----------
   function pintarCabecera() {
@@ -294,7 +296,7 @@
           : '';
         return `<tr class="${mejor ? 'con' : ''}">
           <td class="cod">${h(m.codigo)}</td>
-          <td>${h(m.nombre)}${horas ? `<div class="sub">${horas} h${curso ? ` · ${curso}º curso` : ''}</div>` : ''}${m.nota && !horas ? `<div class="sub">${h(m.nota)}</div>` : ''}</td>
+          <td>${h(nombreModulo(m, amb))}${horas ? `<div class="sub">${horas} h${curso ? ` · ${curso}º curso` : ''}</div>` : ''}${m.nota && !horas ? `<div class="sub">${h(m.nota)}</div>` : ''}</td>
           <td><span class="badge ${est.cls}">${est.txt}</span></td>
           <td>${mejor ? `${h(mejor.motivo)}<div class="sub"><b>Resuelve:</b> ${h(mejor.resuelve)} · <b>Nota:</b> ${h(mejor.calificacion)}</div><div class="sub">${h(mejor.fundamento)}</div>${mejor.aviso ? `<div class="sub aviso">⚠ ${h(mejor.aviso)}</div>` : ''}${alt}` : bloqueo ? `<span class="sub">${h(bloqueo)}</span>` : ''}</td>
           <td>${mejor ? (mejor.faltan.length ? `<ul class="faltan">${mejor.faltan.map((d) => `<li>${h(N.documentos[d] || d)}</li>`).join('')}</ul>` : '<span class="ok-txt">Completa</span>') : ''}</td>
@@ -340,7 +342,7 @@
     const cuerpo = conv.length
       ? conv.map(({ modulo: m }) => `<tr>
           <td class="cod">${h(m.codigo)}</td>
-          <td>${h(m.nombre)}</td>
+          <td>${h(nombreModulo(m, amb))}</td>
           <td class="num">${m.curso[amb] || ''}</td>
           <td></td>
         </tr>`).join('')
@@ -426,7 +428,7 @@
       const horas = m.horas[amb];
       return `<tr class="${mejor ? 'r-si' : 'r-no'}">
         <td class="cod">${h(m.codigo)}</td>
-        <td>${h(m.nombre)}</td>
+        <td>${h(nombreModulo(m, amb))}</td>
         <td class="num">${horas || '—'}</td>
         <td>${h(estado)}</td>
         <td>${mejor ? h(mejor.motivo) : bloqueo ? h(bloqueo) : '—'}</td>
@@ -509,7 +511,7 @@
     const meses = exp.filter((a) => a.relacionada).reduce((s, a) => s + (a.meses || 0), 0);
     const total = mejor && mejor.estado === 'exento';
     const nombreMod = fila
-      ? `${fila.modulo.codigo === 'FE' ? '' : `${fila.modulo.codigo} `}${fila.modulo.nombre}`
+      ? `${fila.modulo.codigo === 'FE' ? '' : `${fila.modulo.codigo} `}${nombreModulo(fila.modulo, amb)}`
       : 'periodo de formación en empresa u organismo equiparado';
     const docs = [...new Set(exp.flatMap((a) => a.docs))];
 

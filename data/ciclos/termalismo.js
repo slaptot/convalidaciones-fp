@@ -198,6 +198,9 @@ window.CICLOS["termalismo"] = {
   {
    "codigo": "1647",
    "nombre": "Proyecto intermodular de Termalismo y bienestar",
+   "nombres": {
+    "loe": "Proyecto de Termalismo y bienestar"
+   },
    "tipo": "proyecto",
    "comun": "proyecto",
    "horas": {
@@ -215,6 +218,9 @@ window.CICLOS["termalismo"] = {
   {
    "codigo": "0179",
    "nombre": "Inglés profesional (GS)",
+   "nombres": {
+    "loe": "Inglés"
+   },
    "tipo": "comun",
    "comun": "ingles",
    "horas": {

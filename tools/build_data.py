@@ -54,6 +54,8 @@ def modulos(d, cfg):
         out.append({
             "codigo": cod,
             "nombre": m["nombre"],
+            # Denominaciones propias de un plan (el RD 500/2024 renombró módulos)
+            **({"nombres": cfg["nombres"][cod]} if cod in cfg.get("nombres", {}) else {}),
             "tipo": m["tipo"],
             "comun": COMUNES.get(cod, "tutoria" if cod.startswith("A99") else m["tipo"]),
             "horas": {"aragon": ha, "mefp": hm, "loe": hl},
@@ -160,6 +162,11 @@ build("apsd", "apsd.json", {
 })
 
 build("termalismo", "termalismo.json", {
+    # RD 500/2024: "Proyecto" pasó a "Proyecto intermodular" y "Inglés" a "Inglés Profesional (GS)"
+    "nombres": {
+        "1647": {"loe": "Proyecto de Termalismo y bienestar"},
+        "0179": {"loe": "Inglés"},
+    },
     "loe": lambda m: ((m.get("horas_otras") or {}).get("Aragon_Orden_ECD_993_2021_LOE"), None),
     "aragon": _termalismo_aragon,
     "mefp": lambda m: (m.get("horas"), m.get("curso")),
