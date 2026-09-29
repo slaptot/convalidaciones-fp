@@ -18,6 +18,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Imagen para el Diagnóstico y Medicina Nuclear | SAN305 | Superior | LO 3/2022 |
 | Laboratorio Clínico y Biomédico | SAN306 | Superior | LO 3/2022 |
 | Prótesis Dentales | SAN308 | Superior | LO 3/2022 |
+| Radioterapia y Dosimetría | SAN309 | Superior | LO 3/2022 |
 | Documentación y Administración Sanitarias | SAN303 | Superior | LO 3/2022 |
 | Termalismo y Bienestar | IMP304 | Superior | LO 3/2022 |
 
