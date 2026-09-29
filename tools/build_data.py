@@ -262,6 +262,14 @@ build("san309", "san309.json", {
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
 })
 
+build("imp302", "imp302.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+    # RD 532/2025: UC0067_3 se desdobla en dos estándares de micropigmentación
+    "equivalencias": {"UC0067_3": ["UC2670_3", "UC2671_3"]},
+})
+
 build("fpb_peluqueria_estetica", "fpb-peluqueria-estetica.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -374,4 +382,4 @@ def build_catalogo(ya_cargados):
 
 
 build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108",
-                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309"])
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IMP302"])
