@@ -20,6 +20,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Prótesis Dentales | SAN308 | Superior | LO 3/2022 |
 | Radioterapia y Dosimetría | SAN309 | Superior | LO 3/2022 |
 | Documentación y Administración Sanitarias | SAN303 | Superior | LO 3/2022 |
+| Administración de Sistemas Informáticos en Red | IFC301 | Superior | LO 3/2022 |
 | Estética Integral y Bienestar | IMP302 | Superior | LO 3/2022 |
 | Estilismo y Dirección de Peluquería | IMP303 | Superior | LO 3/2022 |
 | Actividades Domésticas y Limpieza de Edificios | FPB128 | Básico | LO 3/2022 |
