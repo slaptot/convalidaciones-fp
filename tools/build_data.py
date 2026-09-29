@@ -170,6 +170,7 @@ build("termalismo", "termalismo.json", {
 })
 
 build("smr", "smr.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
     "equivalencias": {"UC0956_2": ["UC2688_2"], "UC0960_2": ["UC2688_2"]},
@@ -179,6 +180,7 @@ build("smr", "smr.json", {
 })
 
 build("estetica", "estetica.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
     # RD 1024/2024 y RD 150/2022: UC suprimidas -> vigentes

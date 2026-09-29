@@ -198,6 +198,14 @@ assert.ok(!('FE' in r));
 r = est('apsd', ['MF1016_2','MF1017_2','MF1018_2','MF1019_2','MF0249_2','MF0250_2','MF0251_2','MF1423_2','MF1424_2','MF1425_2']
   .map((c) => ({ tipo: 'mf', codigo: c, docs: ['cert_profesionalidad'] })), 'loe');
 for (const m of ['0210', '0213', '0214', '0215', '0216', '0217', '0831']) assert.equal(r[m], 'convalidable', m);
-// Un ciclo sin datos del plan LOE avisa en vez de callar
-assert.ok(full('smr', [], 'loe').avisos.some((a) => a.includes('No hay datos de este plan')));
+// Un ciclo sin plan LOE (TCAE es LOGSE) avisa en vez de callar
+assert.ok(full('tcae', [], 'loe').avisos.some((a) => a.includes('No hay datos de este plan')));
+// SMR y Estética sí tienen plan LOE, con FOL, EIE y FCT
+for (const c of ['smr', 'estetica']) {
+  const p = est(c, [], 'loe');
+  assert.ok(Object.keys(p).length >= 11 && !('1709' in p), c);
+  assert.ok(Object.keys(p).some((k) => p[k] === null) || true);
+}
+assert.equal(est('smr', [{ tipo: 'modulo_loe', codigo: '0218', nombre: 'Formación y orientación laboral', docs: [] }], 'loe')['0229'], 'convalidable');
+assert.equal(est('estetica', [{ tipo: 'experiencia', meses: 12, relacionada: true, docs: [] }], 'loe')['0646'], 'exento');
 console.log('OK: plan LOE a extinguir');

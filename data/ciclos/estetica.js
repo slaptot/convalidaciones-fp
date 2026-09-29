@@ -65,7 +65,7 @@ window.CICLOS["estetica"] = {
     "ref": "Orden EDU/1294/2011, de 13 de mayo",
     "boe": "BOE-A-2011-8907",
     "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-8907",
-    "nota": "Currículo LOE del ámbito de gestión del MEC (BOE núm. 122, de 23/05/2011). DEROGADA por la Orden EFD/657/2024."
+    "nota": "Currículo LOE (plan anterior) del ámbito de gestión del MEC (BOE núm. 122, de 23/05/2011). Su anexo II («Secuenciación y distribución horaria semanal») fija: 1.º curso 0633 190 h (6 h/sem), 0634 190 (6), 0636 135 (4), 0638 95 (3), 0640 95 (3), 0641 165 (5) y 0644 90 (3) = 960 h; 2.º curso 0635 155 (7), 0637 85 (4), 0639 155 (7), 0642 100 (5), 0643 85 (4), 0645 60 (3) y 0646 400 h (1 trimestre) = 1040 h. Total 2000 h. DEROGADA por la Orden EFD/657/2024."
    },
    {
     "ref": "Orden EFD/657/2024, de 25 de junio",
@@ -74,10 +74,10 @@ window.CICLOS["estetica"] = {
     "nota": "Currículo vigente del ámbito de gestión del MEFPD (BOE núm. 158, de 1/07/2024, págs. 75089-75282). Estética y Belleza en su ANEXO XXX (art. 5.3.w), con apartados A (distribución horaria) y B (espacios); no hay apartado C de concreciones curriculares. 30 sesiones semanales en 1.º y 31 en 2.º."
    },
    {
-    "ref": "Orden de 20 de noviembre de 2013 (Aragón)",
+    "ref": "Orden de 20 de noviembre de 2013, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
     "boe": null,
-    "url": "https://www.boa.aragon.es/",
-    "nota": "Currículo LOE de Estética y Belleza en Aragón. Derogado por la Orden ECD/842/2024."
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&PIECE=BOLE&DOCS=1-33&DOCR=2&SEC=BOA_SUMARIO&RNG=200&SEPARADOR=&PUBL=20131217",
+    "nota": "Currículo LOE (plan anterior) de Técnico en Estética y Belleza en Aragón; BOA núm. 246, de 17/12/2013. Anexo I: desarrollo de los 14 módulos con su duración (0633-0646, 2000 h). Anexos II (espacios), III A/B/C (profesorado), IV (convalidaciones LOGSE) y V A)/V B) (UC). Implantación: 1.º en 2014/15 y 2.º en 2015/16. NO contiene tabla de secuenciación por cursos ni horas semanales. Derogada por la Orden ECD/842/2024."
    },
    {
     "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
@@ -103,12 +103,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 200,
     "mefp": 170,
-    "loe": null
+    "loe": 224
    },
    "curso": {
     "aragon": 1,
     "mefp": 1,
-    "loe": null
+    "loe": 1
    },
    "nota": null
   },
@@ -120,12 +120,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 200,
     "mefp": 160,
-    "loe": null
+    "loe": 147
    },
    "curso": {
     "aragon": 1,
     "mefp": 1,
-    "loe": null
+    "loe": 2
    },
    "nota": null
   },
@@ -137,12 +137,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 100,
     "mefp": 190,
-    "loe": null
+    "loe": 224
    },
    "curso": {
     "aragon": 2,
     "mefp": 2,
-    "loe": null
+    "loe": 1
    },
    "nota": null
   },
@@ -154,12 +154,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 100,
     "mefp": 130,
-    "loe": null
+    "loe": 96
    },
    "curso": {
     "aragon": 1,
     "mefp": 1,
-    "loe": null
+    "loe": 1
    },
    "nota": null
   },
@@ -171,12 +171,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 133,
     "mefp": 120,
-    "loe": null
+    "loe": 84
    },
    "curso": {
     "aragon": 2,
     "mefp": 2,
-    "loe": null
+    "loe": 2
    },
    "nota": null
   },
@@ -188,12 +188,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 133,
     "mefp": 100,
-    "loe": null
+    "loe": 160
    },
    "curso": {
     "aragon": 1,
     "mefp": 1,
-    "loe": null
+    "loe": 1
    },
    "nota": null
   },
@@ -205,12 +205,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 200,
     "mefp": 190,
-    "loe": null
+    "loe": 126
    },
    "curso": {
     "aragon": 2,
     "mefp": 2,
-    "loe": null
+    "loe": 2
    },
    "nota": null
   },
@@ -222,12 +222,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 100,
     "mefp": 100,
-    "loe": null
+    "loe": 84
    },
    "curso": {
     "aragon": 2,
     "mefp": 1,
-    "loe": null
+    "loe": 2
    },
    "nota": null
   },
@@ -239,12 +239,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 133,
     "mefp": 130,
-    "loe": null
+    "loe": 160
    },
    "curso": {
     "aragon": 1,
     "mefp": 1,
-    "loe": null
+    "loe": 1
    },
    "nota": null
   },
@@ -256,12 +256,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 100,
     "mefp": 120,
-    "loe": null
+    "loe": 63
    },
    "curso": {
     "aragon": 2,
     "mefp": 2,
-    "loe": null
+    "loe": 2
    },
    "nota": null
   },
@@ -273,12 +273,12 @@ window.CICLOS["estetica"] = {
    "horas": {
     "aragon": 67,
     "mefp": 120,
-    "loe": null
+    "loe": 63
    },
    "curso": {
     "aragon": 2,
     "mefp": 2,
-    "loe": null
+    "loe": 2
    },
    "nota": null
   },
@@ -434,6 +434,57 @@ window.CICLOS["estetica"] = {
     "loe": null
    },
    "nota": null
+  },
+  {
+   "codigo": "0644",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "fol_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0645",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "eie_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0646",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 410
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
   }
  ],
  "convalidaciones_titulos_anteriores": [
@@ -507,6 +558,26 @@ window.CICLOS["estetica"] = {
     "0641"
    ],
    "fuente": "RD 1085/2020 anexo II, bloque Imagen Personal, grado medio (antes RD 256/2011 anexo IV, derogado)"
+  },
+  {
+   "origen_titulo": "Técnico en Estética Personal Decorativa (LOGSE, RD 630/1995)",
+   "origen_modulo": [
+    "Administración, gestión y comercialización en la pequeña empresa"
+   ],
+   "destino_modulos": [
+    "0645"
+   ],
+   "fuente": "RD 256/2011 anexo IV (derogado por el RD 1085/2020); la regla general equivalente está en el anexo II del RD 1085/2020 («Administración, gestión y comercialización en la pequeña empresa» de cualquier ciclo LOGSE → EIE de cualquier ciclo LOE). El módulo 0645 ya no existe tras el RD 499/2024"
+  },
+  {
+   "origen_titulo": "Técnico en Estética Personal Decorativa (LOGSE, RD 630/1995)",
+   "origen_modulo": [
+    "Formación en centro de trabajo del título de Técnico en Estética Personal Decorativa"
+   ],
+   "destino_modulos": [
+    "0646"
+   ],
+   "fuente": "RD 256/2011 anexo IV (derogado por el RD 1085/2020). El módulo 0646 ya no existe tras el RD 499/2024; la FCT se sustituye por el periodo de formación en empresa, cuya exención se rige por el art. 131 del RD 659/2023"
   },
   {
    "origen_titulo": "Técnico en Peluquería (LOGSE, RD 629/1995)",
@@ -718,7 +789,10 @@ window.CICLOS["estetica"] = {
   "La herramienta de Aragón (https://centrosdocentes.catedu.es/awc/public/competencias) confirma el anexo V B) vigente: 0633→ECP0355_2; 0634→ECP0065_2; 0635→ECP2297_2; 0636→ECP2826_2 (y las suprimidas ECP0357_2+ECP0359_2); 0637→ECP0358_2; 0643→ECP0352_2; 0638+0641 juntos→ECP0354_2 (y la suprimida ECP0356_2). En sentido inverso, con ECP0354_2 sola convalida 0638 y 0641 por separado, y para 0635 pide ECP0354_2 + ECP2297_2 (admitiendo ECP0345_1/ECP2583_1 como alternativa histórica). La herramienta atribuye la equivalencia ECP0356_2→ECP0354_2 al RD 615/2020; la tabla formal de esa equivalencia está en el RD 1024/2024 (anexos XVII-a/XVII-b) y se repite en el RD 532/2025 (anexos II-a/II-b).",
   "La herramienta de Aragón no reconoce los códigos 0639, 0640 y 0642 como módulos con correspondencia de competencias (no aparecen en api/tab2_modulos_superados.php?accion=obtener_modulos), lo que es coherente con que no figuren en el anexo V B).",
   "El título LOGSE de Técnico en Estética Personal Decorativa (RD 630/1995) tiene los mismos efectos académicos y profesionales que este título (DA 3.ª del RD 256/2011). La DA 2.ª del RD 499/2024 traslada a 1709 (IPE I) las referencias que la DA 3.ª hacía al módulo de FOL.",
-  "El módulo 0639 Actividades en cabina de estética y el módulo optativo son los únicos que Aragón y el MEFP sitúan en el mismo curso (2.º) con horas muy distintas (200 vs 190 y 100 vs 80). Hay además una discrepancia de curso relevante para 0640 Imagen corporal y hábitos saludables: 2.º en Aragón y 1.º en el MEFP."
+  "El módulo 0639 Actividades en cabina de estética y el módulo optativo son los únicos que Aragón y el MEFP sitúan en el mismo curso (2.º) con horas muy distintas (200 vs 190 y 100 vs 80). Hay además una discrepancia de curso relevante para 0640 Imagen corporal y hábitos saludables: 2.º en Aragón y 1.º en el MEFP.",
+  "PLAN LOE (anterior al RD 499/2024), clave 'loe' de 'horas_otras': distribución de ARAGÓN según la Orden de 20 de noviembre de 2013 (BOA núm. 246, de 17/12/2013, https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&PIECE=BOLE&DOCS=1-33&DOCR=2&SEC=BOA_SUMARIO&RNG=200&SEPARADOR=&PUBL=20131217). 1.º curso (32 semanas, 30 h/sem, 960 h): 0633 (224 h, 7 h/sem), 0635 (224, 7), 0638 (160, 5), 0641 (160, 5), 0636 (96, 3) y 0644 FOL (96, 3). 2.º curso (21 semanas lectivas a 30 h/sem = 630 h, más 0646 FCT 410 h en el 3.er trimestre; 1040 h): 0634 (147, 7), 0639 (126, 6), 0637 (84, 4), 0640 (84, 4), 0642 (63, 3), 0643 (63, 3), 0645 EIE (63, 3) y 0646 (410). Suma exacta 2000 h.",
+  "PLAN LOE, ámbito MEC/MEFP: Orden EDU/1294/2011, de 13 de mayo (BOE-A-2011-8907, BOE núm. 122 de 23/05/2011, https://www.boe.es/buscar/doc.php?id=BOE-A-2011-8907), anexo II. 1.º curso (30 h/sem, 960 h): 0633 190, 0634 190, 0641 165, 0636 135, 0638 95, 0640 95 y 0644 FOL 90. 2.º curso (30 h/sem en dos trimestres + un trimestre de FCT, 1040 h): 0635 155, 0639 155, 0642 100, 0637 85, 0643 85, 0645 EIE 60 y 0646 FCT 400. Total 2000 h. Difiere de Aragón en las horas de TODOS los módulos y en el curso de tres: 0634 Maquillaje (1.º en el MEC, 2.º en Aragón), 0635 Depilación mecánica y decoloración del vello (2.º en el MEC, 1.º en Aragón) y 0640 Imagen corporal y hábitos saludables (1.º en el MEC, 2.º en Aragón). En 'horas_otras.loe' se ha guardado la versión de ARAGÓN.",
+  "Comparación plan LOE -> plan adaptado del RD 499/2024 en Aragón: el bloque lectivo pasa de 1590 h + 410 h de FCT a 2000 h sin FCT; desaparecen 0644 FOL (96 h), 0645 EIE (63 h) y 0646 FCT (410 h) y entran 0156, 1709, 1710, 1664, 1708, 1713, el módulo optativo y las tutorías A997/A996. Cambian de horas todos los módulos técnicos 0633-0643, y 0634 y 0635 intercambian de curso respecto del plan LOE aragonés (0634 Maquillaje pasa de 2.º a 1.º y 0635 Depilación de 1.º a 2.º)."
  ],
  "no_verificado": [
   "No se ha podido consultar la ficha del título en todofp.es: la URL https://www.todofp.es/que-estudiar/loe/imagen-personal/estetica-belleza.html devuelve 404 y no se ha localizado la nueva dirección. Todos los datos proceden del BOE, del BOA y de la herramienta de competencias de Aragón.",
@@ -729,6 +803,9 @@ window.CICLOS["estetica"] = {
   "Los cursos de la tabla de Aragón se han tomado de las columnas 1.º/2.º del anexo XXII del PDF del BOA; la fila de totales del propio BOA (2000 h) no cuadra por 1 hora con la suma de las filas (1999 h).",
   "La columna «Bilingüe» del anexo XXX de la Orden EFD/657/2024 no se ha incorporado a los datos de módulos (en esa tabla 0638 Análisis estético es el único módulo técnico sin la marca «Sí»).",
   "No se ha verificado si existe alguna resolución de Aragón posterior a la Orden ECD/842/2024 que autorice oferta nocturna o a distancia de IMP202, ni la lista concreta de módulos optativos autorizados a cada centro.",
-  "No se han revisado los certificados de profesionalidad asociados a IMP120_2 e IMP121_2 ni su posible efecto en la acreditación de estándares."
+  "No se han revisado los certificados de profesionalidad asociados a IMP120_2 e IMP121_2 ni su posible efecto en la acreditación de estándares.",
+  "La Orden de 20 de noviembre de 2013 de Aragón NO incluye tabla de secuenciación por cursos ni de horas semanales (solo la duración total de cada módulo, en el anexo I). La asignación a 1.º/2.º curso y las h/semana recogidas en 'horas_otras.loe' se han tomado del folleto oficial de oferta formativa de FP de Grado Medio del Gobierno de Aragón (educa.aragon.es, «OFERTA FORMATIVA CURSO 2020/21 FORMACIÓN PROFESIONAL», https://educa.aragon.es/documents/20126/795362/folleto_FP_GM_20_21.pdf), que coincide exactamente con la única partición aritméticamente posible de las duraciones del anexo I (960 h = 32 sem x 30 h en 1.º; 630 h = 21 sem x 30 h más 410 h de FCT en 2.º). No se ha localizado la resolución o instrucción de la Dirección General de FP que fije formalmente esa secuenciación.",
+  "No se ha comprobado si hubo modificaciones o correcciones de errores de la Orden de 20 de noviembre de 2013 (Aragón) anteriores a su derogación por la Orden ECD/842/2024, ni si existió oferta a distancia o nocturna de IMP202 en el plan LOE con distribución horaria distinta (la DA 2.ª de esa orden permitía la oferta a distancia pero no fijaba horarios).",
+  "No se ha verificado la distribución horaria del plan LOE en comunidades autónomas distintas de Aragón y del ámbito de gestión del MEC/MEFPD."
  ]
 };

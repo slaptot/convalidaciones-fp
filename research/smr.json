@@ -69,8 +69,8 @@
    {
     "ref": "Orden de 26 de junio de 2009 (Aragón)",
     "boe": null,
-    "url": null,
-    "nota": "Currículo LOE de SMR en Aragón. Derogada por la disp. derogatoria única, letra ñ).1 de la Orden ECD/842/2024."
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=392142722525",
+    "nota": "Currículo LOE de SMR en Aragón (BOA núm. 135, de 15/07/2009). No contiene distribución horaria: las horas por módulo y curso las fija la Resolución de 24 de julio de 2009 (BOA núm. 152, de 07/08/2009). Modificada por la Orden de 26 de julio de 2011 (BOA de 30/08/2011, art. doce), que sustituye el módulo propio A012/A013 «Lengua extranjera del entorno profesional: inglés» por A038 y A039 «Lengua extranjera profesional: inglés 1 y 2», y por la Orden de 5 de noviembre de 2014 (BOA de 01/12/2014, art. 17, corrección de errores del anexo III-A). Derogada por la disp. derogatoria única, letra ñ).1 de la Orden ECD/842/2024."
    },
    {
     "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
@@ -101,6 +101,12 @@
     "boe": "BOE-A-2003-10467",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-10467",
     "nota": "Título anterior: Técnico en Explotación de Sistemas Informáticos. Derogado por el RD 1691/2007. Se dictó al amparo del art. 8.2 de la LO 10/2002 (LOCE) y del art. 35.1 de la LO 1/1990 (LOGSE); el RD 1085/2020 lo trata como título LOGSE. Su currículo del ámbito MEC era el RD 939/2003."
+   },
+   {
+    "ref": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=406484341414#page=14",
+    "nota": "BOA núm. 152, de 07/08/2009, pág. 20630. Regula la distribución horaria de varios ciclos en régimen presencial. Es la fuente de las horas del PLAN LOE de SMR (IFC201) en Aragón, tanto en modalidad diurna (2 cursos) como nocturna (3 cursos). Enlazada desde educa.aragon.es como «Horario LOE» de IFC201."
    }
   ]
  },
@@ -121,6 +127,11 @@
     "mefp": {
      "horas": 190,
      "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": 1,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
     }
    }
   },
@@ -140,6 +151,11 @@
     "mefp": {
      "horas": 170,
      "curso": 1
+    },
+    "loe": {
+     "horas": 160,
+     "curso": 1,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
     }
    }
   },
@@ -159,6 +175,11 @@
     "mefp": {
      "horas": 220,
      "curso": 1
+    },
+    "loe": {
+     "horas": 256,
+     "curso": 1,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
     }
    }
   },
@@ -178,6 +199,11 @@
     "mefp": {
      "horas": 220,
      "curso": 2
+    },
+    "loe": {
+     "horas": 147,
+     "curso": 2,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
     }
    }
   },
@@ -197,6 +223,11 @@
     "mefp": {
      "horas": 190,
      "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": 1,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
     }
    }
   },
@@ -216,6 +247,11 @@
     "mefp": {
      "horas": 160,
      "curso": 2
+    },
+    "loe": {
+     "horas": 105,
+     "curso": 2,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
     }
    }
   },
@@ -235,6 +271,11 @@
     "mefp": {
      "horas": 220,
      "curso": 2
+    },
+    "loe": {
+     "horas": 126,
+     "curso": 2,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
     }
    }
   },
@@ -254,6 +295,11 @@
     "mefp": {
      "horas": 160,
      "curso": 2
+    },
+    "loe": {
+     "horas": 147,
+     "curso": 2,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
     }
    }
   },
@@ -428,7 +474,13 @@
    "curso": null,
    "tipo": "comun",
    "vigente": false,
-   "horas_otras": {}
+   "horas_otras": {
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
+    }
+   }
   },
   {
    "codigo": "0230",
@@ -438,7 +490,13 @@
    "curso": null,
    "tipo": "comun",
    "vigente": false,
-   "horas_otras": {}
+   "horas_otras": {
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
+    }
+   }
   },
   {
    "codigo": "0231",
@@ -448,7 +506,30 @@
    "curso": null,
    "tipo": "empresa",
    "vigente": false,
-   "horas_otras": {}
+   "horas_otras": {
+    "loe": {
+     "horas": 410,
+     "curso": 2,
+     "fuente": "Resolución de 24 de julio de 2009, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 152, de 07/08/2009, pág. 20630), tabla de IFC201, modalidad de diurno; currículo: Orden de 26 de junio de 2009 (BOA núm. 135, de 15/07/2009)"
+    }
+   }
+  },
+  {
+   "codigo": "A013",
+   "nombre": "Lengua extranjera del entorno profesional: inglés (módulo propio de Aragón)",
+   "horas": null,
+   "horas_fuente": null,
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "nota": "Módulo propio de Aragón del plan LOE: 64 h en 1.º y 42 h en 2.º (106 h en total). Sustituido en 2011 por A038/A039. Su convalidación corresponde a la Administración educativa autonómica (RD 1085/2020 art. 8.2).",
+   "horas_otras": {
+    "loe": {
+     "horas": 106,
+     "curso": 1,
+     "fuente": "Resolución de 24/07/2009 (BOA 07/08/2009), tabla IFC201 diurno"
+    }
+   }
   }
  ],
  "convalidaciones_titulos_anteriores": [
@@ -957,7 +1038,11 @@
   "El anexo IV original del RD 1691/2007 titulaba la tabla como convalidaciones con el título de Explotación de Sistemas Informáticos «al amparo de la Ley Orgánica 10/2002»; el RD 1085/2020 lo reubica en su anexo II, entre los títulos de la LO 1/1990. El RD 497/2003 invoca ambas leyes.",
   "Desfase entre el título y el Catálogo: el artículo 6 del RD 1691/2007 sigue en su redacción de 2007 (el RD 499/2024 no lo modificó), de modo que enumera IFC078_2 «Sistemas microinformáticos», IFC298_2, IFC299_2 «Operación de redes departamentales» e IFC300_2 «Operación de sistemas informáticos» con sus UC de entonces. El Catálogo vigente (RD 545/2023, RD 917/2024 y RD 532/2025) tiene otras denominaciones y otra composición. Para convalidar hay que traducir: los anexos V A) y V B) siguen usando los códigos de 2007, que conservan su número como ECP salvo UC0956_2 → ECP2688_2.",
   "Ficha del título en todofp.es: https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/sistemas-microniformaticos-redes.html (la errata «microniformaticos» está en la URL oficial). Da 2.000 h totales, la lista de módulos vigente (coincide con la de este fichero) y el enlace al RD 499/2024, pero no publica horas por módulo ni las cualificaciones.",
-  "El RD 1085/2020 (anexo II) amplía la fila de 0223 respecto del anexo IV original: exige «Implantación y mantenimiento de aplicaciones ofimáticas y corporativas» Y «Operaciones con bases de datos ofimáticas y corporativas», y suprime la fila de EIE (que pasa al cuadro general)."
+  "El RD 1085/2020 (anexo II) amplía la fila de 0223 respecto del anexo IV original: exige «Implantación y mantenimiento de aplicaciones ofimáticas y corporativas» Y «Operaciones con bases de datos ofimáticas y corporativas», y suprime la fila de EIE (que pasa al cuadro general).",
+  "PLAN LOE de Aragón (anterior al RD 499/2024) — Resolución de 24 de julio de 2009, BOA núm. 152 de 07/08/2009, pág. 20630, modalidad de diurno, 30 h/semana en cada curso: 1.º 0221 (192 h, 6 h/sem), 0222 (160, 5), 0223 (256, 8), 0225 (192, 6), 0229 FOL (96, 3) y A013/UFA013_12 (64, 2) = 960 h; 2.º 0224 (147, 7), 0226 (105, 5), 0227 (126, 6), 0228 (147, 7), 0230 EIE (63, 3), A013/UFA013_22 (42, 2) y 0231 FCT (410 h, sin horas semanales) = 1.040 h. Total 2.000 h. Estas horas son las de la clave «loe» de cada módulo.",
+  "PLAN LOE del ámbito MEC/MEFP (anterior a la Orden EFD/657/2024) — Orden EDU/2187/2009, de 3 de julio, anexo II «Secuenciación y distribución horaria semanal» (BOE-A-2009-13252, BOE de 05/08/2009), https://www.boe.es/buscar/act.php?id=BOE-A-2009-13252: 1.º (30 h/sem) 0221 (235 h, 7), 0222 (155, 5), 0223 (235, 8), 0229 FOL (90, 3) y 0225 (235, 7) = 950 h; 2.º (30 h/sem en 2 trimestres) 0226 (140, 6), 0227 (170, 8), 0228 (100, 5), 0224 (180, 8) y 0230 EIE (60, 3) = 650 h, más 0231 FCT (400 h en el tercer trimestre) = 1.050 h. Total 2.000 h. Difiere del de Aragón en todos los módulos; en «loe» se ha puesto el de Aragón.",
+  "El plan LOE de Aragón incluía un módulo propio de inglés que no figura en la lista de «modulos» de este fichero: A013 «Lengua extranjera del entorno profesional: inglés», 106 h repartidas en dos unidades formativas (UFA013_12, 64 h en 1.º, y UFA013_22, 42 h en 2.º). La Orden de 26 de julio de 2011 (BOA de 30/08/2011) lo sustituyó por A038 «Lengua extranjera profesional: inglés 1» y A039 «Lengua extranjera profesional: inglés 2» (art. 17.7: superar A013 equivale a superar A038 + A039). Sin ese módulo la suma de los 11 módulos estatales del plan LOE de Aragón es 1.894 h; con él, 2.000 h. El plan LOE del MEC no tenía módulo de inglés (de ahí que el RD 499/2024 incluyera SMR en el grupo de ciclos «sin módulo de inglés previo» al añadir 0156).",
+  "El plan LOE de Aragón sí tenía tabla de horario nocturno para SMR (3 cursos, 17 + 20 + 19 h/semana), en la misma página 20630 de la Resolución de 24 de julio de 2009. No se ha volcado al JSON."
  ],
  "no_verificado": [
   "Discrepancia en la acreditación de UC0956_2/ECP2688_2: el anexo V B) del RD 1691/2007 la asocia solo al módulo 0227 (Servicios en red), mientras que la herramienta de Aragón exige 0225 + 0227. No se ha encontrado norma que justifique la exigencia añadida.",
@@ -968,6 +1053,10 @@
   "No se ha comprobado si existe una resolución de módulos optativos de Aragón posterior a la de 6/6/2025 que amplíe el catálogo para IFC201 en el curso 2026/2027.",
   "El módulo optativo no tiene código numérico estatal ni en el anexo XXXVIII del MEFP ni en el anexo XXIX de Aragón (allí figura como «Módulo profesional optativo»).",
   "La columna «Bilingüe» del anexo XXXVIII de la Orden EFD/657/2024 (marcada para 0222, 0225, 0221, 0226, 0227 y 0224) no se ha trasladado al JSON.",
-  "No se ha revisado el anexo III (profesorado) introducido por el anexo VIII del RD 499/2024 ni el anexo II (espacios y equipamientos)."
+  "No se ha revisado el anexo III (profesorado) introducido por el anexo VIII del RD 499/2024 ni el anexo II (espacios y equipamientos).",
+  "El curso asignado a 0231 (FCT) en «loe» es 2.º en ambos planes: en la tabla de Aragón la FCT figura con 410 h y guion en las dos columnas de horas semanales, y en la del MEC con 400 h en la columna «Segundo curso – 1 trimestre (horas)». Se ha deducido, no consta literalmente como «2.º curso».",
+  "No se ha localizado ninguna resolución posterior a la de 24 de julio de 2009 que actualice la distribución horaria del plan LOE de SMR en Aragón tras la sustitución de A013 por A038/A039 (Orden de 26 de julio de 2011). Se asume que A038 hereda las 64 h de 1.º y A039 las 42 h de 2.º, pero no está confirmado en norma.",
+  "El texto de la Orden de 26 de junio de 2009 (Aragón) se ha consultado en el PDF del BOA enlazado desde educa.aragon.es (MLKOB=392142722525) y, como texto consolidado, en noticias.juridicas.com; no se ha verificado el número de página exacto dentro del BOA núm. 135 de 15/07/2009.",
+  "De la Orden EDU/2187/2009 se ha usado la versión consolidada de boe.es (act.php); no se ha contrastado con el PDF original del BOE de 05/08/2009."
  ]
 }
