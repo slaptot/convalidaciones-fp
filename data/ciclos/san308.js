@@ -1,0 +1,709 @@
+// Generado por tools/build_data.py a partir de research/san308.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["san308"] = {
+ "ciclo": {
+  "codigo": "SAN308",
+  "nombre": "Técnico Superior en Prótesis Dentales",
+  "grado": "superior",
+  "familia": "Sanidad",
+  "normas": [
+   {
+    "ref": "RD 1687/2011, de 18 de noviembre",
+    "boe": "BOE-A-2011-19603",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19603",
+    "nota": "Título y enseñanzas mínimas (BOE núm. 302, de 16/12/2011; en vigor 17/12/2011). ATENCIÓN: el encargo apuntaba al «RD 1687/2007»; ese número corresponde al título de Técnico Superior en Programación de la Producción en Fabricación Mecánica. El RD del título de Prótesis Dentales es el RD 1687/2011. Deroga el RD 541/1995, de 7 de abril (título LOGSE de Técnico Superior en Prótesis Dentales) y el RD 553/1995 (su currículo). ATENCIÓN: el BOE NO publica texto consolidado de este RD (act.php devuelve vacío); hay que leer el original y aplicarle a mano el RD 1085/2020, el RD 287/2023 y el RD 500/2024."
+   },
+   {
+    "ref": "RD 287/2023, de 18 de abril",
+    "boe": "BOE-A-2023-10393",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-10393",
+    "nota": "Actualiza los títulos de Técnico en Emergencias Sanitarias, Técnico en Farmacia y Parafarmacia, Técnico Superior en Audiología Protésica y Técnico Superior en Prótesis Dentales. Su artículo quinto modifica el RD 1687/2011: (Uno) nueva redacción del art. 2 «Identificación» (Denominación: Prótesis Dentales; Nivel: FP de Grado Superior; Duración: 2000 horas; Equivalencia en créditos ECTS: 120; Familia profesional: Sanidad; Rama de conocimiento: Ciencias de la Salud; Referente CINE: P-5.5.4; Nivel del MECES: Nivel 1 Técnico Superior); (Dos) reescribe en el anexo I los módulos 0821, 0854, 0855, 0856, 0858 y 0860 (resultados de aprendizaje, criterios de evaluación y contenidos) SIN alterar sus duraciones (45, 75, 100, 145, 100 y 75 h respectivamente). No toca las convalidaciones ni los anexos V A) / V B)."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Deroga el anexo IV del RD 1687/2011. Las convalidaciones LOGSE→LOE de este título pasan a su anexo II (bloque «Sanidad», grado superior) y las LOE→LOE a su anexo III. El anexo I recoge las convalidaciones LOGSE→LOGSE, donde el ciclo antecesor (Prótesis Dentales, RD 541/1995) aparece en ambos sentidos. Modificado por la DF 1.ª del RD 500/2024 (nueva DA 6.ª y nueva tabla de EIE del anexo III)."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709/1710 (anexo V, 50 h cada uno), 1665 Digitalización (GS) (anexo VII, 30 h), 1708 Sostenibilidad (anexo VIII, 30 h) y 0179 Inglés Profesional (GS) (anexo X, 50 h). Arts. 126-128: reglas de convalidación; art. 131: exención del periodo de formación en empresa. Art. 96.1: bloques del ciclo."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de los títulos de grado superior a la LO 3/2022. Modifica del RD 1687/2011 los arts. 2, 10, 12 y 15 y los anexos I y III. GRUPO DEL ART. 1: Prótesis Dentales es el número 45.º de la letra a) del artículo primero.Dos, es decir, ciclos SIN el antiguo módulo de Inglés; por eso se le AÑADE 0179 Inglés Profesional (GS). MÓDULOS SUPRIMIDOS (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a): 0862 Formación y orientación laboral, 0863 Empresa e iniciativa emprendedora y 0864 Formación en centros de trabajo. MÓDULOS AÑADIDOS (art. cuarto.Uno.c).3.º y art. séptimo.Uno.b): 0179, 1709, 1710, 1665, 1708 y un módulo profesional optativo de 80 h de currículo básico (art. cuarto.Uno.e), nuevo art. 10.3). 0861 «Proyecto de prótesis dentales» pasa a llamarse «Proyecto intermodular de prótesis dentales» (art. cuarto.Uno.c).2.º y DA 7.ª). Art. sexto.Uno: nueva redacción íntegra del art. 15. Art. octavo.Cuarenta y cinco: nuevo anexo III (profesorado) = anexo XLVI del RD 500/2024. DA 2.ª y anexo XCI: nuevos créditos ECTS. DT única: en 2024-25 se implanta 1.º curso y 2.º sigue con la ordenación anterior."
+   },
+   {
+    "ref": "RD 500/2024 — art. 15.8 (nuevo) del RD 1687/2011",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Literal: «Quedan exceptuados de la posible exención del periodo de formación u organismo equiparado los ciclos formativos de grado superior de la familia profesional de Sanidad establecidos en los siguientes reales decretos: Real Decreto 1685/2007, de 14 de diciembre; Real Decreto 1687/2011, de 18 de noviembre; Real Decreto 905/2013, de 22 de noviembre; Real Decreto 767/2014, de 12 de septiembre; Real Decreto 768/2014, de 12 de septiembre; Real Decreto 769/2014, de 12 de septiembre; Real Decreto 770/2014, de 12 de septiembre; Real Decreto 771/2014, de 12 de septiembre y Real Decreto 772/2014, de 12 de septiembre.» Es decir, la exclusión de la exención de la formación en empresa para este ciclo es también estatal, no solo aragonesa."
+   },
+   {
+    "ref": "RD 887/2011, de 24 de junio",
+    "boe": null,
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-12833",
+    "nota": "Norma que establece la cualificación profesional SAN628_3 «Prótesis dental» (anexo DCXXVIII), única cualificación completa incluida en el título (art. 6 del RD 1687/2011). NO VERIFICADO el identificador BOE de este RD: se toma del anexo I del RD 532/2025, que cita «SAN628_3: Prótesis dental (RD 887/2011, de 24 de junio)»."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra las unidades de competencia como estándares de competencia profesional (ECP). En su anexo I, las OCHO unidades de competencia de SAN628_3 pasan de UCxxxx_3 a ECPxxxx_3 conservando número y denominación exactos (ECP2087_3 a ECP2094_3). NO hay ninguna fila de equivalencia o sustitución (anexos II-a/II-b) que afecte a este título: ninguna UC de SAN628_3 ha sido suprimida ni refundida."
+   },
+   {
+    "ref": "Orden ECD/109/2013, de 23 de enero",
+    "boe": "BOE-A-2013-1040",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-1040",
+    "nota": "Currículo LOE (plan anterior) del ámbito de gestión del MECD. Su tabla de secuenciación y distribución horaria fija: 1.º curso (30 h/sem, 960 h) 0821 80 h (3 h/sem), 0854 135 (4), 0855 175 (5), 0856 215 (7), 0858 175 (5), 0862 FOL 90 (3) y «Horario reservado para el módulo impartido en inglés» 90 (3); 2.º curso (2 trimestres a 30 h/sem = 600 h, más 1 trimestre de 440 h) 0857 180 (9), 0859 180 (9), 0860 140 (7), 0863 EIE 60 (3), «Horario reservado para el módulo impartido en inglés» 40 (2), 0864 FCT 400 y 0861 Proyecto 40. Total 2000 h. Confirma que el título NO tenía módulo de Inglés: solo un horario reservado para impartir un módulo en inglés. DEROGADA por la Orden EFD/659/2024."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito de gestión del MEFPD (BOE núm. 159, de 2/07/2024). Prótesis Dentales en su ANEXO LXXIII (art. 5.3.bn), con apartados A (secuenciación, temporalización y distribución horaria) y B (espacios, instalaciones y equipamientos mínimos); no hay apartado C. 30 sesiones semanales en cada curso. Deroga la Orden ECD/109/2013."
+   },
+   {
+    "ref": "Orden de 22 de mayo de 2013, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=740692063737",
+    "nota": "Currículo LOE (plan anterior) del título de Técnico Superior en Prótesis Dentales para la Comunidad Autónoma de Aragón; BOA núm. 126, de 28/06/2013. Derogada por la Orden ECD/843/2024."
+   },
+   {
+    "ref": "Resolución de 4 de julio de 2013, del Director General de Ordenación Académica (Aragón)",
+    "boe": null,
+    "url": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=744850123636",
+    "nota": "Regula la distribución horaria del ciclo de grado superior de Prótesis Dentales en régimen de enseñanza presencial; BOA núm. 146, de 25/07/2013, csv BOA20130725016, págs. 19251-19252. Su anexo contiene DOS tablas, modalidad DIURNO (2 cursos, 30 h/sem cada uno) y modalidad NOCTURNO (3 cursos, 18/18/20 h/sem). Aplicable desde el curso 2013/14. Es la fuente de la clave 'loe' de 'horas_otras'."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/4677256/Pr%C3%B3tesis+Dentales.pdf/2719e68b-9ba7-6fae-0f79-14d5fd56f2e0",
+    "nota": "Currículo vigente de Aragón para los ciclos de grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004). Prótesis Dentales en su ANEXO LX, «Distribución horaria, Espacios y Equipamientos del ciclo formativo de grado superior correspondiente al título de formación profesional de Técnico Superior en Prótesis Dentales», código de ciclo SAN308, pág. 22138 del BOA. Solo horario diurno de 2 cursos, 30 h semanales en cada uno; total exacto 2000 h. NO incluye módulos de tutoría propios de Aragón para este ciclo."
+   },
+   {
+    "ref": "Decreto 91/2024, de 8 de mayo, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&DOCN=000276386",
+    "nota": "Art. 49.2: excluye de la exención del periodo de formación en empresa a los nueve ciclos formativos de grado superior de la familia profesional de Sanidad, entre ellos el establecido por el RD 1687/2011 (Prótesis Dentales, SAN308). BOA núm. 109, de 06/06/2024, csv BOA20240606002. Es la traslación autonómica del art. 15.8 del RD 1687/2011 en la redacción del RD 500/2024."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "0821",
+   "nombre": "Laboratorio de prótesis dentales",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0854",
+   "nombre": "Diseño funcional de prótesis",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 140,
+    "loe": 192
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0855",
+   "nombre": "Prótesis completas",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": 160,
+    "loe": 256
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0856",
+   "nombre": "Aparatos de ortodoncia y férulas oclusales",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": 230,
+    "loe": 224
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0857",
+   "nombre": "Restauraciones y estructuras metálicas en prótesis fija",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 250,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0858",
+   "nombre": "Prótesis parciales removibles metálicas, de resina y mixta",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 170,
+    "loe": 168
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0859",
+   "nombre": "Restauraciones y recubrimientos estéticos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 250,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0860",
+   "nombre": "Prótesis sobre implantes",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 230,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0861",
+   "nombre": "Proyecto intermodular de prótesis dentales",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": 40
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0862",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0863",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0864",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 370
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A091",
+   "nombre": "Lengua extranjera profesional: Inglés 1 (módulo propio de Aragón, plan LOE)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A021",
+   "nombre": "Lengua extranjera profesional: Inglés 2 (módulo propio de Aragón, plan LOE)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 42
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Organización, administración y gestión de una unidad/gabinete de prótesis dentales."
+   ],
+   "destino_modulos": [
+    "0821",
+    "0863"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 1687/2011 anexo IV, derogado). Encabezado literal de la celda de destino: «Técnico Superior en Prótesis Dentales (RD1687/2011, de 18 de Noviembre)». CELDA CON DOS MÓDULOS DE DESTINO: se convalidan los dos. El módulo 0863 EIE fue suprimido por el RD 500/2024; por la DA 6.ª 2 del RD 1085/2020 (añadida por la DF 1.ª Dos del RD 500/2024) esa convalidación se entiende hecha igualmente al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Diseño de prótesis y aparatos de ortodoncia."
+   ],
+   "destino_modulos": [
+    "0854"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 1687/2011 anexo IV, derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Prótesis removible de resina."
+   ],
+   "destino_modulos": [
+    "0855",
+    "0858"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 1687/2011 anexo IV, derogado). CELDA CON DOS MÓDULOS DE DESTINO: se convalidan los dos"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Prótesis parcial removible metálica."
+   ],
+   "destino_modulos": [
+    "0858"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 1687/2011 anexo IV, derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Prótesis fija."
+   ],
+   "destino_modulos": [
+    "0857",
+    "0859"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 1687/2011 anexo IV, derogado). CELDA CON DOS MÓDULOS DE DESTINO: se convalidan los dos"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Ortodoncia."
+   ],
+   "destino_modulos": [
+    "0856"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 1687/2011 anexo IV, derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Prótesis mixtas, quirúrgicas e implantosoportadas."
+   ],
+   "destino_modulos": [
+    "0860"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 1687/2011 anexo IV, derogado)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Formación en centro de trabajo del título de Técnico Superior en Prótesis Dentales"
+   ],
+   "destino_modulos": [
+    "0864"
+   ],
+   "fuente": "RD 1687/2011 anexo IV (DEROGADO por el RD 1085/2020, que no reprodujo esta fila en su anexo II). El módulo 0864 ya no existe tras el RD 500/2024; además, el art. 15.8 del RD 1687/2011 (redacción del RD 500/2024) excluye expresamente a este ciclo de la exención del periodo de formación en empresa"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
+   "origen_modulo": [
+    "Organización, administración y gestión de una unidad/gabinete de prótesis dentales. Ciclo Prótesis Dentales. (Sanidad)"
+   ],
+   "destino_modulos": [
+    "0863"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior); la celda de destino dice «Empresa e Iniciativa Emprendedora. (Cualquier ciclo formativo)». En este título el módulo de destino era 0863, suprimido por el RD 500/2024; por la DA 6.ª 2 del RD 1085/2020 la convalidación se entiende hecha igualmente a 1710 IPE II"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE) (Mantenimiento y servicios a la producción)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0862"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones de los módulos profesionales de Formación y Orientación Laboral». El módulo 0862 ya no existe tras el RD 500/2024; por la DA 6.ª 1 del RD 1085/2020 se entiende hecha igualmente a 1709 IPE I"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés (no es un título de FP)",
+   "origen_modulo": [
+    "Certificado de Aptitud de Inglés de la Escuela Oficial de Idiomas. (RD 967/1988, de 2 de septiembre)."
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro de convalidaciones de los módulos profesionales de inglés entre títulos LOE. En este título el módulo afectado es 0179; 0156 es el equivalente de grado medio"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés (no es un título de FP)",
+   "origen_modulo": [
+    "Certificado de Nivel Avanzado (B2), o superior, de Inglés de la Escuela Oficial de Idiomas. (RD 1629/2006, de 29 de diciembre)."
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro de convalidaciones de los módulos profesionales de inglés entre títulos LOE. En este título el módulo afectado es 0179; 0156 es el equivalente de grado medio"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés (no es un título de FP)",
+   "origen_modulo": [
+    "Título de Grado, o equivalente, en Filología Inglesa o en Traducción e Interpretación (Inglés)."
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro de convalidaciones de los módulos profesionales de inglés entre títulos LOE. En este título el módulo afectado es 0179; 0156 es el equivalente de grado medio"
+  }
+ ],
+ "convalidaciones_loe": [],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC2087_3"
+   ],
+   "modulos": [
+    "0821"
+   ],
+   "fuente": "Anexo V A) del RD 1687/2011 (texto de 2011, que sigue siendo el vigente: ninguna norma posterior lo ha modificado)"
+  },
+  {
+   "uc": [
+    "UC2089_3"
+   ],
+   "modulos": [
+    "0855"
+   ],
+   "fuente": "Anexo V A) del RD 1687/2011 (texto de 2011, que sigue siendo el vigente)"
+  },
+  {
+   "uc": [
+    "UC2090_3"
+   ],
+   "modulos": [
+    "0856"
+   ],
+   "fuente": "Anexo V A) del RD 1687/2011 (texto de 2011, que sigue siendo el vigente). El BOE imprime el código del módulo como «O856» (letra O) en esta celda; prevalece la codificación 0856 (art. 15.6 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC2091_3"
+   ],
+   "modulos": [
+    "0857"
+   ],
+   "fuente": "Anexo V A) del RD 1687/2011 (texto de 2011, que sigue siendo el vigente)"
+  },
+  {
+   "uc": [
+    "UC2092_3"
+   ],
+   "modulos": [
+    "0858"
+   ],
+   "fuente": "Anexo V A) del RD 1687/2011 (texto de 2011, que sigue siendo el vigente)"
+  },
+  {
+   "uc": [
+    "UC2093_3"
+   ],
+   "modulos": [
+    "0859"
+   ],
+   "fuente": "Anexo V A) del RD 1687/2011 (texto de 2011, que sigue siendo el vigente)"
+  },
+  {
+   "uc": [
+    "UC2094_3"
+   ],
+   "modulos": [
+    "0860"
+   ],
+   "fuente": "Anexo V A) del RD 1687/2011 (texto de 2011, que sigue siendo el vigente)"
+  },
+  {
+   "uc": [
+    "UC2088_3",
+    "UC2089_3",
+    "UC2090_3",
+    "UC2091_3",
+    "UC2092_3",
+    "UC2093_3",
+    "UC2094_3"
+   ],
+   "modulos": [
+    "0854"
+   ],
+   "fuente": "Nota al pie del anexo V A) del RD 1687/2011 (texto de 2011, vigente): quien tenga acreditadas las UC2088_3, UC2089_3, UC2090_3, UC2091_3, UC2092_3, UC2093_3 y UC2094_3 incluidas en el título tendrá convalidado el módulo «0854. Diseño funcional de prótesis». La nota remite al derogado RD 1224/2009; hoy el procedimiento es el del RD 659/2023 (art. 15.5 en la redacción del RD 500/2024). OJO: la nota NO cita UC2087_3, y la tabla principal del anexo V A) no recoge ninguna fila UC2088_3 → 0854"
+  }
+ ],
+ "uc_descripciones": {
+  "UC2087_3": "Gestionar un centro, instalación o laboratorio de prótesis dental y organizar los procesos de diseño, preparación, elaboración, fabricación y reparación de prótesis dentofaciales, aparatos de ortodoncia y férulas oclusales [ECP2087_3]",
+  "UC2088_3": "Interpretar las prescripciones facultativas, definir el producto, programar, preparar y controlar la fabricación y/o reparación de prótesis dentofaciales, aparatos de ortodoncia y férulas oclusales [ECP2088_3]",
+  "UC2089_3": "Diseñar, preparar, elaborar, fabricar y reparar prótesis completas removibles de resina [ECP2089_3]",
+  "UC2090_3": "Diseñar, preparar, elaborar, fabricar y reparar aparatos de ortodoncia y férulas oclusales [ECP2090_3]",
+  "UC2091_3": "Diseñar, preparar, elaborar, fabricar y reparar restauraciones y estructuras metálicas para la elaboración de prótesis dentales de metal-cerámica y/o metal-resina fijas [ECP2091_3]",
+  "UC2092_3": "Diseñar, preparar, elaborar, fabricar y reparar prótesis parciales removibles metálicas, de resina y mixtas [ECP2092_3]",
+  "UC2093_3": "Diseñar, preparar, elaborar, fabricar y reparar recubrimientos estéticos y restauraciones de cerámica o resina, con o sin metal [ECP2093_3]",
+  "UC2094_3": "Diseñar, preparar, elaborar, fabricar y reparar prótesis dentales sobre implantes [ECP2094_3]"
+ },
+ "uc_equivalencias": {},
+ "notas": [
+  "CONFIRMACIÓN DEL RD DEL TÍTULO: el real decreto de este título NO es el RD 1687/2007 (que corresponde a Técnico Superior en Programación de la Producción en Fabricación Mecánica), sino el RD 1687/2011, de 18 de noviembre (BOE-A-2011-19603, BOE núm. 302 de 16/12/2011). Así lo confirman el propio BOE, la tabla del anexo II del RD 1085/2020 («Técnico Superior en Prótesis Dentales (RD1687/2011, de 18 de Noviembre)») y el artículo primero.Dos.a).45.º del RD 500/2024.",
+  "El campo 'horas' es el del currículo básico / enseñanzas mínimas del RD 1687/2011 (55 % de 2000 h = 1100 h: 45+75+100+145+115+100+115+75+25+50+35+220). Las horas reales de impartición están en 'horas_otras' con las claves 'aragon' (Orden ECD/843/2024, anexo LX, SAN308), 'mefp' (Orden EFD/659/2024, anexo LXXIII) y 'loe' (Resolución de 4 de julio de 2013 de Aragón, modalidad diurno).",
+  "El BOE no ofrece texto consolidado del RD 1687/2011 (act.php devuelve vacío): hay que combinar el texto original (BOE-A-2011-19603), el RD 1085/2020 (deroga el anexo IV), el RD 287/2023 (nuevo art. 2 y reescritura de seis módulos del anexo I) y el RD 500/2024 (nuevos arts. 2, 10, 12 y 15 y nuevos anexos I y III).",
+  "GRUPO DEL ART. 1 DEL RD 500/2024: Prótesis Dentales es el número 45.º de la letra a) del artículo primero.Dos, es decir, el grupo de ciclos de grado superior SIN el antiguo módulo de Inglés. Por eso se le AÑADE el módulo 0179 Inglés Profesional (GS) de 50 h de currículo básico (en los ciclos del grupo b) el 0179 ya existía y solo se renombra). Se confirma con la Orden ECD/109/2013: el plan LOE del MECD no tenía módulo de Inglés, solo un «Horario reservado para el módulo impartido en inglés» (90 h en 1.º y 40 h en 2.º).",
+  "MÓDULOS SUPRIMIDOS por el RD 500/2024: 0862 Formación y orientación laboral (50 h), 0863 Empresa e iniciativa emprendedora (35 h) y 0864 Formación en centros de trabajo (220 h). MÓDULOS AÑADIDOS: 0179 Inglés Profesional (GS) 50 h, 1709 IPE I 50 h, 1710 IPE II 50 h, 1665 Digitalización aplicada a los sectores productivos (GS) 30 h, 1708 Sostenibilidad aplicada al sistema productivo 30 h y un módulo profesional optativo de 80 h. Además 0861 «Proyecto de prótesis dentales» pasa a «Proyecto intermodular de prótesis dentales».",
+  "El anexo I del RD 500/2024 («Tabla de adaptación horaria del currículo básico para CFGS») reduce el currículo básico del 55 % al 50 %, PERO su disposición adicional primera limita expresamente esa minoración a «las comunidades autónomas con lengua cooficial», y excluye además de la reducción los módulos 0861, 0179, 1708, 1665, 1709, 1710 y el optativo. Aragón no es comunidad con lengua cooficial a estos efectos, por lo que en 'horas' se conservan las horas originales del RD 1687/2011.",
+  "EXENCIÓN DE LA FORMACIÓN EN EMPRESA: este ciclo está DOBLEMENTE excluido. (a) Estatal: el art. 15.8 del RD 1687/2011, en la redacción dada por el art. sexto.Uno del RD 500/2024, exceptúa de la posible exención del periodo de formación en empresa a los nueve ciclos de grado superior de Sanidad, citando expresamente el RD 1687/2011. (b) Autonómico: el art. 49.2 del Decreto 91/2024, de 8 de mayo, del Gobierno de Aragón (BOA núm. 109, de 06/06/2024, csv BOA20240606002) excluye esos mismos nueve ciclos de grado superior de Sanidad, entre ellos el del RD 1687/2011 (SAN308).",
+  "ARAGÓN (Orden ECD/843/2024, anexo LX, código SAN308, 30 h semanales en cada curso). Primer curso (1000 h): 0821 (100 h, 3 h/sem), 0854 (200, 6), 0855 (267, 8), 0856 (233, 7), 1709 (100, 3), 0179 (67, 2) y 1665 (33, 1). Segundo curso (1000 h): 0857 (200, 6), 0858 (200, 6), 0859 (200, 6), 0860 (133, 4), 0861 (67, 2), 1710 (67, 2), 1708 (33, 1) y el módulo optativo (100, 3). La suma aritmética cuadra exactamente con la fila de totales del BOA: 2000 h.",
+  "Aragón NO asigna a este ciclo módulos de tutoría propios (no hay A997/A996 en el anexo LX), a diferencia de lo que ocurre en los ciclos de grado medio. El anexo LX solo contiene tabla de horario diurno de dos cursos.",
+  "MEFP (Orden EFD/659/2024, anexo LXXIII, art. 5.3.bn): 1.º curso (1005 h, 30 sesiones semanales) 0821 100 (3), 0854 140 (4), 0858 170 (5), 0855 160 (5), 0856 230 (7), 1709 100 (3), 1708 35 (1) y 0179 70 (2); 2.º curso (995 h, 30 sesiones) 0860 230 (7), 0857 250 (8), 0859 250 (8), 1710 100 (3), 1665 35 (1), optativa 80 (2) y 0861 Proyecto intermodular 50 (1). Total 2000 h. La formación en empresa va incluida en esas 2000 h: 500 h (25 %) en dual general y 700 h (35 %) en dual intensivo (art. 13). En oferta bilingüe en inglés, 0179 pasa de 70 a 120 h y el horario de 1.º sube a 31 h semanales (art. 8.3.a). Los módulos marcados como susceptibles de impartirse en idioma extranjero son 0858, 0855, 0856, 0860, 0857 y 0859.",
+  "DISCREPANCIAS DE CURSO ARAGÓN / MEFP: 0858 Prótesis parciales removibles (2.º en Aragón, 1.º en el MEFP), 1708 Sostenibilidad (2.º en Aragón, 1.º en el MEFP) y 1665 Digitalización (1.º en Aragón, 2.º en el MEFP). El resto de módulos coincide de curso, aunque casi todos difieren en horas.",
+  "PLAN LOE (anterior al RD 500/2024), clave 'loe' de 'horas_otras': distribución de ARAGÓN según la Resolución de 4 de julio de 2013, del Director General de Ordenación Académica (BOA núm. 146, de 25/07/2013, csv BOA20130725016), anexo, MODALIDAD DIURNO (2 cursos, 30 h/sem cada uno). 1.º curso (960 h): 0821 (128 h, 4 h/sem), 0854 (192, 6), 0855 (256, 8), 0856 (224, 7), A091 Lengua extranjera profesional: Inglés 1 (64, 2) y 0862 FOL (96, 3). 2.º curso (630 h lectivas más 0861 y 0864): 0857 (126, 6), 0858 (168, 8), 0859 (126, 6), 0860 (105, 5), A021 Lengua extranjera profesional: Inglés 2 (42, 2), 0863 EIE (63, 3), 0861 Proyecto (40) y 0864 FCT (370). Total exacto 2000 h. El currículo propiamente dicho es la Orden de 22 de mayo de 2013 (BOA núm. 126, de 28/06/2013).",
+  "El plan LOE de Aragón incorporaba DOS módulos autonómicos de inglés que no existen en el RD del título: A091 «Lengua extranjera profesional: Inglés 1» (64 h, 1.º) y A021 «Lengua extranjera profesional: Inglés 2» (42 h, 2.º). En el plan vigente se sustituyen por el módulo estatal 0179 Inglés Profesional (GS), 67 h en Aragón.",
+  "El plan LOE de Aragón SÍ tenía modalidad NOCTURNA de tres cursos (18, 18 y 20 h semanales), con las mismas duraciones totales por módulo que el diurno, recogida en la segunda tabla del anexo de la Resolución de 4 de julio de 2013. El anexo LX de la Orden ECD/843/2024 solo contiene horario diurno.",
+  "PLAN LOE, ámbito MECD: Orden ECD/109/2013, de 23 de enero (BOE-A-2013-1040). 1.º curso (30 h/sem, 960 h): 0821 80 (3), 0854 135 (4), 0855 175 (5), 0856 215 (7), 0858 175 (5), 0862 FOL 90 (3) y horario reservado para el módulo impartido en inglés 90 (3). 2.º curso (2 trimestres a 30 h/sem = 600 h más un trimestre de 440 h): 0857 180 (9), 0859 180 (9), 0860 140 (7), 0863 EIE 60 (3), horario reservado para inglés 40 (2), 0864 FCT 400 y 0861 Proyecto 40. Total 2000 h. Difiere de Aragón en las horas de todos los módulos técnicos y en el curso de 0858 (1.º en el MECD, 2.º en Aragón). En 'horas_otras.loe' se ha guardado la versión de ARAGÓN.",
+  "ANEXO I DEL RD 1085/2020 (LOGSE→LOGSE): el ciclo antecesor Prótesis Dentales (RD 541/1995) aparece EN LOS DOS SENTIDOS. Como formación aportada, tanto el ciclo completo como el módulo «Organización, administración y gestión de una unidad/gabinete de prótesis dentales» convalidan los MISMOS NUEVE módulos LOGSE de otros ciclos de Sanidad (incluido «Operaciones administrativas y documentación sanitaria» de Cuidados Auxiliares de Enfermería, tal como anticipaba el encargo). Como formación a convalidar, ese módulo de prótesis dentales se obtiene desde cuatro orígenes: el ciclo completo de Audioprótesis, el ciclo completo de Ortoprotésica, el módulo «Administración y gestión de un gabinete audioprotésico» y el módulo «Administración y gestión de una unidad/gabinete de ortoprotésica». Estas filas son LOGSE→LOGSE: ni el origen ni el destino son módulos LOE de este título.",
+  "ANEXO II DEL RD 1085/2020 (LOGSE→LOE): la tabla propia del título tiene SIETE filas. Tres de ellas tienen celda de destino con DOS módulos, que se convalidan ambos: «Organización, administración y gestión de una unidad/gabinete de prótesis dentales» → 0821 + 0863; «Prótesis removible de resina» → 0855 + 0858; «Prótesis fija» → 0857 + 0859. Reproduce literalmente el anexo IV del RD 1687/2011, salvo que el RD 1085/2020 NO recogió la fila «Formación en centro de trabajo del título de Técnico Superior en Prótesis Dentales» → 0864.",
+  "ANEXO III DEL RD 1085/2020 (LOE→LOE): NO existe ninguna fila que cite a Prótesis Dentales ni a sus módulos 0821 y 0854-0864, en ningún sentido. El bloque «Sanidad» del anexo III solo contiene filas hacia Técnico en Emergencias Sanitarias y Técnico en Farmacia y Parafarmacia. Las únicas reglas del anexo III aplicables a este título son las tablas generales de inglés, de FOL y de EIE.",
+  "El módulo 0179 Inglés Profesional (GS) es nuevo en el título (RD 500/2024) y NO figuraba en el anexo IV derogado; sus convalidaciones salen de los cuadros generales de inglés del RD 1085/2020: el del anexo II (LOGSE→LOE, apartado «Grado Superior») y el del anexo III (LOE→LOE, certificados de la EOI y títulos de Grado).",
+  "DESTINO DE LAS CONVALIDACIONES A MÓDULOS SUPRIMIDOS: la DA 6.ª del RD 1085/2020, añadida por la DF 1.ª Dos del RD 500/2024, resuelve el problema: toda convalidación cuyo resultado sea el módulo de FOL se entiende hecha igualmente a 1709 Itinerario personal para la empleabilidad I, y toda convalidación cuyo resultado sea EIE se entiende hecha igualmente a 1710 Itinerario personal para la empleabilidad II. Es la regla que permite seguir aplicando la fila «Organización, administración y gestión de una unidad/gabinete de prótesis dentales» → 0863 después de la supresión de 0863.",
+  "La DF 1.ª Tres del RD 500/2024 sustituyó además la tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» del anexo III del RD 1085/2020, que ahora incluye la fila «Cualquier ciclo de grado medio o superior de las Familias Profesionales Comercio y Marketing o Administración y Gestión — Ciclo completo → Empresa e iniciativa emprendedora».",
+  "ANEXOS V A) Y V B): el RD 500/2024 modifica los arts. 2, 10, 12 y 15 y los anexos I y III del RD 1687/2011, pero NO los anexos V A) ni V B). Tampoco los tocó el RD 287/2023 ni el RD 1085/2020. Por tanto la redacción VIGENTE de los anexos V A) y V B) es idéntica a la ORIGINAL de 2011, con la única salvedad de que los códigos UCxxxx_3 deben leerse hoy como ECPxxxx_3 (RD 532/2025, anexo I) y de que la nota al pie del anexo V A), que remite al derogado RD 1224/2009, debe entenderse referida al procedimiento del RD 659/2023 (art. 15.5 en la redacción del RD 500/2024).",
+  "La correspondencia UC↔módulo es biunívoca y perfecta para ocho módulos (0821 y 0854-0860 con UC2087_3 a UC2094_3), sin celdas compartidas, a diferencia de otros títulos. La única asimetría es el módulo 0854 Diseño funcional de prótesis: en el anexo V B) acredita por sí solo UC2088_3, pero en el anexo V A) no hay fila UC2088_3 → 0854; para convalidarlo hay que acreditar las SIETE unidades UC2088_3 a UC2094_3 simultáneamente, según la nota al pie.",
+  "Artículo 15 en la redacción del RD 500/2024: las convalidaciones se rigen por los arts. 126-128 del RD 659/2023; a este título (anterior al 5/3/2017) se le aplica el RD 1085/2020; si en una celda hay varias UC o varios módulos, hacen falta todos simultáneamente; ante discrepancias prevalece la codificación sobre la denominación; las UC acreditadas por el derogado RD 1224/2009 siguen siendo válidas; y la exención del periodo de formación en empresa, regulada en el art. 131 del RD 659/2023, NO es posible en este ciclo (art. 15.8).",
+  "Cambio de códigos UC→ECP (RD 532/2025 anexo I): las ocho UC de este título mantienen su número y su denominación y solo cambian el prefijo (ECP2087_3, ECP2088_3, ECP2089_3, ECP2090_3, ECP2091_3, ECP2092_3, ECP2093_3 y ECP2094_3). Por eso 'equivalencias_uc' está vacío: ninguna UC de SAN628_3 ha sido suprimida, refundida ni sustituida.",
+  "El título LOGSE de Técnico Superior en Prótesis Dentales (RD 541/1995) tiene los mismos efectos académicos y profesionales que este título (DA 3.ª del RD 1687/2011). La DA 3.ª del RD 500/2024 traslada a 1709 (IPE I) las referencias que esa disposición hacía al módulo de Formación y orientación laboral, solo a efectos de capacitaciones profesionales.",
+  "Créditos ECTS vigentes (anexo XCI del RD 500/2024, coincidentes con la ficha oficial de Aragón): 0821 = 4, 0854 = 8, 0855 = 12, 0856 = 17, 0857 = 14, 0858 = 12, 0859 = 14, 0860 = 8, 0861 = 5, 0179 = 5, 1709 = 5, 1710 = 5, 1665 = 3, 1708 = 3. El total del título es de 120 ECTS (art. 2 en la redacción del RD 287/2023).",
+  "La ficha oficial del ciclo en la herramienta de Aragón (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=SAN308) coincide módulo a módulo con el anexo LX del BOA. Los módulos 1665 Digitalización (GS), 0179 Inglés Profesional (GS) y 1709 IPE I figuran como comunes de primer curso con una larga lista de otros ciclos, lo que facilita la convalidación entre ciclos por identidad de código y denominación (art. 126 del RD 659/2023)."
+ ],
+ "no_verificado": [
+  "No se ha podido consultar la ficha del título en todofp.es: las URL https://www.todofp.es/que-estudiar/loe/sanidad/protesis-dentales.html y https://www.todofp.es/que-estudiar/loe/sanidad/protesis-dentales-loe.html devuelven 404 y no se ha localizado la nueva dirección. Todos los datos proceden del BOE, del BOA, de educa.aragon.es y de la herramienta de competencias de Aragón.",
+  "El encargo partía del «RD 1687/2007» como posible RD del título. Se ha comprobado que es incorrecto: el RD 1687/2007, de 14 de diciembre, establece el título de Técnico Superior en Programación de la Producción en Fabricación Mecánica (aparece como 4.º de la letra a) del art. primero.Dos del RD 500/2024). El RD del título de Prótesis Dentales es el RD 1687/2011, de 18 de noviembre.",
+  "No se ha verificado el identificador BOE del RD 887/2011, de 24 de junio (cualificación SAN628_3 «Prótesis dental»): la referencia se toma del anexo I del RD 532/2025. Tampoco se ha comprobado si existe alguna actualización posterior de la cualificación SAN628_3 distinta del cambio UC→ECP.",
+  "No se ha consultado directamente el texto del art. 49.2 del Decreto 91/2024 de Aragón: el dato (exclusión de los nueve ciclos de grado superior de Sanidad, incluido el del RD 1687/2011) se ha tomado como verificado por indicación del coordinador, con la referencia BOA núm. 109 de 06/06/2024, csv BOA20240606002. La URL del BOA incluida en 'normas' es tentativa y NO se ha comprobado.",
+  "No se ha comprobado el anexo XLVI del RD 500/2024 (nuevo anexo III de profesorado del RD 1687/2011) ni los anexos II (espacios y equipamientos) y III A)/B)/C) originales en lo relativo a especialidades docentes.",
+  "No se ha verificado si existe alguna resolución de Aragón posterior a la Orden ECD/843/2024 que autorice oferta nocturna o a distancia de SAN308 en el plan nuevo (en el plan LOE sí existía nocturno de tres cursos). Una búsqueda web sugería la existencia de grupos de mañana y de tarde en algún centro, pero no se ha podido contrastar con fuente oficial.",
+  "No se ha localizado la lista concreta de módulos profesionales optativos autorizados en Aragón para este ciclo; el anexo LX solo recoge la línea genérica «Módulo profesional optativo» de 100 h en 2.º curso.",
+  "No se ha comprobado si hubo correcciones de errores o modificaciones de la Orden de 22 de mayo de 2013 o de la Resolución de 4 de julio de 2013 de Aragón anteriores a su derogación, ni la distribución horaria del plan LOE en comunidades autónomas distintas de Aragón y del ámbito de gestión del MECD.",
+  "No se han revisado los certificados de profesionalidad asociados a la cualificación SAN628_3 ni su posible efecto en la acreditación de estándares de competencia.",
+  "No se ha verificado si existen convalidaciones de este título con el ciclo de grado superior de Higiene Bucodental (RD 769/2014) u otros ciclos de Sanidad por identidad de código y denominación de módulos: la comparación de los listados de módulos no muestra ningún código común, pero no se ha hecho una revisión exhaustiva módulo a módulo de todos los ciclos LOE.",
+  "El artículo 4 del RD 1085/2020 regula la presentación de solicitudes y no contiene el apartado 4.7 que se cita en otras fichas de este repositorio para las acreditaciones de inglés; aquí las filas de inglés se citan directamente contra los cuadros de los anexos II y III."
+ ]
+};
