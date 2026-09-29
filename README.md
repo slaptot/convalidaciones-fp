@@ -15,7 +15,8 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 
 - Abrir `index.html` en el navegador (funciona sin servidor), o bien `python3 -m http.server 8765`.
 - El expediente se guarda automáticamente en el navegador. "Guardar expediente" lo exporta a JSON y "Abrir…" lo recupera.
-- "Imprimir / PDF" genera el informe.
+- Dos documentos imprimibles: "Imprimir anexo" (análisis completo con fundamentos y documentación que falta) e "Imprimir resolución" (resolución de la dirección del centro, con su base legal y el modo de impugnación).
+- Los datos del membrete, la localidad, la directora o director y la fecha se rellenan en "Datos para la resolución de dirección".
 - En `ejemplos/` hay expedientes de muestra: ábrelos con "Abrir…".
 
 ## Estructura

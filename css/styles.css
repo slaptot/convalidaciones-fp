@@ -51,6 +51,9 @@ button.sec { background: transparent; color: var(--accent); }
 button.link { background: none; border: none; color: var(--bad); padding: 0; font-size: .8rem; }
 
 .pista { font-size: .8rem; color: var(--muted); margin: -.3rem 0 .7rem; }
+.datos-centro { border: 1px dashed var(--line); border-radius: 6px; padding: .5rem .7rem; margin-bottom: .7rem; }
+.datos-centro summary { font-size: .85rem; color: var(--muted); cursor: pointer; }
+.datos-centro[open] summary { margin-bottom: .5rem; }
 .enlace-ext { align-self: center; font-size: .85rem; white-space: nowrap; }
 
 .aportaciones { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: .5rem; }
@@ -87,14 +90,34 @@ details ul { padding-left: 1rem; margin: .2rem 0; }
 a { color: var(--accent); }
 .disclaimer { font-size: .78rem; color: var(--muted); margin-top: 1.5rem; }
 .print-only { display: none; }
-#informe { display: none; }
+#informe, #resolucion { display: none; }
 
 @media print {
   @page { size: A4; margin: 14mm 12mm 16mm; }
   :root { --text: #000; --muted: #333; --line: #999; }
   html, body { background: #fff; color: #000; font-family: Georgia, "Times New Roman", serif; font-size: 9.5pt; }
   .top, main { display: none !important; }
-  #informe { display: block; }
+  body.doc-anexo #informe { display: block; }
+  body.doc-resolucion #resolucion { display: block; }
+
+  /* Resolución de dirección */
+  #resolucion { font-size: 10.5pt; line-height: 1.45; }
+  .res-membrete { font-size: 8.5pt; line-height: 1.3; margin-bottom: 18pt; }
+  .res-titulo { font-size: 12pt; font-weight: bold; text-align: center; text-transform: uppercase;
+                margin: 0 0 16pt; line-height: 1.3; }
+  .res-p { text-align: justify; margin: 0 0 9pt; }
+  .res-tabla { width: 100%; border-collapse: collapse; margin: 12pt 0 16pt; }
+  .res-tabla th, .res-tabla td { border: 1px solid #000; padding: 4pt 5pt; text-align: left; font-size: 10pt; }
+  .res-tabla thead th { background: #eee; font-weight: bold; }
+  .res-tabla tbody td { height: 16pt; }
+  .res-tabla .cod { font-family: "Courier New", monospace; }
+  .res-tabla .num { text-align: center; }
+  .res-tabla th.num { text-align: center; }
+  .res-recursos { font-size: 9pt; margin-top: 14pt; }
+  .res-lugar { margin: 20pt 0 0; }
+  .res-firma { margin-top: 10pt; text-align: center; break-inside: avoid; }
+  .res-firma p { margin: 0; }
+  .res-linea { height: 44pt; }
 
   /* Cabecera del anexo */
   .inf-head { border-bottom: 2px solid #000; padding-bottom: 6pt; margin-bottom: 10pt; }

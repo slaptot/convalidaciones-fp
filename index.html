@@ -16,7 +16,8 @@
       <button id="btn-nuevo" class="sec">Nuevo</button>
       <button id="btn-abrir" class="sec">Abrir…</button>
       <button id="btn-guardar" class="sec">Guardar expediente</button>
-      <button id="btn-imprimir">Imprimir / PDF</button>
+      <button id="btn-imprimir">Imprimir anexo</button>
+      <button id="btn-resolucion">Imprimir resolución</button>
       <a class="enlace-ext" href="https://centrosdocentes.catedu.es/awc/" target="_blank" rel="noopener">Herramienta CATEDU ↗</a>
       <input type="file" id="file" accept="application/json" hidden>
     </nav>
@@ -25,7 +26,17 @@
   <main class="grid">
     <section class="panel entrada">
       <h2>1 · Expediente</h2>
-      <label>Centro <input id="centro" autocomplete="off" placeholder="Nombre del centro"></label>
+      <label>Centro <input id="centro" autocomplete="off" placeholder="IES Ejemplo"></label>
+      <details class="datos-centro">
+        <summary>Datos para la resolución de dirección</summary>
+        <label>Membrete (dirección y contacto, una línea por renglón)
+          <textarea id="membrete" rows="3" placeholder="Pº San Nicolás Francia, 10&#10;50300 Calatayud, Zaragoza&#10;976881015 - https://ejemplo.es"></textarea></label>
+        <div class="fila">
+          <label>Localidad <input id="localidad" placeholder="Calatayud"></label>
+          <label>Fecha de la resolución <input id="fecha_res" type="date"></label>
+        </div>
+        <label>Directora/Director <input id="director" placeholder="Nombre y apellidos"></label>
+      </details>
       <div class="fila">
         <label>Alumno/a <input id="alumno" autocomplete="off"></label>
         <label>DNI/NIE <input id="dni" autocomplete="off"></label>
@@ -75,6 +86,7 @@
   </main>
 
   <section id="informe" class="print-only"></section>
+  <section id="resolucion" class="print-only"></section>
 
   <script src="data/normativa.js"></script>
   <script src="data/certificados.js"></script>

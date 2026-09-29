@@ -27,7 +27,7 @@
   let state = cargar() || nuevo();
 
   function nuevo() {
-    return { centro: '', alumno: '', dni: '', curso: '', ciclo: Object.keys(CICLOS)[0], ambito: 'aragon', aportaciones: [], notas: '' };
+    return { centro: '', membrete: '', localidad: '', director: '', fecha_res: '', alumno: '', dni: '', curso: '', ciclo: Object.keys(CICLOS)[0], ambito: 'aragon', aportaciones: [], notas: '' };
   }
   function cargar() {
     try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; }
@@ -46,6 +46,10 @@
       .join('');
     sel.value = state.ciclo;
     $('#centro').value = state.centro || '';
+    $('#membrete').value = state.membrete || '';
+    $('#localidad').value = state.localidad || '';
+    $('#director').value = state.director || '';
+    $('#fecha_res').value = state.fecha_res || new Date().toISOString().slice(0, 10);
     $('#alumno').value = state.alumno;
     $('#dni').value = state.dni;
     $('#curso').value = state.curso;
@@ -283,6 +287,64 @@
     $('#bloque-nv').hidden = !nv.length;
 
     pintarInforme(c, amb, filas, avisos, n);
+    pintarResolucion(c, amb, filas);
+  }
+
+  // ---------- Resolución de la dirección del centro ----------
+  const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+
+  function fechaLarga(iso) {
+    const d = iso ? new Date(`${iso}T00:00:00`) : new Date();
+    return `${d.getDate()} de ${MESES[d.getMonth()]} de ${d.getFullYear()}`;
+  }
+  function fechaCorta(iso) {
+    const d = iso ? new Date(`${iso}T00:00:00`) : new Date();
+    return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
+  }
+
+  function pintarResolucion(c, amb, filas) {
+    // Solo lo que resuelve el propio centro: convalidaciones y traslados de nota
+    const conv = filas.filter((f) => f.mejor && ['convalidable', 'superado'].includes(f.mejor.estado));
+    const cuerpo = conv.length
+      ? conv.map(({ modulo: m }) => `<tr>
+          <td class="cod">${h(m.codigo)}</td>
+          <td>${h(m.nombre)}</td>
+          <td class="num">${m.curso[amb] || ''}</td>
+          <td></td>
+        </tr>`).join('')
+      : `<tr><td colspan="4" class="vacio-td">No procede convalidar ningún módulo.</td></tr>`;
+
+    $('#resolucion').innerHTML = `
+      <div class="res-membrete">${h(state.centro || '')}${state.membrete ? `<br>${h(state.membrete).replace(/\n/g, '<br>')}` : ''}</div>
+
+      <h1 class="res-titulo">Resolución de la dirección del centro sobre convalidación de módulos profesionales</h1>
+
+      <p class="res-p">Vistas las solicitudes presentadas por el alumnado y la documentación aportada.</p>
+      <p class="res-p">De conformidad con la Ley Orgánica 3/2022, de 31 de marzo; el Real Decreto 659/2023, de 18 de julio;
+      el Real Decreto 1085/2020, de 9 de diciembre; y el Decreto 91/2024, de 5 de junio, del Gobierno de Aragón
+      (artículo 48 y Anexo VIII):</p>
+      <p class="res-p"><b>SE RESUELVE:</b> Con fecha ${h(fechaCorta(state.fecha_res))}, convalidar los módulos profesionales
+      que se relacionan a continuación e incorporar la presente resolución al expediente académico del/de la alumno/a:
+      <b>${h(state.alumno || '____________________')}</b> con DNI: <b>${h(state.dni || '____________')}</b>,
+      matriculado/a en el ciclo formativo de ${h(c.ciclo.nombre)}${state.curso ? `, curso ${h(state.curso)}` : ''}.</p>
+
+      <table class="res-tabla">
+        <colgroup><col style="width:12%"><col style="width:58%"><col style="width:10%"><col style="width:20%"></colgroup>
+        <thead><tr><th>Código</th><th>Nombre Módulo</th><th class="num">Curso</th><th>Registro/calificación</th></tr></thead>
+        <tbody>${cuerpo}</tbody>
+      </table>
+
+      <p class="res-p res-recursos"><b>MODO DE IMPUGNACIÓN / RECURSOS:</b> Contra la presente resolución, que no agota la
+      vía administrativa, se podrá interponer Recurso de Alzada ante la persona titular de la Dirección General competente
+      en materia de Formación Profesional en el plazo de un mes a contar desde el día siguiente a su notificación, de
+      conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, y el artículo 53 del Decreto 91/2024.</p>
+
+      <p class="res-lugar">En ${h(state.localidad || '____________________')}, a ${h(fechaLarga(state.fecha_res))}</p>
+      <div class="res-firma">
+        <p>LA/EL DIRECTORA/DIRECTOR DEL CENTRO</p>
+        <div class="res-linea"></div>
+        <p>Fdo.: ${h(state.director || '____________________')}</p>
+      </div>`;
   }
 
   // ---------- Anexo imprimible ----------
@@ -415,7 +477,7 @@
     refrescar();
 
     $('#ambito').addEventListener('change', (e) => { state.ambito = e.target.value; refrescar(); });
-    for (const id of ['centro', 'alumno', 'dni', 'curso', 'notas']) {
+    for (const id of ['centro', 'membrete', 'localidad', 'director', 'fecha_res', 'alumno', 'dni', 'curso', 'notas']) {
       $('#' + id).addEventListener('input', (e) => { state[id] = e.target.value; guardar(); pintarResultados(); });
     }
     $('#ciclo').addEventListener('change', (e) => {
@@ -472,7 +534,12 @@
       } catch (err) { alert('No se pudo abrir el expediente: ' + err.message); }
       e.target.value = '';
     });
-    $('#btn-imprimir').addEventListener('click', () => window.print());
+    const imprimir = (clase) => {
+      document.body.className = clase;
+      window.print();
+    };
+    $('#btn-imprimir').addEventListener('click', () => imprimir('doc-anexo'));
+    $('#btn-resolucion').addEventListener('click', () => imprimir('doc-resolucion'));
   }
 
   document.addEventListener('DOMContentLoaded', init);
