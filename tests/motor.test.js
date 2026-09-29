@@ -342,3 +342,10 @@ r = est('fpb128', [{ tipo: 'modulo_loe', codigo: '3011', nombre: 'Comunicación 
 assert.equal(r['3161'], 'convalidable');
 assert.ok(!('3005' in est('fpb128', [])), 'este título no tiene el módulo 3005');
 console.log('OK: Actividades Domésticas y Limpieza de Edificios');
+
+// Promoción de Igualdad de Género: 0017 convalida Destrezas sociales en APSD
+require('../data/ciclos/ssc305.js');
+assert.equal(est('apsd', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habilidades sociales', titulo: 'TS Promoción de Igualdad de Género', docs: [] }])['0211'], 'convalidable');
+// Servicios Socioculturales completa: los siete ciclos con normativa propia
+['apsd', 'fpb128', 'ssc301', 'ssc302', 'ssc303', 'ssc304', 'ssc305'].forEach((c) => assert.ok(CICLOS[c] && !CICLOS[c].ciclo.parcial, c));
+console.log('OK: Servicios Socioculturales completa (7 ciclos)');

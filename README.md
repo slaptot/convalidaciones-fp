@@ -27,6 +27,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Educación Infantil | SSC302 | Superior | LO 3/2022 |
 | Integración Social | SSC303 | Superior | LO 3/2022 |
 | Mediación Comunicativa | SSC304 | Superior | LO 3/2022 |
+| Promoción de Igualdad de Género | SSC305 | Superior | LO 3/2022 |
 | Termalismo y Bienestar | IMP304 | Superior | LO 3/2022 |
 
 Además, el **catálogo completo de Aragón** (150 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas. De ellos, **139 tienen ya la correspondencia módulo ↔ estándar de competencia** descargada de esa misma herramienta (2.930 filas), así que convalidan por unidades de competencia acreditadas; lo que les falta es el anexo de convalidaciones con títulos anteriores, que hay que leer del BOE. La web lo avisa en pantalla, porque esas correspondencias no están contrastadas con el anexo V de cada real decreto.
