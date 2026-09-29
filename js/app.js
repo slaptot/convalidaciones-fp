@@ -326,6 +326,108 @@
     pintarInforme(c, amb, filas, avisos, n);
     pintarResolucion(c, amb, filas);
     pintarExencion(c, amb, filas);
+    pintarSolicitudes(c, amb, filas);
+    pintarListado(c, amb, filas);
+  }
+
+  // ---------- Solicitud de convalidación (una por módulo) ----------
+  function pintarSolicitudes(c, amb, filas) {
+    // Anexo VIII ap. 9: una solicitud por cada módulo, con código y denominación exactos
+    const pedibles = filas.filter((f) => f.mejor && ['convalidable', 'ministerio'].includes(f.mejor.estado));
+    if (!pedibles.length) {
+      $('#solicitudes').innerHTML = `<p class="res-p">No hay módulos que solicitar con la documentación registrada.</p>`;
+      return;
+    }
+
+    $('#solicitudes').innerHTML = pedibles.map(({ modulo: m, mejor }, i) => `
+      <section class="hoja${i < pedibles.length - 1 ? ' corte' : ''}">
+        <div class="res-membrete">${h(state.centro || '')}${state.membrete ? `<br>${h(state.membrete).replace(/\n/g, '<br>')}` : ''}</div>
+        <h1 class="res-titulo">Solicitud de convalidación de módulo profesional</h1>
+        <p class="sol-orden">Solicitud ${i + 1} de ${pedibles.length}</p>
+
+        <table class="res-tabla">
+          <colgroup><col style="width:28%"><col style="width:72%"></colgroup>
+          <tbody>
+            <tr><th>Alumno/a</th><td>${h(state.alumno || '')}</td></tr>
+            <tr><th>DNI/NIE</th><td>${h(state.dni || '')}</td></tr>
+            <tr><th>Domicilio, teléfono y correo</th><td></td></tr>
+            <tr><th>Ciclo formativo</th><td>${h(c.ciclo.nombre)} (${h(codigoCiclo(c))})</td></tr>
+            <tr><th>Curso académico</th><td>${h(state.curso || '')}</td></tr>
+          </tbody>
+        </table>
+
+        <h2 class="res-apartado">Módulo profesional cuya convalidación solicita</h2>
+        <table class="res-tabla">
+          <colgroup><col style="width:28%"><col style="width:72%"></colgroup>
+          <tbody>
+            <tr><th>Código</th><td class="cod">${h(m.codigo)}</td></tr>
+            <tr><th>Denominación</th><td>${h(nombreModulo(m, amb))}</td></tr>
+            <tr><th>Formación o acreditación que aporta</th><td>${h(mejor.motivo)}</td></tr>
+            <tr><th>Órgano que resuelve</th><td>${h(mejor.resuelve)}</td></tr>
+          </tbody>
+        </table>
+
+        <h2 class="res-apartado">Documentación que acompaña</h2>
+        <ul class="sol-docs">
+          ${[...new Set((mejor.aportes || []).flatMap((a) => a.docs || []))]
+            .map((d) => `<li>☑ ${h(N.documentos[d] || d)}</li>`).join('')}
+          ${(mejor.faltan || []).map((d) => `<li>☐ ${h(N.documentos[d] || d)} <b>(pendiente)</b></li>`).join('')}
+        </ul>
+
+        <p class="res-p">La persona abajo firmante declara que los datos y la documentación aportados son ciertos y solicita la
+        convalidación del módulo profesional indicado, de conformidad con el artículo 4 del Real Decreto 1085/2020, de 9 de
+        diciembre, y con los artículos 50 y 51 del Decreto 91/2024, de 5 de junio, del Gobierno de Aragón.</p>
+
+        <p class="res-lugar">En ${h(state.localidad || '____________________')}, a ____ de ______________ de 20____</p>
+        <div class="res-firma"><p>Firma del/de la solicitante</p><div class="res-linea"></div>
+          <p>Fdo.: ${h(state.alumno || '____________________')}</p></div>
+
+        <p class="sol-destino"><b>SR./SRA. DIRECTOR/A DEL CENTRO ${h((state.centro || '____________________').toUpperCase())}</b></p>
+        <div class="sol-registro">Registro de entrada del centro<br><br>N.º ____________ Fecha: ____ / ____ / ________</div>
+      </section>`).join('');
+  }
+
+  // ---------- Listado provisional de solicitantes ----------
+  const dniParcial = (dni) => {
+    const d = (dni || '').trim();
+    if (d.length < 5) return d || '____________';
+    return d.slice(0, 2) + '*'.repeat(d.length - 4) + d.slice(-2);
+  };
+
+  function pintarListado(c, amb, filas) {
+    // La formación en empresa va por el expediente de exención, no por este listado
+    const resueltos = filas.filter((f) => (f.mejor || f.bloqueo) && f.modulo.tipo !== 'empresa');
+    const cuerpo = resueltos.length
+      ? resueltos.map(({ modulo: m, mejor }) => {
+          const favorable = mejor && ['convalidable', 'superado', 'exento'].includes(mejor.estado);
+          return `<tr>
+            <td class="cod">${h(m.codigo)}</td>
+            <td>${h(nombreModulo(m, amb))}</td>
+            <td>${favorable ? 'Favorable' : mejor && mejor.estado === 'ministerio' ? 'Remitido al Ministerio' : 'Desfavorable'}</td>
+            <td class="num">${favorable && mejor ? h(calificacionCorta(mejor)) : ''}</td>
+          </tr>`;
+        }).join('')
+      : `<tr><td colspan="4" class="vacio-td">Sin solicitudes resueltas.</td></tr>`;
+
+    $('#listado').innerHTML = `
+      <div class="res-membrete">${h(state.centro || '')}${state.membrete ? `<br>${h(state.membrete).replace(/\n/g, '<br>')}` : ''}</div>
+      <h1 class="res-titulo">Listado provisional de solicitantes de convalidación de módulos profesionales</h1>
+
+      <p class="res-p"><b>Documento Nacional de Identidad:</b> ${h(dniParcial(state.dni))} ·
+      <b>Ciclo formativo:</b> ${h(c.ciclo.nombre)}${state.curso ? ` · <b>Curso:</b> ${h(state.curso)}` : ''}</p>
+
+      <table class="res-tabla">
+        <colgroup><col style="width:12%"><col style="width:53%"><col style="width:20%"><col style="width:15%"></colgroup>
+        <thead><tr><th>Código</th><th>Denominación</th><th>Estado</th><th class="num">Calificación</th></tr></thead>
+        <tbody>${cuerpo}</tbody>
+      </table>
+
+      <p class="res-p res-recursos"><b>CARÁCTER PROVISIONAL.</b> Este listado no es una resolución. Las personas interesadas
+      podrán formular alegaciones ante la dirección del centro en el plazo de ____ días hábiles contados desde el día siguiente al
+      de su publicación. Transcurrido ese plazo se dictará la resolución, que se notificará individualmente y contra la que cabrá
+      el recurso que en ella se indique.</p>
+
+      ${firma('LA/EL DIRECTORA/DIRECTOR DEL CENTRO')}`;
   }
 
   // ---------- Anexo imprimible ----------
@@ -712,6 +814,8 @@
     $('#btn-imprimir').addEventListener('click', () => imprimir('doc-anexo'));
     $('#btn-resolucion').addEventListener('click', () => imprimir('doc-resolucion'));
     $('#btn-exencion').addEventListener('click', () => imprimir('doc-exencion'));
+    $('#btn-solicitudes').addEventListener('click', () => imprimir('doc-solicitudes'));
+    $('#btn-listado').addEventListener('click', () => imprimir('doc-listado'));
   }
 
   document.addEventListener('DOMContentLoaded', init);

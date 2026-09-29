@@ -90,7 +90,7 @@ details ul { padding-left: 1rem; margin: .2rem 0; }
 a { color: var(--accent); }
 .disclaimer { font-size: .78rem; color: var(--muted); margin-top: 1.5rem; }
 .print-only { display: none; }
-#informe, #resolucion, #exencion { display: none; }
+#informe, #resolucion, #exencion, #solicitudes, #listado { display: none; }
 
 @media print {
   @page { size: A4; margin: 14mm 12mm 16mm; }
@@ -100,6 +100,17 @@ a { color: var(--accent); }
   body.doc-anexo #informe { display: block; }
   body.doc-resolucion #resolucion { display: block; }
   body.doc-exencion #exencion { display: block; }
+  body.doc-solicitudes #solicitudes { display: block; }
+  body.doc-listado #listado { display: block; }
+
+  /* Solicitud y listado */
+  #solicitudes, #listado { font-size: 10.5pt; line-height: 1.45; }
+  .hoja.corte { break-after: page; }
+  .sol-orden { text-align: right; font-size: 8.5pt; color: #333; margin: -8pt 0 10pt; }
+  .sol-docs { list-style: none; padding: 0; margin: 0 0 10pt; font-size: 9.5pt; }
+  .sol-docs li { margin-bottom: 2pt; }
+  .sol-destino { margin-top: 16pt; font-size: 9.5pt; }
+  .sol-registro { margin-top: 10pt; border: 1px solid #000; padding: 6pt 8pt; width: 54%; font-size: 8.5pt; }
 
   /* Resolución de dirección */
   #resolucion, #exencion { font-size: 10.5pt; line-height: 1.45; }

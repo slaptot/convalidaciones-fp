@@ -18,7 +18,13 @@ Cada ciclo se puede analizar con tres planes: LO 3/2022 en Aragón, LO 3/2022 de
 
 - Abrir `index.html` en el navegador (funciona sin servidor), o bien `python3 -m http.server 8765`.
 - El expediente se guarda automáticamente en el navegador. "Guardar expediente" lo exporta a JSON y "Abrir…" lo recupera.
-- Tres documentos imprimibles: "Imprimir anexo" (análisis completo con fundamentos y documentación que falta), "Imprimir resolución" (convalidación de módulos) e "Imprimir exención" (formación en empresa). Los dos últimos llevan base legal, tabla y modo de impugnación.
+- Cinco documentos imprimibles:
+  - "Imprimir anexo": análisis completo con fundamentos y documentación que falta (uso interno).
+  - "Imprimir resolución": convalidación de módulos, con apartados separados para convalidación y traslado de nota.
+  - "Imprimir exención": formación en empresa.
+  - "Solicitudes": una hoja por módulo, con su documentación y el registro de entrada.
+  - "Listado provisional": estado por módulo, con el DNI parcialmente oculto.
+  Las resoluciones llevan base legal, modo de impugnación y pie de notificación.
 - Los datos del membrete, la localidad, la directora o director y la fecha se rellenan en "Datos para la resolución de dirección".
 - En `ejemplos/` hay expedientes de muestra: ábrelos con "Abrir…".
 
