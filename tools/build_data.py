@@ -294,6 +294,17 @@ build("ssc301", "ssc301.json", {
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
 })
 
+build("imp303", "imp303.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+    # RD 544/2023: UC0351_2 se desdobla y el módulo 1069 exige las dos
+    "equivalencias": {"UC0351_2": ["UC2685_2", "UC2686_2"]},
+    "no_verificado_extra": [
+        "La herramienta de CATEDU acepta ECP2685_2 o ECP2686_2 por separado para el módulo 1069; el anexo del título las pone en la misma celda, lo que exige acreditar las dos.",
+    ],
+})
+
 build("fpb_peluqueria_estetica", "fpb-peluqueria-estetica.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -406,4 +417,4 @@ def build_catalogo(ya_cargados):
 
 
 build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108",
-                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IMP302", "SSC301", "SSC302", "SSC303", "SSC304"])
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304"])

@@ -329,3 +329,9 @@ assert.equal(est('apsd', [{ tipo: 'modulo_loe', codigo: '1124', nombre: 'Dinamiz
 r = est('ssc301', ['1123', '1124'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Termalismo y bienestar', docs: [] })));
 assert.equal(r['1123'], 'superado'); assert.equal(r['1124'], 'superado');
 console.log('OK: Animación Sociocultural y Turística');
+
+// Estilismo y Dirección de Peluquería: 0750 común con Estética Integral
+require('../data/ciclos/imp303.js');
+assert.equal(est('imp303', [{ tipo: 'modulo_loe', codigo: '0750', nombre: 'x', titulo: 'TS Estética Integral y Bienestar', docs: [] }])['0750'], 'superado');
+assert.equal(est('imp302', [{ tipo: 'modulo_loe', codigo: '0750', nombre: 'x', titulo: 'TS Estilismo y Dirección de Peluquería', docs: [] }])['0750'], 'superado');
+console.log('OK: Estilismo y Dirección de Peluquería');
