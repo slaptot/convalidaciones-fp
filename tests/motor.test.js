@@ -360,7 +360,7 @@ assert.equal(est('imp301', [{ tipo: 'modulo_loe', codigo: '1071', nombre: 'x', t
 console.log('OK: Imagen Personal completa (7 ciclos)');
 
 // DAM y DAW: cinco módulos idénticos, cotejados por las dos investigaciones
-['ifc302', 'ifc303'].forEach((c) => require(`../data/ciclos/${c}.js`));
+['ifc301', 'ifc302', 'ifc303'].forEach((c) => require(`../data/ciclos/${c}.js`));
 const comunes = ['0483', '0484', '0485', '0373', '0487'];
 r = est('ifc303', comunes.map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS DAM', docs: [] })));
 comunes.forEach((m) => assert.equal(r[m], 'superado', m));
