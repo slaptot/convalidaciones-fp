@@ -120,6 +120,22 @@
     return mods.some((m) => m.tipo === 'empresa') ? mods : [...mods, FORMACION_EMPRESA];
   }
 
+  /* Calificación concreta con la que se convalida (Anexo VIII, aps. 15-24):
+     - CV-n con la nota de lo aportado (media redondeada si son varios módulos)
+     - CV-5 con unidades de competencia o certificado de profesionalidad
+     - CV sin nota cuando no computa en la media */
+  function calificacionSugerida(r, clave) {
+    const notas = (r.aportes || []).map((a) => Number(a.nota)).filter((n) => n > 0);
+    const media = notas.length ? Math.round(notas.reduce((s, n) => s + n, 0) / notas.length) : null;
+    switch (clave) {
+      case 'uc': return 'CV-5';
+      case 'sin_nota': return 'CV';
+      case 'exento': return 'Exento';
+      case 'superado': return media ? String(media) : 'Nota trasladada';
+      default: return media ? `CV-${media}` : 'CV-nota';
+    }
+  }
+
   function faltanDocs(normativa, r) {
     const faltan = new Set(r.faltan_extra || []);
     for (const a of r.aportes) {
@@ -137,6 +153,8 @@
     const candidatos = {};
     const add = (cod, r) => { if (enPlan.has(cod)) (candidatos[cod] ||= []).push(r); };
     const cal = (k) => normativa.calificacion[k];
+    // Cada candidato guarda además la clave, para poder calcular la calificación concreta
+    const conValor = (r, clave) => ({ ...r, calificacion: cal(clave), clave, valor: calificacionSugerida(r, clave) });
 
     const por = (t) => aportaciones.filter((a) => a.tipo === t);
     const loe = por('modulo_loe'), logse = por('modulo_logse'), ucs = por('uc');
@@ -171,26 +189,26 @@
       if (m.tipo === 'optativo') continue; // "OPT" no es un código estatal: se convalida por la regla C24
       const hit = loe.find((a) => norm(a.codigo) === norm(m.codigo));
       if (!hit) continue;
-      add(m.codigo, {
-        estado: 'superado', resuelve: 'Secretaría (traslado de nota en la matrícula)', calificacion: cal('superado'),
+      add(m.codigo, conValor({
+        estado: 'superado', resuelve: 'Secretaría (traslado de nota en la matrícula)',
         motivo: `Módulo ${m.codigo} superado en ${hit.titulo || 'otro ciclo'}`,
         fundamento: normativa.fundamentos.mismo_codigo, aportes: [hit],
         aviso: ['digitalizacion', 'sostenibilidad'].includes(m.comun)
           ? 'RD 659/2023 art. 126.3: exige misma familia profesional y mismo grado; comprobar.'
           : m.comun === 'tutoria'
             ? 'Módulo propio de Aragón: lo resuelve la Administración educativa autonómica (RD 1085/2020 art. 8.2).' : undefined,
-      });
+      }, 'superado'));
     }
 
     // 1b. LOGSE: mismo módulo del mismo título superado en otro centro/matrícula
     if (ciclo.ciclo.plan === 'LOGSE') {
       for (const m of modulos) {
         const hit = logse.find((a) => a.titulo === ciclo.ciclo.nombre && norm(a.modulo) === norm(m.nombre));
-        if (hit) add(m.codigo, {
-          estado: 'superado', resuelve: 'Secretaría (traslado de nota)', calificacion: cal('superado'),
+        if (hit) add(m.codigo, conValor({
+          estado: 'superado', resuelve: 'Secretaría (traslado de nota)',
           motivo: `Módulo superado del mismo título (${ciclo.ciclo.nombre})`,
           fundamento: normativa.fundamentos.mismo_codigo, aportes: [hit],
-        });
+        }, 'superado'));
       }
     }
 
@@ -200,22 +218,22 @@
         logse.find((a) => norm(a.modulo) === norm(om)
           && (a.titulo === GENERAL_LOGSE || mismoTitulo(a.titulo, fila.origen_titulo))));
       if (!usados.every(Boolean)) continue;
-      fila.destino_modulos.forEach((d) => add(d, {
-        estado: 'convalidable', resuelve: 'Dirección del centro', calificacion: cal('tabla'),
+      fila.destino_modulos.forEach((d) => add(d, conValor({
+        estado: 'convalidable', resuelve: 'Dirección del centro',
         motivo: `${fila.origen_modulo.join(' + ')} (${fila.origen_titulo})`,
         fundamento: fila.fuente, aportes: usados,
-      }));
+      }, 'tabla')));
     }
 
     // 3. Tabla del título: módulos LOE de otros ciclos
     for (const fila of ciclo.convalidaciones_loe || []) {
       const usados = fila.origen_codigos.map((c) => loe.find((a) => norm(a.codigo) === norm(c)));
       if (!usados.every(Boolean)) continue;
-      fila.destino_modulos.forEach((d) => add(d, {
-        estado: 'convalidable', resuelve: 'Dirección del centro', calificacion: cal('tabla'),
+      fila.destino_modulos.forEach((d) => add(d, conValor({
+        estado: 'convalidable', resuelve: 'Dirección del centro',
         motivo: `${fila.origen_codigos.join(' + ')} ${fila.origen_nombre} (LOE)`,
         fundamento: fila.fuente, aportes: usados,
-      }));
+      }, 'tabla')));
     }
 
     // 4. Unidades de competencia acreditadas
@@ -224,12 +242,12 @@
       if (!req.every((u) => ucSet.has(u))) continue;
       const usados = [...new Set(ucPares.filter((p) => aportaUc(p, req)).map((p) => p.aporte))];
       const viaCert = usados.filter((a) => a.tipo === 'mf' || a.tipo === 'uf');
-      fila.modulos.forEach((d) => add(d, {
-        estado: 'convalidable', resuelve: 'Dirección del centro', calificacion: cal('uc'),
+      fila.modulos.forEach((d) => add(d, conValor({
+        estado: 'convalidable', resuelve: 'Dirección del centro',
         motivo: `Acredita ${fila.uc.join(' + ')}${fila.nota ? ` (${fila.nota})` : ''}`
           + (viaCert.length ? ` · vía ${viaCert.map((a) => a.codigo).join(', ')} del certificado` : ''),
         fundamento: `${fila.fuente}; ${normativa.fundamentos.uc}`, aportes: usados,
-      }));
+      }, 'uc')));
     }
 
     // 5. Reglas generales (módulos comunes, formación en empresa, inglés…)
@@ -239,22 +257,22 @@
       if (!destinos.length) continue;
       const res = regla.evaluar(ctx);
       if (!res) continue;
-      destinos.forEach((m) => add(m.codigo, {
-        estado: res.estado || regla.estado, resuelve: regla.resuelve, calificacion: cal(regla.calificacion),
+      destinos.forEach((m) => add(m.codigo, conValor({
+        estado: res.estado || regla.estado, resuelve: regla.resuelve,
         motivo: res.motivo, fundamento: regla.fundamento, aportes: res.aportes || [],
         faltan_extra: res.faltan_extra, aviso: regla.aviso,
-      }));
+      }, regla.calificacion)));
     }
 
     // 6. Estudios universitarios: Ministerio, solo grado superior
     if (univ.length && ciclo.ciclo.grado === 'superior') {
       for (const m of modulos) {
         if (['empresa', 'proyecto'].includes(m.tipo)) continue;
-        add(m.codigo, {
-          estado: 'ministerio', resuelve: normativa.universidad.resuelve, calificacion: cal('sin_nota'),
+        add(m.codigo, conValor({
+          estado: 'ministerio', resuelve: normativa.universidad.resuelve,
           motivo: `Estudios universitarios: ${univ.map((u) => u.titulacion).join(', ')}. Requiere estudio de contenidos.`,
           fundamento: normativa.universidad.fundamento, aportes: univ, aviso: normativa.universidad.aviso,
-        });
+        }, 'sin_nota'));
       }
     }
 
@@ -264,12 +282,11 @@
     if (loeMin.length) {
       for (const m of modulos) {
         if (m.tipo === 'empresa') continue;
-        add(m.codigo, {
+        add(m.codigo, conValor({
           estado: 'ministerio', resuelve: 'Ministerio (SG Ordenación e Innovación FP), tramitado por el centro',
-          calificacion: cal('loe_logse'),
           motivo: `Módulos LOE aportados a un ciclo LOGSE (${loeMin.map((a) => a.codigo).join(', ')}): estudio individual`,
           fundamento: 'RD 1085/2020 art. 9.c; RD 659/2023 art. 127.b.4º', aportes: loeMin,
-        });
+        }, 'loe_logse'));
       }
     }
 

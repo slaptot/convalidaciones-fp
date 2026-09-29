@@ -82,6 +82,7 @@ td.cod { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 6
 .aviso-box { background: var(--warn-bg); color: var(--warn); padding: .5rem .75rem; border-radius: 6px; font-size: .85rem; }
 .badge.none { background: var(--none-bg); color: var(--none); }
 .ok-txt { color: var(--ok); font-size: .8rem; }
+input.cal { width: 5.5rem; padding: .2rem .35rem; font-size: .82rem; text-align: center; }
 ul.faltan { margin: 0; padding-left: 1rem; color: var(--bad); font-size: .8rem; }
 details { margin-top: .3rem; font-size: .8rem; }
 details ul { padding-left: 1rem; margin: .2rem 0; }

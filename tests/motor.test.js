@@ -372,3 +372,25 @@ comunes.forEach((m) => assert.equal(r[m], 'superado', m));
   assert.equal(x['0483'], 'convalidable', c); assert.equal(x['0484'], 'convalidable', c);
 });
 console.log('OK: DAM y DAW');
+
+// ---- Calificación con la que se convalida ----
+// Con nota en lo aportado, sale el CV-n; con UC acreditada, CV-5
+f = full('apsd', [
+  { tipo: 'modulo_logse', titulo: 'Técnico en Atención Sociosanitaria (LOGSE, RD 496/2003)', modulo: 'Higiene', nota: 8, docs: ['cert_academica'] },
+  { tipo: 'uc', codigo: 'UC0249_2', via: 'Certificado de profesionalidad', docs: ['cert_profesionalidad'] },
+]);
+assert.equal(f.filas.find((x) => x.modulo.codigo === '0217').mejor.valor, 'CV-8');
+assert.equal(f.filas.find((x) => x.modulo.codigo === '0210').mejor.valor, 'CV-5');
+// Media redondeada cuando la fila exige varios módulos
+f = full('tcae', [
+  { tipo: 'modulo_logse', titulo: 'Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)', modulo: 'Exploración bucodental', nota: 7, docs: [] },
+  { tipo: 'modulo_logse', titulo: 'Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)', modulo: 'Prevención bucodental', nota: 10, docs: [] },
+]);
+assert.equal(f.filas.find((x) => x.modulo.codigo === 'TCAE-04').mejor.valor, 'CV-9');
+// Sin nota, queda como CV-nota para rellenar a mano
+f = full('apsd', [{ tipo: 'modulo_logse', titulo: 'Técnico en Atención Sociosanitaria (LOGSE, RD 496/2003)', modulo: 'Higiene', docs: [] }]);
+assert.equal(f.filas.find((x) => x.modulo.codigo === '0217').mejor.valor, 'CV-nota');
+// Estudios universitarios y EOI: CV sin nota
+f = full('termalismo', [{ tipo: 'certificado', clave: 'eoi_b2', docs: ['cert_eoi'] }]);
+assert.equal(f.filas.find((x) => x.modulo.codigo === '0179').mejor.valor, 'CV');
+console.log('OK: calificación con la que se convalida');

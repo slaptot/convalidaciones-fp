@@ -28,7 +28,7 @@
   let state = cargar() || nuevo();
 
   function nuevo() {
-    return { centro: '', membrete: '', localidad: '', director: '', fecha_res: '', titularidad: 'publico', provincia: 'Zaragoza', adscrito: '', grado: '', familia: '', alumno: '', dni: '', curso: '', ciclo: Object.keys(CICLOS)[0], ambito: 'aragon', aportaciones: [], notas: '' };
+    return { centro: '', membrete: '', localidad: '', director: '', fecha_res: '', titularidad: 'publico', provincia: 'Zaragoza', adscrito: '', grado: '', familia: '', calificaciones: {}, alumno: '', dni: '', curso: '', ciclo: Object.keys(CICLOS)[0], ambito: 'aragon', aportaciones: [], notas: '' };
   }
   function cargar() {
     try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; }
@@ -42,6 +42,8 @@
   const codigoCiclo = (c) => (c.ciclo.codigo || '').split(/[\s(]/)[0];
   // Un módulo puede llamarse distinto según el plan de estudios
   const nombreModulo = (m, amb) => (m.nombres && m.nombres[amb]) || m.nombre;
+  const calificacionFinal = (codigo, mejor) =>
+    (state.calificaciones && state.calificaciones[codigo]) || (mejor ? mejor.valor : '');
 
   // ---------- Catálogo de ciclos: grado y familia ----------
   const GRADOS = { basico: 'Grado básico', medio: 'Grado medio', superior: 'Grado superior' };
@@ -112,7 +114,8 @@
           <label>Código del módulo <input name="codigo" list="dl-modulos" required placeholder="p. ej. 1709"></label>
           <datalist id="dl-modulos">${opts}</datalist>
           <label>Nombre del módulo <input name="nombre" placeholder="Se rellena al elegir código"></label>
-          <label>Título en el que lo superó <input name="titulo" placeholder="p. ej. Técnico en Cuidados Auxiliares de Enfermería"></label>`;
+          <label>Título en el que lo superó <input name="titulo" placeholder="p. ej. Técnico en Cuidados Auxiliares de Enfermería"></label>
+          <label>Calificación obtenida (opcional) <input name="nota" type="number" min="1" max="10" step="1" placeholder="para calcular el CV-n"></label>`;
       }
       case 'modulo_logse': {
         const filas = c.convalidaciones_titulos_anteriores || [];
@@ -133,7 +136,8 @@
           .map((m) => `<option value="${h(window.Motor.GENERAL_LOGSE + '||' + m)}">${h(m)}</option>`).join('');
         return `<label>Módulo superado <select name="logse" required>
           <optgroup label="Tabla del título (${h(c.ciclo.nombre)})">${opts.join('')}</optgroup>
-          <optgroup label="Cualquier ciclo LOGSE">${gen}</optgroup>${mismo}</select></label>`;
+          <optgroup label="Cualquier ciclo LOGSE">${gen}</optgroup>${mismo}</select></label>
+          <label>Calificación obtenida (opcional) <input name="nota" type="number" min="1" max="10" step="1" placeholder="para calcular el CV-n"></label>`;
       }
       case 'titulo': {
         const vistos = new Set();
@@ -153,6 +157,7 @@
             <optgroup label="Otros títulos de esta herramienta">${cargados}</optgroup>
             <optgroup label="Grado Básico"><option value="gb|">Título de Grado Básico (cualquier ciclo)</option></optgroup>
           </select></label>
+          <label>Nota media del título (opcional) <input name="nota" type="number" min="1" max="10" step="1" placeholder="para calcular el CV-n"></label>
           <p class="pista">Aplica de una vez lo que corresponda: filas de "ciclo completo", reglas generales y, en los títulos cargados, los módulos con el mismo código.</p>`;
       }
       case 'uc': {
@@ -255,6 +260,8 @@
     const fd = new FormData(form);
     const tipo = fd.get('tipo');
     const a = { tipo, docs: fd.getAll('doc') };
+    const nota = Number(fd.get('nota'));
+    if (nota > 0) a.nota = nota;
     if (tipo === 'modulo_loe') Object.assign(a, { codigo: fd.get('codigo').trim(), nombre: fd.get('nombre'), titulo: fd.get('titulo') });
     if (tipo === 'modulo_logse') { const [t, m] = fd.get('logse').split('||'); Object.assign(a, { titulo: t, modulo: m }); }
     if (tipo === 'titulo') {
@@ -274,8 +281,8 @@
 
   function describir(a) {
     switch (a.tipo) {
-      case 'modulo_loe': return `${a.codigo} ${a.nombre || ''}${a.titulo ? ` — ${a.titulo}` : ''}`;
-      case 'modulo_logse': return `${a.modulo} — ${a.titulo}`;
+      case 'modulo_loe': return `${a.codigo} ${a.nombre || ''}${a.titulo ? ` — ${a.titulo}` : ''}${a.nota ? ` · nota ${a.nota}` : ''}`;
+      case 'modulo_logse': return `${a.modulo} — ${a.titulo}${a.nota ? ` · nota ${a.nota}` : ''}`;
       case 'titulo': return `${a.label || a.titulo} — título completo`;
       case 'uc': return `${a.codigo} ${ciclo().uc_descripciones?.[a.codigo] || ''} (${a.via})`;
       case 'mf': {
@@ -339,6 +346,7 @@
           <td>${h(nombreModulo(m, amb))}${horas ? `<div class="sub">${horas} h${curso ? ` · ${curso}º curso` : ''}</div>` : ''}${m.nota && !horas ? `<div class="sub">${h(m.nota)}</div>` : ''}</td>
           <td><span class="badge ${est.cls}">${est.txt}</span></td>
           <td>${mejor ? `${h(mejor.motivo)}<div class="sub"><b>Resuelve:</b> ${h(mejor.resuelve)} · <b>Nota:</b> ${h(mejor.calificacion)}</div><div class="sub">${h(mejor.fundamento)}</div>${mejor.aviso ? `<div class="sub aviso">⚠ ${h(mejor.aviso)}</div>` : ''}${alt}` : bloqueo ? `<span class="sub">${h(bloqueo)}</span>` : ''}</td>
+          <td>${mejor ? `<input class="cal" data-cod="${h(m.codigo)}" value="${h(calificacionFinal(m.codigo, mejor))}" size="8" aria-label="Calificación de ${h(m.codigo)}">` : ''}</td>
           <td>${mejor ? (mejor.faltan.length ? `<ul class="faltan">${mejor.faltan.map((d) => `<li>${h(N.documentos[d] || d)}</li>`).join('')}</ul>` : '<span class="ok-txt">Completa</span>') : ''}</td>
         </tr>`;
       })
@@ -446,7 +454,7 @@
             <td class="cod">${h(m.codigo)}</td>
             <td>${h(nombreModulo(m, amb))}</td>
             <td>${favorable ? 'Favorable' : mejor.estado === 'ministerio' ? 'Remitido al Ministerio' : 'Pendiente de estudio'}</td>
-            <td class="num">${favorable && mejor ? h(calificacionCorta(mejor)) : ''}</td>
+            <td class="num">${favorable && mejor ? h(calificacionFinal(m.codigo, mejor)) : ''}</td>
           </tr>`;
         }).join('')
       : `<tr><td colspan="4" class="vacio-td">Sin solicitudes resueltas.</td></tr>`;
@@ -526,7 +534,7 @@
         <td>${h(estado)}</td>
         <td>${mejor ? h(mejor.motivo) : bloqueo ? h(bloqueo) : '—'}</td>
         <td>${mejor ? h(mejor.resuelve) : '—'}</td>
-        <td>${mejor ? h(mejor.calificacion) : '—'}</td>
+        <td>${mejor ? `${h(calificacionFinal(m.codigo, mejor))}<div class="res-nota">${h(mejor.calificacion)}</div>` : '—'}</td>
       </tr>`;
     }).join('');
 
@@ -652,7 +660,7 @@
           <td class="cod">${h(m.codigo)}</td>
           <td>${h(nombreModulo(m, amb))}</td>
           <td class="num">${m.curso[amb] || ''}</td>
-          <td>${h(calificacionCorta(mejor))}</td>
+          <td>${h(calificacionFinal(m.codigo, mejor))}</td>
         </tr>`).join('')}</tbody>
       </table>`;
   }
@@ -818,6 +826,15 @@
     $('#lista-aportaciones').addEventListener('click', (e) => {
       const i = e.target.dataset.del;
       if (i !== undefined) { state.aportaciones.splice(Number(i), 1); refrescar(); }
+    });
+    $('#tabla-resultados').addEventListener('change', (e) => {
+      const cod = e.target.dataset.cod;
+      if (cod === undefined) return;
+      state.calificaciones = { ...(state.calificaciones || {}) };
+      const v = e.target.value.trim();
+      if (v) state.calificaciones[cod] = v; else delete state.calificaciones[cod];
+      guardar();
+      pintarResultados();
     });
     $('#lista-aportaciones').addEventListener('change', (e) => {
       const { i, doc } = e.target.dataset;
