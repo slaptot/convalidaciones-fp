@@ -639,6 +639,27 @@ assert.equal(est('aga202', [{ tipo: 'titulo', titulo: 'Técnico en Electromecán
 assert.equal(est('aga201', [{ tipo: 'titulo', titulo: 'Técnico en Electromecánica de Maquinaria', docs: [] }])['0407'], 'convalidable');
 console.log('OK: Producción Agroecológica');
 
+// Aprovechamiento y Conservación del Medio Natural: una fila LOGSE da cuatro módulos; otra exige dos de origen
+require('../data/ciclos/aga205.js');
+const tf = (mods) => mods.map((m) => ({ tipo: 'modulo_logse', titulo: 'Técnico en Trabajos Forestales y de Conservación del Medio Natural', modulo: m, docs: [] }));
+r = est('aga205', tf(['Conservación y defensa de las masas forestales']));
+['0409', '0479', '0832', '0836'].forEach((c) => assert.equal(r[c], 'convalidable', c));
+assert.notEqual(est('aga205', tf(['Instalaciones agrarias']))['0837'], 'convalidable');
+assert.equal(est('aga205', tf(['Mecanización agraria', 'Instalaciones agrarias']))['0837'], 'convalidable');
+r = est('aga205', ['0404', '0409', '0479'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'Técnico en Producción Agropecuaria', docs: [] })));
+['0404', '0409', '0479'].forEach((c) => assert.equal(r[c], 'superado', c));
+console.log('OK: Aprovechamiento y Conservación del Medio Natural');
+
+// Jardinería y Floristería: filas LOGSE de Jardinería, ciclos completos y comunes de la familia
+require('../data/ciclos/aga204.js');
+r = est('aga204', [{ tipo: 'modulo_logse', titulo: 'Técnico en Jardinería', modulo: 'Métodos de control fitosanitario', docs: [] }]);
+assert.equal(r['0409'], 'convalidable'); assert.equal(r['0479'], 'convalidable');
+assert.equal(est('aga204', [{ tipo: 'titulo', titulo: 'Técnico en Actividades Comerciales', docs: [] }])['0581'], 'convalidable');
+assert.equal(est('aga204', [{ tipo: 'titulo', titulo: 'Técnico en Electromecánica de Maquinaria', docs: [] }])['0407'], 'convalidable');
+r = est('aga204', ['0404', '0407', '0408', '0409', '0479'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'Técnico en Producción Agropecuaria', docs: [] })));
+['0404', '0407', '0408', '0409', '0479'].forEach((c) => assert.equal(r[c], 'superado', c));
+console.log('OK: Jardinería y Floristería');
+
 // La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
 for (const [id, c] of Object.entries(CICLOS)) {
   const emp = c.modulos.filter((m) => m.tipo === 'empresa').map((m) => m.codigo);
