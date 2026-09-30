@@ -574,6 +574,19 @@ assert.ok(!('0383' in r));
 assert.notEqual(est('hot302', [{ tipo: 'uc', codigo: 'UC1057_2', via: 'x', docs: [] }])['0179'], 'convalidable');
 console.log('OK: Gestión de Alojamientos Turísticos');
 
+// Producción Agropecuaria: celdas LOGSE de dos módulos hacia tres; UC antiguas que valen por dos
+require('../data/ciclos/aga201.js');
+const eae = (mods) => mods.map((m) => ({ tipo: 'modulo_logse', titulo: 'Técnico en Explotaciones Agrarias Extensivas', modulo: m, docs: [] }));
+assert.notEqual(est('aga201', eae(['Manejo racional del ganado']))['0477'], 'convalidable');
+r = est('aga201', eae(['Manejo racional del ganado', 'Producción ganadera ligada a la tierra']));
+['0405', '0477', '0478'].forEach((c) => assert.equal(r[c], 'convalidable', c));
+r = est('aga201', eae(['Métodos de control fitosanitario']));
+assert.equal(r['0409'], 'convalidable'); assert.equal(r['0479'], 'convalidable');
+const ucs201 = (l) => l.map((u) => ({ tipo: 'uc', codigo: u, via: 'x', docs: [] }));
+assert.notEqual(est('aga201', ucs201(['UC0279_2', 'UC0281_2', 'UC0282_2', 'UC0004_2']))['0477'], 'convalidable');
+assert.equal(est('aga201', ucs201(['UC0279_2', 'UC0280_2', 'UC0281_2', 'UC0282_2', 'UC0004_2']))['0477'], 'convalidable');
+console.log('OK: Producción Agropecuaria');
+
 // La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
 for (const [id, c] of Object.entries(CICLOS)) {
   const emp = c.modulos.filter((m) => m.tipo === 'empresa').map((m) => m.codigo);
