@@ -743,7 +743,9 @@
     const meses = exp.filter((a) => a.relacionada).reduce((s, a) => s + (a.meses || 0), 0);
     const total = mejor && mejor.estado === 'exento';
     const privado = state.titularidad === 'privado';
-    const minimo = 'un año a tiempo completo o su equivalente (Grado D)';
+    const minimo = c.ciclo.curso_especializacion
+      ? 'seis meses a tiempo completo o su equivalente (Grado E)'
+      : 'un año a tiempo completo o su equivalente (Grado D)';
     const nombreMod = fila
       ? `${fila.modulo.codigo === 'FE' ? '' : `${fila.modulo.codigo} `}${nombreModulo(fila.modulo, amb)}`
       : 'periodo de formación en empresa u organismo equiparado';

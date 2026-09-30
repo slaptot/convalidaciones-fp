@@ -281,8 +281,10 @@
           if (ctx.normativa.exencion_excluida.includes(ctx.ciclo.ciclo.codigo)) return;
           const e = ctx.exp.filter((a) => a.relacionada);
           const meses = e.reduce((s, a) => s + (a.meses || 0), 0);
-          if (meses >= 12) return { motivo: `${meses} meses de experiencia relacionada (mínimo 12) → exención total posible`, aportes: e };
-          if (meses > 0) return { motivo: `${meses} meses de experiencia relacionada: no alcanza 1 año; solo cabría estudiar exención parcial`, aportes: e, estado: 'revisar' };
+          // Grado E (cursos de especialización): seis meses; Grado D: un año (art. 161.1)
+          const minimo = ctx.ciclo.ciclo.curso_especializacion ? 6 : 12;
+          if (meses >= minimo) return { motivo: `${meses} meses de experiencia relacionada (mínimo ${minimo}) → exención total posible`, aportes: e };
+          if (meses > 0) return { motivo: `${meses} meses de experiencia relacionada: no alcanza ${minimo === 12 ? '1 año' : '6 meses'}; solo cabría estudiar exención parcial`, aportes: e, estado: 'revisar' };
         },
       },
     ],

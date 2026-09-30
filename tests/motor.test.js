@@ -413,3 +413,13 @@ assert.equal(f.filas.find((x) => x.modulo.codigo === '0217').mejor.valor, 'CV-no
 f = full('termalismo', [{ tipo: 'certificado', clave: 'eoi_b2', docs: ['cert_eoi'] }]);
 assert.equal(f.filas.find((x) => x.modulo.codigo === '0179').mejor.valor, 'CV');
 console.log('OK: calificación con la que se convalida');
+
+// Cursos de especialización (Grado E): sin formación en empresa salvo Nube, seis meses y sin universidad
+require('../data/catalogo.js');
+const exp6 = [{ tipo: 'experiencia', meses: 6, relacionada: true, docs: [] }];
+assert.ok(!('FE' in est('CESIFC01', exp6)), 'Ciberseguridad no tiene formación en empresa');
+assert.equal(est('CESIFC04', exp6).FE, 'exento');
+assert.notEqual(est('ifc301', exp6).FE, 'exento');
+r = est('CESIFC02', [{ tipo: 'universidad', titulacion: 'Grado en Ingeniería Informática', asignaturas: '', docs: [] }]);
+assert.ok(Object.values(r).every((e) => e !== 'ministerio'));
+console.log('OK: cursos de especialización');

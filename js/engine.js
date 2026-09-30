@@ -117,6 +117,8 @@
     const mods = ciclo.modulos.filter((m) => m.horas?.[ambito] != null
       || (m.tipo === 'optativo' && ambito !== 'loe'));
     // Solo se añade el pseudo-módulo si el plan no tiene ya FCT (LOGSE y LOE a extinguir sí la tienen)
+    // Hay cursos de especialización sin periodo de formación en empresa
+    if (ciclo.ciclo.sin_formacion_empresa) return mods;
     return mods.some((m) => m.tipo === 'empresa') ? mods : [...mods, FORMACION_EMPRESA];
   }
 
@@ -265,7 +267,8 @@
     }
 
     // 6. Estudios universitarios: Ministerio, solo grado superior
-    if (univ.length && ciclo.ciclo.grado === 'superior') {
+    const esCurso = !!ciclo.ciclo.curso_especializacion;
+    if (univ.length && ciclo.ciclo.grado === 'superior' && !esCurso) {
       for (const m of modulos) {
         if (['empresa', 'proyecto'].includes(m.tipo)) continue;
         add(m.codigo, conValor({
@@ -303,6 +306,12 @@
     ];
     if (ucs.length && !(ciclo.uc_a_modulos || []).length) {
       avisosGlobales.push('Este título no tiene tabla de convalidación por unidades de competencia: las UC acreditadas no convalidan módulos.');
+    }
+    if (esCurso) {
+      avisosGlobales.push('Curso de especialización (Grado E): no hay tablas de convalidación entre módulos (el RD 1085/2020 no los recoge). Solo cabe el módulo idéntico con el mismo código y, si el real decreto del curso la trae, la correspondencia con estándares de competencia.');
+      if (ciclo.ciclo.sin_formacion_empresa) avisosGlobales.push('Este curso de especialización no tiene periodo de formación en empresa: no procede la exención.');
+      else avisosGlobales.push('Exención de la formación en empresa en Grado E: bastan seis meses de experiencia relacionada (RD 659/2023 arts. 131.2 y 161.1). Comprobar en el real decreto del curso que tiene periodo de formación en empresa.');
+      if (univ.length) avisosGlobales.push('Los estudios universitarios no permiten convalidar módulos de un curso de especialización: la LO 3/2022 art. 54.3 está pendiente de desarrollo y el RD 1085/2020 solo contempla títulos de Técnico Superior.');
     }
     if (univ.length && ciclo.ciclo.grado !== 'superior') {
       avisosGlobales.push('Los estudios universitarios no permiten convalidar módulos de grado medio (RD 1618/2011; RD 1085/2020 art. 2.1.d).');

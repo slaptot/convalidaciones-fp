@@ -416,6 +416,11 @@ def clasificar(codigo, nombre):
     return "especifico", "especifico"
 
 
+# Cursos de especialización sin periodo de formación en empresa, comprobado en su real decreto
+# (research/cursos-especializacion-ifc.md). De Informática solo lo tiene CESIFC04 (RD 145/2026).
+SIN_FORMACION_EMPRESA = {"CESIFC01", "CESIFC02", "CESIFC03", "CESIFC05"}
+
+
 def build_catalogo(ya_cargados):
     """data/catalogo.js: los ciclos de Aragón sin reglas propias todavía.
 
@@ -444,6 +449,8 @@ def build_catalogo(ya_cargados):
                 "codigo": c["codigo"], "nombre": c["nombre"], "grado": c["grado"],
                 "familia": familias.get(c["familia"], c["familia"]), "plan": plan,
                 "parcial": True,
+                **({"curso_especializacion": True} if c.get("nivel_catedu") in ("CEM", "CES") else {}),
+                **({"sin_formacion_empresa": True} if c["codigo"] in SIN_FORMACION_EMPRESA else {}),
                 "normas": [{"ref": "Catálogo de CATEDU (Gobierno de Aragón)",
                             "url": "https://centrosdocentes.catedu.es/awc/",
                             "nota": "Módulos y horas del currículo de Aragón. Faltan las tablas de convalidación del título y las correspondencias con estándares de competencia."}],
