@@ -343,6 +343,25 @@ assert.equal(r['3161'], 'convalidable');
 assert.ok(!('3005' in est('fpb128', [])), 'este título no tiene el módulo 3005');
 console.log('OK: Actividades Domésticas y Limpieza de Edificios');
 
+// Informática de Oficina (grado básico): ámbitos del plan anterior y módulos comunes con FPB104
+require('../data/ciclos/fpb121.js');
+r = est('fpb121', [
+  { tipo: 'modulo_loe', codigo: '3019', nombre: 'Ciencias aplicadas II', docs: ['cert_academica'] },
+  { tipo: 'modulo_loe', codigo: '3029', nombre: 'Montaje y mantenimiento de sistemas y componentes informáticos', titulo: 'Profesional Básico en Informática y Comunicaciones', docs: [] },
+]);
+assert.equal(r['3164'], 'convalidable');
+assert.equal(r['3029'], 'superado');
+assert.notEqual(r['3031'], 'superado');
+console.log('OK: Informática de Oficina');
+
+// Informática y Comunicaciones (grado básico): 3029, 3030 y 3016 comunes con Informática de Oficina
+require('../data/ciclos/fpb104.js');
+r = est('fpb104', ['3029', '3030', '3016'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'Profesional Básico en Informática de Oficina', docs: [] })));
+['3029', '3030', '3016'].forEach((c) => assert.equal(r[c], 'superado', c));
+assert.notEqual(r['3015'], 'superado');
+assert.equal(est('fpb104', ['UC1559_1', 'UC1560_1'].map((u) => ({ tipo: 'uc', codigo: u, docs: [] })))['3015'] === 'convalidable', false, '3015 exige las tres UC');
+console.log('OK: Informática y Comunicaciones (grado básico)');
+
 // Promoción de Igualdad de Género: 0017 convalida Destrezas sociales en APSD
 require('../data/ciclos/ssc305.js');
 assert.equal(est('apsd', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habilidades sociales', titulo: 'TS Promoción de Igualdad de Género', docs: [] }])['0211'], 'convalidable');

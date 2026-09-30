@@ -27,6 +27,8 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Estética Integral y Bienestar | IMP302 | Superior | LO 3/2022 |
 | Estilismo y Dirección de Peluquería | IMP303 | Superior | LO 3/2022 |
 | Actividades Domésticas y Limpieza de Edificios | FPB128 | Básico | LO 3/2022 |
+| Informática y Comunicaciones | FPB104 | Básico | LO 3/2022 |
+| Informática de Oficina | FPB121 | Básico | LO 3/2022 |
 | Animación Sociocultural y Turística | SSC301 | Superior | LO 3/2022 |
 | Educación Infantil | SSC302 | Superior | LO 3/2022 |
 | Integración Social | SSC303 | Superior | LO 3/2022 |
