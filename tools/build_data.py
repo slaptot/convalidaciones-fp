@@ -480,6 +480,19 @@ build("aga201", "aga201.json", {
     "equivalencias": {"UC0279_2": ["UC2306_2", "UC2307_2"], "UC0280_2": ["UC2309_2", "UC2310_2"]},
 })
 
+build("hot304", "hot304.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+    # RD 532/2025: UC de la redacción de 2010 -> vigentes del anexo V A (RD 500/2024)
+    "equivalencias": {"UC1105_3": ["UC1098_3"], "UC1047_2": ["UC2299_2"], "UC1097_3": ["UC1104_3"],
+                      "UC1099_3": ["UC1104_3"], "UC1100_3": ["UC1104_3"], "UC1101_3": ["UC2280_3"],
+                      "UC1062_3": ["UC2280_3"], "UC1063_3": ["UC2280_3"]},
+    "no_verificado_extra": [
+        "0501 no tiene fila en el anexo V A vigente: no se convalida por unidades de competencia. Las dos filas LOE hacia 0501 (0086 + 0468 y 0085 + 0086) están en la tabla de Dirección de Cocina y se aplican aquí por la DA 5.ª del RD 1085/2020, al ser el mismo módulo.",
+    ],
+})
+
 build("ssc305", "ssc305.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -629,4 +642,4 @@ def build_catalogo(ya_cargados):
 
 
 build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108", "FPB128",
-                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201", "HOT203", "ELE203", "ELE301", "ELE302", "ELE303", "ELE304", "HOT301", "ELE305", "HOT303", "HOT302", "AGA201"])
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201", "HOT203", "ELE203", "ELE301", "ELE302", "ELE303", "ELE304", "HOT301", "ELE305", "HOT303", "HOT302", "AGA201", "HOT304"])

@@ -587,6 +587,17 @@ assert.notEqual(est('aga201', ucs201(['UC0279_2', 'UC0281_2', 'UC0282_2', 'UC000
 assert.equal(est('aga201', ucs201(['UC0279_2', 'UC0280_2', 'UC0281_2', 'UC0282_2', 'UC0004_2']))['0477'], 'convalidable');
 console.log('OK: Producción Agropecuaria');
 
+// Dirección de Servicios de Restauración: celda LOGSE de dos módulos; UC antiguas traducidas
+require('../data/ciclos/hot304.js');
+const rest = (mods) => mods.map((m) => ({ tipo: 'modulo_logse', titulo: 'Técnico Superior en Restauración', modulo: m, docs: [] }));
+r = est('hot304', rest(['Procesos de servicio']));
+assert.equal(r['0509'], 'convalidable'); assert.equal(r['0510'], 'convalidable');
+assert.notEqual(est('hot304', rest(['Marketing en restauración']))['0503'], 'convalidable');
+assert.equal(est('hot304', rest(['Administración de establecimientos de restauración', 'Marketing en restauración']))['0503'], 'convalidable');
+assert.equal(est('hot304', [{ tipo: 'uc', codigo: 'UC1097_3', via: 'x', docs: [] }])['0504'], 'convalidable');
+assert.equal(est('hot304', [{ tipo: 'modulo_loe', codigo: '0180', nombre: 'x', titulo: 'TS Gestión de Alojamientos Turísticos', docs: [] }])['0180'], 'superado');
+console.log('OK: Dirección de Servicios de Restauración');
+
 // La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
 for (const [id, c] of Object.entries(CICLOS)) {
   const emp = c.modulos.filter((m) => m.tipo === 'empresa').map((m) => m.codigo);
