@@ -652,6 +652,27 @@
       </div>`;
   }
 
+  /* Lo que ha presentado el alumno, para poder cotejarlo con el expediente */
+  function tablaAportaciones() {
+    if (!state.aportaciones.length) {
+      return `<p class="res-p">No se ha registrado documentación.</p>`;
+    }
+    return `<table class="res-tabla">
+        <colgroup><col style="width:4%"><col style="width:17%"><col style="width:39%"><col style="width:22%"><col style="width:18%"></colgroup>
+        <thead><tr><th class="num">#</th><th>Tipo</th><th>Detalle</th><th>Documentos</th><th>Falta</th></tr></thead>
+        <tbody>${state.aportaciones.map((a, i) => {
+          const faltan = N.requeridos(a).filter((d) => !a.docs.includes(d));
+          return `<tr>
+            <td class="num">${i + 1}</td>
+            <td>${h(TIPO_CORTO[a.tipo])}</td>
+            <td>${h(describir(a))}</td>
+            <td>${a.docs.length ? a.docs.map((d) => h(doc(d))).join('<br>') : '—'}</td>
+            <td>${faltan.length ? `<span class="falta">${faltan.map((d) => h(doc(d))).join('<br>')}</span>` : 'Completa'}</td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table>`;
+  }
+
   function tablaModulos(filas, amb) {
     return `<table class="res-tabla">
         <colgroup><col style="width:9%"><col style="width:33%"><col style="width:7%"><col style="width:16%"><col style="width:35%"></colgroup>
@@ -702,6 +723,9 @@
           <tr><th>Fecha del cotejo</th><td colspan="3">${h(fechaLarga(state.fecha_res))}</td></tr>
         </tbody>
       </table>
+
+      <h2 class="res-apartado">Documentación aportada</h2>
+      ${tablaAportaciones()}
 
       ${dispositivo.join('')}
 
