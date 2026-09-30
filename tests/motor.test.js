@@ -414,6 +414,14 @@ f = full('termalismo', [{ tipo: 'certificado', clave: 'eoi_b2', docs: ['cert_eoi
 assert.equal(f.filas.find((x) => x.modulo.codigo === '0179').mejor.valor, 'CV');
 console.log('OK: calificación con la que se convalida');
 
+// Acondicionamiento Físico: 1136, 1151 y 1152 comunes con Termalismo; 1124 convalida 0017; 1136 da 0020
+require('../data/ciclos/afd302.js');
+r = est('afd302', ['1136', '1151', '1152'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Termalismo y bienestar', docs: [] })));
+['1136', '1151', '1152'].forEach((c) => assert.equal(r[c], 'superado', c));
+assert.equal(est('afd302', [{ tipo: 'modulo_loe', codigo: '1124', nombre: 'Dinamización grupal', titulo: 'TS Animación Sociocultural y Turística', docs: [] }])['0017'], 'convalidable');
+assert.equal(est('ssc301', [{ tipo: 'modulo_loe', codigo: '1136', nombre: 'Valoración de la condición física e intervención en accidentes', titulo: 'TS Acondicionamiento Físico', docs: [] }])['0020'], 'convalidable');
+console.log('OK: Acondicionamiento Físico');
+
 // Cursos de especialización (Grado E): sin formación en empresa salvo Nube, seis meses y sin universidad
 require('../data/catalogo.js');
 const exp6 = [{ tipo: 'experiencia', meses: 6, relacionada: true, docs: [] }];
