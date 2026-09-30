@@ -178,9 +178,15 @@
       if (ucSet.has(norm(ant))) nuevas.forEach((n) => ucSet.add(norm(n)));
       if (nuevas.every((n) => ucSet.has(norm(n)))) ucSet.add(norm(ant));
     }
+    /* Equivalencias que solo valen en conjunto: el RD 532/2025 refunde varias UC
+       suprimidas en una vigente, que únicamente se obtiene acreditándolas todas. */
+    const conjuntas = (ciclo.uc_equivalencias_conjuntas || [])
+      .filter((e) => e.requiere.every((u) => ucSet.has(norm(u))));
+    conjuntas.forEach((e) => e.da.forEach((n) => ucSet.add(norm(n))));
     const aportaUc = (p, req) => {
       const c = norm(p.codigo);
       if (req.includes(c)) return true;
+      if (conjuntas.some((e) => e.requiere.map(norm).includes(c) && e.da.some((n) => req.includes(norm(n))))) return true;
       const nuevas = (equiv[c] || []).map(norm);
       if (nuevas.some((n) => req.includes(n))) return true;
       return Object.entries(equiv).some(([ant, ns]) => req.includes(norm(ant)) && ns.map(norm).includes(c));

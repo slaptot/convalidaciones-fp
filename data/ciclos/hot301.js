@@ -924,18 +924,6 @@ window.CICLOS["hot301"] = {
   "UC1073_3": "(SUPRIMIDA) «Comunicarse en una lengua extranjera distinta del inglés, con un nivel de usuario competente, en los servicios turísticos de guía y animación» (HOT335_3 original). Equivale a ECP9997_3 sin requisitos adicionales (RD 532/2025 anexo II-a)"
  },
  "uc_equivalencias": {
-  "UC0266_3": [
-   "UC2567_3"
-  ],
-  "UC0267_2": [
-   "UC2567_3"
-  ],
-  "UC1069_3": [
-   "UC2579_3"
-  ],
-  "UC1070_3": [
-   "UC2580_3"
-  ],
   "UC1072_3": [
    "UC9999_3"
   ],
@@ -943,6 +931,35 @@ window.CICLOS["hot301"] = {
    "UC9997_3"
   ]
  },
+ "uc_equivalencias_conjuntas": [
+  {
+   "requiere": [
+    "UC0266_3",
+    "UC0267_2"
+   ],
+   "da": [
+    "UC2567_3"
+   ]
+  },
+  {
+   "requiere": [
+    "UC1069_3",
+    "UC1071_3"
+   ],
+   "da": [
+    "UC2579_3"
+   ]
+  },
+  {
+   "requiere": [
+    "UC1070_3",
+    "UC1071_3"
+   ],
+   "da": [
+    "UC2580_3"
+   ]
+  }
+ ],
  "notas": [
   "El campo «horas» es el del currículo básico / enseñanzas mínimas: RD 1254/2009 anexo I para los módulos originales (770 h entre 0171-0180 sin contar Proyecto, más 25 h de Proyecto) y RD 659/2023 para 0179 (50 h, antes 70 h), 1709, 1710 (50 h cada uno), 1665, 1708 (30 h cada uno) y el optativo (80 h, RD 500/2024). Las horas reales de impartición están en «horas_otras» con las claves «aragon» (Orden ECD/843/2024, anexo XXVIII), «mefp» (Orden EFD/659/2024, anexo XXXVI) y «loe» (plan LOE a extinguir de Aragón, Orden de 14/07/2010 y Resolución de 25/08/2010).",
   "El BOE no ofrece texto consolidado del RD 1254/2009 (https://www.boe.es/buscar/doc.php?id=BOE-A-2009-14260): hay que combinar el texto original, el RD 1085/2020 (deroga el anexo IV) y el RD 500/2024 (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685: nuevos arts. 2, 6, 10, 12 y 15, anexo I, nuevo anexo III de profesorado y SUSTITUCIÓN de los anexos V A) y V B)). A diferencia de otros títulos (p. ej. ASIR), este SÍ tiene los anexos V reescritos, por lo que las tablas originales de 2009 están recogidas con vigente=false.",

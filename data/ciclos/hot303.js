@@ -883,12 +883,6 @@ window.CICLOS["hot303"] = {
   "UC1073_3": "(SUPRIMIDA) «Comunicarse en una lengua extranjera distinta del inglés, con un nivel de usuario competente, en los servicios turísticos de guía y animación» (HOT335_3 original). Equivale a ECP9997_3 sin requisitos adicionales (RD 532/2025 anexo II-a)"
  },
  "uc_equivalencias": {
-  "UC1069_3": [
-   "UC2579_3"
-  ],
-  "UC1070_3": [
-   "UC2580_3"
-  ],
   "UC1072_3": [
    "UC9999_3"
   ],
@@ -896,6 +890,26 @@ window.CICLOS["hot303"] = {
    "UC9997_3"
   ]
  },
+ "uc_equivalencias_conjuntas": [
+  {
+   "requiere": [
+    "UC1069_3",
+    "UC1071_3"
+   ],
+   "da": [
+    "UC2579_3"
+   ]
+  },
+  {
+   "requiere": [
+    "UC1070_3",
+    "UC1071_3"
+   ],
+   "da": [
+    "UC2580_3"
+   ]
+  }
+ ],
  "notas": [
   "IDENTIFICACIÓN: el código de ciclo HOT303 de Aragón corresponde a Técnico Superior en Guía, Información y Asistencias Turísticas (RD 1255/2009). Confirmado con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=HOT303: «Guía, Información y Asistencia Turísticas», CFGS, familia Hostelería y Turismo, 2001 h, módulos 0171, 0172, 0173, 0179, 0180, 0383-0388, 1665, 1708, 1709, 1710 y optativo) y con el anexo XXXII de la Orden ECD/843/2024 («GUÍA, INFORMACIÓN Y ASISTENCIAS TURÍSTICAS (HOT303)»). El RD escribe «Asistencia» en el art. 1/2 y «Asistencias» en el título y en el RD 500/2024; se usa la forma del título del RD («Asistencias»).",
   "El campo «horas» es el del currículo básico / enseñanzas mínimas: RD 1255/2009 anexo I para los módulos originales (0171 70 h, 0172 70, 0173 90, 0383 110, 0384 90, 0385 50, 0386 75, 0387 75, 0180 70: 630 + 140 h de idiomas = 770 h con 0179 de 70 h, más 25 h de Proyecto) y RD 659/2023 para 0179 (50 h, antes 70 h), 1709, 1710 (50 h cada uno), 1665, 1708 (30 h cada uno) y el optativo (80 h, RD 500/2024). Las horas reales de impartición están en «horas_otras» con las claves «aragon» (Orden ECD/843/2024, anexo XXXII), «mefp» (Orden EFD/659/2024, anexo XL) y «loe» (plan LOE a extinguir de Aragón, Orden de 14/07/2010 y Resolución de 25/08/2010).",
@@ -937,6 +951,6 @@ window.CICLOS["hot303"] = {
   "El RD 1255/2009 no cuenta con texto consolidado y no consta en su ficha del BOE ninguna corrección de errores; no se ha verificado por otra vía (p. ej. el PDF original de las págs. 75778-75842 del BOE núm. 215). Los anexos V A) y V B) del RD 500/2024 se han leído en el HTML del BOE (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685), incluida la estructura de filas de las tablas; su corrección de errores, si existiera, no se ha buscado.",
   "todofp.es no se ha usado como fuente de tablas de convalidación (no las publica) ni se ha contrastado la ficha del título en https://www.todofp.es/que-estudiar/familias-profesionales/hosteleria-turismo.html.",
   "No se ha comprobado la vigencia de la DT única del RD 500/2024 (2024-25: 1.º) ni de la DT 2.ª de la ECD/843/2024 más allá de su redacción; las fechas de transición (1/09/2026) se toman del texto de la Orden.",
-  "UC1071_3 convalidaba 0386 por sí sola en el anexo V A de 2009. El RD 532/2025 solo la equipara a las competencias vigentes junto con UC1069_3 o UC1070_3, así que no se traduce: 0386 exige hoy UC2579_3 y UC2580_3."
+  "UC1071_3 convalidaba 0386 por sí sola en el anexo V A de 2009. El RD 532/2025 solo la equipara a las competencias vigentes junto con UC1069_3 (da UC2579_3) o UC1070_3 (da UC2580_3): con las UC antiguas, 0384 y 0386 exigen las tres."
  ]
 };

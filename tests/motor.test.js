@@ -541,7 +541,10 @@ require('../data/ciclos/hot301.js');
 r = est('hot301', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Agencias de Viajes', modulo: 'Comercialización de productos y servicios turísticos', docs: [] }]);
 assert.equal(r['0173'], 'convalidable'); assert.equal(r['0171'], 'convalidable');
 assert.equal(est('hot301', [{ tipo: 'modulo_loe', codigo: '0171', nombre: 'x', titulo: 'TS Gestión de Alojamientos Turísticos', docs: [] }])['0171'], 'superado');
-assert.equal(est('hot301', [{ tipo: 'uc', codigo: 'UC0266_3', via: 'x', docs: [] }])['0398'], 'convalidable');
+const ucs = (l) => l.map((u) => ({ tipo: 'uc', codigo: u, via: 'x', docs: [] }));
+// RD 532/2025: UC0266_3 y UC0267_2 solo dan UC2567_3 acreditadas a la vez
+assert.notEqual(est('hot301', ucs(['UC0266_3']))['0398'], 'convalidable');
+assert.equal(est('hot301', ucs(['UC0266_3', 'UC0267_2']))['0398'], 'convalidable');
 console.log('OK: Agencias de Viajes y Gestión de Eventos');
 
 // Electromedicina Clínica: cruces con ELE301, ELE302 y ELE303
@@ -561,7 +564,8 @@ r = est('hot303', ['0171', '0172', '0173', '0383', '0384', '0180'].map((c) => ({
 r = est('hot303', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Información y Comercialización Turísticas', modulo: 'Asistencia y guía de grupos', docs: [] }]);
 assert.equal(r['0386'], 'convalidable'); assert.equal(r['0172'], 'convalidable');
 assert.notEqual(est('hot303', [{ tipo: 'uc', codigo: 'UC1071_3', via: 'x', docs: [] }])['0386'], 'convalidable');
-assert.equal(est('hot303', ['UC1069_3', 'UC1070_3'].map((u) => ({ tipo: 'uc', codigo: u, via: 'x', docs: [] })))['0386'], 'convalidable');
+assert.notEqual(est('hot303', ucs(['UC1069_3', 'UC1070_3']))['0386'], 'convalidable');
+assert.equal(est('hot303', ucs(['UC1069_3', 'UC1070_3', 'UC1071_3']))['0386'], 'convalidable');
 console.log('OK: Guía, Información y Asistencias Turísticas');
 
 // Gestión de Alojamientos Turísticos: una fila LOGSE da tres módulos; comunes con Agencias de Viajes
@@ -594,7 +598,10 @@ r = est('hot304', rest(['Procesos de servicio']));
 assert.equal(r['0509'], 'convalidable'); assert.equal(r['0510'], 'convalidable');
 assert.notEqual(est('hot304', rest(['Marketing en restauración']))['0503'], 'convalidable');
 assert.equal(est('hot304', rest(['Administración de establecimientos de restauración', 'Marketing en restauración']))['0503'], 'convalidable');
-assert.equal(est('hot304', [{ tipo: 'uc', codigo: 'UC1097_3', via: 'x', docs: [] }])['0504'], 'convalidable');
+assert.notEqual(est('hot304', ucs(['UC1097_3']))['0504'], 'convalidable');
+assert.equal(est('hot304', ucs(['UC1104_3']))['0504'], 'convalidable');
+assert.notEqual(est('hot304', ucs(['UC1064_3', 'UC1062_3']))['0496'], 'convalidable');
+assert.equal(est('hot304', ucs(['UC1064_3', 'UC1062_3', 'UC1063_3']))['0496'], 'convalidable');
 assert.equal(est('hot304', [{ tipo: 'modulo_loe', codigo: '0180', nombre: 'x', titulo: 'TS Gestión de Alojamientos Turísticos', docs: [] }])['0180'], 'superado');
 console.log('OK: Dirección de Servicios de Restauración');
 
@@ -611,6 +618,17 @@ assert.notEqual(est('fpb126', [{ tipo: 'uc', codigo: 'UC0088_1', via: 'x', docs:
 r = est('fpb126', [{ tipo: 'uc', codigo: 'UC0088_1', via: 'x', docs: [] }]);
 assert.equal(r['3021'], 'convalidable'); assert.equal(r['3022'], 'convalidable');
 console.log('OK: grado básico de Electricidad (FPB125 y FPB126)');
+
+// Dirección de Cocina: comunes con Dirección de Servicios; UC2282_3 exige las cuatro UC antiguas
+require('../data/ciclos/hot305.js');
+r = est('hot305', ['0496', '0501', '0502', '0503', '0504'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Dirección de Servicios de Restauración', docs: [] })));
+['0496', '0501', '0502', '0503', '0504'].forEach((c) => assert.equal(r[c], 'superado', c));
+r = est('hot305', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Restauración', modulo: 'Procesos de cocina', docs: [] }]);
+assert.equal(r['0497'], 'convalidable'); assert.equal(r['0499'], 'convalidable');
+assert.notEqual(est('hot305', ucs(['UC1058_3', 'UC1059_3', 'UC1060_3', 'UC1101_3']))['0497'], 'convalidable');
+assert.equal(est('hot305', ucs(['UC1058_3', 'UC1059_3', 'UC1060_3', 'UC1061_3', 'UC1101_3']))['0497'], 'convalidable');
+assert.notEqual(est('hot305', ucs(['UC0711_2', 'UC1100_3']))['0501'], 'convalidable');
+console.log('OK: Dirección de Cocina');
 
 // La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
 for (const [id, c] of Object.entries(CICLOS)) {

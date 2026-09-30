@@ -962,25 +962,32 @@ window.CICLOS["hot304"] = {
   "UC1047_2": [
    "UC2299_2"
   ],
-  "UC1097_3": [
-   "UC1104_3"
-  ],
-  "UC1099_3": [
-   "UC1104_3"
-  ],
-  "UC1100_3": [
-   "UC1104_3"
-  ],
   "UC1101_3": [
-   "UC2280_3"
-  ],
-  "UC1062_3": [
-   "UC2280_3"
-  ],
-  "UC1063_3": [
    "UC2280_3"
   ]
  },
+ "uc_equivalencias_conjuntas": [
+  {
+   "requiere": [
+    "UC1062_3",
+    "UC1063_3"
+   ],
+   "da": [
+    "UC2280_3"
+   ]
+  },
+  {
+   "requiere": [
+    "UC1097_3",
+    "UC1099_3",
+    "UC1100_3",
+    "UC1102_3"
+   ],
+   "da": [
+    "UC1104_3"
+   ]
+  }
+ ],
  "notas": [
   "IDENTIFICACIÓN: el código de ciclo HOT304 de Aragón corresponde a Técnico Superior en Dirección de Servicios de Restauración (RD 688/2010, de 20 de mayo). Confirmado con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=HOT304: «Dirección de Servicios en Restauración», CFGS, familia Hostelería y Turismo, 2001 h, horario DIURNO, sin familias secundarias ni ciclos con curso 1 común; módulos 0496, 0501, 0502, 0503, 0504, 0509, 0510, 0511, 0512, 0513, 0179, 0180, 1665, 1708, 1709, 1710 y optativo) y con la Orden ECD/843/2024 (art. 1.2.j).3.º: RD 688/2010; art. 5.3.ac); anexo XXX, cabecera «DIRECCIÓN DE SERVICIOS DE RESTAURACIÓN (HOT304)»). La API no informa del real decreto. Denominación: el título del RD 688/2010, el RD 500/2024, el RD 1085/2020 y las órdenes de Aragón dicen «de Restauración»; el articulado del RD 688/2010 (arts. 1, 2, 14, 16) y la API dicen «en Restauración». Se usa la del título del RD.",
   "El campo «horas» es el del currículo básico / enseñanzas mínimas: RD 688/2010 anexo I para los módulos originales (0496 35 h, 0509 140, 0510 175, 0511 65, 0512 65, 0501 50, 0502 30, 0503 35, 0504 35, 0180 70, Proyecto 25; con 0179 Inglés 70, FOL 50, EIE 35 y FCT 220 sumaban 1.100 h) y RD 659/2023 para 0179 (50 h, antes 70 h), 1709, 1710 (50 h cada uno), 1665, 1708 (30 h cada uno) y el optativo (80 h, RD 500/2024). Las horas reales de impartición están en «horas_otras» con las claves «aragon» (Orden ECD/843/2024, anexo XXX), «mefp» (Orden EFD/659/2024, anexo XXXVIII) y «loe» (plan LOE a extinguir de Aragón, Orden de 5/07/2012 y Resolución de 29/08/2012).",

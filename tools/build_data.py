@@ -147,6 +147,7 @@ def build(id_, fichero, cfg):
         "uc_a_modulos": uc_a_mod,
         "uc_descripciones": {k: v for k, v in d["uc_descripciones"].items()},
         "uc_equivalencias": cfg.get("equivalencias", {}),
+        **({"uc_equivalencias_conjuntas": cfg["equivalencias_conjuntas"]} if cfg.get("equivalencias_conjuntas") else {}),
         "notas": d.get("notas", []),
         "no_verificado": d.get("no_verificado", []) + cfg.get("no_verificado_extra", []),
     }
@@ -373,6 +374,7 @@ build("ele202", "ele202.json", {
     "equivalencias": {"UC0820_2": ["UC2341_2"], "UC0821_2": ["UC2341_2"], "UC0822_2": ["UC2343_2"],
                       "UC0823_2": ["UC2340_2"], "UC0824_2": ["UC2340_2"], "UC0825_2": ["UC2345_2"]},
     "no_verificado_extra": [
+        "Las UC de 2008 se traducen una a una (UC0823_2 y UC0824_2 dan cada una UC2340_2; UC0820_2 y UC0821_2, UC2341_2). No se ha comprobado en el anexo II-a del RD 532/2025 si alguna exige acreditarse junto con otra.",
         "La herramienta de CATEDU convalida 0240 solo con ECP2345_2; el anexo V A vigente (RD 499/2024) exige UC2344_2 y UC2345_2 juntas.",
     ],
 })
@@ -438,8 +440,13 @@ build("hot301", "hot301.json", {
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
     # RD 532/2025 y redacción del anexo V A del RD 500/2024: UC antiguas -> vigentes
-    "equivalencias": {"UC0266_3": ["UC2567_3"], "UC0267_2": ["UC2567_3"], "UC1069_3": ["UC2579_3"],
-                      "UC1070_3": ["UC2580_3"], "UC1072_3": ["UC9999_3"], "UC1073_3": ["UC9997_3"]},
+    "equivalencias": {"UC1072_3": ["UC9999_3"], "UC1073_3": ["UC9997_3"]},
+    # Anexo II-a del RD 532/2025: estas solo equivalen acreditadas a la vez
+    "equivalencias_conjuntas": [
+        {"requiere": ["UC0266_3", "UC0267_2"], "da": ["UC2567_3"]},
+        {"requiere": ["UC1069_3", "UC1071_3"], "da": ["UC2579_3"]},
+        {"requiere": ["UC1070_3", "UC1071_3"], "da": ["UC2580_3"]},
+    ],
 })
 
 build("ele305", "ele305.json", {
@@ -456,10 +463,14 @@ build("hot303", "hot303.json", {
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
     # RD 532/2025 y anexo V A del RD 500/2024: UC antiguas -> vigentes
-    "equivalencias": {"UC1069_3": ["UC2579_3"], "UC1070_3": ["UC2580_3"],
-                      "UC1072_3": ["UC9999_3"], "UC1073_3": ["UC9997_3"]},
+    "equivalencias": {"UC1072_3": ["UC9999_3"], "UC1073_3": ["UC9997_3"]},
+    # Anexo II-a del RD 532/2025: UC1069_3 y UC1070_3 solo equivalen junto con UC1071_3
+    "equivalencias_conjuntas": [
+        {"requiere": ["UC1069_3", "UC1071_3"], "da": ["UC2579_3"]},
+        {"requiere": ["UC1070_3", "UC1071_3"], "da": ["UC2580_3"]},
+    ],
     "no_verificado_extra": [
-        "UC1071_3 convalidaba 0386 por sí sola en el anexo V A de 2009. El RD 532/2025 solo la equipara a las competencias vigentes junto con UC1069_3 o UC1070_3, así que no se traduce: 0386 exige hoy UC2579_3 y UC2580_3.",
+        "UC1071_3 convalidaba 0386 por sí sola en el anexo V A de 2009. El RD 532/2025 solo la equipara a las competencias vigentes junto con UC1069_3 (da UC2579_3) o UC1070_3 (da UC2580_3): con las UC antiguas, 0384 y 0386 exigen las tres.",
     ],
 })
 
@@ -485,9 +496,12 @@ build("hot304", "hot304.json", {
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
     # RD 532/2025: UC de la redacción de 2010 -> vigentes del anexo V A (RD 500/2024)
-    "equivalencias": {"UC1105_3": ["UC1098_3"], "UC1047_2": ["UC2299_2"], "UC1097_3": ["UC1104_3"],
-                      "UC1099_3": ["UC1104_3"], "UC1100_3": ["UC1104_3"], "UC1101_3": ["UC2280_3"],
-                      "UC1062_3": ["UC2280_3"], "UC1063_3": ["UC2280_3"]},
+    "equivalencias": {"UC1105_3": ["UC1098_3"], "UC1047_2": ["UC2299_2"], "UC1101_3": ["UC2280_3"]},
+    "equivalencias_conjuntas": [
+        {"requiere": ["UC1062_3", "UC1063_3"], "da": ["UC2280_3"]},
+        # UC1102_3 no es de este título: con las UC del título original no se alcanza UC1104_3
+        {"requiere": ["UC1097_3", "UC1099_3", "UC1100_3", "UC1102_3"], "da": ["UC1104_3"]},
+    ],
     "no_verificado_extra": [
         "0501 no tiene fila en el anexo V A vigente: no se convalida por unidades de competencia. Las dos filas LOE hacia 0501 (0086 + 0468 y 0085 + 0086) están en la tabla de Dirección de Cocina y se aplican aquí por la DA 5.ª del RD 1085/2020, al ser el mismo módulo.",
     ],
@@ -505,6 +519,23 @@ build("fpb126", "fpb126.json", {
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
     "no_verificado_extra": [
         "3013 aportado desde Electricidad y Electrónica (FPB102): mismos resultados de aprendizaje, pero 180 h en el RD 127/2014 frente a 175 h en el RD 774/2015 y un criterio de evaluación más. El art. 3.2 del RD 1085/2020 exige igual duración; el anexo VIII ap. 3 del Decreto 91/2024 no. Revisar antes de trasladar la nota.",
+    ],
+})
+
+build("hot305", "hot305.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+    "equivalencias": {"UC1101_3": ["UC2280_3"]},
+    # Anexo II-a del RD 532/2025: solo equivalen acreditadas a la vez
+    "equivalencias_conjuntas": [
+        {"requiere": ["UC1058_3", "UC1059_3", "UC1060_3", "UC1061_3"], "da": ["UC2282_3"]},
+        {"requiere": ["UC1062_3", "UC1063_3"], "da": ["UC2280_3"]},
+        {"requiere": ["UC1065_3", "UC1066_3"], "da": ["UC2281_3"]},
+        {"requiere": ["UC1097_3", "UC1099_3", "UC1100_3", "UC1102_3"], "da": ["UC1104_3"]},
+    ],
+    "no_verificado_extra": [
+        "0501 no tiene fila en el anexo V A vigente: ya no se convalida por unidades de competencia (en 2010 sí, con UC0711_2 + UC1100_3).",
     ],
 })
 
@@ -657,4 +688,4 @@ def build_catalogo(ya_cargados):
 
 
 build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108", "FPB128",
-                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201", "HOT203", "ELE203", "ELE301", "ELE302", "ELE303", "ELE304", "HOT301", "ELE305", "HOT303", "HOT302", "AGA201", "HOT304", "FPB125", "FPB126"])
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201", "HOT203", "ELE203", "ELE301", "ELE302", "ELE303", "ELE304", "HOT301", "ELE305", "HOT303", "HOT302", "AGA201", "HOT304", "FPB125", "FPB126", "HOT305"])

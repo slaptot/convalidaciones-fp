@@ -896,6 +896,7 @@ window.CICLOS["ele202"] = {
   "No se ha consultado el texto original de los RD 1115/2007 (ELE257_2) ni 295/2004 (ELE043_2) para las horas de formación asociada previas a las actualizaciones; las horas indicadas (900, 570 y 450) son las de las versiones vigentes (RD 1039/2020, RD 268/2017 y RD 1114/2007). Tampoco se ha comprobado si el RD 1114/2007 (ENA261_2) ha sido actualizado con posterioridad al RD 532/2025.",
   "No se ha comprobado que el RD 1085/2020 (versión consolidada de 07/04/2026) no haya sido corregido en las filas de este título por normas posteriores distintas del RD 262/2026 (que solo añade el apdo. 7 bis del art. 3).",
   "Referencia de la ficha de todofp.es del ciclo: https://www.todofp.es/que-estudiar/familias-profesionales/electricidad-electronica/instalaciones-electricas-automaticas.html (los enlaces «Perfiles profesionales» y «Ficha de inserción laboral» no se han abierto).",
+  "Las UC de 2008 se traducen una a una (UC0823_2 y UC0824_2 dan cada una UC2340_2; UC0820_2 y UC0821_2, UC2341_2). No se ha comprobado en el anexo II-a del RD 532/2025 si alguna exige acreditarse junto con otra.",
   "La herramienta de CATEDU convalida 0240 solo con ECP2345_2; el anexo V A vigente (RD 499/2024) exige UC2344_2 y UC2345_2 juntas."
  ]
 };
