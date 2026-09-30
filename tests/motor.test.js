@@ -516,6 +516,16 @@ assert.notEqual(est('ele302', ie(['Informática técnica']))['0519'], 'convalida
 assert.equal(est('ele302', ie(['Gestión del desarrollo de instalaciones electrotécnicas', 'Informática técnica']))['0519'], 'convalidable');
 console.log('OK: Sistemas Electrotécnicos y Automatizados');
 
+// Automatización y Robótica Industrial: 0519 <-> 0963 con ELE302, DAM completo da 0964
+require('../data/ciclos/ele303.js');
+assert.equal(est('ele303', [{ tipo: 'modulo_loe', codigo: '0519', nombre: 'x', titulo: 'TS Sistemas Electrotécnicos y Automatizados', docs: [] }])['0963'], 'convalidable');
+assert.equal(est('ele302', [{ tipo: 'modulo_loe', codigo: '0963', nombre: 'x', titulo: 'TS Automatización y Robótica Industrial', docs: [] }])['0519'], 'convalidable');
+assert.equal(est('ele303', tsme)['0963'], 'convalidable');
+assert.equal(est('ele303', [{ tipo: 'titulo', titulo: 'Técnico Superior en Desarrollo de Aplicaciones Multiplataforma', ciclo: 'ifc302', docs: [] }])['0964'], 'convalidable');
+r = est('ele303', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Sistemas de Regulación y Control Automáticos', modulo: 'Sistemas de control secuencial', docs: [] }]);
+assert.equal(r['0959'], 'convalidable'); assert.equal(r['0960'], 'convalidable');
+console.log('OK: Automatización y Robótica Industrial');
+
 // Plan LOE a extinguir: FOL y EIE de cualquier título se reconocen por su nombre
 for (const [c, fol, eie] of [['hot203', '0157', '0158'], ['ele202', '0241', '0242'], ['ifc301', '0380', '0381']]) {
   const mods = Object.fromEntries(CICLOS[c].modulos.map((m) => [m.codigo, m.comun]));
