@@ -598,6 +598,20 @@ assert.equal(est('hot304', [{ tipo: 'uc', codigo: 'UC1097_3', via: 'x', docs: []
 assert.equal(est('hot304', [{ tipo: 'modulo_loe', codigo: '0180', nombre: 'x', titulo: 'TS Gestión de Alojamientos Turísticos', docs: [] }])['0180'], 'superado');
 console.log('OK: Dirección de Servicios de Restauración');
 
+// Grado básico de Electricidad: 3020-3022 comunes a FPB125 y FPB126; 3015 de FPB102 vale en FPB125
+require('../data/ciclos/fpb125.js'); require('../data/ciclos/fpb126.js');
+const gb = (titulo, cods) => cods.map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo, docs: [] }));
+r = est('fpb126', gb('Técnico Básico en Fabricación de Elementos Metálicos', ['3020', '3021', '3022']));
+['3020', '3021', '3022'].forEach((c) => assert.equal(r[c], 'superado', c));
+r = est('fpb126', gb('Técnico Básico en Electricidad y Electrónica', ['3013', '3014']));
+assert.equal(r['3014'], 'superado');
+assert.equal(est('fpb125', gb('Técnico Básico en Electricidad y Electrónica', ['3015']))['3015'], 'superado');
+assert.notEqual(est('fpb125', gb('Técnico Básico en Electricidad y Electrónica', ['3015']))['3073'], 'superado');
+assert.notEqual(est('fpb126', [{ tipo: 'uc', codigo: 'UC0088_1', via: 'x', docs: [] }])['3020'], 'convalidable');
+r = est('fpb126', [{ tipo: 'uc', codigo: 'UC0088_1', via: 'x', docs: [] }]);
+assert.equal(r['3021'], 'convalidable'); assert.equal(r['3022'], 'convalidable');
+console.log('OK: grado básico de Electricidad (FPB125 y FPB126)');
+
 // La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
 for (const [id, c] of Object.entries(CICLOS)) {
   const emp = c.modulos.filter((m) => m.tipo === 'empresa').map((m) => m.codigo);

@@ -41,6 +41,8 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Gestión de Alojamientos Turísticos | HOT302 | Superior | LO 3/2022 |
 | Guía, Información y Asistencias Turísticas | HOT303 | Superior | LO 3/2022 |
 | Dirección de Servicios de Restauración | HOT304 | Superior | LO 3/2022 |
+| Fabricación de Elementos Metálicos | FPB125 | Básico | LO 3/2022 |
+| Instalaciones Electrotécnicas y Mecánica | FPB126 | Básico | LO 3/2022 |
 | Electricidad y Electrónica | FPB102 | Básico | LO 3/2022 |
 | Instalaciones Eléctricas y Automáticas | ELE202 | Medio | LO 3/2022 |
 | Instalaciones de Telecomunicaciones | ELE203 | Medio | LO 3/2022 |
