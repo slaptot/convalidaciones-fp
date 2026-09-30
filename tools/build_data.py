@@ -370,6 +370,17 @@ build("fpb102", "fpb102.json", {
     ],
 })
 
+build("hot201", "hot201.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+    # RD 1023/2024 y RD 532/2025: UC2816_2 reúne UC0261_2 y UC0262_2, así que acredita las dos
+    "equivalencias": {"UC2816_2": ["UC0261_2", "UC0262_2"]},
+    "no_verificado_extra": [
+        "UC0261_2 y UC0262_2 se funden en UC2816_2 (RD 1023/2024 y RD 532/2025), que solo se obtiene con las dos: no se traducen por separado. La herramienta de CATEDU da ECP2816_2 con solo 0047 o solo 0048, lo que no cuadra con el anexo V B.",
+    ],
+})
+
 build("ssc305", "ssc305.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -519,4 +530,4 @@ def build_catalogo(ya_cargados):
 
 
 build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108", "FPB128",
-                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102"])
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201"])

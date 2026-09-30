@@ -1,0 +1,746 @@
+// Generado por tools/build_data.py a partir de research/hot201.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["hot201"] = {
+ "ciclo": {
+  "codigo": "HOT201",
+  "nombre": "Técnico en Cocina y Gastronomía",
+  "grado": "medio",
+  "familia": "Hostelería y Turismo",
+  "normas": [
+   {
+    "ref": "RD 1396/2007, de 29 de octubre",
+    "boe": "BOE-A-2007-20084",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20084",
+    "nota": "Establece el título de Técnico en Cocina y Gastronomía y sus enseñanzas mínimas (BOE núm. 281, de 23/11/2007, págs. 47950-47979; en vigor 24/11/2007). Duración 2.000 h; enseñanzas mínimas 1.100 h. Sustituye la regulación del título LOGSE de Técnico en Cocina (RD 2219/1993). En el BOE solo existe TEXTO ORIGINAL (act.php no ofrece versión consolidada): las modificaciones del RD 499/2024 (arts. 2, 6, 10, 12, 15, anexos I, III, V A) y V B)) y la derogación del anexo IV por el RD 1085/2020 solo figuran como «Referencias posteriores». Los anexos I a V del original están en el PDF (https://www.boe.es/boe/dias/2007/11/23/pdfs/A47950-47979.pdf)."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Su disp. derogatoria única.2 deroga el anexo IV del RD 1396/2007. Las convalidaciones LOGSE→LOE de Cocina y Gastronomía pasan a su anexo II (bloque Hostelería y Turismo, grado medio); en el anexo III (LOE→LOE, bloque Hostelería y Turismo) solo hay filas de grado superior y ninguna afecta a este título. DA 6.ª (añadida por el RD 500/2024): una convalidación cuyo destino sea FOL se entiende hecha también a 1709 (IPE I), y una cuyo destino sea EIE, a 1710 (IPE II). Texto consolidado leído el 30/09/2026 (última actualización publicada el 07/04/2026)."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709 y 1710 (anexo V, 50 h cada uno), 1664 (anexo VI, 30 h), 1708 (anexo VIII, 30 h) y 0156 (anexo IX, 50 h); módulo optativo de 80 h (art. 96.1.b). Arts. 126-128 y 131: reglas de convalidación y exención; art. 126.3: se convalidan entre ciclos del mismo grado Inglés Profesional y, dentro de la misma familia, Digitalización y Sostenibilidad; art. 126.4: no se convalidan el periodo de formación en empresa ni el Proyecto intermodular."
+   },
+   {
+    "ref": "RD 499/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10684",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10684",
+    "nota": "Adapta los títulos de grado medio a la LO 3/2022. Cocina y Gastronomía es el 1.º de la lista del art. primero.Dos.a) (ciclos SIN módulo de inglés previo; por eso se AÑADE 0156). Art. tercero.Uno: nueva redacción del art. 6 y SUSTITUCIÓN íntegra de los anexos V A) y V B). Art. cuarto.Dos: nueva redacción del art. 10 (letras a-f, porque el RD 1396/2007 no numera los apartados); se suprimen 0049 (FOL), 0050 (EIE) y 0051 (FCT) y se añaden 0156, 1709, 1710, 1664, 1708, 1713 y un módulo optativo de 80 h. Art. quinto: nuevo art. 12 (profesorado). Art. sexto: nuevo art. 15 (convalidaciones). Art. séptimo.Uno: nuevo anexo I. Art. octavo.Uno: nuevo anexo III (profesorado) = anexo III del RD 499/2024. DA 2.ª: las referencias de la DA 3.ª.3 del RD 1396/2007 a FOL como capacitación de PRL nivel básico se entienden hechas a 1709. Asigna el nivel 4A del MECU. DT única: primer curso implantado en 2024-25. Las «Referencias posteriores» del BOE solo recogen el RD 565/2024 (art. 7 y DA 5.ª del propio RD 499/2024)."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Homólogo del RD 499/2024 para grado superior. Su disp. final 1.ª.2 añade la DA 6.ª al RD 1085/2020 (FOL→IPE I, EIE→IPE II), que sí afecta a Cocina y Gastronomía."
+   },
+   {
+    "ref": "RD 1023/2024, de 8 de octubre",
+    "boe": "BOE-A-2024-24346",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24346",
+    "nota": "BOE de 22/11/2024. Art. 3: nueva redacción del anexo XCIII (HOT093_2 Cocina; anexo III del RD): UC0259_2, UC0260_2, UC2816_2 (nueva) y UC0711_2; suprime UC0261_2 y UC0262_2; formación asociada 640 h. Art. 5: nueva redacción del anexo CCXXIII (HOT223_2, que pasa a llamarse «Pastelería/repostería»; anexo IV del RD): UC0709_2, UC0306_2, UC0710_2 y UC0711_2; formación asociada 570 h. Art. 4: modifica INA107_2 sustituyendo UC0306_2 por la UC0306_2 de HOT223_2. Renombra las UC afectadas y sustituye MF0711_2 (60 h) por MF0711_2 (120 h)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra las UC del CNCP como Estándares de Competencia Profesional (ECP). Anexo I: catálogo UC→ECP (Hostelería y Turismo: UC0259_2, UC0260_2, UC2816_2, UC0709_2 y UC0710_2 conservan número; UC0711_2 figura como ECP0711_2). Anexo II-a (suprimidos→vigentes): UC0261_2 → ECP2816_2 (además debe tener UC0262_2); UC0262_2 → ECP2816_2 (además UC0261_2); en Industrias Alimentarias UC0036_2 → ECP0711_2 y UC0310_2 → ECP0711_2 (sin requisitos adicionales). Anexo II-b: ECP2816_2 → UC0261_2 y → UC0262_2 (sin requisitos adicionales); ECP0711_2 → UC0036_2 y → UC0310_2."
+   },
+   {
+    "ref": "RD 295/2004, de 20 de febrero",
+    "boe": "BOE-A-2004-4219",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-4219",
+    "nota": "Cualificación HOT093_2 Cocina (anexo XCIII), actualizada por el RD 1023/2024. Solo se ha comprobado el título del BOE; NO se ha leído su texto original."
+   },
+   {
+    "ref": "RD 1228/2006, de 27 de octubre",
+    "boe": "BOE-A-2007-96",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2007-96",
+    "nota": "Cualificación HOT223_2 (Repostería, hoy Pastelería/repostería; anexo CCXXIII), actualizada por el RD 1023/2024. Publicado en el BOE núm. 3, de 03/01/2007; corrección de errores en BOE-A-2007-12560. Solo se ha comprobado el título del BOE; NO se ha leído su texto."
+   },
+   {
+    "ref": "Orden ESD/3408/2008, de 3 de noviembre",
+    "boe": "BOE-A-2008-19176",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-19176",
+    "nota": "Currículo LOE de Cocina y Gastronomía en el ámbito de gestión del Ministerio (BOE de 28/11/2008). Anexo II: secuenciación y distribución horaria del plan LOE del MEC. Las «Referencias posteriores» del BOE indican que la Orden EDU/2184/2009 (enlazada como BOE-A-2009-13249) actualiza sus arts. 5, 7.4 y 9 y suprime su anexo III (ver no_verificado). Derogada por la Orden EFD/657/2024 (disposición derogatoria, apartado j).1.º)."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo vigente del ámbito MEFP para grado medio (BOE núm. 158, de 01/07/2024). Cocina y Gastronomía en el ANEXO XXVIII (art. 6.3.u), Sec. I. Pág. 75182 y ss.): apartado A (secuenciación) y B (espacios y equipamientos). Art. 6.1: 2.000 h incluida la formación en empresa. Art. 8: oferta bilingüe (0026, 0046, 0047, 0031, 0045, 0028 y 0048 marcados «Sí»). Art. 12: optatividad. Art. 13: formación en empresa."
+   },
+   {
+    "ref": "Orden de 24 de julio de 2008, de la Consejera de Educación, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=289036392424&type=pdf",
+    "nota": "Currículo LOE de Cocina y Gastronomía en Aragón (BOA núm. 123, de 12/08/2008). Art. 10: 0045, 0046, 0047, 0026, 0048, 0028, 0031, 0049 (FOL), 0050 (EIE), A004 «Lengua extranjera del entorno profesional: inglés o francés» (UFA004_12 y UFA004_22) y 0051 (FCT). Art. 16: convalidaciones (anexo IV LOGSE→LOE); art. 17 y anexos V A)/V B). Los anexos II a VI del PDF del BOA son imágenes y no se han podido leer. Derogada por la disp. derogatoria única, letra j).1 de la Orden ECD/842/2024."
+   },
+   {
+    "ref": "Resolución de 28 de agosto de 2008, de la Directora General de Formación Profesional y Educación Permanente (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=295076864646&type=pdf",
+    "nota": "BOA núm. 147, de 16/09/2008. Distribución horaria semanal de los ciclos LOE en régimen presencial, diurno y nocturno. Cocina y Gastronomía (HOT201), en la pág. 18749 del BOA, es la fuente de las horas del PLAN LOE de Aragón (diurno, 2 cursos, 30 h/semana cada uno). Enlazada desde educa.aragon.es como «Horario LOE» de HOT201."
+   },
+   {
+    "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+    "nota": "Currículo vigente de Aragón para los ciclos de grado medio (BOA núm. 148, de 31/07/2024, csv BOA20240731003). Cocina y Gastronomía: art. 1.2.j).1.º y art. 5.3.s); ANEXO XX (págs. 21852-21853 del BOA), código de ciclo HOT201. El anexo solo contiene distribución horaria, espacios y equipamientos; solo horario diurno. Art. 11: módulos optativos; art. 12: convalidación de optativos. No se ha encontrado corrección de errores de esta orden (sí existen para las Órdenes ECD/841/2024 y ECD/843/2024, de 26/02/2025)."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025 (csv BOA20250918002). Modifica el Decreto 91/2024 y las Órdenes ECD/842/2024 y ECD/843/2024: los módulos optativos de oferta común pasan de A173/A171/A172 a AOP1001 (Comunicación profesional en Inglés GM), AOP1002 (Segunda lengua profesional Francés) y AOP1003 (Ofimática avanzada aplicada al sector profesional). Leído el 30/09/2026: no contiene ninguna mención a Cocina ni a HOT201; no toca la tabla horaria del anexo XX."
+   },
+   {
+    "ref": "Resolución de 6 de junio de 2025, del Director General de Planificación, Centros y Formación Profesional (Aragón)",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/5514380/CSV511IT4T1J71T0XFIL+RESOLUCI%C3%93N+M%C3%93DULOS+OPTATIVOS+FP+ARAG%C3%93N.pdf",
+    "nota": "Autoriza módulos optativos de diseño propio. Para HOT201 autoriza AOP1022 «Alimentos de Aragón con calidad diferenciada» (atribución docente: Cocina y Pastelería; Servicios de Restauración) y AOP1023 «Territorio e innovación en cocina y gastronomía» (atribución docente: Cocina y Pastelería). Implantación en el curso 2025/2026 (apartado quinto); vigencia mínima de 4 años."
+   },
+   {
+    "ref": "Resolución de la Secretaría General de FP de módulos profesionales optativos (ámbito MEFP)",
+    "boe": "BOE-A-2025-14430",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14430",
+    "nota": "BOE de 12/07/2025. Repertorio de módulos optativos del ámbito MEFP, enlazado desde la ficha de Cocina y Gastronomía en todofp.es. Módulo específico de este ciclo: 1811 «Postres creativos» (80 h; atribución: Cocina y Pastelería); el repertorio incluye además módulos transversales (p. ej. 1711 Inglés Profesional II) destinados a cualquier ciclo de grado medio."
+   },
+   {
+    "ref": "RD 2219/1993, de 17 de diciembre",
+    "boe": "BOE-A-1994-5828",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-5828",
+    "nota": "Título anterior (LOGSE): Técnico en Cocina. Derogado por el RD 1396/2007 (art. 1.2). La DA 3.ª.2 del RD 1396/2007 le reconoce los mismos efectos profesionales y académicos que el nuevo título. No se ha abierto su texto: solo se ha usado la referencia del BOE."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "0045",
+   "nombre": "Ofertas gastronómicas",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": 84
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0046",
+   "nombre": "Preelaboración y conservación de alimentos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": 290,
+    "loe": 256
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0047",
+   "nombre": "Técnicas culinarias",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": 300,
+    "loe": 256
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0026",
+   "nombre": "Procesos básicos de pastelería y repostería",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 160,
+    "loe": 224
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0048",
+   "nombre": "Productos culinarios",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 433,
+    "mefp": 290,
+    "loe": 315
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0028",
+   "nombre": "Postres en restauración",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 290,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0031",
+   "nombre": "Seguridad e higiene en la manipulación de alimentos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0156",
+   "nombre": "Inglés profesional (GM)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1664",
+   "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1713",
+   "nombre": "Proyecto intermodular",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A997",
+   "nombre": "Tutoría I (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "tutoria",
+   "horas": {
+    "aragon": 33,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A996",
+   "nombre": "Tutoría II (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "tutoria",
+   "horas": {
+    "aragon": 33,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0049",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0050",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0051",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 410
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A004",
+   "nombre": "Lengua extranjera del entorno profesional: inglés o francés (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 106
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": "Módulo propio de Aragón del plan LOE, en dos unidades formativas: UFA004_12 «Elaboración e interpretación de información escrita y oral» (64 h en 1.º) y UFA004_22 «Comunicación oral en el entorno profesional» (42 h en 2.º), 106 h en total."
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico en Cocina (LOGSE, RD 2219/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Ofertas gastronómicas y sistemas de aprovisionamiento"
+   ],
+   "destino_modulos": [
+    "0045"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Hostelería y Turismo, grado medio (sustituye al anexo IV del RD 1396/2007, derogado por su disp. derogatoria única.2). Texto idéntico al del anexo IV original."
+  },
+  {
+   "origen_titulo": "Técnico en Cocina (LOGSE, RD 2219/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Preelaboración y conservación de alimentos"
+   ],
+   "destino_modulos": [
+    "0046"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Hostelería y Turismo, grado medio (sustituye al anexo IV del RD 1396/2007, derogado por su disp. derogatoria única.2). Texto idéntico al del anexo IV original."
+  },
+  {
+   "origen_titulo": "Técnico en Cocina (LOGSE, RD 2219/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Técnicas culinarias"
+   ],
+   "destino_modulos": [
+    "0047"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Hostelería y Turismo, grado medio (sustituye al anexo IV del RD 1396/2007, derogado por su disp. derogatoria única.2). Texto idéntico al del anexo IV original."
+  },
+  {
+   "origen_titulo": "Técnico en Cocina (LOGSE, RD 2219/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Repostería"
+   ],
+   "destino_modulos": [
+    "0026",
+    "0028"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Hostelería y Turismo, grado medio (sustituye al anexo IV del RD 1396/2007, derogado por su disp. derogatoria única.2). La celda de destino contiene los dos módulos: con Repostería se convalidan ambos (0026 y 0028). Texto idéntico al del anexo IV original."
+  },
+  {
+   "origen_titulo": "Técnico en Cocina (LOGSE, RD 2219/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Elaboraciones y productos culinarios"
+   ],
+   "destino_modulos": [
+    "0048"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Hostelería y Turismo, grado medio (sustituye al anexo IV del RD 1396/2007, derogado por su disp. derogatoria única.2). Texto idéntico al del anexo IV original."
+  },
+  {
+   "origen_titulo": "Técnico en Cocina (LOGSE, RD 2219/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Administración, gestión y comercialización en la pequeña empresa"
+   ],
+   "destino_modulos": [
+    "0050"
+   ],
+   "fuente": "RD 1396/2007 anexo IV, texto original (derogado por el RD 1085/2020). Hoy la regla equivalente está en el cuadro general de EIE del anexo II del RD 1085/2020 y, por la DA 6.ª.2 de ese RD, la convalidación de EIE se entiende hecha también a 1710 (IPE II). 0050 está suprimido desde el RD 499/2024."
+  },
+  {
+   "origen_titulo": "Técnico en Cocina (LOGSE, RD 2219/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Formación en centro de trabajo"
+   ],
+   "destino_modulos": [
+    "0051"
+   ],
+   "fuente": "RD 1396/2007 anexo IV, texto original (derogado por el RD 1085/2020). 0051 está suprimido desde el RD 499/2024; la FCT se sustituye por el periodo de formación en empresa, cuya exención se rige por el art. 131 del RD 659/2023."
+  },
+  {
+   "origen_titulo": "Técnico en Pastelería y Panadería (LOGSE, RD 2220/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Técnicas de pastelería, panadería y conservación de alimentos"
+   ],
+   "destino_modulos": [
+    "0026",
+    "0028"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Hostelería y Turismo, grado medio (sustituye al anexo IV del RD 1396/2007, derogado por su disp. derogatoria única.2). La celda de destino contiene los dos módulos. Fila que NO figuraba en el anexo IV original del RD 1396/2007."
+  },
+  {
+   "origen_titulo": "Técnico en Servicios de Restaurante y Bar (LOGSE, RD 2221/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Ofertas gastronómicas y sistemas de aprovisionamiento"
+   ],
+   "destino_modulos": [
+    "0045"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Hostelería y Turismo, grado medio (sustituye al anexo IV del RD 1396/2007, derogado por su disp. derogatoria única.2). Fila que NO figuraba en el anexo IV original del RD 1396/2007."
+  },
+  {
+   "origen_titulo": "Técnico en Panificación y Repostería (LOGSE, RD 2057/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Elaboraciones básicas de pastelería"
+   ],
+   "destino_modulos": [
+    "0026",
+    "0028"
+   ],
+   "fuente": "RD 1085/2020 anexo II, bloque Hostelería y Turismo, grado medio (sustituye al anexo IV del RD 1396/2007, derogado por su disp. derogatoria única.2) (la fila indica «Industrias alimentarias» como familia del título de origen). La celda de destino contiene los dos módulos. Fila que NO figuraba en el anexo IV original del RD 1396/2007."
+  }
+ ],
+ "convalidaciones_loe": [
+  {
+   "origen_codigos": [
+    "0031"
+   ],
+   "origen_nombre": "Seguridad e higiene en la manipulación de alimentos",
+   "origen_titulo": "Técnico en Servicios en Restauración (LOE, RD 1690/2007, de 14 de diciembre); Técnico en Panadería, Repostería y Confitería (LOE, RD 1399/2007, de 29 de octubre); Técnico en Elaboración de Productos Alimenticios (LOE, RD 452/2010, de 16 de abril); Técnico en Aceites de Oliva y Vinos (LOE, RD 1798/2008, de 3 de noviembre)",
+   "destino_modulos": [
+    "0031"
+   ],
+   "fuente": "Módulo común con igual código y denominación en los dos ciclos (Catálogo de Aragón/API de CATEDU y RD 1085/2020): art. 14.2 del RD 1396/2007 (redacción original, no modificada por el RD 499/2024), art. 15.1 del RD 1396/2007 (nueva redacción del RD 499/2024, que remite al art. 126 del RD 659/2023). No figura en las tablas del RD 1085/2020. La misma fila vale en sentido inverso (el módulo de este ciclo convalida el del otro título). Duración básica comprobada: 35 h en ambos RD."
+  },
+  {
+   "origen_codigos": [
+    "0045"
+   ],
+   "origen_nombre": "Ofertas gastronómicas",
+   "origen_titulo": "Técnico en Servicios en Restauración (LOE, RD 1690/2007, de 14 de diciembre)",
+   "destino_modulos": [
+    "0045"
+   ],
+   "fuente": "Módulo común con igual código y denominación en los dos ciclos (Catálogo de Aragón/API de CATEDU y RD 1085/2020): art. 14.2 del RD 1396/2007 (redacción original, no modificada por el RD 499/2024), art. 15.1 del RD 1396/2007 (nueva redacción del RD 499/2024, que remite al art. 126 del RD 659/2023). No figura en las tablas del RD 1085/2020. La misma fila vale en sentido inverso (el módulo de este ciclo convalida el del otro título). Duración básica comprobada: 40 h en ambos RD. En Aragón HOT203 lo imparte con 100 h en 2.º, igual que HOT201."
+  },
+  {
+   "origen_codigos": [
+    "0026"
+   ],
+   "origen_nombre": "Procesos básicos de pastelería y repostería",
+   "origen_titulo": "Técnico en Panadería, Repostería y Confitería (LOE, RD 1399/2007, de 29 de octubre)",
+   "destino_modulos": [
+    "0026"
+   ],
+   "fuente": "Módulo común con igual código y denominación en los dos ciclos (Catálogo de Aragón/API de CATEDU y RD 1085/2020): art. 14.2 del RD 1396/2007 (redacción original, no modificada por el RD 499/2024), art. 15.1 del RD 1396/2007 (nueva redacción del RD 499/2024, que remite al art. 126 del RD 659/2023). No figura en las tablas del RD 1085/2020. La misma fila vale en sentido inverso (el módulo de este ciclo convalida el del otro título). Horas en Aragón (API): 200 h en 1.º en HOT201 e INA207."
+  },
+  {
+   "origen_codigos": [
+    "0028"
+   ],
+   "origen_nombre": "Postres en restauración",
+   "origen_titulo": "Técnico en Panadería, Repostería y Confitería (LOE, RD 1399/2007, de 29 de octubre)",
+   "destino_modulos": [
+    "0028"
+   ],
+   "fuente": "Módulo común con igual código y denominación en los dos ciclos (Catálogo de Aragón/API de CATEDU y RD 1085/2020): art. 14.2 del RD 1396/2007 (redacción original, no modificada por el RD 499/2024), art. 15.1 del RD 1396/2007 (nueva redacción del RD 499/2024, que remite al art. 126 del RD 659/2023). No figura en las tablas del RD 1085/2020. La misma fila vale en sentido inverso (el módulo de este ciclo convalida el del otro título). Horas en Aragón (API): 167 h en 2.º en HOT201 e INA207."
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0259_2"
+   ],
+   "modulos": [
+    "0045"
+   ],
+   "fuente": "Anexo V A) (redacción del RD 499/2024, art. tercero.Uno) UC0259_2 con denominación «Definir ofertas gastronómicas sencillas…»; hoy «Desarrollar operaciones de definición de ofertas gastronómicas, aprovisionamiento externo y control de consumos en cocina» (RD 1023/2024)."
+  },
+  {
+   "uc": [
+    "UC0709_2"
+   ],
+   "modulos": [
+    "0045"
+   ],
+   "fuente": "Anexo V A) (redacción del RD 499/2024, art. tercero.Uno) Fila independiente: UC0709_2 por sí sola convalida 0045."
+  },
+  {
+   "uc": [
+    "UC0260_2"
+   ],
+   "modulos": [
+    "0046"
+   ],
+   "fuente": "Anexo V A) (redacción del RD 499/2024, art. tercero.Uno)"
+  },
+  {
+   "uc": [
+    "UC0261_2"
+   ],
+   "modulos": [
+    "0047"
+   ],
+   "fuente": "Anexo V A) (redacción del RD 499/2024, art. tercero.Uno) UC0261_2 está suprimida desde el RD 1023/2024: junto con UC0262_2 equivale a ECP2816_2 (RD 532/2025 anexo II-a)."
+  },
+  {
+   "uc": [
+    "UC0306_2"
+   ],
+   "modulos": [
+    "0026"
+   ],
+   "fuente": "Anexo V A) (redacción del RD 499/2024, art. tercero.Uno)"
+  },
+  {
+   "uc": [
+    "UC0710_2"
+   ],
+   "modulos": [
+    "0028"
+   ],
+   "fuente": "Anexo V A) (redacción del RD 499/2024, art. tercero.Uno)"
+  },
+  {
+   "uc": [
+    "UC0262_2"
+   ],
+   "modulos": [
+    "0048"
+   ],
+   "fuente": "Anexo V A) (redacción del RD 499/2024, art. tercero.Uno) UC0262_2 está suprimida desde el RD 1023/2024: junto con UC0261_2 equivale a ECP2816_2 (RD 532/2025 anexo II-a)."
+  },
+  {
+   "uc": [
+    "UC0711_2"
+   ],
+   "modulos": [
+    "0031"
+   ],
+   "fuente": "Anexo V A) (redacción del RD 499/2024, art. tercero.Uno) Solo UC0711_2: el RD 499/2024 suprimió las filas de UC0036_2 y UC0310_2, que en el texto original también convalidaban 0031 (equivalen a ECP0711_2 según el RD 532/2025 anexo II-a)."
+  }
+ ],
+ "uc_descripciones": {
+  "UC0259_2": "2007: «Definir ofertas gastronómicas, realizar el aprovisionamiento y controlar consumos». RD 499/2024: «Definir ofertas gastronómicas sencillas, realizar el aprovisionamiento y controlar consumos». Denominación vigente (RD 1023/2024; RD 532/2025): «Desarrollar operaciones de definición de ofertas gastronómicas, aprovisionamiento externo y control de consumos en cocina» [ECP0259_2]",
+  "UC0260_2": "2007: «Preelaborar y conservar toda clase de alimentos» (en el anexo V A) de 2007: «Preelaboración y conservación de alimentos»). Denominación vigente: «Desarrollar operaciones de preelaboración y conservación de materias primas en cocina» [ECP0260_2]",
+  "UC0261_2": "(SUPRIMIDA por el RD 1023/2024) «Preparar elaboraciones básicas de múltiples aplicaciones y platos elementales». Junto con UC0262_2 equivale a ECP2816_2 «Desarrollar técnicas culinarias y presentación de ofertas gastronómicas en cocina» (RD 532/2025 anexo II-a: hace falta además UC0262_2; anexo II-b: ECP2816_2 equivale a UC0261_2 sin requisitos adicionales)",
+  "UC0262_2": "(SUPRIMIDA por el RD 1023/2024) 2007: «Preparar y presentar todo tipo de elaboraciones culinarias complejas y de creación propia para el servicio»; RD 499/2024: «Preparar y presentar los platos más significativos de las cocinas regionales de España y de la cocina internacional». Junto con UC0261_2 equivale a ECP2816_2 (RD 532/2025 anexo II-a: hace falta además UC0261_2)",
+  "UC2816_2": "«Desarrollar técnicas culinarias y presentación de ofertas gastronómicas en cocina» [ECP2816_2]. UC nueva de HOT093_2 (RD 1023/2024) que sustituye a UC0261_2 + UC0262_2. NO figura en los anexos V A) ni V B) del RD 1396/2007 (redacción del RD 499/2024), que siguen citando las UC suprimidas",
+  "UC0306_2": "2007: «Realizar y/o controlar las operaciones de elaboración de masas, pastas y productos básicos de múltiples aplicaciones para pastelería-repostería»; RD 499/2024: «Realizar operaciones de elaboración de masas, pastas y productos básicos de múltiples aplicaciones para pastelería y repostería». Denominación vigente en HOT223_2 (RD 1023/2024): «Desarrollar operaciones de elaboración de masas, cremas, rellenos y otros productos base en pastelería/repostería» [ECP0306_2] (el anexo I del RD 532/2025 la lista en INA107_2 con la denominación anterior)",
+  "UC0709_2": "2007: «Definir ofertas sencillas de repostería, realizar el aprovisionamiento interno y controlar consumos». Denominación vigente: «Desarrollar operaciones de definición de productos, aprovisionamiento y control de consumos en pastelería/repostería» [ECP0709_2]",
+  "UC0710_2": "2007: «Elaborar y presentar productos hechos a base de masas y pastas, postres de cocina y helados». Denominación vigente: «Desarrollar operaciones de elaboración y presentación de productos de pastelería/repostería» [ECP0710_2]",
+  "UC0711_2": "2007 (art. 6 original): «Actuar bajo normas de seguridad, higiene y protección del medio ambiente en restauración» (en el anexo V A) de 2007 y en el RD 499/2024: «… protección ambiental en hostelería»). Denominación vigente: «Actuar bajo normas de seguridad, higiene y protección medioambiental en hostelería» [ECP0711_2]",
+  "UC0036_2": "(Industrias Alimentarias, INA015_2 Panadería y bollería; solo en el texto original de 2007) «Aplicar la normativa de seguridad, higiene y protección del medio ambiente en la industria panadera». Equivale a ECP0711_2 sin requisitos adicionales (RD 532/2025 anexos II-a y II-b)",
+  "UC0310_2": "(Industrias Alimentarias, INA107_2 Pastelería y confitería; solo en el texto original de 2007) «Aplicar la normativa de seguridad, higiene y protección del medio ambiente en la industria alimentaria». Equivale a ECP0711_2 sin requisitos adicionales (RD 532/2025 anexos II-a y II-b)",
+  "ECP2816_2": "«Desarrollar técnicas culinarias y presentación de ofertas gastronómicas en cocina». Sustituye a UC0261_2 y UC0262_2 (RD 1023/2024; RD 532/2025 anexos II-a y II-b)"
+ },
+ "uc_equivalencias": {
+  "UC2816_2": [
+   "UC0261_2",
+   "UC0262_2"
+  ]
+ },
+ "notas": [
+  "El campo «horas» es el del currículo básico / enseñanzas mínimas (RD 1396/2007 anexo I para los módulos específicos: 795 h de los 7 módulos que se conservan; 1.100 h = 55 % de 2.000 h en el original, incluidos FOL 50, EIE 35 y FCT 220; RD 659/2023 y RD 499/2024 para los módulos comunes nuevos). Las horas reales de impartición están en «horas_otras» (aragon = Orden ECD/842/2024 anexo XX; mefp = Orden EFD/657/2024 anexo XXVIII; loe = plan LOE de Aragón).",
+  "Aragón (Orden ECD/842/2024, anexo XX, código HOT201): 30 h/semana en 1.º y 30 en 2.º, 1.000 h por curso, 2.000 en total. Primer curso: 0026 (200 h, 6 sesiones), 0031 (67, 2), 0046 (233, 7), 0047 (267, 8), A997 (33, 1), 1709 (100, 3), 1664 (33, 1) y 0156 (67, 2). Segundo curso: 0028 (167, 5), 0045 (100, 3), 0048 (433, 13), A996 (33, 1), 1710 (67, 2), 1708 (33, 1), 1713 (67, 2) y el optativo (100, 3). La API de CATEDU (get_info_ciclo.php?codciclo=HOT201) devuelve exactamente estas horas y cursos.",
+  "MEFP (Orden EFD/657/2024, anexo XXVIII): 1.º con 30 h/semana y 955 h (0026 160, 0046 290, 0047 300, 1709 100, 1708 35, 0156 70); 2.º con 31 h/semana y 1.045 h (0031 100, 0045 100, 0028 290, 0048 290, 1710 100, 1664 35, optativo 80, 1713 50). Total 2.000 h, formación en empresa incluida dentro de los módulos (no hay fila de FCT). Sin tutorías (A997/A996 son propias de Aragón). En el MEFP 0031 se cursa en 2.º (en Aragón, en 1.º).",
+  "Ordinal en el RD 499/2024: Cocina y Gastronomía es el 1.º de la lista del art. primero.Dos.a) (ciclos SIN módulo de inglés previo). Servicios en Restauración (HOT203) está en la lista b) (1.º), es decir, ya tenía un módulo de Inglés que el RD 499/2024 renombra a «0156. Inglés Profesional (GM)»; Panadería, Repostería y Confitería es el 4.º de la lista a). Ambos títulos comparten con Cocina el mismo tratamiento de FOL/EIE/FCT (suprimidos).",
+  "A diferencia de SMR, el RD 499/2024 SÍ sustituyó los anexos V A) y V B) del RD 1396/2007 (art. tercero.Uno). Por eso uc_a_modulos y modulos_a_uc traen las dos redacciones: la vigente (RD 499/2024, vigente=true) y la original de 2007 (vigente=false). Diferencias: UC0259_2, UC0262_2 y UC0306_2 cambian de denominación; desaparecen las filas de UC0036_2 y UC0310_2 (0031 queda solo con UC0711_2); el resto de filas asocian los mismos módulos que en 2007. Las UC del anexo vigente no están al día del Catálogo: UC0261_2 y UC0262_2 fueron suprimidas por el RD 1023/2024 (nueva UC2816_2) y equivalen a ECP2816_2 solo juntas (RD 532/2025).",
+  "Reglas del nuevo art. 15 del RD 1396/2007 (redacción del RD 499/2024): convalidaciones según el art. 126 del RD 659/2023; para títulos anteriores al 5/3/2017 (Cocina lo es) se aplica el RD 1085/2020; si en una celda de las tablas de UC hay dos o más UC o módulos, hacen falta todos simultáneamente; ante discrepancias prevalece el código sobre la denominación; exención de la formación en empresa por el art. 131 del RD 659/2023. El art. 14 del RD 1396/2007 (convalidaciones y exenciones, con su apartado 2 sobre módulos comunes de igual denominación, contenidos y duración) NO fue modificado por el RD 499/2024 y sigue en su redacción original; su apartado 1 remite al anexo IV, derogado por el RD 1085/2020. Como el nuevo art. 15 sustituye al antiguo «Correspondencia de los módulos… con las unidades de competencia», los anexos V A) y V B) quedan sin artículo que los invoque, aunque siguen vigentes.",
+  "Convalidaciones desde el título LOGSE anterior (Técnico en Cocina, RD 2219/1993): el anexo IV original del RD 1396/2007 solo recogía el título Técnico en Cocina (7 filas: 0045, 0046, 0047, 0026+0028, 0048, más EIE→0050 y FCT→0051). El RD 1085/2020 (anexo II, Hostelería y Turismo, grado medio) reproduce sin cambios las 5 filas de módulos específicos y añade filas de Técnico en Pastelería y Panadería (→0026+0028), Técnico en Servicios de Restaurante y Bar (→0045) y Técnico en Panificación y Repostería (→0026+0028). Los pares LOGSE→LOE con FOL/EIE/Inglés se rigen por los cuadros generales del anexo II (ver más abajo).",
+  "Filas NO recogidas en «convalidaciones_titulos_anteriores» por ser genéricas (las resuelven las reglas generales de data/normativa.js y no mencionan este título): cuadros generales de FOL, EIE e Inglés del anexo II del RD 1085/2020 (LOGSE→LOE), cuadros «Para todos los ciclos formativos con FOL / con EIE / con inglés» del anexo III (LOE→LOE), certificados de la EOI y grados universitarios de inglés, y la DA 6.ª (FOL→1709, EIE→1710). En ellas el destino de este ciclo sería 0156, 1709 o 1710.",
+  "RD 1085/2020, ambos sentidos: (1) el anexo III (LOE→LOE), bloque Hostelería y Turismo, solo contiene filas de GRADO SUPERIOR (Asistencia a la Dirección, Ventas y Espacios Comerciales, Marketing y Publicidad, Procesos y Calidad en la Industria Alimentaria y Vitivinicultura → Agencias de Viajes, Alojamientos, Guía o Dirección de Cocina); ninguna afecta a Cocina y Gastronomía como origen ni como destino, ni a Dirección de Cocina desde este título. (2) En el anexo III, bloque Industrias Alimentarias (grado medio), las filas de destino Panadería, Repostería y Confitería no tienen Cocina y Gastronomía como origen. (3) En el anexo II hay filas cuyo origen LOGSE es Técnico en Cocina pero cuyo destino es otro título LOE: Panadería, Repostería y Confitería (Repostería → 0026+0028), Servicios en Restauración (Ofertas gastronómicas y sistemas de aprovisionamiento → 0045) y, desde Técnico Superior en Restauración (RD 2218/1993), Dirección de Cocina (Procesos de cocina → 0497+0499; Procesos de pastelería y panadería → 0498; Administración… → 0503). No tienen a HOT201 como destino y pertenecen a los ficheros de esos otros ciclos. (4) El anexo IV (títulos posteriores al 5/3/2017) no menciona este título.",
+  "Módulos con igual código y denominación en otros títulos LOE (filas «0031. …» de convalidaciones_titulos_anteriores): Servicios en Restauración comparte 0031 y 0045 (además de 0156, 1664, 1708, 1709, 1710, 1713 y las tutorías/optativo de Aragón, que tratan las reglas generales); Panadería, Repostería y Confitería comparte 0026, 0028 y 0031; Elaboración de Productos Alimenticios y Aceites de Oliva y Vinos comparten 0031. Base: art. 14.2 del RD 1396/2007 (vigente) y arts. 15.1 (RD 499/2024) y 126 del RD 659/2023. Las filas son simétricas: cada una vale también cuando el módulo de Cocina se aporta para el otro título; no se han duplicado como filas inversas. Verificado con los RD originales solo el par 0031/0045 con Servicios en Restauración (35 h y 40 h iguales); para el resto (PRC, EPA, AOV) se ha comprobado la coincidencia de código y nombre en el RD 1085/2020 y en la API de CATEDU, y en EPA la duración básica de 0031 (35 h).",
+  "Oferta combinada HOT201-203 (Cocina y Gastronomía + Servicios en Restauración) en Aragón: la API de CATEDU devuelve para HOT201-203 horas_totales=0 y módulos vacíos («Sin horario actualizado»), por lo que no hay tabla propia. Por códigos, HOT201 y HOT203 coinciden en 0031 (1.º, 67 h), 0045 (2.º, 100 h), 0156, 1664, 1709 y A997 en 1.º, y 1710, 1708, 1713, el optativo y A996 en 2.º, con las mismas horas en ambos ciclos. No se ha localizado norma que regule la doble titulación ni sus convalidaciones internas.",
+  "Herramienta de Aragón (https://centrosdocentes.catedu.es/awc/public/competencias), contrastada el 30/09/2026 módulo a módulo (tab2_modulos_superados.php) y por competencia (tab1_competencias_acreditadas.php): coincide con los anexos V A) y V B) vigentes en 0045 (ECP0259_2 y ECP0709_2), 0046 (ECP0260_2), 0026 (ECP0306_2), 0028 (ECP0710_2) y 0031 (ECP0711_2, más ECP0036_2 y ECP0310_2 como suprimidas equivalentes a ECP0711_2). Difiere en 0047 y 0048 (ver no_verificado). Para el módulo 0031 la herramienta añade ECP de otros títulos de Industrias Alimentarias (p. ej. ECP0029_2, ECP0292_2, ECP2584_2), que no proceden del anexo V de este título.",
+  "Módulo optativo: en Aragón son 100 h en 2.º curso (3 sesiones). Oferta común vigente (Decreto 107/2025): AOP1001 Comunicación profesional en Inglés (GM), AOP1002 Segunda lengua profesional Francés y AOP1003 Ofimática avanzada aplicada al sector profesional (antes A173, A171 y A172). De diseño propio autorizado para HOT201 (Resolución de 6/6/2025): AOP1022 Alimentos de Aragón con calidad diferenciada y AOP1023 Territorio e innovación en cocina y gastronomía, desde 2025/2026. En el MEFP: 80 h en 2.º; repertorio de BOE-A-2025-14430 con 1811 Postres creativos específico de este ciclo.",
+  "Los módulos de tutoría A997 y A996 solo aparecen en la tabla del anexo XX de la Orden ECD/842/2024; el articulado no los crea ni los regula. A995 (Tutoría III) solo existe en ciclos con horario nocturno; HOT201 no tiene tabla nocturna en la Orden ECD/842/2024.",
+  "PLAN LOE de Aragón (anterior al RD 499/2024) — Resolución de 28 de agosto de 2008, BOA núm. 147 de 16/09/2008, pág. 18749, modalidad de diurno, 30 h/semana en cada curso: 1.º 0026 (224 h, 7 h/sem), 0031 (64, 2), 0046 (256, 8), 0047 (256, 8), 0049 FOL (96, 3) y A004/UFA004_12 (64, 2) = 960 h; 2.º 0028 (126, 6), 0045 (84, 4), 0048 (315, 15), 0050 EIE (63, 3), A004/UFA004_22 (42, 2) y 0051 FCT (410 h, sin horas semanales) = 1.040 h. Total 2.000 h. Estas son las horas de la clave «loe» de cada módulo (para A004, las 106 h de sus dos unidades). Las horas de los módulos coinciden con las de la Orden de 24 de julio de 2008 (0045 84, 0046 256, 0047 256, 0026 224, 0048 315, 0028 126, 0031 64, 0049 96, 0050 63, A004 106, 0051 410).",
+  "PLAN LOE del ámbito MEC/MEFP (anterior a la Orden EFD/657/2024) — Orden ESD/3408/2008, de 3 de noviembre, anexo II (BOE-A-2008-19176, BOE de 28/11/2008): 1.º (30 h/sem) 0046 (320 h, 10), 0047 (320, 10), 0026 (230, 7) y 0049 FOL (90, 3) = 960 h; 2.º (30 h/sem en 2 trimestres) 0045 (85, 4), 0048 (240, 11), 0028 (195, 9), 0031 (60, 3) y 0050 EIE (60, 3) = 640 h, más 0051 FCT (400 h en el tercer trimestre) = 1.040 h. Total 2.000 h. Difiere del de Aragón en todos los módulos; en «loe» se ha puesto el de Aragón.",
+  "Ficha del título en todofp.es: https://www.todofp.es/que-estudiar/familias-profesionales/hosteleria-turismo/cocina-gastronomia.html. Da 2.000 h, MECU nivel 4A, CINE-11 P-3.5.4, la lista de módulos vigente (coincide con la de este fichero) y los enlaces al RD 1396/2007, al RD 499/2024, a la Orden ESD/3408/2008 (Currículo Ministerio; hoy sustituida por la Orden EFD/657/2024) y a BOE-A-2025-14430 (optativos). Equivalencias: equivale al título LOGSE de Técnico en Cocina (no vigente) y, únicamente a efectos laborales, a los títulos Ley 70 de Técnico Auxiliar en Cocina y Técnico Auxiliar en Hostelería (rama Hostelería y Turismo); la DA 3.ª.1 del RD 1396/2007 les reconoce los mismos efectos profesionales. Carné profesional asociado: Manipulador de alimentos (DA 3.ª.4 del RD 1396/2007: 0031 garantiza el nivel de conocimiento del art. 4.6 del RD 202/2000). Seguir estudiando: Curso de Especialización en Panadería y Bollería Artesanales (acceso GM).",
+  "DA 3.ª del RD 1396/2007: la DA 3.ª.3 (FOL capacita para el nivel básico de PRL si tiene al menos 45 h) se entiende hecha a 1709 (DA 2.ª del RD 499/2024). Cualificaciones del título: HOT093_2 Cocina y HOT223_2 Repostería (hoy Pastelería/repostería); las cualificaciones incompletas INA015_2 e INA107_2 del texto original ya no figuran en el art. 6 vigente."
+ ],
+ "no_verificado": [
+  "Discrepancia entre la herramienta de Aragón y el anexo V B): pidiendo solo 0047 (o solo 0048), la herramienta devuelve ECP0261_2, ECP0262_2 y ECP2816_2, mientras que el anexo V B) vigente asocia 0047 solo con UC0261_2 y 0048 solo con UC0262_2, y el RD 532/2025 (anexo II-a) exige tener ambas UC para ECP2816_2. Al revés (tab1), ECP0261_2 y ECP0262_2 por separado convalidan 0047 y 0048 respectivamente, y ECP2816_2 convalida ambos. No se ha encontrado norma que justifique la diferencia.",
+  "No se ha localizado el instrumento que introdujo UC0711_2 en HOT093_2 y renombró UC0259_2 («sencillas») y UC0262_2 en el texto del art. 6 del RD 499/2024, ni el efecto exacto entre el RD 295/2004 y el RD 1023/2024 (que no se han abierto en su redacción original). Formación asociada de HOT093_2 antes del RD 1023/2024: no consultada.",
+  "El BOE no ofrece texto consolidado del RD 1396/2007: los anexos I a V originales se han leído en el PDF (págs. 47955-47979) y las modificaciones en el RD 499/2024. Del anexo I solo se ha usado la duración de cada módulo, no el desarrollo de resultados de aprendizaje y contenidos; tampoco se han leído los anexos II y III del original.",
+  "Aragón: no se ha encontrado corrección de errores de la Orden ECD/842/2024 (búsqueda web; sí hay para ECD/841/2024 y ECD/843/2024, de 26/02/2025), pero el BOA no se ha rastreado directamente. No se ha leído la corrección de errores del Decreto 107/2025 (BOA 19/01/2026, citada en otro fichero de investigación) ni barrido el BOA posterior a 18/09/2025 en busca de otras modificaciones del anexo XX.",
+  "Las columnas 1.º/2.º de las tablas de Aragón y del MEFP son horas semanales; el curso asignado en «horas_otras» se ha deducido de en qué columna aparece cada módulo. Las sumas cuadran (Aragón 30+30 h/semana y 1.000+1.000 h; MEFP 30+31 h/semana y 955+1.045 h).",
+  "Los anexos II a VI de la Orden de 24 de julio de 2008 de Aragón (incluido el anexo IV de convalidaciones LOGSE→LOE y el VI de módulos necesarios para promoción) son imágenes en el PDF del BOA y no se han podido leer; se asume que reproducen el RD 1396/2007.",
+  "A004 «Lengua extranjera del entorno profesional: inglés o francés» (Aragón, plan LOE): no se ha comprobado si una norma posterior (como la Orden de 26 de julio de 2011 para SMR, que sustituyó su módulo de inglés por A038/A039) lo sustituyó también en Cocina y Gastronomía, ni si existe equivalencia con 0156 en Aragón. No se ha localizado resolución posterior a la de 28/08/2008 que actualice la distribución horaria del plan LOE de HOT201.",
+  "Aragón tiene además tabla de horario nocturno del plan LOE de HOT201 (3 cursos, 20 + 19 + 20 h/semana) en la misma pág. 18749 de la Resolución de 28/08/2008; no se ha volcado al JSON. No hay tabla nocturna en la Orden ECD/842/2024 para este ciclo.",
+  "Las filas de módulos con igual código en Servicios en Restauración, Panadería, Repostería y Confitería, Elaboración de Productos Alimenticios y Aceites de Oliva y Vinos se apoyan en la coincidencia de código y denominación y en el art. 14.2 del RD 1396/2007; no consta una tabla de la norma que las enumere. No se ha comparado el contenido completo (resultados de aprendizaje y criterios) de 0026 y 0028 con Panadería, Repostería y Confitería (anexo I de su RD, ilegible en el PDF consultado) ni de 0031 con Aceites de Oliva y Vinos. Tampoco se ha comprobado si el RD 1690/2007 (Servicios en Restauración) tras el RD 499/2024 mantiene idénticos 0031 y 0045 en su anexo I (sí en el texto original).",
+  "No existen en el RD 1085/2020 filas que relacionen módulos de Cocina y Gastronomía con Dirección de Cocina ni con Dirección de Servicios en Restauración; las filas de Dirección de Cocina que aparecen (anexo II: Técnico Superior en Restauración LOGSE; anexo III: Procesos y Calidad en la Industria Alimentaria y Vitivinicultura) no tienen a este título por origen ni destino. Se ha leído el texto consolidado de act.php convertido a texto plano; la ausencia se ha verificado por búsqueda de códigos (0026, 0028, 0031, 0045-0048) y de la denominación «Cocina» en todo el texto.",
+  "La oferta de Cocina y Gastronomía con horario nocturno, a distancia o dual en Aragón y su régimen de convalidación no se han estudiado. Tampoco se ha revisado el anexo III (profesorado) introducido por el anexo III del RD 499/2024 ni el anexo II (espacios y equipamientos) del RD 1396/2007.",
+  "La columna «Bilingüe» del anexo XXVIII de la Orden EFD/657/2024 (marcada «Sí» para 0026, 0046, 0047, 0031, 0045, 0028 y 0048) no se ha trasladado al JSON.",
+  "Las «Referencias posteriores» de la Orden ESD/3408/2008 en el BOE citan la «Orden EDU/2184/2009, de 3 de julio (Ref. BOE-A-2009-13249)» como la que actualiza sus arts. 5, 7.4 y 9 y suprime su anexo III; el identificador BOE-A-2009-13249 corresponde en realidad a la Orden EDU/2184/2009 del currículo de Técnico en Farmacia y Parafarmacia (no se ha comprobado si esa orden contiene una disposición sobre Cocina o si el enlace del BOE es erróneo). El RD 2219/1993 (BOE-A-1994-5828, título comprobado) procede de la lista «Referencias anteriores» del BOE del RD 1396/2007. Los RD 295/2004 y 1228/2006 solo se han identificado por su título en el BOE.",
+  "No se ha comprobado si existe una resolución de módulos optativos de Aragón posterior a la de 6/6/2025 que amplíe el catálogo para HOT201 en el curso 2026/2027. El módulo optativo no tiene código numérico estatal ni en el anexo XXVIII del MEFP ni en el anexo XX de Aragón; en el MEFP los optativos concretos tienen código (1811…) según BOE-A-2025-14430.",
+  "Situación actual en el Catálogo de las cualificaciones incompletas INA015_2 e INA107_2 (citadas solo en el texto original del art. 6): no comprobada.",
+  "UC0261_2 y UC0262_2 se funden en UC2816_2 (RD 1023/2024 y RD 532/2025), que solo se obtiene con las dos: no se traducen por separado. La herramienta de CATEDU da ECP2816_2 con solo 0047 o solo 0048, lo que no cuadra con el anexo V B."
+ ]
+};

@@ -471,6 +471,16 @@ r = est('fpb104', ['3015', '3016'].map((c) => ({ tipo: 'modulo_loe', codigo: c, 
 assert.equal(r['3015'], 'superado'); assert.equal(r['3016'], 'superado');
 console.log('OK: Electricidad y Electrónica (grado básico)');
 
+// Cocina y Gastronomía: Repostería LOGSE da 0026 y 0028; UC2816_2 reúne las dos UC antiguas
+require('../data/ciclos/hot201.js');
+r = est('hot201', [{ tipo: 'modulo_logse', titulo: 'Técnico en Cocina', modulo: 'Repostería', docs: [] }]);
+assert.equal(r['0026'], 'convalidable'); assert.equal(r['0028'], 'convalidable');
+assert.equal(est('hot201', [{ tipo: 'modulo_loe', codigo: '0031', nombre: 'x', titulo: 'Técnico en Servicios en Restauración', docs: [] }])['0031'], 'superado');
+r = est('hot201', [{ tipo: 'uc', codigo: 'UC2816_2', via: 'x', docs: [] }]);
+assert.equal(r['0047'], 'convalidable'); assert.equal(r['0048'], 'convalidable');
+assert.notEqual(est('hot201', [{ tipo: 'uc', codigo: 'UC0261_2', via: 'x', docs: [] }])['0048'], 'convalidable');
+console.log('OK: Cocina y Gastronomía');
+
 // Cursos de especialización (Grado E): sin formación en empresa salvo Nube, seis meses y sin universidad
 require('../data/catalogo.js');
 const exp6 = [{ tipo: 'experiencia', meses: 6, relacionada: true, docs: [] }];
