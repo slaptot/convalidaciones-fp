@@ -140,23 +140,10 @@
           <label>Calificación obtenida (opcional) <input name="nota" type="number" min="1" max="10" step="1" placeholder="para calcular el CV-n"></label>`;
       }
       case 'titulo': {
-        const vistos = new Set();
-        const tablas = [];
-        for (const f of c.convalidaciones_titulos_anteriores || []) {
-          if (!f.origen_modulo.some((m) => /ciclo completo/i.test(m)) || vistos.has(f.origen_titulo)) continue;
-          vistos.add(f.origen_titulo);
-          tablas.push(`<option value="titulo|${h(f.origen_titulo)}">${h(f.origen_titulo)}</option>`);
-        }
-        const generales = N.titulos_generales
-          .map((t) => `<option value="clave|${h(t.clave)}">${h(t.label)}</option>`).join('');
-        const cargados = Object.entries(CICLOS).filter(([id]) => id !== state.ciclo)
-          .map(([id, x]) => `<option value="ciclo|${h(id)}">${h(x.ciclo.nombre)} (${h(codigoCiclo(x))})</option>`).join('');
-        return `<label>Título completo aportado <select name="titulo" required>
-            ${tablas.length ? `<optgroup label="Tabla de este ciclo">${tablas.join('')}</optgroup>` : ''}
-            <optgroup label="Reglas generales">${generales}</optgroup>
-            <optgroup label="Otros títulos de esta herramienta">${cargados}</optgroup>
-            <optgroup label="Grado Básico"><option value="gb|">Título de Grado Básico (cualquier ciclo)</option></optgroup>
-          </select></label>
+        return `<label>Buscar título <input name="buscar_titulo" type="search" autocomplete="off"
+              placeholder="Escribe el nombre, el código o el grado: «cocina», «SAN301», «superior»…"></label>
+          <label>Título completo aportado <select name="titulo" required size="8">${opcionesTitulo(c, '')}</select></label>
+          <p class="pista" id="titulo-cuenta"></p>
           <label>Nota media del título (opcional) <input name="nota" type="number" min="1" max="10" step="1" placeholder="para calcular el CV-n"></label>
           <p class="pista">Aplica de una vez lo que corresponda: filas de "ciclo completo", reglas generales y, en los títulos cargados, los módulos con el mismo código.</p>`;
       }
@@ -208,6 +195,41 @@
     return '';
   }
 
+  // Texto sin tildes ni mayúsculas, para buscar escribiendo
+  const plano = (t) => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+  /* Opciones del desplegable de título completo, filtradas por lo que se escribe.
+     Cada palabra tiene que aparecer en el nombre, el código, el grado o la familia. */
+  function opcionesTitulo(c, texto) {
+    const palabras = plano(texto).split(/\s+/).filter(Boolean);
+    const casa = (...campos) => { const t = plano(campos.join(' ')); return palabras.every((p) => t.includes(p)); };
+    const grupo = (label, opts) => (opts.length ? `<optgroup label="${h(label)}">${opts.join('')}</optgroup>` : '');
+
+    const vistos = new Set();
+    const tablas = [];
+    for (const f of c.convalidaciones_titulos_anteriores || []) {
+      if (!f.origen_modulo.some((m) => /ciclo completo/i.test(m)) || vistos.has(f.origen_titulo)) continue;
+      vistos.add(f.origen_titulo);
+      if (casa(f.origen_titulo)) tablas.push(`<option value="titulo|${h(f.origen_titulo)}">${h(f.origen_titulo)}</option>`);
+    }
+    const generales = N.titulos_generales.filter((t) => casa(t.label))
+      .map((t) => `<option value="clave|${h(t.clave)}">${h(t.label)}</option>`);
+    const porGrado = { basico: [], medio: [], superior: [] };
+    Object.entries(CICLOS).filter(([id]) => id !== state.ciclo)
+      .sort(([, x], [, y]) => x.ciclo.nombre.localeCompare(y.ciclo.nombre, 'es'))
+      .forEach(([id, x]) => {
+        const g = x.ciclo.grado;
+        const curso = x.ciclo.curso_especializacion ? 'curso de especialización' : '';
+        if (!porGrado[g] || !casa(x.ciclo.nombre, codigoCiclo(x), GRADOS[g], x.ciclo.familia, curso)) return;
+        porGrado[g].push(`<option value="ciclo|${h(id)}">${h(x.ciclo.nombre)} (${h(codigoCiclo(x))}) · ${h(x.ciclo.familia)}</option>`);
+      });
+    const gb = casa('Título de Grado Básico (cualquier ciclo)')
+      ? ['<option value="gb|">Título de Grado Básico (cualquier ciclo, sin detallar)</option>'] : [];
+    return grupo('Tabla de este ciclo', tablas) + grupo('Reglas generales', generales)
+      + grupo('Grado medio', porGrado.medio) + grupo('Grado superior', porGrado.superior)
+      + grupo('Grado básico', [...gb, ...porGrado.basico]);
+  }
+
   function checklistDocs(tipo) {
     const ids = N.documentos_por_via[tipo] || [];
     if (!ids.length || tipo === 'certificado') return '';
@@ -219,6 +241,21 @@
   function pintarFormAlta() {
     const tipo = $('#tipo').value;
     $('#campos').innerHTML = camposTipo(tipo) + checklistDocs(tipo);
+    const buscar = $('#campos [name=buscar_titulo]');
+    if (tipo === 'titulo' && buscar) {
+      const sel = $('#campos [name=titulo]');
+      const refrescarTitulos = () => {
+        const previo = sel.value;
+        sel.innerHTML = opcionesTitulo(CICLOS[state.ciclo], buscar.value);
+        const n = sel.options.length;
+        if ([...sel.options].some((o) => o.value === previo)) sel.value = previo;
+        else if (n && buscar.value.trim()) sel.selectedIndex = 0; // al buscar, queda marcado el primer resultado
+        $('#titulo-cuenta').textContent = n ? `${n} título${n === 1 ? '' : 's'}. Selecciona uno de la lista.`
+          : 'Ningún título coincide con la búsqueda.';
+      };
+      buscar.addEventListener('input', refrescarTitulos);
+      refrescarTitulos();
+    }
     const cod = $('#campos [name=codigo]');
     if (tipo === 'modulo_loe' && cod) {
       cod.addEventListener('input', () => {
