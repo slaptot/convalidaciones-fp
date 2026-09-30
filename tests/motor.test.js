@@ -544,6 +544,16 @@ assert.equal(est('hot301', [{ tipo: 'modulo_loe', codigo: '0171', nombre: 'x', t
 assert.equal(est('hot301', [{ tipo: 'uc', codigo: 'UC0266_3', via: 'x', docs: [] }])['0398'], 'convalidable');
 console.log('OK: Agencias de Viajes y Gestión de Eventos');
 
+// Electromedicina Clínica: cruces con ELE301, ELE302 y ELE303
+require('../data/ciclos/ele305.js');
+const de = (titulo, cods) => cods.map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo, docs: [] }));
+assert.notEqual(est('ele305', de('TS Mantenimiento Electrónico', ['1051']))['1587'], 'convalidable');
+assert.equal(est('ele305', de('TS Mantenimiento Electrónico', ['1051', '1052']))['1587'], 'convalidable');
+assert.equal(est('ele305', de('TS Sistemas Electrotécnicos y Automatizados', ['0524', '0602']))['1585'], 'convalidable');
+assert.equal(est('ele305', de('TS Automatización y Robótica Industrial', ['0959']))['1586'], 'convalidable');
+assert.notEqual(est('ele305', [{ tipo: 'uc', codigo: 'UC1271_3', via: 'x', docs: [] }])['1593'], 'convalidable');
+console.log('OK: Electromedicina Clínica');
+
 // La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
 for (const [id, c] of Object.entries(CICLOS)) {
   const emp = c.modulos.filter((m) => m.tipo === 'empresa').map((m) => m.codigo);

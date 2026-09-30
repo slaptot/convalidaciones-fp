@@ -1,0 +1,982 @@
+{
+ "ciclo": {
+  "codigo": "ELE305",
+  "nombre": "Técnico Superior en Electromedicina Clínica",
+  "grado": "superior",
+  "familia": "Electricidad y Electrónica",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 838/2015, de 21 de septiembre",
+    "boe": "BOE-A-2015-10728",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-10728",
+    "nota": "Título de Técnico Superior en Electromedicina Clínica y aspectos básicos del currículo (BOE núm. 239, de 6/10/2015, págs. 90289-90370; en vigor 7/10/2015). CORRECCIÓN/CONFIRMACIÓN sobre el encargo: el código ELE305 de Aragón es Electromedicina Clínica (API de CATEDU: ciclo «Electromedicina Clínica», CFGS, familia Electricidad y Electrónica, 2001 h en la API y 2000 h en el BOA; Orden ECD/843/2024, anexo XVIII: «ELECTROMEDICINA CLÍNICA (ELE305)»). Familia Electricidad y Electrónica, 2.000 h, 120 ECTS. Es un título nuevo de la LOE: NO sustituye a ningún título LOGSE (la disposición derogatoria única solo deroga lo que se oponga). ATENCIÓN: el BOE NO publica texto consolidado de este RD (act.php redirige a doc.php y solo hay «TEXTO ORIGINAL»): hay que leer el original y aplicarle a mano el RD 1085/2020 (deroga su anexo IV) y el RD 500/2024 (arts. 2, 10, 12 y 15 y anexos I y III). El RD 500/2024 no sustituye los anexos V A) y V B) ni el art. 6 ni el art. 16: siguen en su redacción original de 2015. Módulos originales: 1585-1594 específicos, 1595 «Proyecto de electromedicina clínica» (hoy «Proyecto intermodular»), 1596 Empresa e iniciativa emprendedora, 1597 Formación y orientación laboral y 1598 Formación en centros de trabajo (estos tres suprimidos por el RD 500/2024). Cualificación completa (art. 6): ELE381_3 con UC1271_3 a UC1274_3. Art. 15 original: convalidaciones LOGSE→LOE y LOE→LOE en el anexo IV (hoy derogado por el RD 1085/2020, que reproduce sus filas); FOL/EIE de cualquier ciclo LOE convalidan (art. 15.2); FOL con todas las UC acreditadas (RD 1224/2009, 1 año de experiencia y PRL básico; art. 15.3); exención de la FCT (art. 15.4). DA 3.ª: la FOL (≥45 h) capacita para PRL nivel básico (hoy 1709 por DA 3.ª del RD 500/2024). Art. 14: acceso a cualquier CFGS y a Grado universitario."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Deroga el anexo IV del RD 838/2015 (disp. derogatoria única.2 y análisis del BOE) y reproduce sus filas. Las convalidaciones LOGSE→LOE de este título están en su anexo II (bloque «GRADO SUPERIOR», tabla de Electricidad y Electrónica: 5 filas con destino Electromedicina Clínica), las LOE→LOE en su anexo III (bloque «GRADO SUPERIOR»: 6 filas), y las tablas transversales de FOL, EIE e Inglés en los anexos II y III. Comprobado en las 85 tablas del texto consolidado del BOE (fecha de actualización del XML 15/04/2026): Electromedicina Clínica y sus módulos 1585-1598 NO aparecen como origen en ninguna tabla de los anexos I a IV, y no hay filas en los anexos I y IV que citen este título. Art. 3.2: módulos con mismos códigos, denominaciones, resultados de aprendizaje, contenidos y duración son idénticos. Art. 3.4: la FCT nunca se convalida; art. 3.5: el Proyecto de GS no se convalida ni se exime. DA 5.ª: las convalidaciones de los anexos I a IV se aplican a los módulos de cualquier ciclo con independencia del título. Modificado por el RD 500/2024 (anexo III: tabla de EIE y «Para determinados ciclos formativos»; DA 1.ª y nueva DA 6.ª)."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709/1710 (anexo V, 50 h cada uno), 1665 Digitalización GS (anexo VII, 30 h), 1708 Sostenibilidad (anexo VIII, 30 h) y 0179 Inglés profesional GS (anexo X, 50 h). Arts. 126-128 (convalidaciones) y 131 (exención de la formación en empresa). Art. 96.1: bloques del ciclo; art. 102: optatividad."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de los títulos de GRADO SUPERIOR a la LO 3/2022. El RD 838/2015 es el número 64.º de la letra a) del artículo primero.Dos (ciclos SIN módulo de inglés en el RD original; la letra b) agrupa los que ya tenían 0179 Inglés). Efectos en este título: SUPRIME 1596 EIE, 1597 FOL y 1598 FCT (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a)); AÑADE 0179 Inglés Profesional (GS) (nuevo, currículo básico del anexo X del RD 659/2023, 50 h), 1709, 1710, 1665, 1708 y un módulo optativo de 80 h (art. cuarto.Uno.c).3.º, art. cuarto.Uno.e) y art. séptimo.Uno.b)); «Proyecto de electromedicina clínica» pasa a «Proyecto intermodular de electromedicina clínica» manteniendo el código 1595. Art. segundo: nivel 5A del MECU. Art. cuarto.Uno (art. 10), art. quinto.Uno (art. 12, profesorado), art. sexto.Uno (art. 15, convalidaciones y exención; este título NO está en la lista de Sanidad excluida de la exención del apdo. 8: los RD citados son 1685/2007, 1687/2011, 905/2013 y 767-772/2014), art. séptimo.Uno (anexo I) y art. octavo.Sesenta y cuatro (anexo III = anexo LXV del RD 500/2024; el encabezado del anexo LXV y de la tabla del anexo XCI dice por error «Real Decreto 636/2015, de 10 de julio», que es el de Organización y Control de Obras de Construcción, pero el contenido y el art. octavo.Sesenta y cuatro son de Electromedicina Clínica). DA 1.ª y anexo I: minoración horaria solo para CCAA con lengua cooficial (no afecta a Aragón). DA 2.ª y anexo XCI: nuevos créditos ECTS (1585=6, 1586=6, 1587=7, 1588=15, 1589=15, 1590=8, 1591=6, 1592=4, 1593=12, 1594=10, más 0179=5, 1709=5, 1710=5, 1665=3, 1708=3, optativa=5 y proyecto intermodular=5; total 120). DA 3.ª: las referencias de la DA 3.ª del RD 838/2015 al módulo FOL se entienden hechas a 1709. DA 5.ª: sin efecto la preferencia por Bachillerato de Ciencias (art. 13). DT única: en 2024-25 se implanta 1.º curso. Disp. final 1.ª: añade la DA 6.ª al RD 1085/2020 (FOL→1709, EIE→1710). El art. tercero (cualificaciones y anexos V) NO incluye este título (comprobado: «838/2015», ELE381_3 y UC1271-UC1274 no aparecen en él)."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito de gestión del MEFPD (BOE núm. 158, de 1/07/2024). Este ciclo está en su ANEXO XXIV (art. 6.3.r), apartados A (secuenciación y horas) y B (espacios y equipamientos). 1.º curso: 1592 70 h, 1585 100, 1586 100, 1587 130, 1589 200, 1588 200, 1709 100, 1708 35 y 0179 70 (30 sesiones semanales; 1005 h); 2.º curso: 1591 130 h, 1590 190, 1594 190, 1593 220, 1710 100, 1665 35, optativa 80 y 1595 Proyecto Intermodular 50 (30 sesiones; 995 h). Total 2000 h. Módulos bilingües: 1589, 1588, 1591, 1590, 1594 y 1593. Deroga la Orden EFP/1216/2019, de 11 de diciembre (BOE-A-2019-18150, currículo LOE anterior de este título en el ámbito del Ministerio), en su disp. derogatoria única, letra h).2.º."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra las unidades de competencia como estándares de competencia profesional (ECP). Anexo I: las UC de este título pasan a ECP con el MISMO número (ECP1271_3, ECP1272_3, ECP1273_3 y ECP1274_3; cualificación de origen ELE381_3, RD 328/2008, anexo CCCLXXXI). Los anexos II-a y II-b no recogen ninguna UC de este título (comprobado: ni UC1271_3-UC1274_3 ni ECP1271_3-ECP1274_3 aparecen fuera del anexo I)."
+   },
+   {
+    "ref": "Orden EFD/374/2026, de 14 de abril",
+    "boe": "BOE-A-2026-8957",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8957",
+    "nota": "Actualiza determinados estándares de competencias profesionales (BOE núm. 100, de 24/04/2026; en vigor el día siguiente). Art. 5.i) a l): da nueva redacción a ECP1271_3, ECP1272_3, ECP1273_3 y ECP1274_3 (anexos XV a XVIII de la orden), con el MISMO número y nivel 3 pero con NUEVA DENOMINACIÓN (ver uc_descripciones). Disp. final primera.i): SUPRIME los anexos CCCLXXIX y CCCLXXXI del RD 328/2008 (el CCCLXXXI es la cualificación ELE381_3 de este título). Los números de UC/ECP no cambian: equivalencias_uc queda vacío. La herramienta de CATEDU ya usa las denominaciones nuevas."
+   },
+   {
+    "ref": "RD 328/2008, de 29 de febrero",
+    "boe": "BOE-A-2008-4789",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-4789",
+    "nota": "Cualificaciones profesionales de Electricidad y Electrónica (BOE núm. 63, de 13/03/2008). Anexo CCCLXXXI: ELE381_3 «Gestión y supervisión de la instalación y mantenimiento de sistemas de electromedicina» (nivel 3, UC1271_3 a UC1274_3; formación asociada 690 h: MF1271_3 120 h, MF1272_3 180, MF1273_3 150, MF1274_3 240). Modificado el anexo CCCLXXXI por la Orden PRA/1880/2016, de 9 de diciembre, y suprimido por la Orden EFD/374/2026 (véase). Es la cualificación completa que incluye el título (art. 6 del RD 838/2015)."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+    "nota": "Currículo vigente de Aragón para grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004; corrección de errores de 26/02/2025 que solo afecta a los anexos XXXVI, XL, XXIV y LXXI, es decir, no al de este ciclo). Este ciclo está en su ANEXO XVIII (art. 1.2.g).2.º y art. 5.3.q), código de ciclo ELE305): 1.º curso 1585 (133 h, 4 sesiones), 1587 (167, 5), 1588 (167, 5), 1589 (233, 7), 1592 (100, 3), 1709 (100, 3), 1665 (33, 1) y 0179 Inglés profesional (67, 2); 2.º curso 1586 (100, 3), 1590 (167, 5), 1591 (133, 4), 1593 (167, 5), 1594 (167, 5), 1595 Proyecto intermodular (67, 2), 1710 (67, 2), 1708 (33, 1) y módulo optativo (100, 3). 30 sesiones semanales en cada curso; el total impreso en el BOA es 2000 h (las horas por módulo redondeadas suman 1000 + 1001). Espacios: aula polivalente (40/60 m²), taller de sistemas electromecánicos (60/90), taller de electromedicina clínica (100/150) y taller de diagnóstico por imagen (90/120), para 20/30 alumnos. Art. 12: el optativo es anual y va en 2.º. Art. 13: convalidación de los optativos (AOP1004 y AOP1002 tras el Decreto 107/2025). DT 2.ª.3: tabla de equivalencias 1709 ≡ FOL, 1710 ≡ EIE y 0179 Inglés profesional (GS) ≡ 0179 Inglés (esta última sin efecto para este ciclo, que no tenía 0179); DT 2.ª.4: desde el 1/09/2026 hay que cursar el plan nuevo completo. Disp. derogatoria única, letra g).4: deroga la Orden ECD/1162/2017 de este ciclo."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025 (csv BOA20250918002). Modifica el Decreto 91/2024 y las Órdenes ECD/842/2024 y ECD/843/2024. En la ECD/843/2024 (art. tercero) NO toca el anexo XVIII de este ciclo, pero RENOMBRA los módulos optativos comunes: A170 pasa a AOP1004 «Comunicación profesional en Inglés (GS)», A171 a AOP1002 «Segunda lengua profesional Francés» y A172 a AOP1003 «Ofimática avanzada aplicada al sector profesional», y reescribe el art. 13 (convalidación de optativos: B2 de inglés o la superación de los antiguos «Lengua Extranjera Profesional: Inglés 1 y 2» → AOP1004; B1 de francés → AOP1002; un optativo superado en un CFGS puede convalidarse en cualquier otro CFGS). También reescribe el apartado 3 del anexo VIII del Decreto 91/2024: módulos con los mismos códigos, las mismas denominaciones O los mismos resultados de aprendizaje son idénticos y trasladan la calificación a solicitud del alumnado en la matrícula (no se convalidan)."
+   },
+   {
+    "ref": "Decreto 91/2024, de 5 de junio, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.todofp.es/dam/jcr:cda9c643-4e37-4726-b6e8-dc2b2c890e07/aragon-brscgi-ordenaci-n.pdf",
+    "nota": "Ordenación de la FP del Grado D y del Grado E en Aragón (BOA núm. 109, de 06/06/2024), modificado por el Decreto 107/2025. Art. 48: las convalidaciones se rigen por el RD 659/2023, los RD de cada título y el RD 1085/2020. Art. 49.1: la exención del periodo de formación en empresa se rige por los arts. 131 y 161 del RD 659/2023 y solo vale la experiencia laboral de los cinco años anteriores a la solicitud. Art. 49.2: quedan exceptuados de la exención solo los ciclos de grado superior de Sanidad: ELE305 (familia Electricidad y Electrónica) NO está entre ellos, luego la exención es posible. Art. 9.3: módulo optativo anual en 2.º curso."
+   },
+   {
+    "ref": "Orden ECD/1162/2017, de 30 de junio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=976012824141&type=pdf",
+    "nota": "Currículo LOE (plan anterior) de este ciclo en Aragón; BOA núm. 156, de 16/08/2017 (csv BOA20170816001). Implantación 1.º en 2017/18 y 2.º en 2018/19. Módulos propios A135 «Lengua extranjera profesional: inglés 1» (64 h) y A136 «... inglés 2» (42 h). Art. 17.5: A135/A136 son convalidables con el módulo de igual denominación de cualquier ciclo LOE de grado superior o medio y con un certificado de nivel intermedio o avanzado de la EOI (en el texto, «Lengua extranjera del entorno profesional: inglés 1 y 2»). Sus anexos IV, V A) y V B) reproducen los del RD 838/2015 (con un cambio de redacción: en la fila de Automatización y Robótica Industrial el código es 0559 en el RD y en la Orden, mientras que el RD 1085/2020 escribe 0959). Su anexo VII contiene la distribución horaria (diurno: 30 h/semana en cada curso; nocturno: 3 cursos de 18+19+19 h/semana), fuente de la clave «loe» de horas_otras. DEROGADA por la Orden ECD/843/2024 (disp. derogatoria única, letra g).4)."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "1585",
+   "nombre": "Instalaciones eléctricas",
+   "horas": 55,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1586",
+   "nombre": "Sistemas electromecánicos y de fluidos",
+   "horas": 55,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "nota": "Discrepancia de curso: 2.º en Aragón (Orden ECD/843/2024) y 1.º en el MEFP (Orden EFD/659/2024).",
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1587",
+   "nombre": "Sistemas electrónicos y fotónicos",
+   "horas": 70,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 160,
+     "curso": 1,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1588",
+   "nombre": "Sistemas de radiodiagnóstico, radioterapia e imagen médica",
+   "horas": 125,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 200,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 160,
+     "curso": 1,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1589",
+   "nombre": "Sistemas de monitorización, registro y cuidados críticos",
+   "horas": 125,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 200,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 224,
+     "curso": 1,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1590",
+   "nombre": "Sistemas de laboratorio y hemodiálisis",
+   "horas": 70,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 105,
+     "curso": 2,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1591",
+   "nombre": "Sistemas de rehabilitación y pruebas funcionales",
+   "horas": 50,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 105,
+     "curso": 2,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1592",
+   "nombre": "Tecnología sanitaria en el ámbito clínico",
+   "horas": 40,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1593",
+   "nombre": "Planificación de la adquisición de sistemas de electromedicina",
+   "horas": 100,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 220,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 126,
+     "curso": 2,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1594",
+   "nombre": "Gestión del montaje y mantenimiento de sistemas de electromedicina",
+   "horas": 80,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 126,
+     "curso": 2,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1595",
+   "nombre": "Proyecto intermodular de electromedicina clínica",
+   "horas": 25,
+   "horas_fuente": "RD 838/2015 anexo I (Proyecto de electromedicina clínica, 25 h)",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "nota": "Hasta el RD 500/2024 se llamaba «Proyecto de electromedicina clínica» (mismo código 1595).",
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 40,
+     "curso": 2,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I. El curso 2 es una deducción: el anexo VII no asigna horas semanales a este módulo y el total de cada curso ya suma 30 h/semana"
+    }
+   }
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo X (currículo básico de Inglés Profesional GS, 50 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "nota": "Módulo NUEVO en este ciclo (RD 500/2024 art. cuarto.Uno.c).3.º)): el plan LOE de Aragón no tenía 0179 sino los módulos propios A135 y A136 (inglés 1 y 2).",
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (50 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (50 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VII (30 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "nota": "Discrepancia de curso: 1.º en Aragón y 2.º en el MEFP.",
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (30 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "nota": "Discrepancia de curso: 2.º en Aragón y 1.º en el MEFP.",
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 500/2024 art. cuarto.Uno.e) (nuevo art. 10.3 del RD 838/2015): 80 h de currículo básico",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1597",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1596",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "1598",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 838/2015 anexo I (enseñanzas mínimas: duración del módulo)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 370,
+     "curso": 2,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I. El curso 2 es una deducción: el anexo VII no asigna horas semanales a este módulo y el total de cada curso ya suma 30 h/semana"
+    }
+   }
+  },
+  {
+   "codigo": "A135",
+   "nombre": "Lengua extranjera profesional: inglés 1 (módulo propio de Aragón)",
+   "horas": 64,
+   "horas_fuente": "Orden ECD/1162/2017 (Aragón), anexo I: duración 64 h (módulo propio; no hay enseñanzas mínimas estatales)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "nota": "Módulo propio de Aragón del plan LOE. Su convalidación corresponde a la Administración educativa autonómica (RD 1085/2020 art. 8.2).",
+   "horas_otras": {
+    "loe": {
+     "horas": 64,
+     "curso": 1,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  },
+  {
+   "codigo": "A136",
+   "nombre": "Lengua extranjera profesional: inglés 2 (módulo propio de Aragón)",
+   "horas": 42,
+   "horas_fuente": "Orden ECD/1162/2017 (Aragón), anexo I: duración 42 h (módulo propio; no hay enseñanzas mínimas estatales)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 42,
+     "curso": 2,
+     "fuente": "Orden ECD/1162/2017 (BOA núm. 156, de 16/08/2017), anexo VII, «Propuesta de distribución horaria diurno»; la duración de cada módulo coincide con la de su anexo I"
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Productos Electrónicos (LOGSE, RD 620/1995, de 21 de abril)",
+   "origen_modulo": "Electrónica analógica + Lógica digital y microprogramable",
+   "destino_modulos": [
+    "1587"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque «GRADO SUPERIOR» (tabla de Electricidad y Electrónica), tabla «TS Desarrollo de Productos Electrónicos (RD 620/1995) → TS Electromedicina Clínica (RD 838/2015)»: la celda de origen contiene los dos módulos («Electrónica analógica. / Lógica digital y microprogramable.»): hacen falta los dos para convalidar 1587. Coincide con la fila del anexo IV a) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV a) de la Orden ECD/1162/2017 de Aragón (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Mantenimiento y Montaje de Instalaciones de Edificio y Proceso (LOGSE, RD 2044/1995, de 22 de diciembre, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": "Sistemas automáticos en las instalaciones",
+   "destino_modulos": [
+    "1586"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque «GRADO SUPERIOR» (tabla de Electricidad y Electrónica), tabla «TS Mantenimiento y Montaje de Instalaciones de Edificios y Proceso (RD 2044/1995) → TS Electromedicina Clínica (RD 838/2015)». Coincide con la fila del anexo IV a) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV a) de la Orden ECD/1162/2017 de Aragón (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Mantenimiento de equipo industrial (LOGSE, RD 2043/1995, de 22 de diciembre, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": "Montaje y mantenimiento de los sistemas eléctrico y electrónico",
+   "destino_modulos": [
+    "1585"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque «GRADO SUPERIOR» (tabla de Electricidad y Electrónica), tabla «TS Mantenimiento de equipo industrial (RD 2043/1995) → TS Electromedicina Clínica (RD 838/2015)», primera fila. Coincide con la fila del anexo IV a) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV a) de la Orden ECD/1162/2017 de Aragón (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Mantenimiento de equipo industrial (LOGSE, RD 2043/1995, de 22 de diciembre, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": "Montaje y mantenimiento de los sistemas hidráulico y neumático",
+   "destino_modulos": [
+    "1586"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque «GRADO SUPERIOR» (tabla de Electricidad y Electrónica), tabla «TS Mantenimiento de equipo industrial (RD 2043/1995) → TS Electromedicina Clínica (RD 838/2015)», segunda fila. Coincide con la fila del anexo IV a) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV a) de la Orden ECD/1162/2017 de Aragón (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Proyectos de Instalaciones de Fluidos, Térmicas y de Manutención (LOGSE, RD 2042/1995, de 22 de diciembre, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": "Sistemas automáticos en las instalaciones",
+   "destino_modulos": [
+    "1586"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque «GRADO SUPERIOR» (tabla de Electricidad y Electrónica), tabla «TS Desarrollo de Proyectos de Instalaciones de Fluidos, Térmicas y de Manutención (RD 2042/1995) → TS Electromedicina Clínica (RD 838/2015)». Coincide con la fila del anexo IV a) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV a) de la Orden ECD/1162/2017 de Aragón (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Sistemas Electrotécnicos y Automatizados (LOE, RD 1127/2010, de 10 de septiembre)",
+   "origen_modulo": "0524. Configuración de instalaciones eléctricas + 0602. Gestión del montaje y del mantenimiento de instalaciones",
+   "destino_modulos": [
+    "1585"
+   ],
+   "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE), bloque «GRADO SUPERIOR» (Electricidad y Electrónica), tabla hacia «TS Electromedicina Clínica (RD 838/2015)». La celda de origen contiene los dos módulos (0524 y 0602): hacen falta los dos para convalidar 1585. Coincide con la fila del anexo IV b) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV b) de la Orden ECD/1162/2017 de Aragón (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Proyectos de Instalaciones Térmicas y de Fluidos (LOE, RD 219/2008, de 15 de febrero, familia Instalación y Mantenimiento)",
+   "origen_modulo": "0122. Proceso de montaje de instalaciones + 0128. Planificación del montaje de instalaciones",
+   "destino_modulos": [
+    "1585"
+   ],
+   "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE), bloque «GRADO SUPERIOR» (Electricidad y Electrónica), tabla hacia «TS Electromedicina Clínica (RD 838/2015)». La celda de origen contiene los dos módulos (0122 y 0128): hacen falta los dos. Coincide con la fila del anexo IV b) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV b) de la Orden ECD/1162/2017 de Aragón (hoy derogada) (el RD 838/2015 y la Orden de Aragón llaman al ciclo «Desarrollo de Instalaciones Térmicas y de Fluidos»; manda la denominación del RD 1085/2020)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Mantenimiento de Proyectos de Instalaciones Térmicas y de Fluidos (LOE, RD 219/2008, de 15 de febrero, familia Instalación y Mantenimiento)",
+   "origen_modulo": "0120. Sistemas eléctricos y automáticos + 0122. Proceso de montaje de instalaciones",
+   "destino_modulos": [
+    "1585"
+   ],
+   "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE), bloque «GRADO SUPERIOR» (Electricidad y Electrónica), tabla hacia «TS Electromedicina Clínica (RD 838/2015)». La celda de origen contiene los dos módulos (0120 y 0122): hacen falta los dos. Coincide con la fila del anexo IV b) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV b) de la Orden ECD/1162/2017 de Aragón (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Automatización y Robótica Industrial (LOE, RD 1581/2011, de 4 de noviembre)",
+   "origen_modulo": "0959. Sistemas eléctricos, neumáticos e hidráulicos",
+   "destino_modulos": [
+    "1586"
+   ],
+   "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE), bloque «GRADO SUPERIOR» (Electricidad y Electrónica), tabla hacia «TS Electromedicina Clínica (RD 838/2015)». El RD 1085/2020 escribe el código 0959; el RD 838/2015 y la Orden de Aragón de 2017 escribían «0559» (erratas del código: manda el código correcto del módulo del RD 1581/2011, art. 15.6 según el RD 500/2024). Coincide con la fila del anexo IV b) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV b) de la Orden ECD/1162/2017 de Aragón (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Mecatrónica Industrial (LOE, RD 1576/2011, de 4 de noviembre, familia Instalación y Mantenimiento)",
+   "origen_modulo": "0936. Sistemas hidráulicos y neumáticos",
+   "destino_modulos": [
+    "1586"
+   ],
+   "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE), bloque «GRADO SUPERIOR» (Electricidad y Electrónica), tabla hacia «TS Electromedicina Clínica (RD 838/2015)». Coincide con la fila del anexo IV b) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV b) de la Orden ECD/1162/2017 de Aragón (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Mantenimiento Electrónico (LOE, RD 1578/2011, de 4 de noviembre)",
+   "origen_modulo": "1051. Circuitos electrónicos analógicos + 1052. Equipos microprogramables",
+   "destino_modulos": [
+    "1587"
+   ],
+   "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE), bloque «GRADO SUPERIOR» (Electricidad y Electrónica), tabla hacia «TS Electromedicina Clínica (RD 838/2015)». La celda de origen contiene los dos módulos (1051 y 1052): hacen falta los dos para convalidar 1587. El anexo IV original del RD 838/2015 llamaba a 1052 «Mantenimiento de equipos microprogramables»; su denominación en el RD 1578/2011 es «Equipos microprogramables» (manda el código). Coincide con la fila del anexo IV b) del RD 838/2015 (derogado por el RD 1085/2020) y con el anexo IV b) de la Orden ECD/1162/2017 de Aragón (hoy derogada). Cuadra con la fila inversa de research/ele301.json"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE (cualquiera)",
+   "origen_modulo": "Formación y Orientación Laboral (más la certificación de prevención de riesgos laborales de nivel básico)",
+   "destino_modulos": [
+    "1597",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Formación y Orientación Laboral» (grado medio y grado superior). El módulo 1597 ya no existe tras el RD 500/2024 (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a); la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I. En Aragón el Decreto 91/2024 (anexo VIII, 6.5) exige además el certificado de PRL de nivel básico"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1597",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla de FOL, y DA 2.ª. El módulo 1597 ya no existe tras el RD 500/2024 (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a); la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE (cualquiera)",
+   "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II. La tabla lo repite en dos filas."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Sociocultural (LOGSE, RD 2058/1995, de 22 de diciembre); Técnico Superior en Animación de Actividades Físicas y Deportivas (LOGSE, RD 2048/1995, de 22 de diciembre); Técnico Superior en Animación Turística (LOGSE, RD 274/2000, de 25 de febrero)",
+   "origen_modulo": "Organización y gestión de una pequeña empresa de actividades de tiempo libre y socioeducativas",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Comercio (LOGSE, familia Comercio y Marketing)",
+   "origen_modulo": "Administración y gestión de un pequeño establecimiento comercial",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos LOGSE de la familia Agraria: Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996), Jardinería (RD 1714/1996), Explotaciones Agrarias Extensivas (RD 1715/1996), Explotaciones Agrícolas Intensivas (RD 1716/1996) y Explotaciones Ganaderas (RD 1717/1996)",
+   "origen_modulo": "Organización y gestión de una explotación agraria familiar",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Técnico en Gestión Administrativa (LOGSE, RD 1662/1994, de 22 de julio, familia Administración y Gestión)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Agencias de Viajes (LOGSE, familia Hostelería y Turismo)",
+   "origen_modulo": "Organización y control en agencias de viajes",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Restauración (LOGSE, familia Hostelería y Turismo)",
+   "origen_modulo": "Administración de establecimientos de restauración",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Ortoprotésica (LOGSE, familia Sanidad)",
+   "origen_modulo": "Administración y gestión de una unidad/gabinete de ortoprotésica",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Prótesis Dentales (LOGSE, familia Sanidad)",
+   "origen_modulo": "Organización, administración y gestión de una unidad/gabinete de prótesis dentales",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Audioprótesis (LOGSE, familia Sanidad)",
+   "origen_modulo": "Administración y gestión de un gabinete audioprotésico",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos LOGSE de la familia Agraria: Gestión y Organización de los Recursos Naturales y Paisajísticos y Gestión y Organización de Empresas Agropecuarias",
+   "origen_modulo": "Organización y gestión de una empresa agraria",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Administración y Finanzas (LOGSE, RD 1659/1994, de 22 de julio, familia Administración y Gestión)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado superior con Lengua Extranjera (inglés)",
+   "origen_modulo": "Lengua Extranjera (Inglés) / Lengua Extranjera de 90 horas cuando la lengua cursada y superada sea inglés / Lengua Extranjera en Comercio Internacional cuando sea inglés",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Superior (0179 «Inglés Profesional» tras el RD 500/2024). Son tres filas distintas de la tabla, cualquiera de ellas basta. Aplicable al 0179 de este ciclo, que es de nueva incorporación"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE (cualquiera) que incluya el módulo de FOL",
+   "origen_modulo": "Formación y orientación laboral",
+   "destino_modulos": [
+    "1597",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con formación y orientación laboral». Coincide con el art. 15.2 original del RD 838/2015. El módulo 1597 ya no existe tras el RD 500/2024 (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a); la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE (cualquiera) que incluya el módulo de EIE",
+   "origen_modulo": "Empresa e iniciativa emprendedora",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción dada por el RD 500/2024, disp. final primera.Tres). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo LOE de grado medio o superior de las familias Comercio y Marketing o Administración y Gestión",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1596",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción dada por el RD 500/2024, disp. final primera.Tres). El módulo 1596 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés / módulo 0179 de otro ciclo LOE",
+   "origen_modulo": "0179. Inglés Profesional (de cualquier ciclo LOE de grado superior) / Certificado de Aptitud de Inglés de la EOI (RD 967/1988) / Certificado de Nivel Avanzado (B2) o superior de Inglés de la EOI (RD 1629/2006) / Título de Grado o equivalente en Filología Inglesa o en Traducción e Interpretación (Inglés)",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con inglés» (son filas distintas: cualquiera basta), más el art. 3.7 del RD 1085/2020 (redacción dada por la disp. final 4.1 del RD 659/2023). El módulo 0179 de otro ciclo LOE de grado superior es idéntico por el art. 3.2. En Aragón, además, el Decreto 91/2024 (anexo VIII, apartado 3, párrafo final, en la redacción del Decreto 107/2025) considera que quien haya superado el módulo Inglés (0179) en un ciclo LOE tiene superado el 0179 Inglés Profesional"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de idioma (Aragón)",
+   "origen_modulo": "Certificado de nivel B2 de inglés (Orden de 11 de noviembre de 2014 de Aragón o norma que la sustituya)",
+   "destino_modulos": [
+    "AOP1004 (módulo profesional optativo de Aragón: Comunicación profesional en Inglés (GS); código A170 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), art. 13.1 en la redacción del Decreto 107/2025 (art. tercero.Cuatro)"
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden ECD/1162/2017, de 30 de junio)",
+   "origen_modulo": "A135. Lengua extranjera profesional: inglés 1 + A136. Lengua extranjera profesional: inglés 2",
+   "destino_modulos": [
+    "AOP1004 (módulo profesional optativo de Aragón: Comunicación profesional en Inglés (GS); código A170 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), art. 13.1 en la redacción del Decreto 107/2025 (art. tercero.Cuatro): «la superación de los módulos profesionales de los planes a extinguir, con denominación Lengua Extranjera Profesional: Inglés 1 y Lengua Extranjera Profesional: Inglés 2, propios de la Comunidad Autónoma de Aragón, permitirán la convalidación» del optativo AOP1004. Se aplica a A135 y A136 por coincidencia de denominación (art. 10 de la Orden ECD/1162/2017: «Lengua extranjera profesional: inglés 1» y «... inglés 2»): no consta una lista de códigos en la norma. Hacen falta los dos módulos."
+  },
+  {
+   "origen_titulo": "Acreditación oficial de idioma (Aragón)",
+   "origen_modulo": "Certificado de nivel B1 de francés (Orden de 11 de noviembre de 2014 de Aragón o norma que la sustituya)",
+   "destino_modulos": [
+    "AOP1002 (módulo profesional optativo de Aragón: Segunda lengua profesional Francés; código A171 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), art. 13.2 en la redacción del Decreto 107/2025 (art. tercero.Cuatro)"
+  },
+  {
+   "origen_titulo": "Otro ciclo formativo de grado superior (Aragón)",
+   "origen_modulo": "Módulo profesional optativo superado",
+   "destino_modulos": [
+    "Módulo profesional optativo (OPT), sin código estatal"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), art. 13.4 en la redacción del Decreto 107/2025 (art. tercero.Cuatro): un optativo superado en un CFGS puede convalidarse, si el alumno lo desea, en cualquier otro CFGS (y Decreto 91/2024, anexo VIII, 6.10, según el Decreto 107/2025). Este ciclo no tiene optativo cerrado: el centro determina el módulo (en el texto extraído de la Resolución de 6 de junio de 2025 no figura ningún módulo de diseño propio para ELE305; véase no_verificado)"
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden ECD/1162/2017, de 30 de junio)",
+   "origen_modulo": "1597. Formación y orientación laboral",
+   "destino_modulos": [
+    "1709"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), disposición transitoria segunda, apartados 2 y 3 (tabla de módulos equivalentes)"
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden ECD/1162/2017, de 30 de junio)",
+   "origen_modulo": "1596. Empresa e iniciativa emprendedora",
+   "destino_modulos": [
+    "1710"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), disposición transitoria segunda, apartados 2 y 3 (tabla de módulos equivalentes)"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC1271_3",
+    "UC1273_3"
+   ],
+   "modulos": [
+    "1593",
+    "1594"
+   ],
+   "fuente": "Anexo V A) del RD 838/2015 (texto ORIGINAL de 2015, VIGENTE: el RD 500/2024 no sustituye los anexos V de este título; idéntico en el anexo V A) de la Orden ECD/1162/2017 de Aragón). Se usan los códigos del RD; conservan su número como ECP (RD 532/2025 anexo I; Orden EFD/374/2026). Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024). Las dos UC de la primera celda (UC1271_3 y UC1273_3) convalidan juntas 1593 y 1594. La herramienta de CATEDU lo reproduce (con ECP1271_3 + ECP1273_3 devuelve 1593 y 1594; con una sola, solo «potenciales»)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1272_3",
+    "UC1274_3"
+   ],
+   "modulos": [
+    "1588",
+    "1589",
+    "1590",
+    "1591"
+   ],
+   "fuente": "Anexo V A) del RD 838/2015 (texto ORIGINAL de 2015, VIGENTE: el RD 500/2024 no sustituye los anexos V de este título; idéntico en el anexo V A) de la Orden ECD/1162/2017 de Aragón). Se usan los códigos del RD; conservan su número como ECP (RD 532/2025 anexo I; Orden EFD/374/2026). Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024). Las dos UC de la segunda celda (UC1272_3 y UC1274_3) convalidan juntas 1588, 1589, 1590 y 1591. La herramienta de CATEDU lo reproduce (con ECP1272_3 + ECP1274_3 devuelve los cuatro módulos)",
+   "vigente": true
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "1593",
+    "1594"
+   ],
+   "uc": [
+    "UC1271_3",
+    "UC1273_3"
+   ],
+   "fuente": "Anexo V B) del RD 838/2015 (texto ORIGINAL de 2015, VIGENTE: el RD 500/2024 no sustituye los anexos V de este título). Si en la misma celda hay varios módulos, hacen falta todos simultáneamente (art. 15.4 en la redacción del RD 500/2024). Comprobado en la herramienta de CATEDU: con 1593 y 1594 juntos acreditan ECP1271_3 y ECP1273_3; con uno solo, solo «potenciales»",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1588",
+    "1589",
+    "1590",
+    "1591"
+   ],
+   "uc": [
+    "UC1272_3",
+    "UC1274_3"
+   ],
+   "fuente": "Anexo V B) del RD 838/2015 (texto ORIGINAL de 2015, VIGENTE: el RD 500/2024 no sustituye los anexos V de este título). Si en la misma celda hay varios módulos, hacen falta todos simultáneamente (art. 15.4 en la redacción del RD 500/2024). Comprobado en la herramienta de CATEDU: con los cuatro módulos juntos acreditan ECP1272_3 y ECP1274_3; con tres, solo «potenciales»",
+   "vigente": true
+  }
+ ],
+ "equivalencias_uc": {},
+ "uc_descripciones": {
+  "UC1271_3": "Planificar y gestionar la instalación de sistemas de electromedicina y sus instalaciones asociadas (cualificación ELE381_3, RD 328/2008). Desde la Orden EFD/374/2026: «Gestionar el montaje de equipos de electromedicina y sus instalaciones asociadas» [ECP1271_3]",
+  "UC1272_3": "Supervisar y realizar la instalación de sistemas de electromedicina y sus instalaciones asociadas (cualificación ELE381_3). Desde la Orden EFD/374/2026: «Supervisar el montaje de equipos de electromedicina y sus instalaciones asociadas» [ECP1272_3]",
+  "UC1273_3": "Planificar y gestionar el mantenimiento de sistemas de electromedicina y sus instalaciones asociadas (cualificación ELE381_3). Desde la Orden EFD/374/2026: «Planificar el mantenimiento de equipos de electromedicina y sus instalaciones asociadas» [ECP1273_3]",
+  "UC1274_3": "Supervisar y realizar el mantenimiento de sistemas de electromedicina y sus instalaciones asociadas (cualificación ELE381_3). Desde la Orden EFD/374/2026: «Supervisar el mantenimiento de equipos de electromedicina y sus instalaciones asociadas» [ECP1274_3]"
+ },
+ "cualificaciones": [
+  {
+   "codigo": "ELE381_3",
+   "nombre_2009": "Gestión y supervisión de la instalación y mantenimiento de sistemas de electromedicina",
+   "nombre_vigente": "Gestión y supervisión de la instalación y mantenimiento de sistemas de electromedicina",
+   "completa": true,
+   "uc": [
+    "UC1271_3",
+    "UC1272_3",
+    "UC1273_3",
+    "UC1274_3"
+   ],
+   "uc_2009": [
+    "UC1271_3",
+    "UC1272_3",
+    "UC1273_3",
+    "UC1274_3"
+   ],
+   "uc_vigente": [
+    "UC1271_3",
+    "UC1272_3",
+    "UC1273_3",
+    "UC1274_3"
+   ],
+   "norma": "RD 328/2008, de 29 de febrero (anexo CCCLXXXI; BOE-A-2008-4789), modificado por la Orden PRA/1880/2016 y SUPRIMIDO el anexo por la Orden EFD/374/2026, de 14 de abril (disp. final primera.i)); las cuatro UC subsisten como ECP1271_3 a ECP1274_3 (RD 532/2025, actualizadas por la Orden EFD/374/2026, art. 5.i) a l)). Cualificación completa en el título (art. 6 del RD 838/2015, no modificado por el RD 500/2024). Formación asociada de 690 h. Nota: la clave «nombre_2009» recoge la denominación del RD 328/2008 (2008), no de 2009; la de nombre_vigente es la misma porque la orden de 2026 no da otro nombre a la cualificación (solo suprime su anexo)."
+  }
+ ],
+ "notas": [
+  "IDENTIFICACIÓN: el código de ciclo ELE305 de Aragón corresponde a Técnico Superior en Electromedicina Clínica (RD 838/2015, de 21 de septiembre; BOE-A-2015-10728). Confirmado con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=ELE305: «Electromedicina Clínica», CFGS, familia Electricidad y Electrónica, módulos 1585-1595 y comunes) y con el anexo XVIII de la Orden ECD/843/2024 («ELECTROMEDICINA CLÍNICA (ELE305)»). La API da horas_totales 2001 porque suma las horas redondeadas de 1000 + 1001; el BOA imprime 2000.",
+  "El campo «horas» es el del currículo básico / enseñanzas mínimas: RD 838/2015 anexo I para los módulos originales (1585 55 h, 1586 55, 1587 70, 1588 125, 1589 125, 1590 70, 1591 50, 1592 40, 1593 100, 1594 80: 770 h, más 25 h de Proyecto) y RD 659/2023 para 0179 (50 h), 1709, 1710 (50 h cada uno), 1665, 1708 (30 h cada uno) y el optativo (80 h, RD 500/2024). Las horas reales de impartición están en «horas_otras» con las claves «aragon» (Orden ECD/843/2024, anexo XVIII), «mefp» (Orden EFD/659/2024, anexo XXIV) y «loe» (plan LOE a extinguir de Aragón, Orden ECD/1162/2017, anexo VII, modalidad diurna).",
+  "El BOE no ofrece texto consolidado del RD 838/2015 (https://www.boe.es/buscar/doc.php?id=BOE-A-2015-10728 solo tiene «TEXTO ORIGINAL»): hay que combinar el texto original, el RD 1085/2020 (deroga el anexo IV) y el RD 500/2024 (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685: nuevos arts. 2, 10, 12 y 15, anexo I y nuevo anexo III de profesorado). Los arts. 6 (cualificaciones) y 16 y los anexos V A) y V B) siguen en su redacción original de 2015: no existe una redacción «vigente» distinta de la original.",
+  "Grupo del art. primero.Dos del RD 500/2024: este título es el número 64.º de la letra a), es decir, ciclos SIN módulo de inglés en su RD original; por eso 0179 Inglés Profesional (GS) es un módulo NUEVO (no un renombrado), con el currículo básico del anexo X del RD 659/2023 (50 h).",
+  "Módulos suprimidos y añadidos por el RD 500/2024 (art. cuarto.Uno y art. séptimo.Uno): suprimidos 1597 Formación y orientación laboral, 1596 Empresa e iniciativa emprendedora y 1598 Formación en centros de trabajo; renombrado 1595 Proyecto de electromedicina clínica → Proyecto intermodular de electromedicina clínica (mismo código); añadidos 0179 Inglés Profesional (GS), 1709, 1710, 1665, 1708 y el módulo profesional optativo (sin código estatal). Créditos ECTS actuales (anexo XCI): 1585=6, 1586=6, 1587=7, 1588=15, 1589=15, 1590=8, 1591=6, 1592=4, 1593=12, 1594=10, 0179=5, 1709=5, 1710=5, 1665=3, 1708=3, optativa=5 y proyecto intermodular=5 (suman 120). Originales de 2015: 6, 6, 7, 14, 14, 8, 6, 4, 10, 9, Proyecto 5, EIE 4, FOL 5 y FCT 22.",
+  "En grado superior no existen los módulos de tutoría A996/A997 (anexo XVIII de la Orden ECD/843/2024 y API de centros docentes de Aragón). La API de CATEDU no marca ningún módulo 1585-1595 como común con otros ciclos: los módulos específicos de este ciclo no se comparten por código con ningún otro ciclo (1665, 0179 y 1709 son comunes con muchos ciclos de grado superior; 1708 con ELE202-203 según la API).",
+  "Artículo 15 en la redacción del RD 500/2024: las convalidaciones se rigen por el art. 126 del RD 659/2023; entre formaciones del sistema y de regulaciones previas, por el art. 127; a este título (anterior al 5/03/2017) se le aplica el RD 1085/2020; las UC acreditadas convalidan por el art. 128 y las tablas de «correspondencia entre UC acreditadas y módulos»; si en una celda hay varias UC o varios módulos, hacen falta todos simultáneamente; ante discrepancias prevalece la codificación sobre la denominación; la exención del periodo de formación en empresa sigue el art. 131 del RD 659/2023 y este ciclo no está en la lista de Sanidad excluida (apdo. 8).",
+  "CONVALIDACIONES LOGSE→LOE hacia este título (anexo II del RD 1085/2020): CINCO filas: Desarrollo de Productos Electrónicos (RD 620/1995) «Electrónica analógica + Lógica digital y microprogramable» → 1587; Mantenimiento y Montaje de Instalaciones de Edificio y Proceso (RD 2044/1995) «Sistemas automáticos en las instalaciones» → 1586; Mantenimiento de equipo industrial (RD 2043/1995) «Montaje y mantenimiento de los sistemas eléctrico y electrónico» → 1585 y «Montaje y mantenimiento de los sistemas hidráulico y neumático» → 1586; Desarrollo de Proyectos de Instalaciones de Fluidos, Térmicas y de Manutención (RD 2042/1995) «Sistemas automáticos en las instalaciones» → 1586. Son exactamente las del anexo IV a) del RD 838/2015 (derogado) y las del anexo IV de la Orden ECD/1162/2017.",
+  "CONVALIDACIONES LOE→LOE hacia este título (anexo III del RD 1085/2020): SEIS filas: Sistemas Electrotécnicos y Automatizados (RD 1127/2010) 0524 + 0602 → 1585; Desarrollo de Proyectos de Instalaciones Térmicas y de Fluidos (RD 219/2008) 0122 + 0128 → 1585; Mantenimiento de Proyectos de Instalaciones Térmicas y de Fluidos (RD 219/2008) 0120 + 0122 → 1585; Automatización y Robótica Industrial (RD 1581/2011) 0959 → 1586; Mecatrónica Industrial (RD 1576/2011) 0936 → 1586; Mantenimiento Electrónico (RD 1578/2011) 1051 + 1052 → 1587. Son las del anexo IV b) del RD 838/2015 (derogado). Los módulos 1588, 1589, 1590, 1591, 1592, 1593, 1594 y el Proyecto 1595 no aparecen en ninguna tabla de los anexos I a IV.",
+  "SENTIDO INVERSO (este título como origen): comprobado en las 85 tablas del RD 1085/2020 (consolidado, XML del BOE actualizado el 15/04/2026): NINGUNA fila tiene como origen el ciclo Electromedicina Clínica ni sus módulos 1585-1598 (las 10 apariciones de «Electromedicina Clínica» en el texto son todas destinos). Por eso no hay filas de sentido inverso, salvo las transversales de FOL/EIE/Inglés que se aplican a los módulos de este ciclo cuando actúa como destino. Tampoco aparece el título en los anexos I y IV del RD 1085/2020.",
+  "Filas transversales (FOL, EIE, Inglés; anexos II y III del RD 1085/2020), copiadas de research/ele301.json y adaptadas: las de FOL llevan como destino tanto el módulo suprimido 1597 como el vigente 1709 y las de EIE 1596 y 1710, porque la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender toda convalidación de FOL como hecha también a 1709 y la de EIE a 1710. Las filas del bloque «Inglés» se aplican al 0179 de este ciclo, de nueva incorporación. Los orígenes genéricos se han escrito como «Ciclo formativo LOGSE/LOE (cualquiera)» (el generador descarta los que empiezan por «Cualquier ciclo formativo»). Comprobadas contra las tablas transversales de FOL, EIE e Inglés de los anexos II y III del RD 1085/2020.",
+  "El art. 3.5 del RD 1085/2020 establece que el Proyecto de los ciclos de grado superior NO puede ser objeto de convalidación ni de exención: 1595 nunca se convalida. El art. 3.4 impide convalidar la FCT (solo exención): 1598 ya no existe y el periodo de formación en empresa sí admite exención en este ciclo (art. 15.7-15.8 del RD 838/2015 según el RD 500/2024 y art. 49 del Decreto 91/2024 de Aragón).",
+  "MEFP (Orden EFD/659/2024, anexo XXIV): 1.º curso 1592 70 h, 1585 100, 1586 100, 1587 130, 1589 200, 1588 200, 1709 100, 1708 35 y 0179 70 (1005 h, 30 sesiones); 2.º curso 1591 130 h, 1590 190, 1594 190, 1593 220, 1710 100, 1665 35, optativa 80 y 1595 50 (995 h, 30 sesiones). Total 2000 h. La formación en empresa va incluida en los módulos (no hay fila de FCT). Bilingües: 1589, 1588, 1591, 1590, 1594 y 1593.",
+  "ARAGÓN, PLAN VIGENTE (Orden ECD/843/2024, anexo XVIII, código ELE305, 30 sesiones semanales en cada curso): 1.º curso 1585 (133 h), 1587 (167), 1588 (167), 1589 (233), 1592 (100), 1709 (100), 1665 (33) y 0179 (67); 2.º curso 1586 (100), 1590 (167), 1591 (133), 1593 (167), 1594 (167), 1595 (67), 1710 (67), 1708 (33) y el optativo (100). Coincide con la API de centros docentes de Aragón (solo devuelve horario DIURNO).",
+  "DISCREPANCIAS DE CURSO entre Aragón y el MEFP: 1586 Sistemas electromecánicos y de fluidos (2.º en Aragón, 1.º en el MEFP), 1665 Digitalización (1.º en Aragón, 2.º en el MEFP) y 1708 Sostenibilidad (2.º en Aragón, 1.º en el MEFP). El resto coincide de curso (1585, 1587, 1588, 1589, 1592, 1709 y 0179 en 1.º; 1590, 1591, 1593, 1594, 1595, 1710 y el optativo en 2.º).",
+  "PLAN LOE DE ARAGÓN (clave «loe» de «horas_otras»): Orden ECD/1162/2017, de 30 de junio (BOA núm. 156, de 16/08/2017), anexo VII, modalidad diurno, 30 h/semana en cada curso. 1.º curso: 1585 128 h (4 h/sem), 1587 160 (5), 1588 160 (5), 1589 224 (7), 1592 128 (4), A135 64 (2) y 1597 FOL 96 (3). 2.º curso: 1586 63 (3), 1590 105 (5), 1591 105 (5), 1593 126 (6), 1594 126 (6), A136 42 (2) y 1596 EIE 63 (3), más 1595 Proyecto 40 h y 1598 FCT 370 h sin horas semanales. Total 2000 h. Modalidad nocturna: 3 cursos (18+19+19 h/semana), no volcada.",
+  "Comparación plan LOE → plan adaptado en Aragón: desaparecen 1597 FOL (96 h), 1596 EIE (63 h), 1598 FCT (370 h), A135 (64 h) y A136 (42 h) y entran 1709, 1710, 1665, 1708, 0179 y el optativo; el Proyecto pasa de 40 a 67 h. Cambia el tamaño de varios módulos (p. ej., 1585 de 128 a 133 h, 1586 de 63 a 100 h, 1591 de 105 a 133 h, 1592 de 128 a 100 h, 1593 y 1594 de 126 a 167 h).",
+  "Transición en Aragón (Orden ECD/843/2024, DT 2.ª y DF 1.ª): en 2024/25 se implanta 1.º y en 2025/26 2.º curso; desde el 1/09/2026 todo el alumnado cursa la nueva ordenación, aplicando la tabla de equivalencias de la DT 2.ª.3 en sentido inverso (1709 ≡ FOL, 1710 ≡ EIE; la tercera fila, 0179 Inglés profesional (GS) ≡ 0179 Inglés, no tiene efecto en este ciclo porque su plan LOE no tenía 0179). En la modalidad virtual y semipresencial el plan a extinguir puede alargarse hasta el curso 2026/27 (DT 2.ª.7).",
+  "Módulos optativos en Aragón (art. 12.2 de la Orden ECD/843/2024 en la redacción del Decreto 107/2025, lista abierta y común a los ciclos de grado superior, módulo anual de 100 h en 2.º curso): AOP1004 Comunicación profesional en Inglés (GS) (anexo LXXIV; antes A170), AOP1002 Segunda lengua profesional Francés (anexo LXXV; antes A171), AOP1003 Ofimática avanzada aplicada al sector profesional (anexo LXXVI; antes A172) y módulos de diseño propio del centro.",
+  "Correspondencia UC-módulos (anexos V A) y V B) del RD 838/2015, ORIGINALES y VIGENTES a la vez; idénticos en el anexo V de la Orden de Aragón ECD/1162/2017): UC1271_3 + UC1273_3 (las dos juntas) → 1593 + 1594; UC1272_3 + UC1274_3 (las dos juntas) → 1588 + 1589 + 1590 + 1591. En sentido inverso: 1593 + 1594 juntos acreditan UC1271_3 y UC1273_3; 1588, 1589, 1590 y 1591 juntos acreditan UC1272_3 y UC1274_3. Los módulos 1585, 1586, 1587, 1592, 1595, 0179, 1709, 1710, 1665, 1708 y el optativo no tienen correspondencia con UC. Los anexos V A) y V B) no tienen notas al pie. La herramienta de CATEDU (comprobada el 30/09/2026 con tab1_competencias_acreditadas.php y tab2_modulos_superados.php) reproduce exactamente esas correspondencias; en ella solo aparecen los módulos 1588-1591, 1593 y 1594 como módulos con UC.",
+  "«equivalencias_uc» queda vacío: ninguna UC de este título está suprimida ni renombrada con cambio de código (RD 532/2025: en los anexos II-a y II-b no hay ninguna UC de este título; Orden EFD/374/2026 actualiza ECP1271_3 a ECP1274_3 con el mismo número y cambia solo su denominación: «Planificar y gestionar la instalación...» pasa a «Gestionar el montaje de equipos...», etc.; véase «uc_descripciones»). La cualificación ELE381_3 ha perdido su anexo en el RD 328/2008 (Orden EFD/374/2026, DF 1.ª.i)), pero el art. 6 del RD 838/2015 sigue citándola.",
+  "Decreto 91/2024 (Aragón), anexo VIII, según el Decreto 107/2025: apartado 3 (módulos con los mismos códigos, denominaciones o resultados de aprendizaje se consideran idénticos y se trasladan las calificaciones a solicitud del alumnado en la matrícula, sin convalidación) y apartado 6.14 (convalidación por acreditación de unidades de competencia de cualquier procedencia mediante las tablas V A) de los RD). Estas reglas ya están recogidas en el motor general."
+ ],
+ "no_verificado": [
+  "Aragón: el anexo XVIII de la Orden ECD/843/2024 se ha leído en el texto del BOA (csv BOA20240731004, https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf) y se ha contrastado con la API de CATEDU; no se ha cotejado con la corrección de errores de 26/02/2025 (que, según lo indicado, solo afecta a los anexos XXXVI, XL, XXIV y LXXI). Tampoco se ha leído la corrección de errores del Decreto 107/2025 ni se ha barrido el BOA posterior al 18/09/2025 en busca de otras modificaciones de la Orden ECD/843/2024.",
+  "Plan LOE de Aragón: las horas y el curso de los módulos salen del anexo VII de la Orden ECD/1162/2017 (BOA 16/08/2017, https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=976012824141&type=pdf), leído con el texto extraído del PDF. El curso de 1595 Proyecto (40 h) y de 1598 FCT (370 h) es una DEDUCCIÓN (figuran sin horas semanales; se asignan a 2.º porque la suma de cada curso ya da 30 h/semana). La tabla de horario nocturno (3 cursos, 18+19+19 h/semana) no se ha volcado. No se ha buscado ninguna modificación de la Orden ECD/1162/2017 anterior a su derogación.",
+  "La lectura de los cursos del MEFP (Orden EFD/659/2024, anexo XXIV, https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181) se hace sobre el texto del BOE, donde las celdas vacías de las columnas 1.º y 2.º no se distinguen; se ha comprobado que cada curso suma 30 sesiones (2+3+3+4+6+6+3+1+2 y 4+6+6+7+3+1+2+1) y las horas (1005 + 995). No se ha revisado visualmente la tabla del BOE. La columna «Bilingüe» sí se ha transcrito en las notas, pero no al JSON de módulos. La denominación exacta del módulo 1595 en esa tabla es «Proyecto Intermodular» (sin el resto del nombre).",
+  "RD 1085/2020, anexos II y III: no se han revisado las correcciones de errores del RD 1085/2020 (research/ifc301.json cita BOE-A-2021-979 y BOE-A-2021-10416 como ya integradas en el consolidado; no comprobado aquí). Las filas se han leído del XML de BOE-A-2020-17274 (https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274). La numeración y el orden de los bloques del anexo II/III pueden diferir de la página web del BOE.",
+  "Fila de Automatización y Robótica Industrial → 1586: el RD 1085/2020 escribe el código 0959; el RD 838/2015 y la Orden ECD/1162/2017 escriben 0559 («Sistemas Eléctricos, neumáticos e Hidraúlicos»). Se ha registrado el código 0959 del RD 1085/2020 (vigente); no se ha abierto el RD 1581/2011 para verificar el código del módulo (0959 es coherente con la numeración 0959-0968 de los módulos de Automatización y Robótica Industrial que aparecen en las tablas del RD 1085/2020).",
+  "No se han revisado todos los RD de títulos posteriores al 5/03/2017 en busca de filas de su anexo IV que citen los módulos 1585-1595 o este ciclo (la DA 5.ª del RD 1085/2020 las extendería a cualquier ciclo). No se han abierto, entre otros, los RD 113/2017, 114/2017, 268/2017, 651/2017, 652/2017, 653/2017, 283/2019, 699/2019, 174/2021 ni los de aeronáutica de 2018.",
+  "Cualificaciones: se han leído el anexo CCCLXXXI del RD 328/2008 (texto de la versión del XML del BOE), los arts. 5 y DF 1.ª de la Orden EFD/374/2026, sus anexos XV a XVIII (denominación de las ECP) y el anexo I del RD 532/2025; no se ha leído la Orden PRA/1880/2016 (modificación previa del anexo CCCLXXXI) ni se ha comprobado si tras la supresión de su anexo la cualificación ELE381_3 sigue vigente en el Catálogo (el art. 6 del RD 838/2015 no se ha modificado). No se han consultado los certificados de profesionalidad asociados (SEPE).",
+  "Módulos optativos de diseño propio: en el texto extraído de la Resolución de 6 de junio de 2025 (https://educa.aragon.es/documents/20126/5514380/CSV511IT4T1J71T0XFIL+RESOLUCI%C3%93N+M%C3%93DULOS+OPTATIVOS+FP+ARAG%C3%93N.pdf; columnas mezcladas) no figura ELE305; no se ha localizado su publicación oficial ni una resolución posterior que amplíe el catálogo para el curso 2026/2027.",
+  "El RD 500/2024 anexo LXV (nuevo anexo III de profesorado) y los anexos II (espacios) y III A)/B)/C) del RD 838/2015 no se han revisado en lo relativo a especialidades docentes, espacios o equipamientos (solo los espacios del anexo XVIII de la Orden ECD/843/2024). Tampoco los del anexo XXIV de la Orden EFD/659/2024.",
+  "todofp.es (https://www.todofp.es/que-estudiar/familias-profesionales/electricidad-electronica.html) no se ha usado como fuente de tablas de convalidación; no las publica."
+ ]
+}
