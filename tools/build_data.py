@@ -6,11 +6,17 @@ Los .js asignan window.CICLOS[id] para que la web funcione abriendo index.html
 directamente (file://), sin servidor.
 """
 import json
+import os
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "ciclos"
+
+# Modo de comprobación de una sola ficha (tools/probar_ficha.sh): no toca data/ ni los índices
+SOLO = os.environ.get("CONVALIDA_SOLO")
+if SOLO:
+    OUT = Path(os.environ["CONVALIDA_OUT"])
 
 # Clave de módulo común -> usada por las reglas generales (data/normativa.js)
 COMUNES = {
@@ -123,8 +129,14 @@ def split_convalidaciones(d, codigos_ciclo, plan):
     return anteriores, list(uni.values())
 
 
+CONSTRUIDOS = {}  # fichero de research -> (id, código, datos del ciclo)
+
+
 def build(id_, fichero, cfg):
+    if SOLO and fichero != SOLO:
+        return
     d = json.loads((ROOT / "research" / fichero).read_text())
+    CONSTRUIDOS[fichero] = (id_, d["ciclo"]["codigo"].split()[0].upper(), d["ciclo"])
     mods = modulos(d, cfg)
     cods = {m["codigo"] for m in mods}
     anteriores, loe = split_convalidaciones(d, cods, cfg.get("plan", "LOE"))
@@ -615,6 +627,59 @@ build("tcae", "tcae.json", {
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
 })
 
+
+def build_resto():
+    """Construye los ciclos de research/ que no tienen una llamada build() propia.
+
+    Usan la configuración por defecto; las equivalencias de UC van en el propio
+    JSON ("equivalencias_motor" y "equivalencias_conjuntas_motor").
+    """
+    aparte = {"catalogo-aragon.json", "competencias-catedu.json", "certificados.json"}
+    for f in sorted((ROOT / "research").glob("*.json")):
+        if f.name in aparte or f.name in CONSTRUIDOS:
+            continue
+        d = json.loads(f.read_text())
+        if not isinstance(d, dict) or "ciclo" not in d or "modulos" not in d:
+            continue
+        build(d["ciclo"]["codigo"].split()[0].lower(), f.name, {
+            "loe": lambda m: horas_ambito(m, ["loe"]),
+            "aragon": lambda m: horas_ambito(m, ["aragon"]),
+            "mefp": lambda m: horas_ambito(m, ["mefp"]),
+            "equivalencias": d.get("equivalencias_motor", {}),
+            "equivalencias_conjuntas": d.get("equivalencias_conjuntas_motor", []),
+        })
+
+
+def actualizar_indices():
+    """Añade a index.html y al README los ciclos construidos que aún no figuran."""
+    idx = ROOT / "index.html"
+    html = idx.read_text()
+    nuevos = [i for i, _, _ in CONSTRUIDOS.values() if f'data/ciclos/{i}.js' not in html]
+    if nuevos:
+        marca = '  <script src="data/catalogo.js"></script>'
+        html = html.replace(marca, "".join(f'  <script src="data/ciclos/{i}.js"></script>\n' for i in nuevos) + marca, 1)
+        idx.write_text(html)
+    readme = ROOT / "README.md"
+    txt = readme.read_text()
+    filas = []
+    for _, cod, c in CONSTRUIDOS.values():
+        if f"| {cod} |" in txt:
+            continue
+        nombre = re.sub(r"^(T[eé]cnico|Profesional)( B[aá]sico| Superior)? en ", "", c["nombre"])
+        filas.append(f"| {nombre} | {cod} | {c['grado'].capitalize().replace('Basico', 'Básico')} | LO 3/2022 |\n")
+    if filas:
+        lineas = txt.split("\n")
+        ultimo = max(i for i, l in enumerate(lineas) if l.startswith("| ") and "| LO" in l or "| LOGSE |" in l)
+        lineas[ultimo + 1:ultimo + 1] = [f.rstrip("\n") for f in filas]
+        readme.write_text("\n".join(lineas))
+    if nuevos or filas:
+        print(f"índices: {len(nuevos)} ciclos añadidos a index.html, {len(filas)} al README")
+
+
+build_resto()
+if SOLO:
+    raise SystemExit(0 if SOLO in CONSTRUIDOS else f"{SOLO}: no es una ficha de ciclo válida")
+actualizar_indices()
 build_certificados()
 
 
@@ -663,7 +728,7 @@ def build_catalogo(ya_cargados):
     """
     d = json.loads((ROOT / "research" / "catalogo-aragon.json").read_text())
     familias = {f["codigo"]: f["nombre"] for f in d["familias"]}
-    fuera = {c.upper() for c in ya_cargados}
+    fuera = {c.upper() for c in ya_cargados} | {cod for _, cod, _ in CONSTRUIDOS.values()}
     ciclos = {}
     for c in d["ciclos"]:
         if c["codigo"].upper() in fuera:

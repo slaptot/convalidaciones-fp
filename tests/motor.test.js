@@ -688,3 +688,29 @@ assert.notEqual(est('ifc301', exp6).FE, 'exento');
 r = est('CESIFC02', [{ tipo: 'universidad', titulacion: 'Grado en Ingeniería Informática', asignaturas: '', docs: [] }]);
 assert.ok(Object.values(r).every((e) => e !== 'ministerio'));
 console.log('OK: cursos de especialización');
+
+// Pruebas que acompañan a cada ficha de research/ (clave "pruebas"): las escribe quien investiga el ciclo
+const fs = require('fs');
+const path = require('path');
+for (const f of fs.readdirSync(path.join(__dirname, '../data/ciclos'))) require(`../data/ciclos/${f}`);
+let nPruebas = 0;
+for (const f of fs.readdirSync(path.join(__dirname, '../research')).filter((x) => x.endsWith('.json'))) {
+  const d = JSON.parse(fs.readFileSync(path.join(__dirname, '../research', f), 'utf8'));
+  if (!d.ciclo || !Array.isArray(d.pruebas)) continue;
+  const id = Object.keys(CICLOS).find((k) => CICLOS[k].ciclo.codigo === d.ciclo.codigo && !CICLOS[k].ciclo.parcial);
+  assert.ok(id, `${f}: ciclo no construido`);
+  for (const p of d.pruebas) {
+    const res = est(id, p.aporta, p.plan || 'aragon');
+    for (const [m, e] of Object.entries(p.espera || {})) assert.equal(res[m], e, `${f}: ${p.descripcion} (${m})`);
+    for (const [m, e] of Object.entries(p.no_espera || {})) assert.notEqual(res[m], e, `${f}: ${p.descripcion} (${m} no debe ser ${e})`);
+    nPruebas++;
+  }
+}
+// Ningún ciclo construido puede tener filas hacia módulos que no existen
+for (const [id, c] of Object.entries(CICLOS)) {
+  const cods = new Set(c.modulos.map((m) => m.codigo));
+  for (const fila of [...c.convalidaciones_titulos_anteriores, ...c.convalidaciones_loe]) {
+    fila.destino_modulos.forEach((m) => assert.ok(cods.has(m), `${id}: destino ${m} inexistente`));
+  }
+}
+console.log(`OK: ${nPruebas} pruebas de las fichas de research`);

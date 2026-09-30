@@ -60,6 +60,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Guía en el Medio Natural y de Tiempo Libre | AFD201 | Medio | LO 3/2022 |
 | Enseñanza y Animación Sociodeportiva | AFD301 | Superior | LO 3/2022 |
 | Acondicionamiento Físico | AFD302 | Superior | LO 3/2022 |
+| Peluquería y Estética | FPB108 | Básico | LO 3/2022 |
 
 Además, el **catálogo completo de Aragón** (150 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas. De ellos, **139 tienen ya la correspondencia módulo ↔ estándar de competencia** descargada de esa misma herramienta (2.930 filas), así que convalidan por unidades de competencia acreditadas; lo que les falta es el anexo de convalidaciones con títulos anteriores, que hay que leer del BOE. La web lo avisa en pantalla, porque esas correspondencias no están contrastadas con el anexo V de cada real decreto.
 

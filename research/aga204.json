@@ -1297,5 +1297,25 @@
     "fuente": "RD 1129/2010 anexo IV (texto original de 2010), fila «Formación en centro de trabajo del título de Técnico en Jardinería → 0584. Formación en centros de trabajo». Anexo DEROGADO por el RD 1085/2020, cuyo anexo II no reproduce la fila. Se recoge solo por trazabilidad: NO se aplica."
    }
   ]
- }
+ },
+ "pruebas": [
+  {
+   "descripcion": "Métodos de control fitosanitario (Jardinería LOGSE) da 0409 y 0479",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Jardinería",
+     "modulo": "Métodos de control fitosanitario",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0409": "convalidable",
+    "0479": "convalidable"
+   },
+   "no_espera": {
+    "0576": "convalidable"
+   }
+  }
+ ]
 }
