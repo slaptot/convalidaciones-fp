@@ -500,6 +500,14 @@ r = est('ele203', [{ tipo: 'titulo', titulo: 'Técnico en Sistemas Microinformá
 assert.equal(r['0360'], 'convalidable'); assert.equal(r['0361'], 'convalidable');
 console.log('OK: Instalaciones de Telecomunicaciones');
 
+// Mantenimiento Electrónico: filas LOGSE de entrada y, como título completo, convalida en cuatro ciclos cargados
+require('../data/ciclos/ele301.js');
+assert.equal(est('ele301', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Desarrollo de Productos Electrónicos', modulo: 'Electrónica analógica', docs: [] }])['1051'], 'convalidable');
+const tsme = [{ tipo: 'titulo', titulo: 'Técnico Superior en Mantenimiento Electrónico', ciclo: 'ele301', docs: [] }];
+r = est('ele202', tsme); assert.equal(r['0233'], 'convalidable'); assert.equal(r['0234'], 'convalidable');
+r = est('ele203', tsme); assert.equal(r['0359'], 'convalidable'); assert.equal(r['0360'], 'convalidable');
+console.log('OK: Mantenimiento Electrónico');
+
 // Plan LOE a extinguir: FOL y EIE de cualquier título se reconocen por su nombre
 for (const [c, fol, eie] of [['hot203', '0157', '0158'], ['ele202', '0241', '0242'], ['ifc301', '0380', '0381']]) {
   const mods = Object.fromEntries(CICLOS[c].modulos.map((m) => [m.codigo, m.comun]));
