@@ -526,6 +526,16 @@ r = est('ele303', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Sistema
 assert.equal(r['0959'], 'convalidable'); assert.equal(r['0960'], 'convalidable');
 console.log('OK: Automatización y Robótica Industrial');
 
+// Sistemas de Telecomunicaciones e Informáticos: ASIR completo da 0552; 0525 + 0553 dan 0517 en ELE302
+require('../data/ciclos/ele304.js');
+assert.equal(est('ele304', [{ tipo: 'titulo', titulo: 'Técnico Superior en Administración de Sistemas Informáticos en Red', ciclo: 'ifc301', docs: [] }])['0552'], 'convalidable');
+const stei = (cods) => cods.map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Sistemas de Telecomunicaciones e Informáticos', docs: [] }));
+assert.notEqual(est('ele302', stei(['0525']))['0517'], 'convalidable');
+assert.equal(est('ele302', stei(['0525', '0553']))['0517'], 'convalidable');
+r = est('ele304', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Sistemas de Telecomunicación e Informáticos', modulo: 'Desarrollo de sistemas de telecomunicación e informática', docs: [] }]);
+assert.equal(r['0525'], 'convalidable'); assert.equal(r['0553'], 'convalidable');
+console.log('OK: Sistemas de Telecomunicaciones e Informáticos');
+
 // Plan LOE a extinguir: FOL y EIE de cualquier título se reconocen por su nombre
 for (const [c, fol, eie] of [['hot203', '0157', '0158'], ['ele202', '0241', '0242'], ['ifc301', '0380', '0381']]) {
   const mods = Object.fromEntries(CICLOS[c].modulos.map((m) => [m.codigo, m.comun]));
