@@ -422,6 +422,25 @@ assert.equal(est('afd302', [{ tipo: 'modulo_loe', codigo: '1124', nombre: 'Dinam
 assert.equal(est('ssc301', [{ tipo: 'modulo_loe', codigo: '1136', nombre: 'Valoración de la condición física e intervención en accidentes', titulo: 'TS Acondicionamiento Físico', docs: [] }])['0020'], 'convalidable');
 console.log('OK: Acondicionamiento Físico');
 
+// Guía en el Medio Natural: 0211 de APSD y 0017 convalidan 1328; una celda LOGSE da dos módulos
+require('../data/ciclos/afd201.js');
+assert.equal(est('afd201', [{ tipo: 'modulo_loe', codigo: '0211', nombre: 'Destrezas sociales', titulo: 'Técnico en Atención a Personas en Situación de Dependencia', docs: [] }])['1328'], 'convalidable');
+assert.equal(est('afd201', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habilidades sociales', titulo: 'TS Acondicionamiento Físico', docs: [] }])['1328'], 'convalidable');
+r = est('afd201', [{ tipo: 'modulo_logse', titulo: 'Técnico en Conducción de Actividades Físico-Deportivas en el Medio Natural', modulo: 'Desplazamiento, estancia y seguridad en el medio natural terrestre', docs: [] }]);
+assert.equal(r['1329'], 'convalidable'); assert.equal(r['1333'], 'convalidable');
+console.log('OK: Guía en el Medio Natural y de Tiempo Libre');
+
+// Enseñanza y Animación Sociodeportiva: 1123 y 1124 comunes con Termalismo, 1136 con Acondicionamiento Físico
+require('../data/ciclos/afd301.js');
+r = est('afd301', [
+  ...['1123', '1124'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Termalismo y bienestar', docs: [] })),
+  { tipo: 'modulo_loe', codigo: '1136', nombre: 'x', titulo: 'TS Acondicionamiento Físico', docs: [] },
+]);
+['1123', '1124', '1136'].forEach((c) => assert.equal(r[c], 'superado', c));
+assert.equal(est('afd301', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habilidades sociales', titulo: 'TS Integración Social', docs: [] }])['1124'], 'convalidable');
+assert.equal(est('afd201', [{ tipo: 'modulo_loe', codigo: '1124', nombre: 'Dinamización grupal', titulo: 'TS Enseñanza y Animación Sociodeportiva', docs: [] }])['1328'], 'convalidable');
+console.log('OK: Enseñanza y Animación Sociodeportiva');
+
 // Cursos de especialización (Grado E): sin formación en empresa salvo Nube, seis meses y sin universidad
 require('../data/catalogo.js');
 const exp6 = [{ tipo: 'experiencia', meses: 6, relacionada: true, docs: [] }];
