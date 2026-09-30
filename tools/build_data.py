@@ -539,6 +539,12 @@ build("hot305", "hot305.json", {
     ],
 })
 
+build("aga202", "aga202.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+})
+
 build("ssc305", "ssc305.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -688,4 +694,4 @@ def build_catalogo(ya_cargados):
 
 
 build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108", "FPB128",
-                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201", "HOT203", "ELE203", "ELE301", "ELE302", "ELE303", "ELE304", "HOT301", "ELE305", "HOT303", "HOT302", "AGA201", "HOT304", "FPB125", "FPB126", "HOT305"])
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201", "HOT203", "ELE203", "ELE301", "ELE302", "ELE303", "ELE304", "HOT301", "ELE305", "HOT303", "HOT302", "AGA201", "HOT304", "FPB125", "FPB126", "HOT305", "AGA202"])

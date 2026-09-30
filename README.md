@@ -53,6 +53,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Sistemas de Telecomunicaciones e Informáticos | ELE304 | Superior | LO 3/2022 |
 | Electromedicina Clínica | ELE305 | Superior | LO 3/2022 |
 | Producción Agropecuaria | AGA201 | Medio | LO 3/2022 |
+| Producción Agroecológica | AGA202 | Medio | LO 3/2022 |
 | Acceso y Conservación en Instalaciones Deportivas | FPB127 | Básico | LO 3/2022 |
 | Guía en el Medio Natural y de Tiempo Libre | AFD201 | Medio | LO 3/2022 |
 | Enseñanza y Animación Sociodeportiva | AFD301 | Superior | LO 3/2022 |

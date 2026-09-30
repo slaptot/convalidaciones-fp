@@ -630,6 +630,15 @@ assert.equal(est('hot305', ucs(['UC1058_3', 'UC1059_3', 'UC1060_3', 'UC1061_3', 
 assert.notEqual(est('hot305', ucs(['UC0711_2', 'UC1100_3']))['0501'], 'convalidable');
 console.log('OK: Dirección de Cocina');
 
+// Producción Agroecológica: comunes con Producción Agropecuaria; ciclos completos que convalidan
+require('../data/ciclos/aga202.js');
+r = est('aga202', ['0404', '0405', '0407', '0408', '0409'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'Técnico en Producción Agropecuaria', docs: [] })));
+['0404', '0405', '0407', '0408', '0409'].forEach((c) => assert.equal(r[c], 'superado', c));
+assert.equal(est('aga202', [{ tipo: 'modulo_logse', titulo: 'Técnico en Explotaciones Agrarias Extensivas', modulo: 'Agrotecnología', docs: [] }])['0404'], 'convalidable');
+assert.equal(est('aga202', [{ tipo: 'titulo', titulo: 'Técnico en Electromecánica de Maquinaria', docs: [] }])['0407'], 'convalidable');
+assert.equal(est('aga201', [{ tipo: 'titulo', titulo: 'Técnico en Electromecánica de Maquinaria', docs: [] }])['0407'], 'convalidable');
+console.log('OK: Producción Agroecológica');
+
 // La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
 for (const [id, c] of Object.entries(CICLOS)) {
   const emp = c.modulos.filter((m) => m.tipo === 'empresa').map((m) => m.codigo);

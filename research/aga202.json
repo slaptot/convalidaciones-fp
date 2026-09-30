@@ -1,0 +1,1225 @@
+{
+ "ciclo": {
+  "codigo": "AGA202",
+  "nombre": "Técnico en Producción Agroecológica",
+  "grado": "medio",
+  "familia": "Agraria",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 1633/2009, de 30 de octubre",
+    "boe": "BOE-A-2009-18476",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-18476",
+    "nota": "Establece el título de Técnico en Producción Agroecológica (BOE núm. 280, de 20/11/2009, págs. 98520-98582). Duración 2.000 h; enseñanzas mínimas 1.100 h. Familia Agraria. Texto consolidado del BOE consultado: última actualización 28/05/2024 (RD 499/2024). Es un título NUEVO: no sustituye a un único título LOGSE ni deroga ninguno (disp. derogatoria única genérica); su anexo IV original convalidaba desde tres títulos LOGSE (Explotaciones Agrarias Extensivas, Explotaciones Agrícolas Intensivas y Explotaciones Ganaderas) y fue derogado por el RD 1085/2020 (disp. derogatoria única.2). El RD 499/2024 modifica los arts. 2, 10, 12 y 15 y los anexos I y III; NO modifica el art. 6 (cualificaciones) ni los anexos V A) y V B), que siguen en su redacción de 2009. El art. 14 (convalidaciones, remite al anexo IV) tampoco fue modificado; el art. 15 vigente (RD 499/2024, art. sexto) es el que regula hoy las convalidaciones. DA 3.ª: el módulo de FOL capacita para el nivel básico de prevención de riesgos laborales (hoy referido a 1709 por la DA 2.ª del RD 499/2024)."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Su disp. derogatoria única.2 deroga el anexo IV (convalidaciones LOGSE→LOE) del RD 1633/2009. Las convalidaciones LOGSE→LOE de este título pasan a su anexo II (tabla «Agraria», grado medio: cinco bloques con destino «Técnico en Producción Agroecológica») y las LOE→LOE a su anexo III (tabla «Agraria», grado medio: dos bloques). El anexo IV no contiene nada de este título. Texto consolidado consultado: última actualización 07/04/2026 (RD 262/2026). DA 5.ª: las convalidaciones de los anexos se aplican a los módulos incluidos en cualquier ciclo formativo, con independencia del título al que pertenezcan (relevante aquí porque 0404, 0405, 0407, 0408 y 0409 son comunes a otros títulos de Agraria). DA 6.ª (añadida por el RD 500/2024): una convalidación cuyo destino sea FOL se entiende hecha también a 1709 (IPE I), y una cuyo destino sea EIE, a 1710 (IPE II). Art. 2.2: quedan excluidas las convalidaciones entre módulos de FP Básica."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709 y 1710 (anexo V, 50 h cada uno), 1664 (anexo VI, 30 h), 1708 (anexo VIII, 30 h) y 0156 (anexo IX, 50 h); anexo IV: módulo optativo de 80 h. Arts. 126-128 y 131: reglas de convalidación y exención. Art. 126.3: se convalidan entre ciclos del mismo grado Inglés Profesional y, si son de la misma familia profesional, Digitalización (1664) y Sostenibilidad (1708); art. 126.4: no son convalidables la formación en empresa, el Proyecto intermodular ni 0156/1664 entre grado medio y superior. Art. 127.a): módulos de distintos grados B, C, D y E se convalidan resolviendo el centro, sin tabla."
+   },
+   {
+    "ref": "RD 499/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10684",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
+    "nota": "Adapta los títulos de grado medio a la LO 3/2022. Este título figura en el grupo del art. primero.Dos.a) (ciclos SIN módulo de inglés previo), lugar 14.º de la lista (RD 1633/2009). En el RD 1633/2009 modifica los arts. 2, 10, 12 y 15 y los anexos I y III (así lo recoge también el «Análisis» del BOE). Suprime 0414 (FOL), 0415 (EIE) y 0416 (FCT) (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a)) y añade 0156, 1709, 1710, 1664, 1708, 1713 y un módulo optativo de 80 h (art. cuarto.Uno.c).2.º y e)). Asigna el nivel 4A del MECU (art. segundo). El art. tercero (cualificaciones y anexos V A) y V B)) NO menciona el RD 1633/2009: el art. 6 y los anexos V A) y V B) de este título NO se sustituyen. Art. octavo.Catorce y anexo XVI: nuevo anexo III (profesorado), que suprime los anexos III A), III B) y III C). Disp. transitoria única: primer curso implantado en 2024-25. DA 2.ª: las referencias de la DA 3.ª a FOL se entienden hechas a 1709."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Homólogo del RD 499/2024 para grado superior. Su disp. final 1.ª.2 añade la DA 6.ª al RD 1085/2020 (FOL→IPE I, EIE→IPE II), que sí afecta a este título."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra las UC del CNCP como Estándares de Competencia Profesional (ECP). Anexo I (catálogo UC→ECP, familia Agraria): las nueve UC del título conservan el número y solo cambia el prefijo (UC0716_2→ECP0716_2, UC0717_2→ECP0717_2, UC0718_2→ECP0718_2, UC0723_2→ECP0723_2, UC0724_2→ECP0724_2, UC0725_2→ECP0725_2, UC0726_2→ECP0726_2, UC0526_2→ECP0526_2, UC0006_2→ECP0006_2). Ninguna figura como suprimida en el anexo II."
+   },
+   {
+    "ref": "RD 665/2007, de 25 de mayo",
+    "boe": "BOE-A-2007-11588",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2007-11588",
+    "nota": "BOE núm. 141, de 13/06/2007 (págs. 25532-25609). Establece las cualificaciones AGA225_2 «Agricultura ecológica» (anexo CCXXV; formación asociada 600 h) y AGA227_2 «Ganadería ecológica» (anexo CCXXVII; formación asociada 600 h). Según el «Análisis» del BOE, el anexo CCXXV fue modificado por la Orden PRA/1882/2016 y la Orden PCI/693/2019; el anexo CCXXVII no tiene modificaciones registradas."
+   },
+   {
+    "ref": "Orden PRA/1882/2016, de 9 de diciembre",
+    "boe": "BOE-A-2016-11872",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2016-11872",
+    "nota": "BOE núm. 302, de 15/12/2016. Su art. 3 modifica parcialmente AGA225_2: sustituye UC0526_2/MF0526_2 (120 h) por la versión actualizada de la cualificación AGA165_2 «Cultivos herbáceos» (mismo código y denominación)."
+   },
+   {
+    "ref": "Orden PCI/693/2019, de 18 de junio",
+    "boe": "BOE-A-2019-9550",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2019-9550",
+    "nota": "BOE núm. 152, de 26/06/2019. Su anexo II da nueva redacción al anexo CCXXV (AGA225_2 «Agricultura ecológica»): mismas cuatro UC (UC0716_2, UC0717_2, UC0526_2, UC0718_2), con los mismos códigos y denominaciones; formación asociada 600 h (MF0716_2 150 h, MF0717_2 180 h, MF0526_2 120 h, MF0718_2 150 h)."
+   },
+   {
+    "ref": "RD 1715/1996, de 12 de julio",
+    "boe": "BOE-A-1996-20602",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-20602",
+    "nota": "Título LOGSE de Técnico en Explotaciones Agrarias Extensivas. Módulos comprobados en su texto: 1 Organización y gestión de una explotación agraria familiar, 2 Instalaciones agrarias, 6 Métodos de control fitosanitario, 7 Manejo racional del ganado, 8 Producción ganadera ligada a la tierra, 9 Agrotecnología (transversal)."
+   },
+   {
+    "ref": "RD 1716/1996, de 12 de julio",
+    "boe": "BOE-A-1996-20637",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-20637",
+    "nota": "Título LOGSE de Técnico en Explotaciones Agrícolas Intensivas. Módulos comprobados: 1 Organización y gestión de una explotación familiar agraria, 2 Instalaciones agrarias, 7 Métodos de control fitosanitario, 8 Agrotecnología (transversal)."
+   },
+   {
+    "ref": "RD 1717/1996, de 12 de julio",
+    "boe": "BOE-A-1996-21022",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-21022",
+    "nota": "Título LOGSE de Técnico en Explotaciones Ganaderas. Módulos comprobados: 1 Organización y gestión de una explotación agraria familiar, 2 Instalaciones agrarias, 4 Producción ganadera intensiva, 5 Manejo racional del ganado, 9 Agrotecnología (transversal)."
+   },
+   {
+    "ref": "Orden EDU/376/2010, de 20 de enero",
+    "boe": "BOE-A-2010-2974",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-2974",
+    "nota": "Currículo LOE del ciclo en el ámbito de gestión del Ministerio (BOE núm. 48, de 24/02/2010, págs. 17767-17797). Anexo con la distribución horaria por cursos. Derogada por la Orden EFD/657/2024 (disp. derogatoria única, letra c).4.º)."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo vigente del ámbito MEFP (BOE núm. 158, de 01/07/2024, págs. 75089-75282). Este ciclo está en el anexo XII (art. 6.3.f)), págs. 75141-75143: 2.000 h; 1.º con 30 h/semana y 955 h, 2.º con 31 h/semana y 1.045 h. Art. 6.1: 2.000 h incluida la formación en empresa. Art. 12: el optativo son 80 h anuales o dos cuatrimestrales de 40 h."
+   },
+   {
+    "ref": "Orden de 8 de mayo de 2014, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=795607284646",
+    "nota": "Currículo LOE del ciclo en Aragón (BOA núm. 108, de 05/06/2014, págs. 17853-17913, csv BOA20140605004). Da la duración de cada módulo en el anexo I (no trae tabla de distribución por cursos; su anexo VI solo fija los módulos necesarios para promoción). Copia en sus anexos IV, V A) y V B) el contenido del RD 1633/2009. Derogada por la disp. derogatoria única, letra c).3 de la Orden ECD/842/2024."
+   },
+   {
+    "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+    "nota": "Currículo vigente de Aragón para los ciclos de grado medio (BOA núm. 148, de 31/07/2024, csv BOA20240731003). Este ciclo, con el código AGA202, está en el anexo V, págs. 21807-21809 (art. 1.2.c).3.º y art. 5.3.e)). El anexo solo contiene distribución horaria (solo diurno), espacios y equipamientos. Art. 11 y 12: módulos optativos y sus convalidaciones (redacción actual: Decreto 107/2025). Disp. adicional única: un módulo LOE con el mismo código se reconoce automáticamente en la nueva ordenación. Disp. transitoria segunda: la tabla FOL→1709 y EIE→1710 se aplicó al alumnado de la ordenación a extinguir; desde el 01/09/2026 hay que cursar todo el plan nuevo."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025 (csv BOA20250918002). Su art. segundo modifica los arts. 11, 12 y 15 y los títulos de los anexos XLVII-XLIX de la Orden ECD/842/2024: los módulos optativos de oferta común pasan de A173/A171/A172 a AOP1001 (Comunicación profesional en Inglés GM), AOP1002 (Segunda lengua profesional Francés) y AOP1003 (Ofimática avanzada aplicada al sector profesional). No toca la tabla horaria de este ciclo. Su error material (art. 56.6.c y anexo X del Decreto 91/2024, y una DA) se corrigió por la Orden ECD/36/2026 (BOA núm. 11, de 19/01/2026); esa corrección no afecta a este ciclo."
+   },
+   {
+    "ref": "Resolución de 6 de junio de 2025, del Director General de Planificación, Centros y Formación Profesional (Aragón)",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/5514380/CSV511IT4T1J71T0XFIL+RESOLUCI%C3%93N+M%C3%93DULOS+OPTATIVOS+FP+ARAG%C3%93N.pdf",
+    "nota": "Autoriza módulos optativos de diseño propio, con implantación en 2025/2026. Para AGA202 autoriza AOP1006 «Producción ecológica de especies vegetales autóctonas de Aragón» (especialidad Procesos de Producción Agraria)."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0404",
+   "nombre": "Fundamentos agronómicos",
+   "horas": 100,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 224,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0405",
+   "nombre": "Fundamentos zootécnicos",
+   "horas": 80,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 150,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 160,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0406",
+   "nombre": "Implantación de cultivos ecológicos",
+   "horas": 85,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 120,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 224,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0407",
+   "nombre": "Taller y equipos de tracción",
+   "horas": 85,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 120,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 160,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0408",
+   "nombre": "Infraestructuras e instalaciones agrícolas",
+   "horas": 60,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 84,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0409",
+   "nombre": "Principios de sanidad vegetal",
+   "horas": 60,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0410",
+   "nombre": "Producción vegetal ecológica",
+   "horas": 110,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 260,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 168,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0411",
+   "nombre": "Producción ganadera ecológica",
+   "horas": 110,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 260,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 147,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0412",
+   "nombre": "Manejo sanitario del agrosistema",
+   "horas": 70,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 105,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0413",
+   "nombre": "Comercialización de productos agroecológicos",
+   "horas": 35,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0156",
+   "nombre": "Inglés Profesional (GM)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo IX (currículo básico) — módulo añadido a este título por el RD 499/2024 (art. primero.Dos.a: ciclos que no tenían módulo de inglés)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1664",
+   "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VI (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1713",
+   "nombre": "Proyecto intermodular",
+   "horas": 50,
+   "horas_fuente": "RD 499/2024 anexo II (currículo básico del proyecto intermodular, 50 h; el art. séptimo lo cita como «anexo I»)",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 499/2024 art. cuarto.Uno.e) (nuevo art. 10.3 del RD 1633/2009) y RD 659/2023 anexo IV",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "A997",
+   "nombre": "Tutoría I (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 anexo V (no hay currículo básico estatal)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "A996",
+   "nombre": "Tutoría II (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 anexo V (no hay currículo básico estatal)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0414",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0415",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  },
+  {
+   "codigo": "0416",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 1633/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 410,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI (módulos necesarios para promoción)"
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico en Jardinería (LOGSE, RD 1714/1996, de 12 de julio)",
+   "origen_modulo": "Agrotecnología",
+   "destino_modulos": [
+    "0404"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico en Jardinería (RD 1714/1996, de 12 de julio) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Agrotecnología → 0404. Fundamentos Agronómicos». Bloque NUEVO del RD 1085/2020: este título LOGSE no figuraba en el anexo IV original del RD 1633/2009."
+  },
+  {
+   "origen_titulo": "Técnico en Jardinería (LOGSE, RD 1714/1996, de 12 de julio)",
+   "origen_modulo": "Instalaciones agrarias",
+   "destino_modulos": [
+    "0408"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico en Jardinería (RD 1714/1996, de 12 de julio) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Instalaciones agrarias → 0408. Infraestructuras e instalaciones agrícolas». Bloque NUEVO del RD 1085/2020: este título LOGSE no figuraba en el anexo IV original del RD 1633/2009."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Agrarias Extensivas (LOGSE, RD 1715/1996, de 12 de julio)",
+   "origen_modulo": "Agrotecnología",
+   "destino_modulos": [
+    "0404"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico Explotaciones Agrarias Extensivas (RD 1715/1996, de 12 de julio) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Agrotecnología → 0404. Fundamentos Agronómicos». Sustituye a la fila idéntica del anexo IV del RD 1633/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Agrarias Extensivas (LOGSE, RD 1715/1996, de 12 de julio)",
+   "origen_modulo": "Instalaciones agrarias",
+   "destino_modulos": [
+    "0408"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico Explotaciones Agrarias Extensivas (RD 1715/1996, de 12 de julio) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Instalaciones agrarias → 0408. Infraestructuras e instalaciones agrícolas». Sustituye a la fila idéntica del anexo IV del RD 1633/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Agrícolas Intensivas (LOGSE, RD 1716/1996, de 12 de julio)",
+   "origen_modulo": "Agrotecnología",
+   "destino_modulos": [
+    "0404"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico Explotaciones Agrícolas Intensivas (RD 1716/1996, de 12 de julio) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Agrotecnología → 0404. Fundamentos Agronómicos». Sustituye a la fila idéntica del anexo IV del RD 1633/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Agrícolas Intensivas (LOGSE, RD 1716/1996, de 12 de julio)",
+   "origen_modulo": "Instalaciones agrarias",
+   "destino_modulos": [
+    "0408"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico Explotaciones Agrícolas Intensivas (RD 1716/1996, de 12 de julio) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Instalaciones agrarias → 0408. Infraestructuras e instalaciones agrícolas». Sustituye a la fila idéntica del anexo IV del RD 1633/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Ganaderas (LOGSE, RD 1717/1996, de 12 de julio)",
+   "origen_modulo": "Agrotecnología",
+   "destino_modulos": [
+    "0404"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico Explotaciones Ganaderas (RD 1717/1996, de 12 de julio) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Agrotecnología → 0404. Fundamentos Agronómicos». Sustituye a la fila idéntica del anexo IV del RD 1633/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Ganaderas (LOGSE, RD 1717/1996, de 12 de julio)",
+   "origen_modulo": "Instalaciones agrarias",
+   "destino_modulos": [
+    "0408"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico Explotaciones Ganaderas (RD 1717/1996, de 12 de julio) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Instalaciones agrarias → 0408. Infraestructuras e instalaciones agrícolas». Sustituye a la fila idéntica del anexo IV del RD 1633/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Trabajos Forestales y de Conservación del Medio Natural (LOGSE, RD 1713/1996, de 12 de julio)",
+   "origen_modulo": "Agrotecnología",
+   "destino_modulos": [
+    "0404"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico en Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996, de 12 de julio) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Agrotecnología → 0404. Fundamentos Agronómicos». Bloque NUEVO del RD 1085/2020: este título LOGSE no figuraba en el anexo IV original del RD 1633/2009."
+  },
+  {
+   "origen_titulo": "Técnico en Trabajos Forestales y de Conservación del Medio Natural (LOGSE, RD 1713/1996, de 12 de julio)",
+   "origen_modulo": "Instalaciones agrarias",
+   "destino_modulos": [
+    "0408"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico en Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996, de 12 de julio) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Instalaciones agrarias → 0408. Infraestructuras e instalaciones agrícolas». Bloque NUEVO del RD 1085/2020: este título LOGSE no figuraba en el anexo IV original del RD 1633/2009."
+  },
+  {
+   "origen_titulo": "Técnico en Jardinería (LOGSE, RD 1714/1996, de 12 de julio)",
+   "origen_modulo": "Métodos de control fitosanitario",
+   "destino_modulos": [
+    "0409"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico en Jardinería (RD 1714/1996) → Técnico en Jardinería y Floristería (RD 1129/2010, de 10 de septiembre)», fila «Métodos de control fitosanitario → 0409. Principios de sanidad vegetal / 0479. Control fitosanitario». NO está en un bloque con destino «Producción Agroecológica»: se aplica a este ciclo por la DA 5.ª del RD 1085/2020 (las convalidaciones de los anexos valen para los módulos incluidos en cualquier ciclo, con independencia del título), porque 0409 es el mismo módulo (mismo código) en este título. La celda de destino del BOE contiene además 0479, que no son de este ciclo."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Agrarias Extensivas (LOGSE, RD 1715/1996, de 12 de julio)",
+   "origen_modulo": "Métodos de control fitosanitario",
+   "destino_modulos": [
+    "0409"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloques «Técnico Explotaciones Agrarias Extensivas (RD 1715/1996) → Técnico en Jardinería y Floristería (RD 1129/2010)» y «→ Técnico en Producción Agropecuaria (RD 1634/2009, de 30 de octubre)», fila «Métodos de control fitosanitario → 0409. Principios de sanidad vegetal / 0479. Control fitosanitario». NO está en un bloque con destino «Producción Agroecológica»: se aplica a este ciclo por la DA 5.ª del RD 1085/2020 (las convalidaciones de los anexos valen para los módulos incluidos en cualquier ciclo, con independencia del título), porque 0409 es el mismo módulo (mismo código) en este título. La celda de destino del BOE contiene además 0479, que no son de este ciclo."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Agrícolas Intensivas (LOGSE, RD 1716/1996, de 12 de julio)",
+   "origen_modulo": "Métodos de control fitosanitario",
+   "destino_modulos": [
+    "0409"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloques «Técnico Explotaciones Agrícolas Intensivas (RD 1716/1996) → Técnico en Jardinería y Floristería (RD 1129/2010)» y «→ Técnico en Producción Agropecuaria (RD 1634/2009, de 30 de octubre)», fila «Métodos de control fitosanitario → 0409. Principios de sanidad vegetal / 0479. Control fitosanitario». NO está en un bloque con destino «Producción Agroecológica»: se aplica a este ciclo por la DA 5.ª del RD 1085/2020 (las convalidaciones de los anexos valen para los módulos incluidos en cualquier ciclo, con independencia del título), porque 0409 es el mismo módulo (mismo código) en este título. La celda de destino del BOE contiene además 0479, que no son de este ciclo."
+  },
+  {
+   "origen_titulo": "Técnico en Trabajos Forestales y de Conservación del Medio Natural (LOGSE, RD 1713/1996, de 12 de julio)",
+   "origen_modulo": "Conservación y defensa de las masas forestales",
+   "destino_modulos": [
+    "0409"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico en Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996) → Técnico en Aprovechamiento y Conservación del Medio Natural (RD 1071/2012, de 13 de julio)», fila «Conservación y defensa de las masas forestales → 0409. Principios de sanidad vegetal / 0479. Control fitosanitario / 0832. Repoblaciones forestales y tratamientos selvícolas / 0836. Prevención de incendios forestales». NO está en un bloque con destino «Producción Agroecológica»: se aplica a este ciclo por la DA 5.ª del RD 1085/2020 (las convalidaciones de los anexos valen para los módulos incluidos en cualquier ciclo, con independencia del título), porque 0409 es el mismo módulo (mismo código) en este título. La celda de destino del BOE contiene además 0479, 0832 y 0836, que no son de este ciclo."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Agrarias Extensivas (LOGSE, RD 1715/1996, de 12 de julio)",
+   "origen_modulo": "Manejo racional del ganado + Producción ganadera ligada a la tierra",
+   "destino_modulos": [
+    "0405"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico en Explotaciones Agrarias Extensivas (RD 1715/1996) → Técnico en Producción Agropecuaria (RD 1634/2009, de 30 de octubre)», fila «Manejo racional del ganado. Producción ganadera ligada a la tierra. → 0405. Fundamentos zootécnicos / 0477. Producción de leche, huevos y animales para vida / 0478. Producción de carne y otras producciones ganaderas». NO está en un bloque con destino «Producción Agroecológica»: se aplica a este ciclo por la DA 5.ª del RD 1085/2020 (las convalidaciones de los anexos valen para los módulos incluidos en cualquier ciclo, con independencia del título), porque 0405 es el mismo módulo (mismo código) en este título. La celda de destino del BOE contiene además 0477 y 0478, que no son de este ciclo. La celda de origen contiene DOS módulos LOGSE (módulos 7 y 8 del RD 1715/1996): hacen falta ambos."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Ganaderas (LOGSE, RD 1717/1996, de 12 de julio)",
+   "origen_modulo": "Manejo racional del ganado + Producción ganadera intensiva",
+   "destino_modulos": [
+    "0405"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Agraria», grado medio, bloque «Técnico en Explotaciones Ganaderas (RD 1717/1996) → Técnico en Producción Agropecuaria (RD 1634/2009, de 30 de octubre)», fila «Manejo racional del ganado. Producción ganadera intensiva. → 0405. Fundamentos zootécnicos / 0477. Producción de leche, huevos y animales para vida / 0478. Producción de carne y otras producciones ganaderas». NO está en un bloque con destino «Producción Agroecológica»: se aplica a este ciclo por la DA 5.ª del RD 1085/2020 (las convalidaciones de los anexos valen para los módulos incluidos en cualquier ciclo, con independencia del título), porque 0405 es el mismo módulo (mismo código) en este título. La celda de destino del BOE contiene además 0477 y 0478, que no son de este ciclo. La celda de origen contiene DOS módulos LOGSE (módulos 5 y 4 del RD 1717/1996): hacen falta ambos."
+  },
+  {
+   "origen_titulo": "Técnico en Actividades Comerciales (LOE, RD 1688/2011, de 18 de noviembre) (Comercio y Marketing)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0413"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Agraria», grado medio, bloque «Técnico en Actividades Comerciales (RD 1688/2011, de 18 de noviembre) (Comercio y Marketing) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Ciclo Completo → 0413. Comercialización de productos agroecológicos». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico en Electromecánica de Maquinaria (LOE, RD 255/2011, de 28 de febrero) (Transporte y Mantenimiento de Vehículos)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0407"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Agraria», grado medio, bloque «Técnico en Electromecánica de Maquinaria (RD 255/2011, de 28 de febrero) (Transporte y Mantenimiento de Vehículos) → Técnico en Producción Agroecológica (RD 1633/2009, de 30 de octubre)», fila «Ciclo Completo → 0407. Taller y equipos de tracción». Exige el título completo. La misma fila se repite en el bloque con destino Jardinería y Floristería."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Agrarias Extensivas (LOGSE, RD 1715/1996, de 12 de julio)",
+   "origen_modulo": "Organización y gestión de una explotación agraria familiar",
+   "destino_modulos": [
+    "0415",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y superior), fila «Organización y gestión de una explotación agraria familiar» de los ciclos Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996), Jardinería (RD 1714/1996), Explotaciones Agrarias Extensivas (RD 1715/1996), Explotaciones Agrícolas Intensivas (RD 1716/1996) y Explotaciones Ganaderas (RD 1717/1996) → «Empresa e Iniciativa Emprendedora (Cualquier ciclo formativo)»; y DA 6.ª.2 (la convalidación de EIE se entiende hecha también a 1710, IPE II). 0415 está suprimido desde el RD 499/2024. En el anexo IV original del RD 1633/2009 (derogado) esta fila daba además 0413; el RD 1085/2020 no lo reproduce (ver filas_derogadas_no_aplicadas)."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Agrícolas Intensivas (LOGSE, RD 1716/1996, de 12 de julio)",
+   "origen_modulo": "Organización y gestión de una explotación agraria familiar",
+   "destino_modulos": [
+    "0415",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y superior), fila «Organización y gestión de una explotación agraria familiar» de los ciclos Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996), Jardinería (RD 1714/1996), Explotaciones Agrarias Extensivas (RD 1715/1996), Explotaciones Agrícolas Intensivas (RD 1716/1996) y Explotaciones Ganaderas (RD 1717/1996) → «Empresa e Iniciativa Emprendedora (Cualquier ciclo formativo)»; y DA 6.ª.2 (la convalidación de EIE se entiende hecha también a 1710, IPE II). 0415 está suprimido desde el RD 499/2024. En el anexo IV original del RD 1633/2009 (derogado) esta fila daba además 0413; el RD 1085/2020 no lo reproduce (ver filas_derogadas_no_aplicadas). El RD 1716/1996 titula el módulo «Organización y gestión de una explotación familiar agraria»."
+  },
+  {
+   "origen_titulo": "Técnico en Explotaciones Ganaderas (LOGSE, RD 1717/1996, de 12 de julio)",
+   "origen_modulo": "Organización y gestión de una explotación agraria familiar",
+   "destino_modulos": [
+    "0415",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y superior), fila «Organización y gestión de una explotación agraria familiar» de los ciclos Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996), Jardinería (RD 1714/1996), Explotaciones Agrarias Extensivas (RD 1715/1996), Explotaciones Agrícolas Intensivas (RD 1716/1996) y Explotaciones Ganaderas (RD 1717/1996) → «Empresa e Iniciativa Emprendedora (Cualquier ciclo formativo)»; y DA 6.ª.2 (la convalidación de EIE se entiende hecha también a 1710, IPE II). 0415 está suprimido desde el RD 499/2024. En el anexo IV original del RD 1633/2009 (derogado) esta fila daba además 0413; el RD 1085/2020 no lo reproduce (ver filas_derogadas_no_aplicadas)."
+  },
+  {
+   "origen_titulo": "Técnico en Trabajos Forestales y de Conservación del Medio Natural (LOGSE, RD 1713/1996, de 12 de julio)",
+   "origen_modulo": "Organización y gestión de una explotación agraria familiar",
+   "destino_modulos": [
+    "0415",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y superior), fila «Organización y gestión de una explotación agraria familiar» de los ciclos Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996), Jardinería (RD 1714/1996), Explotaciones Agrarias Extensivas (RD 1715/1996), Explotaciones Agrícolas Intensivas (RD 1716/1996) y Explotaciones Ganaderas (RD 1717/1996) → «Empresa e Iniciativa Emprendedora (Cualquier ciclo formativo)»; y DA 6.ª.2 (la convalidación de EIE se entiende hecha también a 1710, IPE II). 0415 está suprimido desde el RD 499/2024."
+  },
+  {
+   "origen_titulo": "Técnico en Jardinería (LOGSE, RD 1714/1996, de 12 de julio)",
+   "origen_modulo": "Organización y gestión de una explotación agraria familiar",
+   "destino_modulos": [
+    "0415",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y superior), fila «Organización y gestión de una explotación agraria familiar» de los ciclos Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996), Jardinería (RD 1714/1996), Explotaciones Agrarias Extensivas (RD 1715/1996), Explotaciones Agrícolas Intensivas (RD 1716/1996) y Explotaciones Ganaderas (RD 1717/1996) → «Empresa e Iniciativa Emprendedora (Cualquier ciclo formativo)»; y DA 6.ª.2 (la convalidación de EIE se entiende hecha también a 1710, IPE II). 0415 está suprimido desde el RD 499/2024."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Gestión y Organización de los Recursos Naturales y Paisajísticos (LOGSE, RD 1712/1996, de 12 de julio)",
+   "origen_modulo": "Organización y gestión de una empresa agraria",
+   "destino_modulos": [
+    "0415",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora», fila «Organización y gestión de una empresa agraria. Ciclo Gestión y Organización de los Recursos Naturales y Paisajísticos. (Agraria) Ciclo Gestión y Organización de Empresas Agropecuarias. (Agraria)» → «Empresa e Iniciativa Emprendedora (Cualquier ciclo formativo)»; y DA 6.ª.2. 0415 está suprimido desde el RD 499/2024."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Gestión y Organización de Empresas Agropecuarias (LOGSE, RD 1711/1996, de 12 de julio)",
+   "origen_modulo": "Organización y gestión de una empresa agraria",
+   "destino_modulos": [
+    "0415",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora», fila «Organización y gestión de una empresa agraria. Ciclo Gestión y Organización de los Recursos Naturales y Paisajísticos. (Agraria) Ciclo Gestión y Organización de Empresas Agropecuarias. (Agraria)» → «Empresa e Iniciativa Emprendedora (Cualquier ciclo formativo)»; y DA 6.ª.2. 0415 está suprimido desde el RD 499/2024."
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE (cualquiera)",
+   "origen_modulo": "Formación y Orientación Laboral (más la certificación de prevención de riesgos laborales de nivel básico)",
+   "destino_modulos": [
+    "0414",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Formación y Orientación Laboral» (grado medio y superior), y DA 3.ª y DA 6.ª.1 del mismo RD (la convalidación de FOL se entiende hecha también a IPE I). 0414 está suprimido desde el RD 499/2024. En Aragón el Decreto 91/2024 exige además el certificado de PRL de nivel básico."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE) (Mantenimiento y servicios a la producción)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0414",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Formación y Orientación Laboral» (grado medio y superior), fila «Ciclo completo de Grado Superior de Prevención de Riesgos Profesionales (Mantenimiento y servicios a la producción) → Formación y Orientación Laboral (Cualquier Ciclo Formativo)», y DA 6.ª.1 (la convalidación de FOL se entiende hecha también a 1709). 0414 está suprimido desde el RD 499/2024."
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE (cualquiera)",
+   "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa (y equivalentes del cuadro de EIE)",
+   "destino_modulos": [
+    "0415",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y superior), y DA 6.ª.2 (la convalidación de EIE se entiende hecha también a IPE II). 0415 está suprimido desde el RD 499/2024."
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE (cualquiera) que incluya el módulo de FOL",
+   "origen_modulo": "0414. Formación y orientación laboral (o el FOL de cualquier ciclo LOE)",
+   "destino_modulos": [
+    "0414",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con formación y orientación laboral», y DA 6.ª.1 del mismo RD."
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE (cualquiera) que incluya el módulo de EIE",
+   "origen_modulo": "0415. Empresa e iniciativa emprendedora (o el EIE de cualquier ciclo LOE)",
+   "destino_modulos": [
+    "0415",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción dada por el RD 500/2024, disp. final primera.Tres), y DA 6.ª.2."
+  },
+  {
+   "origen_titulo": "Ciclo LOE de grado medio o superior de las familias profesionales Comercio y Marketing o Administración y Gestión",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0415",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción del RD 500/2024, DF 1.ª.Tres: «Cualquier ciclo de grado medio o superior de las Familias Profesionales Comercio y Marketing o Administración y Gestión — Ciclo completo → Empresa e iniciativa emprendedora»), y DA 6.ª.2. 0415 está suprimido desde el RD 499/2024."
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 8 de mayo de 2014)",
+   "origen_modulo": "0414. Formación y orientación laboral",
+   "destino_modulos": [
+    "1709"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), disposición transitoria segunda, apartados 2 y 3 (tabla de módulos equivalentes). Ese régimen transitorio se aplicó al alumnado del plan a extinguir; desde el 01/09/2026 se cursa todo el plan nuevo aplicando la tabla en sentido inverso (apdo. 5)."
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 8 de mayo de 2014)",
+   "origen_modulo": "0415. Empresa e iniciativa emprendedora",
+   "destino_modulos": [
+    "1710"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), disposición transitoria segunda, apartados 2 y 3 (tabla de módulos equivalentes)."
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE de grado medio con Lengua Extranjera (inglés)",
+   "origen_modulo": "Lengua Extranjera (65 h), cuando la lengua cursada y superada sea inglés",
+   "destino_modulos": [
+    "0156"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Medio, primera fila. Cada fila de la tabla es alternativa (basta una)."
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE de grado medio con Lengua Extranjera (inglés)",
+   "origen_modulo": "Lengua Extranjera o de la C.A., cuando la lengua cursada y superada sea inglés",
+   "destino_modulos": [
+    "0156"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Medio, segunda fila."
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE de grado superior con Lengua Extranjera",
+   "origen_modulo": "Módulos profesionales de Lengua Extranjera de grado superior, en cualquiera de sus denominaciones, siempre que sea la misma lengua",
+   "destino_modulos": [
+    "0156"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Medio, tercera fila (módulos de ciclos de grado superior)."
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE de grado superior que incluya el módulo 0179",
+   "origen_modulo": "0179. Inglés Profesional",
+   "destino_modulos": [
+    "0156"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con inglés» (fila «0179 Inglés Profesional → 0156 Inglés Profesional»). OJO: el art. 126.4.c) del RD 659/2023 declara no convalidable el módulo de Inglés Profesional entre ciclos de grado medio y superior; la fila del RD 1085/2020 es anterior."
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés (EOI o titulación universitaria; no es un título de FP)",
+   "origen_modulo": "Certificado del Ciclo Elemental, de Nivel Intermedio (B1), de Aptitud o de Nivel Avanzado (B2) de inglés de la EOI, o Título de Grado en Filología Inglesa o en Traducción e Interpretación (Inglés)",
+   "destino_modulos": [
+    "0156"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con inglés» (son filas distintas: cualquiera basta) y art. 3.7 (nivel B1 o superior para grado medio)."
+  },
+  {
+   "origen_titulo": "Acreditación oficial de idioma (Aragón)",
+   "origen_modulo": "Certificado de nivel B1 de inglés (Orden de 11 de noviembre de 2014 de Aragón o norma que la sustituya)",
+   "destino_modulos": [
+    "AOP1001 (módulo profesional optativo de Aragón: Comunicación profesional en Inglés (GM); código A173 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), art. 12.1 en la redacción del Decreto 107/2025 (art. segundo.Dos)"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de idioma (Aragón)",
+   "origen_modulo": "Certificado de nivel B1 de francés (Orden de 11 de noviembre de 2014 de Aragón o norma que la sustituya)",
+   "destino_modulos": [
+    "AOP1002 (módulo profesional optativo de Aragón: Segunda lengua profesional Francés; código A171 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), art. 12.2 en la redacción del Decreto 107/2025 (art. segundo.Dos)"
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de Aragón de un ciclo con módulos propios de inglés",
+   "origen_modulo": "Lengua Extranjera Profesional: Inglés 1 + Lengua Extranjera Profesional: Inglés 2 (módulos propios de Aragón; el código depende del ciclo de origen)",
+   "destino_modulos": [
+    "AOP1001 (módulo profesional optativo de Aragón: Comunicación profesional en Inglés (GM); código A173 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), art. 12.1, último párrafo, en la redacción del Decreto 107/2025: la superación de los módulos de los planes a extinguir «Lengua Extranjera Profesional: Inglés 1» y «Inglés 2», propios de Aragón, permite la convalidación de AOP1001. El plan LOE de este ciclo (Orden de 8 de mayo de 2014) NO tenía esos módulos (su art. 10 solo lista 0404-0416): solo aplica a quien los aporte de otro ciclo. Se entiende que hacen falta los dos (el texto habla de los módulos en plural)."
+  },
+  {
+   "origen_titulo": "Otro ciclo formativo de grado medio (Aragón)",
+   "origen_modulo": "Módulo profesional optativo superado",
+   "destino_modulos": [
+    "Módulo profesional optativo (OPT), sin código estatal"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), art. 12.4 en la redacción del Decreto 107/2025 (art. segundo.Dos): un optativo superado en un ciclo de grado medio puede convalidarse, si el alumno lo desea, en cualquier otro ciclo de grado medio. Este ciclo no tiene optativo cerrado: oferta común AOP1001-AOP1003 y, autorizado para AGA202 por la Resolución de 06/06/2025, AOP1006."
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0716_2"
+   ],
+   "modulos": [
+    "0406"
+   ],
+   "fuente": "RD 1633/2009 anexo V A) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0723_2"
+   ],
+   "modulos": [
+    "0406"
+   ],
+   "fuente": "RD 1633/2009 anexo V A) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título. Fila distinta de la de UC0716_2: cualquiera de las dos basta para 0406.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0717_2"
+   ],
+   "modulos": [
+    "0410"
+   ],
+   "fuente": "RD 1633/2009 anexo V A) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0724_2"
+   ],
+   "modulos": [
+    "0410",
+    "0412"
+   ],
+   "fuente": "RD 1633/2009 anexo V A) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título. La celda de destino contiene los dos módulos: con esta UC se convalidan ambos.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0718_2"
+   ],
+   "modulos": [
+    "0412",
+    "0409"
+   ],
+   "fuente": "RD 1633/2009 anexo V A) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título. La celda de destino contiene los dos módulos: con esta UC se convalidan ambos.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0526_2"
+   ],
+   "modulos": [
+    "0408",
+    "0407"
+   ],
+   "fuente": "RD 1633/2009 anexo V A) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título. La celda de destino contiene los dos módulos: con esta UC se convalidan ambos.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0006_2"
+   ],
+   "modulos": [
+    "0407"
+   ],
+   "fuente": "RD 1633/2009 anexo V A) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0725_2",
+    "UC0726_2"
+   ],
+   "modulos": [
+    "0411",
+    "0405"
+   ],
+   "fuente": "RD 1633/2009 anexo V A) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título. La celda de origen contiene las dos UC (hacen falta ambas) y la de destino los dos módulos (se convalidan ambos).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0716_2",
+    "UC0717_2",
+    "UC0526_2",
+    "UC0718_2",
+    "UC0723_2",
+    "UC0724_2",
+    "UC0006_2",
+    "UC0725_2",
+    "UC0726_2"
+   ],
+   "modulos": [
+    "0404"
+   ],
+   "fuente": "RD 1633/2009 anexo V A) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título. NO es una fila de la tabla sino la nota al pie del anexo V A): «El módulo profesional, 0404 Fundamentos agronómicos, se convalidará cuando se tengan acreditadas todas las unidades de competencia que incluye el título» (las nueve UC del art. 6).",
+   "vigente": true
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0406",
+    "0404"
+   ],
+   "uc": [
+    "UC0716_2",
+    "UC0723_2"
+   ],
+   "fuente": "RD 1633/2009 anexo V B) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título. La celda de origen contiene los dos módulos: hacen falta ambos superados.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0410"
+   ],
+   "uc": [
+    "UC0717_2"
+   ],
+   "fuente": "RD 1633/2009 anexo V B) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0410",
+    "0412",
+    "0409"
+   ],
+   "uc": [
+    "UC0717_2",
+    "UC0718_2",
+    "UC0724_2"
+   ],
+   "fuente": "RD 1633/2009 anexo V B) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título. La celda de origen contiene los tres módulos: hacen falta los tres para acreditar las tres UC (UC0717_2 se acredita también solo con 0410, fila anterior).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0408",
+    "0407"
+   ],
+   "uc": [
+    "UC0526_2",
+    "UC0006_2"
+   ],
+   "fuente": "RD 1633/2009 anexo V B) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título. La celda de origen contiene los dos módulos: hacen falta ambos.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0411",
+    "0405"
+   ],
+   "uc": [
+    "UC0725_2",
+    "UC0726_2"
+   ],
+   "fuente": "RD 1633/2009 anexo V B) — texto original de 2009, VIGENTE: el RD 499/2024 no modifica los anexos V de este título. La celda de origen contiene los dos módulos: hacen falta ambos.",
+   "vigente": true
+  }
+ ],
+ "equivalencias_uc": {},
+ "uc_descripciones": {
+  "UC0716_2": "«Preparar el terreno e implantar cultivos en explotaciones ecológicas» [ECP0716_2]. Cualificación AGA225_2.",
+  "UC0717_2": "«Manejar el suelo y realizar las labores culturales y de recolección en explotaciones ecológicas» [ECP0717_2]. Cualificación AGA225_2.",
+  "UC0526_2": "«Manejar tractores y montar instalaciones agrarias, realizando su mantenimiento» [ECP0526_2]. Forma parte de AGA225_2 en el título; el catálogo (RD 532/2025 anexo I) la referencia a AGA165_2 «Cultivos herbáceos» (RD 1228/2006). Es la misma UC que asocia 0407 y 0408 en Producción Agropecuaria y Jardinería y Floristería.",
+  "UC0718_2": "«Controlar y manejar el estado sanitario del agroecosistema» [ECP0718_2]. Cualificación AGA225_2.",
+  "UC0723_2": "«Preparar el terreno e implantar pastos y cultivos herbáceos en explotaciones ganaderas ecológicas» [ECP0723_2]. Cualificación AGA227_2.",
+  "UC0724_2": "«Realizar las labores de producción y de recolección de pastos y cultivos herbáceos para alimentación en ganadería ecológica» [ECP0724_2] (los anexos V escriben «producción y recolección», sin el segundo «de»). Cualificación AGA227_2.",
+  "UC0006_2": "«Montar y mantener las instalaciones, maquinaria y equipos de la explotación ganadera» [ECP0006_2]. Forma parte de AGA227_2 en el título; el catálogo (RD 532/2025 anexo I) la referencia a AGA002_2 «Producción porcina intensiva» (RD 295/2004).",
+  "UC0725_2": "«Realizar operaciones de manejo racional del ganado en explotaciones ecológicas» [ECP0725_2]. Cualificación AGA227_2. En los anexos V va siempre junto a UC0726_2.",
+  "UC0726_2": "«Producir animales y productos animales ecológicos» [ECP0726_2]. Cualificación AGA227_2. En los anexos V va siempre junto a UC0725_2."
+ },
+ "cualificaciones": [
+  {
+   "codigo": "AGA225_2",
+   "nombre_2009": "Agricultura ecológica",
+   "nombre_vigente": "Agricultura ecológica",
+   "completa": true,
+   "uc": [
+    "UC0716_2",
+    "UC0717_2",
+    "UC0526_2",
+    "UC0718_2"
+   ],
+   "uc_2009": [
+    "UC0716_2",
+    "UC0717_2",
+    "UC0526_2",
+    "UC0718_2"
+   ],
+   "uc_vigente": [
+    "UC0716_2",
+    "UC0717_2",
+    "UC0526_2",
+    "UC0718_2"
+   ],
+   "formacion_asociada_horas": 600,
+   "norma": "RD 665/2007, de 25 de mayo (anexo CCXXV), modificada por la Orden PRA/1882/2016 (art. 3: UC0526_2/MF0526_2) y con nueva redacción por la Orden PCI/693/2019 (anexo II): mismas UC y códigos; formación asociada 600 h (MF0716_2 150 + MF0717_2 180 + MF0526_2 120 + MF0718_2 150). Cualificación completa (art. 6.1.a) del RD 1633/2009, no modificado por el RD 499/2024). Códigos ECP con el mismo número (RD 532/2025 anexo I)."
+  },
+  {
+   "codigo": "AGA227_2",
+   "nombre_2009": "Ganadería ecológica",
+   "nombre_vigente": "Ganadería ecológica",
+   "completa": true,
+   "uc": [
+    "UC0723_2",
+    "UC0724_2",
+    "UC0006_2",
+    "UC0725_2",
+    "UC0726_2"
+   ],
+   "uc_2009": [
+    "UC0723_2",
+    "UC0724_2",
+    "UC0006_2",
+    "UC0725_2",
+    "UC0726_2"
+   ],
+   "uc_vigente": [
+    "UC0723_2",
+    "UC0724_2",
+    "UC0006_2",
+    "UC0725_2",
+    "UC0726_2"
+   ],
+   "formacion_asociada_horas": 600,
+   "norma": "RD 665/2007, de 25 de mayo (anexo CCXXVII); formación asociada 600 h. El «Análisis» del BOE no registra modificaciones de este anexo. Cualificación completa (art. 6.1.b) del RD 1633/2009). Códigos ECP con el mismo número (RD 532/2025 anexo I)."
+  }
+ ],
+ "notas": [
+  "El campo «horas» es el del currículo básico / enseñanzas mínimas (RD 1633/2009 anexo I para los módulos específicos, 1.100 h = 55 % de 2.000 h: 0404 100, 0405 80, 0406 85, 0407 85, 0408 60, 0409 60, 0410 110, 0411 110, 0412 70, 0413 35, más FOL 0414 50, EIE 0415 35 y FCT 0416 220; RD 659/2023 y RD 499/2024 para los módulos comunes nuevos). Las horas reales de impartición están en «horas_otras» (aragon = Orden ECD/842/2024 anexo V, diurno; mefp = Orden EFD/657/2024 anexo XII; loe = Orden de 8 de mayo de 2014 de Aragón, anexo I).",
+  "Denominación y código: la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=AGA202) devuelve AGA202 = «Producción Agroecológica», CFGM, familia Agraria (AGA). Coincide con el título del RD 1633/2009 y con el anexo V de la Orden ECD/842/2024 («PRODUCCIÓN AGROECOLÓGICA (AGA202)»). Su campo horas_totales=1999 es la suma de las horas redondeadas de los módulos (la duración del título es 2.000 h). Solo tiene horario DIURNO. Las horas y cursos de la API coinciden módulo a módulo con el anexo V.",
+  "Aragón (Orden ECD/842/2024, anexo V, diurno, código AGA202): 30 h/semana en 1.º y 30 en 2.º, 2.000 h en total. Primer curso: 0404 (200 h, 6 h/sem), 0405 (133, 4), 0406 (200, 6), 0407 (133, 4), 0409 (100, 3), A997 (33, 1), 1709 (100, 3), 1664 (33, 1) y 0156 (67, 2). Segundo curso: 0408 (100, 3), 0410 (233, 7), 0411 (167, 5), 0412 (133, 4), 0413 (67, 2), A996 (33, 1), 1710 (67, 2), 1708 (33, 1), 1713 (67, 2) y el optativo (100, 3). No hay horario nocturno para este ciclo.",
+  "MEFP (Orden EFD/657/2024, anexo XII): 1.º con 30 h/semana y 955 h (0408 100, 0409 100, 0405 150, 0407 120, 0406 120, 0404 160, 1709 100, 1708 35, 0156 70); 2.º con 31 h/semana y 1.045 h (0413 100, 0412 160, 0411 260, 0410 260, 1710 100, 1664 35, optativa 80, 1713 50). Total 2.000 h, formación en empresa incluida dentro de los módulos (no hay fila de FCT). OJO: 0408 está en 1.º en el MEFP y en 2.º en Aragón.",
+  "PLAN LOE de Aragón (anterior al RD 499/2024) — Orden de 8 de mayo de 2014 (BOA núm. 108, de 05/06/2014), anexo I: 0404 224 h, 0405 160, 0406 224, 0407 160, 0409 96 y 0414 FOL 96 (= 960 h, múltiplos de 32: primer curso, 30 h/semana); 0408 84, 0410 168, 0411 147, 0412 105, 0413 63 y 0415 EIE 63 (= 630 h, múltiplos de 21: segundo curso) más 0416 FCT 410 h. Total 2.000 h. Estas son las horas de la clave «loe». La orden no publica tabla de distribución por cursos: el curso se ha deducido (ver no_verificado). El plan LOE NO tenía módulo de inglés ni módulos propios de Aragón.",
+  "PLAN LOE del ámbito MEC/MEFP (anterior a la Orden EFD/657/2024) — Orden EDU/376/2010, de 20 de enero (BOE-A-2010-2974), tabla de distribución: 1.º (30 h/sem) 0404 (180 h, 6), 0405 (150, 5), 0406 (160, 5), 0407 (160, 5), 0408 (110, 3), 0409 (110, 3) y 0414 FOL (90, 3) = 960 h; 2.º (30 h/sem en 2 trimestres) 0410 (200, 9), 0411 (200, 9), 0412 (120, 6), 0413 (60, 3) y 0415 EIE (60, 3) = 640 h, más 0416 FCT (400 h en el tercer trimestre). Total 2.000 h. Difiere del de Aragón (allí 0408 estaba en 2.º); en «loe» se ha puesto el de Aragón.",
+  "Los anexos V A) y V B) del RD 1633/2009 NO fueron sustituidos por el RD 499/2024: su art. tercero (cualificaciones y anexos V) no incluye este real decreto, el texto consolidado del BOE no anota ningún cambio en el art. 6 ni en los anexos V y el «Análisis» del RD 499/2024 solo cita los arts. 2, 10, 12, 15 y los anexos I y III. Por eso uc_a_modulos y modulos_a_uc solo llevan filas «vigente»: true (la redacción original de 2009 ES la vigente; no hay filas «vigente»: false). 0413 Comercialización de productos agroecológicos no está asociado a ninguna UC; 0404 solo se convalida con las nueve UC del título (nota al pie del anexo V A)) y en el anexo V B) aparece junto a 0406.",
+  "equivalencias_uc está vacío a propósito: las nueve UC del título conservan su número al pasar a ECP (RD 532/2025 anexo I) y ninguna está suprimida ni refundida.",
+  "Reglas del nuevo art. 15 del RD 1633/2009 (redacción del RD 499/2024, art. sexto): convalidaciones según los arts. 126-128 del RD 659/2023; para títulos anteriores al 5/3/2017 (este lo es) se aplica el RD 1085/2020; si en una celda de las tablas de UC hay dos o más UC o módulos, hacen falta todos simultáneamente; ante discrepancias prevalece el código sobre la denominación; exención de la formación en empresa por el art. 131 del RD 659/2023. El art. 14 original (que remite al anexo IV) sigue en el texto sin modificar, pero el anexo IV está derogado.",
+  "DA 2.ª del RD 499/2024: las referencias de la DA 3.ª del RD 1633/2009 a que FOL capacita para el nivel básico de prevención de riesgos laborales se entienden hechas al módulo 1709 (IPE I).",
+  "CONVALIDACIÓN DESDE TÍTULOS LOGSE: el anexo IV original del RD 1633/2009 tenía tres columnas de origen (Explotaciones Agrarias Extensivas, Explotaciones Agrícolas Intensivas y Explotaciones Ganaderas) y tres filas: Agrotecnología → 0404; Organización y gestión de una explotación agraria familiar → 0415 + 0413; Instalaciones agrarias → 0408. Está derogado. El anexo II del RD 1085/2020 conserva Agrotecnología → 0404 e Instalaciones agrarias → 0408 para esos tres títulos y AÑADE los mismos dos pares para Técnico en Jardinería (RD 1714/1996) y Técnico en Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996): 10 filas en total (las 10 primeras de convalidaciones_titulos_anteriores). La fila de «Organización y gestión…» pasa a la tabla general de EIE (solo EIE/1710); la convalidación de 0413 desde ese módulo ya no existe (filas_derogadas_no_aplicadas). No había fila de FCT.",
+  "MÓDULOS COMPARTIDOS POR CÓDIGO con otros títulos LOE de grado medio de Agraria (comprobado en las cabeceras de bloque del RD 1085/2020 y en el campo ciclos_comunes de la API de CATEDU): 0404 Fundamentos agronómicos — Producción Agropecuaria (RD 1634/2009, AGA201), Jardinería y Floristería (RD 1129/2010, AGA204) y Aprovechamiento y Conservación del Medio Natural (RD 1071/2012, AGA205); 0405 Fundamentos zootécnicos — Producción Agropecuaria; 0407 Taller y equipos de tracción — Producción Agropecuaria y Jardinería y Floristería; 0408 Infraestructuras e instalaciones agrícolas — Producción Agropecuaria y Jardinería y Floristería; 0409 Principios de sanidad vegetal — Producción Agropecuaria, Jardinería y Floristería y Aprovechamiento y Conservación del Medio Natural. 0479 Control fitosanitario NO es de este título (aquí la sanidad se cubre con 0412). 0406, 0410, 0411, 0412 y 0413 son exclusivos de Producción Agroecológica. Quien tenga superado uno de los módulos comunes en otro ciclo lo tiene reconocido aquí por identidad de código (art. 3.2 del RD 1085/2020 y DA única de la Orden ECD/842/2024); no se han creado filas para eso.",
+  "FILAS APLICADAS POR LA DA 5.ª del RD 1085/2020 (seis filas, marcadas en su «fuente»): están en bloques cuyo destino es otro título (Producción Agropecuaria, Jardinería y Floristería, Aprovechamiento y Conservación del Medio Natural), pero convalidan 0409 o 0405, que son módulos de este ciclo con el mismo código: Métodos de control fitosanitario → 0409 (desde Jardinería, Explotaciones Agrarias Extensivas y Explotaciones Agrícolas Intensivas); Conservación y defensa de las masas forestales → 0409 (desde Trabajos Forestales); Manejo racional del ganado + Producción ganadera ligada a la tierra → 0405 (Explotaciones Agrarias Extensivas); Manejo racional del ganado + Producción ganadera intensiva → 0405 (Explotaciones Ganaderas). En destino_modulos solo se ha puesto el módulo de este ciclo. Si el generador solo debe llevar filas de los bloques propios del título, son las que habría que retirar.",
+  "Se han rastreado todas las tablas del RD 1085/2020 (anexos I, II, III y IV, texto consolidado a 07/04/2026, parseado desde el HTML del BOE con celdas combinadas) buscando «Agroecológica», «1633/2009» y los códigos 0404-0416. Aparecen solo en: anexo II tabla Agraria (grado medio) y anexo III tabla Agraria (grado medio: Actividades Comerciales → 0413 y Electromecánica de Maquinaria → 0407). SENTIDO INVERSO: no hay ninguna fila en la que este título o sus módulos sean la formación aportada hacia otro título; por eso no hay filas con destino_titulo.",
+  "Convalidación desde el GRADO BÁSICO: no hay ninguna fila tabulada (el art. 2.2 del RD 1085/2020 excluye la FP Básica). El RD 659/2023, art. 127.a), admite convalidar entre distintos grados (B, C, D, E) pero sin tabla: lo resuelve el centro.",
+  "Los módulos 1664 Digitalización y 1708 Sostenibilidad se convalidan entre ciclos de grado medio de la misma familia (art. 126.3 del RD 659/2023); 0156 Inglés Profesional entre ciclos del mismo grado; 1709 y 1710 entre ofertas formativas (art. 126.5). No son convalidables el proyecto intermodular ni la formación en empresa. Estas reglas no se han transformado en filas.",
+  "Optativos en Aragón: 100 h en 2.º curso. Oferta común vigente (Decreto 107/2025): AOP1001 Comunicación profesional en Inglés (GM), AOP1002 Segunda lengua profesional Francés y AOP1003 Ofimática avanzada aplicada al sector profesional (antes A173, A171 y A172). De diseño propio autorizado para AGA202 (Resolución de 06/06/2025, implantación 2025/2026): AOP1006 Producción ecológica de especies vegetales autóctonas de Aragón.",
+  "Herramienta de Aragón (https://centrosdocentes.catedu.es/awc/public/competencias; datos de tab4 en research/competencias-catedu.json): coincide con el anexo V A) vigente en 0406 (ECP0716_2 o ECP0723_2), 0410 (ECP0717_2 o ECP0724_2), 0412 (ECP0718_2 o ECP0724_2), 0408 (ECP0526_2), 0407 (ECP0006_2 o ECP0526_2), 0411 (ECP0725_2 + ECP0726_2), 0413 (ninguna) y 0404 (grupo conjunto con las nueve ECP del título). Para 0404, 0405 y 0409 la herramienta añade grupos que proceden de los anexos V A) de otros títulos que comparten el módulo (p. ej. ECP0525_2 para 0409, de Producción Agropecuaria/Jardinería).",
+  "Ficha del título en todofp.es: https://www.todofp.es/que-estudiar/familias-profesionales/agraria/produccion-agroecologica.html (responde 200; lista los módulos vigentes, incluidos 1709, 1713 y el optativo; no publica horas por módulo ni las UC).",
+  "En Aragón, la Orden ECD/842/2024 (disp. transitoria segunda) solo previó la equivalencia FOL→1709, EIE→1710 y «0156. Inglés» (que este ciclo no tenía) para el alumnado del plan a extinguir. A 30/09/2026 el plan LOE diurno de Aragón ya no se imparte."
+ ],
+ "no_verificado": [
+  "El curso de la clave «loe» (plan LOE de Aragón) NO consta en una tabla: la Orden de 8 de mayo de 2014 solo da la duración de cada módulo (anexo I) y los módulos necesarios para promoción (anexo VI: 0409 para 0412, 0404 para 0410, 0405 para 0411). Se ha deducido que 0404, 0405, 0406, 0407, 0409 y 0414 eran de 1.º (duraciones múltiplo de 32; suman 960 h) y 0408, 0410, 0411, 0412, 0413, 0415 y 0416 de 2.º (múltiplos de 21; suman 630 h + 410 h). Fuente: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=795607284646",
+  "Las seis filas aplicadas por la DA 5.ª del RD 1085/2020 (0409 y 0405 desde bloques de otros títulos) son una aplicación literal de esa disposición, pero no están en un bloque con destino «Producción Agroecológica»; no se ha contrastado con ninguna resolución o criterio del Ministerio ni de Aragón que lo confirme en la práctica. Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274 (DA 5.ª y anexo II, tabla Agraria).",
+  "No se han revisado los anexos de convalidaciones de los reales decretos de títulos posteriores al 05/03/2017 (que el RD 1085/2020, DA 5.ª y art. 15.2.b) del RD 1633/2009 también hacen aplicables) para ver si alguno aporta o recibe módulos 0404-0413, salvo el RD 652/2017 (Técnico en Actividades Ecuestres, BOE-A-2017-7982), donde no aparecen.",
+  "Los RD 1713/1996 (Trabajos Forestales), 1714/1996 (Jardinería), 1711/1996 y 1712/1996 (grado superior) no se han abierto: los nombres de sus módulos se han tomado de las tablas del RD 1085/2020. Sí se han comprobado en su texto los módulos de los RD 1715/1996, 1716/1996 y 1717/1996. En el RD 1716/1996 el módulo 1 se titula «Organización y gestión de una explotación familiar agraria» (orden de palabras distinto del usado en el RD 1085/2020).",
+  "La fila «Ciclo completo de Grado Superior de Prevención de Riesgos Profesionales → FOL» (anexo II del RD 1085/2020) no indica el real decreto del título de origen; no se ha buscado.",
+  "Formación asociada de AGA227_2 (600 h): leída del PDF del BOE de 2007 (https://www.boe.es/boe/dias/2007/06/13/pdfs/A25532-25609.pdf), cuya capa de texto está codificada y hubo que descodificar; la cifra es coherente con la de AGA225_2 (600 h, confirmada en la Orden PCI/693/2019). No se ha comprobado si alguna norma posterior al RD 532/2025 actualiza AGA225_2 o AGA227_2.",
+  "No se ha consultado en vivo tab1_competencias_acreditadas.php ni tab2_modulos_superados.php de la herramienta de Aragón para este ciclo; la comparación se ha hecho con los datos de tab4 guardados en research/competencias-catedu.json.",
+  "Las columnas 1.º/2.º de las tablas de Aragón y del MEFP son horas semanales; el curso asignado en «horas_otras» se ha deducido de en qué columna aparece cada módulo. Las sumas cuadran (Aragón 30+30 h/semana, 2.000 h; MEFP 30+31 h/semana, 955+1.045 h).",
+  "La columna «Bilingüe» del anexo XII de la Orden EFD/657/2024 (marcada para 0408, 0407, 0406, 0413, 0412, 0411 y 0410) no se ha trasladado al JSON.",
+  "No se ha revisado el anexo III (profesorado) introducido por el anexo XVI del RD 499/2024 más allá de su existencia, ni el anexo II (espacios) del RD 1633/2009. Tampoco la tabla de minoración horaria para comunidades con lengua cooficial (DA 1.ª del RD 499/2024), que no afecta a Aragón.",
+  "La fila «0179 → 0156» del anexo III del RD 1085/2020 parece contradecir el art. 126.4.c) del RD 659/2023 (posterior, que no admite convalidar Inglés Profesional entre grado medio y superior); no se ha verificado cuál prevalece en la práctica.",
+  "No se ha comprobado si existe una resolución de módulos optativos de Aragón posterior a la de 06/06/2025 que amplíe el catálogo para AGA202 en el curso 2026/2027, ni si hay corrección de errores de la Orden ECD/842/2024 que afecte al anexo V.",
+  "No se ha comprobado que el RD 1085/2020 (versión consolidada de 07/04/2026) no haya sido corregido en las filas de este título por normas posteriores distintas del RD 262/2026."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "Filas del anexo IV original del RD 1633/2009 (derogado por la disp. derogatoria única.2 del RD 1085/2020) en la parte que el RD 1085/2020 NO reproduce: la celda de destino original era «0415 Empresa e iniciativa emprendedora + 0413 Comercialización de productos agroecológicos»; hoy el módulo LOGSE solo da EIE (tabla general de EIE del anexo II del RD 1085/2020), no 0413. El anexo IV original no tenía fila de FCT ni de lengua extranjera.",
+  "filas": [
+   {
+    "origen_titulo": "Técnico en Explotaciones Agrarias Extensivas (LOGSE, RD 1715/1996, de 12 de julio)",
+    "origen_modulo": "Organización y gestión de una explotación agraria familiar",
+    "destino_modulos": [
+     "0413"
+    ],
+    "fuente": "RD 1633/2009 anexo IV, texto original de 2009 (fila «Organización y gestión de una explotación agraria familiar → 0415 Empresa e iniciativa emprendedora / 0413 Comercialización de productos agroecológicos»), DEROGADO por el RD 1085/2020. El bloque de este título en el anexo II del RD 1085/2020 solo conserva Agrotecnología → 0404 e Instalaciones agrarias → 0408; la parte de EIE pasa a la tabla general de EIE y la de 0413 desaparece. Se recoge por trazabilidad; NO aplicar."
+   },
+   {
+    "origen_titulo": "Técnico en Explotaciones Agrícolas Intensivas (LOGSE, RD 1716/1996, de 12 de julio)",
+    "origen_modulo": "Organización y gestión de una explotación agraria familiar",
+    "destino_modulos": [
+     "0413"
+    ],
+    "fuente": "RD 1633/2009 anexo IV, texto original de 2009 (fila «Organización y gestión de una explotación agraria familiar → 0415 Empresa e iniciativa emprendedora / 0413 Comercialización de productos agroecológicos»), DEROGADO por el RD 1085/2020. El bloque de este título en el anexo II del RD 1085/2020 solo conserva Agrotecnología → 0404 e Instalaciones agrarias → 0408; la parte de EIE pasa a la tabla general de EIE y la de 0413 desaparece. Se recoge por trazabilidad; NO aplicar."
+   },
+   {
+    "origen_titulo": "Técnico en Explotaciones Ganaderas (LOGSE, RD 1717/1996, de 12 de julio)",
+    "origen_modulo": "Organización y gestión de una explotación agraria familiar",
+    "destino_modulos": [
+     "0413"
+    ],
+    "fuente": "RD 1633/2009 anexo IV, texto original de 2009 (fila «Organización y gestión de una explotación agraria familiar → 0415 Empresa e iniciativa emprendedora / 0413 Comercialización de productos agroecológicos»), DEROGADO por el RD 1085/2020. El bloque de este título en el anexo II del RD 1085/2020 solo conserva Agrotecnología → 0404 e Instalaciones agrarias → 0408; la parte de EIE pasa a la tabla general de EIE y la de 0413 desaparece. Se recoge por trazabilidad; NO aplicar."
+   }
+  ]
+ }
+}
