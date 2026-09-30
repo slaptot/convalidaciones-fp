@@ -1,0 +1,1117 @@
+{
+ "ciclo": {
+  "codigo": "ELE203",
+  "nombre": "Técnico en Instalaciones de Telecomunicaciones",
+  "grado": "medio",
+  "familia": "Electricidad y Electrónica",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 1632/2009, de 30 de octubre",
+    "boe": "BOE-A-2009-18404",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-18404",
+    "nota": "Establece el título de Técnico en Instalaciones de Telecomunicaciones y sus enseñanzas mínimas (BOE núm. 279, de 19/11/2009, págs. 98117-98180). Duración 2.000 h; enseñanzas mínimas 1.100 h. Implantación del currículo en 2010/11 (DF 2.ª). En el BOE solo existe TEXTO ORIGINAL: no hay versión consolidada con las modificaciones del RD 499/2024. El anexo IV A) (convalidaciones LOGSE→LOE) fue derogado por la disp. derogatoria única.2 del RD 1085/2020. El anexo IV B) (materias de Bachillerato) no lo cita el RD 1085/2020. Los anexos V A) y V B) siguen en su redacción original de 2009."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Tablas de convalidación: las LOGSE/LOCE→LOE de este título están en su anexo II (familia Electricidad y electrónica, grado medio) y las LOE→LOE en su anexo III. DA 6.ª (añadida por el RD 500/2024): una convalidación cuyo destino sea FOL se entiende hecha también a 1709 (IPE I), y una cuyo destino sea EIE, a 1710 (IPE II). Art. 3.2: módulos idénticos (mismo código, denominación, resultados de aprendizaje, contenidos y duración) trasladan la nota. Art. 3.3: si la convalidación exige varios módulos, nota = media aritmética."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709 y 1710 (anexo V, 50 h cada uno), 1664 (anexo VI, 30 h), 1708 (anexo VIII, 30 h) y 0156 (anexo IX, 50 h); anexo IV: módulo optativo de 80 h. Arts. 126-128 y 131: reglas de convalidación y exención."
+   },
+   {
+    "ref": "RD 499/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10684",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
+    "nota": "Adapta los títulos de grado medio a la LO 3/2022. Este título es el 13.º de la lista del art. primero.Dos.a) (ciclos SIN módulo de inglés previo). En el RD 1632/2009 modifica los arts. 2, 10, 12 y 15 y los anexos I y III (NO los arts. 6 ni los anexos IV ni V A) / V B)). Suprime 0366 (FOL), 0367 (EIE) y 0368 (FCT) y añade 0156, 1709, 1710, 1664, 1708, 1713 y un módulo optativo de 80 h. Asigna el nivel 4A del MECU. DA 2.ª: las referencias de la DA 3.ª del RD 1632/2009 al módulo de FOL se entienden hechas a 1709 (IPE I). Disp. transitoria única: primer curso implantado en 2024-25."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Homólogo del RD 499/2024 para grado superior. Su disp. final 1.ª añade la DA 6.ª al RD 1085/2020 (FOL→IPE I, EIE→IPE II) y sustituye la tabla de EIE del anexo III, que sí afectan a este título."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra las UC del CNCP como Estándares de Competencia Profesional (ECP). Anexo I: UC0120_2, UC0121_2, UC2272_2 (ELE043_2), UC0597_2, UC0598_2 (ELE188_2), UC0599_2 y UC0600_2 (ELE189_2) pasan a ECP con el mismo número. Ninguna de ellas figura en los anexos II-a ni II-b (equivalencias de UC suprimidas)."
+   },
+   {
+    "ref": "RD 268/2017, de 17 de marzo",
+    "boe": "BOE-A-2017-3367",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-3367",
+    "nota": "BOE núm. 75, de 29/03/2017. Actualiza la cualificación ELE043_2 (anexo XLIII del RD 295/2004): cambia la denominación de UC0120_2 y UC0121_2 y añade UC2272_2. Formación asociada: MF0120_2 (210 h), MF0121_2 (180 h) y MF2272_2 (180 h)."
+   },
+   {
+    "ref": "Orden PRE/1632/2015, de 23 de julio",
+    "boe": "BOE-A-2015-8770",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-8770",
+    "nota": "BOE núm. 185, de 04/08/2015. Da nueva redacción a los anexos CLXXXVIII (ELE188_2) y CLXXXIX (ELE189_2) del RD 1228/2006. Las UC0597_2, UC0598_2, UC0599_2 y UC0600_2 conservan código y denominación. Formación asociada: MF0597_2 y MF0598_2 (150 h cada una), MF0599_2 (180 h) y MF0600_2 (240 h)."
+   },
+   {
+    "ref": "RD 210/2025, de 18 de marzo",
+    "boe": "BOE-A-2025-7588",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-7588",
+    "nota": "Establece los Grados C, B y A de las familias Edificación y Obra Civil, Electricidad y Electrónica, Energía y Agua e Industrias Extractivas. Art. 10: para este título, los certificados profesionales ELE_C_003_4B (módulos 0237, 0360, 0361 y 1782) y ELE_C_004_4B (módulos 0363, 0364 y 1782), con sus certificados de competencia ELE_B_0237, ELE_B_0361, ELE_B_0363 y ELE_B_0364. Art. 30: la relación de módulos con estándares de competencia es la de los RD de título (anexos V A/V B del RD 1632/2009)."
+   },
+   {
+    "ref": "Orden EDU/391/2010, de 20 de enero",
+    "boe": "BOE-A-2010-3027",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-3027",
+    "nota": "Currículo LOE del título en el ámbito de gestión del Ministerio (BOE núm. 49, de 25/02/2010). Anexo II: distribución horaria del plan LOE del MEC (sustituida por la Orden EFD/657/2024)."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo vigente del ámbito MEFP para grado medio (BOE de 01/07/2024). Este título, en el anexo XXII (art. 6.3.o). Art. 6.1: 2.000 h incluida la formación en empresa. Art. 12: el optativo son 80 h anuales o dos cuatrimestrales de 40 h, en 2.º curso."
+   },
+   {
+    "ref": "Resolución de 27 de junio de 2025, de la Secretaría General de Formación Profesional",
+    "boe": "BOE-A-2025-14430",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14430",
+    "nota": "BOE núm. 167, de 12/07/2025. Repertorio de módulos profesionales optativos del ámbito MEFP. Para este título figura, entre los específicos de ciclo, 1803 «Iniciación a tecnologías de automatización y control para sistemas inteligentes» (80 h; ciclos de Instalaciones de Telecomunicaciones e Instalaciones Eléctricas y Automáticas), además de los de aplicación a cualquier ciclo (p. ej. 1801, 1711, 1666)."
+   },
+   {
+    "ref": "Orden de 14 de julio de 2010, de la Consejera de Educación, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=543041540303",
+    "nota": "Currículo LOE del título en Aragón (BOA núm. 158, de 12/08/2010). Derogada por la disp. derogatoria única, letra g).2 de la Orden ECD/842/2024. La duración de cada módulo coincide con la de la Resolución de 25/08/2010."
+   },
+   {
+    "ref": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=548701300808&type=pdf#page=3",
+    "nota": "BOA núm. 182, de 16/09/2010, pág. 21614. Distribución horaria del plan LOE de ELE203 en diurno (2 cursos de 30 h/semana) y nocturno (3 cursos). Fuente de las horas del plan LOE (clave «loe»). Enlazada desde educa.aragon.es como «Horario LOE» de ELE203."
+   },
+   {
+    "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+    "nota": "Currículo vigente de Aragón para los ciclos de grado medio (BOA núm. 148, de 31/07/2024, csv BOA20240731003). Este título en el anexo XIV (pág. 21836), con el código de ciclo ELE203 (art. 1.2.g).2.º y art. 5.3.n). El anexo solo contiene distribución horaria, espacios y equipamientos. No hay tabla de horario nocturno para ELE203. DT 2.ª: FOL→1709 y EIE→1710 en la transición de planes."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025 (csv BOA20250918002). Modifica los arts. 11, 12 y 15 y los títulos de los anexos XLVII-XLIX de la Orden ECD/842/2024: los módulos optativos de oferta común pasan de A173/A171/A172 a AOP1001 (Comunicación profesional en Inglés GM), AOP1002 (Segunda lengua profesional Francés) y AOP1003 (Ofimática avanzada aplicada al sector profesional). No toca la tabla horaria de ELE203."
+   },
+   {
+    "ref": "Resolución de 6 de junio de 2025, del Director General de Planificación, Centros y Formación Profesional (Aragón)",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/5514380/CSV511IT4T1J71T0XFIL+RESOLUCI%C3%93N+M%C3%93DULOS+OPTATIVOS+FP+ARAG%C3%93N.pdf",
+    "nota": "Autoriza módulos optativos de diseño propio. Para ELE203 (Instalaciones de Telecomunicaciones) autoriza AOP1013 «Automatización avanzada de sistemas sencillos mediante Controlador Lógico Programable (PLC)», AOP1016 «Infraestructura, operaciones y mantenimiento de centros de datos», AOP1017 «Iniciación a la documentación técnica», AOP1018 «Instalaciones eléctricas industriales» y AOP1019 «Instalaciones solares fotovoltaicas» (MP 0239). Implantación en 2025/2026."
+   },
+   {
+    "ref": "RD 177/2008, de 8 de febrero",
+    "boe": "BOE-A-2008-3957",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-3957",
+    "nota": "Título de Técnico en Instalaciones Eléctricas y Automáticas (ELE202). Comparte con este título los módulos 0237 y 0238 (mismo código, denominación y 65 h de enseñanzas mínimas cada uno). Tiene su propia investigación en research/ele202.json."
+   },
+   {
+    "ref": "RD 624/1995, de 21 de abril",
+    "boe": null,
+    "url": null,
+    "nota": "Título LOGSE anterior: Técnico en Equipos Electrónicos de Consumo. El RD 1085/2020 (anexo II) y el anexo IV A) del RD 1632/2009 lo citan con esta referencia. No se ha consultado su texto ni se ha comprobado su derogación formal por el RD 1632/2009."
+   },
+   {
+    "ref": "RD 623/1995, de 21 de abril",
+    "boe": null,
+    "url": null,
+    "nota": "Otro título LOGSE del que se convalida: Técnico en Equipos e Instalaciones Electrotécnicas (citado con esta referencia en el anexo II del RD 1085/2020 y en el anexo IV A) del RD 1632/2009). No se ha consultado su texto."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0237",
+   "nombre": "Infraestructuras comunes de telecomunicación en viviendas y edificios",
+   "horas": 65,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 120,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0238",
+   "nombre": "Instalaciones domóticas",
+   "horas": 65,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 126,
+     "curso": 2,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0359",
+   "nombre": "Electrónica aplicada",
+   "horas": 110,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 170,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": 1,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0360",
+   "nombre": "Equipos microinformáticos",
+   "horas": 75,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0361",
+   "nombre": "Infraestructuras de redes de datos y sistemas de telefonía",
+   "horas": 130,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 224,
+     "curso": 1,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0362",
+   "nombre": "Instalaciones eléctricas básicas",
+   "horas": 110,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": 1,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0363",
+   "nombre": "Instalaciones de megafonía y sonorización",
+   "horas": 80,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 147,
+     "curso": 2,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0364",
+   "nombre": "Circuito cerrado de televisión y seguridad electrónica",
+   "horas": 85,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 147,
+     "curso": 2,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0365",
+   "nombre": "Instalaciones de radiocomunicaciones",
+   "horas": 75,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 147,
+     "curso": 2,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0156",
+   "nombre": "Inglés profesional (GM)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo IX (currículo básico) — módulo añadido a este título por el RD 499/2024 (art. 1.Dos.a: ciclos que no tenían módulo de inglés)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1664",
+   "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VI (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1713",
+   "nombre": "Proyecto intermodular",
+   "horas": 50,
+   "horas_fuente": "RD 499/2024, currículo básico del proyecto intermodular (50 h; figura como «Anexo II» en el BOE y el art. séptimo lo cita como «anexo I»)",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 499/2024 art. cuarto.Uno.e) (nuevo art. 10.3 del RD 1632/2009) y RD 659/2023 anexo IV",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "A997",
+   "nombre": "Tutoría I (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 anexo XIV (no hay currículo básico estatal)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "A996",
+   "nombre": "Tutoría II (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 anexo XIV (no hay currículo básico estatal)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0366",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0367",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  },
+  {
+   "codigo": "0368",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 1632/2009 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 410,
+     "curso": 2,
+     "fuente": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (BOA núm. 182, de 16/09/2010, pág. 21614), tabla de ELE203, modalidad de diurno; currículo: Orden de 14 de julio de 2010 (BOA núm. 158, de 12/08/2010). La duración de cada módulo coincide con la del currículo de la Orden de 14/07/2010"
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico en Equipos e Instalaciones Electrotécnicas (LOGSE, RD 623/1995, de 21 de abril)",
+   "origen_modulo": "Instalaciones singulares en viviendas y edificios",
+   "destino_modulos": [
+    "0237"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Electricidad y electrónica», grado medio (sustituye al anexo IV A) del RD 1632/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020). Coincide con la fila del anexo IV A) original"
+  },
+  {
+   "origen_titulo": "Técnico en Equipos e Instalaciones Electrotécnicas (LOGSE, RD 623/1995, de 21 de abril)",
+   "origen_modulo": "Instalaciones automatizadas en viviendas y edificios",
+   "destino_modulos": [
+    "0238"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Electricidad y electrónica», grado medio (sustituye al anexo IV A) del RD 1632/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020). Coincide con la fila del anexo IV A) original"
+  },
+  {
+   "origen_titulo": "Técnico en Equipos e Instalaciones Electrotécnicas (LOGSE, RD 623/1995, de 21 de abril)",
+   "origen_modulo": "Instalaciones eléctricas de interior",
+   "destino_modulos": [
+    "0362"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Electricidad y electrónica», grado medio (sustituye al anexo IV A) del RD 1632/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020). Coincide con la fila del anexo IV A) original"
+  },
+  {
+   "origen_titulo": "Técnico en Equipos Electrónicos de Consumo (LOGSE, RD 624/1995, de 21 de abril)",
+   "origen_modulo": "Sistemas electrónicos de información",
+   "destino_modulos": [
+    "0360"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Electricidad y electrónica», grado medio (sustituye al anexo IV A) del RD 1632/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020). Coincide con la fila del anexo IV A) original"
+  },
+  {
+   "origen_titulo": "Técnico en Equipos Electrónicos de Consumo (LOGSE, RD 624/1995, de 21 de abril)",
+   "origen_modulo": "Electrónica general + Electrónica digital y microprogramable",
+   "destino_modulos": [
+    "0359"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Electricidad y electrónica», grado medio (sustituye al anexo IV A) del RD 1632/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020). Coincide con la fila del anexo IV A) original. La celda de origen lista dos módulos LOGSE («Electrónica general.» y «Electrónica digital y microprogramable.»): se exigen ambos (art. 3.3 del RD 1085/2020: si la convalidación exige varios módulos, la nota es la media aritmética)"
+  },
+  {
+   "origen_titulo": "Técnico en Equipos Electrónicos de Consumo (LOGSE, RD 624/1995, de 21 de abril)",
+   "origen_modulo": "Instalaciones básicas",
+   "destino_modulos": [
+    "0362"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Electricidad y electrónica», grado medio (sustituye al anexo IV A) del RD 1632/2009, derogado por la disp. derogatoria única.2 del RD 1085/2020). Coincide con la fila del anexo IV A) original"
+  },
+  {
+   "origen_titulo": "Técnico en Explotación de Sistemas Informáticos (RD 497/2003, de 2 de mayo)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0360"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Electricidad y electrónica», grado medio. Fila nueva del RD 1085/2020: no estaba en el anexo IV A) del RD 1632/2009. El RD 1085/2020 trata el RD 497/2003 como título LOGSE"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Productos Electrónicos (LOGSE, RD 620/1995, de 21 de abril)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0359"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Electricidad y electrónica», grado medio. Fila nueva del RD 1085/2020: no estaba en el anexo IV A) del RD 1632/2009. La cabecera del BOE escribe «Técnico en instalaciones de Telecomunicaciones» con minúscula"
+  },
+  {
+   "origen_titulo": "Técnico en Equipos e Instalaciones Electrotécnicas (LOGSE, RD 623/1995, de 21 de abril)",
+   "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa",
+   "destino_modulos": [
+    "0367"
+   ],
+   "fuente": "RD 1632/2009 anexo IV A) original (derogado por la disp. derogatoria única.2 del RD 1085/2020, que no repite esta fila). Hoy la regla equivalente es el cuadro general de EIE del anexo II del RD 1085/2020 y, por la DA 6.ª de ese RD, la convalidación de EIE se entiende hecha también a 1710 (IPE II). 0367 está suprimido desde el RD 499/2024"
+  },
+  {
+   "origen_titulo": "Técnico en Equipos e Instalaciones Electrotécnicas (LOGSE, RD 623/1995, de 21 de abril)",
+   "origen_modulo": "Formación en centro de trabajo",
+   "destino_modulos": [
+    "0368 (Formación en centros de trabajo: módulo suprimido, solo cabe exención)"
+   ],
+   "fuente": "RD 1632/2009 anexo IV A) original (derogado por la disp. derogatoria única.2 del RD 1085/2020, que no repite esta fila). El RD 1085/2020 (art. 3.4) y el RD 659/2023 (art. 126.4.a) establecen que la formación en empresa no se convalida, solo admite exención total o parcial"
+  },
+  {
+   "origen_titulo": "Técnico en Equipos Electrónicos de Consumo (LOGSE, RD 624/1995, de 21 de abril)",
+   "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa",
+   "destino_modulos": [
+    "0367"
+   ],
+   "fuente": "RD 1632/2009 anexo IV A) original (derogado por la disp. derogatoria única.2 del RD 1085/2020, que no repite esta fila). Hoy la regla equivalente es el cuadro general de EIE del anexo II del RD 1085/2020 y, por la DA 6.ª de ese RD, la convalidación de EIE se entiende hecha también a 1710 (IPE II). 0367 está suprimido desde el RD 499/2024"
+  },
+  {
+   "origen_titulo": "Técnico en Equipos Electrónicos de Consumo (LOGSE, RD 624/1995, de 21 de abril)",
+   "origen_modulo": "Formación en centro de trabajo",
+   "destino_modulos": [
+    "0368 (Formación en centros de trabajo: módulo suprimido, solo cabe exención)"
+   ],
+   "fuente": "RD 1632/2009 anexo IV A) original (derogado por la disp. derogatoria única.2 del RD 1085/2020, que no repite esta fila). El RD 1085/2020 (art. 3.4) y el RD 659/2023 (art. 126.4.a) establecen que la formación en empresa no se convalida, solo admite exención total o parcial"
+  },
+  {
+   "origen_titulo": "Técnico en Instalaciones Eléctricas y Automáticas (LOE, RD 177/2008, de 8 de febrero)",
+   "origen_modulo": "0233. Electrónica + 0234. Electrotecnia",
+   "destino_modulos": [
+    "0359"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Electricidad y electrónica», grado medio (fila «0233 + 0234 → 0359. Electrónica aplicada»). La celda de origen lista los dos módulos: se exigen ambos"
+  },
+  {
+   "origen_titulo": "Técnico en Instalaciones Eléctricas y Automáticas (LOE, RD 177/2008, de 8 de febrero)",
+   "origen_modulo": "0232. Automatismos industriales + 0235. Instalaciones eléctricas interiores + 0240. Máquinas eléctricas",
+   "destino_modulos": [
+    "0362"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Electricidad y electrónica», grado medio (fila «0232 + 0235 + 0240 → 0362. Instalaciones eléctricas básicas»). La celda de origen lista los tres módulos: se exigen todos"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Mantenimiento Electrónico (LOE, RD 1578/2011, de 4 de noviembre)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0359",
+    "0360"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Electricidad y electrónica», grado medio (fila «Ciclo completo → 0359 + 0360»). Fila nueva del RD 1085/2020"
+  },
+  {
+   "origen_titulo": "Técnico en Sistemas Microinformáticos y Redes (LOE, RD 1691/2007, de 14 de diciembre)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0360",
+    "0361"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Electricidad y electrónica», grado medio (fila «Ciclo completo → 0360 + 0361»). Fila nueva del RD 1085/2020. En sentido inverso (aportando este título) no hay ninguna fila hacia Sistemas Microinformáticos y Redes en el RD 1085/2020 ni en research/smr.json"
+  },
+  {
+   "origen_titulo": "Técnico en Instalaciones Eléctricas y Automáticas (LOE, RD 177/2008, de 8 de febrero)",
+   "origen_modulo": "0237. Infraestructuras comunes de telecomunicación en viviendas y edificios",
+   "destino_modulos": [
+    "0237"
+   ],
+   "fuente": "Módulos idénticos: mismo código, denominación y 65 h de enseñanzas mínimas en el RD 177/2008 y en el RD 1632/2009; cotejados los resultados de aprendizaje, criterios de evaluación y contenidos de ambos anexos I (solo difieren puntuación, un verbo en un criterio, la redacción de las referencias a objetivos generales/competencias y el formato de las listas de contenidos). Art. 3.2 del RD 1085/2020 y art. 126 del RD 659/2023; Decreto 91/2024 anexo VIII.3 (mismo código = módulo idéntico, traslado de nota). NO figura como fila en las tablas del RD 1085/2020. La API de centros docentes de Aragón lista 0237 como común ELE202-203"
+  },
+  {
+   "origen_titulo": "Técnico en Instalaciones Eléctricas y Automáticas (LOE, RD 177/2008, de 8 de febrero)",
+   "origen_modulo": "0238. Instalaciones domóticas",
+   "destino_modulos": [
+    "0238"
+   ],
+   "fuente": "Módulos idénticos: mismo código, denominación y 65 h de enseñanzas mínimas en el RD 177/2008 y en el RD 1632/2009; cotejados los resultados de aprendizaje, criterios de evaluación y contenidos de ambos anexos I (solo difieren puntuación, un verbo en un criterio, la redacción de las referencias a objetivos generales/competencias y el formato de las listas de contenidos). Art. 3.2 del RD 1085/2020 y art. 126 del RD 659/2023; Decreto 91/2024 anexo VIII.3 (mismo código = módulo idéntico, traslado de nota). NO figura como fila en las tablas del RD 1085/2020. La API de centros docentes de Aragón lista 0237 como común ELE202-203"
+  },
+  {
+   "origen_titulo": "Técnico en Instalaciones de Telecomunicaciones (LOE, RD 1632/2009, de 30 de octubre) (sentido inverso: hacia otros ciclos)",
+   "origen_modulo": "0237. Infraestructuras comunes de telecomunicación en viviendas y edificios",
+   "destino_modulos": [
+    "0237 (Técnico en Instalaciones Eléctricas y Automáticas, RD 177/2008)"
+   ],
+   "fuente": "Sentido inverso: este título APORTA la formación. Módulos idénticos (véanse las filas en sentido directo)"
+  },
+  {
+   "origen_titulo": "Técnico en Instalaciones de Telecomunicaciones (LOE, RD 1632/2009, de 30 de octubre) (sentido inverso: hacia otros ciclos)",
+   "origen_modulo": "0238. Instalaciones domóticas",
+   "destino_modulos": [
+    "0238 (Técnico en Instalaciones Eléctricas y Automáticas, RD 177/2008)"
+   ],
+   "fuente": "Sentido inverso: este título APORTA la formación. Módulos idénticos (véanse las filas en sentido directo)"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE de grado medio (cualquiera)",
+   "origen_modulo": "Lengua Extranjera (65 h) / Lengua Extranjera o de la C.A., cuando la lengua cursada y superada sea inglés",
+   "destino_modulos": [
+    "0156"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones de los módulos profesionales de Inglés», grado medio (redacción de la DF 4.ª.Dos del RD 659/2023: destino «0156. Inglés Profesional»). Transversal"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE de grado superior (cualquiera)",
+   "origen_modulo": "Módulos profesionales de Lengua Extranjera de grado superior, en cualquiera de sus denominaciones, siempre que sea la misma lengua (inglés)",
+   "destino_modulos": [
+    "0156"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones de los módulos profesionales de Inglés», grado medio (fila de módulos de Lengua Extranjera de ciclos de grado superior). Transversal"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE de grado superior (cualquiera)",
+   "origen_modulo": "0179. Inglés Profesional",
+   "destino_modulos": [
+    "0156"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con inglés» (redacción de la DF 4.ª.Tres del RD 659/2023) y art. 126.4.c del RD 659/2023 (de superior a medio se admite; de medio a superior, no). Transversal"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés (EOI o título universitario; no es un título de FP)",
+   "origen_modulo": "Certificado de Ciclo Elemental (RD 967/1988), de Nivel Intermedio B1 (RD 1629/2006), de Aptitud (RD 967/1988) o de Nivel Avanzado B2 o superior de inglés de la EOI, o Grado en Filología Inglesa o en Traducción e Interpretación (inglés)",
+   "destino_modulos": [
+    "0156"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con inglés», y art. 3.7 (para grado medio basta B1 o superior). Transversal"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE (cualquiera)",
+   "origen_modulo": "Formación y Orientación Laboral, más la certificación de prevención de riesgos laborales de nivel básico",
+   "destino_modulos": [
+    "0366",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones de los módulos profesionales de Formación y Orientación Laboral» (grado medio y superior), DA 3.ª del mismo RD y DA 6.ª.1. 0366 está suprimido desde el RD 499/2024"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0366",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, misma tabla de FOL, y DA 2.ª del RD 1085/2020; DA 6.ª.1 (→ también 1709)"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE (cualquiera)",
+   "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa (y equivalentes del cuadro de EIE)",
+   "destino_modulos": [
+    "0367",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y superior), que también admite: Administración y gestión de un pequeño establecimiento comercial (Comercio); Organización y gestión de una explotación agraria familiar (Trabajos Forestales, Jardinería, Explotaciones Agrarias Extensivas, Explotaciones Agrícolas Intensivas, Explotaciones Ganaderas); ciclo completo de Gestión administrativa (RD 1662/1994); Organización y gestión de una pequeña empresa de actividades de tiempo libre y socioeducativas (Animación Sociocultural, Animación de Actividades Físicas y Deportivas, Animación Turística); Organización y control en agencias de viajes; Administración de establecimientos de restauración; Administración y gestión de una unidad/gabinete de Ortoprotésica; Organización, administración y gestión de una unidad/gabinete de prótesis dentales; Administración y gestión de un gabinete audioprotésico; Organización y gestión de una empresa agraria; ciclo completo de Administración y finanzas (RD 1659/1994). DA 6.ª.2 (→ también 1710). 0367 está suprimido desde el RD 499/2024"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE (cualquiera)",
+   "origen_modulo": "0366. Formación y orientación laboral (o el FOL de cualquier ciclo LOE)",
+   "destino_modulos": [
+    "0366",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con formación y orientación laboral», y DA 6.ª.1"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE (cualquiera)",
+   "origen_modulo": "0367. Empresa e iniciativa emprendedora (o el EIE de cualquier ciclo LOE)",
+   "destino_modulos": [
+    "0367",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción del RD 500/2024, DF 1.ª.Tres), y DA 6.ª.2"
+  },
+  {
+   "origen_titulo": "Ciclo LOE de grado medio o superior de las familias profesionales Comercio y Marketing o Administración y Gestión",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0367",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción del RD 500/2024, DF 1.ª.Tres: «Cualquier ciclo de grado medio o superior de las Familias Profesionales Comercio y Marketing o Administración y Gestión → EIE»), y DA 6.ª.2"
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 14 de julio de 2010)",
+   "origen_modulo": "0366. Formación y orientación laboral",
+   "destino_modulos": [
+    "1709"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), DT 2.ª, apartados 2 y 3: FOL equivale a 1709 Itinerario personal para la empleabilidad I (y, en sentido inverso, según el apartado 5)"
+  },
+  {
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 14 de julio de 2010)",
+   "origen_modulo": "0367. Empresa e iniciativa emprendedora",
+   "destino_modulos": [
+    "1710"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), DT 2.ª, apartados 2 y 3: EIE equivale a 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de idioma (Aragón)",
+   "origen_modulo": "Certificado de nivel B1 de inglés (Orden de 11 de noviembre de 2014 de Aragón o norma que la sustituya)",
+   "destino_modulos": [
+    "AOP1001 (módulo profesional optativo de Aragón: Comunicación profesional en Inglés (GM); código A173 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), art. 12.1 en la redacción del Decreto 107/2025. Este plan LOE de ELE203 no tenía módulo de inglés propio (A013/A038/A039), así que la vía de los planes a extinguir «Lengua Extranjera Profesional: Inglés 1 y 2» no aplica a alumnado de este ciclo"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de idioma (Aragón)",
+   "origen_modulo": "Certificado de nivel B1 de francés (Orden de 11 de noviembre de 2014 de Aragón o norma que la sustituya)",
+   "destino_modulos": [
+    "AOP1002 (módulo profesional optativo de Aragón: Segunda lengua profesional Francés; código A171 antes del Decreto 107/2025)"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), art. 12.2 en la redacción del Decreto 107/2025"
+  },
+  {
+   "origen_titulo": "Otro ciclo formativo de grado medio (Aragón)",
+   "origen_modulo": "Módulo profesional optativo superado",
+   "destino_modulos": [
+    "Módulo profesional optativo (OPT), sin código estatal"
+   ],
+   "fuente": "Orden ECD/842/2024 (Aragón), art. 12.4 en la redacción del Decreto 107/2025 y Decreto 91/2024 anexo VIII: un optativo superado en un CFGM puede convalidarse en cualquier otro CFGM"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0120_2",
+    "UC0121_2"
+   ],
+   "modulos": [
+    "0237"
+   ],
+   "fuente": "RD 1632/2009 anexo V A) — texto original de 2009, NO modificado por el RD 499/2024 (que no toca los anexos V de este título). Las dos UC van en la misma celda: hacen falta ambas",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0597_2"
+   ],
+   "modulos": [
+    "0363"
+   ],
+   "fuente": "RD 1632/2009 anexo V A) — texto original de 2009, NO modificado por el RD 499/2024 (que no toca los anexos V de este título)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0598_2"
+   ],
+   "modulos": [
+    "0364"
+   ],
+   "fuente": "RD 1632/2009 anexo V A) — texto original de 2009, NO modificado por el RD 499/2024 (que no toca los anexos V de este título)",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0599_2",
+    "UC0600_2"
+   ],
+   "modulos": [
+    "0361"
+   ],
+   "fuente": "RD 1632/2009 anexo V A) — texto original de 2009, NO modificado por el RD 499/2024 (que no toca los anexos V de este título). Las dos UC van en la misma celda: hacen falta ambas",
+   "vigente": true
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0237"
+   ],
+   "uc": [
+    "UC0120_2",
+    "UC0121_2"
+   ],
+   "fuente": "RD 1632/2009 anexo V B) — texto original de 2009, NO modificado por el RD 499/2024 (que no toca los anexos V de este título)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0363"
+   ],
+   "uc": [
+    "UC0597_2"
+   ],
+   "fuente": "RD 1632/2009 anexo V B) — texto original de 2009, NO modificado por el RD 499/2024 (que no toca los anexos V de este título)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0364"
+   ],
+   "uc": [
+    "UC0598_2"
+   ],
+   "fuente": "RD 1632/2009 anexo V B) — texto original de 2009, NO modificado por el RD 499/2024 (que no toca los anexos V de este título)",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0361"
+   ],
+   "uc": [
+    "UC0599_2",
+    "UC0600_2"
+   ],
+   "fuente": "RD 1632/2009 anexo V B) — texto original de 2009, NO modificado por el RD 499/2024 (que no toca los anexos V de este título)",
+   "vigente": true
+  }
+ ],
+ "equivalencias_uc": {
+  "UC0120_2": [
+   "ECP0120_2"
+  ],
+  "UC0121_2": [
+   "ECP0121_2"
+  ],
+  "UC2272_2": [
+   "ECP2272_2"
+  ],
+  "UC0597_2": [
+   "ECP0597_2"
+  ],
+  "UC0598_2": [
+   "ECP0598_2"
+  ],
+  "UC0599_2": [
+   "ECP0599_2"
+  ],
+  "UC0600_2": [
+   "ECP0600_2"
+  ]
+ },
+ "uc_descripciones": {
+  "UC0120_2": "2009 (RD 1632/2009): «Montar y mantener instalaciones de captación de señales de radiodifusión sonora y TV en edificios o conjuntos de edificaciones (antenas y vía cable)». Denominación vigente (RD 268/2017 y RD 532/2025): «Montar y mantener instalaciones destinadas a la captación, adaptación y distribución de señales de radiodifusión sonora y televisión en edificios» [ECP0120_2]",
+  "UC0121_2": "2009 (RD 1632/2009): «Montar y mantener instalaciones de acceso al servicio de telefonía disponible al público e instalaciones de control de acceso (telefonía interior y videoportería)». Denominación vigente: «Montar y mantener instalaciones destinadas al acceso a servicios de telefonía y banda ancha en edificios» [ECP0121_2]",
+  "UC2272_2": "«Montar y mantener instalaciones destinadas a redes de gestión, control, seguridad y comunicación interior en edificios» [ECP2272_2]. Añadida a ELE043_2 por el RD 268/2017; NO figura en los anexos V A) ni V B) del RD 1632/2009 ni en su art. 6, de modo que no está asociada a ningún módulo",
+  "UC0597_2": "«Montar y mantener instalaciones de megafonía y sonorización de locales» (denominación sin cambios en la Orden PRE/1632/2015 ni en el RD 532/2025) [ECP0597_2]. La herramienta de CATEDU la escribe «...megafonía y/o sonorización de espacios» (véase no_verificado)",
+  "UC0598_2": "«Montar y mantener instalaciones de circuito cerrado de televisión» (denominación sin cambios) [ECP0598_2]",
+  "UC0599_2": "«Montar y mantener sistemas de telefonía con centralitas de baja capacidad» (denominación sin cambios) [ECP0599_2]",
+  "UC0600_2": "«Montar y mantener infraestructuras de redes locales de datos» (denominación sin cambios) [ECP0600_2]"
+ },
+ "cualificaciones": [
+  {
+   "codigo": "ELE043_2",
+   "nombre_2009": "Montaje y mantenimiento de infraestructuras de telecomunicaciones en edificios",
+   "nombre_vigente": "Montaje y mantenimiento de infraestructuras de telecomunicaciones en edificios",
+   "completa": true,
+   "uc": [
+    "UC0120_2",
+    "UC0121_2"
+   ],
+   "uc_2009": [
+    "UC0120_2",
+    "UC0121_2"
+   ],
+   "uc_vigente": [
+    "UC0120_2",
+    "UC0121_2",
+    "UC2272_2"
+   ],
+   "formacion_asociada_horas": 570,
+   "norma": "RD 295/2004, de 20 de febrero (anexo XLIII), con nueva redacción del RD 268/2017, de 17 de marzo (BOE 29/03/2017): cambian las denominaciones de UC0120_2 y UC0121_2 y se añade UC2272_2 (formación asociada: MF0120_2 210 h + MF0121_2 180 h + MF2272_2 180 h). Cualificación completa (art. 6.a del RD 1632/2009, no modificado por el RD 499/2024)"
+  },
+  {
+   "codigo": "ELE188_2",
+   "nombre_2009": "Montaje y mantenimiento de instalaciones de megafonía, sonorización de locales y circuito cerrado de televisión",
+   "nombre_vigente": "Montaje y mantenimiento de instalaciones de megafonía, sonorización de locales y circuito cerrado de televisión",
+   "completa": true,
+   "uc": [
+    "UC0597_2",
+    "UC0598_2"
+   ],
+   "uc_2009": [
+    "UC0597_2",
+    "UC0598_2"
+   ],
+   "uc_vigente": [
+    "UC0597_2",
+    "UC0598_2"
+   ],
+   "formacion_asociada_horas": 300,
+   "norma": "RD 1228/2006, de 27 de octubre (anexo CLXXXVIII), actualizada por la Orden PRE/1632/2015, de 23 de julio (anexo I; formación asociada MF0597_2 150 h + MF0598_2 150 h). Mismas UC con las mismas denominaciones. Cualificación completa (art. 6.b del RD 1632/2009)"
+  },
+  {
+   "codigo": "ELE189_2",
+   "nombre_2009": "Montaje y mantenimiento de sistemas de telefonía e infraestructuras de redes locales de datos",
+   "nombre_vigente": "Montaje y mantenimiento de sistemas de telefonía e infraestructuras de redes locales de datos",
+   "completa": true,
+   "uc": [
+    "UC0599_2",
+    "UC0600_2"
+   ],
+   "uc_2009": [
+    "UC0599_2",
+    "UC0600_2"
+   ],
+   "uc_vigente": [
+    "UC0599_2",
+    "UC0600_2"
+   ],
+   "formacion_asociada_horas": 420,
+   "norma": "RD 1228/2006, de 27 de octubre (anexo CLXXXIX), actualizada por la Orden PRE/1632/2015, de 23 de julio (anexo II; formación asociada MF0599_2 180 h + MF0600_2 240 h). Mismas UC con las mismas denominaciones. Cualificación completa (art. 6.c del RD 1632/2009)"
+  }
+ ],
+ "notas": [
+  "Denominación y código: la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=ELE203, consultada el 30/09/2026) devuelve ELE203 = «Instalaciones de Telecomunicaciones», CFGM, familia Electricidad y Electrónica (ELE), 2.000 h. Coincide con el título del RD 1632/2009 (Técnico en Instalaciones de Telecomunicaciones), con el anexo XIV de la Orden ECD/842/2024 («INSTALACIONES DE TELECOMUNICACIONES (ELE203)») y con la ficha de todofp.es (https://www.todofp.es/que-estudiar/familias-profesionales/electricidad-electronica/instalaciones-telecomunicaciones.html).",
+  "El campo «horas» es el del currículo básico / enseñanzas mínimas (RD 1632/2009 anexo I para los módulos específicos, 1.100 h = 55 % de 2.000 h: 65 + 65 + 110 + 75 + 130 + 110 + 80 + 85 + 75 = 795 h específicas, más FOL 50, EIE 35 y FCT 220; RD 659/2023 y RD 499/2024 para los módulos comunes nuevos). Las horas reales de impartición están en «horas_otras» (aragon = Orden ECD/842/2024 anexo XIV; mefp = Orden EFD/657/2024 anexo XXII; loe = plan LOE de Aragón).",
+  "Aragón (Orden ECD/842/2024, anexo XIV, código ELE203, pág. 21836 del BOA): 30 h/semana en 1.º y 30 en 2.º, 1.000 h por curso, 2.000 en total. Primer curso: 0237 (167 h, 5 h/sem), 0359 (167, 5), 0360 (100, 3), 0361 (133, 4), 0362 (200, 6), A997 (33, 1), 1709 (100, 3), 1664 (33, 1) y 0156 (67, 2). Segundo curso: 0238 (133, 4), 0363 (200, 6), 0364 (200, 6), 0365 (167, 5), A996 (33, 1), 1710 (67, 2), 1708 (33, 1), 1713 (67, 2) y el optativo (100, 3). La API de CATEDU da las mismas horas y cursos.",
+  "MEFP (Orden EFD/657/2024, anexo XXII): 1.º con 30 sesiones/semana y 975 h (0237 120, 0360 130, 0362 160, 0359 170, 0361 190, 1709 100, 1708 35, 0156 70); 2.º con 31 sesiones y 1.025 h (0238 190, 0365 190, 0364 190, 0363 190, 1710 100, 1664 35, optativas 80, 1713 50). Total 2.000 h, con la formación en empresa integrada en los módulos (no hay fila de FCT). Las columnas 1.º/2.º se han leído en el XML del BOE, con celdas vacías explícitas.",
+  "RD 499/2024: este título es el 13.º de la lista del art. primero.Dos.a) (ciclos sin módulo de inglés previo). Suprime 0366 FOL, 0367 EIE y 0368 FCT (art. cuarto.Uno.c) y añade 0156 Inglés profesional (GM), 1709, 1710, 1664, 1708, 1713 y el optativo (art. cuarto y séptimo.Uno). Según la lista de modificaciones del BOE, solo modifica los arts. 2, 10, 12 y 15 y los anexos I y III del RD 1632/2009: NO el art. 6 ni los anexos V A) y V B), que siguen en su redacción ORIGINAL de 2009 (por eso usan las denominaciones de UC de 2009, que hay que cruzar con el RD 532/2025).",
+  "Reglas del nuevo art. 15 del RD 1632/2009 (redacción del RD 499/2024, art. sexto): convalidaciones según los arts. 126-128 del RD 659/2023; para títulos anteriores al 5/3/2017 (este lo es) se aplica el RD 1085/2020; si en una celda de las tablas de UC hay dos o más UC o módulos, hacen falta todos simultáneamente; ante discrepancias prevalece el código sobre la denominación; exención de la formación en empresa por el art. 131 del RD 659/2023.",
+  "Convalidaciones: el anexo IV A) del RD 1632/2009 (dos tablas, desde Equipos e Instalaciones Electrotécnicas y desde Equipos Electrónicos de Consumo) lo deroga el RD 1085/2020 (disp. derogatoria única.2) y sus filas pasan al anexo II del RD 1085/2020, salvo las de EIE (0367) y FCT (0368), que el RD 1085/2020 no repite (EIE se trata en el cuadro general; la FCT nunca se convalida). Además, el RD 1085/2020 añade en el anexo II los orígenes Explotación de Sistemas Informáticos (RD 497/2003) y Técnico Superior en Desarrollo de Productos Electrónicos (RD 620/1995) y, en el anexo III, Instalaciones Eléctricas y Automáticas, Técnico Superior en Mantenimiento Electrónico y Sistemas Microinformáticos y Redes. Este título NO aparece como origen en ninguna tabla del RD 1085/2020 (solo como destino).",
+  "Título LOGSE anterior: Técnico en Equipos Electrónicos de Consumo (RD 624/1995). Sus convalidaciones (anexo IV A) del RD 1632/2009 y anexo II del RD 1085/2020): Sistemas electrónicos de información → 0360; Electrónica general + Electrónica digital y microprogramable → 0359; Instalaciones básicas → 0362; Administración, gestión y comercialización en la pequeña empresa → 0367 (hoy también 1710); Formación en centro de trabajo → 0368 (solo exención). Idénticas filas desde Equipos e Instalaciones Electrotécnicas (RD 623/1995): Instalaciones singulares en viviendas y edificios → 0237; Instalaciones automatizadas en viviendas y edificios → 0238; Instalaciones eléctricas de interior → 0362.",
+  "Cruces con Instalaciones Eléctricas y Automáticas (ELE202, research/ele202.json): comparten los módulos 0237 y 0238 (mismo código, denominación y 65 h de enseñanzas mínimas; en Aragón 0237 = 167 h en 1.º de ELE203 y 2.º de ELE202, y 0238 = 133 h en 2.º de ambos) y los módulos comunes 0156, 1709, 1710, 1664, 1708 y 1713. Las filas del RD 1085/2020 entre ambos son IEA (0233 + 0234) → 0359 y IEA (0232 + 0235 + 0240) → 0362; ninguna en sentido contrario. La API de CATEDU marca 0237 y 1708 como comunes «ELE202-203» y los módulos 0359, 0360, 0361 y 0362 de 1.º de ELE203 con la etiqueta «ELE202-203».",
+  "Cruces con Sistemas Microinformáticos y Redes (IFC201, research/smr.json): la única fila es SMR (ciclo completo) → 0360 + 0361 (anexo III del RD 1085/2020). No hay fila con Instalaciones de Telecomunicaciones como origen hacia SMR, y research/smr.json no contiene ninguna fila con este título.",
+  "Módulos comunes nuevos (sin tabla propia en este RD): las reglas de convalidación de 0156, 1709, 1710, 1664, 1708 y del optativo son las generales del RD 659/2023 (art. 126.3-126.5) y del Decreto 91/2024 (Aragón); solo se han transcrito aquí las filas transversales del RD 1085/2020 que apuntan a 0156, FOL y EIE. La convalidación de FOL (con la certificación de PRL de nivel básico si procede de un ciclo LOGSE) apunta a 1709 y la de EIE a 1710 por la DA 6.ª del RD 1085/2020.",
+  "Anexo IV B) del RD 1632/2009 («Convalidaciones con materias de Bachillerato»): módulo Electrónica aplicada (0359) – materia de Bachillerato Electrotecnia. No se ha recogido como fila (véase no_verificado).",
+  "Anexos V A) y V B) del RD 1632/2009 (redacción original = redacción vigente): 0237 ↔ UC0120_2 + UC0121_2; 0363 ↔ UC0597_2; 0364 ↔ UC0598_2; 0361 ↔ UC0599_2 + UC0600_2. Los módulos 0238, 0359, 0360, 0362 y 0365 no están asociados a ninguna UC. Herramienta de CATEDU (https://centrosdocentes.catedu.es/awc/public/competencias; api/tab1_competencias_acreditadas.php y api/tab2_modulos_superados.php, consultadas el 30/09/2026): reproduce exactamente estas filas (0237 con ECP0120_2 + ECP0121_2, 0361 con ECP0599_2 + ECP0600_2, 0363 con ECP0597_2, 0364 con ECP0598_2; una UC sola de una pareja aparece como «potencial»). Además asocia 0238 con ECP2343_2 (junto a 0232), porque 0238 también es módulo de IEA y el anexo V B) del RD 177/2008 lo vincula a UC0822_2 (equivalente a ECP2343_2 por el RD 532/2025).",
+  "UC/ECP: las siete UC de este título y ELE043_2 conservan su número al pasar a ECP (RD 532/2025 anexo I) y ninguna figura en los anexos II-a ni II-b. Cambian de denominación UC0120_2 y UC0121_2 (RD 268/2017); ELE043_2 ganó UC2272_2 (RD 268/2017), que el RD 1632/2009 no cita. Los certificados de profesionalidad ELES0109 y afines no se han investigado.",
+  "Optativo: en Aragón son 100 h en 2.º curso. Oferta común vigente (Decreto 107/2025): AOP1001 Comunicación profesional en Inglés (GM), AOP1002 Segunda lengua profesional Francés y AOP1003 Ofimática avanzada aplicada al sector profesional (antes A173, A171 y A172). De diseño propio autorizado para ELE203 (Resolución de 6/6/2025): AOP1013, AOP1016, AOP1017, AOP1018 y AOP1019. En el ámbito MEFP el repertorio de la Resolución de 27/06/2025 incluye 1803 específicamente para este ciclo.",
+  "Los módulos de tutoría A997 y A996 solo aparecen en la tabla del anexo XIV de la Orden ECD/842/2024; el articulado no los crea ni los regula. A995 (Tutoría III) solo existe en los tres ciclos con horario nocturno (ELE202, SAN203 y SSC201); ELE203 no lo tiene y no tiene tabla nocturna.",
+  "PLAN LOE de Aragón (anterior al RD 499/2024) — Resolución de 25 de agosto de 2010, BOA núm. 182 de 16/09/2010, pág. 21614, modalidad de diurno, 30 h/semana en cada curso: 1.º 0237 (128 h, 4 h/sem), 0359 (192, 6), 0360 (128, 4), 0361 (224, 7), 0362 (192, 6) y 0366 FOL (96, 3) = 960 h; 2.º 0238 (126, 6), 0363 (147, 7), 0364 (147, 7), 0365 (147, 7), 0367 EIE (63, 3) y 0368 FCT (410 h, sin horas semanales) = 1.040 h. Total 2.000 h. Estas horas son las de la clave «loe» de cada módulo. Este plan no tenía módulo propio de inglés.",
+  "PLAN LOE del ámbito MEC/MEFP (anterior a la Orden EFD/657/2024) — Orden EDU/391/2010, anexo II (BOE-A-2010-3027, BOE de 25/02/2010): 1.º (30 h/sem) 0237 (130 h, 4), 0359 (195, 6; módulo soporte), 0360 (140, 4), 0361 (210, 7), 0362 (195, 6) y 0366 FOL (90, 3) = 960 h; 2.º (30 h/sem en 2 trimestres) 0238 (130, 6), 0363 (150, 7), 0364 (160, 7), 0365 (140, 7) y 0367 EIE (60, 3) = 640 h, más 0368 FCT (400 h en el tercer trimestre) = 1.040 h. Total 2.000 h. Difiere del de Aragón; en «loe» se ha puesto el de Aragón.",
+  "Certificados profesionales (Grado C) del título, RD 210/2025 art. 10: ELE_C_003_4B «Montaje y mantenimiento de infraestructuras de telecomunicaciones, redes locales de datos y sistemas de telefonía» (470 h orientativas; módulos 0237, 0360, 0361 y 1782 Prevención de riesgos laborales; UC0120_2, UC0121_2, UC0599_2 y UC0600_2) y ELE_C_004_4B «Montaje y mantenimiento de instalaciones de megafonía, sonorización de locales y circuito cerrado de televisión» (410 h; módulos 0363, 0364 y 1782). Certificados de competencia (Grado B): ELE_B_0237, ELE_B_0361, ELE_B_0363 y ELE_B_0364 (anexo II, apartados 2.e y 2.f).",
+  "El RD 1632/2009 (DA 3.ª) dice que la formación del módulo de FOL capacita para el nivel básico de PRL si tiene al menos 45 h; la DA 2.ª del RD 499/2024 hace esa referencia extensiva a 1709 (IPE I). Art. 14.3 original (FOL con un año de experiencia y certificado de PRL nivel básico) y art. 14.4 (exención de FCT): sustituidos por el nuevo art. 15 (arts. 126-131 del RD 659/2023)."
+ ],
+ "no_verificado": [
+  "Anexo IV B) del RD 1632/2009 (módulo Electrónica aplicada – materia de Bachillerato Electrotecnia, https://www.boe.es/buscar/act.php?id=BOE-A-2009-18404): no se ha recogido como fila porque no se sabe si sigue vigente (el RD 1085/2020 no lo cita; su base, el RD 1538/2006, está derogado; el RD 659/2023 y el RD 1085/2020 no mencionan Bachillerato) ni el sentido exacto de la tabla (parece que superar la materia convalida el módulo).",
+  "Corrección de errores de la Orden ECD/842/2024: no se ha encontrado ninguna que afecte al anexo XIV. Las correcciones de errores del BOA de 26/02/2025 corresponden a las Órdenes ECD/841/2024 (grado básico) y ECD/843/2024 (grado superior) según ANPE Aragón (https://anpearagon.es/notices/188249/Modificaci%C3%B3n-de-los-nuevos-curr%C3%ADculos-de-ciclos-formativos-en-Arag%C3%B3n.) y noticias.juridicas.com (https://noticias.juridicas.com/base_datos/CCAA/929688-orden-ecd-842-2024-de-25-jul-ca-aragon-aspectos-organizativos-del-curriculo.html, que solo lista como modificación el Decreto 107/2025). No se ha barrido el BOA completo posterior a 31/07/2024 ni se ha leído la corrección de errores del Decreto 107/2025.",
+  "Las columnas 1.º/2.º de la tabla de Aragón (anexo XIV de la Orden ECD/842/2024, https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404) son horas semanales; el curso asignado en «horas_otras.aragon» se ha deducido de la columna en que aparece cada módulo (coincide con la API de CATEDU). Las sumas cuadran (30+30 h/semana y 1.000+1.000 h).",
+  "El curso asignado a 0368 (FCT) en «loe» es 2.º: en la tabla de Aragón (https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=548701300808&type=pdf) figura con 410 h y guion en las dos columnas de horas semanales, y las sumas de 30 h/semana por curso solo cuadran así; en la tabla del MEC (Orden EDU/391/2010) sí figura explícitamente en el 2.º curso (1 trimestre, 400 h).",
+  "No se ha comprobado si existe una resolución de módulos optativos de Aragón posterior a la de 6/6/2025 que amplíe el catálogo para ELE203 en el curso 2026/2027. El módulo optativo no tiene código numérico estatal ni en el anexo XXII de la Orden EFD/657/2024 ni en el anexo XIV de Aragón (allí figura como «Módulo profesional optativo»). De la Resolución de 27/06/2025 (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14430) solo se ha leído el módulo 1803 (específico de este ciclo) y las cabeceras de los demás; no se ha revisado qué otros optativos del repertorio son de aplicación a cualquier ciclo de grado medio.",
+  "La columna «Bilingüe» del anexo XXII de la Orden EFD/657/2024 (marcada «Sí» para 0237, 0360, 0362, 0361, 0238, 0365, 0364 y 0363; https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13179) no se ha trasladado al JSON.",
+  "No se ha revisado el anexo III (profesorado) introducido por el anexo XV del RD 499/2024 ni el anexo II de espacios y equipamientos.",
+  "RD 1085/2020: el texto de las tablas se ha leído en el XML del BOE (versión de 15/04/2026) y en el HTML consolidado (https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274); las filas de este título son idénticas en ambos. El XML no incorpora la DA 6.ª ni los cambios de la DF 1.ª del RD 500/2024, que se han tomado del texto de esos RD. No se han revisado los anexos IV («Convalidaciones de títulos publicados a partir de 5 de marzo de 2017») de los RD de título posteriores a esa fecha en busca de filas que citen módulos de este título (en el anexo IV del propio RD 1085/2020 no hay ninguna).",
+  "Identidad de 0237 y 0238 con ELE202: se ha cotejado el texto del RD 177/2008 (https://www.boe.es/buscar/act.php?id=BOE-A-2008-3957) con el del RD 1632/2009; la identidad por el art. 3.2 del RD 1085/2020 no figura como fila en ninguna tabla y se ha inferido del cotejo y de la regla de Aragón (Decreto 91/2024, anexo VIII.3, según el Decreto 107/2025). No se ha comprobado cómo la aplica Aragón en la práctica (matrícula, plazos) para módulos con horas distintas en cada ciclo.",
+  "Filas de módulos del certificado profesional (Grado C, RD 210/2025, https://www.boe.es/buscar/act.php?id=BOE-A-2025-7588): son una aplicación del art. 127.a del RD 659/2023 a módulos con el mismo código y denominación, no una tabla expresa. No se ha comprobado que los módulos del certificado tengan idéntico currículo que los del título ni se han transcrito los certificados de competencia (Grado B) ni las acreditaciones parciales (Grado A, anexo III del RD 210/2025).",
+  "Herramienta de CATEDU (https://centrosdocentes.catedu.es/awc/public/competencias/api/tab2_modulos_superados.php): escribe ECP0597_2 como «Montar y mantener instalaciones de megafonía y/o sonorización de espacios», mientras que la Orden PRE/1632/2015 y el RD 532/2025 (anexo I) dicen «...megafonía y sonorización de locales». No se ha localizado una norma que cambie la denominación.",
+  "RD 623/1995 y RD 624/1995 (títulos LOGSE de origen): no se han consultado sus textos ni su identificador BOE, ni se ha comprobado su derogación formal. Los nombres de los módulos LOGSE de origen se han copiado de las tablas del RD 1085/2020 y del anexo IV A) del RD 1632/2009.",
+  "En «Técnico Superior en Desarrollo de Productos Electrónicos» (RD 620/1995) la cabecera del BOE escribe el destino como «Técnico en instalaciones de Telecomunicaciones (RD 1632/2009)»: se ha interpretado como este título por el número de RD y el módulo de destino (0359).",
+  "La ficha de todofp.es del título (https://www.todofp.es/que-estudiar/familias-profesionales/electricidad-electronica/instalaciones-telecomunicaciones.html) no publica horas por módulo ni las cualificaciones; enlaza el RD 1632/2009, el RD 499/2024, la Orden EDU/391/2010 (currículo del Ministerio; es la de 2010, no la Orden EFD/657/2024) y la Resolución de módulos optativos.",
+  "Los certificados de profesionalidad asociados a ELE043_2, ELE188_2 y ELE189_2 (ELES0109 y afines) no se han consultado; tampoco se ha comprobado si existe alguna actualización de ELE043_2, ELE188_2 o ELE189_2 posterior a la Orden PRE/1632/2015 y al RD 268/2017 distinta del RD 532/2025."
+ ],
+ "filas_inferidas_no_aplicadas": {
+  "motivo": "No proceden de una tabla expresa, sino del art. 127.a del RD 659/2023. Al tener el mismo código que los módulos del ciclo, la regla de módulo idéntico ya las cubre.",
+  "filas": [
+   {
+    "origen_titulo": "Módulos del certificado profesional ELE_C_003_4B (Grado C, RD 210/2025)",
+    "origen_modulo": "0237. Infraestructuras comunes de telecomunicación en viviendas y edificios",
+    "destino_modulos": [
+     "0237"
+    ],
+    "fuente": "RD 210/2025 art. 10 y anexo I (apartado 2.e, punto 7: «Módulos profesionales del certificado profesional»): el módulo figura con el mismo código y denominación que en este título; RD 659/2023 art. 127.a (los módulos de distintas acciones formativas de Grados B, C, D y E se convalidan; resuelve el centro). Es una aplicación de la regla general al mismo código, no una tabla del RD 1085/2020 (inferencia; véase no_verificado)"
+   },
+   {
+    "origen_titulo": "Módulos del certificado profesional ELE_C_003_4B (Grado C, RD 210/2025)",
+    "origen_modulo": "0360. Equipos microinformáticos",
+    "destino_modulos": [
+     "0360"
+    ],
+    "fuente": "RD 210/2025 art. 10 y anexo I (apartado 2.e, punto 7: «Módulos profesionales del certificado profesional»): el módulo figura con el mismo código y denominación que en este título; RD 659/2023 art. 127.a (los módulos de distintas acciones formativas de Grados B, C, D y E se convalidan; resuelve el centro). Es una aplicación de la regla general al mismo código, no una tabla del RD 1085/2020 (inferencia; véase no_verificado)"
+   },
+   {
+    "origen_titulo": "Módulos del certificado profesional ELE_C_003_4B (Grado C, RD 210/2025)",
+    "origen_modulo": "0361. Infraestructuras de redes de datos y sistemas de telefonía",
+    "destino_modulos": [
+     "0361"
+    ],
+    "fuente": "RD 210/2025 art. 10 y anexo I (apartado 2.e, punto 7: «Módulos profesionales del certificado profesional»): el módulo figura con el mismo código y denominación que en este título; RD 659/2023 art. 127.a (los módulos de distintas acciones formativas de Grados B, C, D y E se convalidan; resuelve el centro). Es una aplicación de la regla general al mismo código, no una tabla del RD 1085/2020 (inferencia; véase no_verificado)"
+   },
+   {
+    "origen_titulo": "Módulos del certificado profesional ELE_C_004_4B (Grado C, RD 210/2025)",
+    "origen_modulo": "0363. Instalaciones de megafonía y sonorización",
+    "destino_modulos": [
+     "0363"
+    ],
+    "fuente": "RD 210/2025 art. 10 y anexo I (apartado 2.f, punto 7: «Módulos profesionales del certificado profesional»): el módulo figura con el mismo código y denominación que en este título; RD 659/2023 art. 127.a (los módulos de distintas acciones formativas de Grados B, C, D y E se convalidan; resuelve el centro). Es una aplicación de la regla general al mismo código, no una tabla del RD 1085/2020 (inferencia; véase no_verificado)"
+   },
+   {
+    "origen_titulo": "Módulos del certificado profesional ELE_C_004_4B (Grado C, RD 210/2025)",
+    "origen_modulo": "0364. Circuito cerrado de televisión y seguridad electrónica",
+    "destino_modulos": [
+     "0364"
+    ],
+    "fuente": "RD 210/2025 art. 10 y anexo I (apartado 2.f, punto 7: «Módulos profesionales del certificado profesional»): el módulo figura con el mismo código y denominación que en este título; RD 659/2023 art. 127.a (los módulos de distintas acciones formativas de Grados B, C, D y E se convalidan; resuelve el centro). Es una aplicación de la regla general al mismo código, no una tabla del RD 1085/2020 (inferencia; véase no_verificado)"
+   }
+  ]
+ }
+}

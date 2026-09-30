@@ -490,6 +490,16 @@ assert.notEqual(est('hot203', bar(['Bebidas']))['0152'], 'convalidable');
 assert.equal(est('hot203', bar(['Bebidas', 'Técnicas elementales de cocina']))['0152'], 'convalidable');
 console.log('OK: Servicios en Restauración');
 
+// Instalaciones de Telecomunicaciones: celda de tres módulos de ELE202, ciclo completo de SMR, 0237 común
+require('../data/ciclos/ele203.js');
+const iea = (cods) => cods.map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'Técnico en Instalaciones Eléctricas y Automáticas', docs: [] }));
+assert.notEqual(est('ele203', iea(['0232', '0235']))['0362'], 'convalidable');
+assert.equal(est('ele203', iea(['0232', '0235', '0240']))['0362'], 'convalidable');
+assert.equal(est('ele203', iea(['0237']))['0237'], 'superado');
+r = est('ele203', [{ tipo: 'titulo', titulo: 'Técnico en Sistemas Microinformáticos y Redes', ciclo: 'smr', docs: [] }]);
+assert.equal(r['0360'], 'convalidable'); assert.equal(r['0361'], 'convalidable');
+console.log('OK: Instalaciones de Telecomunicaciones');
+
 // Plan LOE a extinguir: FOL y EIE de cualquier título se reconocen por su nombre
 for (const [c, fol, eie] of [['hot203', '0157', '0158'], ['ele202', '0241', '0242'], ['ifc301', '0380', '0381']]) {
   const mods = Object.fromEntries(CICLOS[c].modulos.map((m) => [m.codigo, m.comun]));
