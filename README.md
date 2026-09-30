@@ -65,6 +65,8 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Paisajismo y Medio Rural | AGA303 | Superior | LO 3/2022 |
 | Ganadería y Asistencia en Sanidad Animal | AGA304 | Superior | LO 3/2022 |
 | Mantenimiento Electromecánico | IMA201 | Medio | LO 3/2022 |
+| Instalaciones Frigoríficas y de Climatización | IMA202 | Medio | LO 3/2022 |
+| Instalaciones de Producción de Calor | IMA203 | Medio | LO 3/2022 |
 
 Además, el **catálogo completo de Aragón** (150 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas. De ellos, **139 tienen ya la correspondencia módulo ↔ estándar de competencia** descargada de esa misma herramienta (2.930 filas), así que convalidan por unidades de competencia acreditadas; lo que les falta es el anexo de convalidaciones con títulos anteriores, que hay que leer del BOE. La web lo avisa en pantalla, porque esas correspondencias no están contrastadas con el anexo V de cada real decreto.
 

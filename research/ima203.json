@@ -1,0 +1,1320 @@
+{
+ "ciclo": {
+  "codigo": "IMA203",
+  "nombre": "Técnico en Instalaciones de Producción de Calor",
+  "grado": "medio",
+  "familia": "Instalación y Mantenimiento",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 1792/2010, de 30 de diciembre",
+    "boe": "BOE-A-2011-1956",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-1956",
+    "nota": "Establece el título de Técnico en Instalaciones de Producción de Calor (BOE núm. 28, de 02/02/2011, págs. 11307-11372). 2.000 h; mínimas 1.100 h. No tiene texto consolidado en el BOE. Disp. derogatoria única: deroga el RD 2046/1995 (LOGSE Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor) y el RD 1151/1997 (su currículo). Anexo IV A) (LOGSE→LOE) derogado por el RD 1085/2020; anexo IV B): 0038 ↔ Electrotecnia de Bachillerato. Art. 6 y anexos V A) y V B) sustituidos por el RD 499/2024 (art. tercero.Diez). DA 3.ª.2: el título LOGSE tiene los mismos efectos que este. Art. 14.3 y 14.4 repiten (errata) la regla de FOL."
+   },
+   {
+    "ref": "RD 543/2023, de 27 de junio",
+    "boe": "BOE-A-2023-17383",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-17383",
+    "nota": "Establece IMA801_2 «Montaje y mantenimiento de instalaciones térmicas en edificios» (anexo IV): UC2678_2, UC2679_2, UC2680_2 y UC2327_2; formación asociada 630 h. Su anexo de equivalencias equipara UC1156_2+UC1158_2 → UC2678_2 y UC1157_2+UC1159_2 → UC2679_2 (recogido luego por el RD 532/2025). El título solo incluye UC2678_2 y UC2679_2."
+   },
+   {
+    "ref": "RD 182/2008, de 8 de febrero",
+    "boe": null,
+    "url": "https://www.boe.es/eli/es/rd/2008/02/08/182",
+    "nota": "Establecía IMA368_2 «Montaje y mantenimiento de instalaciones caloríficas» (UC1156_2, UC1157_2), única cualificación completa del art. 6.1 original; sustituida en el título por IMA801_2. No abierto (ver no_verificado)."
+   },
+   {
+    "ref": "RD 1228/2006, de 27 de octubre",
+    "boe": null,
+    "url": "https://www.boe.es/eli/es/rd/2006/10/27/1228",
+    "nota": "Establece ENA190_2 «Montaje y mantenimiento de instalaciones solares térmicas»; el título incluye UC0602_2 y UC0605_2 (incompleta). No abierto."
+   },
+   {
+    "ref": "RD 716/2010, de 28 de mayo",
+    "boe": null,
+    "url": "https://www.boe.es/eli/es/rd/2010/05/28/716",
+    "nota": "Establece ENA472_2 (anexo CDLXXII) «Montaje, puesta en servicio, mantenimiento e inspección de instalaciones receptoras y aparatos de gas»; el título incluye UC1522_2 y UC1525_2 (incompleta). No abierto."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Su disp. derogatoria única.2 deroga el anexo IV A) (LOGSE→LOE) del RD 1792/2010. Las filas vigentes están en su anexo II (tabla «Instalación y Mantenimiento», grado medio) y en su anexo III (LOE→LOE, tablas «Instalación y Mantenimiento» y «Energía y Agua»). Texto consolidado consultado: última actualización 07/04/2026 (RD 262/2026). DA 5.ª: las filas de los anexos se aplican al módulo en cualquier ciclo que lo incluya (relevante porque 0036, 0037 y 0038 son comunes a IMA202 e IMA203). DA 6.ª (RD 500/2024): destino FOL se entiende también 1709 y destino EIE, 1710."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP. Currículo básico de 1709 y 1710 (anexo V, 50 h), 1664 (anexo VI, 30 h), 1708 (anexo VIII, 30 h) y 0156 (anexo IX, 50 h); anexo IV: optativo de 80 h. Arts. 126-128 y 131: reglas de convalidación y exención; art. 126.4: no se convalidan la formación en empresa ni el proyecto intermodular."
+   },
+   {
+    "ref": "RD 499/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10684",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
+    "nota": "Adapta los títulos de grado medio a la LO 3/2022. Este título está en el art. primero.Dos.a) (ciclos sin módulo de inglés previo), ordinal 21.º. Art. cuarto.Uno.c).1.º: suprime 0394 (FOL), 0395 (EIE) y 0396 (FCT); c).2.º y e): añade 0156, 1709, 1710, 1664, 1708, 1713 y un optativo de 80 h. Art. tercero.Diez: NUEVA redacción del art. 6 y SUSTITUYE los anexos V A) y V B) (IMA368_2 con UC1156_2/UC1157_2 se sustituye por IMA801_2 con UC2678_2/UC2679_2; ENA190_2 y ENA472_2 siguen igual). Art. sexto: nuevo art. 15 (remite al RD 1085/2020). Art. octavo.Veintiuno y anexo XXIII: nuevo anexo III (profesorado). DA 2.ª: la referencia a FOL de la DA 3.ª se entiende hecha a 1709."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Homólogo para grado superior; su disp. final 1.ª.2 añade la DA 6.ª al RD 1085/2020 (FOL→IPE I, EIE→IPE II)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra las UC como Estándares de Competencia Profesional (ECP). Anexo I: catálogo UC→ECP. Anexos II-a y II-b: equivalencias entre UC suprimidas y ECP vigentes (ver «equivalencias_uc»)."
+   },
+   {
+    "ref": "RD 2046/1995, de 22 de diciembre",
+    "boe": "BOE-A-1996-2990",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-2990",
+    "nota": "Título LOGSE de Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (2.000 h), sustituido por los dos títulos LOE. Módulos comprobados en su texto: 1 Máquinas y equipos frigoríficos, 2 Instalaciones frigoríficas, 3 Instalaciones de climatización y ventilación, 4 Instalaciones de producción de calor, 5 Instalaciones de agua y gas, 6 Administración, gestión y comercialización en la pequeña empresa, 7 Electrotecnia, 8 Técnicas de mecanizado y unión para el montaje y mantenimiento de instalaciones, 9 Instalaciones eléctricas y automatismos, 10 Seguridad en el montaje y mantenimiento de equipos e instalaciones, más FOL y FCT."
+   },
+   {
+    "ref": "Orden EDU/435/2011, de 17 de febrero",
+    "boe": "BOE-A-2011-3981",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-3981",
+    "nota": "Currículo LOE del ciclo en el ámbito del Ministerio. Derogada por la Orden EFD/657/2024 (disp. derogatoria única, letra o).2.º)."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo vigente del ámbito del Ministerio (BOE núm. 158, de 01/07/2024). Este ciclo está en el anexo XL (letra ag)); 1.º con 30 h/semana y 955 h, 2.º con 31 h/semana y 1.045 h. Art. 12: el optativo son 80 h."
+   },
+   {
+    "ref": "Orden de 21 de mayo de 2012, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=675832401010",
+    "nota": "Currículo LOE del ciclo en Aragón (BOA núm. 118, de 19/06/2012, csv BOA20120619002). Su anexo I da la duración de cada módulo (no hay tabla por cursos; el anexo VI fija los módulos necesarios para promoción). Derogada por la Orden ECD/842/2024 (disp. derogatoria única)."
+   },
+   {
+    "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+    "nota": "Currículo vigente de Aragón para grado medio (BOA núm. 148, de 31/07/2024, csv BOA20240731003). Este ciclo está en el anexo XXXI (art. 1.2.o).2.º y art. 5.3.ad)): distribución horaria (solo diurno, 30 h/semana en 1.º y en 2.º), espacios y equipamientos. Arts. 11 y 12: optativos (redacción del Decreto 107/2025). Disp. adicional única: un módulo LOE con el mismo código se reconoce automáticamente. Disp. transitoria segunda: tabla FOL→1709 y EIE→1710 para el alumnado de la ordenación a extinguir."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025. Modifica los arts. 11, 12 y 15 de la Orden ECD/842/2024: los optativos de oferta común pasan de A173/A171/A172 a AOP1001 (Comunicación profesional en Inglés GM), AOP1002 (Segunda lengua profesional Francés) y AOP1003 (Ofimática avanzada aplicada al sector profesional). No toca la tabla horaria de este ciclo."
+   },
+   {
+    "ref": "Resolución de 6 de junio de 2025, del Director General de Planificación, Centros y Formación Profesional (Aragón)",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/5514380/CSV511IT4T1J71T0XFIL+RESOLUCI%C3%93N+M%C3%93DULOS+OPTATIVOS+FP+ARAG%C3%93N.pdf",
+    "nota": "Autoriza módulos optativos de diseño propio (implantación 2025/2026). Para IMA203 autoriza AOP1033 «Instalación y mantenimiento de equipos de aerotermia y geotermia» y AOP1016 «Infraestructura, operaciones y mantenimiento de centros de datos»."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0036",
+   "nombre": "Máquinas y equipos térmicos",
+   "horas": 130,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 267,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 320,
+     "curso": 1,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  },
+  {
+   "codigo": "0037",
+   "nombre": "Técnicas de montaje de instalaciones",
+   "horas": 140,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 280,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 288,
+     "curso": 1,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  },
+  {
+   "codigo": "0038",
+   "nombre": "Instalaciones eléctricas y automatismos",
+   "horas": 145,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 267,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 280,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 256,
+     "curso": 1,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  },
+  {
+   "codigo": "0266",
+   "nombre": "Configuración de instalaciones caloríficas",
+   "horas": 70,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 84,
+     "curso": 2,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  },
+  {
+   "codigo": "0302",
+   "nombre": "Montaje y mantenimiento de instalaciones caloríficas",
+   "horas": 110,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 230,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 168,
+     "curso": 2,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  },
+  {
+   "codigo": "0310",
+   "nombre": "Montaje y mantenimiento de instalaciones de agua",
+   "horas": 90,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 105,
+     "curso": 2,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  },
+  {
+   "codigo": "0392",
+   "nombre": "Montaje y mantenimiento de instalaciones de energía solar",
+   "horas": 60,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 84,
+     "curso": 2,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  },
+  {
+   "codigo": "0393",
+   "nombre": "Montaje y mantenimiento de instalaciones de gas y combustibles líquidos",
+   "horas": 50,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 126,
+     "curso": 2,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  },
+  {
+   "codigo": "0156",
+   "nombre": "Inglés Profesional (GM)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo IX (currículo básico); añadido por el RD 499/2024 (art. primero.Dos.a)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1664",
+   "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VI (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1713",
+   "nombre": "Proyecto intermodular",
+   "horas": 50,
+   "horas_fuente": "RD 499/2024 anexo II (currículo básico del proyecto intermodular, 50 h; el art. séptimo lo cita como «anexo I»)",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 499/2024 art. cuarto.Uno.e) (nuevo art. 10.3 del RD 1792/2010) y RD 659/2023 anexo IV",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "A997",
+   "nombre": "Tutoría I (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 anexo XXXI (no hay currículo básico estatal)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "A996",
+   "nombre": "Tutoría II (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 anexo XXXI (no hay currículo básico estatal)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0394",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  },
+  {
+   "codigo": "0395",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  },
+  {
+   "codigo": "0396",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 1792/2010 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 410,
+     "curso": 2,
+     "fuente": "Orden de 21 de mayo de 2012 (BOA núm. 118, de 19/06/2012, csv BOA20120619002), anexo I (duración del módulo). El curso NO consta en una tabla: se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º) y del anexo VI"
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico en Equipos e Instalaciones Electrotécnicas (LOGSE, RD 623/1995, de 21 de abril) (Electricidad y Electrónica)",
+   "origen_modulo": "Automatismos y cuadros eléctricos",
+   "destino_modulos": [
+    "0038"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Equipos e Instalaciones Electrotécnicas (RD 623/1995) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Automatismos y cuadros eléctricos → 0038»."
+  },
+  {
+   "origen_titulo": "Técnico en Instalación y Mantenimiento Electromecánico de Maquinaria y Conducción de Líneas (LOGSE, RD 2045/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0038"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Instalación y Mantenimiento Electromecánico de Máquinas y Conducción de Líneas (RD 2045/1995) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Ciclo completo → 0038». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (LOGSE, RD 2046/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": "Máquinas y equipos frigoríficos",
+   "destino_modulos": [
+    "0036"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (RD 2046/1995) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Máquinas y equipos frigoríficos → 0036». Sustituye a la fila idéntica del anexo IV A) del RD 1792/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (LOGSE, RD 2046/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": "Instalaciones de producción de calor",
+   "destino_modulos": [
+    "0302",
+    "0392"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (RD 2046/1995) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Instalaciones de producción de calor → 0302 / 0392». La celda de destino contiene los dos módulos: se convalidan ambos. Sustituye a la fila idéntica del anexo IV A) del RD 1792/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (LOGSE, RD 2046/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": "Instalaciones de agua y gas",
+   "destino_modulos": [
+    "0310",
+    "0393"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (RD 2046/1995) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Instalaciones de agua y gas → 0310 / 0393». La celda de destino contiene los dos módulos: se convalidan ambos. Sustituye a la fila idéntica del anexo IV A) del RD 1792/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (LOGSE, RD 2046/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": "Técnicas de mecanizado y unión para el montaje y mantenimiento de instalaciones",
+   "destino_modulos": [
+    "0037"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (RD 2046/1995) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Técnicas de mecanizado y unión para el montaje y mantenimiento de instalaciones → 0037». Sustituye a la fila idéntica del anexo IV A) del RD 1792/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (LOGSE, RD 2046/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": "Instalaciones eléctricas y automatismos",
+   "destino_modulos": [
+    "0038"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (RD 2046/1995) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Instalaciones eléctricas y automatismos → 0038». Sustituye a la fila idéntica del anexo IV A) del RD 1792/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Proyectos de Instalaciones de Fluidos, Térmicas y de Manutención (LOGSE, RD 2042/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": "Técnicas de montaje de instalaciones",
+   "destino_modulos": [
+    "0037"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico Superior en Desarrollo de Proyectos de Instalaciones de Fluidos, Térmicas y de Manutención (RD 2042/1995) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Técnicas de montaje de instalaciones → 0037». Bloque NUEVO (no estaba en el anexo IV A) de 2010)."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Mantenimiento y Montaje de Instalaciones de Edificio y Proceso (LOGSE, RD 2044/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": "Ejecución de procesos de montaje de instalaciones",
+   "destino_modulos": [
+    "0037"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico Superior en Mantenimiento y Montaje de Instalaciones de Edificio y Proceso (RD 2044/1995) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Ejecución de procesos de montaje de instalaciones → 0037». Bloque NUEVO (no estaba en el anexo IV A) de 2010)."
+  },
+  {
+   "origen_titulo": "Técnico en Operación, Control y Mantenimiento de Máquinas e Instalaciones del Buque (LOGSE, RD 725/1994, de 22 de abril) (Actividades Marítimo-Pesqueras)",
+   "origen_modulo": "Instalaciones y máquinas eléctricas + Automatización: regulación y control",
+   "destino_modulos": [
+    "0038"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo II (LOGSE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Operación, Control y Mantenimiento de Máquinas e Instalaciones del Buque (RD 725/1994) → Técnico en Instalaciones Frigoríficas y de Climatización (RD 1793/2010)», fila «Instalaciones y máquinas eléctricas. Automatización: regulación y control → 0038». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque el módulo 0038 es el mismo (mismo código). La celda de origen nombra dos módulos LOGSE: se exigen los dos."
+  },
+  {
+   "origen_titulo": "Técnico en Operación, Control y Mantenimiento de Máquinas e Instalaciones del Buque (LOGSE, RD 725/1994, de 22 de abril) (Actividades Marítimo-Pesqueras)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0310"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo II (LOGSE→LOE), tabla «Energía y Agua», grado medio, bloque «Técnico en Operación, Control y Mantenimiento de Máquinas e Instalaciones del Buque (RD 725/1994) → Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017)», fila «Ciclo completo → 0310». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque el módulo 0310 es el mismo (mismo código). Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Supervisión y Control de Máquinas e Instalaciones del Buque (LOGSE, RD 722/1994, de 22 de abril) (Actividades Marítimo-Pesqueras)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0310"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo II (LOGSE→LOE), tabla «Energía y Agua», grado medio, bloque «Técnico Superior en Supervisión y Control de Máquinas e Instalaciones del Buque (RD 722/1994) → Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017)», fila «Ciclo completo → 0310». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque el módulo 0310 es el mismo (mismo código). Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico en Instalaciones Eléctricas y Automáticas (LOE, RD 177/2008, de 8 de febrero) (Electricidad y Electrónica)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0038"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Instalaciones Eléctricas y Automáticas (RD 177/2008) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Ciclo completo → 0038». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (LOE, RD 1072/2012, de 13 de julio) (Marítimo-Pesquera)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0038"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (RD 1072/2012) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Ciclo completo → 0038». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (LOE, RD 1072/2012, de 13 de julio) (Marítimo-Pesquera)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0302",
+    "0310",
+    "0393"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (RD 1072/2012) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Ciclo completo → 0302 / 0310 / 0393». Segundo bloque con el mismo origen; con el título completo se convalidan los tres."
+  },
+  {
+   "origen_titulo": "Técnico en Redes y Estaciones de Tratamiento de Aguas (LOE, RD 114/2017, de 17 de febrero) (Energía y Agua)",
+   "origen_modulo": "1562. Técnicas de mecanizado y unión",
+   "destino_modulos": [
+    "0037"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «1562 → 0037»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Gestión del Agua (LOE, RD 113/2017, de 17 de febrero) (Energía y Agua)",
+   "origen_modulo": "1580. Técnicas de montaje en instalaciones de agua",
+   "destino_modulos": [
+    "0037"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico Superior en Gestión del Agua (RD 113/2017) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «1580 → 0037»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Organización del Mantenimiento de Maquinaria de Buques y Embarcaciones (LOE, RD 1075/2012, de 13 de julio) (Marítimo-Pesquera)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0038"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico Superior en Organización del Mantenimiento de Maquinaria de Buques y Embarcaciones (RD 1075/2012) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Ciclo completo → 0038». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Organización del Mantenimiento de Maquinaria de Buques y Embarcaciones (LOE, RD 1075/2012, de 13 de julio) (Marítimo-Pesquera)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0302",
+    "0310",
+    "0393"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Instalación y Mantenimiento», grado medio, bloque «Técnico Superior en Organización del Mantenimiento de Maquinaria de Buques y Embarcaciones (RD 1075/2012) → Técnico en Instalaciones de Producción de Calor (RD 1792/2010)», fila «Ciclo completo → 0302 / 0310 / 0393». Segundo bloque con el mismo origen; con el título completo se convalidan los tres."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Eficiencia Energética y Energía Solar Térmica (LOE, RD 1177/2008, de 11 de julio) (Energía y Agua)",
+   "origen_modulo": "0122. Procesos de montaje de instalaciones",
+   "destino_modulos": [
+    "0310"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo III (LOE→LOE), tabla «Energía y Agua», grado medio, bloque «Técnico Superior en Eficiencia Energética y Energía Solar Térmica (RD 1177/2008) → Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017)», fila «0122 → 0310». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque el módulo 0310 es el mismo (mismo código)."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Mantenimiento de Instalaciones Térmicas y de Fluidos (LOE, RD 220/2008, de 15 de febrero) (Instalación y Mantenimiento)",
+   "origen_modulo": "0122. Procesos de montaje de instalaciones",
+   "destino_modulos": [
+    "0310"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo III (LOE→LOE), tabla «Energía y Agua», grado medio, bloque «Técnico Superior en Mantenimiento de Instalaciones Térmicas y de Fluidos (RD 220/2008) → Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017)», fila «0122 → 0310». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque el módulo 0310 es el mismo (mismo código)."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Proyectos de Instalaciones Térmicas y de Fluidos (LOE, RD 219/2008, de 15 de febrero) (Instalación y Mantenimiento)",
+   "origen_modulo": "0122. Procesos de montaje de instalaciones",
+   "destino_modulos": [
+    "0310"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo III (LOE→LOE), tabla «Energía y Agua», grado medio, bloque «Técnico Superior en Desarrollo de Proyectos de Energías Térmicas y de Fluidos (RD 219/2008) → Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017)», fila «0122 → 0310». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque el módulo 0310 es el mismo (mismo código). El BOE escribe «Energías Térmicas» por «Instalaciones Térmicas»."
+  },
+  {
+   "origen_titulo": "Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (LOE, RD 1072/2012, de 13 de julio) (Marítimo-Pesquera)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0310"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo III (LOE→LOE), tabla «Energía y Agua», grado medio, bloque «Técnico Superior [sic] en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (RD 1072/2012) → Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017)», fila «Ciclo completo → 0310». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque el módulo 0310 es el mismo (mismo código). Redundante con el bloque propio (0302/0310/0393); se recoge por completitud."
+  },
+  {
+   "origen_titulo": "Técnico en Instalaciones de Producción de Calor (LOE, RD 1792/2010, de 30 de diciembre)",
+   "origen_modulo": "0038. Instalaciones eléctricas y automatismos",
+   "destino_modulos": [
+    "1561"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Energía y Agua», grado medio, bloque «Técnico en Instalaciones de Producción de Calor (RD 1792/2010) → Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017)», fila «0038 → 1561. Instalaciones eléctricas en redes de agua». Sentido inverso: este título APORTA la formación.",
+   "destino_titulo": "Técnico en Redes y Estaciones de Tratamiento de Aguas (LOE, RD 114/2017, de 17 de febrero) (Energía y Agua)"
+  },
+  {
+   "origen_titulo": "Técnico en Instalaciones de Producción de Calor (LOE, RD 1792/2010, de 30 de diciembre)",
+   "origen_modulo": "0037. Técnicas de montaje de instalaciones",
+   "destino_modulos": [
+    "1562"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Energía y Agua», grado medio, bloque «Técnico en Instalaciones de Producción de Calor (RD 1792/2010) → Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017)», fila «0037 → 1562. Técnicas de mecanizado y unión». Sentido inverso: este título APORTA la formación.",
+   "destino_titulo": "Técnico en Redes y Estaciones de Tratamiento de Aguas (LOE, RD 114/2017, de 17 de febrero) (Energía y Agua)"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC2678_2"
+   ],
+   "modulos": [
+    "0037"
+   ],
+   "fuente": "RD 499/2024 art. tercero.Diez: anexo V A) vigente del RD 1792/2010.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC2679_2"
+   ],
+   "modulos": [
+    "0037",
+    "0038"
+   ],
+   "fuente": "RD 499/2024 art. tercero.Diez: anexo V A) vigente del RD 1792/2010.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0602_2"
+   ],
+   "modulos": [
+    "0037"
+   ],
+   "fuente": "RD 499/2024 art. tercero.Diez: anexo V A) vigente del RD 1792/2010.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0605_2"
+   ],
+   "modulos": [
+    "0037",
+    "0038"
+   ],
+   "fuente": "RD 499/2024 art. tercero.Diez: anexo V A) vigente del RD 1792/2010.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC2678_2",
+    "UC2679_2"
+   ],
+   "modulos": [
+    "0302",
+    "0310"
+   ],
+   "fuente": "RD 499/2024 art. tercero.Diez: anexo V A) vigente del RD 1792/2010. La celda de origen contiene las dos UC: hacen falta ambas.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0602_2",
+    "UC0605_2"
+   ],
+   "modulos": [
+    "0392"
+   ],
+   "fuente": "RD 499/2024 art. tercero.Diez: anexo V A) vigente del RD 1792/2010. La celda de origen contiene las dos UC: hacen falta ambas.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1522_2",
+    "UC1525_2"
+   ],
+   "modulos": [
+    "0393"
+   ],
+   "fuente": "RD 499/2024 art. tercero.Diez: anexo V A) vigente del RD 1792/2010. La celda de origen contiene las dos UC: hacen falta ambas.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1156_2"
+   ],
+   "modulos": [
+    "0037"
+   ],
+   "fuente": "RD 1792/2010 anexo V A), texto original de 2010, SUSTITUIDO por el RD 499/2024 (art. tercero.Diez); se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC1157_2"
+   ],
+   "modulos": [
+    "0037",
+    "0038"
+   ],
+   "fuente": "RD 1792/2010 anexo V A), texto original de 2010, SUSTITUIDO por el RD 499/2024 (art. tercero.Diez); se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0602_2"
+   ],
+   "modulos": [
+    "0037"
+   ],
+   "fuente": "RD 1792/2010 anexo V A), texto original de 2010, SUSTITUIDO por el RD 499/2024 (art. tercero.Diez); se conserva por trazabilidad. Fila que se mantiene igual en la redacción vigente.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0605_2"
+   ],
+   "modulos": [
+    "0037",
+    "0038"
+   ],
+   "fuente": "RD 1792/2010 anexo V A), texto original de 2010, SUSTITUIDO por el RD 499/2024 (art. tercero.Diez); se conserva por trazabilidad. Fila que se mantiene igual en la redacción vigente.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC1156_2",
+    "UC1157_2"
+   ],
+   "modulos": [
+    "0302",
+    "0310"
+   ],
+   "fuente": "RD 1792/2010 anexo V A), texto original de 2010, SUSTITUIDO por el RD 499/2024 (art. tercero.Diez); se conserva por trazabilidad. Hacían falta las dos UC.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0602_2",
+    "UC0605_2"
+   ],
+   "modulos": [
+    "0392"
+   ],
+   "fuente": "RD 1792/2010 anexo V A), texto original de 2010, SUSTITUIDO por el RD 499/2024 (art. tercero.Diez); se conserva por trazabilidad. Fila que se mantiene igual en la redacción vigente.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC1522_2",
+    "UC1525_2"
+   ],
+   "modulos": [
+    "0393"
+   ],
+   "fuente": "RD 1792/2010 anexo V A), texto original de 2010, SUSTITUIDO por el RD 499/2024 (art. tercero.Diez); se conserva por trazabilidad. Fila que se mantiene igual en la redacción vigente.",
+   "vigente": false
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0037",
+    "0038",
+    "0302"
+   ],
+   "uc": [
+    "UC2678_2",
+    "UC2679_2"
+   ],
+   "fuente": "RD 499/2024 art. tercero.Diez: anexo V B) vigente del RD 1792/2010. Hacen falta los tres módulos.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0037",
+    "0038",
+    "0392"
+   ],
+   "uc": [
+    "UC0602_2",
+    "UC0605_2"
+   ],
+   "fuente": "RD 499/2024 art. tercero.Diez: anexo V B) vigente del RD 1792/2010. Hacen falta los tres módulos.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0037",
+    "0038",
+    "0393"
+   ],
+   "uc": [
+    "UC1522_2",
+    "UC1525_2"
+   ],
+   "fuente": "RD 499/2024 art. tercero.Diez: anexo V B) vigente del RD 1792/2010. Hacen falta los tres módulos.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0037",
+    "0038",
+    "0302"
+   ],
+   "uc": [
+    "UC1156_2",
+    "UC1157_2"
+   ],
+   "fuente": "RD 1792/2010 anexo V B), texto original de 2010, SUSTITUIDO por el RD 499/2024 (art. tercero.Diez); se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0037",
+    "0038",
+    "0392"
+   ],
+   "uc": [
+    "UC0602_2",
+    "UC0605_2"
+   ],
+   "fuente": "RD 1792/2010 anexo V B), texto original de 2010, SUSTITUIDO por el RD 499/2024 (art. tercero.Diez); se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0037",
+    "0038",
+    "0393"
+   ],
+   "uc": [
+    "UC1522_2",
+    "UC1525_2"
+   ],
+   "fuente": "RD 1792/2010 anexo V B), texto original de 2010, SUSTITUIDO por el RD 499/2024 (art. tercero.Diez); se conserva por trazabilidad.",
+   "vigente": false
+  }
+ ],
+ "equivalencias_uc": {
+  "UC1156_2 (junto con UC1158_2)": [
+   "ECP2678_2"
+  ],
+  "UC1157_2 (junto con UC1159_2)": [
+   "ECP2679_2"
+  ]
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [
+  {
+   "requiere": [
+    "UC1156_2",
+    "UC1158_2"
+   ],
+   "da": [
+    "UC2678_2"
+   ]
+  },
+  {
+   "requiere": [
+    "UC1157_2",
+    "UC1159_2"
+   ],
+   "da": [
+    "UC2679_2"
+   ]
+  }
+ ],
+ "uc_descripciones": {
+  "UC2678_2": "«Montar instalaciones térmicas en edificios» [ECP2678_2]. Cualificación IMA801_2 (RD 543/2023, anexo IV).",
+  "UC2679_2": "«Mantener instalaciones térmicas en edificios» [ECP2679_2]. Cualificación IMA801_2 (RD 543/2023, anexo IV).",
+  "UC0602_2": "«Montar captadores, equipos y circuitos hidráulicos de instalaciones solares térmicas» [ECP0602_2]. Cualificación ENA190_2 (RD 1228/2006).",
+  "UC0605_2": "«Mantener instalaciones solares térmicas» [ECP0605_2]. Cualificación ENA190_2 (RD 1228/2006).",
+  "UC1522_2": "«Realizar instalaciones receptoras comunes e individuales de gas» según el RD 1792/2010 y el RD 499/2024; el catálogo vigente (RD 532/2025 anexo I) la denomina «Montar instalaciones receptoras de gas» [ECP1522_2]. Cualificación ENA472_2 (RD 716/2010).",
+  "UC1525_2": "«Mantener y reparar instalaciones receptoras y aparatos de gas» según el título; el catálogo vigente la denomina «Mantener instalaciones receptoras y aparatos de gas» [ECP1525_2]. Cualificación ENA472_2 (RD 716/2010).",
+  "UC1156_2": "SUPRIMIDA. «Montar instalaciones caloríficas» (IMA368_2, RD 182/2008). RD 532/2025 anexo II-a: equivale a ECP2678_2 solo si se acredita junto con UC1158_2.",
+  "UC1157_2": "SUPRIMIDA. «Mantener instalaciones caloríficas» (IMA368_2, RD 182/2008). RD 532/2025 anexo II-a: equivale a ECP2679_2 solo si se acredita junto con UC1159_2.",
+  "UC1158_2": "SUPRIMIDA. «Montar instalaciones de climatización y ventilación-extracción» (IMA369_2, RD 182/2008). RD 532/2025 anexo II-a: equivale a ECP2678_2 solo si se acredita junto con UC1156_2.",
+  "UC1159_2": "SUPRIMIDA. «Mantener instalaciones de climatización y ventilación-extracción» (IMA369_2, RD 182/2008). RD 532/2025 anexo II-a: equivale a ECP2679_2 solo si se acredita junto con UC1157_2."
+ },
+ "cualificaciones": [
+  {
+   "codigo": "IMA801_2",
+   "nombre_2010": null,
+   "nombre_vigente": "Montaje y mantenimiento de instalaciones térmicas en edificios",
+   "completa": false,
+   "uc": [
+    "UC2678_2",
+    "UC2679_2"
+   ],
+   "uc_2010": [],
+   "uc_vigente": [
+    "UC2678_2",
+    "UC2679_2"
+   ],
+   "formacion_asociada_horas": 630,
+   "norma": "RD 543/2023, de 27 de junio (anexo IV): cuatro UC (UC2678_2, UC2679_2, UC2680_2, UC2327_2); formación asociada 630 h (MF2678_2 240, MF2679_2 210, MF2680_2 120, MF2327_2 60). El título solo incluye UC2678_2 y UC2679_2 (art. 6 vigente, RD 499/2024): cualificación incompleta en el título."
+  },
+  {
+   "codigo": "ENA190_2",
+   "nombre_2010": "Montaje y mantenimiento de instalaciones solares térmicas",
+   "nombre_vigente": "Montaje y mantenimiento de instalaciones solares térmicas",
+   "completa": false,
+   "uc": [
+    "UC0602_2",
+    "UC0605_2"
+   ],
+   "uc_2010": [
+    "UC0602_2",
+    "UC0605_2"
+   ],
+   "uc_vigente": [
+    "UC0602_2",
+    "UC0605_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 1228/2006, de 27 de octubre. Incompleta en el título (art. 6.2.a) original; el art. 6 vigente la lista sin calificarla). Códigos ECP con el mismo número (RD 532/2025 anexo I)."
+  },
+  {
+   "codigo": "ENA472_2",
+   "nombre_2010": "Montaje, puesta en servicio, mantenimiento e inspección de instalaciones receptoras y aparatos de gas",
+   "nombre_vigente": "Montaje, puesta en servicio y mantenimiento de instalaciones receptoras y aparatos de gas",
+   "completa": false,
+   "uc": [
+    "UC1522_2",
+    "UC1525_2"
+   ],
+   "uc_2010": [
+    "UC1522_2",
+    "UC1525_2"
+   ],
+   "uc_vigente": [
+    "UC1522_2",
+    "UC1525_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 716/2010, de 28 de mayo (anexo CDLXXII). Incompleta en el título (art. 6.2.b) original). El catálogo vigente (RD 532/2025 anexo I) la denomina sin «e inspección» y renombra UC1522_2. Códigos ECP con el mismo número."
+  },
+  {
+   "codigo": "IMA368_2",
+   "nombre_2010": "Montaje y mantenimiento de instalaciones caloríficas",
+   "nombre_vigente": null,
+   "completa": true,
+   "uc": [
+    "UC1156_2",
+    "UC1157_2"
+   ],
+   "uc_2010": [
+    "UC1156_2",
+    "UC1157_2"
+   ],
+   "uc_vigente": [],
+   "formacion_asociada_horas": null,
+   "norma": "RD 182/2008, de 8 de febrero. Cualificación completa del art. 6.1 original del RD 1792/2010; ya no figura en el art. 6 vigente (RD 499/2024) y sus UC están suprimidas (RD 532/2025 anexo II-a)."
+  }
+ ],
+ "notas": [
+  "El campo «horas» es el del currículo básico / enseñanzas mínimas (RD 1792/2010 anexo I para los módulos específicos, 1.100 h = 55 % de 2.000 h; RD 659/2023 y RD 499/2024 para los comunes nuevos). Las horas de impartición están en «horas_otras» (aragon = Orden ECD/842/2024 anexo XXXI, diurno; mefp = Orden EFD/657/2024 anexo XL; loe = Orden de 21 de mayo de 2012 de Aragón, anexo I).",
+  "Denominación y código confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=IMA203): IMA203, CFGM, familia Instalación y Mantenimiento (IMA), 2.000 h, solo DIURNO; horas y cursos coinciden módulo a módulo con la Orden ECD/842/2024 y con research/catalogo-aragon.json.",
+  "Aragón (Orden ECD/842/2024, anexo XXXI, diurno, IMA203): 30 h/semana en 1.º y en 2.º, 1.000 h por curso. 1.º: 0036 (267 h, 8 h/sem), 0037 (233, 7), 0038 (267, 8), A997 (33, 1), 1709 (100, 3), 1664 (33, 1), 0156 (67, 2). 2.º: 0266 (67, 2), 0302 (233, 7), 0310 (133, 4), 0392 (100, 3), 0393 (167, 5), A996 (33, 1), 1710 (67, 2), 1708 (33, 1), 1713 (67, 2), optativo (100, 3). El anexo escribe «0310. Montaje y mantenimiento de agua».",
+  "Ministerio (Orden EFD/657/2024, anexo XL): 1.º (955 h, 30 h/sem): 0036 190, 0037 280, 0038 280, 1709 100, 1708 35, 0156 70. 2.º (1.045 h, 31 h/sem): 0392 130, 0393 100, 0266 160, 0310 160, 0302 230, 1710 100, 1664 35, optativo 80, 1713 50.",
+  "Plan LOE de Aragón (Orden de 21 de mayo de 2012, anexo I): 0036 320, 0037 288, 0038 256, 0394 96 (1.º, suman 960 h); 0266 84, 0302 168, 0310 105, 0392 84, 0393 126, 0395 63, 0396 410 (2.º, suman 1.040 h).",
+  "Equivalencias de UC (RD 532/2025 anexos II-a y II-b): UC1156_2 solo equivale a ECP2678_2 si se acredita junto con UC1158_2, y UC1157_2 a ECP2679_2 junto con UC1159_2; ECP2678_2 y ECP2679_2 equivalen por sí solas a las antiguas. UC0602_2, UC0605_2, UC1522_2 y UC1525_2 conservan el número (solo cambia el prefijo a ECP). Resultado: con UC1156_2 + UC1157_2 solas (la antigua IMA368_2 completa) no se convalida nada con la tabla vigente.",
+  "0036, 0037 y 0038 tienen el mismo código, nombre y duración mínima en los dos títulos (RD 1792/2010 y RD 1793/2010): superado en uno, se traslada la nota en el otro (mismo código). Por la DA 5.ª del RD 1085/2020 las filas de un título que dan 0036/0037/0038 valen en el otro; en esta ficha se han marcado con «OJO» las que solo aparecen en el bloque del otro título.",
+  "Comprobación desde este título de lo que dice research/ele202.json: el ciclo completo de Técnico en Instalaciones Eléctricas y Automáticas convalida 0038 en los dos títulos (RD 1085/2020 anexo III, tabla «Instalación y Mantenimiento»); y «Electrotecnia» del LOGSE Frío, Climatización y Producción de Calor → 0234 está en el anexo II, tabla «Electricidad y Electrónica» (destino IEA), no en las tablas de estos títulos (Electrotecnia no convalida nada aquí).",
+  "El LOGSE Frío, Climatización y Producción de Calor (RD 2046/1995) también aporta a otros títulos (anexo II del RD 1085/2020): Electrotecnia → 0234 (IEA); Técnicas de mecanizado y unión… → 0950 y Electrotecnia → 0951 (Mantenimiento Electromecánico); Técnicas de mecanizado y unión… → 1562, Instalaciones eléctricas y automatismos → 1561 e Instalaciones de agua y gas → 0310 (Redes y Estaciones de Tratamiento de Aguas); Técnicas de mecanizado y unión… → 0260 (Carrocería, Electromecánica de Maquinaria, Electromecánica de Vehículos, Material Rodante). No son convalidaciones hacia este ciclo.",
+  "«Administración, gestión y comercialización en la pequeña empresa» (LOGSE) convalidaba EIE en el anexo IV A) original; hoy lo resuelve la tabla general de EIE del anexo II del RD 1085/2020 (fila «Cualquier ciclo formativo»), que por la DA 6.ª se entiende hecha a 1710. FOL y FCT: reglas generales; la formación en empresa nunca se convalida (RD 659/2023 art. 126.4).",
+  "DA 3.ª del RD (2010): el LOGSE Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor tiene los mismos efectos profesionales y académicos que este título; y la formación de ambos títulos LOE en conjunto garantiza el nivel del carné profesional en instalaciones térmicas de edificios (RITE, RD 1027/2007 art. 41).",
+  "Optativos de Aragón: AOP1001 (Inglés GM), AOP1002 (Francés) y AOP1003 (Ofimática avanzada) de oferta común (Decreto 107/2025), más los de diseño propio de la Resolución de 6 de junio de 2025."
+ ],
+ "no_verificado": [
+  "El RD 1792/2010 NO tiene texto consolidado en el BOE (la API de datos abiertos devuelve 404 y https://www.boe.es/buscar/act.php?id=BOE-A-2011-1956 devuelve vacío). La redacción vigente del art. 6 y de los anexos V A) y V B) se ha tomado del RD 499/2024 (art. tercero.Diez) en https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684; el resto, del texto original https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-1956. No se ha comprobado si hay correcciones de errores posteriores.",
+  "El curso de la clave «loe» (plan LOE de Aragón) NO consta en una tabla: la Orden de 21 de mayo de 2012 solo da la duración de cada módulo (anexo I) y los módulos necesarios para promoción (anexo VI). Se ha deducido que 0036, 0037, 0038 y 0394 eran de 1.º (múltiplos de 32; 960 h) y 0266, 0302, 0310, 0392, 0393, 0395 y 0396 de 2.º (múltiplos de 21; 630 h + 410 h). Fuente: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=675832401010",
+  "No se han abierto los RD 725/1994, 722/1994, 623/1995, 2042/1995, 2044/1995 y 2045/1995 (títulos LOGSE de origen): los nombres de sus módulos se han copiado tal como los escribe el RD 1085/2020 (https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274). En la fila del Buque (RD 725/1994) la celda dice «Instalaciones y máquinas eléctricas. Automatización: regulación y control.»; se ha interpretado como dos módulos exigidos a la vez.",
+  "No se ha abierto el RD 182/2008 (cualificaciones IMA368_2 e IMA369_2 de la redacción de 2010): sus UC y nombres se han tomado del texto original del título; sus horas de formación asociada no se han recogido. Tampoco se han abierto los RD 1228/2006 (ENA190_2) ni 716/2010 (ENA472_2): datos tomados del título y del anexo I del RD 532/2025 (https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147).",
+  "No se han revisado los anexos de convalidaciones de reales decretos de títulos posteriores al 05/03/2017 (aplicables por el art. 15 vigente y el RD 1085/2020 anexo IV) para ver si alguno aporta o recibe módulos de este ciclo; solo se ha usado el texto consolidado del RD 1085/2020.",
+  "Páginas del BOA de la Orden ECD/842/2024 y de la Orden de 21 de mayo de 2012 no comprobadas página a página; se cita el anexo y el csv. Fuente: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+  "En el anexo III del RD 1085/2020, tabla «Energía y Agua», el bloque «Técnico Superior en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (RD 1072/2012)» → Redes (Ciclo completo → 0310) llama «Técnico Superior» al título de grado medio del RD 1072/2012; se ha tratado como el título de Técnico. Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274"
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "Filas del anexo IV A) original del RD 1792/2010 (derogado por la disp. derogatoria única.2 del RD 1085/2020) que el RD 1085/2020 no reproduce en el bloque de este título: EIE pasa a la tabla general de EIE (y a 1710 por la DA 6.ª) y la FCT no se convalida. Se recogen por trazabilidad; NO aplicar.",
+  "filas": [
+   {
+    "origen_titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (LOGSE, RD 2046/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+    "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa",
+    "destino_modulos": [
+     "0395"
+    ],
+    "fuente": "RD 1792/2010 anexo IV A), texto original de 2010, DEROGADO. Hoy: tabla general de EIE del anexo II del RD 1085/2020 → 1710 (DA 6.ª)."
+   },
+   {
+    "origen_titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (LOGSE, RD 2046/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+    "origen_modulo": "Formación en centro de trabajo",
+    "destino_modulos": [
+     "0396"
+    ],
+    "fuente": "RD 1792/2010 anexo IV A), texto original de 2010, DEROGADO. La formación en empresa no se convalida (solo exención por experiencia)."
+   }
+  ]
+ },
+ "pruebas": [
+  {
+   "descripcion": "LOGSE: Instalaciones de agua y gas convalida 0310 y 0393; Instalaciones de producción de calor, 0302 y 0392",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor",
+     "modulo": "Instalaciones de agua y gas",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor",
+     "modulo": "Instalaciones de producción de calor",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0310": "convalidable",
+    "0393": "convalidable",
+    "0302": "convalidable",
+    "0392": "convalidable"
+   },
+   "no_espera": {
+    "0266": "convalidable",
+    "0036": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Ciclo completo de Instalaciones Eléctricas y Automáticas convalida 0038",
+   "aporta": [
+    {
+     "tipo": "titulo",
+     "titulo": "Técnico en Instalaciones Eléctricas y Automáticas",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0038": "convalidable"
+   },
+   "no_espera": {
+    "0037": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Ciclo completo de Mantenimiento y Control de la Maquinaria de Buques convalida 0038, 0302, 0310 y 0393",
+   "aporta": [
+    {
+     "tipo": "titulo",
+     "titulo": "Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0038": "convalidable",
+    "0302": "convalidable",
+    "0310": "convalidable",
+    "0393": "convalidable"
+   },
+   "no_espera": {
+    "0392": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Ciclo completo LOGSE de Instalación y Mantenimiento Electromecánico de Maquinaria convalida 0038",
+   "aporta": [
+    {
+     "tipo": "titulo",
+     "titulo": "Técnico en Instalación y Mantenimiento Electromecánico de Maquinaria y Conducción de Líneas",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0038": "convalidable"
+   },
+   "no_espera": {
+    "0036": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC1156_2 sola no vale (equivalencia conjunta con UC1158_2)",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1156_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {},
+   "no_espera": {
+    "0037": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC1156_2 + UC1158_2 dan UC2678_2 y convalidan 0037",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1156_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1158_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0037": "convalidable"
+   },
+   "no_espera": {
+    "0302": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC2678_2 + UC2679_2 convalidan 0037, 0038, 0302 y 0310",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC2678_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC2679_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0037": "convalidable",
+    "0038": "convalidable",
+    "0302": "convalidable",
+    "0310": "convalidable"
+   },
+   "no_espera": {
+    "0393": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC1522_2 sola no convalida 0393; con UC1525_2 sí. UC0602_2 convalida 0037. 1562 de Redes convalida 0037",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1522_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0602_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_loe",
+     "codigo": "1562",
+     "nombre": "Técnicas de mecanizado y unión",
+     "titulo": "Técnico en Redes y Estaciones de Tratamiento de Aguas",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0037": "convalidable"
+   },
+   "no_espera": {
+    "0393": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC1522_2 + UC1525_2 convalidan 0393",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1522_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1525_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0393": "convalidable"
+   },
+   "no_espera": {
+    "0037": "convalidable"
+   }
+  }
+ ]
+}
