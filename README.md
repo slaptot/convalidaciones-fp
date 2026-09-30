@@ -41,6 +41,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Instalaciones Eléctricas y Automáticas | ELE202 | Medio | LO 3/2022 |
 | Instalaciones de Telecomunicaciones | ELE203 | Medio | LO 3/2022 |
 | Mantenimiento Electrónico | ELE301 | Superior | LO 3/2022 |
+| Sistemas Electrotécnicos y Automatizados | ELE302 | Superior | LO 3/2022 |
 | Acceso y Conservación en Instalaciones Deportivas | FPB127 | Básico | LO 3/2022 |
 | Guía en el Medio Natural y de Tiempo Libre | AFD201 | Medio | LO 3/2022 |
 | Enseñanza y Animación Sociodeportiva | AFD301 | Superior | LO 3/2022 |

@@ -508,6 +508,14 @@ r = est('ele202', tsme); assert.equal(r['0233'], 'convalidable'); assert.equal(r
 r = est('ele203', tsme); assert.equal(r['0359'], 'convalidable'); assert.equal(r['0360'], 'convalidable');
 console.log('OK: Mantenimiento Electrónico');
 
+// Sistemas Electrotécnicos y Automatizados: Mantenimiento Electrónico completo da 0519; celda LOGSE de dos módulos
+require('../data/ciclos/ele302.js');
+assert.equal(est('ele302', tsme)['0519'], 'convalidable');
+const ie = (mods) => mods.map((m) => ({ tipo: 'modulo_logse', titulo: 'Técnico Superior en Instalaciones Electrotécnicas', modulo: m, docs: [] }));
+assert.notEqual(est('ele302', ie(['Informática técnica']))['0519'], 'convalidable');
+assert.equal(est('ele302', ie(['Gestión del desarrollo de instalaciones electrotécnicas', 'Informática técnica']))['0519'], 'convalidable');
+console.log('OK: Sistemas Electrotécnicos y Automatizados');
+
 // Plan LOE a extinguir: FOL y EIE de cualquier título se reconocen por su nombre
 for (const [c, fol, eie] of [['hot203', '0157', '0158'], ['ele202', '0241', '0242'], ['ifc301', '0380', '0381']]) {
   const mods = Object.fromEntries(CICLOS[c].modulos.map((m) => [m.codigo, m.comun]));
