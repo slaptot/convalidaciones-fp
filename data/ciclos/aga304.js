@@ -1,0 +1,859 @@
+// Generado por tools/build_data.py a partir de research/aga304.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["aga304"] = {
+ "ciclo": {
+  "codigo": "AGA304",
+  "nombre": "Técnico Superior en Ganadería y Asistencia en Sanidad Animal",
+  "grado": "superior",
+  "familia": "Agraria",
+  "normas": [
+   {
+    "ref": "RD 1585/2012, de 23 de noviembre",
+    "boe": "BOE-A-2013-155",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-155",
+    "nota": "Título y enseñanzas mínimas de Técnico Superior en Ganadería y Asistencia en Sanidad Animal (BOE núm. 5, de 05/01/2013; ELI https://www.boe.es/eli/es/rd/2012/11/23/1585). Denominación: Ganadería y Asistencia en Sanidad Animal; Formación Profesional de Grado Superior; 2.000 h; familia Agraria; CINE-5b (art. 2; nivel 5A del MECU tras el RD 500/2024). Es un título NUEVO: no sustituye a ningún título LOGSE (la disp. derogatoria única es genérica y la DA 3.ª no declara equivalencias con títulos anteriores). El BOE SÍ publica texto consolidado (última actualización 28/05/2024): anexo IV derogado por el RD 1085/2020; arts. 2, 10, 12 y 15 y anexos I y III modificados por el RD 500/2024 (así lo recoge también el «Análisis» del BOE). El RD 500/2024 NO toca el art. 6 ni los anexos V A) y V B): siguen en su redacción ORIGINAL de 2012. Módulos originales (art. 10): 1274 a 1282, 1283 Proyecto de ganadería y asistencia en sanidad animal, 1284 FOL, 1285 EIE y 1286 FCT (los tres últimos suprimidos por el RD 500/2024). Enseñanzas mínimas: 1.100 h. Art. 6: cualificaciones completas AGA465_3 y AGA169_3 e incompleta AGA625_3. Art. 14.3: 120 ECTS. DA 3.ª (según la DA 3.ª del RD 500/2024): el módulo 1709 capacita para el nivel básico de prevención de riesgos laborales si tiene al menos 45 h. Disp. final 2.ª: implantación en 2014-2015."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Deroga el anexo IV del RD 1585/2012 (disp. derogatoria única.2, que lo lista expresamente). Las convalidaciones LOGSE→LOE de este título están en su anexo II, bloque «Agraria», GRADO SUPERIOR: DOS tablas con destino «Técnico Superior en Ganadería y Asistencia en Sanidad Animal (RD 1585/2012, de 23 de noviembre)», una desde TS Gestión y Organización de Empresas Agropecuarias (RD 1711/1996; dos filas) y otra desde TS Gestión y Organización de los Recursos Naturales y Paisajísticos (RD 1712/1996; una fila); más las tablas transversales de FOL, EIE e Inglés. En el anexo III (LOE→LOE) el bloque «Agraria» de grado superior solo tiene tablas hacia TS Gestión Forestal y del Medio Natural: NINGUNA tabla tiene por destino este título ni cita sus módulos 1274-1283; solo le afectan las tablas transversales (inglés, FOL y EIE). El anexo IV (títulos posteriores al 5/03/2017) no menciona este título ni sus módulos. Ningún módulo de este título aparece como FORMACIÓN APORTADA en los anexos I a IV, salvo 0179 → 0156. El anexo I (LOGSE→LOGSE), familia «Actividades agrarias», solo cita los ciclos LOGSE de origen (RD 1711/1996 y RD 1712/1996) como formación aportada hacia módulos LOGSE de grado medio, no este título. Consolidado a 07/04/2026 (texto inicial 30/12/2020). Art. 3.2: módulos con mismos códigos, denominaciones, resultados de aprendizaje, contenidos y duración son idénticos y trasladan calificación. Art. 3.3: si la convalidación exige varios módulos, la nota es la media aritmética. Art. 3.4 y 3.5: ni la FCT ni el Proyecto se convalidan. DA 3.ª: para convalidar FOL LOE hace falta acreditar la formación de nivel básico en prevención. DA 5.ª: las convalidaciones de los anexos I a IV se aplican a los módulos de cualquier ciclo con independencia del título. DA 6.ª (añadida por el RD 500/2024): FOL→1709 y EIE→1710."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709/1710 (anexo V, 50 h cada uno), 1665 Digitalización GS (anexo VII, 30 h), 1708 Sostenibilidad (anexo VIII, 30 h) y 0179 Inglés profesional GS (anexo X, 50 h). Arts. 126-128 (convalidaciones) y 131 (exención de la formación en empresa). Art. 96.1: bloques del ciclo; art. 102: optatividad."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de los títulos de GRADO SUPERIOR a la LO 3/2022. El RD 1585/2012 es el número 49.º de la letra a) del artículo primero.Dos (a agrupa los ciclos que NO tenían módulo de inglés en su RD original). Efectos en este título: SUPRIME 1284 FOL, 1285 EIE y 1286 FCT (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a)); «Proyecto de ganadería y asistencia en sanidad animal» pasa a «Proyecto intermodular de ganadería y asistencia en sanidad animal» manteniendo el código 1283 (art. cuarto.Uno.c).2.º, art. séptimo.Uno.c) y DA 7.ª); AÑADE al final del art. 10: 0179 Inglés Profesional (GS), 1709, 1710, 1665, 1708 y un módulo profesional optativo de 80 h de currículo básico (art. cuarto.Uno.c).3.º y e) y art. séptimo.Uno.b)). Aquí 0179 es un módulo NUEVO (no un renombrado). Art. segundo: nivel 5A del MECU. El art. tercero (cualificaciones y anexos V A) y V B)) NO menciona el RD 1585/2012: el art. 6 y los anexos V A) y V B) de este título NO se sustituyen y siguen en su redacción original. Art. quinto.Uno (art. 12, profesorado), art. sexto.Uno (art. 15, convalidaciones y exención; este ciclo NO está en la lista de Sanidad excluida de la exención del apdo. 8) y art. octavo.Cuarenta y nueve (anexo III = anexo L del RD 500/2024). DA 1.ª y anexo I: minoración horaria solo para CCAA con lengua cooficial (no afecta a Aragón). DA 2.ª y anexo XCI: nuevos créditos ECTS (1276=10, 1278=7, 1275=16, 1274=17, 1282=4, 1280=7, 1279=7, 1277=11, 1281=10; 89 en total; en 2012 eran 9, 6, 15, 16, 4, 7, 7, 11 y 9). DA 3.ª: la referencia de la DA 3.ª del RD 1585/2012 al módulo FOL se entiende hecha a 1709. DT única: en 2024-25 se implanta 1.º curso. Disp. final 1.ª: añade la DA 6.ª al RD 1085/2020 (FOL→1709, EIE→1710)."
+   },
+   {
+    "ref": "RD 1711/1996 y RD 1712/1996, de 12 de julio",
+    "boe": null,
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Títulos LOGSE de Técnico Superior en Gestión y Organización de Empresas Agropecuarias (RD 1711/1996) y en Gestión y Organización de los Recursos Naturales y Paisajísticos (RD 1712/1996), familia Actividades Agrarias. Son los títulos de origen de las filas LOGSE→LOE del anexo II del RD 1085/2020 hacia este título. Módulos que aparecen: «Producción ganadera» (solo RD 1711/1996), «Mecanización e instalaciones en una empresa agraria» (ambos) y «Organización y gestión de una empresa agraria» (ambos; tabla de EIE). Ninguno de los dos fue sustituido por este título (los sustituyen los RD 259/2011 y 260/2011). No se han abierto estos reales decretos: denominaciones tomadas de las tablas del RD 1085/2020."
+   },
+   {
+    "ref": "Orden ECD/1538/2015, de 21 de julio",
+    "boe": "BOE-A-2015-8473",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-8473",
+    "nota": "Currículo LOE (plan anterior) del ámbito de gestión del Ministerio. DEROGADA por la Orden EFD/659/2024 (disp. derogatoria única, letra c).1.º). No se ha abierto su texto (identificador tomado de la ficha del RD 1585/2012 en el BOE)."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito de gestión del MEFPD (BOE núm. 158, de 1/07/2024). Este ciclo está en su ANEXO X (art. 1.2.c).1.º y art. 6.3.e)), apartados A (secuenciación y horas) y B (espacios y equipamientos). 1.º curso: 1278 100 h (3 sesiones), 1276 140 (4), 1281 130 (4), 1275 200 (6), 1274 230 (7), 1709 100 (3), 1708 35 (1) y 0179 70 (2) (30 sesiones; 1005 h); 2.º curso: 1282 130 (4), 1280 190 (6), 1279 190 (6), 1277 220 (7), 1710 100 (3), 1665 35 (1), optativa(s) 80 (2) y 1283 Proyecto Intermodular 50 (1) (30 sesiones; 995 h). Total 2000 h. Módulos bilingües: 1275, 1274, 1282, 1280, 1279 y 1277. El anexo X NO incluye el módulo 1712 Inglés Profesional II. DT 2.ª.3: tabla 1709 ≡ FOL, 1710 ≡ EIE y 0179 Inglés profesional (GS) ≡ 0179 Inglés."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra las unidades de competencia como estándares de competencia profesional (ECP). Anexo I: las once UC de este título pasan a ECP con el MISMO número (ECP0533_3, ECP0534_3, ECP0535_3 y ECP0536_3 de AGA169_3; ECP1495_3, ECP1496_3 y ECP1497_3 de AGA465_3; ECP2067_3, ECP2068_3, ECP2070_3 y ECP2071_3 de AGA625_3). NINGUNA de ellas figura en los anexos II-a ni II-b (UC suprimidas o sustituidas): no hay cambios de numeración, por lo que «equivalencias_uc» queda vacío. En el anexo I AGA465_3 figura ya como «Gestión de la producción ganadera convencional y/o ecológica», con UC1495_3 redenominada («Gestionar los procesos de reproducción, la producción de animales de renuevo, de reproductores y crías, y de leche») y una UC nueva, UC2790_3 (RD 915/2024), ajena a este título."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+    "nota": "Currículo vigente de Aragón para grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004; corrección de errores de 26/02/2025 que solo afecta a los anexos XXXVI, XL, XXIV y LXXI, ninguno de los cuales es el de este ciclo). Este ciclo está en su ANEXO V (art. 1.2.c).1.º: RD 1585/2012; art. 5.3.e)), código de ciclo AGA304: 1.º curso 1274 (233 h, 7 sesiones), 1275 (267, 8), 1278 (167, 5), 1282 (133, 4), 1709 (100, 3), 1665 (33, 1) y 0179 Inglés profesional (67, 2) = 30 sesiones; 2.º curso 1276 (67, 2), 1277 (100, 3), 1279 (233, 7), 1280 (200, 6), 1281 (133, 4), 1283 Proyecto intermodular (67, 2), 1710 (67, 2), 1708 (33, 1) y módulo optativo (100, 3) = 30 sesiones. Total 2000 h (1000 + 1000). Solo trae la distribución diurna. Art. 12: el optativo es anual y va en 2.º. Art. 13: convalidación de los optativos (AOP1004 y AOP1002 tras el Decreto 107/2025). DA 1.ª: módulos con la misma codificación numérica. DT 2.ª.3: tabla de equivalencias 1709 ≡ FOL, 1710 ≡ EIE y 0179 Inglés profesional (GS) ≡ 0179 Inglés (esta última no es aplicable al plan LOE de este ciclo, que no tenía 0179 sino A099 y A100). Disp. derogatoria única, letra c).5: deroga la Orden de 5 de mayo de 2015 de este ciclo."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025 (csv BOA20250918002). Modifica el Decreto 91/2024 y las Órdenes ECD/842/2024 y ECD/843/2024. En la ECD/843/2024 (art. tercero) NO toca el anexo V de este ciclo (según la relación de modificaciones ya verificada para research/hot301.json: arts. 1.2.r), 5.3, 12.2, 13, 16.3-5, anexos XLIII, LXXIV, LXXV, LXXVI y LXXVII), pero RENOMBRA los módulos optativos comunes: A170 pasa a AOP1004 «Comunicación profesional en Inglés (GS)», A171 a AOP1002 «Segunda lengua profesional Francés» y A172 a AOP1003 «Ofimática avanzada aplicada al sector profesional», y reescribe el art. 13 (convalidación de optativos: B2 de inglés o la superación de los antiguos «Lengua Extranjera Profesional: Inglés 1 y 2» → AOP1004; B1 de francés → AOP1002; un optativo superado en un CFGS puede convalidarse en cualquier otro CFGS). También reescribe el apartado 3 del anexo VIII del Decreto 91/2024: módulos con los mismos códigos, las mismas denominaciones O los mismos resultados de aprendizaje son idénticos y trasladan la calificación a solicitud del alumnado en la matrícula (no se convalidan). Existe una corrección de errores de este Decreto (BOA 19/01/2026) que no se ha leído."
+   },
+   {
+    "ref": "Decreto 91/2024, de 5 de junio, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.todofp.es/dam/jcr:cda9c643-4e37-4726-b6e8-dc2b2c890e07/aragon-brscgi-ordenaci-n.pdf",
+    "nota": "Ordenación de la FP del Grado D y del Grado E en Aragón (BOA núm. 109, de 06/06/2024), modificado por el Decreto 107/2025. Art. 48: las convalidaciones se rigen por el RD 659/2023, los RD de cada título y el RD 1085/2020. Art. 49.1: la exención del periodo de formación en empresa se rige por los arts. 131 y 161 del RD 659/2023 y solo vale la experiencia laboral de los cinco años anteriores a la solicitud. Art. 49.2: quedan exceptuados de la exención solo los ciclos de grado superior de Sanidad: AGA304 NO está entre ellos, luego la exención es posible. Art. 9.3: módulo optativo anual en 2.º curso."
+   },
+   {
+    "ref": "Orden de 5 de mayo de 2015, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=857735265151&type=pdf",
+    "nota": "Currículo LOE (plan anterior) de este ciclo en Aragón; BOA núm. 103, de 02/06/2015. 2000 h. Añade los módulos propios A099 «Lengua extranjera profesional: inglés 1» (64 h) y A100 «Lengua extranjera profesional: inglés 2» (42 h) (art. 10 y anexo I). Art. 17.5: A099 y A100 se convalidaban con los módulos de igual denominación de cualquier ciclo LOE o acreditando un B1 o superior de la misma lengua (Orden de 11/11/2014). Su anexo IV reproduce el anexo IV del RD 1585/2012 (Producción ganadera → 1274 + 1275; Mecanización e instalaciones en una empresa agraria → 1278; Organización y gestión de una empresa agraria → 1285). Implantación: 1.º en 2015/16 y 2.º en 2016/17. DEROGADA por la Orden ECD/843/2024 (disp. derogatoria única, letra c).5)."
+   },
+   {
+    "ref": "Resolución de 8 de junio de 2015, del Director General de Ordenación Académica (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=863052165151&type=pdf",
+    "nota": "Distribución horaria del plan LOE (BOA núm. 124, de 01/07/2015, csv BOA20150701028; anexo I: AGA304): modalidad diurno 30 h/semana en cada curso y modalidad nocturno en 3 cursos con 18+20+17 h/semana. Es la fuente de la clave «loe» de horas_otras (modalidad diurno)."
+   },
+   {
+    "ref": "Resolución de 6 de junio de 2025, del Director General de Planificación, Centros y Formación Profesional (Aragón)",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/5514380/CSV511IT4T1J71T0XFIL+RESOLUCI%C3%93N+M%C3%93DULOS+OPTATIVOS+FP+ARAG%C3%93N.pdf",
+    "nota": "Autoriza módulos optativos de diseño propio, con implantación en 2025/2026. Para AGA304 figura AOP1052 «Producción y conservación de forrajes» (familia Agraria; especialidades Procesos de Producción Agraria / Operaciones y Equipos de Producción Agraria), según el texto extraído del PDF (tabla desordenada; véase no_verificado)."
+   },
+   {
+    "ref": "RD 715/2010, RD 1228/2006, RD 1551/2011 y RD 915/2024",
+    "boe": null,
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Cualificaciones del título (art. 6 del RD 1585/2012, no modificado): AGA465_3 Gestión de la producción ganadera (RD 715/2010, de 28 de mayo; hoy «Gestión de la producción ganadera convencional y/o ecológica» tras el RD 915/2024, de 17 de septiembre, según el anexo I del RD 532/2025), AGA169_3 Cría de caballos (RD 1228/2006, de 27 de octubre, anexo CLXIX) y AGA625_3 Asistencia a la gestión y control sanitario de animales de granja y producción (RD 1551/2011, de 31 de octubre, anexo DCXXV). No se han abierto estos reales decretos: los datos proceden del art. 6 del RD 1585/2012 y del anexo I del RD 532/2025."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "1274",
+   "nombre": "Organización y control de la reproducción y cría",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": 230,
+    "loe": 224
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "Exclusivo de este título: ningún otro título comparte este código (no aparece en ningún otro ciclo de la Orden ECD/843/2024, de la Orden EFD/659/2024 ni del anexo XCI del RD 500/2024, y la API de CATEDU no lo marca como común). Destino (junto con 1275) de la fila LOGSE «Producción ganadera»."
+  },
+  {
+   "codigo": "1275",
+   "nombre": "Gestión de la producción animal",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": 200,
+    "loe": 224
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "Exclusivo de este título: ningún otro título comparte este código (no aparece en ningún otro ciclo de la Orden ECD/843/2024, de la Orden EFD/659/2024 ni del anexo XCI del RD 500/2024, y la API de CATEDU no lo marca como común). Destino (junto con 1274) de la fila LOGSE «Producción ganadera»."
+  },
+  {
+   "codigo": "1276",
+   "nombre": "Gestión de la recría de caballos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 140,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "Exclusivo de este título: ningún otro título comparte este código (no aparece en ningún otro ciclo de la Orden ECD/843/2024, de la Orden EFD/659/2024 ni del anexo XCI del RD 500/2024, y la API de CATEDU no lo marca como común). Discrepancia de curso: 2.º en Aragón (plan vigente) y 1.º en el MEFP y en el plan LOE de Aragón."
+  },
+  {
+   "codigo": "1277",
+   "nombre": "Organización y supervisión de la doma y manejo de équidos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 220,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": "Exclusivo de este título: ningún otro título comparte este código (no aparece en ningún otro ciclo de la Orden ECD/843/2024, de la Orden EFD/659/2024 ni del anexo XCI del RD 500/2024, y la API de CATEDU no lo marca como común)."
+  },
+  {
+   "codigo": "1278",
+   "nombre": "Maquinaria e instalaciones ganaderas",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 100,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "Exclusivo de este título: ningún otro título comparte este código (no aparece en ningún otro ciclo de la Orden ECD/843/2024, de la Orden EFD/659/2024 ni del anexo XCI del RD 500/2024, y la API de CATEDU no lo marca como común). Destino de la fila LOGSE «Mecanización e instalaciones en una empresa agraria» (desde los dos títulos LOGSE). La Orden de Aragón de 2015 escribe «Maquinaría»."
+  },
+  {
+   "codigo": "1279",
+   "nombre": "Saneamiento ganadero",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": 190,
+    "loe": 147
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": "Exclusivo de este título: ningún otro título comparte este código (no aparece en ningún otro ciclo de la Orden ECD/843/2024, de la Orden EFD/659/2024 ni del anexo XCI del RD 500/2024, y la API de CATEDU no lo marca como común)."
+  },
+  {
+   "codigo": "1280",
+   "nombre": "Asistencia a la atención veterinaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 190,
+    "loe": 168
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": "Exclusivo de este título: ningún otro título comparte este código (no aparece en ningún otro ciclo de la Orden ECD/843/2024, de la Orden EFD/659/2024 ni del anexo XCI del RD 500/2024, y la API de CATEDU no lo marca como común)."
+  },
+  {
+   "codigo": "1281",
+   "nombre": "Bioseguridad",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 130,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "Exclusivo de este título: ningún otro título comparte este código (no aparece en ningún otro ciclo de la Orden ECD/843/2024, de la Orden EFD/659/2024 ni del anexo XCI del RD 500/2024, y la API de CATEDU no lo marca como común). Discrepancia de curso: 2.º en Aragón (plan vigente) y 1.º en el MEFP y en el plan LOE de Aragón."
+  },
+  {
+   "codigo": "1282",
+   "nombre": "Gestión de centros veterinarios",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 130,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": "Exclusivo de este título: ningún otro título comparte este código (no aparece en ningún otro ciclo de la Orden ECD/843/2024, de la Orden EFD/659/2024 ni del anexo XCI del RD 500/2024, y la API de CATEDU no lo marca como común). No tiene correspondencia con UC en los anexos V A) ni V B). Discrepancia de curso: 1.º en Aragón (plan vigente) y 2.º en el MEFP y en el plan LOE de Aragón."
+  },
+  {
+   "codigo": "1283",
+   "nombre": "Proyecto intermodular de ganadería y asistencia en sanidad animal",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": 40
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": "Denominación del plan LOE: «Proyecto de ganadería y asistencia en sanidad animal». El art. 3.5 del RD 1085/2020 impide convalidarlo o eximirlo."
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": "Módulo NUEVO en este ciclo (RD 500/2024 art. cuarto.Uno.c).3.º y art. séptimo.Uno.b).1.º): el RD 1585/2012 original no tenía módulo de inglés y el plan LOE de Aragón tenía los módulos propios A099 y A100 (inglés 1 y 2)."
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": "Discrepancia de curso: 1.º en Aragón y 2.º en el MEFP."
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": "Discrepancia de curso: 2.º en Aragón y 1.º en el MEFP."
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1284",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "fol_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1285",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "eie_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1286",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 370
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A099",
+   "nombre": "Lengua extranjera profesional: inglés 1 (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": "Módulo propio de Aragón del plan LOE a extinguir (art. 10 y anexo I de la Orden de 5/05/2015). Junto con A100 convalida el optativo AOP1004 (art. 13.1 de la Orden ECD/843/2024 según el Decreto 107/2025). No consta que convalide el 0179 Inglés Profesional (GS) (véase no_verificado). Su convalidación corresponde a la Administración educativa autonómica (RD 1085/2020 art. 8.2)."
+  },
+  {
+   "codigo": "A100",
+   "nombre": "Lengua extranjera profesional: inglés 2 (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 42
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": "Módulo propio de Aragón del plan LOE a extinguir. Véase A099."
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Gestión y Organización de Empresas Agropecuarias (LOGSE, RD 1711/1996, de 12 de julio)",
+   "origen_modulo": [
+    "Producción ganadera"
+   ],
+   "destino_modulos": [
+    "1274",
+    "1275"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Agraria, GRADO SUPERIOR, tabla «Técnico Superior en Gestión y Organización de Empresas Agropecuarias (RD 1711/1996, de 12 de julio) → Técnico Superior en Ganadería y Asistencia en Sanidad Animal (RD 1585/2012, de 23 de noviembre)»: fila «Producción ganadera.» → «1274. Organización y control de la reproducción y cría. 1275. Gestión de la producción animal.». La celda de destino contiene los dos módulos: el módulo LOGSE convalida ambos. Coincide con la primera fila del anexo IV del RD 1585/2012 (anexo derogado por el RD 1085/2020, disp. derogatoria única.2), que no nombraba el título LOGSE de origen, y con el anexo IV de la Orden de Aragón de 5/05/2015 (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Gestión y Organización de Empresas Agropecuarias (LOGSE, RD 1711/1996, de 12 de julio)",
+   "origen_modulo": [
+    "Mecanización e instalaciones en una empresa agraria"
+   ],
+   "destino_modulos": [
+    "1278"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Agraria, GRADO SUPERIOR, tabla «Técnico Superior en Gestión y Organización de Empresas Agropecuarias (RD 1711/1996, de 12 de julio) → Técnico Superior en Ganadería y Asistencia en Sanidad Animal (RD 1585/2012, de 23 de noviembre)»: fila «Mecanización e instalaciones en una empresa agraria.» → «1278. Maquinaria e instalaciones ganaderas.». Coincide con la segunda fila del anexo IV del RD 1585/2012 (derogado) y con el anexo IV de la Orden de Aragón de 5/05/2015 (hoy derogada)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Gestión y Organización de los Recursos Naturales y Paisajísticos (LOGSE, RD 1712/1996, de 12 de julio)",
+   "origen_modulo": [
+    "Mecanización e instalaciones en una empresa agraria"
+   ],
+   "destino_modulos": [
+    "1278"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Agraria, GRADO SUPERIOR, tabla «Técnico Superior en Gestión y Organización de los Recursos Naturales y Paisajísticos (RD 1712/1996, de 12 de julio) → Técnico Superior en Ganadería y Asistencia en Sanidad Animal (RD 1585/2012, de 23 de noviembre)»: única fila, «Mecanización e instalaciones en una empresa agraria.» → «1278. Maquinaria e instalaciones ganaderas.». El anexo IV original del RD 1585/2012 (derogado) tenía esta misma fila sin nombrar el título LOGSE de origen; el RD 1085/2020 la desdobla en dos tablas (una por cada título LOGSE que contiene el módulo)"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE (cualquiera)",
+   "origen_modulo": [
+    "Formación y Orientación Laboral (más la certificación de prevención de riesgos laborales de nivel básico)"
+   ],
+   "destino_modulos": [
+    "1284",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Formación y Orientación Laboral» (grado medio y grado superior). El módulo 1284 ya no existe tras el RD 500/2024 (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a); la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I. En Aragón el Decreto 91/2024 (anexo VIII, 6.5) exige además el certificado de PRL de nivel básico"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "1284",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla de FOL, y DA 2.ª. El módulo 1284 ya no existe tras el RD 500/2024 (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a); la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE (cualquiera)",
+   "origen_modulo": [
+    "Administración, gestión y comercialización en la pequeña empresa"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II. La tabla lo repite en dos filas."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Sociocultural (LOGSE, RD 2058/1995, de 22 de diciembre); Técnico Superior en Animación de Actividades Físicas y Deportivas (LOGSE, RD 2048/1995, de 22 de diciembre); Técnico Superior en Animación Turística (LOGSE, RD 274/2000, de 25 de febrero)",
+   "origen_modulo": [
+    "Organización y gestión de una pequeña empresa de actividades de tiempo libre y socioeducativas"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Comercio (LOGSE, familia Comercio y Marketing)",
+   "origen_modulo": [
+    "Administración y gestión de un pequeño establecimiento comercial"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos LOGSE de la familia Agraria: Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996), Jardinería (RD 1714/1996), Explotaciones Agrarias Extensivas (RD 1715/1996), Explotaciones Agrícolas Intensivas (RD 1716/1996) y Explotaciones Ganaderas (RD 1717/1996)",
+   "origen_modulo": [
+    "Organización y gestión de una explotación agraria familiar"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Técnico en Gestión Administrativa (LOGSE, RD 1662/1994, de 22 de julio, familia Administración y Gestión)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Agencias de Viajes (LOGSE, familia Hostelería y Turismo)",
+   "origen_modulo": [
+    "Organización y control en agencias de viajes"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Restauración (LOGSE, familia Hostelería y Turismo)",
+   "origen_modulo": [
+    "Administración de establecimientos de restauración"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Ortoprotésica (LOGSE, familia Sanidad)",
+   "origen_modulo": [
+    "Administración y gestión de una unidad/gabinete de ortoprotésica"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Prótesis Dentales (LOGSE, familia Sanidad)",
+   "origen_modulo": [
+    "Organización, administración y gestión de una unidad/gabinete de prótesis dentales"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Audioprótesis (LOGSE, familia Sanidad)",
+   "origen_modulo": [
+    "Administración y gestión de un gabinete audioprotésico"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos LOGSE de la familia Agraria: Gestión y Organización de los Recursos Naturales y Paisajísticos y Gestión y Organización de Empresas Agropecuarias",
+   "origen_modulo": [
+    "Organización y gestión de una empresa agraria"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II. Esta fila recoge la tercera fila del anexo IV original del RD 1585/2012 (derogado): «Organización y gestión de una empresa agraria.» → «1285. Empresa e iniciativa emprendedora.»"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Administración y Finanzas (LOGSE, RD 1659/1994, de 22 de julio, familia Administración y Gestión)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado superior con Lengua Extranjera (inglés)",
+   "origen_modulo": [
+    "Lengua Extranjera (Inglés) / Lengua Extranjera de 90 horas cuando la lengua cursada y superada sea inglés / Lengua Extranjera en Comercio Internacional cuando sea inglés"
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Superior (0179 «Inglés Profesional» tras el RD 500/2024). Son tres filas distintas de la tabla, cualquiera de ellas basta. Aplicable al 0179 de este ciclo, que es de nueva incorporación"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE (cualquiera) que incluya el módulo de FOL",
+   "origen_modulo": [
+    "Formación y orientación laboral"
+   ],
+   "destino_modulos": [
+    "1284",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con formación y orientación laboral». Coincide con el art. 15.2 original del RD 1585/2012. El módulo 1284 ya no existe tras el RD 500/2024 (art. cuarto.Uno.c).1.º y art. séptimo.Uno.a); la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE (cualquiera) que incluya el módulo de EIE",
+   "origen_modulo": [
+    "Empresa e iniciativa emprendedora"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción dada por el RD 500/2024, disp. final primera.Tres). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo LOE de grado medio o superior de las familias Comercio y Marketing o Administración y Gestión",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "1285",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción dada por el RD 500/2024, disp. final primera.Tres). El módulo 1285 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  }
+ ],
+ "convalidaciones_loe": [
+  {
+   "origen_codigos": [
+    "0179"
+   ],
+   "origen_nombre": "Inglés Profesional (de cualquier ciclo LOE de grado superior) / Certificado de Aptitud de Inglés de la EOI (RD 967/1988) / Certificado de Nivel Avanzado (B2) o superior de Inglés de la EOI (RD 1629/2006) / Título de Grado o equivalente en Filología Inglesa o en Traducción e Interpretación (Inglés)",
+   "origen_titulo": "Acreditación oficial de inglés / módulo 0179 de otro ciclo LOE",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con inglés» (son filas distintas: cualquiera basta), más el art. 3.7 del RD 1085/2020 (redacción dada por la disp. final 4.1 del RD 659/2023). El módulo 0179 de otro ciclo LOE de grado superior es idéntico por el art. 3.2. En Aragón, además, el Decreto 91/2024 (anexo VIII, apartado 3, párrafo final, en la redacción del Decreto 107/2025) considera que quien haya superado el módulo Inglés (0179) en un ciclo LOE tiene superado el 0179 Inglés Profesional"
+  },
+  {
+   "origen_codigos": [
+    "1284"
+   ],
+   "origen_nombre": "Formación y orientación laboral",
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 5 de mayo de 2015)",
+   "destino_modulos": [
+    "1709"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), disposición transitoria segunda, apartados 2 a 4 (tabla de módulos equivalentes). Misma equivalencia en la Orden EFD/659/2024 (ámbito MEFP), disp. transitoria segunda, y en la DA 6.ª del RD 1085/2020"
+  },
+  {
+   "origen_codigos": [
+    "1285"
+   ],
+   "origen_nombre": "Empresa e iniciativa emprendedora",
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 5 de mayo de 2015)",
+   "destino_modulos": [
+    "1710"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), disposición transitoria segunda, apartados 2 a 4 (tabla de módulos equivalentes). Misma equivalencia en la Orden EFD/659/2024 (ámbito MEFP), disp. transitoria segunda, y en la DA 6.ª del RD 1085/2020"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC1495_3",
+    "UC0533_3"
+   ],
+   "modulos": [
+    "1274"
+   ],
+   "fuente": "RD 1585/2012 anexo V A) — redacción ORIGINAL de 2012, que es la VIGENTE: el RD 500/2024 no sustituye los anexos V A) ni V B) de este título (su art. tercero no menciona el RD 1585/2012). Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024). Las dos UC a la vez"
+  },
+  {
+   "uc": [
+    "UC1496_3",
+    "UC1497_3"
+   ],
+   "modulos": [
+    "1275"
+   ],
+   "fuente": "RD 1585/2012 anexo V A) — redacción ORIGINAL de 2012, que es la VIGENTE: el RD 500/2024 no sustituye los anexos V A) ni V B) de este título (su art. tercero no menciona el RD 1585/2012). Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024). Las dos UC a la vez"
+  },
+  {
+   "uc": [
+    "UC0534_3"
+   ],
+   "modulos": [
+    "1276"
+   ],
+   "fuente": "RD 1585/2012 anexo V A) — redacción ORIGINAL de 2012, que es la VIGENTE: el RD 500/2024 no sustituye los anexos V A) ni V B) de este título (su art. tercero no menciona el RD 1585/2012). Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC0535_3"
+   ],
+   "modulos": [
+    "1277"
+   ],
+   "fuente": "RD 1585/2012 anexo V A) — redacción ORIGINAL de 2012, que es la VIGENTE: el RD 500/2024 no sustituye los anexos V A) ni V B) de este título (su art. tercero no menciona el RD 1585/2012). Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC0536_3"
+   ],
+   "modulos": [
+    "1278"
+   ],
+   "fuente": "RD 1585/2012 anexo V A) — redacción ORIGINAL de 2012, que es la VIGENTE: el RD 500/2024 no sustituye los anexos V A) ni V B) de este título (su art. tercero no menciona el RD 1585/2012). Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC2068_3"
+   ],
+   "modulos": [
+    "1279"
+   ],
+   "fuente": "RD 1585/2012 anexo V A) — redacción ORIGINAL de 2012, que es la VIGENTE: el RD 500/2024 no sustituye los anexos V A) ni V B) de este título (su art. tercero no menciona el RD 1585/2012). Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC2071_3"
+   ],
+   "modulos": [
+    "1280"
+   ],
+   "fuente": "RD 1585/2012 anexo V A) — redacción ORIGINAL de 2012, que es la VIGENTE: el RD 500/2024 no sustituye los anexos V A) ni V B) de este título (su art. tercero no menciona el RD 1585/2012). Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC2067_3",
+    "UC2070_3"
+   ],
+   "modulos": [
+    "1281"
+   ],
+   "fuente": "RD 1585/2012 anexo V A) — redacción ORIGINAL de 2012, que es la VIGENTE: el RD 500/2024 no sustituye los anexos V A) ni V B) de este título (su art. tercero no menciona el RD 1585/2012). Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024). Las dos UC a la vez"
+  }
+ ],
+ "uc_descripciones": {
+  "UC1495_3": "«Gestionar los procesos de producción de animales de renuevo, de reproductores y crías, y de leche» (AGA465_3, RD 715/2010) [ECP1495_3; denominación actual en el anexo I del RD 532/2025: «Gestionar los procesos de reproducción, la producción de animales de renuevo, de reproductores y crías, y de leche»]. Junto con UC0533_3 convalida 1274",
+  "UC1496_3": "«Gestionar los procesos de producción de animales de recría y de cebo» (AGA465_3, RD 715/2010) [ECP1496_3]. Junto con UC1497_3 convalida 1275",
+  "UC1497_3": "«Gestionar los procesos de producción de aves y de huevos» (AGA465_3, RD 715/2010) [ECP1497_3]. Junto con UC1496_3 convalida 1275",
+  "UC0536_3": "«Gestionar las instalaciones, maquinaria, material y equipos de la explotación ganadera» (AGA465_3 y AGA169_3) [ECP0536_3]. Por sí sola convalida 1278",
+  "UC0533_3": "«Controlar y organizar las actividades con sementales, yeguas reproductoras y potros lactantes» (AGA169_3, RD 1228/2006) [ECP0533_3]. Junto con UC1495_3 convalida 1274",
+  "UC0534_3": "«Controlar y organizar el destete y las actividades de recría de los potros» (AGA169_3, RD 1228/2006) [ECP0534_3]. Por sí sola convalida 1276",
+  "UC0535_3": "«Supervisar las tareas de doma básica y manejo de caballos para fines recreativos, de trabajo y deportivos, y en exhibiciones y/o concursos» (AGA169_3, RD 1228/2006) [ECP0535_3]. Por sí sola convalida 1277",
+  "UC2067_3": "«Desarrollar programas de bioseguridad en explotaciones ganaderas» (AGA625_3, RD 1551/2011) [ECP2067_3]. Junto con UC2070_3 convalida 1281",
+  "UC2068_3": "«Desarrollar programas sanitarios y tratamientos colectivos en animales de granja y producción» (AGA625_3, RD 1551/2011) [ECP2068_3]. Por sí sola convalida 1279",
+  "UC2070_3": "«Recoger muestras biológicas, ambientales y de piensos y realizar análisis rápidos» (AGA625_3, RD 1551/2011) [ECP2070_3]. Junto con UC2067_3 convalida 1281",
+  "UC2071_3": "«Asistir a la atención clínica veterinaria en animales de granja y producción» (AGA625_3, RD 1551/2011) [ECP2071_3]. Por sí sola convalida 1280"
+ },
+ "uc_equivalencias": {},
+ "notas": [
+  "El campo «horas» es el del currículo básico / enseñanzas mínimas: RD 1585/2012 anexo I para los módulos originales (1274 135, 1275 125, 1276 75, 1277 105, 1278 65, 1279 70, 1280 70, 1281 75, 1282 50, Proyecto 25; con FOL 50, EIE 35 y FCT 220 sumaban 1.100 h) y RD 659/2023 para 0179, 1709, 1710 (50 h cada uno), 1665, 1708 (30 h cada uno) y el optativo (80 h, RD 500/2024). Las horas reales de impartición están en «horas_otras» con las claves «aragon» (Orden ECD/843/2024, anexo V), «mefp» (Orden EFD/659/2024, anexo X) y «loe» (plan LOE a extinguir de Aragón, Orden de 5/05/2015 y Resolución de 8/06/2015, modalidad diurno).",
+  "Identificación: la API de centros docentes de Aragón (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=AGA304) devuelve AGA304 = «Ganadería y Asistencia en Sanidad Animal», CFGS, familia Agraria, 2000 h, horario DIURNO, sin familias secundarias ni ciclos con curso 1 común. La API no informa del real decreto: se confirma por la Orden ECD/843/2024 (art. 1.2.c).1.º: RD 1585/2012; art. 5.3.e): anexo V, cuya tabla lleva el código AGA304). En grado superior no existen los módulos de tutoría A996/A997.",
+  "El BOE ofrece texto consolidado del RD 1585/2012 (https://www.boe.es/buscar/act.php?id=BOE-A-2013-155, última actualización 28/05/2024). Recoge: anexo IV «(Derogado)» por el RD 1085/2020; arts. 2, 10, 12 y 15 y anexos I y III según el RD 500/2024. El art. 6 y los anexos V A) y V B) NO han sido modificados nunca: la redacción vigente es la original de 2012, por lo que en «uc_a_modulos» y «modulos_a_uc» solo hay filas vigentes (no existe una redacción anterior distinta que recoger con vigente=false).",
+  "Grupo del art. primero.Dos del RD 500/2024: este título es el 49.º de la letra a), es decir, ciclos que NO tenían módulo de inglés en su RD original. Por eso 0179 Inglés Profesional (GS) es un módulo NUEVO (50 h de currículo básico, anexo X del RD 659/2023). Suprimidos: 1284 Formación y orientación laboral, 1285 Empresa e iniciativa emprendedora y 1286 Formación en centros de trabajo. Renombrado: 1283 Proyecto de ganadería y asistencia en sanidad animal → Proyecto intermodular de ganadería y asistencia en sanidad animal (mismo código). Añadidos: 0179, 1709, 1710, 1665, 1708 y el módulo profesional optativo (sin código estatal). El RD 500/2024 NO sustituye los anexos V A) y V B) ni el art. 6 de este título. Créditos ECTS (anexo XCI): 1274=17, 1275=16, 1276=10, 1277=11, 1278=7, 1279=7, 1280=7, 1281=10, 1282=4 (89 en total).",
+  "CONVALIDACIONES LOGSE→LOE de este título (anexo II del RD 1085/2020, bloque Agraria, GRADO SUPERIOR): TRES filas en DOS tablas. Desde TS Gestión y Organización de Empresas Agropecuarias (RD 1711/1996): Producción ganadera → 1274 + 1275 (un módulo LOGSE convalida los dos módulos LOE); Mecanización e instalaciones en una empresa agraria → 1278. Desde TS Gestión y Organización de los Recursos Naturales y Paisajísticos (RD 1712/1996): Mecanización e instalaciones en una empresa agraria → 1278. El anexo IV original del RD 1585/2012 (derogado) tenía tres filas sin nombrar el título de origen: las dos anteriores y «Organización y gestión de una empresa agraria → 1285 EIE», que hoy está en la tabla general de EIE del anexo II (fila incluida, con destino 1285/1710 por la DA 6.ª). Ninguna fila del anexo derogado ha quedado sin reproducir: «filas_derogadas_no_aplicadas» no contiene filas.",
+  "CONVALIDACIONES LOE→LOE (anexo III del RD 1085/2020): NO hay ninguna tabla con destino este título ni ninguna fila que cite sus módulos 1274-1283, ni como formación a convalidar ni como formación aportada (el bloque Agraria de grado superior solo tiene tablas hacia TS Gestión Forestal y del Medio Natural). Solo se aplican las tablas transversales: FOL → 1284/1709, EIE → 1285/1710 (incluido el ciclo completo de Comercio y Marketing o Administración y Gestión) e inglés (0179 de otro ciclo, certificados de EOI y títulos universitarios → 0179). El anexo IV tampoco menciona este título. Por tanto no se ha incorporado ninguna fila por la vía de la DA 5.ª del RD 1085/2020 (no hay filas «OJO»).",
+  "SENTIDO INVERSO (este ciclo como formación aportada): solo 0179 → 0156 Inglés Profesional de grado medio (anexo III, tabla de inglés) y los módulos comunes (1709, 1710, 1665, 1708, 0179), que son idénticos en todos los ciclos de grado superior. Ningún módulo específico de este título convalida módulos de otros títulos según las tablas del RD 1085/2020.",
+  "MÓDULOS QUE COMPARTE CON OTROS TÍTULOS: NINGUNO de los específicos. Los códigos 1274-1283 son exclusivos de este título: no aparecen en ningún otro ciclo de la Orden ECD/843/2024 (Aragón), de la Orden EFD/659/2024 (MEFP), del anexo XCI del RD 500/2024 ni de los anexos del RD 1085/2020, y la API de CATEDU no marca ningún ciclo común para ellos. No comparte módulos por código con los otros ciclos de grado superior de Agraria (AGA302 Gestión Forestal y del Medio Natural, RD 260/2011; AGA303 Paisajismo y Medio Rural, RD 259/2011), ni con Sanidad ni con Industrias Alimentarias. Solo comparte los módulos comunes de la LO 3/2022: 0179, 1709, 1710, 1665 y 1708 (y el optativo).",
+  "Artículo 15 en la redacción del RD 500/2024: las convalidaciones se rigen por el art. 126 del RD 659/2023; entre formaciones del sistema y formaciones de regulaciones previas, por el art. 127; a este título (anterior al 5/03/2017) se le aplica el RD 1085/2020; las UC acreditadas convalidan por el art. 128 y las tablas de «correspondencia entre UC acreditadas y módulos»; si en una celda hay varias UC o varios módulos, hacen falta todos simultáneamente; ante discrepancias prevalece la codificación sobre la denominación (apdo. 6); la exención de la formación en empresa se rige por el art. 131 del RD 659/2023 (apdo. 7) y este ciclo no está entre los de Sanidad excluidos (apdo. 8). El art. 16 (remisión a los anexos V A) y V B)) no ha sido modificado.",
+  "Efecto del RD 500/2024 sobre FOL y EIE: la DA 6.ª del RD 1085/2020 ordena entender toda convalidación cuyo resultado sea FOL como hecha también a 1709 Itinerario personal para la empleabilidad I, y la de EIE, también a 1710. Por eso las filas de FOL y EIE siguen siendo operativas pese a la supresión de 1284 y 1285 (destinos «1284, 1709» y «1285, 1710»). La DA 3.ª del RD 1585/2012 (FOL de al menos 45 h capacita para el nivel básico de PRL) se entiende hecha a 1709 (DA 3.ª del RD 500/2024; así lo recoge el consolidado).",
+  "El art. 3.5 del RD 1085/2020 establece que el módulo de Proyecto de los ciclos de grado superior NO puede ser objeto de convalidación ni de exención: 1283 nunca se convalida. El art. 3.4 impide convalidar la FCT (solo exención): 1286 ya no existe y el periodo de formación en empresa nunca se convalida, aunque sí admite exención en este ciclo (art. 15.7-15.8 del RD 1585/2012 según el RD 500/2024 y art. 49 del Decreto 91/2024 de Aragón).",
+  "MEFP (Orden EFD/659/2024, anexo X): 1.º curso 1278 100 h, 1276 140, 1281 130, 1275 200, 1274 230, 1709 100, 1708 35 y 0179 70 (30 sesiones, 1005 h); 2.º curso 1282 130, 1280 190, 1279 190, 1277 220, 1710 100, 1665 35, optativa(s) 80 y 1283 50 (30 sesiones, 995 h). Total 2000 h. La formación en empresa va incluida en los módulos. A diferencia de otros ciclos, el anexo X no incluye 1712 Inglés Profesional II.",
+  "ARAGÓN, PLAN VIGENTE (Orden ECD/843/2024, anexo V, código AGA304, 30 sesiones semanales en cada curso): 1.º curso 1274 (233 h), 1275 (267), 1278 (167), 1282 (133), 1709 (100), 1665 (33) y 0179 (67) = 1000 h; 2.º curso 1276 (67), 1277 (100), 1279 (233), 1280 (200), 1281 (133), 1283 (67), 1710 (67), 1708 (33) y el optativo (100) = 1000 h. Total 2000 h. Coincide módulo a módulo con la API de centros docentes de Aragón (horas, curso y sesiones).",
+  "DISCREPANCIAS DE CURSO entre Aragón y el MEFP: 1276 (2.º en Aragón, 1.º en el MEFP), 1281 (2.º en Aragón, 1.º en el MEFP), 1282 (1.º en Aragón, 2.º en el MEFP), 1665 (1.º en Aragón, 2.º en el MEFP) y 1708 (2.º en Aragón, 1.º en el MEFP). El resto coincide de curso, con horas distintas (p. ej. 1277: 100 h en Aragón y 220 en el MEFP; 1276: 67 frente a 140; 1278: 167 frente a 100; 1275: 267 frente a 200).",
+  "PLAN LOE DE ARAGÓN (clave «loe» de «horas_otras»): Orden de 5 de mayo de 2015 (BOA núm. 103, de 02/06/2015) y Resolución de 8 de junio de 2015 (BOA núm. 124, de 01/07/2015, anexo I), modalidad diurno, 30 h/semana en cada curso. 1.º curso: 1274 224 h (7 h/sem), 1275 224 (7), 1276 96 (3), 1278 128 (4), 1281 128 (4), A099 inglés 1 64 (2) y 1284 FOL 96 (3). 2.º curso: 1277 105 (5), 1279 147 (7), 1280 168 (8), 1282 105 (5), A100 inglés 2 42 (2) y 1285 EIE 63 (3), más 1283 Proyecto 40 h y 1286 FCT 370 h sin horas semanales. Total 2000 h. Modalidad nocturno en tres cursos (18 + 20 + 17 h/semana).",
+  "Comparación plan LOE → plan adaptado en Aragón: desaparecen 1284 FOL (96 h), 1285 EIE (63 h), 1286 FCT (370 h) y los módulos propios A099 (64 h) y A100 (42 h) y entran 0179, 1709, 1710, 1665, 1708 y el optativo; cambian de curso 1276 y 1281 (de 1.º a 2.º) y 1282 (de 2.º a 1.º); suben 1274 (224→233), 1275 (224→267), 1278 (128→167), 1279 (147→233), 1280 (168→200), 1281 (128→133), 1282 (105→133) y el Proyecto (40→67); bajan 1276 (96→67) y 1277 (105→100).",
+  "Transición en Aragón (Orden ECD/843/2024, DT 2.ª y DF 1.ª): en 2024/25 se implanta 1.º y en 2025/26 2.º curso; desde el 1/09/2026 todo el alumnado cursa la nueva ordenación, aplicando la tabla de equivalencias de la DT 2.ª.3 en sentido inverso (1709 ≡ FOL, 1710 ≡ EIE). A la fecha de este fichero (30/09/2026) ya rige ese apartado 4. La tercera fila de la tabla (0179 Inglés profesional (GS) ≡ 0179 Inglés) no sirve al plan LOE de este ciclo, que no tenía 0179 sino A099 y A100: estos solo convalidan el optativo AOP1004 (art. 13.1). En la modalidad virtual y semipresencial el plan a extinguir puede alargarse (DT 2.ª.7). DA 1.ª de la ECD/843/2024: la superación de un módulo con la misma codificación numérica en el plan LOE se reconoce en la nueva ordenación (1274 a 1283).",
+  "Módulos optativos en Aragón (art. 12.2 de la Orden ECD/843/2024 en la redacción del Decreto 107/2025, lista abierta y común a los ciclos de grado superior, módulo anual de 100 h en 2.º curso): AOP1004 Comunicación profesional en Inglés (GS) (antes A170), AOP1002 Segunda lengua profesional Francés (antes A171), AOP1003 Ofimática avanzada aplicada al sector profesional (antes A172) y módulos de diseño propio del centro; para AGA304 la Resolución de 6 de junio de 2025 recoge AOP1052 «Producción y conservación de forrajes». Convalidaciones (art. 13): B2 de inglés, o A099 + A100 del plan a extinguir, → AOP1004; B1 de francés → AOP1002; un optativo superado en un CFGS puede convalidarse en cualquier otro CFGS.",
+  "Correspondencia UC-módulos, VIGENTE (texto original de 2012, no sustituido). Anexo V A): UC1495_3 + UC0533_3 → 1274 (las dos UC); UC1496_3 + UC1497_3 → 1275 (las dos); UC0534_3 → 1276; UC0535_3 → 1277; UC0536_3 → 1278; UC2068_3 → 1279; UC2071_3 → 1280; UC2067_3 + UC2070_3 → 1281 (las dos). Anexo V B): exactamente la inversa (1274 → UC1495_3 + UC0533_3; 1275 → UC1496_3 + UC1497_3; 1276 → UC0534_3; 1277 → UC0535_3; 1278 → UC0536_3; 1279 → UC2068_3; 1280 → UC2071_3; 1281 → UC2067_3 + UC2070_3). Las dos tablas son simétricas. 1282 Gestión de centros veterinarios, 1283 y los módulos comunes no tienen correspondencia con UC. Obsérvese que 1274 exige una UC de AGA465_3 y otra de AGA169_3.",
+  "«equivalencias_uc» (RD 532/2025, anexos II-a y II-b) está VACÍO: ninguna de las once UC de este título cambia de número. Todas figuran en el anexo I del RD 532/2025 y pasan a ECP con el mismo número, de modo que TODAS equivalen por sí solas a su ECP homónimo (UC0533_3, UC0534_3, UC0535_3, UC0536_3, UC1495_3, UC1496_3, UC1497_3, UC2067_3, UC2068_3, UC2070_3 y UC2071_3) y NINGUNA necesita acreditarse junto con otras para la equivalencia UC→ECP. La exigencia de acreditar varias UC a la vez procede solo de las celdas del anexo V A) (UC1495_3 + UC0533_3 para 1274; UC1496_3 + UC1497_3 para 1275; UC2067_3 + UC2070_3 para 1281).",
+  "Contraste con la herramienta de CATEDU: la API de get_info_ciclo.php coincide con el anexo V de la Orden ECD/843/2024 en horas, curso y sesiones de todos los módulos y con el anexo XCI del RD 500/2024 en los ECTS; solo marca como comunes de 1.º los módulos 1665, 0179 y 1709. No se han consultado las herramientas de competencias de CATEDU (tab1/tab2) para este ciclo.",
+  "Decreto 91/2024 (Aragón), anexo VIII, según el Decreto 107/2025: apartado 3 (módulos con los mismos códigos, denominaciones o resultados de aprendizaje se consideran idénticos y se trasladan las calificaciones a solicitud del alumnado en la matrícula, sin convalidación) y apartado 6.14 (convalidación por acreditación de unidades de competencia de cualquier procedencia mediante las tablas V A) de los RD). Estas reglas ya están recogidas en el motor general.",
+  "Otros efectos (RD 1585/2012): el título no declara equivalencias con títulos LOGSE ni de la Ley 14/1970 (DA 3.ª solo trata la capacitación de nivel básico en PRL); DA 4.ª: no regula profesión alguna. Art. 14: acceso directo a cualquier otro ciclo de grado superior y a los grados universitarios; 120 ECTS."
+ ],
+ "no_verificado": [
+  "Aragón: el anexo V de la Orden ECD/843/2024 se ha leído en el texto del PDF del BOA (csv BOA20240731004, https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf) y no lo afecta la corrección de errores de 26/02/2025 (que, según lo indicado, solo toca los anexos XXXVI, XL, XXIV y LXXI); esa corrección no se ha leído. Tampoco se ha leído la corrección de errores del Decreto 107/2025 (BOA 19/01/2026) ni se ha barrido el BOA posterior al 18/09/2025 en busca de otras modificaciones de la Orden ECD/843/2024. Que el Decreto 107/2025 no toca el anexo V se toma de la relación de modificaciones de su art. tercero ya verificada para otros ciclos (research/hot301.json).",
+  "Origen de las filas LOGSE: los RD 1711/1996 y 1712/1996 no se han abierto; las denominaciones de sus módulos («Producción ganadera», «Mecanización e instalaciones en una empresa agraria», «Organización y gestión de una empresa agraria») se toman de las tablas del RD 1085/2020 (https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274) y del anexo IV original del RD 1585/2012. El anexo IV original no nombraba el título LOGSE de origen; el RD 1085/2020 limita «Producción ganadera» al RD 1711/1996: no se ha comprobado si algún otro ciclo LOGSE tiene un módulo con esa misma denominación (por la DA 5.ª del RD 1085/2020 la convalidación se aplicaría al módulo con independencia del título).",
+  "Módulos propios A099 y A100 (inglés 1 y 2) del plan LOE de Aragón: el art. 13.1 de la Orden ECD/843/2024 (según el Decreto 107/2025) solo les reconoce la convalidación del optativo AOP1004. No consta ninguna norma que los haga convalidar el 0179 Inglés Profesional (GS) (la tabla de la DT 2.ª solo cita «0179. Inglés»); no se han consultado instrucciones de la Dirección General sobre este punto.",
+  "Plan LOE de Aragón: horas y curso de la tabla de AGA304 de la Resolución de 8/06/2015 (https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=863052165151&type=pdf), cotejadas con las duraciones del anexo I de la Orden de 5/05/2015 (https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=857735265151&type=pdf). El curso del Proyecto y de la FCT (2.º) es una deducción. No se ha trasladado la modalidad de nocturno.",
+  "La lectura de los cursos del MEFP (Orden EFD/659/2024, anexo X, https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181) se hace sobre la tabla del BOE volcada a texto conservando las celdas vacías; cada curso suma 30 sesiones. La columna «Bilingüe» no se ha trasladado a los módulos. La Orden ECD/1538/2015 (currículo LOE del MEFP, derogada) no se ha abierto.",
+  "Optativo de diseño propio AOP1052 «Producción y conservación de forrajes» para AGA304: procede del texto extraído del PDF de la Resolución de 6 de junio de 2025 (https://educa.aragon.es/documents/20126/5514380/CSV511IT4T1J71T0XFIL+RESOLUCI%C3%93N+M%C3%93DULOS+OPTATIVOS+FP+ARAG%C3%93N.pdf), cuya tabla sale desordenada; el centro autorizado no se ha identificado, ni se ha comprobado si hay resoluciones posteriores para 2026/27.",
+  "Cualificaciones: las UC del título proceden del art. 6 del RD 1585/2012 (no modificado). No se han abierto los RD 715/2010, 1228/2006, 1551/2011 ni 915/2024: las listas «uc_vigente» se reconstruyen del anexo I del RD 532/2025 (https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147). En particular, no se ha comprobado si tras el RD 915/2024 la cualificación AGA465_3 conserva UC0536_3 ni su formación asociada.",
+  "El anexo V A) y el art. 6 del RD 1585/2012 usan la denominación antigua de UC1495_3; el anexo I del RD 532/2025 la da redenominada (añade «los procesos de reproducción»). Prevalece la codificación (art. 15.6). No se ha comprobado si la UC1495_3 redenominada por el RD 915/2024 exige alguna equivalencia adicional fuera de los anexos II-a y II-b del RD 532/2025 (en ellos no figura).",
+  "No se han revisado todos los RD de títulos y cursos de especialización posteriores al 5/03/2017 en busca de filas de su anexo IV que citen los módulos 1274-1283 o este ciclo; la DA 5.ª del RD 1085/2020 las extendería a cualquier ciclo. En los anexos I a IV del RD 1085/2020 consolidado no aparece ninguna.",
+  "El RD 500/2024 anexo L (nuevo anexo III de profesorado de este título) y el anexo II (espacios) del RD 1585/2012 no se han revisado en lo relativo a especialidades docentes, espacios o equipamientos. Tampoco los espacios del anexo V de la Orden ECD/843/2024 ni del anexo X de la Orden EFD/659/2024.",
+  "Los créditos ECTS de 0179, 1709, 1710, 1665, 1708 y 1283 tras la adaptación proceden de la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=AGA304); no se han cotejado con los anexos del RD 659/2023. El anexo XCI del RD 500/2024 solo lista para este título los nueve módulos específicos (89 ECTS).",
+  "todofp.es no se ha usado como fuente de tablas de convalidación (no las publica) ni se ha contrastado la ficha del título en https://www.todofp.es/que-estudiar/familias-profesionales/agraria.html.",
+  "No se ha buscado una corrección de errores del RD 1585/2012 ni del RD 500/2024 (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685) que afecte a este título; el «Análisis» del BOE del RD 1585/2012 no recoge ninguna.",
+  "Filas de FOL, EIE, inglés y optativos: se reutiliza la transcripción de las tablas transversales del RD 1085/2020 y del art. 13 de la Orden ECD/843/2024 ya verificada para otros ciclos de grado superior del grupo a) (research/ele305.json), cambiando solo los códigos de destino (1284 FOL, 1285 EIE); no se han vuelto a cotejar fila a fila para este ciclo."
+ ]
+};

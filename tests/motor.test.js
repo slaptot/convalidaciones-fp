@@ -660,6 +660,30 @@ r = est('aga204', ['0404', '0407', '0408', '0409', '0479'].map((c) => ({ tipo: '
 ['0404', '0407', '0408', '0409', '0479'].forEach((c) => assert.equal(r[c], 'superado', c));
 console.log('OK: Jardinería y Floristería');
 
+// Gestión Forestal (AGA302), Paisajismo (AGA303), Ganadería (AGA304) y Mantenimiento Electromecánico (IMA201)
+['aga302', 'aga303', 'aga304', 'ima201'].forEach((c) => require(`../data/ciclos/${c}.js`));
+const tl = (t, m) => [{ tipo: 'modulo_logse', titulo: t, modulo: m, docs: [] }];
+const RNP = 'Técnico Superior en Gestión y Organización de los Recursos Naturales y Paisajísticos';
+assert.equal(est('aga302', tl(RNP, 'Gestión de los aprovechamientos forestales'))['0810'], 'convalidable');
+assert.notEqual(est('aga302', ucs(['UC1487_3']))['0810'], 'convalidable');
+assert.equal(est('aga302', ucs(['UC1487_3', 'UC1488_3']))['0810'], 'convalidable');
+assert.equal(est('aga302', ucs(['UC0727_3']))['0693'], 'convalidable');
+r = est('aga303', tl(RNP, 'Instalación y mantenimiento de jardines y restauración del paisaje'));
+assert.equal(r['0697'], 'convalidable'); assert.equal(r['0698'], 'convalidable');
+assert.equal(est('aga303', ucs(['UC0007_3']))['0697'], 'convalidable');
+assert.equal(est('aga303', ucs(['UC0727_3']))['0693'], 'convalidable');
+r = est('aga304', tl('Técnico Superior en Gestión y Organización de Empresas Agropecuarias', 'Producción ganadera'));
+assert.equal(r['1274'], 'convalidable'); assert.equal(r['1275'], 'convalidable');
+assert.notEqual(est('aga304', ucs(['UC1495_3']))['1274'], 'convalidable');
+assert.equal(est('aga304', ucs(['UC1495_3', 'UC0533_3']))['1274'], 'convalidable');
+const IME = 'Técnico en Instalación y Mantenimiento Electromecánico de Maquinaria y Conducción de Líneas';
+r = est('ima201', tl(IME, 'Técnicas de mecanizado para el mantenimiento y montaje'));
+assert.equal(r['0949'], 'convalidable'); assert.equal(r['0950'], 'convalidable');
+assert.equal(est('ima201', tl(IME, 'Electrotecnia'))['0951'], 'convalidable');
+assert.equal(est('ima201', ucs(['UC0116_2']))['0953'], 'convalidable');
+assert.equal(est('ima201', ucs(['UC0117_2']))['0952'], 'convalidable');
+console.log('OK: AGA302, AGA303, AGA304 e IMA201');
+
 // La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
 for (const [id, c] of Object.entries(CICLOS)) {
   const emp = c.modulos.filter((m) => m.tipo === 'empresa').map((m) => m.codigo);
