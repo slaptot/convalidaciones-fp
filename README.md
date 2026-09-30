@@ -70,6 +70,8 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Mantenimiento de Instalaciones Térmicas y de Fluidos | IMA301 | Superior | LO 3/2022 |
 | Desarrollo de Proyectos de Instalaciones Térmicas y de Fluidos | IMA303 | Superior | LO 3/2022 |
 | Mecatrónica Industrial | IMA302 | Superior | LO 3/2022 |
+| Mecanizado | FME202 | Medio | LO 3/2022 |
+| Soldadura y Calderería | FME203 | Medio | LO 3/2022 |
 
 Además, el **catálogo completo de Aragón** (150 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas. De ellos, **139 tienen ya la correspondencia módulo ↔ estándar de competencia** descargada de esa misma herramienta (2.930 filas), así que convalidan por unidades de competencia acreditadas; lo que les falta es el anexo de convalidaciones con títulos anteriores, que hay que leer del BOE. La web lo avisa en pantalla, porque esas correspondencias no están contrastadas con el anexo V de cada real decreto.
 
