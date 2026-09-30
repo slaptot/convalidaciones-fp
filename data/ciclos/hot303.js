@@ -1,0 +1,942 @@
+// Generado por tools/build_data.py a partir de research/hot303.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["hot303"] = {
+ "ciclo": {
+  "codigo": "HOT303",
+  "nombre": "Técnico Superior en Guía, Información y Asistencias Turísticas",
+  "grado": "superior",
+  "familia": "Hostelería y Turismo",
+  "normas": [
+   {
+    "ref": "RD 1255/2009, de 24 de julio",
+    "boe": "BOE-A-2009-14261",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-14261",
+    "nota": "Título de Técnico Superior en Guía, Información y Asistencias Turísticas y enseñanzas mínimas (BOE núm. 215, de 05/09/2009, págs. 75778-75842; en vigor 06/09/2009; ELI https://www.boe.es/eli/es/rd/2009/07/24/1255). CONFIRMACIÓN del encargo: el código HOT303 de Aragón es «Guía, Información y Asistencia Turísticas» (API de CATEDU: ciclo así llamado, CFGS, familia Hostelería y Turismo, 2001 h por redondeo; Orden ECD/843/2024, anexo XXXII: «GUÍA, INFORMACIÓN Y ASISTENCIAS TURÍSTICAS (HOT303)»), regulado por el RD 1255/2009 (art. 1.2.j).5.º de la Orden ECD/843/2024 y 3.º de la letra b) del art. primero.Dos del RD 500/2024). Familia Hostelería y Turismo, 2.000 h, CINE-5b (art. 2 original; nivel 5A del MECU tras el RD 500/2024). Sustituye a la regulación del título LOGSE de Técnico Superior en Información y Comercialización Turísticas (RD 2217/1993) y deroga éste y su currículo (RD 145/1994) (disp. derogatoria única). ATENCIÓN: el BOE NO publica texto consolidado (act.php redirige a doc.php; solo hay «TEXTO ORIGINAL»; su ficha registra: RD 500/2024 modifica los arts. 2, 6, 10, 12, 15, anexos I y III y SUSTITUYE el anexo V A) y B); RD 1085/2020 deroga el anexo IV): hay que leer el original y aplicarle a mano esas normas. Módulos originales (art. 10): 0171, 0172, 0173, 0383, 0384, 0385, 0386, 0387, 0179 Inglés, 0180 Segunda lengua extranjera, 0388 Proyecto, 0389 FOL, 0390 EIE y 0391 FCT (los tres últimos suprimidos por el RD 500/2024). Art. 6 original: cualificación completa HOT335_3 e incompletas HOT336_3 y HOT330_3; hoy redactado por el RD 500/2024 (HOT335_3, HOT336_3, HOT772_3 y SSC329_3). DA 3.ª: Técnico Especialista en Azafatas de Congresos y Exposiciones, en Servicios de Tierra de Aviación y en Servicios a Bordo de Aviación (rama Administrativa y Comercial) y el Técnico Superior en Información y Comercialización Turísticas (RD 2217/1993) tienen los mismos efectos académicos y profesionales; DA 3.ª.3: la FOL (mín. 45 h) capacita para el nivel básico de PRL (tras el RD 500/2024, referida a 1709); DA 3.ª.4: los módulos de Inglés y Segunda lengua extranjera comprenden UC1072_3 y UC1073_3. Art. 15 original: convalidaciones (anexo IV = LOGSE→LOE), FOL/EIE de cualquier ciclo LOE y exención de la FCT. No consta corrección de errores en su ficha del BOE."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Deroga el anexo IV del RD 1255/2009 (así lo recoge el análisis del BOE). Las convalidaciones LOGSE→LOGSE están en su anexo I (bloque Hostelería y turismo, tabla con los módulos del título LOGSE de Información y Comercialización Turísticas como destino), las LOGSE→LOE en su anexo II (bloque «Hostelería y Turismo», GRADO SUPERIOR, con seis filas hacia este título: cuatro de Información y Comercialización Turísticas, una de Agencias de Viajes y una de Alojamiento; más tablas transversales de FOL, EIE, Inglés y Segunda Lengua Extranjera), las LOE→LOE en su anexo III (bloques «Hostelería y Turismo» y «Administración y Gestión», GRADO SUPERIOR, y tablas transversales de inglés, FOL, EIE y segunda lengua) y las de títulos posteriores al 5/03/2017 en su anexo IV (tablas «Cualquier ciclo formativo», Comercio y Marketing / Hostelería y Turismo (RD 189/2018) y Transporte y Mantenimiento de Vehículos (RD 74/2018); ninguna fila menciona este título ni sus módulos). Consolidado a 07/04/2026 (texto inicial 30/12/2020; comprobado en las 85 tablas del consolidado). Modificado, entre otros, por el RD 500/2024 (anexo III, DA 1.ª y nueva DA 6.ª). Art. 3.2: módulos con mismos códigos, denominaciones, resultados de aprendizaje, contenidos y duración son idénticos y trasladan calificación. DA 5.ª: las convalidaciones de los anexos I a IV se aplican a los módulos de cualquier ciclo con independencia del título."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de 1709/1710 (anexo V, 50 h cada uno), 1665 Digitalización GS (anexo VII, 30 h), 1708 Sostenibilidad (anexo VIII, 30 h) y 0179 Inglés profesional GS (anexo X, 50 h). Arts. 126-128 (convalidaciones) y 131 (exención de la formación en empresa). Art. 96.1: bloques del ciclo; art. 102: optatividad."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de los títulos de GRADO SUPERIOR a la LO 3/2022. El RD 1255/2009 es el 3.º de la letra b) del artículo primero.Dos (ciclos que YA tenían módulo de inglés en el RD original: 0179 Inglés solo se RENOMBRA a 0179 Inglés Profesional (GS) con el currículo del anexo X del RD 659/2023, art. cuarto.Dos.c).3.º y art. séptimo.Dos.b); el 0180 Segunda lengua extranjera no se toca). Efectos en este título: SUPRIME 0389 FOL, 0390 EIE y 0391 FCT (art. cuarto.Dos.c).1.º y art. séptimo.Dos.a)); AÑADE 1709, 1710, 1665, 1708 y un módulo optativo de 80 h (art. cuarto.Dos.c).4.º y art. séptimo.Dos.c)); «Proyecto de guía, información y asistencia turísticas» pasa a «Proyecto intermodular…» manteniendo código 0388. Art. segundo: nivel 5A del MECU. Art. tercero.Siete: nueva redacción del art. 6 (cualificaciones) y SUSTITUCIÓN de los anexos V A) y V B). Art. quinto.Uno (art. 12, profesorado), art. sexto.Uno (art. 15, convalidaciones y exención; este ciclo NO está en la lista de Sanidad excluida de la exención del apdo. 8), art. séptimo.Dos (anexo I) y art. octavo.Setenta y dos (anexo III = anexo LXXIII del RD 500/2024). DA 1.ª y anexo I: minoración horaria solo para CCAA con lengua cooficial (no afecta a Aragón). DA 2.ª y anexo XCI: nuevos créditos ECTS (0171=9, 0172=9, 0384=12, 0173=12, 0385=7, 0386=9, 0387=9, 0180=8, 0383=14; 89 en total; ahí el 0386 figura como «Procesos de asistencia y guía»). DA 3.ª: las referencias de la DA 3.ª.3 del RD 1255/2009 al módulo FOL se entienden hechas a 1709. DT única: en 2024-25 se implanta 1.º curso. Disp. final 1.ª: añade la DA 6.ª al RD 1085/2020 (FOL→1709, EIE→1710)."
+   },
+   {
+    "ref": "RD 2217/1993, de 17 de diciembre",
+    "boe": "BOE-A-1994-4012",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-4012",
+    "nota": "Título LOGSE anterior de Técnico Superior en Información y Comercialización Turísticas. DEROGADO por el RD 1255/2009 (disp. derogatoria única.1), igual que su currículo del MEC (RD 145/1994, de 4 de febrero, BOE-A-1994-6010). Es el título de origen de las cuatro filas del anexo II del RD 1085/2020 hacia este título (y de las del anexo IV original del RD 1255/2009), y aparece en el anexo I (LOGSE→LOGSE) como destino de las filas de Agencias de Viajes. El RD 1255/2009 (DA 3.ª.2) le reconoce los mismos efectos profesionales y académicos que el título actual."
+   },
+   {
+    "ref": "Orden EDU/379/2010, de 20 de enero",
+    "boe": "BOE-A-2010-2977",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-2977",
+    "nota": "Currículo LOE (plan anterior) del ámbito de gestión del Ministerio (BOE núm. 48, de 24/02/2010). DEROGADA por la Orden EFD/659/2024 (disp. derogatoria única, letra k).5.º)."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito de gestión del MEFPD (BOE núm. 158, de 1/07/2024). Este ciclo está en su ANEXO XL (art. 6.3.ah), apartados A (secuenciación y horas) y siguientes (espacios y equipamientos). 1.º curso: 0172 100 h, 0171 100, 0384 100, 0173 170, 0383 200, 0180 130, 1709 100, 1708 35 y 0179 70 (30 sesiones semanales; 1005 h); 2.º curso: 0385 190, 0387 220, 0386 260, 1710 100, 1665 35, optativa 80, 1712 Inglés Profesional II (GS) 60 y 0388 Proyecto Intermodular 50 (30 sesiones; 995 h). Total 2000 h. Módulos bilingües: 0173, 0383, 0385, 0387 y 0386. DT 2.ª.3: tabla 1709 ≡ FOL, 1710 ≡ EIE, 0179 Inglés profesional (GS) ≡ 0179 Inglés."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra las unidades de competencia como estándares de competencia profesional (ECP). Anexo I: UC2579_3, UC2580_3, UC1074_3, UC1075_3, UC0268_3, UC1056_3, UC9999_3 y UC9997_3 pasan a ECP con el MISMO número. Anexos II-a y II-b: UC1069_3 + UC1071_3 ↔ ECP2579_3, UC1070_3 + UC1071_3 ↔ ECP2580_3 (cada una necesita la otra), UC1072_3 → ECP9999_3 y UC1073_3 → ECP9997_3 (sin requisitos)."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+    "nota": "Currículo vigente de Aragón para grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004; corrección de errores de 26/02/2025 que solo afecta a los anexos XXXVI, XL, XXIV y LXXI, es decir, no al de este ciclo). Este ciclo está en su ANEXO XXXII (art. 1.2.j).5.º y art. 5.3.ae)), código de ciclo HOT303: 1.º curso 0171 (167 h, 5 sesiones), 0172 (133, 4), 0383 (200, 6), 0384 (167, 5), 0387 (133, 4), 1709 (100, 3), 1665 (33, 1) y 0179 (67, 2) = 1000 h; 2.º curso 0173 (167, 5), 0385 (167, 5), 0386 (267, 8), 0180 (133, 4), 0388 Proyecto intermodular (67, 2), 1710 (67, 2), 1708 (33, 1) y módulo optativo (100, 3) = 1000 h. 30 sesiones semanales en cada curso; la suma de las horas del anexo es 2001 (el anexo la muestra como 2000; la API de CATEDU da 2001). Solo horario diurno; no hay módulos propios de tutoría. Espacios: aula polivalente (40/60 m²) y aula de agencias/información turística (40/40 m²), para 20/30 alumnos. Art. 8: el 0180 puede impartirse en francés o alemán. Art. 12: el optativo es anual y va en 2.º. Art. 13: convalidación de los optativos (AOP1004 y AOP1002 tras el Decreto 107/2025). DA 1.ª: la superación de un módulo del RD 1147/2011 se reconoce automáticamente si la codificación numérica es la misma. DT 2.ª.3: tabla de equivalencias 1709 ≡ FOL, 1710 ≡ EIE y 0179 Inglés profesional (GS) ≡ 0179 Inglés (aplicable a este ciclo, que sí tenía 0179); DT 2.ª.4: desde el 1/09/2026 hay que cursar el plan nuevo completo. Disp. derogatoria única, letra j).3: deroga la Orden de 14 de julio de 2010 de este ciclo."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025 (csv BOA20250918002). Modifica el Decreto 91/2024 y las Órdenes ECD/842/2024 y ECD/843/2024. En la ECD/843/2024 (art. tercero) NO toca el anexo XXXII de este ciclo (comprobado: solo modifica expresamente el anexo XLIII y añade/ajusta los anexos LXXIV-LXXVII), pero RENOMBRA los módulos optativos comunes: A170 pasa a AOP1004 «Comunicación profesional en Inglés (GS)», A171 a AOP1002 «Segunda lengua profesional Francés» y A172 a AOP1003 «Ofimática avanzada aplicada al sector profesional», y reescribe el art. 13 (convalidación de optativos: B2 de inglés o la superación de los antiguos «Lengua Extranjera Profesional: Inglés 1 y 2» → AOP1004; B1 de francés → AOP1002; un optativo superado en un CFGS puede convalidarse en cualquier otro CFGS). También reescribe el apartado 3 del anexo VIII del Decreto 91/2024: módulos con los mismos códigos, las mismas denominaciones O los mismos resultados de aprendizaje son idénticos y trasladan la calificación a solicitud del alumnado en la matrícula (no se convalidan); quien superó 0179 Inglés en un ciclo LOE tiene superado el 0179 Inglés Profesional."
+   },
+   {
+    "ref": "Decreto 91/2024, de 5 de junio, del Gobierno de Aragón",
+    "boe": null,
+    "url": "https://www.todofp.es/dam/jcr:cda9c643-4e37-4726-b6e8-dc2b2c890e07/aragon-brscgi-ordenaci-n.pdf",
+    "nota": "Ordenación de la FP del Grado D y del Grado E en Aragón (BOA núm. 109, de 06/06/2024), modificado por el Decreto 107/2025. Art. 48: las convalidaciones se rigen por el RD 659/2023, los RD de cada título y el RD 1085/2020. Art. 49.1: la exención del periodo de formación en empresa se rige por los arts. 131 y 161 del RD 659/2023 y solo vale la experiencia laboral de los cinco años anteriores a la solicitud. Art. 49.2: quedan exceptuados de la exención solo los ciclos de grado superior de Sanidad: HOT303 NO está entre ellos, luego la exención es posible. Art. 9.3: módulo optativo anual en 2.º curso. (Estos artículos se citan según research/hot301.json y ele301.json; no se ha releído el PDF del Decreto 91/2024.)"
+   },
+   {
+    "ref": "Orden de 14 de julio de 2010, de la Consejera de Educación, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": null,
+    "nota": "Currículo LOE (plan anterior) de este ciclo en Aragón; publicada en el BOA de 11/08/2010 (así consta en la cabecera de la Resolución de 25/08/2010 y en la reseña de Iustel https://www.iustel.com/diario_del_derecho/noticia.asp?ref_iustel=1044159; research/hot301.json anota 12/08/2010 y BOA núm. 158 para la de Agencias: no se ha resuelto la discrepancia). No se ha localizado el enlace directo del BOA ni se ha leído su texto. DEROGADA por la Orden ECD/843/2024 (disp. derogatoria única, letra j).3)."
+   },
+   {
+    "ref": "Resolución de 25 de agosto de 2010, de la Directora General de Formación Profesional y Educación Permanente (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=548701300808",
+    "nota": "Distribución horaria del plan LOE (BOA núm. 182, de 16/09/2010; tabla de HOT303 en las págs. 21617-21618: modalidad diurno 30 h/semana en cada curso y modalidad nocturno en 3 cursos con 20+19+16 h/semana). Es la fuente de la clave «loe» de horas_otras. Currículo citado en la propia tabla: «Orden de 14 de Julio de 2010 (BOA 11/08/10)»."
+   },
+   {
+    "ref": "RD 1700/2007, de 14 de diciembre; RD 149/2022, de 22 de febrero; RD 148/2022, de 22 de febrero",
+    "boe": "BOE-A-2008-224; BOE-A-2022-4203; BOE-A-2022-4202",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2008-224",
+    "nota": "Cualificaciones del título. HOT335_3 «Guía de turistas y visitantes» (RD 1700/2007), hoy «Guía de turismo» (RD 149/2022, anexo I; UC2579_3 y UC2580_3 sustituyen a UC1069_3 y UC1070_3). HOT336_3 «Promoción turística local e información al visitante» (RD 1700/2007, anexo CCCXXXVI). HOT772_3 «Gestión de productos turísticos» (RD 148/2022, anexo V), que sustituye a HOT330_3 «Creación y gestión de viajes combinados y eventos» (RD 1700/2007). SSC329_3 «Animación turística» (RD 1700/2007), solo por UC9997_3. No se han abierto los RD originales (datos de UC por el art. 6 del RD 1255/2009, el RD 500/2024, el RD 532/2025 y research/hot301.json)."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "0171",
+   "nombre": "Estructura del mercado turístico",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 100,
+    "loe": 160
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "Mismo código, denominación y duración (70 h) que en Agencias de Viajes y Gestión de Eventos (HOT301) y Gestión de Alojamientos Turísticos (HOT302); la API de CATEDU lo marca como común de 1.º con HOT301 y HOT302."
+  },
+  {
+   "codigo": "0172",
+   "nombre": "Protocolo y relaciones públicas",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 100,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 2
+   },
+   "nota": "Mismo código, denominación y duración (70 h) que en HOT301 y HOT302; la API de CATEDU lo marca como común de 1.º con ambos."
+  },
+  {
+   "codigo": "0173",
+   "nombre": "Marketing turístico",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 170,
+    "loe": 147
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": 2
+   },
+   "nota": "Mismo código, denominación y duración (90 h) que en HOT301 y HOT302. Discrepancia de curso: 2.º en Aragón y 1.º en el MEFP (la API de CATEDU no lo marca como común porque en Aragón va en 2.º)."
+  },
+  {
+   "codigo": "0383",
+   "nombre": "Destinos turísticos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 200,
+    "loe": 192
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "Mismo código, denominación y duración (110 h) que en HOT301; la API de CATEDU lo marca como común de 1.º con HOT301."
+  },
+  {
+   "codigo": "0384",
+   "nombre": "Recursos turísticos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 100,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "Mismo código, denominación y duración (90 h) que en HOT301; la API de CATEDU lo marca como común de 1.º con HOT301."
+  },
+  {
+   "codigo": "0385",
+   "nombre": "Servicios de información turística",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 190,
+    "loe": 84
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0386",
+   "nombre": "Procesos de guía y asistencia turística",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": 260,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": "El RD 500/2024 (anexo XCI) y la Orden EFD/659/2024 (anexo XL) lo escriben «Procesos de asistencia y guía»; el RD 1255/2009 (con código «386» en su anexo I, sin el cero inicial), la Orden ECD/843/2024 y la API de CATEDU, «Procesos de guía y asistencia turística». Manda el código 0386 (art. 15.6 según el RD 500/2024)."
+  },
+  {
+   "codigo": "0387",
+   "nombre": "Diseño de productos turísticos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 220,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": 1
+   },
+   "nota": "Discrepancia de curso: 1.º en Aragón y 2.º en el MEFP."
+  },
+  {
+   "codigo": "0180",
+   "nombre": "Segunda lengua extranjera",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 130,
+    "loe": 170
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "No lo modifica el RD 500/2024 (ya estaba en el RD original). Aragón: se imparte en francés o alemán (Orden ECD/843/2024, art. 8); el plan LOE de Aragón lo tenía en francés. Mismo código que en HOT301, HOT302 y HOT304 (la API de CATEDU lo lista en HOT301, HOT302, HOT304 y HOT304-305). Discrepancia de curso: 2.º en Aragón y 1.º en el MEFP."
+  },
+  {
+   "codigo": "0388",
+   "nombre": "Proyecto intermodular de guía, información y asistencia turísticas",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": 40
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": 170
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": "Módulo RENOMBRADO (no nuevo): 0179 Inglés → 0179 Inglés Profesional (GS) por el RD 500/2024 (art. cuarto.Dos.c).3.º y art. séptimo.Dos.b)), con el currículo básico del anexo X del RD 659/2023 (50 h en lugar de las 70 h originales)."
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1712",
+   "nombre": "Inglés Profesional II (GS)",
+   "tipo": "comun",
+   "comun": "ingles2",
+   "horas": {
+    "aragon": null,
+    "mefp": 60,
+    "loe": null
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": "Módulo solo del ámbito MEFP (art. 11.3 de la Orden EFD/659/2024 y anexo XL de la misma Orden); Aragón no lo incluye en el anexo XXXII de la Orden ECD/843/2024. Quien lo cursa no puede elegir otro optativo de inglés (art. 12.2)."
+  },
+  {
+   "codigo": "0389",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "fol_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0390",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "eie_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0391",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 370
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Información y Comercialización Turísticas (LOGSE, RD 2217/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Diseño y comercialización de productos turísticos locales y regionales"
+   ],
+   "destino_modulos": [
+    "0387",
+    "0173",
+    "0171",
+    "0384"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Hostelería y Turismo, GRADO SUPERIOR, tabla «TS Información y Comercialización Turística (RD 2217/1993) → TS Guía, Información y Asistencias Turísticas (RD 1255/2009)»: fila «Diseño y comercialización de productos turísticos locales y regionales». Coincide con la fila del anexo IV original del RD 1255/2009 (derogado por el RD 1085/2020). La celda de destino contiene los cuatro módulos (0387. Diseño de productos turísticos. 0173. Marketing turístico. 0171. Estructura del mercado turístico. 0384. Recursos turísticos): se convalidan los cuatro"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Información y Comercialización Turísticas (LOGSE, RD 2217/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Información turística en destino"
+   ],
+   "destino_modulos": [
+    "0171",
+    "0385",
+    "0172"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Hostelería y Turismo, GRADO SUPERIOR, tabla «TS Información y Comercialización Turística (RD 2217/1993) → TS Guía, Información y Asistencias Turísticas (RD 1255/2009)»: fila «Información turística en destino». Coincide con la fila del anexo IV original del RD 1255/2009 (derogado por el RD 1085/2020). La celda de destino contiene los tres módulos (0171. Estructura del mercado turístico. 0385. Servicios de información turística. 0172. Protocolo y relaciones públicas): se convalidan los tres"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Información y Comercialización Turísticas (LOGSE, RD 2217/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Productos y destinos turísticos nacionales e internacionales"
+   ],
+   "destino_modulos": [
+    "0383",
+    "0384"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Hostelería y Turismo, GRADO SUPERIOR, tabla «TS Información y Comercialización Turística (RD 2217/1993) → TS Guía, Información y Asistencias Turísticas (RD 1255/2009)»: fila «Productos y destinos turísticos nacionales e internacionales». Coincide con la fila del anexo IV original del RD 1255/2009 (derogado por el RD 1085/2020). La celda de destino contiene los dos módulos (0383. Destinos turísticos. 0384. Recursos turísticos): se convalidan ambos"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Información y Comercialización Turísticas (LOGSE, RD 2217/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Asistencia y guía de grupos"
+   ],
+   "destino_modulos": [
+    "0386",
+    "0172"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Hostelería y Turismo, GRADO SUPERIOR, tabla «TS Información y Comercialización Turística (RD 2217/1993) → TS Guía, Información y Asistencias Turísticas (RD 1255/2009)»: fila «Asistencia y guía de grupos». Coincide con la fila del anexo IV original del RD 1255/2009 (derogado por el RD 1085/2020). La celda de destino contiene los dos módulos (0386. Procesos de guía y asistencia turística. 0172. Protocolo y relaciones públicas): se convalidan ambos"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Agencias de Viajes (LOGSE, RD 2215/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Comercialización de productos y servicios turísticos"
+   ],
+   "destino_modulos": [
+    "0173",
+    "0171"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Hostelería y Turismo, GRADO SUPERIOR, tabla «TS Agencias de Viajes (RD 2215/1993) → TS Guía, Información y Asistencias Turísticas (RD 1255/2009)»: fila «Comercialización de productos y servicios turísticos» → 0173. Marketing turístico + 0171. Estructura del mercado turístico (se convalidan ambos). Fila NUEVA respecto del anexo IV original del RD 1255/2009 (que solo tenía filas del título de Información y Comercialización Turísticas)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Alojamiento (LOGSE, RD 2216/1993, de 17 de diciembre)",
+   "origen_modulo": [
+    "Comercialización de productos y servicios turísticos"
+   ],
+   "destino_modulos": [
+    "0173",
+    "0171"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Hostelería y Turismo, GRADO SUPERIOR, tabla «TS Alojamiento (RD 2216/1993) → TS Guía, Información y Asistencias Turísticas (RD 1255/2009)»: fila «Comercialización de productos y servicios turísticos» → 0173. Marketing turístico + 0171. Estructura del mercado turístico (se convalidan ambos). Fila NUEVA respecto del anexo IV original del RD 1255/2009"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE (cualquiera)",
+   "origen_modulo": [
+    "Formación y Orientación Laboral (más la certificación de prevención de riesgos laborales de nivel básico)"
+   ],
+   "destino_modulos": [
+    "0389",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Formación y Orientación Laboral» (grado medio y grado superior). El módulo 0389 ya no existe tras el RD 500/2024 (art. cuarto.Dos.c).1.º y art. séptimo.Dos.a); la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I. En Aragón el Decreto 91/2024 (anexo VIII, 6.5) exige además el certificado de PRL de nivel básico"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0389",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla de FOL, y DA 2.ª. El módulo 0389 ya no existe tras el RD 500/2024 (art. cuarto.Dos.c).1.º y art. séptimo.Dos.a); la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOGSE (cualquiera)",
+   "origen_modulo": [
+    "Administración, gestión y comercialización en la pequeña empresa"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II. La tabla lo repite en dos filas"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Animación Sociocultural (LOGSE, RD 2058/1995, de 22 de diciembre); Técnico Superior en Animación de Actividades Físicas y Deportivas (LOGSE, RD 2048/1995, de 22 de diciembre); Técnico Superior en Animación Turística (LOGSE, RD 274/2000, de 25 de febrero)",
+   "origen_modulo": [
+    "Organización y gestión de una pequeña empresa de actividades de tiempo libre y socioeducativas"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Comercio (LOGSE, familia Comercio y Marketing)",
+   "origen_modulo": [
+    "Administración y gestión de un pequeño establecimiento comercial"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos LOGSE de la familia Agraria: Trabajos Forestales y de Conservación del Medio Natural (RD 1713/1996), Jardinería (RD 1714/1996), Explotaciones Agrarias Extensivas (RD 1715/1996), Explotaciones Agrícolas Intensivas (RD 1716/1996) y Explotaciones Ganaderas (RD 1717/1996)",
+   "origen_modulo": [
+    "Organización y gestión de una explotación agraria familiar"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Técnico en Gestión Administrativa (LOGSE, RD 1662/1994, de 22 de julio, familia Administración y Gestión)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Agencias de Viajes (LOGSE, familia Hostelería y Turismo)",
+   "origen_modulo": [
+    "Organización y control en agencias de viajes"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Restauración (LOGSE, familia Hostelería y Turismo)",
+   "origen_modulo": [
+    "Administración de establecimientos de restauración"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Ortoprotésica (LOGSE, familia Sanidad)",
+   "origen_modulo": [
+    "Administración y gestión de una unidad/gabinete de ortoprotésica"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Prótesis Dentales (LOGSE, familia Sanidad)",
+   "origen_modulo": [
+    "Organización, administración y gestión de una unidad/gabinete de prótesis dentales"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo Audioprótesis (LOGSE, familia Sanidad)",
+   "origen_modulo": [
+    "Administración y gestión de un gabinete audioprotésico"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos LOGSE de la familia Agraria: Gestión y Organización de los Recursos Naturales y Paisajísticos y Gestión y Organización de Empresas Agropecuarias",
+   "origen_modulo": [
+    "Organización y gestión de una empresa agraria"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Administración y Finanzas (LOGSE, RD 1659/1994, de 22 de julio, familia Administración y Gestión)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora» (grado medio y grado superior). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE (cualquiera) que incluya el módulo de FOL",
+   "origen_modulo": [
+    "Formación y orientación laboral"
+   ],
+   "destino_modulos": [
+    "0389",
+    "1709"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con formación y orientación laboral». Coincide con el art. 15.2 original del RD 1255/2009. El módulo 0389 ya no existe tras el RD 500/2024 (art. cuarto.Dos.c).1.º y art. séptimo.Dos.a); la DA 6.ª del RD 1085/2020 (añadida por el RD 500/2024, disp. final primera.Dos) ordena entender esa convalidación hecha también al módulo 1709 Itinerario personal para la empleabilidad I"
+  },
+  {
+   "origen_titulo": "Ciclo formativo LOE (cualquiera) que incluya el módulo de EIE",
+   "origen_modulo": [
+    "Empresa e iniciativa emprendedora"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción dada por el RD 500/2024, disp. final primera.Tres). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclo LOE de grado medio o superior de las familias Comercio y Marketing o Administración y Gestión",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0390",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con empresa e iniciativa emprendedora» (redacción dada por el RD 500/2024, disp. final primera.Tres). El módulo 0390 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710 Itinerario personal para la empleabilidad II"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado superior con Lengua Extranjera (inglés)",
+   "origen_modulo": [
+    "Lengua Extranjera (Inglés) / Lengua Extranjera de 90 horas cuando la lengua cursada y superada sea inglés / Lengua Extranjera en Comercio Internacional cuando sea inglés"
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Superior (0179 «Inglés Profesional» tras el RD 500/2024). Son tres filas distintas de la tabla, cualquiera de ellas basta. Aplicable al 0179 de este ciclo, que ya existía como 0179 Inglés (70 h) y el RD 500/2024 renombra a Inglés Profesional (GS) con el currículo básico del anexo X del RD 659/2023 (50 h)"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés (EOI / titulación universitaria)",
+   "origen_modulo": [
+    "Certificado de Aptitud de Inglés de la EOI (RD 967/1988, de 2 de septiembre) / Certificado de Nivel Avanzado (B2) o superior de Inglés de la EOI (RD 1629/2006, de 29 de diciembre) / Título de Grado, o equivalente, en Filología Inglesa o en Traducción e Interpretación (Inglés)"
+   ],
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Formación aportada / Formación a convalidar» de inglés (las tres son filas distintas, cualquiera basta): cada una convalida «0156 Inglés Profesional» y «0179 Inglés Profesional». Los certificados de Ciclo Elemental (RD 967/1988) y de Nivel Intermedio (B1) solo convalidan 0156 (grado medio), NO 0179. Art. 3.7 del RD 1085/2020 (redacción dada por la disp. final 4.1 del RD 659/2023)"
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado superior con Segunda Lengua Extranjera",
+   "origen_modulo": [
+    "Segunda Lengua Extranjera (cuando la lengua cursada y superada sea la misma que se desea convalidar)"
+   ],
+   "destino_modulos": [
+    "0180"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Segunda Lengua Extranjera» (GRADO SUPERIOR): «Segunda Lengua Extranjera. Cuando la lengua extranjera cursada y superada sea la misma que se desea convalidar» → 180. En Aragón el 0180 se imparte en francés o alemán (Orden ECD/843/2024, art. 8)"
+  },
+  {
+   "origen_titulo": "Acreditación oficial de idioma (segunda lengua extranjera)",
+   "origen_modulo": [
+    "Certificado del Ciclo Elemental o de Aptitud de la EOI (RD 967/1988) / Certificado de Nivel Intermedio (B1) o superior de la EOI (RD 1629/2006) / Título de Grado, o equivalente, en Filología o en Traducción e Interpretación, en todos los casos de la misma lengua extranjera que se desea convalidar"
+   ],
+   "destino_modulos": [
+    "0180"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con segunda lengua extranjera» (son tres filas distintas: cualquiera basta; «De la misma lengua extranjera que se desea convalidar»)"
+  }
+ ],
+ "convalidaciones_loe": [
+  {
+   "origen_codigos": [
+    "0179"
+   ],
+   "origen_nombre": "Inglés (superado en un ciclo formativo derivado de la LO 2/2006)",
+   "origen_titulo": "Ciclo formativo LOE (cualquiera) que haya superado el módulo 0179 Inglés; Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 14 de julio de 2010)",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "Decreto 91/2024 (Aragón), anexo VIII, apartado 3, párrafo final, en la redacción del Decreto 107/2025 (art. primero.Cuarenta y ocho.8): «Aquéllas personas que hayan superado el módulo profesional Inglés (0179) en un Ciclo Formativo derivado de la Ley Orgánica 2/2006 ... se considera que tienen superado el módulo Inglés Profesional (0179)» y se aplica la regla de módulos idénticos (traslado de la calificación a solicitud del alumnado en la matrícula, sin convalidación)"
+  },
+  {
+   "origen_codigos": [
+    "0389"
+   ],
+   "origen_nombre": "Formación y orientación laboral",
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 14 de julio de 2010)",
+   "destino_modulos": [
+    "1709"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), disposición transitoria segunda, apartados 2 y 3 (tabla de módulos equivalentes)"
+  },
+  {
+   "origen_codigos": [
+    "0390"
+   ],
+   "origen_nombre": "Empresa e iniciativa emprendedora",
+   "origen_titulo": "Plan LOE a extinguir de Aragón de este mismo ciclo (Orden de 14 de julio de 2010)",
+   "destino_modulos": [
+    "1710"
+   ],
+   "fuente": "Orden ECD/843/2024 (Aragón), disposición transitoria segunda, apartados 2 y 3 (tabla de módulos equivalentes)"
+  },
+  {
+   "origen_codigos": [
+    "0661"
+   ],
+   "origen_nombre": "Protocolo empresarial",
+   "origen_titulo": "Técnico Superior en Asistencia a la Dirección (LOE, RD 1582/2011, de 4 de noviembre)",
+   "destino_modulos": [
+    "0172"
+   ],
+   "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE), bloque Hostelería y Turismo, GRADO SUPERIOR, tabla «TS Asistencia a la Dirección (RD 1582/2011) → TS Guía, Información y Asistencia(s) Turística(s) (RD 1255/2009)»: 0661. Protocolo empresarial → 0172. Protocolo y relaciones públicas"
+  },
+  {
+   "origen_codigos": [
+    "0930"
+   ],
+   "origen_nombre": "Políticas de marketing",
+   "origen_titulo": "Técnico Superior en Gestión de Ventas y Espacios Comerciales (LOE, RD 1573/2011, de 4 de noviembre); Técnico Superior en Marketing y Publicidad (LOE, RD 1571/2011, de 4 de noviembre)",
+   "destino_modulos": [
+    "0173"
+   ],
+   "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE), bloque Hostelería y Turismo, GRADO SUPERIOR, tabla «TS Gestión de Ventas y Espacios Comerciales (RD 1573/2011) → TS Guía, Información y Asistencia(s) Turística(s) (RD 1255/2009)»: 0930. Políticas de marketing → 0173. Marketing turístico"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC2579_3",
+    "UC2580_3"
+   ],
+   "modulos": [
+    "0384"
+   ],
+   "fuente": "Anexo V A) del RD 1255/2009 — redacción del RD 500/2024 (art. tercero.Siete), VIGENTE. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024). Las dos UC a la vez convalidan 0384 (primera fila de la tabla)"
+  },
+  {
+   "uc": [
+    "UC2579_3",
+    "UC2580_3"
+   ],
+   "modulos": [
+    "0386"
+   ],
+   "fuente": "Anexo V A) del RD 1255/2009 — redacción del RD 500/2024 (art. tercero.Siete), VIGENTE. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024). Las dos UC a la vez convalidan 0386 (segunda fila de la tabla, con la misma celda de UC que la anterior)"
+  },
+  {
+   "uc": [
+    "UC1056_3"
+   ],
+   "modulos": [
+    "0172"
+   ],
+   "fuente": "Anexo V A) del RD 1255/2009 — redacción del RD 500/2024 (art. tercero.Siete), VIGENTE. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC9999_3"
+   ],
+   "modulos": [
+    "0179"
+   ],
+   "fuente": "Anexo V A) del RD 1255/2009 — redacción del RD 500/2024 (art. tercero.Siete), VIGENTE. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC9997_3"
+   ],
+   "modulos": [
+    "0180"
+   ],
+   "fuente": "Anexo V A) del RD 1255/2009 — redacción del RD 500/2024 (art. tercero.Siete), VIGENTE. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1074_3"
+   ],
+   "modulos": [
+    "0173"
+   ],
+   "fuente": "Anexo V A) del RD 1255/2009 — redacción del RD 500/2024 (art. tercero.Siete), VIGENTE. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC1075_3"
+   ],
+   "modulos": [
+    "0387"
+   ],
+   "fuente": "Anexo V A) del RD 1255/2009 — redacción del RD 500/2024 (art. tercero.Siete), VIGENTE. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  },
+  {
+   "uc": [
+    "UC0268_3"
+   ],
+   "modulos": [
+    "0385"
+   ],
+   "fuente": "Anexo V A) del RD 1255/2009 — redacción del RD 500/2024 (art. tercero.Siete), VIGENTE. Si en la misma celda hay varias UC, hacen falta todas simultáneamente (art. 15.3 en la redacción del RD 500/2024)"
+  }
+ ],
+ "uc_descripciones": {
+  "UC2579_3": "«Prestar servicios de guía, acompañamiento y asistencia en actividades vinculadas a la divulgación del patrimonio y Bienes de Interés Cultural en entornos urbanos a turistas» (HOT335_3, RD 149/2022) [ECP2579_3]. Sustituye a UC1069_3, que solo vale junto con UC1071_3 (RD 532/2025 anexo II-a)",
+  "UC2580_3": "«Prestar servicios de guía, acompañamiento y asistencia en actividades vinculadas a la divulgación del patrimonio y Bienes de Interés Cultural en parques, jardines y entornos naturales urbanos a turistas» (HOT335_3, RD 149/2022) [ECP2580_3]. Sustituye a UC1070_3, que solo vale junto con UC1071_3 (RD 532/2025 anexo II-a)",
+  "UC1056_3": "«Gestionar servicios de hostelería y turismo en la realización de eventos» (HOT772_3, RD 148/2022) [ECP1056_3]. Antes, en el RD 1255/2009 original y en HOT330_3: «Gestionar eventos»",
+  "UC1074_3": "«Gestionar información turística» (HOT336_3, RD 1700/2007) [ECP1074_3]",
+  "UC1075_3": "«Crear, promocionar y gestionar servicios y productos turísticos locales» (HOT336_3, RD 1700/2007) [ECP1075_3]",
+  "UC0268_3": "«Gestionar unidades de información y distribución turísticas» (HOT336_3 y HOT772_3) [ECP0268_3]",
+  "UC9999_3": "«Comunicarse en lengua inglesa con un nivel de usuario independiente (B1), según el marco común europeo de referencia para las lenguas, en el ámbito profesional» (transversal; en HOT335_3 y HOT772_3) [ECP9999_3]. Sustituye a UC1072_3 (RD 532/2025 anexo II-a)",
+  "UC9997_3": "«Comunicarse en una segunda lengua extranjera distinta del inglés con un nivel de usuario independiente (B1), según el marco común europeo de referencia para las lenguas, en el ámbito profesional» (transversal; SSC329_3 en el título) [ECP9997_3]. Sustituye a UC1073_3 (RD 532/2025 anexo II-a)",
+  "UC1069_3": "(SUPRIMIDA) «Interpretar el patrimonio y bienes de interés cultural del ámbito de actuación a turistas y visitantes» (HOT335_3 original). Equivale a ECP2579_3 pero SOLO junto con UC1071_3 (RD 532/2025 anexo II-a)",
+  "UC1070_3": "(SUPRIMIDA) «Interpretar espacios naturales y otros bienes de interés natural del ámbito de actuación a turistas y visitantes» (HOT335_3 original). Equivale a ECP2580_3 pero SOLO junto con UC1071_3 (RD 532/2025 anexo II-a)",
+  "UC1071_3": "(SUPRIMIDA) «Prestar servicios de acompañamiento y asistencia a turistas y visitantes y diseñar itinerarios turísticos» (HOT335_3 original). RD 532/2025 anexo II-a: equivale a ECP2579_3 solo junto con UC1069_3 y a ECP2580_3 solo junto con UC1070_3 (anexo II-b: ECP2579_3 acredita UC1069_3 + UC1071_3 y ECP2580_3 acredita UC1070_3 + UC1071_3). Por eso se anotan las dos ECP; no equivale a ninguna de las dos por sí sola",
+  "UC1072_3": "(SUPRIMIDA) «Comunicarse en inglés, con un nivel de usuario competente, en los servicios turísticos de guía y animación» (HOT335_3 original). Equivale a ECP9999_3 sin requisitos adicionales (RD 532/2025 anexo II-a)",
+  "UC1073_3": "(SUPRIMIDA) «Comunicarse en una lengua extranjera distinta del inglés, con un nivel de usuario competente, en los servicios turísticos de guía y animación» (HOT335_3 original). Equivale a ECP9997_3 sin requisitos adicionales (RD 532/2025 anexo II-a)"
+ },
+ "uc_equivalencias": {
+  "UC1069_3": [
+   "UC2579_3"
+  ],
+  "UC1070_3": [
+   "UC2580_3"
+  ],
+  "UC1072_3": [
+   "UC9999_3"
+  ],
+  "UC1073_3": [
+   "UC9997_3"
+  ]
+ },
+ "notas": [
+  "IDENTIFICACIÓN: el código de ciclo HOT303 de Aragón corresponde a Técnico Superior en Guía, Información y Asistencias Turísticas (RD 1255/2009). Confirmado con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=HOT303: «Guía, Información y Asistencia Turísticas», CFGS, familia Hostelería y Turismo, 2001 h, módulos 0171, 0172, 0173, 0179, 0180, 0383-0388, 1665, 1708, 1709, 1710 y optativo) y con el anexo XXXII de la Orden ECD/843/2024 («GUÍA, INFORMACIÓN Y ASISTENCIAS TURÍSTICAS (HOT303)»). El RD escribe «Asistencia» en el art. 1/2 y «Asistencias» en el título y en el RD 500/2024; se usa la forma del título del RD («Asistencias»).",
+  "El campo «horas» es el del currículo básico / enseñanzas mínimas: RD 1255/2009 anexo I para los módulos originales (0171 70 h, 0172 70, 0173 90, 0383 110, 0384 90, 0385 50, 0386 75, 0387 75, 0180 70: 630 + 140 h de idiomas = 770 h con 0179 de 70 h, más 25 h de Proyecto) y RD 659/2023 para 0179 (50 h, antes 70 h), 1709, 1710 (50 h cada uno), 1665, 1708 (30 h cada uno) y el optativo (80 h, RD 500/2024). Las horas reales de impartición están en «horas_otras» con las claves «aragon» (Orden ECD/843/2024, anexo XXXII), «mefp» (Orden EFD/659/2024, anexo XL) y «loe» (plan LOE a extinguir de Aragón, Orden de 14/07/2010 y Resolución de 25/08/2010).",
+  "El BOE no ofrece texto consolidado del RD 1255/2009 (https://www.boe.es/buscar/doc.php?id=BOE-A-2009-14261 solo tiene «TEXTO ORIGINAL»): hay que combinar el texto original, el RD 1085/2020 (deroga el anexo IV) y el RD 500/2024 (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685: nuevos arts. 2, 6, 10, 12 y 15, anexo I, nuevo anexo III de profesorado y SUSTITUCIÓN de los anexos V A) y V B)). A diferencia de otros títulos (p. ej. ELE301 o ASIR), este SÍ tiene los anexos V reescritos, por lo que las tablas originales de 2009 están recogidas con vigente=false.",
+  "Grupo del art. primero.Dos del RD 500/2024: este título es el 3.º de la letra b), es decir, ciclos que YA tenían módulo de inglés (0179 Inglés) en su RD original. Por eso 0179 NO es un módulo nuevo sino un RENOMBRADO: 0179 Inglés → 0179 Inglés Profesional (GS), con el currículo básico del anexo X del RD 659/2023 (50 h en lugar de las 70 h originales). El 0180 Segunda lengua extranjera se conserva sin cambios (y no está sustituido por ningún módulo nuevo).",
+  "Módulos suprimidos y añadidos por el RD 500/2024 (art. cuarto.Dos y art. séptimo.Dos): suprimidos 0389 Formación y orientación laboral, 0390 Empresa e iniciativa emprendedora y 0391 Formación en centros de trabajo; renombrados 0388 Proyecto de guía, información y asistencia turísticas → Proyecto intermodular… (mismo código) y 0179 Inglés → Inglés Profesional (GS); añadidos 1709, 1710, 1665, 1708 y el módulo profesional optativo (sin código estatal). Créditos ECTS (anexo XCI): 0171=9, 0172=9, 0384=12, 0173=12, 0385=7, 0386=9, 0387=9, 0180=8, 0383=14 (89 en total); con 0179=5, 1709=5, 1710=5, 1665=3, 1708=3, proyecto intermodular=5 y optativo=5 suman 120. La API de CATEDU da 0385=6 y 0387=8 (no coinciden con el anexo XCI). Originales de 2009: 8, 8, 10, 12, 10, 6, 8, 8, 7 (0179), 7 (0180), Proyecto 5, FOL 5, EIE 4 y FCT 22 = 120.",
+  "En grado superior no existen los módulos de tutoría A996/A997 (anexo XXXII de la Orden ECD/843/2024 y API de centros docentes de Aragón). La API de CATEDU marca como comunes de 1.º con HOT301 y HOT302: 0171 y 0172; con HOT301: 0383 y 0384; y como comunes de muchos ciclos 1665, 0179 y 1709 (1708 solo con ELE202-203). 0173 y 0180 también existen con el mismo código en HOT301/HOT302 (y 0180 en HOT304) pero no figuran como comunes porque en Aragón van en 2.º. Los módulos 0385, 0386, 0387 y 0388 son exclusivos de este ciclo.",
+  "MÓDULOS COMPARTIDOS (mismo código) con otros títulos de grado superior de la familia, comprobados con la API de CATEDU: 0171, 0172 y 0173 con HOT301 (Agencias de Viajes y Gestión de Eventos, RD 1254/2009) y HOT302 (Gestión de Alojamientos Turísticos, RD 1686/2007); 0383 y 0384 con HOT301; 0180 con HOT301, HOT302 y HOT304 (Dirección de Servicios en Restauración, RD 688/2010); 0179 con todos los CFGS. Ninguno con HOT305 (Dirección de Cocina) fuera de los transversales. Por el art. 3.2 del RD 1085/2020 y, en Aragón, el apartado 3 del anexo VIII del Decreto 91/2024 (redacción del Decreto 107/2025), son módulos idénticos que trasladan la calificación a solicitud del alumnado en la matrícula (no se convalidan). No se han añadido filas propias en «convalidaciones_titulos_anteriores» porque no hay una fila de tabla expresa en los anexos I a IV del RD 1085/2020 (la única fila expresa recogida es la de 0179 del Decreto 91/2024).",
+  "CONVALIDACIONES LOGSE→LOE de este título (anexo II del RD 1085/2020, bloque Hostelería y Turismo, GRADO SUPERIOR): SEIS filas: del título LOGSE de Información y Comercialización Turísticas (RD 2217/1993) CUATRO (Diseño y comercialización de productos turísticos locales y regionales → 0387 + 0173 + 0171 + 0384; Información turística en destino → 0171 + 0385 + 0172; Productos y destinos turísticos nacionales e internacionales → 0383 + 0384; Asistencia y guía de grupos → 0386 + 0172), idénticas a las de su anexo IV original; y DOS nuevas respecto de ese anexo IV: Agencias de Viajes (RD 2215/1993) y Alojamiento (RD 2216/1993), módulo «Comercialización de productos y servicios turísticos» → 0173 + 0171. El anexo IV original del RD 1255/2009 (derogado) tenía además Lengua extranjera → 0179 Inglés, Segunda lengua extranjera → 0180 y Formación en centro de trabajo → 0391, que el RD 1085/2020 NO reproduce en la tabla propia (las cubren las tablas transversales de Inglés y Segunda Lengua Extranjera del anexo II y el art. 3.4).",
+  "CONVALIDACIONES LOE→LOE (anexo III del RD 1085/2020): destino este ciclo, tres filas (0661 Protocolo empresarial de Asistencia a la Dirección → 0172; 0930 Políticas de marketing de Gestión de Ventas y Espacios Comerciales → 0173; 0930 Políticas de marketing de Marketing y Publicidad → 0173); origen este ciclo, una fila (0172 → 0661, tabla del bloque Administración y Gestión) más la de 0179 → 0156 de la tabla de inglés. Las mismas titulaciones hacia HOT301 y HOT302 son filas de esos ciclos. No hay más filas: ninguno de los demás módulos (0173, 0383-0388, 0180) aparece como formación aportada ni a convalidar en los anexos I a IV, salvo las tablas de idiomas, FOL y EIE (comprobado en el consolidado a 07/04/2026, buscando por código y por denominación). El anexo IV (títulos posteriores al 5/03/2017) solo trae 1124 ↔ 0017, 1124 → 1328 y las de los RD 189/2018 y RD 74/2018.",
+  "Artículo 15 en la redacción del RD 500/2024: las convalidaciones se rigen por el art. 126 del RD 659/2023; entre formaciones del sistema y formaciones de regulaciones previas, por el art. 127; a este título (anterior al 5/03/2017) se le aplica el RD 1085/2020; las UC acreditadas convalidan por el art. 128 y las tablas de «correspondencia entre UC acreditadas y módulos»; si en una celda hay varias UC o varios módulos, hacen falta todos simultáneamente; el art. 15.5 mantiene para la acreditación de módulos las UC acreditadas por el derogado RD 1224/2009; ante discrepancias prevalece la codificación sobre la denominación; la exención del periodo de formación en empresa sigue el art. 131 del RD 659/2023 y este ciclo no está en la lista de Sanidad excluida (apdo. 8).",
+  "Efecto del RD 500/2024 sobre FOL y EIE: la DA 6.ª del RD 1085/2020 ordena entender toda convalidación cuyo resultado sea FOL como hecha también a 1709 Itinerario personal para la empleabilidad I, y la de EIE, también a 1710. Por eso las filas de FOL y EIE llevan como destino tanto el módulo suprimido (0389/0390) como el vigente (1709/1710) y siguen siendo operativas. Los orígenes genéricos se han escrito como «Ciclo formativo LOGSE/LOE (cualquiera)» (el generador descarta los que empiezan por «Cualquier ciclo formativo»); esas filas se han tomado de research/hot301.json cambiando los códigos 0401/0402/0403 por 0389/0390/0391 (y corrigiendo la referencia del art. 15.2 al RD 1255/2009), pues las tablas transversales del RD 1085/2020 son las mismas.",
+  "El art. 3.5 del RD 1085/2020 establece que el módulo de Proyecto de los ciclos de grado superior NO puede ser objeto de convalidación ni de exención: 0388 nunca se convalida. El art. 3.4 impide convalidar la FCT (solo exención): 0391 ya no existe y el periodo de formación en empresa sí admite exención en este ciclo (art. 15.7-15.8 del RD 1255/2009 según el RD 500/2024 y art. 49 del Decreto 91/2024 de Aragón).",
+  "MEFP (Orden EFD/659/2024, anexo XL): 1.º curso 0172 100 h (3 sesiones), 0171 100 (3), 0384 100 (3), 0173 170 (5), 0383 200 (6), 0180 130 (4), 1709 100 (3), 1708 35 (1) y 0179 70 (2) = 1005 h, 30 sesiones; 2.º curso 0385 190 (6), 0387 220 (7), 0386 260 (8), 1710 100 (3), 1665 35 (1), optativa 80 (2), 1712 Inglés Profesional II (GS) 60 (2) y 0388 50 (1) = 995 h, 30 sesiones. Total 2000 h. Los cursos se leyeron de las columnas 1.º/2.º del HTML del BOE. La formación en empresa va incluida en los módulos (no hay fila de FCT).",
+  "ARAGÓN, PLAN VIGENTE (Orden ECD/843/2024, anexo XXXII, código HOT303, 30 sesiones semanales en cada curso): 1.º curso 0171 (167 h), 0172 (133), 0383 (200), 0384 (167), 0387 (133), 1709 (100), 1665 (33) y 0179 (67) = 1000 h; 2.º curso 0173 (167), 0385 (167), 0386 (267), 0180 (133), 0388 (67), 1710 (67), 1708 (33) y el optativo (100) = 1000 h (la suma exacta de los datos es 2001 h por redondeo de las horas por sesión). Coincide con la API de centros docentes de Aragón (solo horario DIURNO). Espacios: aula polivalente 40/60 m² y aula de agencias/información turística 40/40 m² (20/30 alumnos).",
+  "DISCREPANCIAS DE CURSO entre Aragón y el MEFP: 0173 (2.º en Aragón, 1.º en el MEFP), 0387 (1.º en Aragón, 2.º en el MEFP), 0180 (2.º en Aragón, 1.º en el MEFP), 1665 (1.º en Aragón, 2.º en el MEFP) y 1708 (2.º en Aragón, 1.º en el MEFP). El resto coincide de curso (0171, 0172, 0383, 0384, 0179 y 1709 en 1.º; 0385, 0386, 0388, 1710 y optativo en 2.º). Además, 1712 Inglés Profesional II solo existe en el MEFP.",
+  "PLAN LOE DE ARAGÓN (clave «loe» de «horas_otras»): Orden de 14 de julio de 2010 y Resolución de 25 de agosto de 2010 (BOA núm. 182, de 16/09/2010), modalidad diurno, 30 h/semana en cada curso. 1.º curso: 0171 160 h (5 h/sem), 0383 192 (6), 0384 128 (4), 0387 128 (4), 0179 UF0179_12 128 (4), 0180 (francés) UF0180_12 128 (4) y 0389 FOL 96 (3). 2.º curso: 0172 126 (6), 0173 147 (7), 0385 84 (4), 0386 126 (6), 0179 UF0179_22 42 (2), 0180 UF0180_22 42 (2) y 0390 EIE 63 (3), más 0388 Proyecto 40 h y 0391 FCT 370 h sin horas semanales. Total 2000 h. En este plan el inglés y el francés son 0179 y 0180 con dos unidades formativas cada uno (170 h cada módulo); no hay módulos propios A0xx de inglés (a diferencia de ELE301 o ASIR), de modo que la fila de convalidación de A0xx + A0xx con AOP1004 no es aplicable a este ciclo.",
+  "Comparación plan LOE → plan adaptado en Aragón: desaparecen 0389 FOL (96 h), 0390 EIE (63 h) y 0391 FCT (370 h) y entran 1709, 1710, 1665, 1708 y el optativo; 0179 baja de 170 a 67 h; 0180 pasa de 170 a 133 h; el Proyecto pasa de 40 a 67 h; 0386 sube de 126 a 267 h; cambian de curso 0172 (2.º → 1.º) y 0180 (1.º → 2.º); 0173, 0385 y 0386 siguen en 2.º y 0171, 0383, 0384 y 0387 en 1.º.",
+  "Transición en Aragón (Orden ECD/843/2024, DT 2.ª y DF 1.ª): en 2024/25 se implanta 1.º y en 2025/26 2.º curso; desde el 1/09/2026 todo el alumnado cursa la nueva ordenación, aplicando la tabla de equivalencias de la DT 2.ª.3 en sentido inverso (1709 ≡ FOL, 1710 ≡ EIE, 0179 Inglés profesional (GS) ≡ 0179 Inglés; esta última SÍ tiene efecto en este ciclo). En la modalidad virtual y semipresencial el plan a extinguir puede alargarse hasta el curso 2026/27 (DT 2.ª.7). DA 1.ª: la superación de un módulo del RD 1147/2011 se reconoce automáticamente si la codificación numérica es la misma (0171-0173, 0180, 0383-0388, 0179 tal cual).",
+  "Módulos optativos en Aragón (art. 12.2 de la Orden ECD/843/2024 en la redacción del Decreto 107/2025, lista abierta y común a los ciclos de grado superior, módulo anual de 100 h en 2.º curso): AOP1004 Comunicación profesional en Inglés (GS) (anexo LXXIV; antes A170), AOP1002 Segunda lengua profesional Francés (anexo LXXV; antes A171; no puede cursarse si el ciclo ya tiene 0180 impartido en francés, como es el caso de la modalidad francesa de HOT303) y AOP1003 Ofimática avanzada aplicada al sector profesional (anexo LXXVI; antes A172), más módulos de diseño propio del centro. Ámbito MEFP (art. 12.2 de la Orden EFD/659/2024): quien curse 1712 no puede cursar otro optativo de inglés y, con 0180 en el plan, solo otra segunda lengua distinta.",
+  "Correspondencia UC-módulos, VIGENTE (RD 500/2024, art. tercero.Siete, nuevos anexos V A y V B): V A: UC2579_3 + UC2580_3 (las dos) → 0384 y también → 0386 (dos filas con la misma celda de UC); UC1056_3 → 0172; UC9999_3 → 0179; UC9997_3 → 0180; UC1074_3 → 0173; UC1075_3 → 0387; UC0268_3 → 0385. V B: 0384 → UC2579_3 + UC2580_3; 0386 → UC2579_3 + UC2580_3; 0172 → UC1056_3; 0173 → UC1074_3; 0387 → UC1075_3; 0179 → UC9999_3; 0180 → UC9997_3. El módulo 0385 NO figura en el V B vigente (UC0268_3 no se acredita con ningún módulo). Los módulos 0171, 0383, 0388, 1709, 1710, 1665, 1708 y el optativo no tienen correspondencia con UC. ORIGINAL de 2009 (vigente=false): UC1069_3 + UC1070_3 → 0384; UC1071_3 → 0386; UC1056_3 → 0172; UC1072_3 → 0179 (*); UC1073_3 → 0180 (*); UC1074_3 → 0173; UC1075_3 → 0387; UC0268_3 → 0385; V B original: cada módulo acredita esas mismas UC (0179 → UC1072_3, 0180 → UC1073_3). Diferencia relevante: en 2009 UC1071_3 convalidaba 0386 y ahora hace falta el par UC2579_3 + UC2580_3.",
+  "«equivalencias_uc» (RD 532/2025, anexos II-a y II-b): UC1069_3 → ECP2579_3 y UC1070_3 → ECP2580_3, pero cada una SOLO junto con UC1071_3; UC1071_3 aparece con las dos ECP (ECP2579_3 con UC1069_3 y ECP2580_3 con UC1070_3), no equivale a ninguna por sí sola; UC1072_3 → ECP9999_3; UC1073_3 → ECP9997_3. Las UC vigentes se anotan con su ECP del mismo número (anexo I), como en research/hot301.json. Los pares UC1069_3 + UC1071_3 ≡ ECP2579_3 y UC1070_3 + UC1071_3 ≡ ECP2580_3 son la lectura del anexo II-a/II-b.",
+  "Equivalencias de titulación y otros efectos (RD 1255/2009, DA 3.ª): el título tiene los mismos efectos que Técnico Superior en Información y Comercialización Turísticas (RD 2217/1993) y que los Técnicos Especialistas en Azafatas de Congresos y Exposiciones, en Servicios de Tierra de Aviación y en Servicios a Bordo de Aviación (rama Administrativa y Comercial). Art. 14: acceso directo a cualquier otro ciclo de grado superior y a los grados universitarios; el RD 500/2024 (DA 5.ª) deja sin efecto las preferencias por modalidades de Bachillerato (art. 13).",
+  "Decreto 91/2024 (Aragón), anexo VIII, según el Decreto 107/2025: apartado 3 (módulos con los mismos códigos, denominaciones o resultados de aprendizaje se consideran idénticos y se trasladan las calificaciones a solicitud del alumnado en la matrícula, sin convalidación; la persona que superó 0179 Inglés en un ciclo LOE tiene superado 0179 Inglés Profesional), apartado 6.5 (1709/1710 aportando FOL/EIE de la LO 2/2006; FOL LOGSE + certificado PRL básico) y apartado 6.14 (convalidación por acreditación de unidades de competencia de cualquier procedencia mediante las tablas V A) de los RD). Estas reglas ya están recogidas en el motor general."
+ ],
+ "no_verificado": [
+  "Aragón: el anexo XXXII de la Orden ECD/843/2024 se ha leído en el texto extraído del PDF del BOA (csv BOA20240731004, https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf) y se ha contrastado con la API de CATEDU; la corrección de errores de 26/02/2025 no se ha leído (según lo indicado, solo afecta a los anexos XXXVI, XL, XXIV y LXXI). Del Decreto 107/2025 se ha leído su art. tercero (no toca el anexo XXXII), pero no su corrección de errores (BOA 19/01/2026, mencionada en research/ele301.json) ni se ha barrido el BOA posterior al 18/09/2025 en busca de otras modificaciones de la Orden ECD/843/2024.",
+  "Plan LOE de Aragón: las horas y el curso (1.º/2.º) de los módulos salen de la tabla de la Resolución de 25/08/2010 (https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=548701300808), cuyo texto se ha extraído del PDF. No se ha localizado ni leído la Orden de 14 de julio de 2010 de este ciclo (publicada en el BOA de 11/08/2010 según la cabecera de la Resolución y Iustel, https://www.iustel.com/diario_del_derecho/noticia.asp?ref_iustel=1044159; research/hot301.json anota 12/08/2010 y BOA núm. 158 para la de Agencias de Viajes), por lo que no se ha comprobado que las duraciones de sus módulos coincidan con las de la Resolución ni si fue modificada después. El curso de 0388 (40 h) y de 0391 (370 h) es una DEDUCCIÓN (figuran sin horas semanales). Los módulos 0179 y 0180 del plan LOE se reparten en dos unidades formativas (1.º y 2.º curso): se anota el curso 1 con la suma de las horas (170 h). La tabla de horario nocturno (3 cursos, 20+19+16 h/semana) no se ha volcado.",
+  "La lectura de los cursos del MEFP (Orden EFD/659/2024, anexo XL, https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181) se hace sobre el HTML del BOE (columnas 1.º/2.º); cada curso suma 30 sesiones. La columna «Bilingüe» (0173, 0383, 0385, 0387 y 0386) no se ha trasladado a los módulos. No se han comprobado modificaciones posteriores de la Orden EFD/659/2024 que afecten a este anexo. En el anexo XL el 0386 figura como «Procesos de asistencia y guía» y el 0388 como «Proyecto Intermodular».",
+  "RD 1085/2020, anexos I a IV: se han buscado en las 85 tablas del consolidado a 07/04/2026 (https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274) el título de Guía, Información y Asistencia(s) Turística(s), el de Información y Comercialización Turísticas, los códigos 0171-0173, 0179-0180, 0383-0391 y las denominaciones de los módulos LOGSE y LOE; no se han revisado las correcciones de errores del RD 1085/2020 (research/ifc301.json cita BOE-A-2021-979 y BOE-A-2021-10416 como ya integradas en el consolidado; no comprobado aquí). En la tabla del anexo II las celdas de destino con varios módulos (p. ej. «0387 + 0173 + 0171 + 0384») se han leído como convalidación de todos ellos; se ha recogido la redacción del consolidado, que en algunas filas escribe el título como «Asistencia Turística» y en otras «Asistencias Turísticas».",
+  "Las filas de tablas transversales de inglés (anexo III): se han recogido como fila la de los certificados que convalidan 0179 (Aptitud, B2 y Grado) y, en sentido inverso, la primera fila (0179 → 0156). El texto de esa tabla no lleva título propio en el consolidado; se ha leído su posición (tabla 58 del consolidado, tras las tablas del anexo III de FOL/EIE) y su contenido. La tabla «Para todos los ciclos formativos con segunda lengua extranjera» del anexo I (LOGSE→LOGSE) y las de lengua extranjera de grado superior del anexo I no se han recogido (son LOGSE→LOGSE sin destino en este ciclo).",
+  "Filas de ICT como origen hacia HOT301 y HOT302 (sentido inverso) y filas de Agencias de Viajes hacia módulos LOGSE de ICT (anexo I): se recogen por trazabilidad histórica (el título LOGSE anterior de este ciclo como formación aportada; título LOGSE derogado como destino). Su aplicación efectiva a un alumno de HOT303 depende de cómo el motor trate esos destinos (texto libre).",
+  "Cualificaciones: UC y denominaciones de HOT335_3, HOT336_3, HOT772_3, SSC329_3 y HOT330_3 anteriores/posteriores a las actualizaciones proceden del art. 6 del RD 1255/2009 (original y RD 500/2024), del anexo I y II del RD 532/2025 y de research/hot301.json (que a su vez toma los RD 148/2022 y 149/2022); no se han abierto los RD 1700/2007, 148/2022 ni 149/2022, ni los certificados de profesionalidad asociados (SEPE). No se ha comprobado si HOT336_3 (UC1074_3, UC1075_3 y UC0268_3 en el art. 6 del RD 500/2024) es hoy cualificación completa (el art. 6.2 original la calificaba de incompleta; el RD 532/2025 recoge exactamente esas tres UC), ni el estado de UC1057_2, UC9996_2 y UC1209_1.",
+  "NOTA sobre UC1071_3: en el anexo V A) original convalidaba por sí sola 0386; el RD 532/2025 (anexo II-a) solo la equipara a ECP2579_3 junto con UC1069_3 y a ECP2580_3 junto con UC1070_3. No se ha comprobado cómo aplica la herramienta de CATEDU (https://centrosdocentes.catedu.es/awc/public/competencias; tab1/tab2) esas correspondencias para HOT303: no se ha consultado.",
+  "Identidad de módulos con otros títulos de la familia (0171, 0172, 0173, 0383, 0384, 0180): no se ha cotejado el texto de resultados de aprendizaje y contenidos en este trabajo; research/hot301.json informa de que se cotejó el texto original de 2009-2010 y que coincide salvo diferencias de redacción menores (p. ej. en 0173 «identificado» frente a «conceptualizado» en HOT302/HOT303). Por la vía estatal (art. 3.2 del RD 1085/2020) la identidad estricta no está asegurada palabra por palabra; en Aragón basta el mismo código (Decreto 91/2024, anexo VIII.3). No se ha comprobado cómo aplica Aragón este criterio en la práctica (matrícula, plazos), ni si en 0180 exige la misma lengua cursada.",
+  "No se han revisado todos los RD de títulos posteriores al 5/03/2017 en busca de filas de su anexo IV que citen los módulos de este ciclo (la DA 5.ª del RD 1085/2020 las extendería a cualquier ciclo). Solo se ha comprobado el anexo IV del RD 1085/2020 (tablas 82-84 del consolidado: 1124/0017/1328, RD 189/2018 y RD 74/2018), que no cita este ciclo; no se han abierto los RD de los títulos posteriores.",
+  "El RD 500/2024 anexo LXXIII (nuevo anexo III de profesorado de este título) y los anexos II (espacios) y III A)/B)/C) del RD 1255/2009 no se han revisado en lo relativo a especialidades docentes ni equipamientos (solo los espacios de los anexos XXXII de la Orden ECD/843/2024 y XL de la Orden EFD/659/2024, en resumen).",
+  "Resolución de 6 de junio de 2025 (módulos optativos de diseño propio autorizados, https://educa.aragon.es/documents/20126/5514380/CSV511IT4T1J71T0XFIL+RESOLUCI%C3%93N+M%C3%93DULOS+OPTATIVOS+FP+ARAG%C3%93N.pdf): no se ha consultado para HOT303, de modo que no se sabe si autoriza algún optativo propio para este ciclo ni si hay resolución posterior para el curso 2026/2027.",
+  "El RD 1255/2009 no cuenta con texto consolidado y no consta en su ficha del BOE ninguna corrección de errores; no se ha verificado por otra vía (p. ej. el PDF original de las págs. 75778-75842 del BOE núm. 215). Los anexos V A) y V B) del RD 500/2024 se han leído en el HTML del BOE (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685), incluida la estructura de filas de las tablas; su corrección de errores, si existiera, no se ha buscado.",
+  "todofp.es no se ha usado como fuente de tablas de convalidación (no las publica) ni se ha contrastado la ficha del título en https://www.todofp.es/que-estudiar/familias-profesionales/hosteleria-turismo.html.",
+  "No se ha comprobado la vigencia de la DT única del RD 500/2024 (2024-25: 1.º) ni de la DT 2.ª de la ECD/843/2024 más allá de su redacción; las fechas de transición (1/09/2026) se toman del texto de la Orden.",
+  "UC1071_3 convalidaba 0386 por sí sola en el anexo V A de 2009. El RD 532/2025 solo la equipara a las competencias vigentes junto con UC1069_3 o UC1070_3, así que no se traduce: 0386 exige hoy UC2579_3 y UC2580_3."
+ ]
+};

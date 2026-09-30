@@ -554,6 +554,16 @@ assert.equal(est('ele305', de('TS Automatización y Robótica Industrial', ['095
 assert.notEqual(est('ele305', [{ tipo: 'uc', codigo: 'UC1271_3', via: 'x', docs: [] }])['1593'], 'convalidable');
 console.log('OK: Electromedicina Clínica');
 
+// Guía, Información y Asistencias Turísticas: comunes con Agencias de Viajes; UC1071_3 sola ya no da 0386
+require('../data/ciclos/hot303.js');
+r = est('hot303', ['0171', '0172', '0173', '0383', '0384', '0180'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Agencias de Viajes y Gestión de Eventos', docs: [] })));
+['0171', '0172', '0173', '0383', '0384', '0180'].forEach((c) => assert.equal(r[c], 'superado', c));
+r = est('hot303', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Información y Comercialización Turísticas', modulo: 'Asistencia y guía de grupos', docs: [] }]);
+assert.equal(r['0386'], 'convalidable'); assert.equal(r['0172'], 'convalidable');
+assert.notEqual(est('hot303', [{ tipo: 'uc', codigo: 'UC1071_3', via: 'x', docs: [] }])['0386'], 'convalidable');
+assert.equal(est('hot303', ['UC1069_3', 'UC1070_3'].map((u) => ({ tipo: 'uc', codigo: u, via: 'x', docs: [] })))['0386'], 'convalidable');
+console.log('OK: Guía, Información y Asistencias Turísticas');
+
 // La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
 for (const [id, c] of Object.entries(CICLOS)) {
   const emp = c.modulos.filter((m) => m.tipo === 'empresa').map((m) => m.codigo);
