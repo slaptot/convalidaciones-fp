@@ -214,20 +214,26 @@
     }
     const generales = N.titulos_generales.filter((t) => casa(t.label))
       .map((t) => `<option value="clave|${h(t.clave)}">${h(t.label)}</option>`);
-    const porGrado = { basico: [], medio: [], superior: [] };
+    // Nombre sin "Técnico (Básico/Superior) en", para que el orden alfabético sea el del ciclo
+    const corto = (n) => n.replace(/^(T[eé]cnico|Profesional)( B[aá]sico| Superior)? en /i, '');
+    const porGrado = { basico: [], medio: [], superior: [], especializacion: [] };
     Object.entries(CICLOS).filter(([id]) => id !== state.ciclo)
-      .sort(([, x], [, y]) => x.ciclo.nombre.localeCompare(y.ciclo.nombre, 'es'))
-      .forEach(([id, x]) => {
+      .map(([id, x]) => [id, x, corto(x.ciclo.nombre)])
+      .sort((a, b) => a[2].localeCompare(b[2], 'es'))
+      .forEach(([id, x, nombre]) => {
         const g = x.ciclo.grado;
-        const curso = x.ciclo.curso_especializacion ? 'curso de especialización' : '';
-        if (!porGrado[g] || !casa(x.ciclo.nombre, codigoCiclo(x), GRADOS[g], x.ciclo.familia, curso)) return;
-        porGrado[g].push(`<option value="ciclo|${h(id)}">${h(x.ciclo.nombre)} (${h(codigoCiclo(x))}) · ${h(x.ciclo.familia)}</option>`);
+        const curso = x.ciclo.curso_especializacion;
+        const clase = curso ? 'especializacion' : g;
+        if (!porGrado[clase] || !casa(x.ciclo.nombre, codigoCiclo(x), GRADOS[g], x.ciclo.familia, curso ? 'curso de especialización' : '')) return;
+        porGrado[clase].push(`<option value="ciclo|${h(id)}">${h(nombre)} (${h(codigoCiclo(x))}) · ${h(x.ciclo.familia)}${curso ? ` · ${h(GRADOS[g].toLowerCase())}` : ''}</option>`);
       });
     const gb = casa('Título de Grado Básico (cualquier ciclo)')
       ? ['<option value="gb|">Título de Grado Básico (cualquier ciclo, sin detallar)</option>'] : [];
-    return grupo('Tabla de este ciclo', tablas) + grupo('Reglas generales', generales)
+    return grupo('Grado básico', [...gb, ...porGrado.basico])
       + grupo('Grado medio', porGrado.medio) + grupo('Grado superior', porGrado.superior)
-      + grupo('Grado básico', [...gb, ...porGrado.basico]);
+      + grupo('Cursos de especialización', porGrado.especializacion)
+      + grupo('Títulos anteriores con fila propia en la tabla de este ciclo', tablas)
+      + grupo('Otros títulos (reglas generales)', generales);
   }
 
   function checklistDocs(tipo) {
