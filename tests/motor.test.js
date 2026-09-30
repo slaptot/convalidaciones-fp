@@ -441,6 +441,17 @@ assert.equal(est('afd301', [{ tipo: 'modulo_loe', codigo: '0017', nombre: 'Habil
 assert.equal(est('afd201', [{ tipo: 'modulo_loe', codigo: '1124', nombre: 'Dinamización grupal', titulo: 'TS Enseñanza y Animación Sociodeportiva', docs: [] }])['1328'], 'convalidable');
 console.log('OK: Enseñanza y Animación Sociodeportiva');
 
+// Acceso y Conservación en Instalaciones Deportivas: 3005 común con Peluquería y Estética; 3010 da 3164
+require('../data/ciclos/fpb127.js');
+r = est('fpb127', [
+  { tipo: 'modulo_loe', codigo: '3005', nombre: 'Atención al cliente', titulo: 'Técnico Básico en Peluquería y Estética', docs: [] },
+  { tipo: 'modulo_loe', codigo: '3010', nombre: 'Ciencias aplicadas II', docs: ['cert_academica'] },
+]);
+assert.equal(r['3005'], 'superado');
+assert.equal(r['3164'], 'convalidable');
+assert.notEqual(r['3148'], 'superado');
+console.log('OK: Acceso y Conservación en Instalaciones Deportivas');
+
 // Cursos de especialización (Grado E): sin formación en empresa salvo Nube, seis meses y sin universidad
 require('../data/catalogo.js');
 const exp6 = [{ tipo: 'experiencia', meses: 6, relacionada: true, docs: [] }];

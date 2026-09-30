@@ -35,6 +35,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Mediación Comunicativa | SSC304 | Superior | LO 3/2022 |
 | Promoción de Igualdad de Género | SSC305 | Superior | LO 3/2022 |
 | Termalismo y Bienestar | IMP304 | Superior | LO 3/2022 |
+| Acceso y Conservación en Instalaciones Deportivas | FPB127 | Básico | LO 3/2022 |
 | Guía en el Medio Natural y de Tiempo Libre | AFD201 | Medio | LO 3/2022 |
 | Enseñanza y Animación Sociodeportiva | AFD301 | Superior | LO 3/2022 |
 | Acondicionamiento Físico | AFD302 | Superior | LO 3/2022 |
