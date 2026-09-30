@@ -83,9 +83,11 @@ def split_convalidaciones(d, codigos_ciclo, plan):
             continue  # destino suprimido (FOL, EIE, FCT) o sentido inverso
         if plan != "LOGSE" and f["origen_titulo"].startswith(GENERICAS):
             continue  # las resuelven las reglas generales (con sus condiciones)
-        mo = CODIGO_LOE.match(f["origen_modulo"])
-        if mo:
-            loe.append({"origen_codigos": [mo.group(1)], "origen_nombre": mo.group(2),
+        # Una celda con varios módulos LOE ("1576. X + 1577. Y") exige aportarlos todos
+        partes = [CODIGO_LOE.match(x.strip()) for x in re.split(r"\s\+\s(?=\d{4}\.)", f["origen_modulo"])]
+        if all(partes):
+            loe.append({"origen_codigos": [p.group(1) for p in partes],
+                        "origen_nombre": " + ".join(p.group(2) for p in partes),
                         "origen_titulo": f["origen_titulo"], "destino_modulos": destinos,
                         "fuente": f["fuente"]})
         else:
@@ -347,6 +349,27 @@ build("fpb127", "fpb127.json", {
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
 })
 
+build("ele202", "ele202.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+    # RD 532/2025: las UC de la redacción de 2008 pasan a las vigentes del anexo V A
+    "equivalencias": {"UC0820_2": ["UC2341_2"], "UC0821_2": ["UC2341_2"], "UC0822_2": ["UC2343_2"],
+                      "UC0823_2": ["UC2340_2"], "UC0824_2": ["UC2340_2"], "UC0825_2": ["UC2345_2"]},
+    "no_verificado_extra": [
+        "La herramienta de CATEDU convalida 0240 solo con ECP2345_2; el anexo V A vigente (RD 499/2024) exige UC2344_2 y UC2345_2 juntas.",
+    ],
+})
+
+build("fpb102", "fpb102.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+    "no_verificado_extra": [
+        "3013 aportado desde Instalaciones Electrotécnicas y Mecánica (FPB126): mismos resultados de aprendizaje, pero 180 h en el RD 127/2014 frente a 175 h en el RD 774/2015. El art. 3.2 del RD 1085/2020 exige igual duración; el anexo VIII ap. 3 del Decreto 91/2024 no. Revisar antes de trasladar la nota.",
+    ],
+})
+
 build("ssc305", "ssc305.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -496,4 +519,4 @@ def build_catalogo(ya_cargados):
 
 
 build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108", "FPB128",
-                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127"])
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102"])

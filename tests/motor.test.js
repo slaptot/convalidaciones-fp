@@ -452,6 +452,25 @@ assert.equal(r['3164'], 'convalidable');
 assert.notEqual(r['3148'], 'superado');
 console.log('OK: Acceso y Conservación en Instalaciones Deportivas');
 
+// Instalaciones Eléctricas y Automáticas: celdas con dos módulos o dos UC exigen ambos
+require('../data/ciclos/ele202.js');
+const agua = (cods) => cods.map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Gestión del Agua', docs: [] }));
+assert.notEqual(est('ele202', agua(['1576']))['0232'], 'convalidable');
+assert.equal(est('ele202', agua(['1576', '1577']))['0232'], 'convalidable');
+assert.notEqual(est('ele202', [{ tipo: 'uc', codigo: 'UC2345_2', via: 'x', docs: [] }])['0240'], 'convalidable');
+assert.equal(est('ele202', ['UC2344_2', 'UC2345_2'].map((u) => ({ tipo: 'uc', codigo: u, via: 'x', docs: [] })))['0240'], 'convalidable');
+assert.equal(est('ele202', [{ tipo: 'modulo_logse', titulo: 'Técnico en Equipos e Instalaciones Electrotécnicas', modulo: 'Electrotecnia', docs: [] }])['0234'], 'convalidable');
+console.log('OK: Instalaciones Eléctricas y Automáticas');
+
+// Electricidad y Electrónica (grado básico): 3015 y 3016 comunes con Informática y Comunicaciones
+require('../data/ciclos/fpb102.js');
+r = est('fpb102', ['3015', '3016'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'Profesional Básico en Informática y Comunicaciones', docs: [] })));
+assert.equal(r['3015'], 'superado'); assert.equal(r['3016'], 'superado');
+assert.notEqual(r['3013'], 'superado');
+r = est('fpb104', ['3015', '3016'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'Profesional Básico en Electricidad y Electrónica', docs: [] })));
+assert.equal(r['3015'], 'superado'); assert.equal(r['3016'], 'superado');
+console.log('OK: Electricidad y Electrónica (grado básico)');
+
 // Cursos de especialización (Grado E): sin formación en empresa salvo Nube, seis meses y sin universidad
 require('../data/catalogo.js');
 const exp6 = [{ tipo: 'experiencia', meses: 6, relacionada: true, docs: [] }];
