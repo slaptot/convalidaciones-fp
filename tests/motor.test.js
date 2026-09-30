@@ -564,6 +564,16 @@ assert.notEqual(est('hot303', [{ tipo: 'uc', codigo: 'UC1071_3', via: 'x', docs:
 assert.equal(est('hot303', ['UC1069_3', 'UC1070_3'].map((u) => ({ tipo: 'uc', codigo: u, via: 'x', docs: [] })))['0386'], 'convalidable');
 console.log('OK: Guía, Información y Asistencias Turísticas');
 
+// Gestión de Alojamientos Turísticos: una fila LOGSE da tres módulos; comunes con Agencias de Viajes
+require('../data/ciclos/hot302.js');
+r = est('hot302', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Alojamiento', modulo: 'Recepción y atención al cliente', docs: [] }]);
+['0176', '0177', '0172'].forEach((c) => assert.equal(r[c], 'convalidable', c));
+r = est('hot302', ['0171', '0172', '0173', '0180'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'TS Agencias de Viajes y Gestión de Eventos', docs: [] })));
+['0171', '0172', '0173', '0180'].forEach((c) => assert.equal(r[c], 'superado', c));
+assert.ok(!('0383' in r));
+assert.notEqual(est('hot302', [{ tipo: 'uc', codigo: 'UC1057_2', via: 'x', docs: [] }])['0179'], 'convalidable');
+console.log('OK: Gestión de Alojamientos Turísticos');
+
 // La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
 for (const [id, c] of Object.entries(CICLOS)) {
   const emp = c.modulos.filter((m) => m.tipo === 'empresa').map((m) => m.codigo);
