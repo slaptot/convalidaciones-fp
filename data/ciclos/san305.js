@@ -543,16 +543,6 @@ window.CICLOS["san305"] = {
    "fuente": "RD 1085/2020 anexo II, bloque Sanidad, GRADO SUPERIOR (antes RD 770/2014 anexo IV, derogado). La celda de destino contiene los dos módulos"
   },
   {
-   "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995, de 7 de abril)",
-   "origen_modulo": [
-    "Formación en centro de trabajo del título de Técnico Superior en Imagen para el Diagnóstico"
-   ],
-   "destino_modulos": [
-    "1358"
-   ],
-   "fuente": "RD 770/2014 anexo IV (DEROGADO por el RD 1085/2020, que no reprodujo esta fila en su anexo II). Figura también en el anexo IV de la Orden de 5 de mayo de 2015 de Aragón. El módulo 1358 ya no existe tras el RD 500/2024 y, además, este ciclo está excluido de la exención del periodo de formación en empresa (art. 15.8 del RD 770/2014 en la redacción del RD 500/2024 y art. 49.2 del Decreto 91/2024 de Aragón)"
-  },
-  {
    "origen_titulo": "Técnico Superior en Radioterapia (LOGSE, RD 544/1995, de 7 de abril)",
    "origen_modulo": [
     "Protección radiológica"

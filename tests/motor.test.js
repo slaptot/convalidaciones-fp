@@ -536,6 +536,24 @@ r = est('ele304', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Sistema
 assert.equal(r['0525'], 'convalidable'); assert.equal(r['0553'], 'convalidable');
 console.log('OK: Sistemas de Telecomunicaciones e Informáticos');
 
+// Agencias de Viajes: una fila LOGSE da 0173 y 0171; módulos comunes de la familia por código
+require('../data/ciclos/hot301.js');
+r = est('hot301', [{ tipo: 'modulo_logse', titulo: 'Técnico Superior en Agencias de Viajes', modulo: 'Comercialización de productos y servicios turísticos', docs: [] }]);
+assert.equal(r['0173'], 'convalidable'); assert.equal(r['0171'], 'convalidable');
+assert.equal(est('hot301', [{ tipo: 'modulo_loe', codigo: '0171', nombre: 'x', titulo: 'TS Gestión de Alojamientos Turísticos', docs: [] }])['0171'], 'superado');
+assert.equal(est('hot301', [{ tipo: 'uc', codigo: 'UC0266_3', via: 'x', docs: [] }])['0398'], 'convalidable');
+console.log('OK: Agencias de Viajes y Gestión de Eventos');
+
+// La FCT de un título anterior nunca convalida la formación en empresa (solo exención)
+for (const [id, c] of Object.entries(CICLOS)) {
+  const emp = c.modulos.filter((m) => m.tipo === 'empresa').map((m) => m.codigo);
+  for (const f of [...c.convalidaciones_titulos_anteriores, ...c.convalidaciones_loe]) {
+    assert.ok(!f.destino_modulos.some((d) => emp.includes(d)), `${id}: fila hacia la formación en empresa`);
+  }
+}
+assert.notEqual(est('hot201', [{ tipo: 'modulo_logse', titulo: 'Técnico en Cocina', modulo: 'Formación en centro de trabajo', docs: [] }], 'loe')['0051'], 'convalidable');
+console.log('OK: la FCT no se convalida');
+
 // Plan LOE a extinguir: FOL y EIE de cualquier título se reconocen por su nombre
 for (const [c, fol, eie] of [['hot203', '0157', '0158'], ['ele202', '0241', '0242'], ['ifc301', '0380', '0381']]) {
   const mods = Object.fromEntries(CICLOS[c].modulos.map((m) => [m.codigo, m.comun]));

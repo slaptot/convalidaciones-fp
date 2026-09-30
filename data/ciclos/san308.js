@@ -513,16 +513,6 @@ window.CICLOS["san308"] = {
   {
    "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
    "origen_modulo": [
-    "Formación en centro de trabajo del título de Técnico Superior en Prótesis Dentales"
-   ],
-   "destino_modulos": [
-    "0864"
-   ],
-   "fuente": "RD 1687/2011 anexo IV (DEROGADO por el RD 1085/2020, que no reprodujo esta fila en su anexo II). El módulo 0864 ya no existe tras el RD 500/2024; además, el art. 15.8 del RD 1687/2011 (redacción del RD 500/2024) excluye expresamente a este ciclo de la exención del periodo de formación en empresa"
-  },
-  {
-   "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995, de 7 de abril)",
-   "origen_modulo": [
     "Organización, administración y gestión de una unidad/gabinete de prótesis dentales. Ciclo Prótesis Dentales. (Sanidad)"
    ],
    "destino_modulos": [

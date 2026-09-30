@@ -563,16 +563,6 @@ window.CICLOS["ssc302"] = {
    "fuente": "NO figura como fila con destino a este título en el RD 1085/2020. El anexo II recoge esa misma correspondencia (Animación y dinámica de grupos → 0017. Habilidades sociales) con destino a Técnico Superior en Integración Social (RD 1074/2012) y a Técnico Superior en Promoción de Igualdad de Género (RD 779/2013), y el anexo IV a) del RD 651/2017 con destino a Acondicionamiento Físico. Se recoge aquí por extensión: la DA 5.ª del RD 1085/2020 hace aplicables las convalidaciones de los anexos a los módulos incluidos en cualquier ciclo, con independencia del título, y 0017 es el mismo módulo en todos ellos (véase la nota sobre identidad de 0017). Extensión NO confirmada por una fila expresa; requiere criterio del centro"
   },
   {
-   "origen_titulo": "Técnico Superior en Educación Infantil (LOGSE, RD 2059/1995, de 22 de diciembre)",
-   "origen_modulo": [
-    "Formación en Centro de Trabajo"
-   ],
-   "destino_modulos": [
-    "0023"
-   ],
-   "fuente": "RD 1394/2007 anexo IV (DEROGADO por el RD 1085/2020, que no reprodujo esta fila). El módulo 0023 ya no existe tras el RD 500/2024; además, el art. 3.4 del RD 1085/2020 impide convalidar la FCT (solo cabe exención total o parcial, art. 131 del RD 659/2023)"
-  },
-  {
    "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
    "origen_modulo": [
     "Ciclo completo"

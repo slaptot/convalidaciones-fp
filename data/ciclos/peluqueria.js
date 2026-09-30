@@ -587,16 +587,6 @@ window.CICLOS["peluqueria"] = {
    "fuente": "RD 1588/2011 anexo IV (derogado por el RD 1085/2020) y Orden de 23 de mayo de 2013 de Aragón, anexo IV; la regla general equivalente está en el anexo II del RD 1085/2020. El módulo 0852 ya no existe tras el RD 499/2024"
   },
   {
-   "origen_titulo": "Técnico en Peluquería (LOGSE, RD 629/1995)",
-   "origen_modulo": [
-    "Formación en centro de trabajo del título de Técnico en Peluquería"
-   ],
-   "destino_modulos": [
-    "0853"
-   ],
-   "fuente": "RD 1588/2011 anexo IV (derogado por el RD 1085/2020) y Orden de 23 de mayo de 2013 de Aragón, anexo IV. El módulo 0853 ya no existe tras el RD 499/2024; la FCT se sustituye por el periodo de formación en empresa, cuya exención se rige por el art. 131 del RD 659/2023"
-  },
-  {
    "origen_titulo": "Técnico en Estética Personal Decorativa (LOGSE, RD 630/1995)",
    "origen_modulo": [
     "Escultura de uñas y estética de manos y pies"

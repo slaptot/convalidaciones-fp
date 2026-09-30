@@ -570,16 +570,6 @@ window.CICLOS["estetica"] = {
    "fuente": "RD 256/2011 anexo IV (derogado por el RD 1085/2020); la regla general equivalente está en el anexo II del RD 1085/2020 («Administración, gestión y comercialización en la pequeña empresa» de cualquier ciclo LOGSE → EIE de cualquier ciclo LOE). El módulo 0645 ya no existe tras el RD 499/2024"
   },
   {
-   "origen_titulo": "Técnico en Estética Personal Decorativa (LOGSE, RD 630/1995)",
-   "origen_modulo": [
-    "Formación en centro de trabajo del título de Técnico en Estética Personal Decorativa"
-   ],
-   "destino_modulos": [
-    "0646"
-   ],
-   "fuente": "RD 256/2011 anexo IV (derogado por el RD 1085/2020). El módulo 0646 ya no existe tras el RD 499/2024; la FCT se sustituye por el periodo de formación en empresa, cuya exención se rige por el art. 131 del RD 659/2023"
-  },
-  {
    "origen_titulo": "Técnico en Peluquería (LOGSE, RD 629/1995)",
    "origen_modulo": [
     "Anatomía y fisiología humanas básicas"

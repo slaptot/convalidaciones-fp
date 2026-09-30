@@ -476,16 +476,6 @@ window.CICLOS["san306"] = {
   {
    "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
    "origen_modulo": [
-    "Formación en centro de trabajo del título de Técnico Superior en Laboratorio de Diagnóstico Clínico"
-   ],
-   "destino_modulos": [
-    "1378"
-   ],
-   "fuente": "RD 771/2014 anexo IV (DEROGADO por el RD 1085/2020). Esta fila NO se recogió en el anexo II del RD 1085/2020. El módulo 1378 ya no existe tras el RD 500/2024; la FCT se sustituye por el periodo de formación en empresa, que además NO admite exención en este ciclo (art. 15.8 del RD 771/2014 en la redacción del RD 500/2024)"
-  },
-  {
-   "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
-   "origen_modulo": [
     "Organización y gestión del área de trabajo asignada en la unidad/consulta de laboratorio de diagnóstico clínico",
     "Obtención, preparación y conservación de muestras biológicas humanas (redacción del texto derogado)"
    ],

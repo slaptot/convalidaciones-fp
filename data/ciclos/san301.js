@@ -493,16 +493,6 @@ window.CICLOS["san301"] = {
    "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Sanidad, GRADO SUPERIOR. La celda de origen contiene los TRES módulos: hacen falta los tres simultáneamente (art. 15.3 del RD 767/2014 en la redacción del RD 500/2024). En el anexo IV del RD 767/2014 figuraban como tres párrafos; en el anexo II del RD 1085/2020 los dos primeros aparecen fundidos en un mismo párrafo"
   },
   {
-   "origen_titulo": "Técnico Superior en Anatomía Patológica y Citología (LOGSE, RD 538/1995, de 7 de abril)",
-   "origen_modulo": [
-    "Formación en centro de trabajo del título de Técnico Superior en Anatomía Patológica y Citología"
-   ],
-   "destino_modulos": [
-    "1386"
-   ],
-   "fuente": "RD 767/2014 anexo IV (DEROGADO por el RD 1085/2020, que no reprodujo esta fila). El módulo 1386 ya no existe tras el RD 500/2024; además, el art. 3.4 del RD 1085/2020 impide convalidar la FCT (solo cabe exención), y este ciclo está EXCLUIDO de la exención de la formación en empresa (art. 15.8 del RD 767/2014 según el RD 500/2024 y art. 49.2 del Decreto 91/2024 de Aragón)"
-  },
-  {
    "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995, de 7 de abril)",
    "origen_modulo": [
     "Organización y gestión del área de trabajo asignada en la unidad/consulta de laboratorio de diagnóstico clínico",

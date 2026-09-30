@@ -507,16 +507,6 @@ window.CICLOS["san304"] = {
    "fuente": "RD 1085/2020 anexo II, bloque Sanidad, grado superior (antes RD 769/2014 anexo IV, derogado)"
   },
   {
-   "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
-   "origen_modulo": [
-    "Formación en centro de trabajo del título de Higiene Bucodental"
-   ],
-   "destino_modulos": [
-    "0741"
-   ],
-   "fuente": "RD 769/2014 anexo IV (derogado por el RD 1085/2020, que NO reprodujo esta fila en su anexo II). El módulo 0741 ya no existe tras el RD 500/2024; la FCT se sustituye por el periodo de formación en empresa, cuya exención está además EXCLUIDA para este ciclo (art. 15.8 del RD 769/2014 en la redacción del RD 500/2024 y art. 49.2 del Decreto 91/2024 de Aragón)"
-  },
-  {
    "origen_titulo": "Técnico Superior en Dietética (LOGSE, RD 536/1995)",
    "origen_modulo": [
     "Educación sanitaria y promoción de la salud"

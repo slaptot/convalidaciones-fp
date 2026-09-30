@@ -89,8 +89,12 @@ GENERICAS = ("Cualquier ciclo formativo", "Cualquier título LOE", "Escuela Ofic
 def split_convalidaciones(d, codigos_ciclo, plan):
     """Separa filas por módulo de título anterior (texto) y por módulo LOE con código."""
     anteriores, loe = [], []
+    # La formación en empresa (FCT) nunca se convalida, solo admite exención
+    # (RD 659/2023 art. 126.4.a; RD 1085/2020 art. 3.4). Los anexos IV originales
+    # de los títulos traían una fila FCT -> FCT que el RD 1085/2020 no reproduce.
+    empresa = {m["codigo"] for m in d["modulos"] if m.get("tipo") == "empresa"}
     for f in d["convalidaciones_titulos_anteriores"]:
-        destinos = [x for x in f["destino_modulos"] if x in codigos_ciclo]
+        destinos = [x for x in f["destino_modulos"] if x in codigos_ciclo and x not in empresa]
         if not destinos:
             continue  # destino suprimido (FOL, EIE, FCT) o sentido inverso
         if plan != "LOGSE" and f["origen_titulo"].startswith(GENERICAS):
@@ -429,6 +433,15 @@ build("ele304", "ele304.json", {
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
 })
 
+build("hot301", "hot301.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+    # RD 532/2025 y redacción del anexo V A del RD 500/2024: UC antiguas -> vigentes
+    "equivalencias": {"UC0266_3": ["UC2567_3"], "UC0267_2": ["UC2567_3"], "UC1069_3": ["UC2579_3"],
+                      "UC1070_3": ["UC2580_3"], "UC1072_3": ["UC9999_3"], "UC1073_3": ["UC9997_3"]},
+})
+
 build("ssc305", "ssc305.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -578,4 +591,4 @@ def build_catalogo(ya_cargados):
 
 
 build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108", "FPB128",
-                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201", "HOT203", "ELE203", "ELE301", "ELE302", "ELE303", "ELE304"])
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201", "HOT203", "ELE203", "ELE301", "ELE302", "ELE303", "ELE304", "HOT301"])

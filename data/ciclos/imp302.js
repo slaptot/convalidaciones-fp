@@ -617,16 +617,6 @@ window.CICLOS["imp302"] = {
    "fuente": "RD 881/2011 anexo IV original (DEROGADO por el RD 1085/2020, que no reprodujo esta fila en el bloque de Imagen Personal); la regla equivalente vigente es la tabla general de EIE del anexo II del RD 1085/2020 («Administración, gestión y comercialización en la pequeña empresa» de cualquier ciclo LOGSE → EIE). El módulo 0756 ya no existe tras el RD 500/2024; véase la DA 6.ª del RD 1085/2020 (→ 1710)"
   },
   {
-   "origen_titulo": "Técnico Superior en Estética (LOGSE, RD 628/1995, de 21 de abril)",
-   "origen_modulo": [
-    "Formación en centro de trabajo del título de Técnico Superior en Estética."
-   ],
-   "destino_modulos": [
-    "0757"
-   ],
-   "fuente": "RD 881/2011 anexo IV original (DEROGADO por el RD 1085/2020, que no reprodujo esta fila). El módulo 0757 ya no existe tras el RD 500/2024; el art. 3.4 del RD 1085/2020 impide convalidar la FCT (solo cabe exención, art. 131 del RD 659/2023)"
-  },
-  {
    "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
    "origen_modulo": [
     "Ciclo completo"

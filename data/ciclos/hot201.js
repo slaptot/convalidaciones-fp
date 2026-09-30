@@ -523,16 +523,6 @@ window.CICLOS["hot201"] = {
    "fuente": "RD 1396/2007 anexo IV, texto original (derogado por el RD 1085/2020). Hoy la regla equivalente está en el cuadro general de EIE del anexo II del RD 1085/2020 y, por la DA 6.ª.2 de ese RD, la convalidación de EIE se entiende hecha también a 1710 (IPE II). 0050 está suprimido desde el RD 499/2024."
   },
   {
-   "origen_titulo": "Técnico en Cocina (LOGSE, RD 2219/1993, de 17 de diciembre)",
-   "origen_modulo": [
-    "Formación en centro de trabajo"
-   ],
-   "destino_modulos": [
-    "0051"
-   ],
-   "fuente": "RD 1396/2007 anexo IV, texto original (derogado por el RD 1085/2020). 0051 está suprimido desde el RD 499/2024; la FCT se sustituye por el periodo de formación en empresa, cuya exención se rige por el art. 131 del RD 659/2023."
-  },
-  {
    "origen_titulo": "Técnico en Pastelería y Panadería (LOGSE, RD 2220/1993, de 17 de diciembre)",
    "origen_modulo": [
     "Técnicas de pastelería, panadería y conservación de alimentos"

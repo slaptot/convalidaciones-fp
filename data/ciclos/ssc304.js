@@ -575,16 +575,6 @@ window.CICLOS["ssc304"] = {
    "fuente": "RD 831/2014 anexo IV, cuarta fila (DEROGADO por el RD 1085/2020, que NO la reprodujo dentro del bloque de Mediación Comunicativa). El anexo IV no nombra el título de origen; el módulo «Pautas básicas y sistemas alternativos de comunicación» no figura entre los del título ITLS (RD 2060/1995) y el anexo II del RD 1085/2020 lo atribuye al Técnico Superior en Integración Social (RD 2061/1995), cuya fila «Pautas básicas y sistemas alternativos de comunicación → 0343. Sistemas aumentativos y alternativos de comunicación» está en el mismo cuadro (destino Técnico Superior en Integración Social, RD 1074/2012). La DA 5.ª del RD 1085/2020 extiende las convalidaciones de los anexos a los módulos incluidos en cualquier ciclo, con independencia del título: por eso se recoge aquí para el 0343 de Mediación Comunicativa"
   },
   {
-   "origen_titulo": "Técnico Superior en Interpretación de la Lengua de Signos (LOGSE, RD 2060/1995, de 22 de diciembre)",
-   "origen_modulo": [
-    "Formación en centros de trabajo del título de Técnico Superior en Interpretación de la Lengua de Signos"
-   ],
-   "destino_modulos": [
-    "1122"
-   ],
-   "fuente": "RD 831/2014 anexo IV, última fila (DEROGADO por el RD 1085/2020, que no reprodujo esta fila). El módulo 1122 ya no existe tras el RD 500/2024; además, el art. 3.4 del RD 1085/2020 impide convalidar la FCT (solo cabe exención) y la exención del periodo de formación en empresa se rige hoy por el art. 15.7 del RD 831/2014 (RD 500/2024) y el art. 131 del RD 659/2023 y, en Aragón, por el art. 49.1 del Decreto 91/2024 (este título NO figura en la lista de excluidos del art. 49.2)"
-  },
-  {
    "origen_titulo": "Técnico Superior en Animación Sociocultural (LOGSE, RD 2058/1995, de 22 de diciembre)",
    "origen_modulo": [
     "Animación y dinámica de grupos"

@@ -564,16 +564,6 @@ window.CICLOS["afd301"] = {
    "fuente": "RD 653/2017 anexo IV a) (LOGSE→LOE; título posterior al 5/03/2017: art. 15.2.b del RD 653/2017 según el RD 500/2024 y DA 5.ª del RD 1085/2020). Idéntico en el anexo IV a) de la Orden ECD/1352/2018 (Aragón) (destino 1146) y RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora». El módulo 1146 ya no existe tras el RD 500/2024; la DA 6.ª del RD 1085/2020 ordena entender la convalidación hecha también al módulo 1710"
   },
   {
-   "origen_titulo": "Técnico Superior en Animación de Actividades Físicas y Deportivas (LOGSE, RD 2048/1995, de 22 de diciembre)",
-   "origen_modulo": [
-    "Formación en centro de trabajo"
-   ],
-   "destino_modulos": [
-    "1147"
-   ],
-   "fuente": "RD 653/2017 anexo IV a) (LOGSE→LOE; título posterior al 5/03/2017: art. 15.2.b del RD 653/2017 según el RD 500/2024 y DA 5.ª del RD 1085/2020). Idéntico en el anexo IV a) de la Orden ECD/1352/2018 (Aragón). El módulo 1147 ya no existe tras el RD 500/2024; además el art. 3.4 del RD 1085/2020 impide convalidar la FCT (solo cabe exención) y este ciclo no está excluido de la exención (art. 15.8 del RD 653/2017 según el RD 500/2024 y art. 49.2 del Decreto 91/2024)"
-  },
-  {
    "origen_titulo": "Ciclo LOGSE de cualquier familia",
    "origen_modulo": [
     "Formación y Orientación Laboral (más la certificación de prevención de riesgos laborales de nivel básico)"

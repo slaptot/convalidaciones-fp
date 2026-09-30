@@ -498,16 +498,6 @@ window.CICLOS["san309"] = {
    "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Sanidad, GRADO SUPERIOR, fila «Técnico Superior en Radioterapia (RD 544/1995, de 7 de abril)» → «Técnico Superior en Radioterapia y Dosimetría (RD 772/2014 de 12 de Septiembre)». Coincide con la fila del anexo IV del RD 772/2014 (derogado). Los dos módulos de destino están en la misma celda: se convalidan ambos. 1360 también se obtiene con la fila de teleterapia (cada fila por separado lo concede)"
   },
   {
-   "origen_titulo": "Técnico Superior en Radioterapia (LOGSE, RD 544/1995, de 7 de abril)",
-   "origen_modulo": [
-    "Formación en centro de trabajo del título de Técnico Superior en Radioterapia"
-   ],
-   "destino_modulos": [
-    "1366"
-   ],
-   "fuente": "RD 772/2014 anexo IV (DEROGADO por el RD 1085/2020, que no reprodujo esta fila). El módulo 1366 ya no existe tras el RD 500/2024; además, el art. 3.4 del RD 1085/2020 dice que la FCT nunca es convalidable, solo exenta, y el art. 15.8 del RD 772/2014 (redacción del RD 500/2024) y el art. 49.2 del Decreto 91/2024 excluyen a este ciclo de la exención de la formación en empresa. Se recoge solo por trazabilidad histórica"
-  },
-  {
    "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995, de 7 de abril; el BOE lo cita, por errata, como «RD 539/1995, de 7 de abril»)",
    "origen_modulo": [
     "Protección radiológica"

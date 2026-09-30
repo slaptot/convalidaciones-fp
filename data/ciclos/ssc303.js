@@ -559,16 +559,6 @@ window.CICLOS["ssc303"] = {
    "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Servicios Socioculturales y a la Comunidad, GRADO SUPERIOR. Coincide con la fila del anexo IV original del RD 1074/2012 (derogado)"
   },
   {
-   "origen_titulo": "Técnico Superior en Integración Social (LOGSE, RD 2061/1995, de 22 de diciembre): módulo «Formación en centro de trabajo del título de Técnico Superior en Integración Social»",
-   "origen_modulo": [
-    "Formación en centro de trabajo del título de Técnico Superior en Integración Social"
-   ],
-   "destino_modulos": [
-    "0348"
-   ],
-   "fuente": "RD 1074/2012 anexo IV (DEROGADO por el RD 1085/2020, que no reprodujo esta fila). El módulo 0348 ya no existe tras el RD 500/2024; además el art. 3.4 del RD 1085/2020 impide convalidar la FCT (solo cabe exención)"
-  },
-  {
    "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
    "origen_modulo": [
     "Ciclo completo"

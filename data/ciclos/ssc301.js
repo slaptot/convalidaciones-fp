@@ -578,16 +578,6 @@ window.CICLOS["ssc301"] = {
    "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones del módulo profesional 0020 Primeros Auxilios»: el ciclo completo de TCAE convalida 0020 en cualquier ciclo formativo de cualquier familia en el que aparezca"
   },
   {
-   "origen_titulo": "Técnico Superior en Animación Sociocultural o Técnico Superior en Animación Turística (LOGSE)",
-   "origen_modulo": [
-    "Formación en centro de trabajo del título de Técnico de Animación Turística o del título de Técnico de Animación Sociocultural"
-   ],
-   "destino_modulos": [
-    "1135"
-   ],
-   "fuente": "RD 1684/2011 anexo IV (DEROGADO por el RD 1085/2020, que no reprodujo esta fila). El módulo 1135 ya no existe tras el RD 500/2024; además, el art. 3.4 del RD 1085/2020 impide convalidar la FCT (solo cabe exención), y este ciclo NO está excluido de la exención del periodo de formación en empresa (art. 15.8 del RD 1684/2011 según el RD 500/2024 y art. 49.2 del Decreto 91/2024 de Aragón: la exclusión solo afecta a ciclos de Sanidad)"
-  },
-  {
    "origen_titulo": "Técnico Superior en Prevención de Riesgos Profesionales (LOGSE, familia Mantenimiento y servicios a la producción)",
    "origen_modulo": [
     "Ciclo completo"

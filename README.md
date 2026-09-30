@@ -37,6 +37,7 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Termalismo y Bienestar | IMP304 | Superior | LO 3/2022 |
 | Cocina y Gastronomía | HOT201 | Medio | LO 3/2022 |
 | Servicios en Restauración | HOT203 | Medio | LO 3/2022 |
+| Agencias de Viajes y Gestión de Eventos | HOT301 | Superior | LO 3/2022 |
 | Electricidad y Electrónica | FPB102 | Básico | LO 3/2022 |
 | Instalaciones Eléctricas y Automáticas | ELE202 | Medio | LO 3/2022 |
 | Instalaciones de Telecomunicaciones | ELE203 | Medio | LO 3/2022 |
