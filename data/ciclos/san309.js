@@ -372,7 +372,7 @@ window.CICLOS["san309"] = {
    "codigo": "1364",
    "nombre": "Formación y orientación laboral",
    "tipo": "comun",
-   "comun": "comun",
+   "comun": "fol_loe",
    "horas": {
     "aragon": null,
     "mefp": null,
@@ -389,7 +389,7 @@ window.CICLOS["san309"] = {
    "codigo": "1365",
    "nombre": "Empresa e iniciativa emprendedora",
    "tipo": "comun",
-   "comun": "comun",
+   "comun": "eie_loe",
    "horas": {
     "aragon": null,
     "mefp": null,

@@ -417,7 +417,7 @@ window.CICLOS["ssc301"] = {
    "codigo": "1133",
    "nombre": "Formación y orientación laboral",
    "tipo": "comun",
-   "comun": "comun",
+   "comun": "fol_loe",
    "horas": {
     "aragon": null,
     "mefp": null,
@@ -434,7 +434,7 @@ window.CICLOS["ssc301"] = {
    "codigo": "1134",
    "nombre": "Empresa e iniciativa emprendedora",
    "tipo": "comun",
-   "comun": "comun",
+   "comun": "eie_loe",
    "horas": {
     "aragon": null,
     "mefp": null,

@@ -430,7 +430,7 @@ window.CICLOS["imp301"] = {
    "codigo": "1191",
    "nombre": "Formación y orientación laboral",
    "tipo": "comun",
-   "comun": "comun",
+   "comun": "fol_loe",
    "horas": {
     "aragon": null,
     "mefp": null,
@@ -447,7 +447,7 @@ window.CICLOS["imp301"] = {
    "codigo": "1192",
    "nombre": "Empresa e iniciativa emprendedora",
    "tipo": "comun",
-   "comun": "comun",
+   "comun": "eie_loe",
    "horas": {
     "aragon": null,
     "mefp": null,

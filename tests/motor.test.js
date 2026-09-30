@@ -481,6 +481,24 @@ assert.equal(r['0047'], 'convalidable'); assert.equal(r['0048'], 'convalidable')
 assert.notEqual(est('hot201', [{ tipo: 'uc', codigo: 'UC0261_2', via: 'x', docs: [] }])['0048'], 'convalidable');
 console.log('OK: Cocina y Gastronomía');
 
+// Servicios en Restauración: 0031 y 0045 comunes con Cocina; 0152 exige los dos módulos LOGSE
+require('../data/ciclos/hot203.js');
+r = est('hot203', ['0031', '0045'].map((c) => ({ tipo: 'modulo_loe', codigo: c, nombre: 'x', titulo: 'Técnico en Cocina y Gastronomía', docs: [] })));
+assert.equal(r['0031'], 'superado'); assert.equal(r['0045'], 'superado');
+const bar = (mods) => mods.map((m) => ({ tipo: 'modulo_logse', titulo: 'Técnico en Servicios de Restaurante y Bar', modulo: m, docs: [] }));
+assert.notEqual(est('hot203', bar(['Bebidas']))['0152'], 'convalidable');
+assert.equal(est('hot203', bar(['Bebidas', 'Técnicas elementales de cocina']))['0152'], 'convalidable');
+console.log('OK: Servicios en Restauración');
+
+// Plan LOE a extinguir: FOL y EIE de cualquier título se reconocen por su nombre
+for (const [c, fol, eie] of [['hot203', '0157', '0158'], ['ele202', '0241', '0242'], ['ifc301', '0380', '0381']]) {
+  const mods = Object.fromEntries(CICLOS[c].modulos.map((m) => [m.codigo, m.comun]));
+  assert.equal(mods[fol], 'fol_loe', `${c} ${fol}`); assert.equal(mods[eie], 'eie_loe', `${c} ${eie}`);
+}
+r = est('hot203', [{ tipo: 'modulo_loe', codigo: '0049', nombre: 'Formación y orientación laboral', titulo: 'Técnico en Cocina y Gastronomía', docs: ['cert_academica'] }], 'loe');
+assert.equal(r['0157'], 'convalidable');
+console.log('OK: FOL y EIE del plan LOE');
+
 // Cursos de especialización (Grado E): sin formación en empresa salvo Nube, seis meses y sin universidad
 require('../data/catalogo.js');
 const exp6 = [{ tipo: 'experiencia', meses: 6, relacionada: true, docs: [] }];

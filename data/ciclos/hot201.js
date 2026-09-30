@@ -395,7 +395,7 @@ window.CICLOS["hot201"] = {
    "codigo": "0049",
    "nombre": "Formación y orientación laboral",
    "tipo": "comun",
-   "comun": "comun",
+   "comun": "fol_loe",
    "horas": {
     "aragon": null,
     "mefp": null,
@@ -412,7 +412,7 @@ window.CICLOS["hot201"] = {
    "codigo": "0050",
    "nombre": "Empresa e iniciativa emprendedora",
    "tipo": "comun",
-   "comun": "comun",
+   "comun": "eie_loe",
    "horas": {
     "aragon": null,
     "mefp": null,

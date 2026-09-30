@@ -43,6 +43,18 @@ def horas_ambito(m, claves):
     return None, None
 
 
+def comun_por_nombre(m):
+    """FOL y EIE del plan LOE a extinguir tienen un código distinto en cada título:
+    se reconocen por la denominación para que les alcancen las reglas generales."""
+    nombre = m["nombre"].strip().lower()
+    if re.fullmatch(r"\d{4}", m["codigo"] or ""):
+        if nombre.startswith("formación y orientación laboral"):
+            return "fol_loe"
+        if nombre.startswith("empresa e iniciativa emprendedora"):
+            return "eie_loe"
+    return m["tipo"]
+
+
 def modulos(d, cfg):
     """Un módulo entra en cada plan (ámbito) solo si ese plan le asigna horas."""
     out = []
@@ -62,7 +74,7 @@ def modulos(d, cfg):
             # Denominaciones propias de un plan (el RD 500/2024 renombró módulos)
             **({"nombres": cfg["nombres"][cod]} if cod in cfg.get("nombres", {}) else {}),
             "tipo": m["tipo"],
-            "comun": COMUNES.get(cod, "tutoria" if cod.startswith("A99") else m["tipo"]),
+            "comun": COMUNES.get(cod, "tutoria" if cod.startswith("A99") else comun_por_nombre(m)),
             "horas": {"aragon": ha, "mefp": hm, "loe": hl},
             "curso": {"aragon": ca, "mefp": cm, "loe": cl},
             "nota": m.get("nota"),
@@ -381,6 +393,12 @@ build("hot201", "hot201.json", {
     ],
 })
 
+build("hot203", "hot203.json", {
+    "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+})
+
 build("ssc305", "ssc305.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
@@ -530,4 +548,4 @@ def build_catalogo(ya_cargados):
 
 
 build_catalogo(["SSC201", "IMP304", "SAN201", "IFC201", "IMP202", "IMP203", "FPB108", "FPB128",
-                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201"])
+                "SAN202", "SAN203", "SAN301", "SAN302", "SAN303", "SAN304", "SAN305", "SAN306", "SAN308", "SAN309", "IFC301", "IFC302", "IFC303", "IMP301", "IMP302", "IMP303", "SSC301", "SSC302", "SSC303", "SSC304", "SSC305", "FPB121", "FPB104", "AFD302", "AFD201", "AFD301", "FPB127", "ELE202", "FPB102", "HOT201", "HOT203"])
