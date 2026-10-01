@@ -883,7 +883,27 @@
   }
 
   // ---------- Eventos ----------
+  // ---------- Disposición de la página (preferencia de quien la usa, no del expediente) ----------
+  const CLAVE_VISTA = 'convalida-vista';
+  function aplicarVista(arriba) {
+    document.body.classList.toggle('vista-arriba', arriba);
+    const b = $('#btn-vista');
+    b.textContent = arriba ? 'Pasos 1 y 2 a la izquierda' : 'Pasos 1 y 2 arriba';
+    b.setAttribute('aria-pressed', String(arriba));
+  }
+  function iniciarVista() {
+    let arriba = false;
+    try { arriba = localStorage.getItem(CLAVE_VISTA) === 'arriba'; } catch {}
+    aplicarVista(arriba);
+    $('#btn-vista').addEventListener('click', () => {
+      arriba = !arriba;
+      aplicarVista(arriba);
+      try { localStorage.setItem(CLAVE_VISTA, arriba ? 'arriba' : 'lado'); } catch {}
+    });
+  }
+
   function init() {
+    iniciarVista();
     pintarProgreso();
     pintarCabecera();
     $('#tipo').innerHTML = Object.entries(TIPOS).map(([k, v]) => `<option value="${k}">${v}</option>`).join('');

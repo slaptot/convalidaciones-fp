@@ -100,6 +100,14 @@ a { color: var(--accent); }
 
 /* Pasos: 1 (ciclo de destino) y 2 (lo que aporta) se distinguen por color */
 .entrada { display: grid; gap: 1rem; min-width: 0; }
+
+/* Vista alternativa (botón de la cabecera): pasos 1 y 2 en dos columnas arriba y el resultado debajo, a todo el ancho */
+body.vista-arriba .grid { grid-template-columns: 1fr; }
+body.vista-arriba .entrada { grid-template-columns: 1fr 1fr; align-items: start; }
+@media (max-width: 900px) {
+  body.vista-arriba .entrada { grid-template-columns: 1fr; }
+  #btn-vista { display: none; } /* en pantallas estrechas las dos vistas son la misma */
+}
 .paso { background: var(--panel); border: 1px solid var(--line); border-left: 6px solid var(--paso); border-radius: 10px; padding: 0 1.1rem 1rem; min-width: 0; }
 .paso-1 { --paso: var(--p1); --paso-bg: var(--p1-bg); }
 .paso-2 { --paso: var(--p2); --paso-bg: var(--p2-bg); }
