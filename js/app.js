@@ -426,6 +426,7 @@
     const nv = [...(c.no_verificado || []), ...(N.no_verificado || [])];
     $('#no-verificado').innerHTML = nv.map((x) => `<li>${h(x)}</li>`).join('');
     $('#bloque-nv').hidden = !nv.length;
+    $('#nv-cuenta').textContent = `(${nv.length})`;
 
     pintarInforme(c, amb, filas, avisos, n);
     pintarResolucion(c, amb, filas);
@@ -748,6 +749,20 @@
       </table>`;
   }
 
+  /* Descripción breve de una norma para los documentos impresos: la primera frase de su nota,
+     sin los paréntesis de publicación, recortada. */
+  function resumenNorma(nota) {
+    const ABREV = /\b(arts?|núms?|disps?|págs?|apdos?|ap|ej|p|cap|ss|n)\./gi;
+    let t = (nota || '').replace(/\s*\([^()]*\)/g, '').replace(/\s+/g, ' ').trim();
+    t = t.replace(ABREV, '$1․'); // el punto de una abreviatura no cierra la frase
+    t = t.split(/[.;](?=\s+[A-ZÁÉÍÓÚÑ«¿]|\s*$)/)[0].replace(/․/g, '.').replace(/[\s.,;:]+$/, '');
+    return t.length > 130 ? `${t.slice(0, 127).replace(/\s+\S*$/, '')}…` : t;
+  }
+  const normasImpresas = (c) => (c.ciclo.normas || []).map((x) => {
+    const d = resumenNorma(x.nota);
+    return `<li><a href="${h(x.url)}">${h(x.ref)}</a>${d ? ` — ${h(d)}${d.endsWith('…') ? '' : '.'}` : ''}<span class="url">${h(x.url || '')}</span></li>`;
+  }).join('');
+
   function pintarResolucion(c, amb, filas) {
     // El Anexo VIII ap. 3 exige separar la convalidación del traslado de nota
     const convalidados = filas.filter((f) => f.mejor && f.mejor.estado === 'convalidable');
@@ -792,7 +807,10 @@
       <p class="res-p res-recursos">Base normativa aplicada: Ley Orgánica 3/2022, de 31 de marzo; Real Decreto 659/2023, de 18 de
       julio (artículos 126 a 128); Real Decreto 1085/2020, de 9 de diciembre (artículos 8 y 10); y Decreto 91/2024, de 5 de junio,
       del Gobierno de Aragón (artículos 48, 50 y 51 y Anexo VIII, apartado 6). La expresión de la calificación sigue los apartados
-      15 a 24 de ese Anexo VIII.</p>`;
+      15 a 24 de ese Anexo VIII.</p>
+
+      ${(c.ciclo.normas || []).length ? `<h2 class="res-apartado">Normativa del ciclo</h2>
+      <ul class="res-normas">${normasImpresas(c)}</ul>` : ''}`;
   }
 
   // ---------- Resolución de exención de la formación en empresa ----------

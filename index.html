@@ -25,7 +25,7 @@
   <main class="grid">
     <section class="entrada">
      <div class="paso paso-1">
-      <h2><span class="num">1</span><span>Ciclo en el que se matricula<small>Datos del expediente y ciclo de destino</small></span></h2>
+      <h2><span class="paso-num">1</span><span>Ciclo en el que se matricula<small>Datos del expediente y ciclo de destino</small></span></h2>
       <label>Centro <input id="centro" autocomplete="off" placeholder="IES Ejemplo"></label>
       <details class="datos-centro">
         <summary>Datos para la resolución de dirección</summary>
@@ -66,7 +66,7 @@
      </div>
 
      <div class="paso paso-2">
-      <h2><span class="num">2</span><span>Lo que aporta<small>Títulos, módulos, unidades de competencia, estudios y experiencia</small></span></h2>
+      <h2><span class="paso-num">2</span><span>Lo que aporta<small>Títulos, módulos, unidades de competencia, estudios y experiencia</small></span></h2>
       <form id="form-alta">
         <label>Tipo <select id="tipo" name="tipo"></select></label>
         <div id="campos"></div>
@@ -77,7 +77,7 @@
     </section>
 
     <section class="panel salida paso-3">
-      <h2 class="titulo-paso"><span class="num">3</span><span>Resultado por módulo</span></h2>
+      <h2 class="titulo-paso"><span class="paso-num">3</span><span>Resultado por módulo</span></h2>
       <div id="resumen" class="kpis"></div>
       <div id="avisos"></div>
       <div class="tabla-wrap">
@@ -86,20 +86,22 @@
           <tbody></tbody>
         </table>
       </div>
-      <h3>Herramientas y enlaces</h3>
-      <ul class="fuentes">
+      <h3>Normativa del ciclo</h3>
+      <ul id="fuentes" class="fuentes"></ul>
+      <details class="plegable">
+        <summary>Herramientas y enlaces</summary>
+        <ul class="fuentes">
         <li><a href="https://centrosdocentes.catedu.es/awc/" target="_blank" rel="noopener">Competencias y convalidaciones FP (CATEDU, Gobierno de Aragón)</a> — cruce oficial entre módulos y estándares de competencia</li>
         <li><a href="https://notebook.google.com/notebook/d05c98f6-3547-4227-b3e0-3f7365ab417d" target="_blank" rel="noopener">Cuaderno de legislación de FP (NotebookLM)</a> — normativa recopilada, para consultas</li>
         <li><a href="https://todofp.es/convalidaciones-equivalencias-homologaciones/convalidaciones.html" target="_blank" rel="noopener">Convalidaciones en todofp.es</a> — criterios y modelos del Ministerio</li>
         <li><a href="https://educa.aragon.es/-/formacion-profesional/legislacion-autonomica/convalidaciones" target="_blank" rel="noopener">Convalidaciones en educa.aragon.es</a> — plazos, modelos e instrucciones de Aragón</li>
         <li><a href="https://educa.aragon.es/-/formacion-profesional/legislacion-autonomica/convalidaciones" target="_blank" rel="noopener">Decreto 91/2024 de Aragón</a> — usar el consolidado v5; el Anexo VIII fue modificado por la Resolución de 3/12/2025 (BOA 16/12/2025) y su corrección (BOA 16/01/2026)</li>
-      </ul>
-      <h3>Normativa del ciclo</h3>
-      <ul id="fuentes" class="fuentes"></ul>
-      <div id="bloque-nv">
-        <h3>Pendiente de verificar</h3>
+        </ul>
+      </details>
+      <details id="bloque-nv" class="plegable">
+        <summary>Pendiente de verificar <span id="nv-cuenta"></span></summary>
         <ul id="no-verificado" class="nv"></ul>
-      </div>
+      </details>
       <p class="disclaimer">Herramienta de apoyo. El resultado es orientativo; la resolución corresponde al órgano competente según la normativa vigente.</p>
       <footer class="pie-autor">
         <a href="https://chabacier.es" target="_blank" rel="noopener">
