@@ -1,0 +1,218 @@
+{
+ "ciclo": {
+  "codigo": "CESTMV02",
+  "nombre": "Aeronaves pilotadas de forma remota - drones",
+  "grado": "superior",
+  "familia": "Transporte y Mantenimiento de Vehículos",
+  "tipo_formacion": "Curso de Especialización de Grado Superior (CES)",
+  "duracion_total_horas": 500,
+  "normas": [
+   {
+    "ref": "RD 393/2022, de 24 de mayo",
+    "boe": "BOE-A-2022-9846",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-9846",
+    "nota": "Establece el Curso de especialización de Formación Profesional de Grado Superior en Aeronaves pilotadas de forma remota-Drones y fija los aspectos básicos del currículo (500 h, 30 ECTS; publicado BOE núm. 125, de 25/05/2022, págs. 72395-72416). DIRECTAMENTE MODIFICA RD 1085/2020."
+   },
+   {
+    "ref": "BOE-A-2022-10806 (Errata)",
+    "boe": "BOE-A-2022-10806",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-10806",
+    "nota": "Corrección de erratas del RD 393/2022 (publicado BOE núm. 141, de 15/06/2022, pág. 84639)."
+   },
+   {
+    "ref": "RD 497/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10682",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10682",
+    "nota": "Adapta el curso de especialización a la LO 3/2022 (art. primero, ordinal 45.º); modifica RD 393/2022."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-16889",
+    "nota": "Desarrolla el Sistema de la Formación Profesional regulado por la Ley Orgánica 3/2022; marco común de aplicación."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17274",
+    "nota": "Regulación de convalidaciones de módulos profesionales; DIRECTAMENTE MODIFICADO POR RD 393/2022 para incluir convalidaciones de drones."
+   },
+   {
+    "ref": "LO 3/2022, de 31 de marzo",
+    "boe": "BOE-A-2022-5139",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5139",
+    "nota": "Ley Orgánica por la que se modifica la LOE; requiere adaptación de cursos de especialización."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "5091",
+   "nombre": "Sistemas aéreos no tripulados",
+   "horas": 80,
+   "horas_fuente": "RD 393/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 5.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 80,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5092",
+   "nombre": "Partes y componentes",
+   "horas": 50,
+   "horas_fuente": "RD 393/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 3.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 50,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5093",
+   "nombre": "Electrónica y sistemas",
+   "horas": 90,
+   "horas_fuente": "RD 393/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 5.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 90,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5094",
+   "nombre": "Configuración y control",
+   "horas": 90,
+   "horas_fuente": "RD 393/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 5.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 90,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5095",
+   "nombre": "Mantenimiento y pruebas",
+   "horas": 120,
+   "horas_fuente": "RD 393/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 7.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 120,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5096",
+   "nombre": "Aplicaciones profesionales",
+   "horas": 30,
+   "horas_fuente": "RD 393/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 2.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 30,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5097",
+   "nombre": "Legislación y procedimientos de aplicación",
+   "horas": 40,
+   "horas_fuente": "RD 393/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 3.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 40,
+     "curso": 1
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "titulo_anterior": "Ciclos de grado superior con módulos de electrónica, control y mantenimiento",
+   "nota": "RD 393/2022 puede permitir convalidaciones parciales de módulos previos; ver RD 1085/2020 modificado."
+  }
+ ],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "equivalencias_uc": {},
+ "uc_descripciones": {},
+ "cualificaciones": [],
+ "notas": [
+  "CES (Curso de Especialización de Grado Superior): curso de 500 horas con 30 ECTS establecido por RD 393/2022.",
+  "CARACTERÍSTICA ESPECIAL: RD 393/2022 es uno de los pocos CES que DIRECTAMENTE MODIFICA RD 1085/2020 (convalidaciones de módulos profesionales), según indica la disposición derogatoria del decreto.",
+  "No hay unidades de competencia (UC) asociadas de forma explícita a este CES en el RD 393/2022.",
+  "Modificado por RD 497/2024 (21 de mayo de 2024) para cumplir con la LO 3/2022.",
+  "Corregido por errata publicada en BOE-A-2022-10806 (15 de junio de 2022).",
+  "Denominación y módulos confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=CESTMV02).",
+  "Fuente de datos de Aragón: research/catalogo-aragon.json; incluye 7 módulos específicos con distribución horaria vigente de 500 h.",
+  "Competencia general: pilotar, mantener, reparar y configurar aeronaves pilotadas de forma remota (drones) de pequeño tamaño con fines profesionales, aplicando normativa de aviación civil."
+ ],
+ "no_verificado": [
+  "No se ha consultado exhaustivamente RD 1085/2020 para identificar exactamente qué filas de convalidaciones se modifican por RD 393/2022.",
+  "No se ha consultado la orden curricular regional de Aragón (BOA) de implementación específica de CESTMV02.",
+  "La relación detallada entre módulos de este CES y posibles convalidaciones con ciclos anteriores (TMV grado superior) no ha sido completamente verificada.",
+  "La normativa específica de drones y aviación civil (AESA/EASA) no ha sido verificada en profundidad."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "RD 393/2022 modifica RD 1085/2020, pero sin detalles específicos de qué filas se añaden o derogan en el decreto de convalidaciones.",
+  "filas": []
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": [
+  {
+   "descripcion": "Verificación de estructura: 7 módulos × 500 h = 30 ECTS",
+   "aporta": [],
+   "espera": {},
+   "no_espera": {}
+  },
+  {
+   "descripcion": "Verificación de modificación RD 1085/2020",
+   "aporta": [
+    {
+     "tipo": "norma",
+     "codigo": "RD 393/2022 art. X",
+     "via": "modificación de RD 1085/2020",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "convalidaciones_otros_ciclos": "posibles según RD 1085/2020 modificado"
+   },
+   "no_espera": {}
+  }
+ ]
+}

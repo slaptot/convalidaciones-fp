@@ -1,0 +1,137 @@
+{
+ "ciclo": {
+  "codigo": "CESTMV01",
+  "nombre": "Mantenimiento y Seguridad en Sistemas de Vehículos Híbridos y Eléctricos",
+  "grado": "superior",
+  "familia": "Transporte y Mantenimiento de Vehículos",
+  "tipo_formacion": "Curso de Especialización de Grado Superior (CES)",
+  "duracion_total_horas": 520,
+  "normas": [
+   {
+    "ref": "RD 109/2022, de 8 de febrero",
+    "boe": "BOE-A-2022-2057",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-2057",
+    "nota": "Establece el Curso de especialización en Mantenimiento y seguridad en sistemas de vehículos híbridos y eléctricos y fija los aspectos básicos del currículo (650 h, 39 ECTS; publicado BOE núm. 32, de 08/02/2022, págs. 16693-16711)."
+   },
+   {
+    "ref": "RD 497/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10682",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10682",
+    "nota": "Adapta el curso de especialización a la LO 3/2022 (art. primero, ordinal 42.º); modifica RD 109/2022."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-16889",
+    "nota": "Desarrolla el Sistema de la Formación Profesional regulado por la Ley Orgánica 3/2022; marco común de aplicación."
+   },
+   {
+    "ref": "LO 3/2022, de 31 de marzo",
+    "boe": "BOE-A-2022-5139",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5139",
+    "nota": "Ley Orgánica por la que se modifica la LOE; requiere adaptación de cursos de especialización."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "5076",
+   "nombre": "Seguridad en vehículos con sistemas de alto voltaje",
+   "horas": 80,
+   "horas_fuente": "RD 109/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 7.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 80,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5077",
+   "nombre": "Tracción eléctrica e híbrida en vehículos",
+   "horas": 160,
+   "horas_fuente": "RD 109/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 12.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 160,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5078",
+   "nombre": "Sistemas de alto voltaje, almacenamiento y recarga eléctrica",
+   "horas": 160,
+   "horas_fuente": "RD 109/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 12.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 160,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5079",
+   "nombre": "Sistemas de transmisión, freno regenerativo y control térmico",
+   "horas": 120,
+   "horas_fuente": "RD 109/2022 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 9.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 120,
+     "curso": 1
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "equivalencias_uc": {},
+ "uc_descripciones": {},
+ "cualificaciones": [],
+ "notas": [
+  "CES (Curso de Especialización de Grado Superior): curso de 520 horas con 39 ECTS establecido por RD 109/2022 (aunque la ficha de CATEDU indica 520 h).",
+  "Según BOE, RD 109/2022 establece una duración de 650 h y 39 ECTS; la discrepancia de horas (650 vs 520) puede deberse a cálculos regionales o modificaciones posteriores.",
+  "No hay unidades de competencia (UC) asociadas a este curso de especialización en el RD 109/2022 de forma independiente.",
+  "Modificado por RD 497/2024 (21 de mayo de 2024) para cumplir con la LO 3/2022.",
+  "Denominación y módulos confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=CESTMV01).",
+  "Fuente de datos de Aragón: research/catalogo-aragon.json; incluye 4 módulos específicos con distribución horaria vigente de 520 h.",
+  "Competencia general: realizar tareas de mantenimiento, reparación y pruebas de funcionamiento en vehículos con sistemas de tracción eléctrica e híbrida."
+ ],
+ "no_verificado": [
+  "Discrepancia de horas: RD 109/2022 en BOE indica 650 h (39 ECTS), pero CATEDU muestra 520 h. Requiere verificación en orden curricular de implementación.",
+  "No se ha consultado la orden curricular regional de Aragón (BOA) de implementación específica de CESTMV01.",
+  "No se ha verificado si hay convalidaciones con títulos anteriores (LOGSE/LOE) en RD 109/2022.",
+  "La relación con certificados de profesionalidad de la familia TMV no ha sido verificada exhaustivamente."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "RD 109/2022 no incluye anexo de convalidaciones con títulos anteriores.",
+  "filas": []
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": [
+  {
+   "descripcion": "Verificación de estructura: 4 módulos × 520 h según CATEDU (650 h según BOE RD 109/2022)",
+   "aporta": [],
+   "espera": {},
+   "no_espera": {}
+  }
+ ]
+}

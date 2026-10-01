@@ -1,0 +1,174 @@
+{
+ "ciclo": {
+  "codigo": "CESFME01",
+  "nombre": "Fabricación aditiva",
+  "grado": "superior",
+  "familia": "Fabricación Mecánica",
+  "tipo_formacion": "Curso de Especialización de Grado Superior (CES)",
+  "duracion_total_horas": 600,
+  "normas": [
+   {
+    "ref": "RD 280/2021, de 20 de abril",
+    "boe": "BOE-A-2021-8974",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-8974",
+    "nota": "Establece el Curso de especialización en Fabricación aditiva y fija los aspectos básicos del currículo (600 h, 36 ECTS; publicado BOE núm. 98, de 23/04/2021, págs. 48838-48857)."
+   },
+   {
+    "ref": "RD 206/2022, de 22 de marzo",
+    "boe": "BOE-A-2022-5596",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5596",
+    "nota": "Modifica RD 280/2021 en el marco del Plan de Recuperación, Transformación y Resiliencia (dentro de la implantación del curso de IoT); publicado BOE núm. 70, de 23/03/2022."
+   },
+   {
+    "ref": "RD 497/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10682",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10682",
+    "nota": "Adapta el curso de especialización en Fabricación aditiva a la LO 3/2022 (art. primero, ordinal 13.º)."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-16889",
+    "nota": "Desarrolla el Sistema de la Formación Profesional regulado por la Ley Orgánica 3/2022; marco común de aplicación."
+   },
+   {
+    "ref": "LO 3/2022, de 31 de marzo",
+    "boe": "BOE-A-2022-5139",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5139",
+    "nota": "Ley Orgánica por la que se modifica la LOE; requiere adaptación de cursos de especialización."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "5065",
+   "nombre": "Tecnologías de fabricación aditiva",
+   "horas": 82,
+   "horas_fuente": "RD 280/2021 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 5.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 82,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5066",
+   "nombre": "Diseño de estructuras aligeradas y optimización topológica en fabricación",
+   "horas": 82,
+   "horas_fuente": "RD 280/2021 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 5.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 82,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5067",
+   "nombre": "Modelado, laminado e impresión 3D",
+   "horas": 200,
+   "horas_fuente": "RD 280/2021 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 11.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5068",
+   "nombre": "Escaneado y reparación de mallas 3D",
+   "horas": 64,
+   "horas_fuente": "RD 280/2021 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 4.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 64,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5069",
+   "nombre": "Post procesado",
+   "horas": 72,
+   "horas_fuente": "RD 280/2021 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 5.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 72,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5070",
+   "nombre": "Manejo, reparación y costos de la fabricación aditiva",
+   "horas": 100,
+   "horas_fuente": "RD 280/2021 anexo (enseñanzas mínimas)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 6.0,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "equivalencias_uc": {},
+ "uc_descripciones": {},
+ "cualificaciones": [],
+ "notas": [
+  "CES (Curso de Especialización de Grado Superior): curso de 600 horas con 36 ECTS establecido por RD 280/2021.",
+  "No hay unidades de competencia (UC) asociadas a este curso de especialización en el RD 280/2021.",
+  "Modificado por RD 206/2022 (22 de marzo de 2022) dentro del Plan de Recuperación, Transformación y Resiliencia; cambios menores en estructura y distribución horaria.",
+  "Posteriormente adaptado por RD 497/2024 (21 de mayo de 2024) para cumplir LO 3/2022, aunque impacto mínimo en CES.",
+  "Denominación y módulos confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=CESFME01).",
+  "Fuente de datos de Aragón: research/catalogo-aragon.json; incluye 6 módulos específicos con distribución horaria vigente.",
+  "Competencia general: desarrollar y gestionar proyectos de fabricación aditiva mediante impresión 3D, supervisar o ejecutar montaje, mantenimiento y puesta en funcionamiento."
+ ],
+ "no_verificado": [
+  "No se ha consultado la orden curricular regional de Aragón (BOA) de implementación específica de CESFME01.",
+  "No se ha verificado si RD 280/2021 tiene anexo de convalidaciones con títulos anteriores (LOGSE/LOE); parece no existir tal anexo en CES.",
+  "La modificación del RD 206/2022 por el Plan de Recuperación no ha sido completamente verificada en profundidad."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "RD 280/2021 no incluye anexo de convalidaciones con títulos anteriores.",
+  "filas": []
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": [
+  {
+   "descripcion": "Verificación de estructura: 6 módulos × 600 h = 36 ECTS",
+   "aporta": [],
+   "espera": {},
+   "no_espera": {}
+  }
+ ]
+}
