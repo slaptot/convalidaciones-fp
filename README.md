@@ -82,6 +82,14 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Automoción | TMV301 | Superior | LO 3/2022 |
 | Electromecánica de Maquinaria | TMV204 | Medio | LO 3/2022 |
 | Mantenimiento Aeromecánico de Aviones con Motor de Turbina | TMV302 | Superior | LO 3/2022 |
+| Gestión Administrativa | ADG201 | Medio | LO 3/2022 |
+| Administración y Finanzas | ADG301 | Superior | LO 3/2022 |
+| Asistencia a la Dirección | ADG302 | Superior | LO 3/2022 |
+| Comercio Internacional | COM301 | Superior | LO 3/2022 |
+| Gestión de Ventas y Espacios Comerciales | COM302 | Superior | LO 3/2022 |
+| Marketing y Publicidad | COM304 | Superior | LO 3/2022 |
+| Actividades Comerciales | COM201 | Medio | LO 3/2022 |
+| Transporte y Logística | COM303 | Superior | LO 3/2022 |
 
 Además, el **catálogo completo de Aragón** (150 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas. De ellos, **139 tienen ya la correspondencia módulo ↔ estándar de competencia** descargada de esa misma herramienta (2.930 filas), así que convalidan por unidades de competencia acreditadas; lo que les falta es el anexo de convalidaciones con títulos anteriores, que hay que leer del BOE. La web lo avisa en pantalla, porque esas correspondencias no están contrastadas con el anexo V de cada real decreto.
 

@@ -1,0 +1,1454 @@
+{
+ "ciclo": {
+  "codigo": "ADG302",
+  "nombre": "Técnico Superior en Asistencia a la Dirección",
+  "grado": "superior",
+  "familia": "Administración y Gestión",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 1582/2011, de 4 de noviembre",
+    "boe": "BOE-A-2011-19531",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19531",
+    "nota": "Establece el título de Técnico Superior en Asistencia a la Dirección (BOE núm. 301, de 15/12/2011, págs. 136519-136586). 2.000 h; mínimas 1.100 h. No tiene texto consolidado en el BOE. Art. 1.2: sustituye al LOGSE Técnico Superior en Secretariado (RD 1658/1994), que deroga. No tiene módulo de EIE. Anexo IV (LOGSE→LOE) derogado por el RD 1085/2020. El RD 500/2024 (art. tercero.Diecisiete) da nueva redacción a su art. 6 y SUSTITUYE los anexos V A) y V B). DA 3.ª: el título LOGSE y seis títulos de Técnico Especialista (rama Administrativa y Comercial) tienen los mismos efectos."
+   },
+   {
+    "ref": "RD 295/2004, de 20 de febrero",
+    "boe": "BOE-A-2004-4219",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4219",
+    "nota": "Establece ADG082_3 «Gestión contable y de auditoría» y ADG084_3 «Administración de recursos humanos». Anexos no leídos (horas de formación asociada sin comprobar)."
+   },
+   {
+    "ref": "RD 1087/2005, de 16 de septiembre",
+    "boe": "BOE-A-2005-16420",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-16420",
+    "nota": "Establece ADG157_3 «Gestión financiera». Anexo no leído."
+   },
+   {
+    "ref": "RD 107/2008, de 1 de febrero",
+    "boe": "BOE-A-2008-3100",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-3100",
+    "nota": "Establece ADG309_3 «Asistencia a la dirección» y ADG310_3 «Asistencia documental y de gestión en despachos y oficinas» y actualiza ADG082_3, ADG084_3 y ADG157_3. Anexos no leídos."
+   },
+   {
+    "ref": "RD 109/2008, de 1 de febrero",
+    "boe": "BOE-A-2008-3175",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-3175",
+    "nota": "Establece COM316_3, que el art. 6.e) del RD 1582/2011 (redacción del RD 500/2024) cita como «Gestión financiera COM316_3» (sic) para UC9997_3. Anexo no leído."
+   },
+   {
+    "ref": "RD 1658/1994, de 22 de julio",
+    "boe": "BOE-A-1994-21320",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-21320",
+    "nota": "Título LOGSE de Técnico Superior en Secretariado, sustituido por este título. Solo se ha leído su lista de módulos (apartado 3)."
+   },
+   {
+    "ref": "RD 1659/1994, de 22 de julio",
+    "boe": "BOE-A-1994-21321",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-21321",
+    "nota": "Título LOGSE de Técnico Superior en Administración y Finanzas: dos filas hacia este título en el anexo II del RD 1085/2020. Solo se ha leído su lista de módulos."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Su disp. derogatoria única.2 deroga el anexo IV (LOGSE→LOE) del real decreto del título. Filas vigentes: anexo II (tabla «Administración y Gestión», grado superior) y anexo III (tablas «Administración y Gestión», «Comercio y Marketing» y «Hostelería y Turismo»); texto consolidado, anexo III actualizado el 28/05/2024. DA 5.ª: las tablas se aplican al módulo en cualquier ciclo que lo incluya; DA 6.ª: FOL → 1709 y EIE → 1710."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP. Currículo básico de 1709 y 1710 (anexo V, 50 h), 1665 (anexo VII, 30 h), 1708 (anexo VIII, 30 h) y 0179 Inglés Profesional GS (anexo X, 50 h). Art. 126.4: no se convalidan la formación en empresa ni el proyecto intermodular."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra las UC como Estándares de Competencia Profesional (ECP). Anexo I: catálogo UC→ECP con el mismo número; anexos II-a y II-b: equivalencias de las UC suprimidas (ver «equivalencias_uc»)."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adapta los títulos de grado superior a la LO 3/2022. Este título está en el art. primero.Dos.c) (ciclos con 0179 Inglés y sin EIE), ordinal 5.º. Art. cuarto.Tres y séptimo.Tres: suprime FOL y FCT, renombra el Proyecto a «Proyecto intermodular» y 0179 Inglés a «0179 Inglés Profesional (GS)» y añade 1709, 1710, 1665, 1708 y el optativo; art. sexto.Uno: nuevo art. 15."
+   },
+   {
+    "ref": "Orden ECD/318/2012, de 15 de febrero",
+    "boe": "BOE-A-2012-2622",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2012-2622",
+    "nota": "Currículo LOE del ciclo en el ámbito del Ministerio. Derogada por la Orden EFD/659/2024 (disp. derogatoria única, letra b).2.º). No abierta."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito del Ministerio para grado superior (BOE núm. 158, de 01/07/2024). Este ciclo está en el art. 1.2.b).2.º y en el anexo IX (distribución horaria). Incluye 1712 Inglés Profesional II (GS), 60 h (art. 11.3 y anexo II)."
+   },
+   {
+    "ref": "Orden de 15 de noviembre de 2013, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=765058803636",
+    "nota": "Currículo LOE del ciclo en Aragón (BOA núm. 239, de 04/12/2013, csv BOA20131204001), derogado por la Orden ECD/843/2024 (disp. derogatoria única, letra b).2). Anexo I: duración de cada módulo (0179 Inglés, 128 h; 0180, 126 h); no trae distribución por cursos."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+    "nota": "Currículo vigente de Aragón para grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004). Este ciclo está en el art. 1.2.b).2.º, art. 5.3.d) y anexo IV (código ADG302): distribución horaria diurna (30 sesiones en 1.º y en 2.º). DA 1.ª: un módulo LOE con el mismo código se reconoce automáticamente."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025. Renombra los optativos comunes de la Orden ECD/843/2024: A170→AOP1004 (Comunicación profesional en Inglés GS), A171→AOP1002 (Francés), A172→AOP1003 (Ofimática avanzada) y A173→AOP1001 (Inglés GM). No toca la tabla horaria de este ciclo."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0647",
+   "nombre": "Gestión de la documentación jurídica y empresarial",
+   "horas": 50,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013, csv BOA20131204001), anexo I (duración del módulo). La orden no trae tabla de distribución horaria: el curso se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º)"
+    }
+   }
+  },
+  {
+   "codigo": "0648",
+   "nombre": "Recursos humanos y responsabilidad social corporativa",
+   "horas": 50,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 64,
+     "curso": 1,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013, csv BOA20131204001), anexo I (duración del módulo). La orden no trae tabla de distribución horaria: el curso se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º)"
+    }
+   }
+  },
+  {
+   "codigo": "0649",
+   "nombre": "Ofimática y proceso de la información",
+   "horas": 115,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 224,
+     "curso": 1,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013, csv BOA20131204001), anexo I (duración del módulo). La orden no trae tabla de distribución horaria: el curso se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º)"
+    }
+   }
+  },
+  {
+   "codigo": "0650",
+   "nombre": "Proceso integral de la actividad comercial",
+   "horas": 100,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": 1,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013, csv BOA20131204001), anexo I (duración del módulo). La orden no trae tabla de distribución horaria: el curso se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º)"
+    }
+   }
+  },
+  {
+   "codigo": "0651",
+   "nombre": "Comunicación y atención al cliente",
+   "horas": 115,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 160,
+     "curso": 1,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013, csv BOA20131204001), anexo I (duración del módulo). La orden no trae tabla de distribución horaria: el curso se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º)"
+    }
+   }
+  },
+  {
+   "codigo": "0180",
+   "nombre": "Segunda lengua extranjera",
+   "horas": 70,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "nota": "El RD 500/2024 no lo modifica. Aragón: puede impartirse en francés o en alemán (Orden ECD/843/2024, art. 8). Discrepancia de curso: 2.º en Aragón y 1.º en el MEFP.",
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 126,
+     "curso": 2,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013, csv BOA20131204001), anexo I (duración del módulo). La orden no trae tabla de distribución horaria: el curso se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º)"
+    }
+   }
+  },
+  {
+   "codigo": "0661",
+   "nombre": "Protocolo empresarial",
+   "horas": 80,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 230,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 168,
+     "curso": 2,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013, csv BOA20131204001), anexo I (duración del módulo). La orden no trae tabla de distribución horaria: el curso se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º)"
+    }
+   }
+  },
+  {
+   "codigo": "0662",
+   "nombre": "Organización de eventos empresariales",
+   "horas": 90,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 260,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 189,
+     "curso": 2,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013, csv BOA20131204001), anexo I (duración del módulo). La orden no trae tabla de distribución horaria: el curso se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º)"
+    }
+   }
+  },
+  {
+   "codigo": "0663",
+   "nombre": "Gestión avanzada de la información",
+   "horas": 65,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 200,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 147,
+     "curso": 2,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013, csv BOA20131204001), anexo I (duración del módulo). La orden no trae tabla de distribución horaria: el curso se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º)"
+    }
+   }
+  },
+  {
+   "codigo": "0664",
+   "nombre": "Proyecto intermodular de asistencia a la dirección",
+   "horas": 25,
+   "horas_fuente": "RD 1582/2011 anexo I (25 h como «Proyecto de asistencia a la dirección»; renombrado por el RD 500/2024 art. cuarto.Tres.c).2.º)",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 40,
+     "curso": 2,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013), anexo I (duración del módulo); 2.º por ser el proyecto"
+    }
+   }
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo X (currículo básico de Inglés Profesional GS, 50 h); en el real decreto original era «0179 Inglés» con 70 h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "nota": "Módulo RENOMBRADO (no nuevo): 0179 Inglés → 0179 Inglés Profesional (GS) por el RD 500/2024 (art. cuarto.Tres.c).3.º y art. séptimo.Tres.b)), con el currículo básico del anexo X del RD 659/2023.",
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013), anexo I: «0179 Inglés», 128 h; curso deducido (múltiplo de 32 → 1.º)"
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 500/2024 art. cuarto.Tres.e) (nuevo art. 10.3 del real decreto del título) y RD 659/2023 anexo IV",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1712",
+   "nombre": "Inglés Profesional II (GS)",
+   "horas": null,
+   "horas_fuente": "Orden EFD/659/2024 anexo II (60 h, 4 ECTS); NO figura en el RD 1582/2011 ni en el RD 500/2024",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "nota": "Módulo solo del ámbito MEFP (art. 11.3 y anexo IX de la Orden EFD/659/2024); Aragón no lo incluye en el anexo IV de la Orden ECD/843/2024.",
+   "horas_otras": {
+    "mefp": {
+     "horas": 60,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0665",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013, csv BOA20131204001), anexo I (duración del módulo). La orden no trae tabla de distribución horaria: el curso se deduce de que la duración es múltiplo de 32 (1.º) o de 21 (2.º)"
+    }
+   }
+  },
+  {
+   "codigo": "0667",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 1582/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 370,
+     "curso": 2,
+     "fuente": "Orden de 15 de noviembre de 2013 (BOA núm. 239, de 04/12/2013), anexo I (duración del módulo); 2.º por ser la FCT"
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Secretariado (LOGSE, RD 1658/1994, de 22 de julio) (Administración)",
+   "origen_modulo": "Elementos de derecho",
+   "destino_modulos": [
+    "0647"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Administración y Gestión», grado superior, bloque «Técnico Superior en Secretariado (RD 1658/1994) → Técnico Superior en Asistencia a la Dirección (RD 1582/2011)», fila «Elementos de derecho → 0647. Gestión de la documentación jurídica y empresarial»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Secretariado (LOGSE, RD 1658/1994, de 22 de julio) (Administración)",
+   "origen_modulo": "Gestión de datos + Elaboración y presentación de documentos e información",
+   "destino_modulos": [
+    "0649"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Administración y Gestión», grado superior, bloque «Técnico Superior en Secretariado (RD 1658/1994) → Técnico Superior en Asistencia a la Dirección (RD 1582/2011)», fila «Gestión de datos. / Elaboración y presentación de documentos e información. → 0649. Ofimática y proceso de la información». La celda de origen tiene dos módulos: hacen falta los dos."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Secretariado (LOGSE, RD 1658/1994, de 22 de julio) (Administración)",
+   "origen_modulo": "Comunicación y relaciones profesionales",
+   "destino_modulos": [
+    "0651"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Administración y Gestión», grado superior, bloque «Técnico Superior en Secretariado (RD 1658/1994) → Técnico Superior en Asistencia a la Dirección (RD 1582/2011)», fila «Comunicación y relaciones profesionales → 0651. Comunicación y atención al cliente»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Secretariado (LOGSE, RD 1658/1994, de 22 de julio) (Administración)",
+   "origen_modulo": "Organización del servicio y trabajos de secretariado",
+   "destino_modulos": [
+    "0662"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Administración y Gestión», grado superior, bloque «Técnico Superior en Secretariado (RD 1658/1994) → Técnico Superior en Asistencia a la Dirección (RD 1582/2011)», fila «Organización del servicio y trabajos de secretariado → 0662. Organización de eventos empresariales»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Secretariado (LOGSE, RD 1658/1994, de 22 de julio) (Administración)",
+   "origen_modulo": "Lengua extranjera (inglés)",
+   "destino_modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla general de inglés (LOGSE→LOE), grado superior, fila «Lengua Extranjera (Inglés) → 0179. Inglés Profesional». Fila general, particularizada al módulo de Secretariado que el anexo IV original del RD 1582/2011 llevaba a 0179."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Secretariado (LOGSE, RD 1658/1994, de 22 de julio) (Administración)",
+   "origen_modulo": "Segunda lengua extranjera",
+   "destino_modulos": [
+    "0180"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Segunda Lengua Extranjera», grado superior: «Segunda Lengua Extranjera. Cuando la lengua extranjera cursada y superada sea la misma que se desea convalidar → 180». Fila general, particularizada al módulo de Secretariado (el anexo IV original del RD 1582/2011 la traía)."
+  },
+  {
+   "origen_titulo": "Ciclos formativos LOGSE de grado superior con Segunda Lengua Extranjera",
+   "origen_modulo": "Segunda Lengua Extranjera (cuando la lengua cursada y superada sea la misma que se desea convalidar)",
+   "destino_modulos": [
+    "0180"
+   ],
+   "fuente": "RD 1085/2020 anexo II, tabla «Convalidaciones de los módulos profesionales de Segunda Lengua Extranjera», grado superior. En Aragón el 0180 se imparte en francés o alemán (Orden ECD/843/2024, art. 8)."
+  },
+  {
+   "origen_titulo": "Acreditación oficial de idioma (segunda lengua extranjera)",
+   "origen_modulo": "Certificado del Ciclo Elemental o de Aptitud de la EOI (RD 967/1988) / Certificado de Nivel Intermedio (B1) o superior de la EOI (RD 1629/2006) / Título de Grado, o equivalente, en Filología o en Traducción e Interpretación, de la misma lengua que se desea convalidar",
+   "destino_modulos": [
+    "0180"
+   ],
+   "fuente": "RD 1085/2020 anexo III, tabla «Para todos los ciclos formativos con segunda lengua extranjera» (tres filas distintas: cualquiera basta)."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Administración y Finanzas (LOGSE, RD 1659/1994, de 22 de julio) (Administración)",
+   "origen_modulo": "Administración pública",
+   "destino_modulos": [
+    "0647"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Administración y Gestión», grado superior, bloque «Técnico Superior en Administración y Finanzas (RD 1659/1994) → Técnico Superior en Asistencia a la Dirección (RD 1582/2011)», fila «Administración pública → 0647. Gestión de la documentación jurídica y empresarial»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Administración y Finanzas (LOGSE, RD 1659/1994, de 22 de julio) (Administración)",
+   "origen_modulo": "Aplicaciones informáticas y operatoria de teclados",
+   "destino_modulos": [
+    "0649"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Administración y Gestión», grado superior, bloque «Técnico Superior en Administración y Finanzas (RD 1659/1994) → Técnico Superior en Asistencia a la Dirección (RD 1582/2011)», fila «Aplicaciones informáticas y operatorias de teclado. → 0649. Ofimática y proceso de la información» (sic: el módulo del RD 1659/1994 es «Aplicaciones informáticas y operatoria de teclados»)."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Documentación Sanitaria (LOGSE, RD 543/1995, de 7 de abril) (Sanidad)",
+   "origen_modulo": "Aplicaciones informáticas generales + Aplicación informática y operatoria de teclados",
+   "destino_modulos": [
+    "0649"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo II, tabla «Sanidad», grado superior, bloque «Técnico Superior en Documentación Sanitaria (RD 543/1995) → Técnico Superior en Documentación y Administración Sanitaria (RD 768/2014)», fila «Aplicaciones informáticas generales. / Aplicación informática y operatoria de teclados. → 0649». No es una fila del bloque de este título: se aplica por la DA 5.ª (0649 es el mismo módulo); la celda mezcla un módulo de Documentación Sanitaria con otro de Administración y Finanzas y exige los dos."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Agencias de Viajes y Gestión de Eventos (LOE, RD 1254/2009, de 24 de julio) (Hostelería y Turismo)",
+   "origen_modulo": "0172. Protocolo y relaciones públicas",
+   "destino_modulos": [
+    "0661"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Administración y Gestión», grado superior, bloque «Técnico Superior en Agencias de Viajes y Gestión de Eventos (RD 1254/2009) (Hostelería y Turismo) → Técnico Superior en Asistencia a la Dirección (RD 1582/2011)», fila «0172. Protocolo y relaciones públicas → 0661. Protocolo empresarial»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Gestión de Alojamientos Turísticos (LOE, RD 1686/2007, de 14 de diciembre) (Hostelería y Turismo)",
+   "origen_modulo": "0172. Protocolo y relaciones públicas",
+   "destino_modulos": [
+    "0661"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Administración y Gestión», grado superior, bloque «Técnico Superior en Gestión de Alojamientos Turísticos (RD 1686/2007) (Hostelería y Turismo) → Técnico Superior en Asistencia a la Dirección (RD 1582/2011)», fila «0172. Protocolo y relaciones públicas → 0661. Protocolo empresarial»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Guía, Información y Asistencias Turísticas (LOE, RD 1255/2009, de 24 de julio) (Hostelería y Turismo)",
+   "origen_modulo": "0172. Protocolo y relaciones públicas",
+   "destino_modulos": [
+    "0661"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Administración y Gestión», grado superior, bloque «Técnico Superior en Guía, Información y Asistencias Turísticas (RD 1255/2009) (Hostelería y Turismo) → Técnico Superior en Asistencia a la Dirección (RD 1582/2011)», fila «0172. Protocolo y relaciones públicas → 0661. Protocolo empresarial»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asistencia a la Dirección (LOE, RD 1582/2011, de 4 de noviembre)",
+   "origen_modulo": "0661. Protocolo empresarial",
+   "destino_modulos": [
+    "0172"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Hostelería y Turismo», grado superior, bloque «Técnico Superior en Asistencia a la Dirección (RD 1582/2011) (Administración y Gestión) → Técnico Superior en Agencias de Viajes y Gestión de Eventos (RD 1254/2009)», fila «0661. Protocolo empresarial → 0172. Protocolo y relaciones públicas». Sentido inverso: este título APORTA el módulo.",
+   "destino_titulo": "Técnico Superior en Agencias de Viajes y Gestión de Eventos (LOE, RD 1254/2009, de 24 de julio) (Hostelería y Turismo)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asistencia a la Dirección (LOE, RD 1582/2011, de 4 de noviembre)",
+   "origen_modulo": "0661. Protocolo empresarial",
+   "destino_modulos": [
+    "0172"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Hostelería y Turismo», grado superior, bloque «Técnico Superior en Asistencia a la Dirección (RD 1582/2011) (Administración y Gestión) → Técnico Superior en Gestión de Alojamientos Turísticos (RD 1686/2007)», fila «0661. Protocolo empresarial → 0172. Protocolo y relaciones públicas». Sentido inverso: este título APORTA el módulo.",
+   "destino_titulo": "Técnico Superior en Gestión de Alojamientos Turísticos (LOE, RD 1686/2007, de 14 de diciembre) (Hostelería y Turismo)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asistencia a la Dirección (LOE, RD 1582/2011, de 4 de noviembre)",
+   "origen_modulo": "0661. Protocolo empresarial",
+   "destino_modulos": [
+    "0172"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Hostelería y Turismo», grado superior, bloque «Técnico Superior en Asistencia a la Dirección (RD 1582/2011) (Administración y Gestión) → Técnico Superior en Guía, Información y Asistencias Turísticas (RD 1255/2009)», fila «0661. Protocolo empresarial → 0172. Protocolo y relaciones públicas». Sentido inverso: este título APORTA el módulo.",
+   "destino_titulo": "Técnico Superior en Guía, Información y Asistencias Turísticas (LOE, RD 1255/2009, de 24 de julio) (Hostelería y Turismo)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asistencia a la Dirección (LOE, RD 1582/2011, de 4 de noviembre)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0623"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Comercio y Marketing», grado superior, bloque «Técnico Superior en Asistencia a la Dirección (RD 1582/2011) (Administración y Gestión) → Técnico Superior en Comercio Internacional (RD 1574/2011)», fila «Ciclo Completo → 0623. Gestión económica y financiera de la empresa». Sentido inverso: este título APORTA la formación (exige el título completo).",
+   "destino_titulo": "Técnico Superior en Comercio Internacional (LOE, RD 1574/2011, de 4 de noviembre) (Comercio y Marketing)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asistencia a la Dirección (LOE, RD 1582/2011, de 4 de noviembre)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0623"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Comercio y Marketing», grado superior, bloque «Técnico Superior en Asistencia a la Dirección (RD 1582/2011) (Administración y Gestión) → Técnico Superior en Gestión de Ventas y Espacios Comerciales (RD 1573/2011)», fila «Ciclo Completo → 0623. Gestión económica y financiera de la empresa». Sentido inverso: este título APORTA la formación (exige el título completo).",
+   "destino_titulo": "Técnico Superior en Gestión de Ventas y Espacios Comerciales (LOE, RD 1573/2011, de 4 de noviembre) (Comercio y Marketing)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asistencia a la Dirección (LOE, RD 1582/2011, de 4 de noviembre)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0623"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Comercio y Marketing», grado superior, bloque «Técnico Superior en Asistencia a la Dirección (RD 1582/2011) (Administración y Gestión) → Técnico Superior en Marketing y Publicidad (RD 1571/2011)», fila «Ciclo Completo → 0623. Gestión económica y financiera de la empresa». Sentido inverso: este título APORTA la formación (exige el título completo).",
+   "destino_titulo": "Técnico Superior en Marketing y Publicidad (LOE, RD 1571/2011, de 4 de noviembre) (Comercio y Marketing)"
+  },
+  {
+   "origen_titulo": "Técnico Superior en Asistencia a la Dirección (LOE, RD 1582/2011, de 4 de noviembre)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0623"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Comercio y Marketing», grado superior, bloque «Técnico Superior en Asistencia a la Dirección (RD 1582/2011) (Administración y Gestión) → Técnico Superior en Transporte y Logística (RD 1572/2011)», fila «Ciclo Completo → 0623. Gestión económica y financiera de la empresa». Sentido inverso: este título APORTA la formación (exige el título completo).",
+   "destino_titulo": "Técnico Superior en Transporte y Logística (LOE, RD 1572/2011, de 4 de noviembre) (Comercio y Marketing)"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0988_3"
+   ],
+   "modulos": [
+    "0647"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0238_3",
+    "UC0980_2"
+   ],
+   "modulos": [
+    "0648"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE. La celda de origen contiene varias UC: hacen falta todas (art. 15.3).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0987_3",
+    "UC0986_3",
+    "UC0233_2"
+   ],
+   "modulos": [
+    "0649"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE. La celda de origen contiene varias UC: hacen falta todas (art. 15.3).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0500_3",
+    "UC0979_2"
+   ],
+   "modulos": [
+    "0650"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE. La celda de origen contiene varias UC: hacen falta todas (art. 15.3).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0982_3"
+   ],
+   "modulos": [
+    "0651"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0983_3"
+   ],
+   "modulos": [
+    "0662"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC9999_3"
+   ],
+   "modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE. La tabla de 2011 pedía UC0984_3, que equivale a ECP9999_3 (RD 532/2025 anexo II-a).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC9997_3"
+   ],
+   "modulos": [
+    "0180"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE. La tabla de 2011 pedía UC0985_2.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0988_3"
+   ],
+   "modulos": [
+    "0647"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0238_3",
+    "UC0980_2"
+   ],
+   "modulos": [
+    "0648"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0987_3",
+    "UC0986_3",
+    "UC0233_2"
+   ],
+   "modulos": [
+    "0649"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0500_3",
+    "UC0979_2"
+   ],
+   "modulos": [
+    "0650"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0982_3"
+   ],
+   "modulos": [
+    "0651"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0983_3"
+   ],
+   "modulos": [
+    "0662"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0984_3"
+   ],
+   "modulos": [
+    "0179"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción original de 2011, SUSTITUIDA por el RD 500/2024. Llevaba la nota (*): «Podrá convalidarse de acuerdo con lo dispuesto en el artículo 66.4 de la LO 2/2006».",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0985_2"
+   ],
+   "modulos": [
+    "0180"
+   ],
+   "fuente": "RD 1582/2011 anexo V A), redacción original de 2011, SUSTITUIDA por el RD 500/2024. Llevaba la misma nota (*).",
+   "vigente": false
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0647"
+   ],
+   "uc": [
+    "UC0988_3"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0648"
+   ],
+   "uc": [
+    "UC0238_3",
+    "UC0980_2"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0649"
+   ],
+   "uc": [
+    "UC0987_3",
+    "UC0986_3",
+    "UC0233_2"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0650"
+   ],
+   "uc": [
+    "UC0500_3",
+    "UC0979_2"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0651"
+   ],
+   "uc": [
+    "UC0982_3"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0662"
+   ],
+   "uc": [
+    "UC0983_3"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0179"
+   ],
+   "uc": [
+    "UC9999_3"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0180"
+   ],
+   "uc": [
+    "UC9997_3"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción del RD 500/2024 (art. tercero.Diecisiete), VIGENTE.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0647"
+   ],
+   "uc": [
+    "UC0988_3"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0648"
+   ],
+   "uc": [
+    "UC0238_3",
+    "UC0980_2"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0649"
+   ],
+   "uc": [
+    "UC0987_3",
+    "UC0986_3",
+    "UC0233_2"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0650"
+   ],
+   "uc": [
+    "UC0500_3",
+    "UC0979_2"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0651"
+   ],
+   "uc": [
+    "UC0982_3"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0662"
+   ],
+   "uc": [
+    "UC0983_3"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0179"
+   ],
+   "uc": [
+    "UC0984_3"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0180"
+   ],
+   "uc": [
+    "UC0985_2"
+   ],
+   "fuente": "RD 1582/2011 anexo V B), redacción original de 2011, SUSTITUIDA por el RD 500/2024.",
+   "vigente": false
+  }
+ ],
+ "equivalencias_uc": {
+  "UC0984_3": [
+   "ECP9999_3"
+  ],
+  "UC0985_2": [
+   "ECP9996_2"
+  ]
+ },
+ "equivalencias_motor": {
+  "UC0984_3": [
+   "UC9999_3"
+  ],
+  "UC0985_2": [
+   "UC9996_2"
+  ]
+ },
+ "equivalencias_conjuntas_motor": [],
+ "uc_descripciones": {
+  "UC0233_2": "«Manejar aplicaciones ofimáticas en la gestión de la información y la documentación» [ECP0233_2]. Cualificaciones ADG084_3 y ADG157_3.",
+  "UC0238_3": "«Desarrollar el apoyo administrativo en tareas de selección, formación y desarrollo de recursos humanos» [ECP0238_3]. Cualificación ADG084_3.",
+  "UC0500_3": "«Gestionar la tesorería y su presupuesto» [ECP0500_3]. Cualificación ADG157_3.",
+  "UC0979_2": "«Gestionar operaciones administrativas de tesorería» [ECP0979_2]. Cualificación ADG310_3 (RD 107/2008).",
+  "UC0980_2": "«Gestionar operaciones administrativas de recursos humanos» [ECP0980_2]. Cualificación ADG310_3.",
+  "UC0982_3": "«Gestionar las comunicaciones de la dirección» [ECP0982_3]. Cualificaciones ADG309_3 y ADG310_3 (RD 107/2008).",
+  "UC0986_3": "«Elaborar documentación y presentaciones profesionales» [ECP0986_3]. Cualificaciones ADG309_3 y ADG310_3.",
+  "UC0987_3": "«Administrar los sistemas de almacenamiento de la información» [ECP0987_3]; en 2011, «Administrar los sistemas de información y archivo en soporte convencional e informático». Cualificaciones ADG084_3 y ADG310_3.",
+  "UC0988_3": "«Gestionar expedientes y documentación jurídica y empresarial ante Organismos y Administraciones Públicas» [ECP0988_3]. Cualificación ADG310_3.",
+  "UC0983_3": "«Gestionar actividades de asistencia a la dirección en materia de organización» [ECP0983_3]. Cualificación ADG309_3 (RD 107/2008).",
+  "UC9999_3": "«Comunicarse en lengua inglesa con un nivel de usuario independiente (B1), según el Marco Común Europeo de Referencia para las Lenguas, en el ámbito profesional» [ECP9999_3]. Sustituye a UC0984_3 en el art. 6 y el anexo V del RD 1582/2011 (RD 500/2024).",
+  "UC9997_3": "«Comunicarse en una segunda lengua extranjera distinta del inglés con un nivel de usuario independiente (B1), según el MCER, en el ámbito profesional» [ECP9997_3]. Sustituye a UC0985_2 en el art. 6 y el anexo V del RD 1582/2011 (RD 500/2024).",
+  "UC0984_3": "«Comunicarse en inglés, con un nivel de usuario competente, en las actividades de asistencia a la dirección». Cualificación ADG309_3. SUPRIMIDA: equivale por sí sola a ECP9999_3 (RD 532/2025 anexo II-a).",
+  "UC0985_2": "«Comunicarse en una lengua extranjera distinta del inglés, con un nivel de usuario independiente, en las actividades de asistencia a la dirección». Cualificación ADG309_3. SUPRIMIDA: equivale por sí sola a ECP9996_2 (RD 532/2025 anexo II-a), no a ECP9997_3.",
+  "UC9996_2": "«Comunicarse en una segunda lengua extranjera distinta del inglés con un nivel de usuario básico (A2), según el MCER, en el ámbito profesional» [ECP9996_2]. No figura en el anexo V A) del título."
+ },
+ "cualificaciones": [
+  {
+   "codigo": "ADG310_3",
+   "nombre_2010": "Asistencia documental y de gestión en despachos y oficinas",
+   "nombre_vigente": "Asistencia documental y de gestión en despachos y oficinas",
+   "completa": true,
+   "uc": [
+    "UC0982_3",
+    "UC0986_3",
+    "UC0987_3",
+    "UC0988_3",
+    "UC0980_2",
+    "UC0979_2"
+   ],
+   "uc_2010": [
+    "UC0982_3",
+    "UC0986_3",
+    "UC0987_3",
+    "UC0988_3",
+    "UC0980_2",
+    "UC0979_2"
+   ],
+   "uc_vigente": [
+    "UC0982_3",
+    "UC0986_3",
+    "UC0987_3",
+    "UC0988_3",
+    "UC0980_2",
+    "UC0979_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 107/2008, de 1 de febrero. Art. 6.a) del RD 1582/2011 (redacción del RD 500/2024, que ya no distingue completas e incompletas). Horas de formación asociada no leídas."
+  },
+  {
+   "codigo": "ADG309_3",
+   "nombre_2010": "Asistencia a la dirección",
+   "nombre_vigente": "Asistencia a la dirección",
+   "completa": true,
+   "uc": [
+    "UC0982_3",
+    "UC0983_3",
+    "UC0986_3",
+    "UC9999_3"
+   ],
+   "uc_2010": [
+    "UC0982_3",
+    "UC0983_3",
+    "UC0986_3",
+    "UC0984_3",
+    "UC0985_2"
+   ],
+   "uc_vigente": [
+    "UC0982_3",
+    "UC0983_3",
+    "UC0986_3",
+    "UC9999_3"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 107/2008, de 1 de febrero. Art. 6.b): la redacción vigente sustituye UC0984_3 por UC9999_3 y saca la segunda lengua (UC9997_3) a la letra e). Horas de formación asociada no leídas."
+  },
+  {
+   "codigo": "ADG084_3",
+   "nombre_2010": "Administración de recursos humanos",
+   "nombre_vigente": "Administración de recursos humanos",
+   "completa": false,
+   "uc": [
+    "UC0233_2",
+    "UC0238_3"
+   ],
+   "uc_2010": [
+    "UC0233_2",
+    "UC0238_3"
+   ],
+   "uc_vigente": [
+    "UC0233_2",
+    "UC0238_3"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 295/2004, de 20 de febrero, modificada por el RD 107/2008. Art. 6.c) (incompleta en 2011); el artículo escribe «UC0233_3» (sic) por UC0233_2. Horas de formación asociada no leídas."
+  },
+  {
+   "codigo": "ADG157_3",
+   "nombre_2010": "Gestión financiera",
+   "nombre_vigente": "Gestión financiera",
+   "completa": false,
+   "uc": [
+    "UC0500_3"
+   ],
+   "uc_2010": [
+    "UC0500_3"
+   ],
+   "uc_vigente": [
+    "UC0500_3"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 1087/2005, de 16 de septiembre, modificada por el RD 107/2008. Art. 6.d) (incompleta en 2011). Horas de formación asociada no leídas."
+  },
+  {
+   "codigo": "COM316_3",
+   "nombre_2010": "Gestión financiera (sic)",
+   "nombre_vigente": "Gestión financiera (sic)",
+   "completa": false,
+   "uc": [
+    "UC9997_3"
+   ],
+   "uc_2010": [],
+   "uc_vigente": [
+    "UC9997_3"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 109/2008, de 1 de febrero. Art. 6.e), añadida por el RD 500/2024 con la denominación literal «Gestión financiera COM316_3» (sic); no estaba en 2011. Horas de formación asociada no leídas."
+  }
+ ],
+ "notas": [
+  "El campo «horas» es el de enseñanzas mínimas / currículo básico (RD 1582/2011 anexo I; RD 659/2023 para 0179 y los comunes nuevos). «horas_otras»: aragon = Orden ECD/843/2024 anexo IV (diurno); mefp = Orden EFD/659/2024 anexo IX; loe = Orden de 15 de noviembre de 2013 anexo I.",
+  "Denominación y código confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=ADG302): ADG302, CFGS, familia Administración y Gestión (ADG), 2.000 h, DIURNO; horas y cursos coinciden módulo a módulo con la Orden ECD/843/2024 y con research/catalogo-aragon.json.",
+  "Aragón (Orden ECD/843/2024, anexo IV, diurno): 1.º: 0647 (100 h, 3 sesiones), 0648 (67, 2), 0649 (233, 7), 0650 (233, 7), 0651 (167, 5), 1709 (100, 3), 1665 (33, 1), 0179 (67, 2). 2.º: 0180 (133, 4), 0661 (200, 6), 0662 (200, 6), 0663 (200, 6), 0664 (67, 2), 1710 (67, 2), 1708 (33, 1), optativo (100, 3).",
+  "Ministerio (Orden EFD/659/2024, anexo IX): 1.º (985 h): 0648 100, 0647 100, 0650 130, 0651 160, 0649 160, 1709 100, 1708 35, 0179 70, 0180 130. 2.º (1.015 h): 0663 200, 0661 230, 0662 260, 1710 100, 1665 35, optativa(s) 80, 1712 Inglés Profesional II 60, 0664 50. El Ministerio pone 0180 en 1.º y Aragón en 2.º.",
+  "Plan LOE de Aragón (Orden de 15 de noviembre de 2013, anexo I): 0647 96, 0648 64, 0649 224, 0650 192, 0651 160, 0179 128, 0665 96 (1.º, 960 h); 0661 168, 0662 189, 0663 147, 0180 126, 0664 40, 0667 370 (2.º, 1.040 h). Cursos deducidos.",
+  "Equivalencias de UC (RD 532/2025, anexo II-a): UC0984_3 equivale POR SÍ SOLA a ECP9999_3 y UC0985_2 POR SÍ SOLA a ECP9996_2 (columna «Requisitos adicionales»: NO); ninguna exige acreditarse junto con otras. El resto de UC conserva su número (anexo I). «equivalencias_conjuntas_motor» queda vacío.",
+  "Consecuencia: UC0984_3 vale como UC9999_3 y convalida 0179. UC0985_2 pasa a ECP9996_2 (A2), no a UC9997_3 (B1), que es la que pide el anexo V A) vigente para 0180: con el RD 532/2025 la UC0985_2 ya no convalida 0180 por la tabla (ver no_verificado).",
+  "Anexo V A) vigente (RD 500/2024): 0647 con UC0988_3; 0648 con UC0238_3 + UC0980_2; 0649 con UC0987_3 + UC0986_3 + UC0233_2; 0650 con UC0500_3 + UC0979_2; 0651 con UC0982_3; 0662 con UC0983_3; 0179 con UC9999_3; 0180 con UC9997_3. Respecto a 2011 solo cambian las dos últimas filas. Sin fila para 0661 ni 0663.",
+  "0647, 0648, 0649, 0650, 0651 y 0179 tienen el mismo código, nombre y duración mínima en Administración y Finanzas (ADG301, RD 1584/2011), y 0649 también en Documentación y Administración Sanitaria (SAN303); 0180 es común con los títulos de Hostelería y Turismo y otros: superados en uno, se trasladan (mismo código).",
+  "Filas LOGSE→LOE (anexo II del RD 1085/2020): cuatro desde Secretariado (RD 1658/1994) y dos desde Administración y Finanzas (RD 1659/1994); el bloque Secretariado → Administración y Finanzas LOE repite 0647, 0649 y 0651. Las filas de inglés y de segunda lengua del anexo IV original pasan a las tablas generales del anexo II. La fila «OJO» de Documentación Sanitaria se aplica por la DA 5.ª.",
+  "Filas LOE→LOE (anexo III): 0172 Protocolo y relaciones públicas (Agencias de Viajes y Gestión de Eventos, Gestión de Alojamientos Turísticos y Guía, Información y Asistencias Turísticas) → 0661, y la inversa 0661 → 0172 en la tabla «Hostelería y Turismo». El ciclo completo da 0623 en los cuatro títulos superiores de Comercio y Marketing. No hay filas «Ciclo completo» hacia este título ni filas con Gestión Administrativa (ADG201).",
+  "El título LOGSE de Secretariado también aporta 0440 y 0437 a Gestión Administrativa (RD 1631/2009) en el anexo II y tiene filas LOGSE→LOGSE en el anexo I. No son convalidaciones hacia este ciclo.",
+  "FOL (0665) y FCT (0667) están suprimidos (RD 500/2024); el título nunca tuvo EIE. La fila de FCT del anexo IV original va a «filas_derogadas_no_aplicadas». La formación en empresa y el proyecto intermodular nunca se convalidan (RD 659/2023 art. 126.4).",
+  "Optativos de Aragón: AOP1004 (Inglés GS), AOP1002 (Francés) y AOP1003 (Ofimática avanzada) de oferta común (Decreto 107/2025). AOP1002 no puede cursarse si el 0180 del ciclo se imparte en francés (Orden ECD/843/2024)."
+ ],
+ "no_verificado": [
+  "El RD 1582/2011 NO tiene texto consolidado en el BOE (la API de datos abiertos devuelve 404). Se ha usado el XML del diario https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19531 más el RD 500/2024 (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685, art. tercero.Diecisiete); el análisis del BOE no lista correcciones de errores.",
+  "No está confirmado cómo se trata a quien tiene acreditada la UC0985_2 (anexo V A) de 2011 → 0180): el anexo vigente pide UC9997_3 y el RD 532/2025 la hace equivaler a ECP9996_2; el art. 15.5 (redacción del RD 500/2024) mantiene las UC acreditadas por el RD 1224/2009. Consultar: https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+  "De los RD 1658/1994 y 1659/1994 solo se ha leído la lista de módulos; no se han abierto los RD 543/1995, 1254/2009, 1686/2007, 1255/2009 ni los de Comercio y Marketing: nombres y códigos copiados del RD 1085/2020 (https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274).",
+  "Las dos filas de 0180 con origen genérico («Ciclos formativos LOGSE…» y «Acreditación oficial de idioma…») exigen que la lengua sea la misma que se convalida; la herramienta no lo comprueba. Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+  "Orden de 15 de noviembre de 2013 (Aragón): solo da la duración de cada módulo; el curso de la clave «loe» está deducido (múltiplos de 32 en 1.º y de 21 en 2.º) y no se ha buscado la resolución de distribución horaria. Fuente: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=765058803636. No se ha abierto la Orden ECD/318/2012.",
+  "Las filas «OJO» (DA 5.ª del RD 1085/2020) son una aplicación de la DA, no filas expresas del bloque de este título. Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+  "Cualificaciones: no se han leído los anexos de los RD 295/2004, 1087/2005 y 107/2008, por lo que «formacion_asociada_horas» es null y «nombre_vigente» repite el de 2011; UC y nombres tomados del art. 6 del real decreto del título y del anexo I del RD 532/2025 (https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147).",
+  "No se han revisado los anexos de convalidaciones de los reales decretos de títulos posteriores al 05/03/2017 (RD 1085/2020 anexo IV) para ver si alguno aporta o recibe módulos de este ciclo: https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+  "Páginas del BOA de la Orden ECD/843/2024 no comprobadas página a página; se cita el anexo y el csv. Fuente: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+  "No se ha comprobado si la Resolución de 6 de junio de 2025 autoriza optativos de diseño propio para este ciclo en Aragón."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "Fila del anexo IV original del RD 1582/2011 (derogado por la disp. derogatoria única.2 del RD 1085/2020) que el RD 1085/2020 no reproduce: la FCT no se convalida. Se recoge por trazabilidad; NO aplicar.",
+  "filas": [
+   {
+    "origen_titulo": "Técnico Superior en Secretariado (LOGSE, RD 1658/1994, de 22 de julio) (Administración)",
+    "origen_modulo": "Formación en centro de trabajo",
+    "destino_modulos": [
+     "0667"
+    ],
+    "fuente": "RD 1582/2011 anexo IV, texto original de 2011, DEROGADO (celda «Formación en centro de trabajo del título de Técnico Superior en Secretariado → 0667. Formación en centros de trabajo»). La formación en empresa no se convalida."
+   }
+  ]
+ },
+ "pruebas": [
+  {
+   "descripcion": "LOGSE Secretariado: Elementos de derecho → 0647; Comunicación y relaciones profesionales → 0651; Organización del servicio → 0662; no 0661",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Secretariado",
+     "modulo": "Elementos de derecho",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Secretariado",
+     "modulo": "Comunicación y relaciones profesionales",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Secretariado",
+     "modulo": "Organización del servicio y trabajos de secretariado",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0647": "convalidable",
+    "0651": "convalidable",
+    "0662": "convalidable"
+   },
+   "no_espera": {
+    "0661": "convalidable",
+    "0649": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOGSE Secretariado: Gestión de datos sola no convalida 0649 (hace falta Elaboración y presentación de documentos e información)",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Secretariado",
+     "modulo": "Gestión de datos",
+     "docs": []
+    }
+   ],
+   "espera": {},
+   "no_espera": {
+    "0649": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOGSE Secretariado: Gestión de datos + Elaboración y presentación convalidan 0649; Segunda lengua extranjera → 0180; Lengua extranjera (inglés) → 0179",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Secretariado",
+     "modulo": "Gestión de datos",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Secretariado",
+     "modulo": "Elaboración y presentación de documentos e información",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Secretariado",
+     "modulo": "Segunda lengua extranjera",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Secretariado",
+     "modulo": "Lengua extranjera (inglés)",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0649": "convalidable",
+    "0180": "convalidable",
+    "0179": "convalidable"
+   },
+   "no_espera": {
+    "0662": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOGSE Administración y Finanzas: Administración pública → 0647 y Aplicaciones informáticas y operatoria de teclados → 0649; Recursos humanos no da 0648",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Administración y Finanzas",
+     "modulo": "Administración pública",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Administración y Finanzas",
+     "modulo": "Aplicaciones informáticas y operatoria de teclados",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Administración y Finanzas",
+     "modulo": "Recursos humanos",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0647": "convalidable",
+    "0649": "convalidable"
+   },
+   "no_espera": {
+    "0648": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOE: 0172 de Agencias de Viajes y Gestión de Eventos → 0661; 0650 superado en Administración y Finanzas se traslada",
+   "aporta": [
+    {
+     "tipo": "modulo_loe",
+     "codigo": "0172",
+     "nombre": "Protocolo y relaciones públicas",
+     "titulo": "Técnico Superior en Agencias de Viajes y Gestión de Eventos",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_loe",
+     "codigo": "0650",
+     "nombre": "Proceso integral de la actividad comercial",
+     "titulo": "Técnico Superior en Administración y Finanzas",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0661": "convalidable",
+    "0650": "superado"
+   },
+   "no_espera": {
+    "0662": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0983_3 sola convalida 0662; UC0500_3 sola no convalida 0650 (hace falta UC0979_2)",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0983_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0500_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0662": "convalidable"
+   },
+   "no_espera": {
+    "0650": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0500_3 + UC0979_2 convalidan 0650; UC0987_3 + UC0986_3 + UC0233_2, 0649; no 0663",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0500_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0979_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0987_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0986_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0233_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0650": "convalidable",
+    "0649": "convalidable"
+   },
+   "no_espera": {
+    "0663": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Equivalencia RD 532/2025: UC0984_3 (suprimida) vale como UC9999_3 y convalida 0179; UC9997_3 convalida 0180",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0984_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC9997_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0179": "convalidable",
+    "0180": "convalidable"
+   },
+   "no_espera": {
+    "0651": "convalidable"
+   }
+  }
+ ]
+}

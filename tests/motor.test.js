@@ -770,3 +770,19 @@ assert.ok(/1709 IPE I no convalida/.test(av('san302', ipe1)), 'aviso en LOGSE de
 assert.notEqual(est('san302', ipe1).D006, 'convalidable');
 assert.ok(!/1709 IPE I no convalida/.test(av('tcae', ipe1)));
 console.log('OK: 1709 IPE I y FOL (Anexo VIII ap. 6.15)');
+
+// Títulos LOGSE y LOE con el mismo nombre: cada uno recibe solo sus filas de «ciclo completo»
+const tit = (t, ciclo) => [{ tipo: 'titulo', titulo: t, ...(ciclo ? { ciclo } : {}), docs: [] }];
+r = est('com302', tit('Técnico Superior en Administración y Finanzas (LOGSE, RD 1659/1994, de 22 de julio) (Administración)'));
+assert.equal(r['0623'], 'convalidable'); assert.notEqual(r['0626'], 'convalidable', 'el título LOGSE no da 0626');
+r = est('com302', tit(CICLOS.adg301.ciclo.nombre, 'adg301'));
+assert.equal(r['0623'], 'convalidable'); assert.equal(r['0626'], 'convalidable', 'el título LOE del catálogo sí da 0626');
+r = est('com304', tit('Técnico Superior en Administración y Finanzas (LOGSE, RD 1659/1994, de 22 de julio) (Administración)'));
+assert.equal(r['0623'], 'convalidable'); assert.notEqual(r['1110'], 'convalidable');
+assert.equal(est('com304', tit(CICLOS.adg301.ciclo.nombre, 'adg301'))['1110'], 'convalidable');
+assert.equal(est('com302', tit('Técnico Superior en Administración y Finanzas'))['0626'], 'convalidable', 'sin ley indicada no se distingue');
+assert.equal(est('san203', tit('Técnico Superior en Automoción (LOGSE, RD 1648/1994, de 22 de julio)'))['0052'], 'convalidable');
+r = est('com303', tit('Técnico Superior en Administración y Finanzas (LOGSE, RD 1659/1994, de 22 de julio) (Administración)'));
+assert.equal(r['0623'], 'convalidable'); assert.notEqual(r['0626'], 'convalidable', 'COM303: el título LOGSE no da 0626');
+assert.equal(est('com303', tit(CICLOS.adg301.ciclo.nombre, 'adg301'))['0626'], 'convalidable');
+console.log('OK: títulos LOGSE y LOE homónimos');

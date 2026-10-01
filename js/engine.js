@@ -20,14 +20,28 @@
   const PRIORIDAD = { superado: 0, convalidable: 1, exento: 2, ministerio: 3, revisar: 4 };
   const norm = (s) => (s || '').toString().trim().toUpperCase().replace(/^ECP/, 'UC');
   const GENERAL_LOGSE = 'Cualquier ciclo LOGSE';
+  // Los nombres de módulo de las tablas a veces llevan punto final («Ciclo completo.»)
+  const normMod = (s) => norm(s).replace(/[\s.;:,]+$/, '');
 
   /* Las tablas escriben el título con su norma entre paréntesis
      ("Técnico Superior en … (LOE, RD 1629/2009, de 30 de octubre)"),
      mientras que el catálogo usa solo el nombre. Se comparan sin ese añadido. */
   const tituloBase = (t) => norm(t).split(' (')[0].replace(/\s+/g, ' ').trim();
+  /* Hay títulos LOGSE y LOE con el mismo nombre (Administración y Finanzas, Automoción…)
+     y filas distintas para cada uno. La ley se lee del paréntesis de la norma; si falta
+     en alguno de los dos, no se distingue. */
+  const leyTitulo = (t) => {
+    const s = (t || '').toString();
+    if (/\(\s*LOGSE\b/i.test(s)) return 'LOGSE';
+    if (/\(\s*(LOE|LO 3\/2022)\b/i.test(s)) return 'LOE';
+    const rd = s.match(/\bRD \d+\/(\d{4})/);
+    return rd ? (Number(rd[1]) < 2006 ? 'LOGSE' : 'LOE') : null;
+  };
   const mismoTitulo = (a, b) => {
     const x = tituloBase(a), y = tituloBase(b);
-    return x === y || x.startsWith(y) || y.startsWith(x);
+    if (!(x === y || x.startsWith(y) || y.startsWith(x))) return false;
+    const la = leyTitulo(a), lb = leyTitulo(b);
+    return !la || !lb || la === lb;
   };
 
   // Pseudo-módulo: desde la LO 3/2022 la formación en empresa no es un módulo con código
@@ -99,8 +113,10 @@
         continue;
       }
       if (a.clave) extra.push({ tipo: 'certificado', clave: a.clave, docs: a.docs });
-      if (a.titulo) extra.push({ tipo: 'modulo_logse', titulo: a.titulo, modulo: 'Ciclo completo', docs: a.docs });
       const c = a.ciclo && ciclos[a.ciclo];
+      // Un título elegido del catálogo es el vigente (LOE / LO 3/2022), salvo los ciclos LOGSE que quedan
+      const ley = c && !leyTitulo(a.titulo) ? ` (${c.ciclo.plan === 'LOGSE' ? 'LOGSE' : 'LOE'})` : '';
+      if (a.titulo) extra.push({ tipo: 'modulo_logse', titulo: a.titulo + ley, modulo: 'Ciclo completo', docs: a.docs });
       if (c) {
         for (const m of c.modulos) {
           if (m.tipo === 'optativo') continue;
@@ -223,7 +239,7 @@
     // 2. Tabla del título: módulos de títulos anteriores (LOGSE)
     for (const fila of ciclo.convalidaciones_titulos_anteriores || []) {
       const usados = fila.origen_modulo.map((om) =>
-        logse.find((a) => norm(a.modulo) === norm(om)
+        logse.find((a) => normMod(a.modulo) === normMod(om)
           && (a.titulo === GENERAL_LOGSE || mismoTitulo(a.titulo, fila.origen_titulo))));
       if (!usados.every(Boolean)) continue;
       fila.destino_modulos.forEach((d) => add(d, conValor({
