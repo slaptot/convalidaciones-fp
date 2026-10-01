@@ -1,0 +1,63 @@
+# Encargo: Investigar Química (QUI) — 5 ciclos
+
+## Ciclos a investigar
+- **QUI201**: Operaciones de Laboratorio (grado medio)
+- **QUI204**: Planta Química (grado medio)
+- **QUI301**: Laboratorio de Análisis y de Control de Calidad (grado superior)
+- **QUI302**: Fabricación de Productos Farmacéuticos, Biotecnológicos y Afines (grado superior)
+- **QUI304**: Química Industrial (grado superior)
+
+## Objetivo
+Generar cinco fichas JSON (`qui201.json`, `qui204.json`, `qui301.json`, `qui302.json`, `qui304.json`) en `research/`, cada una con:
+- `modulos`: lista completa de módulos vigentes (catálogo Aragón; si falta alguno en el RD, apuntar en `no_verificado`)
+- `convalidaciones_titulos_anteriores`: filas de RD 1085/2020 (anexo II, III o IV) o anexo propio del real decreto
+- `uc_a_modulos`: equivalencias de UC del anexo del RD o RD 532/2025
+- `equivalencias_uc`: si el RD 532/2025 lo menciona
+- Pruebas (`pruebas`) de cada ciclo completo, módulos principales, y convalidaciones
+
+## Estructura de ficha (ver `sea201.json` como modelo)
+```json
+{
+  "ciclo": {"codigo": "QUI201", "nombre": "...", "grado": "medio", ...},
+  "modulos": [{codigo, nombre, horas: {aragon, loe, mefp}, ...}],
+  "convalidaciones_titulos_anteriores": [{modulo_qri, titulo_anterior, ley_anterior, ...}],
+  "uc_a_modulos": [{uc, modulo_qri, norm}],
+  "equivalencias_uc": [{uc_origen, uc_destino, norma}],
+  "pruebas": [...]
+}
+```
+
+## Búsquedas obligatorias
+1. **Real Decreto del ciclo**: RD del ciclo (2008-2024) para:
+   - Estructura de módulos y horas (Aragón, MEFP, LOE)
+   - Anexo de convalidaciones por título (si existe)
+   - Anexo de UC → módulos (si existe)
+   - Requisitos de acceso, competencias básicas
+
+2. **RD 1085/2020**: Anexos II (GM), III (GS) para convalidaciones generales entre títulos LOGSE/LOE
+
+3. **RD 532/2025**: Equivalencias de UC (si menciona Química)
+
+4. **BOE y BOA**: Verificar modificaciones posteriores al RD principal (cambios de horas, módulos nuevos)
+
+## Notas de optimización
+- **Token budget**: máx. ~50K por ciclo (usa búsquedas precisas, evita páginas largas de sumario)
+- **Modelos**: Usa el motor `tools/probar_ficha.sh` para validar: `bash tools/probar_ficha.sh research/qui201.json`
+- **No incluir** planes LOE a extinguir en Aragón (son obsoletos desde LO 3/2022; agregar aviso en la web si no está cargado)
+- **Título ambiguo**: Si un módulo tiene títulos LOGSE y LOE homónimos, usar notación "(LOGSE, RD ...)" o "(LOE, RD ...)" para distinguir
+
+## Dudas frecuentes
+- Si el anexo del RD no nombre títulos LOGSE explícitamente, cotejar reales decretos antiguos (ej. RD 1161/2001 para GM, RD 746/1994 para título anterior)
+- Si hay UC sin norma clara, buscar en BOE con "unidades de competencia" + código del ciclo
+- Convalidaciones intrafamilia (ej., QUI201 → QUI204 por módulos compartidos) se prueban con casos de test
+
+## Próximos pasos tras terminar
+1. Validar las 5 fichas con `tools/probar_ficha.sh` (deben pasar 100%)
+2. Subir todas en un commit a main
+3. Avisar cuando terminen los 5 agentes (o este, si es solo uno)
+
+## Referencia
+- Catálogo Aragón: `research/catalogo-aragon.json`
+- Fichas anteriores: `research/sea*.json`, `research/ifc*.json` (ver estructura)
+- Motor: `js/engine.js`, pruebas en `tests/motor.test.js`
+- Tabla de familias: `research/catalogo-aragon.json#familias` → saber qué queda por hacer

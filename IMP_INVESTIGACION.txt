@@ -1,0 +1,179 @@
+INVESTIGACIÓN IMAGEN PERSONAL (IMP) - CICLOS IMP202, IMP203, IMP301, IMP302, IMP303, IMP304
+
+Búsqueda completada en BOE con información de RD principales, Órdenes curriculares, convalidaciones y equivalencias UC.
+
+=== GRADO MEDIO (GM) ===
+
+IMP202 - TÉCNICO EN ESTÉTICA Y BELLEZA
+- RD Principal: RD 256/2011 (28 de febrero)
+- Orden Curricular: Orden EDU/1294/2011 (13 de mayo)
+- Duración: 2.000 horas
+- Actualización: RD 499/2024 (modifica aspectos generales GM)
+- Módulos Profesionales (13 módulos):
+  * 0633. Técnicas de higiene facial y corporal - 190h
+  * 0634. Maquillaje - 190h
+  * 0635. Depilación mecánica y decoloración del vello - 155h
+  * 0636. Estética de manos y pies - 135h
+  * 0637. Técnicas de uñas artificiales - 85h
+  * 0638. Análisis estético - 95h
+  * 0639. Actividades en cabina de estética - 155h
+  * 0640. Imagen corporal y hábitos saludables - 95h
+  * 0641. Cosmetología para estética y belleza - 165h
+  * 0642. Perfumería y cosmética natural - 100h
+  * 0643. Marketing y venta en imagen personal - 85h
+  * 0644. Formación y orientación laboral (FOL) - 90h
+  * 0645. Empresa e iniciativa emprendedora - 60h
+  * 0646. Formación en centros de trabajo (FCT) - 400h
+- Total: 2.000h
+
+IMP203 - TÉCNICO EN PELUQUERÍA Y COSMÉTICA CAPILAR
+- RD Principal: RD 1588/2011 (4 de noviembre)
+- Orden Curricular: Orden ECD/344/2012 (15 de febrero)
+- Actualización: Orden ECD/1962/2015 (modifica anexo II)
+- Duración: 2.000 horas
+- Actualización: RD 499/2024 (modifica aspectos generales GM)
+- Módulos Profesionales (13 módulos):
+  * 0842. Peinados y recogidos - 235h
+  * 0843. Coloración del cabello - 205h
+  * 0844. Cosméticos para peluquería - 155h
+  * 0845. Técnicas de corte del cabello - 200h
+  * 0846. Cambios permanentes de la forma del cabello - 130h
+  * 0848. Peluquería masculina y estilismo - 135h
+  * 0849. Análisis del cabello - 95h
+  * 0636. Estética de manos y pies - 120h
+  * 0851. Formación y orientación laboral (FOL) - 90h
+  * 0640. Imagen corporal y hábitos saludables - 90h
+  * 0643. Marketing y venta en imagen personal - 85h
+  * 0852. Empresa e iniciativa emprendedora - 60h
+  * 0853. Formación en centros de trabajo (FCT) - 400h
+- Total: 2.000h
+
+=== GRADO SUPERIOR (GS) ===
+
+IMP301 - TÉCNICO SUPERIOR EN ASESORÍA DE IMAGEN PERSONAL Y CORPORATIVA
+- RD Principal: RD 1685/2011 (18 de noviembre)
+- Orden Curricular: Orden ECD/84/2013 (23 de enero)
+- Duración: 2.000 horas
+- Actualización: RD 500/2024 (modifica RD 1685/2011)
+- Módulos Profesionales (14 módulos):
+  * 1181. Asesoría cosmética - 105h
+  * 1182. Diseño de imagen integral - 150h
+  * 1183. Estilismo en vestuario y complementos - 200h
+  * 1184. Asesoría de peluquería - 150h
+  * 1185. Protocolo y organización de eventos - 130h
+  * 1186. Usos sociales - 80h
+  * 1187. Asesoría estética - 175h
+  * 1188. Habilidades comunicativas - 110h
+  * 1189. Imagen corporativa - 90h
+  * 1071. Dirección y comercialización - 90h
+  * 1190. Proyecto de asesoría de imagen personal y corporativa - 40h
+  * 1191. Formación y orientación laboral (FOL) - 90h
+  * 1192. Empresa e iniciativa emprendedora - 60h
+  * 1193. Formación en centros de trabajo (FCT) - 400h
+- Total: 2.000h
+- Convalidaciones: RD 1085/2020 (Anexo III)
+
+IMP302 - TÉCNICO SUPERIOR EN ESTÉTICA INTEGRAL Y BIENESTAR
+- RD Principal: RD 881/2011 (24 de junio)
+- Orden Curricular: Orden EDU/3152/2011 (11 de noviembre)
+- Duración: 2.000 horas
+- Actualización: RD 500/2024 (modifica RD 881/2011)
+- Módulos Profesionales (14 módulos):
+  * 0744. Aparatología estética - 125h
+  * 0745. Estética hidrotermal - 125h
+  * 0746. Depilación avanzada - 125h
+  * 0747. Masaje estético - 185h
+  * 0748. Drenaje estético y técnicas por presión - 115h
+  * 0749. Micropigmentación - 105h
+  * 0750. Procesos fisiológicos y de higiene en imagen personal - 105h
+  * 0751. Dermoestética - 105h
+  * 0752. Cosmética aplicada a estética y bienestar - 155h
+  * 0753. Tratamientos estéticos integrales - 135h
+  * 0754. Proyecto de estética integral y bienestar - 40h
+  * 0755. Formación y orientación laboral (FOL) - 90h
+  * 0756. Empresa e iniciativa emprendedora - 60h
+  * 0757. Formación en centros de trabajo (FCT) - 400h
+- Total: 2.000h
+- Convalidaciones: RD 1085/2020 (Anexo III)
+
+IMP303 - TÉCNICO SUPERIOR EN ESTILISMO Y DIRECCIÓN DE PELUQUERÍA
+- RD Principal: RD 1577/2011 (4 de noviembre)
+- Orden Curricular: Orden ECD/104/2013 (23 de enero)
+- Duración: 2.000 horas
+- Módulos Profesionales (14 módulos):
+  * 1064. Dermotricología - 135h
+  * 1065. Recursos técnicos y cosméticos - 170h
+  * 1066. Tratamientos capilares - 90h
+  * 1067. Procedimientos y técnicas de peluquería - 260h
+  * 1068. Peinados para producciones audiovisuales y de moda - 105h
+  * 1069. Estilismo en peluquería - 130h
+  * 1070. Estudio de la imagen - 90h
+  * 0750. Procesos fisiológicos y de higiene en imagen personal - 125h
+  * 1071. Dirección y comercialización - 90h
+  * 1072. Peluquería en cuidados especiales - 85h
+  * 1073. Proyecto de estilismo y dirección de peluquería - 40h
+  * 1074. Formación y orientación laboral (FOL) - 90h
+  * 1075. Empresa e iniciativa emprendedora - 60h
+  * 1076. Formación en centros de trabajo (FCT) - 400h
+- Total: 2.000h
+
+IMP304 - TÉCNICO SUPERIOR EN TERMALISMO Y BIENESTAR
+- RD Principal: RD 699/2019 (29 de noviembre) - NUEVO (LPFP)
+- Orden Curricular: Orden EFP/81/2021 (28 de enero)
+- Duración: 2.000 horas
+- Actualización: RD 500/2024 (modifica RD 699/2019)
+- Módulos Profesionales (información parcial):
+  * Estética hidrotermal - 75h
+  * Masaje estético - 65h
+  * Acondicionamiento físico en el agua - 75h
+  * Proyecto de Termalismo y bienestar - 25h
+  * [Requiere lectura del BOE para lista completa]
+- Total: 2.000h
+
+=== CONVALIDACIONES RD 1085/2020 ===
+
+Documento Principal: RD 1085/2020 (9 de diciembre)
+- Anexo I: Convalidaciones de títulos derivados de LO 1/1990
+- Anexo II: Convalidaciones entre títulos de LO 1/1990
+- Anexo III: Convalidaciones para títulos de LO 2/2006 (sistema actual)
+- Familia Imagen Personal:
+  * Módulos de Estética Personal Decorativa
+  * Módulos de Peluquería
+  * Módulos de Asesoría de Imagen Personal
+  * Ejemplos: Depilación mecánica, Maquillaje, Anatomía y fisiología
+
+=== EQUIVALENCIAS UC - RD 532/2025 ===
+
+Documento Principal: RD 532/2025 (24 de junio)
+Corrección: BOE-A-2025-23619
+Sistema: UC → ECP (Estándares de Competencias Profesionales)
+Ejemplos para Imagen Personal:
+  * UC0291_2 ↔ ECP2568_2, ECP2569_2
+  * UC0293_2 ↔ ECP2584_2 (+ UC0294_2)
+  * UC0294_2 ↔ ECP2584_2 (+ UC0293_2)
+  * UC0036_2 ↔ ECP0711_2
+  * UC0310_2 ↔ ECP0711_2
+  * UC0352_2: Venta de productos y servicios de imagen personal
+  * UC1262_3: Tratamientos estéticos capilares
+  * UC0795_3: Gestión de empresas de imagen personal
+
+=== ACTUALIZACIONES RECIENTES ===
+
+RD 500/2024 (21 de mayo): Modifica RD 1685/2011, RD 881/2011, RD 699/2019
+RD 209/2025 (18 de marzo): Grados A, B, C para Imagen Personal
+RD 1024/2024 (8 de octubre): Actualiza cualificaciones Imagen Personal
+RD 917/2024 (17 de septiembre): Actualiza cualificaciones Imagen Personal
+
+=== VERIFICACIÓN ===
+
+COMPLETADO:
+✓ RD principales para todos los ciclos
+✓ Órdenes curriculares
+✓ Módulos con horas (IMP202, IMP203, IMP301, IMP302, IMP303)
+✓ Convalidaciones RD 1085/2020
+✓ Equivalencias UC RD 532/2025
+✓ Actualizaciones RD 500/2024, RD 209/2025
+
+PARCIAL:
+⚠ Módulos IMP304 (requiere lectura de BOE PDF)
+⚠ Detalles anexos convalidaciones (requiere PDF RD 1085/2020)

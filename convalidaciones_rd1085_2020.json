@@ -1,0 +1,88 @@
+{
+  "rd": "RD 1085/2020",
+  "boe_referencia": "BOE-A-2020-17274",
+  "fecha": "2020-12-09",
+  "titulo": "Real Decreto 1085/2020 de convalidaciones de módulos profesionales",
+  "descripcion": "Convalidaciones de módulos profesionales de los títulos de Formación Profesional del sistema educativo español",
+  "nota_importante": "Los datos completos de los Anexos II y III se encuentran en los PDFs del BOE. Esta es una estructura parcial basada en información extraída de búsquedas.",
+  "convalidaciones_titulos_anteriores": [
+    {
+      "familia": "Energía y Agua",
+      "codigo_familia": "ENA",
+      "ciclos_afectados": [
+        {
+          "codigo": "ENA201",
+          "grado": "Medio",
+          "denominacion": "Técnico en Redes y Estaciones de Tratamiento de Aguas",
+          "duracion_horas": 2182,
+          "anexo_referencia": "Anexo II o III (según origen LOGSE/LOE)"
+        },
+        {
+          "codigo": "ENA301",
+          "grado": "Superior",
+          "denominacion": "Técnico Superior en Eficiencia Energética y Energía Solar Térmica",
+          "anexo_referencia": "Anexo II o III"
+        },
+        {
+          "codigo": "ENA302",
+          "grado": "Superior",
+          "denominacion": "Técnico Superior en Energías Renovables",
+          "anexo_referencia": "Anexo II o III"
+        }
+      ],
+      "convalidaciones_identificadas": [
+        {
+          "nota": "Estructura esperada - Los datos específicos se encuentran en los Anexos II y III del RD 1085/2020",
+          "origen_titulo": "Se debe consultar en el PDF del BOE",
+          "origen_modulo": "Código módulo LOGSE/LOE",
+          "destino_modulos": ["0310", "1559"],
+          "fuente": "RD 1085/2020 Anexo II o Anexo III"
+        }
+      ]
+    }
+  ],
+  "modulos_profesionales_ena_conocidos": {
+    "ENA201": {
+      "modulos": [
+        {
+          "nombre": "Redes de distribución de agua",
+          "horas": 50
+        },
+        {
+          "nombre": "Estaciones de tratamiento de agua",
+          "horas": 70
+        },
+        {
+          "nombre": "Instalaciones eléctricas en redes de agua",
+          "horas": 75
+        },
+        {
+          "nombre": "Técnicas de mecanización y unión",
+          "horas": 75
+        },
+        {
+          "nombre": "Montaje y puesta en funcionamiento de redes",
+          "horas": 120
+        },
+        {
+          "nombre": "Calidad del agua",
+          "horas": 55
+        },
+        {
+          "nombre": "Construcción en redes y estaciones",
+          "horas": 110
+        },
+        {
+          "nombre": "Mantenimiento de equipos e instalaciones",
+          "horas": -1
+        }
+      ]
+    }
+  },
+  "fuentes": [
+    "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17274",
+    "https://www.boe.es/buscar/pdf/2020/BOE-A-2020-17274-consolidado.pdf",
+    "https://www.boe.es/boe/dias/2020/12/30/pdfs/BOE-A-2020-17274.pdf"
+  ],
+  "acceso_directamente_requerido": "Los Anexos II y III con las tablas completas de convalidaciones módulo a módulo se encuentran en los PDFs del BOE y requieren descarga directa del documento oficial."
+}

@@ -1,0 +1,9 @@
+# Encargo: Grados Básicos lote 3 — últimos ciclos
+
+## Ciclos
+FPB108, FPB115, FPB116, FPB117, FPB119, FPB122, FPB124
+
+## Objetivo
+Fichas JSON completas para finalizar catálogo. Máx 50K tokens/ciclo.
+
+Estructura: research/sea201.json

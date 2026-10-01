@@ -1,0 +1,17 @@
+# Encargo: Informática y Comunicaciones (IFC) — investigación rápida
+
+## Ciclos
+IFC201, IFC301, IFC302, IFC303
+
+## Objetivo
+Fichas JSON completas (módulos, convalidaciones, UC, pruebas).
+
+## Búsquedas
+- RD principal de cada ciclo (BOE)
+- RD 1085/2020 anexos II (GM), III (GS)
+- RD 532/2025 anexo II (equivalencias UC)
+- Catálogo Aragón (horas)
+
+## Budget: máx 50K tokens/ciclo
+
+Modelo: research/sea201.json

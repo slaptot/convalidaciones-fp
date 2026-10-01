@@ -1,0 +1,25 @@
+# Encargo: Investigar Energía y Agua (ENA) — 3 ciclos
+
+## Ciclos a investigar
+- **ENA201**: Operaciones de Tratamiento de Agua (grado medio)
+- **ENA301**: Coordinación de Centrales de Ciclo Combinado (grado superior)
+- **ENA302**: Supervisión de Plantas Solares Fotovoltaicas (grado superior)
+
+## Objetivo
+Generar tres fichas JSON con estructura completa (módulos, convalidaciones, UC, pruebas).
+
+## Normas clave a buscar
+1. Real Decreto de cada ciclo (2008-2024)
+2. RD 1085/2020 (anexo II, III para convalidaciones)
+3. RD 532/2025 (equivalencias UC)
+4. Órdenes de currículo del Ministerio y Aragón
+
+## Búsquedas obligatorias
+- BOE con "ENA20X" o "ENA30X" para el RD principal
+- RD 1085/2020 anexos II (GM) y III (GS)
+- RD 532/2025 si menciona familia Energía
+- Catálogo Aragón para horas exactas
+
+## Presupuesto
+- Máximo 50K tokens por ciclo
+- Usa search precisas sin leer sumarios largos

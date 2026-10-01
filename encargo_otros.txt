@@ -1,0 +1,9 @@
+# Encargo: Ciclos restantes (Hostelería, Extractivas, Peluquería, etc) — últimos ciclos
+
+## Ciclos
+HOT201, HOT202, HOT203, HOT304, HOT305, IEX201, MSP304, TCP202, TCP301
+
+## Objetivo
+Fichas JSON completas para finalizar catálogo. Máx 50K tokens/ciclo.
+
+Estructura: research/sea201.json

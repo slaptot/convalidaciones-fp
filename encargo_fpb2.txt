@@ -1,0 +1,17 @@
+# Encargo: Grados Básicos (lote 2) (FPB2) — investigación final de ciclos
+
+## Ciclos
+FPB107, FPB108, FPB109, FPB110, FPB111, FPB112
+
+## Objetivo
+Fichas JSON completas (módulos, convalidaciones, UC, pruebas) para finalizar cobertura.
+
+## Búsquedas
+- RD principal de cada ciclo (BOE)
+- RD 1085/2020 anexos II (GM), III (GS)
+- RD 532/2025 anexo II (equivalencias UC)
+- Catálogo Aragón (horas)
+
+## Budget: máx 50K tokens/ciclo
+
+Modelo: research/sea201.json

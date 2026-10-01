@@ -1,0 +1,65 @@
+{
+  "rd": "RD 532/2025",
+  "boe_referencia": "BOE-A-2025-13147",
+  "fecha": "2025-06-24",
+  "titulo": "Real Decreto 532/2025 de equivalencias de estándares de competencias profesionales",
+  "descripcion": "Inclusión de determinados estándares de competencias profesionales e integración de los estándares derivados de antiguas unidades de competencia en el CNECP",
+  "familia_profesional": "Energía y Agua",
+  "tipo_equivalencia": "Unidades de Competencia (UC) suprimidas → Estándares de Competencias Profesionales (ECP) vigentes",
+  "nota_importante": "Cuando una UC antigua se equipara a varios ECP nuevos, generalmente se requiere acreditación de TODOS los ECP para considerarse plenamente convalidada.",
+  "equivalencias_uc": {
+    "UC0099_2": {
+      "ecp_equivalentes": ["ECP2312_2", "ECP2314_2", "ECP2316_2"],
+      "nivel": 2,
+      "familia_original": "Energía y Agua",
+      "requisito_adicional": "Se requiere acreditación en los tres ECP de forma conjunta"
+    },
+    "UC0100_2": {
+      "ecp_equivalentes": ["ECP2312_2", "ECP2314_2", "ECP2315_2"],
+      "nivel": 2,
+      "familia_original": "Energía y Agua",
+      "requisito_adicional": "Se requiere acreditación en los tres ECP de forma conjunta"
+    },
+    "UC0101_2": {
+      "ecp_equivalentes": ["ECP2312_2", "ECP2313_2", "ECP2314_2"],
+      "nivel": 2,
+      "familia_original": "Energía y Agua",
+      "requisito_adicional": "Se requiere acreditación en los tres ECP de forma conjunta"
+    }
+  },
+  "equivalencias_invertidas": {
+    "ECP2312_2": {
+      "uc_antiguas": ["UC0099_2", "UC0100_2", "UC0101_2"],
+      "nota": "Este ECP aparece en la equivalencia de múltiples UC antiguas"
+    },
+    "ECP2313_2": {
+      "uc_antiguas": ["UC0101_2"],
+      "nota": "Este ECP aparece solo en la equivalencia de UC0101_2"
+    },
+    "ECP2314_2": {
+      "uc_antiguas": ["UC0099_2", "UC0100_2", "UC0101_2"],
+      "nota": "Este ECP aparece en la equivalencia de múltiples UC antiguas"
+    },
+    "ECP2315_2": {
+      "uc_antiguas": ["UC0100_2"],
+      "nota": "Este ECP aparece solo en la equivalencia de UC0100_2"
+    },
+    "ECP2316_2": {
+      "uc_antiguas": ["UC0099_2"],
+      "nota": "Este ECP aparece solo en la equivalencia de UC0099_2"
+    }
+  },
+  "contexto": {
+    "catalogo_nacional": "Catálogo Nacional de Estándares de Competencias Profesionales (CNECP)",
+    "catalogo_antiguo": "Catálogo Nacional de Cualificaciones Profesionales (CNCP) - Suprimido",
+    "fuente_legal": "Real Decreto 1128/2003, de 5 de septiembre (CNCP original)"
+  },
+  "nota_tecnica": "El RD 532/2025 integra las antiguas Unidades de Competencia (UC) del sistema CNCP en los nuevos Estándares de Competencias Profesionales (ECP) del CNECP. Algunos ECPs se corresponden con múltiples UC antiguas, lo que indica evolución en la estructuración de competencias.",
+  "fuentes": [
+    "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-13147",
+    "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23619",
+    "https://www.boe.es/eli/es/rd/2025/03/18/210"
+  ],
+  "acceso_completo": "Para consultar todas las equivalencias de UC a ECP de la familia Energía y Agua, se recomienda acceder al Anexo II-a completo del RD 532/2025 en el BOE o consultar la base de datos del INCUAL en https://incual.educacion.gob.es/",
+  "estado": "Datos parciales extraídos de búsquedas. Acceso completo requiere consulta directa del PDF del BOE."
+}
