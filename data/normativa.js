@@ -294,8 +294,22 @@
        superior de Sanidad. De ellos, estos son los que se imparten en Aragón. */
     exencion_excluida: ['SAN301', 'SAN303', 'SAN304', 'SAN305', 'SAN306', 'SAN308', 'SAN309'],
 
+    /* Ciclos de grado medio y superior con duración curricular superior a 2.000 horas.
+       Resolución de 24/11/2025 del Director General de Planificación, Centros y FP
+       (BOA núm. 237, de 09/12/2025): formación en empresa del 25 % de la duración total,
+       en dos periodos iguales entre marzo y mayo de segundo y de tercer curso. */
+    fe_mas_2000: ['TMV302'],
+
     // Avisos que dependen de lo aportado, no de un módulo concreto
     avisos_generales: [
+      (ctx) => {
+        if (!ctx.exp.length || !ctx.normativa.fe_mas_2000.includes(ctx.ciclo.ciclo.codigo)) return null;
+        const total = ctx.ciclo.modulos.reduce((s, m) => s + ((m.horas && m.horas.aragon) || 0), 0);
+        const horas = total > 2000 ? ` (unas ${Math.round(total * 0.25)} h de ${total})` : '';
+        return `Ciclo de más de 2.000 horas: en Aragón la formación en empresa dura el 25 % de la duración total${horas} y se hace en dos periodos iguales, de marzo a mayo de segundo y de tercer curso (Resolución de 24/11/2025, BOA de 9/12/2025). La exención se solicita en cada uno de esos dos cursos, hasta dos meses antes del periodo (arts. 49.3 y 50.3 del Decreto 91/2024); si es parcial, las horas se descuentan sobre esa base y no sobre 500.`;
+      },
+      (ctx) => ctx.loe.length && !ctx.ciclo.ciclo.curso_especializacion
+        ? 'Si el módulo aportado se cursó en enseñanzas de la LO 3/2022 y estaba dualizado, las horas de formación en empresa solo se reducen si se adjunta a la solicitud de convalidación o traslado de nota una copia del Plan de formación (Evaluación), anexo XI b) del Decreto 91/2024. Con módulos de planes anteriores no hay reducción (Resolución de Aragón de 24/11/2025, apartado Tercero).' : null,
       (ctx) => ctx.exp.length && ctx.normativa.exencion_excluida.includes(ctx.ciclo.ciclo.codigo)
         ? 'En Aragón no cabe exención de la formación en empresa en este ciclo: es uno de los nueve de grado superior de Sanidad excluidos por el art. 49.2 del Decreto 91/2024.' : null,
       (ctx) => ctx.loe.some((a) => a.codigo === '1664') && ctx.ciclo.ciclo.grado === 'superior'
@@ -311,7 +325,8 @@
       'Posible unidad formativa complementaria de hasta 30 h para IPE (art. 126.5): no consta si Aragón la aplica.',
       'Másteres universitarios como estudios aportables: todofp se contradice.',
       'Calificación de UC en ciclos LOE a extinguir en Aragón ("CV" sin computar) según Resolución 24/06/2021, no leída.',
-      'Resolución de Aragón de 24/11/2025 (duración de la formación en empresa en ciclos de más de 2000 h): no leída; puede afectar a la exención.',
+      'Resolución de Aragón de 24/11/2025 (BOA de 9/12/2025), leída íntegra: no cambia los requisitos de la exención. No aclara si su apartado Tercero (reducción de horas en empresa por convalidación de módulos dualizados) vale solo para ciclos de más de 2.000 h o para todos; aquí se avisa en todos.',
+      'Resolución de Aragón de 24/11/2025: no dice si alcanza al régimen intensivo ni da la lista de ciclos de más de 2.000 h. Aquí se aplica solo a TMV302 (2.758 h en tres cursos); los ciclos cuyas horas suman 2.001 o 2.002 por redondeo se tratan como de 2.000 h. Las preguntas frecuentes de educa.aragon.es de enero de 2026 no se han leído.',
       'Se ha retirado la regla "1227 Gestión de un pequeño comercio → EIE/IPE II" (la citaba todofp): no aparece en el consolidado del RD 1085/2020 a 07/04/2026.',
     ],
   };

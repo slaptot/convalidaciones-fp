@@ -738,3 +738,18 @@ for (const [id, c] of Object.entries(CICLOS)) {
   }
 }
 console.log(`OK: ${nPruebas} pruebas de las fichas de research`);
+
+// Resolución de Aragón de 24/11/2025: formación en empresa en ciclos de más de 2.000 h y módulos dualizados
+const exp12 = [{ tipo: 'experiencia', meses: 12, relacionada: true, docs: [] }];
+const av = (ciclo, aps) => full(ciclo, aps).avisos.join(' | ');
+assert.ok(/25 % de la duración total \(unas 690 h de 2758\)/.test(av('tmv302', exp12)), 'TMV302: aviso del 25 %');
+assert.ok(/segundo y de tercer curso/.test(av('tmv302', exp12)));
+assert.equal(est('tmv302', exp12).FE, 'exento');
+assert.ok(!/más de 2\.000 horas/.test(av('ele302', exp12)), 'ELE302 (2.002 h por redondeo) no es de más de 2.000 h');
+assert.ok(!/más de 2\.000 horas/.test(av('tmv302', [])), 'sin experiencia no se avisa');
+const loe1 = [{ tipo: 'modulo_loe', codigo: '1708', nombre: 'Sostenibilidad', titulo: 'Técnico Superior en Automoción', docs: [] }];
+assert.ok(/anexo XI b\)/.test(av('tmv301', loe1)), 'aviso del Plan de formación al aportar módulos');
+assert.ok(!/anexo XI b\)/.test(av('tmv301', exp12)));
+assert.ok(!/anexo XI b\)/.test(av('CESIFC04', loe1)), 'los cursos de especialización quedan fuera');
+assert.ok(!N.no_verificado.some((x) => /no leída; puede afectar a la exención/.test(x)));
+console.log('OK: Resolución de 24/11/2025 (formación en empresa)');

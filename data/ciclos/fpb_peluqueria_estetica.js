@@ -112,7 +112,7 @@ window.CICLOS["fpb_peluqueria_estetica"] = {
    {
     "ref": "Resolución de 24 de noviembre de 2025 (Aragón)",
     "boe": null,
-    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1426640110505",
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1425315820606",
     "nota": "Periodos y duración de la formación en empresa en los ciclos de GRADO MEDIO y GRADO SUPERIOR con duración curricular superior a 2.000 h (BOA de 9/12/2025). NO se aplica al Grado Básico: este ciclo dura exactamente 2.000 h y su formación en empresa sigue siendo la del art. 56.6.a) del Decreto 91/2024 (400 h, marzo-mayo de 2.º). Se recoge para descartar expresamente su aplicación. Detalle en research/aragon-formacion-empresa-2025.md."
    },
    {
