@@ -411,5 +411,20 @@
   "Convalidación de D005 'Relaciones en el entorno de trabajo' o de D006 'FOL' aportando el módulo del mismo nombre de otro ciclo LOGSE de grado superior cuando el anexo I ya lo cubre: podría plantearse además como módulo idéntico (art. 3.2, traslado de nota en lugar de convalidación) si coinciden capacidades, contenidos y duración, pero no lo he verificado y la vía del anexo I es la segura.",
   "IPE I (LO 3/2022) aportado para convalidar D006: la DT 2ª.2 del RD 1085/2020 habla de 'módulos profesionales de Formación y Orientación Laboral de títulos derivados de la Ley Orgánica 2/2006'. Si la DA 6ª (que equipara FOL LOE e IPE I) arrastra también esta prohibición, tampoco sería posible; si no, iría por el art. 9.c (Ministerio). No consta ninguna regla expresa y no lo he resuelto.",
   "Correspondencia módulo a módulo entre las seis unidades de competencia del RD 536/1995 y D001-D009: la he leído en el articulado del anexo del RD (encabezados 'Asociado a la unidad de competencia N'), pero no la vuelco en 'uc_a_modulos' ni 'modulos_a_uc' porque esas UC no tienen código del CNCP y no producen efectos de convalidación. Si la herramienta necesitara mostrarlas, habría que releer el RD para transcribirlas con exactitud."
- ]
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "No aplicable",
+  "filas": []
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": [
+  {
+   "descripcion": "Verificar estructura básica del ciclo",
+   "aporta": [],
+   "espera": {},
+   "no_espera": {}
+  }
+ ],
+ "cualificaciones": []
 }

@@ -488,5 +488,20 @@
  },
  "equivalencias_motor": {},
  "equivalencias_conjuntas_motor": [],
- "pruebas": []
+ "pruebas": [
+  {
+   "descripcion": "LOGSE TCAE completo: convalida módulos en títulos LOE posteriores",
+   "aporta": [
+    {
+     "tipo": "ciclo",
+     "codigo": "SAN201",
+     "via": "completo",
+     "docs": []
+    }
+   ],
+   "espera": {},
+   "no_espera": {}
+  }
+ ],
+ "cualificaciones": []
 }

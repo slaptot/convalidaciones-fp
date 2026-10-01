@@ -1127,5 +1127,19 @@
   "No se ha comprobado si hubo modificaciones o correcciones de errores de la Orden de 5 de mayo de 2015 (Aragón) anteriores a su derogación por la Orden ECD/843/2024, ni si existió oferta a distancia o nocturna de SAN301 en el plan LOE con distribución horaria distinta.",
   "No se ha verificado si existe resolución de Aragón posterior a la Orden ECD/843/2024 que autorice oferta nocturna o a distancia de SAN301, ni la lista concreta de módulos optativos autorizados a cada centro.",
   "Las URL de las normas de Aragón apuntan a los PDF alojados en todofp.es (currículo LOE y Decreto 91/2024) porque el buscador del BOA devolvió «Error durante la búsqueda» en todos los intentos; el enlace de la Orden ECD/843/2024 al BOA (parámetro DOCN) NO se ha comprobado y puede no resolver. Los textos sí se han leído íntegramente de los PDF oficiales del BOA (csv BOA20150601003, BOA20240731004 y el del BOA núm. 109 de 6/06/2024)."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "No aplicable",
+  "filas": []
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": [
+  {
+   "descripcion": "Verificar estructura básica del ciclo",
+   "aporta": [],
+   "espera": {},
+   "no_espera": {}
+  }
  ]
 }

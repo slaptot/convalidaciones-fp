@@ -1,4 +1,6 @@
-{
+// Generado por tools/build_data.py a partir de research/san201.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["san201"] = {
  "ciclo": {
   "codigo": "SAN201",
   "nombre": "Técnico en Cuidados Auxiliares de Enfermería (LOGSE)",
@@ -53,166 +55,153 @@
     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
     "nota": "Convierte las UC de SAN669_2 en ECP con el mismo número (UC2254_2→ECP2254_2, etc.)."
    }
-  ]
+  ],
+  "plan": "LOGSE"
  },
  "modulos": [
   {
    "codigo": "TCAE-01",
    "nombre": "Técnicas básicas de enfermería",
-   "horas": 225,
-   "horas_fuente": "Horas de los contenidos básicos (enseñanzas mínimas) del RD 546/1995 (RD 546/1995: módulo 2, asociado a la UC 2 del título). En Aragón es el módulo 001 (Resolución de 13/06/2025).",
-   "curso": null,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 367,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 350,
-     "curso": 1
-    }
-   }
+   "comun": "especifico",
+   "horas": {
+    "aragon": 367,
+    "mefp": 350,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
   },
   {
    "codigo": "TCAE-02",
    "nombre": "Higiene del medio hospitalario y limpieza de material",
-   "horas": 85,
-   "horas_fuente": "Horas de los contenidos básicos (enseñanzas mínimas) del RD 546/1995 (RD 546/1995: módulo 3, asociado a la UC 3). En Aragón es el módulo 002 (Resolución de 13/06/2025).",
-   "curso": null,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 167,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 155,
-     "curso": 1
-    }
-   }
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 155,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
   },
   {
    "codigo": "TCAE-03",
    "nombre": "Promoción de la salud y apoyo psicológico al paciente",
-   "horas": 65,
-   "horas_fuente": "Horas de los contenidos básicos (enseñanzas mínimas) del RD 546/1995 (RD 546/1995: módulo 4, asociado a la UC 4). En Aragón es el módulo 003 (Resolución de 13/06/2025).",
-   "curso": null,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 133,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 130,
-     "curso": 1
-    }
-   }
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 130,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
   },
   {
    "codigo": "TCAE-04",
    "nombre": "Técnicas de ayuda odontológica/estomatológica",
-   "horas": 65,
-   "horas_fuente": "Horas de los contenidos básicos (enseñanzas mínimas) del RD 546/1995 (RD 546/1995: módulo 5, asociado a la UC 5). En Aragón es el módulo 004 (Resolución de 13/06/2025).",
-   "curso": null,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 133,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 130,
-     "curso": 1
-    }
-   }
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 130,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
   },
   {
    "codigo": "TCAE-05",
    "nombre": "Operaciones administrativas y documentación sanitaria",
-   "horas": 30,
-   "horas_fuente": "Horas de los contenidos básicos (enseñanzas mínimas) del RD 546/1995 (RD 546/1995: módulo 1, asociado a la UC 1). En Aragón es el módulo 005 (Resolución de 13/06/2025).",
-   "curso": null,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 67,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 65,
-     "curso": 1
-    }
-   }
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 65,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
   },
   {
    "codigo": "TCAE-06",
    "nombre": "Relaciones en el equipo de trabajo",
-   "horas": 30,
-   "horas_fuente": "Horas de los contenidos básicos (enseñanzas mínimas) del RD 546/1995 (RD 546/1995: módulo 6 (transversal)). En Aragón es el módulo 006 (Resolución de 13/06/2025).",
-   "curso": null,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 67,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 65,
-     "curso": 1
-    }
-   }
+   "comun": "rel_equipo",
+   "horas": {
+    "aragon": 67,
+    "mefp": 65,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
   },
   {
    "codigo": "TCAE-07",
    "nombre": "Formación y orientación laboral",
-   "horas": 30,
-   "horas_fuente": "Horas de los contenidos básicos (enseñanzas mínimas) del RD 546/1995 (RD 546/1995: apartado 3.5). En Aragón es el módulo 007 (Resolución de 13/06/2025).",
-   "curso": null,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 67,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 65,
-     "curso": 1
-    }
-   }
+   "comun": "fol_logse",
+   "horas": {
+    "aragon": 67,
+    "mefp": 65,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
   },
   {
    "codigo": "TCAE-08",
    "nombre": "Formación en centros de trabajo",
-   "horas": 240,
-   "horas_fuente": "Horas de los contenidos básicos (enseñanzas mínimas) del RD 546/1995 (RD 546/1995: apartado 3.4). En Aragón es el módulo 008 (Resolución de 13/06/2025).",
-   "curso": null,
    "tipo": "empresa",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 400,
-     "curso": 2
-    },
-    "mefp": {
-     "horas": 440,
-     "curso": 2
-    }
-   }
+   "comun": "empresa",
+   "horas": {
+    "aragon": 400,
+    "mefp": 440,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
   }
  ],
  "convalidaciones_titulos_anteriores": [
   {
    "origen_titulo": "Cualquier ciclo formativo LOGSE de grado superior",
-   "origen_modulo": "Formación y orientación laboral",
+   "origen_modulo": [
+    "Formación y orientación laboral"
+   ],
    "destino_modulos": [
     "TCAE-07"
    ],
@@ -220,7 +209,9 @@
   },
   {
    "origen_titulo": "Cualquier ciclo formativo LOGSE de grado medio",
-   "origen_modulo": "Formación y orientación laboral",
+   "origen_modulo": [
+    "Formación y orientación laboral"
+   ],
    "destino_modulos": [
     "TCAE-07"
    ],
@@ -228,7 +219,9 @@
   },
   {
    "origen_titulo": "Cualquier ciclo formativo LOGSE de grado medio",
-   "origen_modulo": "Relaciones en el entorno de trabajo",
+   "origen_modulo": [
+    "Relaciones en el entorno de trabajo"
+   ],
    "destino_modulos": [
     "TCAE-06"
    ],
@@ -236,7 +229,9 @@
   },
   {
    "origen_titulo": "Cualquier título LOE (LO 2/2006) de grado medio o superior",
-   "origen_modulo": "Formación y orientación laboral (módulo FOL de cualquier título LOE, sea cual sea su código)",
+   "origen_modulo": [
+    "Formación y orientación laboral (módulo FOL de cualquier título LOE, sea cual sea su código)"
+   ],
    "destino_modulos": [
     "TCAE-07"
    ],
@@ -244,7 +239,9 @@
   },
   {
    "origen_titulo": "Técnico en Atención Sociosanitaria (LOGSE, RD 496/2003)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-02",
     "TCAE-03",
@@ -254,7 +251,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Documentación Sanitaria (LOGSE, RD 543/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -262,7 +261,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Anatomía Patológica y Citología (LOGSE, RD 538/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -270,7 +271,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Audioprótesis (LOGSE, RD 62/2001)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -278,7 +281,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Dietética (LOGSE, RD 536/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -286,7 +291,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -294,7 +301,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -302,7 +311,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -310,7 +321,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Ortoprotésica (LOGSE, RD 542/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -318,7 +331,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -326,7 +341,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Radioterapia (LOGSE, RD 544/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -334,7 +351,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-04"
    ],
@@ -342,7 +361,9 @@
   },
   {
    "origen_titulo": "Técnico en Farmacia (LOGSE, RD 547/1995)",
-   "origen_modulo": "Ciclo completo",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
    "destino_modulos": [
     "TCAE-03"
    ],
@@ -350,7 +371,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Audioprótesis (LOGSE, RD 62/2001)",
-   "origen_modulo": "Administración y gestión de un gabinete audioprotésico",
+   "origen_modulo": [
+    "Administración y gestión de un gabinete audioprotésico"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -358,7 +381,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Ortoprotésica (LOGSE, RD 542/1995)",
-   "origen_modulo": "Administración y gestión de una unidad/gabinete de ortoprotésica",
+   "origen_modulo": [
+    "Administración y gestión de una unidad/gabinete de ortoprotésica"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -366,7 +391,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Imagen para el Diagnóstico (LOGSE, RD 545/1995)",
-   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de imagen para el diagnóstico",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de imagen para el diagnóstico"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -374,7 +401,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Laboratorio de Diagnóstico Clínico (LOGSE, RD 539/1995)",
-   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de laboratorio de diagnóstico clínico"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -382,7 +411,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Radioterapia (LOGSE, RD 544/1995)",
-   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de radioterapia",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de radioterapia"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -390,7 +421,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
-   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de higiene bucodental",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de higiene bucodental"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -398,7 +431,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Dietética (LOGSE, RD 536/1995)",
-   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de dietética",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de dietética"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -406,7 +441,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Anatomía Patológica y Citología (LOGSE, RD 538/1995)",
-   "origen_modulo": "Organización y gestión del área de trabajo asignada en la unidad/gabinete de anatomía patológica y citología",
+   "origen_modulo": [
+    "Organización y gestión del área de trabajo asignada en la unidad/gabinete de anatomía patológica y citología"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -414,7 +451,9 @@
   },
   {
    "origen_titulo": "Técnico Superior en Prótesis Dentales (LOGSE, RD 541/1995)",
-   "origen_modulo": "Organización, administración y gestión de una unidad/gabinete de prótesis dentales",
+   "origen_modulo": [
+    "Organización, administración y gestión de una unidad/gabinete de prótesis dentales"
+   ],
    "destino_modulos": [
     "TCAE-05"
    ],
@@ -422,7 +461,9 @@
   },
   {
    "origen_titulo": "Técnico en Farmacia (LOGSE, RD 547/1995)",
-   "origen_modulo": "Promoción de la salud y apoyo psicológico a las personas",
+   "origen_modulo": [
+    "Promoción de la salud y apoyo psicológico a las personas"
+   ],
    "destino_modulos": [
     "TCAE-03"
    ],
@@ -430,35 +471,25 @@
   },
   {
    "origen_titulo": "Técnico Superior en Higiene Bucodental (LOGSE, RD 537/1995)",
-   "origen_modulo": "Exploración bucodental + Prevención bucodental (hacen falta los dos)",
+   "origen_modulo": [
+    "Exploración bucodental",
+    "Prevención bucodental"
+   ],
    "destino_modulos": [
     "TCAE-04"
    ],
    "fuente": "RD 1085/2020 anexo I (LOGSE→LOGSE), cuadro de Sanidad"
   }
  ],
+ "convalidaciones_loe": [],
  "uc_a_modulos": [],
- "modulos_a_uc": [],
- "equivalencias_uc": {
-  "UC2254_2": [
-   "ECP2254_2"
-  ],
-  "UC2255_2": [
-   "ECP2255_2"
-  ],
-  "UC2256_2": [
-   "ECP2256_2"
-  ],
-  "UC2257_2": [
-   "ECP2257_2"
-  ]
- },
  "uc_descripciones": {
   "UC2254_2": "Preparar los materiales de la consulta, unidad y servicio, y procesar la información sanitaria (SAN669_2, RD 1790/2011) [ECP2254_2]",
   "UC2255_2": "Realizar actividades de acondicionamiento higiénico del paciente/usuario o de la paciente/usuaria y su entorno, así como del material e instrumental sanitario (SAN669_2) [ECP2255_2]",
   "UC2256_2": "Aplicar cuidados auxiliares sanitarios especializados (SAN669_2) [ECP2256_2]",
   "UC2257_2": "Prestar apoyo emocional al paciente/usuario o a la paciente/usuaria e intervenir en programas y actividades de educación para la salud (SAN669_2) [ECP2257_2]"
  },
+ "uc_equivalencias": {},
  "notas": [
   "SITUACIÓN NORMATIVA (18/09/2026): sigue vigente solo el título LOGSE (RD 546/1995 y currículo RD 558/1995), de 1400 h. No se ha publicado en el BOE ningún título LOE ni LO 3/2022 que lo sustituya. El RD 499/2024 no menciona este título (búsqueda de 'Auxiliares de Enfermería', 'LOGSE' y '546/1995' en su texto consolidado: sin resultados), aunque educa.aragon.es lo enlaza en la ficha de SAN201.",
   "TÍTULO NUEVO EN TRAMITACIÓN (va solo en notas, como se pidió): el MEFPD ha sometido a consulta pública previa el 'Proyecto de Real Decreto por el que se establece el título de FP de Grado Medio de Técnico en Cuidados de Enfermería y se fijan los aspectos básicos del currículo' (plazo del 12 al 25/06/2026; https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/informacion-publica/consulta-publica-previa/abiertos/2026/prd-tecnicos-cuidados-enfermeria.html). Según la prensa (Redacción Médica, 12/06 y 20/07/2026): cambia la denominación a 'Técnico en Cuidados de Enfermería' (TCE, sin 'auxiliar'), pasa de 1400 a 2000 h y tendrá los módulos transversales de la LO 3/2022 (inglés profesional, IPE I y II, digitalización, sostenibilidad y proyecto intermodular). No tiene todavía código, módulos codificados, calendario de implantación ni currículo en Aragón.",
@@ -481,12 +512,5 @@
   "Identificador BOE-A del RD 1790/2011 (SAN669_2): no comprobado. La fecha (16/12/2011) sale del RD 532/2025 y de la ficha del INCUAL.",
   "Que SAN669_2 no tenga todavía certificado de profesionalidad publicado: no lo he verificado. Algunas webs comerciales anuncian 'certificado' SAN669_2, pero no he localizado el RD.",
   "Suma de la tabla de Aragón (1401 h frente al total de 1400 h indicado): lo tomo como redondeo de la propia Resolución y no lo he contrastado con el centro."
- ],
- "filas_derogadas_no_aplicadas": {
-  "motivo": "El RD 546/1995 (título LOGSE) no tenía anexo de convalidaciones con títulos anteriores.",
-  "filas": []
- },
- "equivalencias_motor": {},
- "equivalencias_conjuntas_motor": [],
- "pruebas": []
-}
+ ]
+};

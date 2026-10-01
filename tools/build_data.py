@@ -133,8 +133,11 @@ CONSTRUIDOS = {}  # fichero de research -> (id, código, datos del ciclo)
 
 
 def build(id_, fichero, cfg):
-    if SOLO and fichero != SOLO:
-        return
+    if SOLO:
+        # SOLO puede ser "research/qui304.json" pero fichero es solo "qui304.json"
+        solo_fichero = SOLO.split("/")[-1] if "/" in SOLO else SOLO
+        if fichero != solo_fichero:
+            return
     d = json.loads((ROOT / "research" / fichero).read_text())
     CONSTRUIDOS[fichero] = (id_, d["ciclo"]["codigo"].split()[0].upper(), d["ciclo"])
     mods = modulos(d, cfg)
@@ -246,6 +249,13 @@ build("san203", "san203.json", {
 
 build("san303", "san303.json", {
     "loe": lambda m: horas_ambito(m, ["loe"]),
+    "aragon": lambda m: horas_ambito(m, ["aragon"]),
+    "mefp": lambda m: horas_ambito(m, ["mefp"]),
+})
+
+build("san201", "san201.json", {
+    "plan": "LOGSE",
+    "loe": lambda m: (None, None),
     "aragon": lambda m: horas_ambito(m, ["aragon"]),
     "mefp": lambda m: horas_ambito(m, ["mefp"]),
 })
@@ -678,7 +688,9 @@ def actualizar_indices():
 
 build_resto()
 if SOLO:
-    raise SystemExit(0 if SOLO in CONSTRUIDOS else f"{SOLO}: no es una ficha de ciclo válida")
+    # SOLO puede ser "research/qui304.json" pero CONSTRUIDOS tiene "qui304.json"
+    fichero_solo = SOLO.split("/")[-1] if "/" in SOLO else SOLO
+    raise SystemExit(0 if fichero_solo in CONSTRUIDOS else f"{SOLO}: no es una ficha de ciclo válida")
 actualizar_indices()
 build_certificados()
 

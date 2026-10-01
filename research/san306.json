@@ -1206,5 +1206,19 @@
   "No se ha contrastado la distribución horaria del plan LOE en comunidades autónomas distintas de Aragón ni en el ámbito del MEC (Orden ECD/1541/2015, no leída).",
   "El anexo I del RD 500/2024 («Tabla de adaptación horaria del currículo básico para CFGS») reduce el currículo básico del 55 % al 50 % para los ciclos del grupo a). Aquí se han conservado las horas originales del RD 771/2014 (columna «Horas originales (Currículo básico: 55 %)») y no se ha aplicado la minoración, igual que se hizo en el resto de fichas de este repositorio; queda constancia de la discrepancia.",
   "La fila «Experiencia laboral → FFE» de 'convalidaciones_titulos_anteriores' usa el pseudocódigo 'FFE' (formación en empresa u organismo equiparado), que no es un código de módulo: se incluye para que la herramienta pueda mostrar la exclusión expresa de la exención."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "No aplicable",
+  "filas": []
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": [
+  {
+   "descripcion": "Verificar estructura básica del ciclo",
+   "aporta": [],
+   "espera": {},
+   "no_espera": {}
+  }
  ]
 }

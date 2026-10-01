@@ -1099,5 +1099,19 @@
   "La suma de las filas del anexo LXI de la Orden ECD/843/2024 da 2001 h (1001 en 1.º y 1000 en 2.º) frente a las 2000 h de la fila de totales del BOA; no se ha localizado corrección de errores que lo aclare (la del 26/02/2025 solo toca los anexos XXXVI, XL, XXIV y LXXI, según lo indicado por otros agentes). No se ha comprobado si hubo modificaciones de la Orden de 5 de mayo de 2015 (Aragón) anteriores a su derogación, ni si existió oferta a distancia del plan LOE con distribución distinta.",
   "No se ha verificado si existe resolución de Aragón posterior a la Orden ECD/843/2024 que autorice oferta nocturna o a distancia de SAN309; sí existe una Resolución de 29 de julio de 2024 (BOA 09/08/2024) que modifica aspectos puntuales de anexos del Decreto 91/2024, no revisada.",
   "Los PDF de la Orden ECD/843/2024, la Orden de 5 de mayo de 2015, la Resolución de 8 de junio de 2015 y el Decreto 91/2024 se han descargado del BOA (búsqueda avanzada de boa.aragon.es, enlaces CMD=VEROBJ&MLKOB=…&type=pdf) y leído con pdftotext; el enlace de la Orden ECD/843/2024 es el proporcionado por el encargo (coincide byte a byte con el descargado). En el análisis de la fila del BOE «Imagen para el Diagnóstico (RD 539/1995)» se ha asumido que la errata está en el número de real decreto y no en el nombre del título (el mismo anexo II cita al título de Imagen para el Diagnóstico con el RD 545/1995 en la fila hacia el RD 770/2014)."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "No aplicable",
+  "filas": []
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": [
+  {
+   "descripcion": "Verificar estructura básica del ciclo",
+   "aporta": [],
+   "espera": {},
+   "no_espera": {}
+  }
  ]
 }
