@@ -196,14 +196,26 @@
         },
       },
       {
-        id: 'A-6.15', aplica_a: ['fol_logse', 'fol_loe'], estado: 'convalidable', resuelve: 'Dirección del centro',
+        // FOL de títulos LOE: grado medio y grado superior (ap. 6.15, primer párrafo)
+        id: 'A-6.15', aplica_a: ['fol_loe'], estado: 'convalidable', resuelve: 'Dirección del centro',
+        calificacion: 'tabla',
+        fundamento: 'Aragón, Decreto 91/2024 Anexo VIII ap. 6.15 (redacción de la Resolución de 3/12/2025, BOA 16/12/2025)',
+        aviso: 'Regla autonómica de Aragón: vale para FOL de títulos LOE de grado medio y de grado superior.',
+        evaluar(ctx) {
+          const ipe = ctx.loe.filter((a) => a.codigo === '1709');
+          if (ipe.length) return { motivo: '1709 IPE I superado → FOL (LOE)', aportes: ipe };
+        },
+      },
+      {
+        // FOL de títulos LOGSE: solo grado medio; en grado superior se excluye expresamente
+        id: 'A-6.15', aplica_a: ['fol_logse'], estado: 'convalidable', resuelve: 'Dirección del centro',
         calificacion: 'tabla',
         fundamento: 'Aragón, Decreto 91/2024 Anexo VIII ap. 6.15 (redacción de la Resolución de 3/12/2025, BOA 16/12/2025)',
         aviso: 'Regla autonómica de Aragón: en FOL LOGSE solo cabe en grado medio.',
         evaluar(ctx) {
           if (ctx.ciclo.ciclo.grado !== 'medio') return;
           const ipe = ctx.loe.filter((a) => a.codigo === '1709');
-          if (ipe.length) return { motivo: '1709 IPE I superado → FOL', aportes: ipe };
+          if (ipe.length) return { motivo: '1709 IPE I superado → FOL (LOGSE)', aportes: ipe };
         },
       },
       {
@@ -314,6 +326,8 @@
         ? 'En Aragón no cabe exención de la formación en empresa en este ciclo: es uno de los nueve de grado superior de Sanidad excluidos por el art. 49.2 del Decreto 91/2024.' : null,
       (ctx) => ctx.loe.some((a) => a.codigo === '1664') && ctx.ciclo.ciclo.grado === 'superior'
         ? '1664 Digitalización (grado medio) no convalida 1665 (grado superior): RD 659/2023 art. 126.4.d y Aragón Anexo VIII ap. 5.' : null,
+      (ctx) => ctx.loe.some((a) => a.codigo === '1709') && ctx.ciclo.ciclo.plan === 'LOGSE' && ctx.ciclo.ciclo.grado === 'superior'
+        ? 'En Aragón, 1709 IPE I no convalida Formación y Orientación Laboral de títulos LOGSE de grado superior (Anexo VIII ap. 6.15, redacción de 3/12/2025).' : null,
       (ctx) => ctx.loe.some((a) => a.codigo === '1710')
         ? 'En Aragón, 1710 IPE II no convalida Empresa e Iniciativa Emprendedora ni los módulos LOGSE equivalentes (Anexo VIII ap. 6.16, redacción de 3/12/2025).' : null,
       (ctx) => ctx.loe.some((a) => a.codigo === '0156') && ctx.ciclo.ciclo.grado === 'superior'
@@ -326,7 +340,7 @@
       'Másteres universitarios como estudios aportables: todofp se contradice.',
       'Calificación de UC en ciclos LOE a extinguir en Aragón ("CV" sin computar) según Resolución 24/06/2021, no leída.',
       'Resolución de Aragón de 24/11/2025 (BOA de 9/12/2025), leída íntegra: no cambia los requisitos de la exención. No aclara si su apartado Tercero (reducción de horas en empresa por convalidación de módulos dualizados) vale solo para ciclos de más de 2.000 h o para todos; aquí se avisa en todos.',
-      'Resolución de Aragón de 24/11/2025: no dice si alcanza al régimen intensivo ni da la lista de ciclos de más de 2.000 h. Aquí se aplica solo a TMV302 (2.758 h en tres cursos); los ciclos cuyas horas suman 2.001 o 2.002 por redondeo se tratan como de 2.000 h. Las preguntas frecuentes de educa.aragon.es de enero de 2026 no se han leído.',
+      'Resolución de Aragón de 24/11/2025: no dice si alcanza al régimen intensivo ni da la lista de ciclos de más de 2.000 h. Aquí se aplica solo a TMV302 (2.758 h en tres cursos); los ciclos cuyas horas suman 2.001 o 2.002 por redondeo se tratan como de 2.000 h. Las preguntas frecuentes de educa.aragon.es (versión de 07/01/2026), leídas íntegras, no mencionan esta Resolución; solo llaman «ciclos con una duración curricular de 2.000 horas» a los de dos cursos.',
       'Se ha retirado la regla "1227 Gestión de un pequeño comercio → EIE/IPE II" (la citaba todofp): no aparece en el consolidado del RD 1085/2020 a 07/04/2026.',
     ],
   };

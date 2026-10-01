@@ -753,3 +753,20 @@ assert.ok(!/anexo XI b\)/.test(av('tmv301', exp12)));
 assert.ok(!/anexo XI b\)/.test(av('CESIFC04', loe1)), 'los cursos de especialización quedan fuera');
 assert.ok(!N.no_verificado.some((x) => /no leída; puede afectar a la exención/.test(x)));
 console.log('OK: Resolución de 24/11/2025 (formación en empresa)');
+
+// Anexo VIII ap. 6.15 de Aragón: 1709 IPE I convalida FOL LOE en grado medio y superior; FOL LOGSE solo en grado medio
+const ipe1 = [{ tipo: 'modulo_loe', codigo: '1709', nombre: 'Itinerario personal para la empleabilidad I', titulo: 'Técnico Superior en Automoción', docs: [] }];
+assert.equal(est('ifc301', ipe1, 'loe')['0380'], 'convalidable', 'FOL LOE de grado superior');
+assert.equal(est('hot203', ipe1, 'loe')['0157'], 'convalidable', 'FOL LOE de grado medio');
+assert.equal(est('tcae', ipe1)['TCAE-07'], 'convalidable', 'FOL LOGSE de grado medio');
+for (const [id, c] of Object.entries(CICLOS)) {
+  if (c.ciclo.grado !== 'superior') continue;
+  c.modulos.filter((m) => m.comun === 'fol_logse').forEach((m) =>
+    assert.notEqual(est(id, ipe1)[m.codigo], 'convalidable', `${id}: FOL LOGSE de grado superior`));
+}
+const ipe2 = [{ tipo: 'modulo_loe', codigo: '1710', nombre: 'Itinerario personal para la empleabilidad II', titulo: 'Técnico Superior en Automoción', docs: [] }];
+assert.notEqual(est('ifc301', ipe2, 'loe')['0381'], 'convalidable', '1710 no convalida EIE');
+assert.ok(/1709 IPE I no convalida/.test(av('san302', ipe1)), 'aviso en LOGSE de grado superior');
+assert.notEqual(est('san302', ipe1).D006, 'convalidable');
+assert.ok(!/1709 IPE I no convalida/.test(av('tcae', ipe1)));
+console.log('OK: 1709 IPE I y FOL (Anexo VIII ap. 6.15)');

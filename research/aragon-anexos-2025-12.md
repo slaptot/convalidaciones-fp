@@ -126,7 +126,7 @@ Es un dato útil para la herramienta, pero **no altera ninguna regla**: confirma
 4. **El cotejo se ha hecho sobre el texto extraído del PDF, no sobre la imagen renderizada.** Los cambios que sean puramente de formato gráfico (bordes, sombreados, orden de columnas dentro de una tabla, casillas de verificación) pueden no reflejarse en el diff. Los cambios de contenido textual sí. [NV en cuanto a lo puramente gráfico]
 5. **La versión "anterior" usada para el cotejo es la del Decreto 107/2025** (BOA 18/09/2025), porque el consolidado de 14/10/2025 de educa.aragon.es trae los anexos como **imagen** y de él no se puede extraer texto (la extracción devuelve solo los títulos "ANEXO I — Expediente académico", etc.). Si entre el Decreto 107/2025 y la Resolución de 3/12/2025 hubiera habido alguna otra modificación de estos anexos, se me habría atribuido erróneamente a la Resolución. No he buscado normas intermedias. [NV]
 6. **No he comprobado si existe una versión consolidada posterior a la v5** ni si algún anexo ha vuelto a sustituirse después del 16/01/2026. La búsqueda de vigencia documentada en `aragon-formacion-empresa-2025.md` §1 llega hasta 20/09/2026, pero se basó en búsquedas por título del BOA, no por texto completo. [NV]
-7. **No he leído el documento "FAQs en relación a la nueva LFP"** de educa.aragon.es (versión 07/01/2026), que sigue pendiente desde el informe anterior. [NV]
+7. ~~**No he leído el documento "FAQs en relación a la nueva LFP"** de educa.aragon.es (versión 07/01/2026).~~ **RESUELTO el 01/10/2026**: leído íntegro; no afecta a los anexos ni a la Resolución de 24/11/2025. Ver `aragon-formacion-empresa-2025.md`, sección 4, punto 6. [V]
 
 ---
 
