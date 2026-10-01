@@ -85,6 +85,23 @@
     aviso.textContent = lista.length ? '' : 'Todavía no hay ciclos cargados con ese grado y esa familia.';
   }
 
+  // ---------- Avance de la carga de normativa ----------
+  function pintarProgreso() {
+    const todos = Object.values(CICLOS);
+    const clase = (c) => (c.ciclo.curso_especializacion ? 'curso' : c.ciclo.grado);
+    const hechos = todos.filter((c) => !c.ciclo.parcial);
+    const nombres = { ...GRADOS, curso: 'Cursos de especialización' };
+    const detalle = Object.entries(nombres).map(([k, v]) => {
+      const total = todos.filter((c) => clase(c) === k).length;
+      return total ? `${v} ${hechos.filter((c) => clase(c) === k).length}/${total}` : '';
+    }).filter(Boolean).join(' · ');
+    const quedan = todos.length - hechos.length;
+    $('#progreso').innerHTML = `<b>${hechos.length}</b> de ${todos.length} ciclos de Aragón con su normativa de convalidaciones cargada`
+      + ` · ${quedan ? `quedan <b>${quedan}</b>, que por ahora solo aplican las reglas generales` : 'no queda ninguno'}`
+      + `<div class="barra" role="progressbar" aria-valuemin="0" aria-valuemax="${todos.length}" aria-valuenow="${hechos.length}"><i style="width:${(100 * hechos.length / todos.length).toFixed(1)}%"></i></div>`
+      + `<div class="detalle">${h(detalle)}</div>`;
+  }
+
   // ---------- Formulario de expediente ----------
   function pintarCabecera() {
     pintarFiltros();
@@ -849,6 +866,7 @@
 
   // ---------- Eventos ----------
   function init() {
+    pintarProgreso();
     pintarCabecera();
     $('#tipo').innerHTML = Object.entries(TIPOS).map(([k, v]) => `<option value="${k}">${v}</option>`).join('');
     pintarFormAlta();

@@ -10,6 +10,7 @@
   --warn-bg: #fdf1dc; --warn: #8a5300;
   --none-bg: #eef0f3; --none: #5d6878;
   --bad: #a3261b;
+  --p1: #1f5fae; --p1-bg: #e8f0fb; --p2: #0c7455; --p2-bg: #e4f4ee; --paso-texto: #ffffff;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -17,6 +18,7 @@
     --accent: #5b9bea; --accent-text: #0d1117;
     --ok-bg: #173826; --ok: #7fd6a2; --warn-bg: #3b2c12; --warn: #f0bf6a;
     --none-bg: #252c36; --none: #9aa5b4; --bad: #ff8a80;
+    --p1: #5b9bea; --p1-bg: #16263b; --p2: #5fd0a5; --p2-bg: #12302a; --paso-texto: #0d1117;
   }
 }
 * { box-sizing: border-box; }
@@ -95,6 +97,28 @@ a { color: var(--accent); }
    para que se lea igual en modo claro y en modo oscuro. */
 .logo-ies { width: 170px; height: auto; display: block; background: #fff; padding: .45rem .6rem; border-radius: 8px; }
 .autor { font-size: .78rem; color: var(--muted); margin: 0; }
+
+/* Pasos: 1 (ciclo de destino) y 2 (lo que aporta) se distinguen por color */
+.entrada { display: grid; gap: 1rem; min-width: 0; }
+.paso { background: var(--panel); border: 1px solid var(--line); border-left: 6px solid var(--paso); border-radius: 10px; padding: 0 1.1rem 1rem; min-width: 0; }
+.paso-1 { --paso: var(--p1); --paso-bg: var(--p1-bg); }
+.paso-2 { --paso: var(--p2); --paso-bg: var(--p2-bg); }
+.paso-3 { --paso: var(--muted); }
+.paso > h2, h2.titulo-paso { display: flex; align-items: center; gap: .65rem; text-transform: none; letter-spacing: 0; font-size: 1.05rem; color: var(--text); }
+.paso > h2 { margin: 0 -1.1rem .9rem; padding: .7rem 1.1rem; background: var(--paso-bg); border-bottom: 1px solid var(--line); border-radius: 0 9px 0 0; }
+h2.titulo-paso { margin: 0 0 .8rem; }
+.paso > h2 small { display: block; font-weight: 400; font-size: .8rem; color: var(--muted); }
+.num { display: inline-grid; place-items: center; flex: none; width: 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--paso); color: var(--paso-texto); font-weight: 700; font-size: 1rem; }
+.paso-2 form button[type="submit"] { background: var(--p2); border-color: var(--p2); color: var(--paso-texto); }
+.paso-2 input:focus, .paso-2 select:focus, .paso-2 textarea:focus { outline-color: var(--p2); }
+.paso-2 .aportaciones li:not(.vacio) { border-left: 3px solid var(--p2); }
+
+/* Cuántos ciclos tienen ya su normativa cargada */
+.progreso { margin-top: .45rem; font-size: .82rem; color: var(--muted); max-width: 34rem; }
+.progreso b { color: var(--text); }
+.progreso .barra { height: 6px; border-radius: 3px; background: var(--none-bg); margin: .3rem 0; overflow: hidden; }
+.progreso .barra i { display: block; height: 100%; background: var(--ok); border-radius: 3px; }
+.progreso .detalle { font-size: .76rem; }
 .print-only { display: none; }
 #informe, #resolucion, #exencion, #solicitudes, #listado { display: none; }
 

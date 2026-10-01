@@ -11,6 +11,7 @@
     <div>
       <h1>Convalidaciones FP</h1>
       <p class="lead">Análisis de documentación por reglas normativas</p>
+      <div id="progreso" class="progreso"></div>
     </div>
     <nav class="acciones">
       <button id="btn-nuevo" class="sec">Nuevo</button>
@@ -22,8 +23,9 @@
   </header>
 
   <main class="grid">
-    <section class="panel entrada">
-      <h2>1 · Expediente</h2>
+    <section class="entrada">
+     <div class="paso paso-1">
+      <h2><span class="num">1</span><span>Ciclo en el que se matricula<small>Datos del expediente y ciclo de destino</small></span></h2>
       <label>Centro <input id="centro" autocomplete="off" placeholder="IES Ejemplo"></label>
       <details class="datos-centro">
         <summary>Datos para la resolución de dirección</summary>
@@ -61,18 +63,21 @@
           <option value="loe">LOE a extinguir (con FOL, EIE y FCT)</option>
         </select></label>
       <label>Observaciones <textarea id="notas" rows="2"></textarea></label>
+     </div>
 
-      <h2>2 · Lo que aporta</h2>
+     <div class="paso paso-2">
+      <h2><span class="num">2</span><span>Lo que aporta<small>Títulos, módulos, unidades de competencia, estudios y experiencia</small></span></h2>
       <form id="form-alta">
         <label>Tipo <select id="tipo" name="tipo"></select></label>
         <div id="campos"></div>
         <button type="submit">Añadir</button>
       </form>
       <ul id="lista-aportaciones" class="aportaciones"></ul>
+     </div>
     </section>
 
-    <section class="panel salida">
-      <h2>3 · Resultado por módulo</h2>
+    <section class="panel salida paso-3">
+      <h2 class="titulo-paso"><span class="num">3</span><span>Resultado por módulo</span></h2>
       <div id="resumen" class="kpis"></div>
       <div id="avisos"></div>
       <div class="tabla-wrap">
