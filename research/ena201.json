@@ -1,0 +1,717 @@
+{
+  "ciclo": {
+    "codigo": "ENA201",
+    "nombre": "Técnico en redes y estaciones de tratamiento de aguas",
+    "grado": "medio",
+    "familia": "Energía y Agua",
+    "duracion_total_horas": 2000,
+    "normas": [
+      {
+        "ref": "RD 114/2017, de 17 de febrero",
+        "boe": "BOE-A-2017-2310",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-2310",
+        "nota": "Establece el título de Técnico en Redes y Estaciones de Tratamiento de Aguas y sus enseñanzas mínimas (2.000 h). Familia: Energía y Agua."
+      },
+      {
+        "ref": "Orden EFP/1215/2019, de 11 de diciembre",
+        "boe": "BOE-A-2019-18149",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-18149",
+        "nota": "Establece el currículo básico del título con distribución horaria y resultados de aprendizaje."
+      },
+      {
+        "ref": "Orden EFD/657/2024, de 25 de junio",
+        "boe": "BOE-A-2024-13179",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-13179",
+        "nota": "Currículo del ámbito del Ministerio 2024-2025. Actualiza distribución horaria para el nuevo plan LO 3/2022."
+      },
+      {
+        "ref": "RD 1085/2020, de 9 de diciembre",
+        "boe": "BOE-A-2020-17274",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+        "nota": "Convalidaciones entre títulos. Anexo II contiene convalidaciones específicas para ENA201 con otros ciclos LOE."
+      },
+      {
+        "ref": "RD 532/2025, de 24 de junio",
+        "boe": "BOE-A-2025-13147",
+        "url": "https://www.boe.es/eli/es/rd/2025/06/24/532",
+        "nota": "Equivalencias UC → ECP. Anexo II-a incluye familia Energía y Agua con conversiones de UC antiguas a estándares vigentes."
+      },
+      {
+        "ref": "ORDEN ECD/1046/2023, de 2 de agosto (Aragón)",
+        "boe": "BOA20230811001",
+        "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1290220420101",
+        "nota": "Currículo de Aragón para ENA201. BOA nº 154 (11/08/2023). Distribución horaria exacta para planes aragoneses."
+      }
+    ]
+  },
+  "modulos": [
+    {
+      "codigo": "0310",
+      "nombre": "Montaje y mantenimiento de instalaciones de agua",
+      "horas": 180,
+      "horas_fuente": "RD 114/2017 Anexo I",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 167,
+          "curso": 1
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1559",
+      "nombre": "Replanteo en redes de agua",
+      "horas": 50,
+      "horas_fuente": "RD 114/2017 Anexo I; Aragón 50h",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 50,
+          "curso": 1
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1560",
+      "nombre": "Estaciones de tratamiento de aguas",
+      "horas": 210,
+      "horas_fuente": "RD 114/2017 Anexo I; Aragón 200h",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 200,
+          "curso": 2
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1561",
+      "nombre": "Instalaciones eléctricas en redes de agua",
+      "horas": 140,
+      "horas_fuente": "RD 114/2017 Anexo I; Aragón 133h",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 1
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1562",
+      "nombre": "Técnicas de mecanizado y unión",
+      "horas": 75,
+      "horas_fuente": "RD 114/2017 Anexo I; Aragón 67h",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 1
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1563",
+      "nombre": "Montaje y puesta en servicio de redes de agua",
+      "horas": 140,
+      "horas_fuente": "RD 114/2017 Anexo I; Aragón 133h",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 2
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1564",
+      "nombre": "Calidad del agua",
+      "horas": 70,
+      "horas_fuente": "RD 114/2017 Anexo I; Aragón 67h",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 2
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1565",
+      "nombre": "Construcción en redes y estaciones de tratamiento de agua",
+      "horas": 105,
+      "horas_fuente": "RD 114/2017 Anexo I; Aragón 100h",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 100,
+          "curso": 1
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1566",
+      "nombre": "Mantenimiento de equipos e instalaciones",
+      "horas": 140,
+      "horas_fuente": "RD 114/2017 Anexo I; Aragón 133h",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 2
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1567",
+      "nombre": "Hidráulica y redes de agua",
+      "horas": 70,
+      "horas_fuente": "RD 114/2017 Anexo I; Aragón 67h",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 1
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1568",
+      "nombre": "Mantenimiento de redes",
+      "horas": 70,
+      "horas_fuente": "RD 114/2017 Anexo I; Aragón 67h",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 2
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "0156",
+      "nombre": "Inglés Profesional (GM)",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo IX; Aragón 67h",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 1
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1664",
+      "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+      "horas": 30,
+      "horas_fuente": "RD 659/2023 anexo VI; Aragón 33h",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 33,
+          "curso": 2
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1708",
+      "nombre": "Sostenibilidad aplicada al sistema productivo",
+      "horas": 30,
+      "horas_fuente": "RD 659/2023 anexo VIII; Aragón 33h",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 33,
+          "curso": 2
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1709",
+      "nombre": "Itinerario personal para la empleabilidad I",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo V; Aragón 100h",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 100,
+          "curso": 1
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "1710",
+      "nombre": "Itinerario personal para la empleabilidad II",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo V; Aragón 67h",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 2
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": "0713",
+      "nombre": "Proyecto Integrado",
+      "horas": 50,
+      "horas_fuente": "RD 500/2024 DA 7ª; Aragón 67h",
+      "curso": null,
+      "tipo": "proyecto",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 2
+        },
+        "mefp": {
+          "horas": 0,
+          "curso": null
+        }
+      }
+    },
+    {
+      "codigo": null,
+      "nombre": "Módulo profesional optativo",
+      "horas": 80,
+      "horas_fuente": "RD 500/2024 art. 10.3; Aragón 100h",
+      "curso": null,
+      "tipo": "optativo",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 100,
+          "curso": 2
+        },
+        "mefp": {
+          "horas": 80,
+          "curso": 2
+        }
+      }
+    }
+  ],
+  "convalidaciones_titulos_anteriores": [],
+  "uc_a_modulos": [
+    {
+      "uc": [
+        "UC0607_2"
+      ],
+      "modulos": [
+        "1562"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V A)"
+    },
+    {
+      "uc": [
+        "UC0608_2"
+      ],
+      "modulos": [
+        "1563"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V A)"
+    },
+    {
+      "uc": [
+        "UC0073_2"
+      ],
+      "modulos": [
+        "1560",
+        "1564"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V A)"
+    },
+    {
+      "uc": [
+        "UC1929_2"
+      ],
+      "modulos": [
+        "1565"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V A)"
+    },
+    {
+      "uc": [
+        "UC1360_2"
+      ],
+      "modulos": [
+        "1565"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V A)"
+    },
+    {
+      "uc": [
+        "UC0074_2"
+      ],
+      "modulos": [
+        "1566"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V A)"
+    },
+    {
+      "uc": [
+        "UC0075_2"
+      ],
+      "modulos": [
+        "1566"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V A)"
+    },
+    {
+      "uc": [
+        "UC0606_2"
+      ],
+      "modulos": [
+        "1567"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V A)"
+    },
+    {
+      "uc": [
+        "UC0609_2"
+      ],
+      "modulos": [
+        "1568"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V A)"
+    }
+  ],
+  "modulos_a_uc": [
+    {
+      "modulos": [
+        "1560"
+      ],
+      "uc": [
+        "UC0073_2"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V B)"
+    },
+    {
+      "modulos": [
+        "1562"
+      ],
+      "uc": [
+        "UC0607_2"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V B)"
+    },
+    {
+      "modulos": [
+        "1563"
+      ],
+      "uc": [
+        "UC0608_2"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V B)"
+    },
+    {
+      "modulos": [
+        "1564"
+      ],
+      "uc": [
+        "UC0073_2"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V B)"
+    },
+    {
+      "modulos": [
+        "1565"
+      ],
+      "uc": [
+        "UC1360_2",
+        "UC1929_2"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V B)"
+    },
+    {
+      "modulos": [
+        "1566"
+      ],
+      "uc": [
+        "UC0074_2"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V B)"
+    },
+    {
+      "modulos": [
+        "1567"
+      ],
+      "uc": [
+        "UC0606_2"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V B)"
+    },
+    {
+      "modulos": [
+        "1568"
+      ],
+      "uc": [
+        "UC0609_2"
+      ],
+      "vigente": true,
+      "fuente": "RD 114/2017 Anexo V B)"
+    }
+  ],
+  "equivalencias_uc": {},
+  "uc_descripciones": {
+    "UC0606_2": "Replantear redes de distribución de agua y saneamiento",
+    "UC0607_2": "Montar redes de distribución de agua y saneamiento",
+    "UC0608_2": "Poner en servicio y operar redes de distribución de agua y saneamiento",
+    "UC0609_2": "Mantener redes de distribución de agua y saneamiento",
+    "UC0073_2": "Operar los procesos de tratamiento y depuración del agua",
+    "UC0074_2": "Realizar las operaciones de mantenimiento de equipos e instalaciones de plantas de tratamiento o depuración del agua",
+    "UC0075_2": "Adoptar las medidas de prevención de riesgos laborales en el puesto de trabajo",
+    "UC1929_2": "Ejecutar pavimentos de urbanización",
+    "UC1360_2": "Controlar a nivel básico riesgos en construcción"
+  },
+  "cualificaciones": [
+    {
+      "codigo_ecp": "ENA191_2",
+      "nombre": "Montaje y mantenimiento de redes de agua",
+      "uc": [
+        "UC0606_2",
+        "UC0607_2",
+        "UC0608_2",
+        "UC0609_2"
+      ],
+      "vigente": true,
+      "norma": "RD 1228/2006, de 27 de octubre (BOE-A-2006-18936)",
+      "tipo": "completa",
+      "familia": "Energía y Agua"
+    },
+    {
+      "codigo_ecp": "SEA026_2",
+      "nombre": "Operación de estaciones de tratamiento de aguas",
+      "uc": [
+        "UC0073_2",
+        "UC0074_2",
+        "UC0075_2"
+      ],
+      "vigente": true,
+      "norma": "RD 295/2004, de 20 de febrero (BOE-A-2004-2876)",
+      "tipo": "completa",
+      "familia": "Energía y Agua"
+    },
+    {
+      "codigo_ecp": "EOC586_2",
+      "nombre": "Pavimentos y albañilería de urbanización",
+      "uc": [
+        "UC1929_2",
+        "UC1360_2"
+      ],
+      "vigente": true,
+      "norma": "RD 1548/2011, de 31 de octubre (BOE-A-2011-18098)",
+      "tipo": "incompleta",
+      "familia": "Edificación y Obra Civil"
+    }
+  ],
+  "notas": [
+    "Estructura de módulos reconstruida con datos completos: 11 específicos + 7 comunes/proyecto/optativo",
+    "Módulo 0310 (Montaje y mantenimiento de instalaciones de agua) incluido como módulo específico",
+    "Horas del RD 114/2017 y correspondencias con Aragón confirmadas",
+    "Las UC de nivel 2 (_2) corresponden a formación de Grado Medio",
+    "Las cualificaciones incluidas en ENA201 son dos completas (ENA191_2, SEA026_2) y una incompleta (EOC586_2)"
+  ],
+  "no_verificado": [],
+  "equivalencias_motor": {},
+  "equivalencias_conjuntas_motor": [],
+  "filas_derogadas_no_aplicadas": {
+    "motivo": "El RD del título ENA201 no tiene anexo de convalidaciones derogadas",
+    "filas": []
+  },
+  "pruebas": [
+    {
+      "descripcion": "UC0073_2 convalida 1560 y 1564",
+      "aporta": [
+        {
+          "tipo": "uc",
+          "codigo": "UC0073_2",
+          "via": "acreditación",
+          "docs": []
+        }
+      ],
+      "espera": {
+        "1560": "convalidable",
+        "1564": "convalidable"
+      },
+      "no_espera": {
+        "1562": "convalidable"
+      }
+    },
+    {
+      "descripcion": "UC0607_2 + UC0608_2 convalidan 1562 y 1563",
+      "aporta": [
+        {
+          "tipo": "uc",
+          "codigo": "UC0607_2",
+          "via": "acreditación",
+          "docs": []
+        },
+        {
+          "tipo": "uc",
+          "codigo": "UC0608_2",
+          "via": "acreditación",
+          "docs": []
+        }
+      ],
+      "espera": {
+        "1562": "convalidable",
+        "1563": "convalidable"
+      },
+      "no_espera": {
+        "1560": "convalidable"
+      }
+    },
+    {
+      "descripcion": "Combinación: UC0606_2 + UC0607_2 + UC0608_2 + UC0609_2 convalidan todas de red",
+      "aporta": [
+        {
+          "tipo": "uc",
+          "codigo": "UC0606_2",
+          "via": "acreditación",
+          "docs": []
+        },
+        {
+          "tipo": "uc",
+          "codigo": "UC0607_2",
+          "via": "acreditación",
+          "docs": []
+        },
+        {
+          "tipo": "uc",
+          "codigo": "UC0608_2",
+          "via": "acreditación",
+          "docs": []
+        },
+        {
+          "tipo": "uc",
+          "codigo": "UC0609_2",
+          "via": "acreditación",
+          "docs": []
+        }
+      ],
+      "espera": {
+        "1567": "convalidable",
+        "1562": "convalidable",
+        "1563": "convalidable",
+        "1568": "convalidable"
+      },
+      "no_espera": {
+        "1560": "convalidable"
+      }
+    }
+  ]
+}

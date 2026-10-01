@@ -1,0 +1,751 @@
+{
+ "ciclo": {
+  "codigo": "ENA301",
+  "nombre": "Técnico Superior en Eficiencia Energética y Energía Solar Térmica",
+  "grado": "superior",
+  "familia": "Energía y Agua",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 1177/2008, de 11 de julio",
+    "boe": "BOE-A-2008-12846",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2008-12846",
+    "nota": "Establece el título de Técnico Superior en Eficiencia Energética y Energía Solar Térmica y sus enseñanzas mínimas (2.000 h). Familia: Energía y Agua."
+   },
+   {
+    "ref": "Orden EDU/394/2010, de 20 de enero",
+    "boe": "BOE-A-2010-3030",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-3030",
+    "nota": "Establece el currículo básico del título con distribución horaria y resultados de aprendizaje."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10685",
+    "nota": "Actualización de enseñanzas mínimas para adaptación a LO 3/2022. Modifica módulos comunes y proyecto intermodular."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-13181",
+    "nota": "Currículo del ámbito del Ministerio 2024-2025. Anexo con distribución horaria actualizada."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Convalidaciones entre títulos. Anexo III contiene convalidaciones específicas para ENA301 con otros ciclos LOE."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/eli/es/rd/2025/06/24/532",
+    "nota": "Equivalencias UC → ECP. Anexo II-a incluye familia Energía y Agua."
+   },
+   {
+    "ref": "ORDEN ECD/1210/2017, de 28 de julio (Aragón)",
+    "boe": "BOA20170825002",
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=977087842727",
+    "nota": "Currículo de Aragón para ENA301 (Eficiencia Energética y Energía Solar Térmica). BOA nº 163 (25/08/2017)."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0121",
+   "nombre": "Equipos e instalaciones térmicas",
+   "horas": 280,
+   "horas_fuente": "RD 1177/2008; Aragón 267h",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 267,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0122",
+   "nombre": "Procesos de montaje de instalaciones",
+   "horas": 280,
+   "horas_fuente": "RD 1177/2008; Aragón 267h",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 267,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0123",
+   "nombre": "Representación gráfica de instalaciones",
+   "horas": 70,
+   "horas_fuente": "RD 1177/2008; Aragón 67h",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0349",
+   "nombre": "Eficiencia energética de instalaciones",
+   "horas": 280,
+   "horas_fuente": "RD 1177/2008; Aragón 267h",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 267,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0350",
+   "nombre": "Certificación energética de edificios",
+   "horas": 315,
+   "horas_fuente": "RD 1177/2008; Aragón 300h",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 300,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0351",
+   "nombre": "Gestión eficiente del agua en edificación",
+   "horas": 70,
+   "horas_fuente": "RD 1177/2008; Aragón 67h",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0352",
+   "nombre": "Configuración de instalaciones solares térmicas",
+   "horas": 140,
+   "horas_fuente": "RD 1177/2008; Aragón 133h",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0353",
+   "nombre": "Gestión del montaje y mantenimiento de instalaciones solares térmicas",
+   "horas": 105,
+   "horas_fuente": "RD 1177/2008; Aragón 100h",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0354",
+   "nombre": "Promoción del uso eficiente de la energía y del agua",
+   "horas": 70,
+   "horas_fuente": "RD 1177/2008; Aragón 67h",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo IX; Aragón 67h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VI; Aragón 33h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII; Aragón 33h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V; Aragón 100h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V; Aragón 67h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0355",
+   "nombre": "Proyecto Intermodular",
+   "horas": 50,
+   "horas_fuente": "RD 500/2024 DA 7ª; Aragón 67h",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 500/2024 art. 10.3; Aragón 100h",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Módulo 0350 convalida con Técnico en Eficiencia Energética en Edificación (RD 1085/2020)",
+   "origen_modulo": "Módulo 0569 de otros ciclos",
+   "destino_modulos": [
+    "0350"
+   ],
+   "fuente": "RD 1085/2020 Anexo III"
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC1194_3"
+   ],
+   "modulos": [
+    "0349"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "uc": [
+    "UC1195_3"
+   ],
+   "modulos": [
+    "0350"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "uc": [
+    "UC1196_3"
+   ],
+   "modulos": [
+    "0351"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "uc": [
+    "UC0842_3"
+   ],
+   "modulos": [
+    "0123"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "uc": [
+    "UC0846_3"
+   ],
+   "modulos": [
+    "0352"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "uc": [
+    "UC0847_3"
+   ],
+   "modulos": [
+    "0122"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "uc": [
+    "UC0848_3"
+   ],
+   "modulos": [
+    "0353"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "uc": [
+    "UC1197_3"
+   ],
+   "modulos": [
+    "0354"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0349"
+   ],
+   "uc": [
+    "UC1194_3"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "modulos": [
+    "0350"
+   ],
+   "uc": [
+    "UC1195_3"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "modulos": [
+    "0351"
+   ],
+   "uc": [
+    "UC1196_3"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "modulos": [
+    "0123"
+   ],
+   "uc": [
+    "UC0842_3"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "modulos": [
+    "0352"
+   ],
+   "uc": [
+    "UC0846_3"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "modulos": [
+    "0122"
+   ],
+   "uc": [
+    "UC0847_3"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "modulos": [
+    "0353"
+   ],
+   "uc": [
+    "UC0848_3"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  },
+  {
+   "modulos": [
+    "0354"
+   ],
+   "uc": [
+    "UC1197_3"
+   ],
+   "vigente": true,
+   "fuente": "Mapeado automáticamente"
+  }
+ ],
+ "equivalencias_uc": {},
+ "uc_descripciones": {
+  "UC1194_3": {
+   "codigo": "UC1194_3",
+   "descripcion": "Evaluar la eficiencia energética de las instalaciones de edificios",
+   "nivel": 3,
+   "cualificaciones": [
+    "ENA358_3"
+   ]
+  },
+  "UC1195_3": {
+   "codigo": "UC1195_3",
+   "descripcion": "Colaborar en el proceso de certificación energética de edificios",
+   "nivel": 3,
+   "cualificaciones": [
+    "ENA358_3"
+   ]
+  },
+  "UC1196_3": {
+   "codigo": "UC1196_3",
+   "descripcion": "Gestionar el uso eficiente del agua en edificación",
+   "nivel": 3,
+   "cualificaciones": [
+    "ENA358_3"
+   ]
+  },
+  "UC0842_3": {
+   "codigo": "UC0842_3",
+   "descripcion": "Determinar la viabilidad de proyectos de instalaciones solares",
+   "nivel": 3,
+   "cualificaciones": [
+    "ENA358_3",
+    "ENA264_3"
+   ]
+  },
+  "UC1197_3": {
+   "codigo": "UC1197_3",
+   "descripcion": "Promover el uso eficiente de la energía",
+   "nivel": 3,
+   "cualificaciones": [
+    "ENA358_3"
+   ]
+  },
+  "UC0846_3": {
+   "codigo": "UC0846_3",
+   "descripcion": "Desarrollar proyectos de instalaciones solares térmicas",
+   "nivel": 3,
+   "cualificaciones": [
+    "ENA264_3"
+   ]
+  },
+  "UC0847_3": {
+   "codigo": "UC0847_3",
+   "descripcion": "Organizar y controlar el montaje de instalaciones solares térmicas",
+   "nivel": 3,
+   "cualificaciones": [
+    "ENA264_3"
+   ]
+  },
+  "UC0848_3": {
+   "codigo": "UC0848_3",
+   "descripcion": "Organizar y controlar el mantenimiento de instalaciones solares térmicas",
+   "nivel": 3,
+   "cualificaciones": [
+    "ENA264_3"
+   ]
+  }
+ },
+ "cualificaciones": [
+  {
+   "codigo": "ENA358_3",
+   "nombre": "Eficiencia energética de edificios",
+   "nivel": 3,
+   "referencia_legal": "Real Decreto 1698/2007, de 14 de diciembre",
+   "unidades_competencia": [
+    "UC1194_3",
+    "UC1195_3",
+    "UC1196_3",
+    "UC0842_3",
+    "UC1197_3"
+   ]
+  },
+  {
+   "codigo": "ENA264_3",
+   "nombre": "Organización y proyectos de instalaciones solares térmicas",
+   "nivel": 3,
+   "referencia_legal": "Real Decreto 1114/2007, de 24 de agosto",
+   "unidades_competencia": [
+    "UC0842_3",
+    "UC0846_3",
+    "UC0847_3",
+    "UC0848_3"
+   ]
+  }
+ ],
+ "notas": [
+  "Estructura de módulos confirmada con datos de Aragón y RD 1177/2008.",
+  "Duración total: 2.000 horas (enseñanzas mínimas del RD + libres disposición).",
+  "Módulos específicos: 0121, 0122, 0123, 0349, 0350, 0351, 0352, 0353, 0354."
+ ],
+ "no_verificado": [
+  "Equivalencias UC en RD 532/2025 Anexo II-a - no procesadas",
+  "Convalidación de módulo 0350 con ciclos de Eficiencia Energética - verificar en RD 1085/2020 Anexo III"
+ ],
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "El RD del título ENA301 no tiene anexo de convalidaciones derogadas",
+  "filas": []
+ },
+ "pruebas": [
+  {
+   "descripcion": "UC0847_3 convalida 0122",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0847_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0122": "convalidable"
+   },
+   "no_espera": {
+    "0123": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0847_3 convalida 0122 pero no 0353",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0847_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0122": "convalidable"
+   },
+   "no_espera": {
+    "0353": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0848_3 convalida 0353",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0848_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0353": "convalidable"
+   },
+   "no_espera": {
+    "0122": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0842_3 convalida 0123",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0842_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0123": "convalidable"
+   },
+   "no_espera": {
+    "0349": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Combinación: UC1194_3 + UC1195_3 + UC1196_3 + UC1197_3 convalidan módulos de eficiencia",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1194_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1195_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1196_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1197_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0349": "convalidable",
+    "0350": "convalidable",
+    "0351": "convalidable",
+    "0354": "convalidable"
+   },
+   "no_espera": {
+    "0122": "convalidable"
+   }
+  }
+ ]
+}

@@ -1,0 +1,679 @@
+{
+ "ciclo": {
+  "codigo": "ENA302",
+  "nombre": "Técnico Superior en Energías Renovables",
+  "grado": "superior",
+  "familia": "Energía y Agua",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 385/2011, de 18 de marzo",
+    "boe": "BOE-A-2011-6710",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-6710",
+    "nota": "Establece el título de Técnico Superior en Energías Renovables y sus enseñanzas mínimas (2.000 h). Familia: Energía y Agua."
+   },
+   {
+    "ref": "Orden EDU/1564/2011, de 1 de junio",
+    "boe": "BOE-A-2011-10054",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-10054",
+    "nota": "Establece el currículo básico del título con distribución horaria y resultados de aprendizaje."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10685",
+    "nota": "Actualización de enseñanzas mínimas para adaptación a LO 3/2022."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-13181",
+    "nota": "Currículo del ámbito del Ministerio 2024-2025 para Energías Renovables."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Convalidaciones entre títulos. Anexo III contiene posibles convalidaciones con otros ciclos LOE."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/eli/es/rd/2025/06/24/532",
+    "nota": "Equivalencias UC → ECP. Anexo II-a familia Energía y Agua."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0668",
+   "nombre": "Sistemas eléctricos en centrales",
+   "horas": 210,
+   "horas_fuente": "RD 385/2011; Aragón 200h",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0669",
+   "nombre": "Subestaciones eléctricas",
+   "horas": 175,
+   "horas_fuente": "RD 385/2011; Aragón 167h",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0670",
+   "nombre": "Telecontrol y automatismos",
+   "horas": 245,
+   "horas_fuente": "RD 385/2011; Aragón 233h",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0671",
+   "nombre": "Prevención de riesgos eléctricos",
+   "horas": 70,
+   "horas_fuente": "RD 385/2011; Aragón 67h",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0680",
+   "nombre": "Sistemas de energías renovables",
+   "horas": 105,
+   "horas_fuente": "RD 385/2011; Aragón 100h",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0681",
+   "nombre": "Configuración de instalaciones solares fotovoltaicas",
+   "horas": 210,
+   "horas_fuente": "RD 385/2011; Aragón 200h",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0682",
+   "nombre": "Gestión del montaje de instalaciones solares fotovoltaicas",
+   "horas": 210,
+   "horas_fuente": "RD 385/2011; Aragón 200h",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0683",
+   "nombre": "Gestión del montaje de parques eólicos",
+   "horas": 175,
+   "horas_fuente": "RD 385/2011; Aragón 167h",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0684",
+   "nombre": "Operación y mantenimiento de parques eólicos",
+   "horas": 210,
+   "horas_fuente": "RD 385/2011; Aragón 200h",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo IX; Aragón 67h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VI; Aragón 33h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII; Aragón 33h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V; Aragón 100h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V; Aragón 67h",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "0686",
+   "nombre": "Proyecto Intermodular",
+   "horas": 50,
+   "horas_fuente": "RD 500/2024 DA 7ª; Aragón 67h",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 0,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 500/2024 art. 10.3; Aragón 100h",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC1531_3",
+    "UC1532_3",
+    "UC1533_2"
+   ],
+   "modulos": [
+    "0669"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "uc": [
+    "UC0844_3",
+    "UC0845_3",
+    "UC1531_3"
+   ],
+   "modulos": [
+    "0670"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "uc": [
+    "UC1530_2"
+   ],
+   "modulos": [
+    "0671"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "uc": [
+    "UC0842_3",
+    "UC0843_3",
+    "UC0844_3"
+   ],
+   "modulos": [
+    "0681"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "uc": [
+    "UC0845_3"
+   ],
+   "modulos": [
+    "0682"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "uc": [
+    "UC0615_3",
+    "UC0618_2",
+    "UC0619_2"
+   ],
+   "modulos": [
+    "0683"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "uc": [
+    "UC0616_3",
+    "UC0617_3",
+    "UC0618_2"
+   ],
+   "modulos": [
+    "0684"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0669"
+   ],
+   "uc": [
+    "UC1531_3",
+    "UC1532_3",
+    "UC1533_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "modulos": [
+    "0670"
+   ],
+   "uc": [
+    "UC0844_3",
+    "UC0845_3",
+    "UC1531_3"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "modulos": [
+    "0671"
+   ],
+   "uc": [
+    "UC1530_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "modulos": [
+    "0681"
+   ],
+   "uc": [
+    "UC0842_3",
+    "UC0843_3",
+    "UC0844_3"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "modulos": [
+    "0682"
+   ],
+   "uc": [
+    "UC0845_3"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "modulos": [
+    "0683"
+   ],
+   "uc": [
+    "UC0615_3",
+    "UC0618_2",
+    "UC0619_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  },
+  {
+   "modulos": [
+    "0684"
+   ],
+   "uc": [
+    "UC0616_3",
+    "UC0617_3",
+    "UC0618_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 385/2011 Anexo V"
+  }
+ ],
+ "equivalencias_uc": {},
+ "uc_descripciones": {
+  "UC0842_3": "Determinar la viabilidad de proyectos de instalaciones solares",
+  "UC0843_3": "Desarrollar proyectos de instalaciones solares fotovoltaicas",
+  "UC0844_3": "Organizar y controlar el montaje de instalaciones solares fotovoltaicas",
+  "UC0845_3": "Organizar y controlar el mantenimiento de instalaciones solares fotovoltaicas",
+  "UC1530_2": "Adoptar las medidas de prevención de riesgos laborales en el puesto de trabajo",
+  "UC1531_3": "Organizar la operación y mantenimiento de subestaciones eléctricas",
+  "UC1532_3": "Realizar el mantenimiento de sistemas de distribución en subestaciones",
+  "UC1533_2": "Aplicar técnicas de seguridad en instalaciones eléctricas",
+  "UC0615_3": "Dirigir operaciones de centrales eólicas",
+  "UC0616_3": "Realizar el mantenimiento de componentes mecánicos de turbinas eólicas",
+  "UC0617_3": "Realizar el mantenimiento de sistemas de control de turbinas eólicas",
+  "UC0618_2": "Aplicar protecciones de seguridad en parques eólicos",
+  "UC0619_2": "Realizar procedimientos de emergencia en parques eólicos"
+ },
+ "cualificaciones": [],
+ "notas": [
+  "Estructura de módulos confirmada con datos de Aragón y RD 385/2011.",
+  "Módulos específicos: sistemas eléctricos, energías renovables, fotovoltaica, eólica.",
+  "Duración total: 2.000 horas (enseñanzas mínimas).",
+  "UC asociadas mapeadas manualmente del anexo del RD 385/2011"
+ ],
+ "no_verificado": [
+  "Horas exactas de cada módulo en RD 385/2011 - confirmar en Anexo I",
+  "Convalidaciones LOGSE - no localizado aún",
+  "Unidades de Competencia asociadas - pendiente verificación en Anexo V del RD",
+  "Equivalencias UC en RD 532/2025 Anexo II-a - no procesadas"
+ ],
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "El RD del título ENA302 no tiene anexo de convalidaciones derogadas",
+  "filas": []
+ },
+ "pruebas": [
+  {
+   "descripcion": "UC1531_3 + UC1532_3 + UC1533_2 convalidan 0669",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1531_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1532_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1533_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0669": "convalidable"
+   },
+   "no_espera": {
+    "0668": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0844_3 aparece en 0670 y 0681 (UC compartida)",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0844_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {},
+   "no_espera": {}
+  },
+  {
+   "descripcion": "UC0844_3 + UC0845_3 + UC1531_3 convalidan 0670",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0844_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0845_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1531_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0670": "convalidable"
+   },
+   "no_espera": {
+    "0669": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0842_3 + UC0843_3 + UC0844_3 convalidan 0681",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0842_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0843_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0844_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0681": "convalidable"
+   },
+   "no_espera": {
+    "0682": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC1530_2 convalida 0671; UC0845_3 convalida 0682",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1530_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0845_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0671": "convalidable",
+    "0682": "convalidable"
+   },
+   "no_espera": {
+    "0669": "convalidable"
+   }
+  }
+ ]
+}
