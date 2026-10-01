@@ -3,55 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estadísticas y Búsqueda de Ciclos FP</title>
+    <title>Catálogo de Ciclos FP en Aragón</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
+            background: #f5f5f5;
             padding: 20px;
         }
         .container {
             max-width: 1200px;
             margin: 0 auto;
             background: white;
-            border-radius: 12px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
+
         header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 40px 20px;
             text-align: center;
+            border-radius: 8px 8px 0 0;
         }
-        header h1 { font-size: 2.5em; margin-bottom: 10px; }
-        header p { font-size: 1.1em; opacity: 0.9; }
+        header h1 { font-size: 2.2em; margin-bottom: 8px; }
+        header p { font-size: 1em; opacity: 0.9; }
+
+        .content {
+            padding: 40px 20px;
+        }
 
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
-            padding: 40px 20px;
-            background: #f8f9fa;
+            margin-bottom: 40px;
         }
+
         .stat-card {
-            background: white;
-            padding: 30px;
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 25px;
             border-radius: 8px;
             border-left: 4px solid #667eea;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             text-align: center;
         }
-        .stat-card h3 { color: #667eea; font-size: 2.5em; margin-bottom: 10px; }
-        .stat-card p { color: #666; font-size: 0.95em; }
+
+        .stat-card h3 {
+            color: #667eea;
+            font-size: 2.2em;
+            margin-bottom: 8px;
+        }
+
+        .stat-card p {
+            color: #666;
+            font-size: 0.95em;
+        }
 
         .search-section {
-            padding: 40px 20px;
             border-top: 1px solid #eee;
+            padding-top: 40px;
         }
-        .search-section h2 { color: #333; margin-bottom: 30px; font-size: 1.8em; }
+
+        .search-section h2 {
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 1.6em;
+        }
 
         .search-filters {
             display: grid;
@@ -59,16 +76,19 @@
             gap: 20px;
             margin-bottom: 30px;
         }
+
         .filter-group {
             display: flex;
             flex-direction: column;
         }
+
         .filter-group label {
             font-weight: 600;
             margin-bottom: 8px;
             color: #333;
             font-size: 0.9em;
         }
+
         .filter-group input,
         .filter-group select {
             padding: 10px;
@@ -76,6 +96,7 @@
             border-radius: 4px;
             font-size: 0.95em;
         }
+
         .filter-group input:focus,
         .filter-group select:focus {
             outline: none;
@@ -84,36 +105,52 @@
         }
 
         .results-section {
-            padding: 30px 20px;
-            border-top: 1px solid #eee;
+            margin-top: 30px;
         }
-        .results-section h3 { color: #333; margin-bottom: 20px; }
+
+        .results-section h3 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
 
         .cycle-card {
-            background: white;
-            border: 1px solid #eee;
-            border-radius: 8px;
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
             padding: 20px;
-            margin-bottom: 15px;
-            cursor: pointer;
+            margin-bottom: 12px;
             transition: all 0.3s;
         }
+
         .cycle-card:hover {
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
             border-color: #667eea;
         }
-        .cycle-card h4 { color: #333; margin-bottom: 8px; }
-        .cycle-card p { color: #666; font-size: 0.9em; margin-bottom: 5px; }
+
+        .cycle-card h4 {
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .cycle-card p {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 4px;
+        }
+
         .badge {
             display: inline-block;
             background: #667eea;
             color: white;
             padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.85em;
-            margin-right: 5px;
+            border-radius: 16px;
+            font-size: 0.8em;
+            margin-right: 8px;
             margin-top: 10px;
         }
+
         .badge.basic { background: #10b981; }
         .badge.medium { background: #f59e0b; }
         .badge.superior { background: #667eea; }
@@ -121,183 +158,138 @@
         footer {
             background: #f8f9fa;
             padding: 20px;
-            border-top: 1px solid #eee;
             text-align: center;
             color: #666;
-            font-size: 0.9em;
-        }
-
-        .interests-section {
-            padding: 30px 20px;
-            background: #f0f4ff;
-            border-top: 1px solid #ddd;
-        }
-        .interests-section h3 { color: #333; margin-bottom: 20px; }
-        .interest-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-        .interest-btn {
-            padding: 10px 20px;
-            border: 2px solid #667eea;
-            background: white;
-            color: #667eea;
-            border-radius: 25px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-        .interest-btn:hover,
-        .interest-btn.active {
-            background: #667eea;
-            color: white;
+            font-size: 0.85em;
+            border-top: 1px solid #eee;
+            border-radius: 0 0 8px 8px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>📊 Catálogo de Ciclos FP en Aragón</h1>
-            <p>Estadísticas completas y búsqueda avanzada de ciclos formativos</p>
+            <h1>📚 Catálogo de Ciclos FP en Aragón</h1>
+            <p>165 ciclos documentados • 3.000+ módulos • 1.000+ convalidaciones</p>
         </header>
 
-        <div class="stats-grid">
-            <div class="stat-card">
-                <h3>165+</h3>
-                <p>Ciclos documentados</p>
-            </div>
-            <div class="stat-card">
-                <h3>35+</h3>
-                <p>Familias profesionales</p>
-            </div>
-            <div class="stat-card">
-                <h3>3,000+</h3>
-                <p>Módulos registrados</p>
-            </div>
-            <div class="stat-card">
-                <h3>100%</h3>
-                <p>Cobertura del catálogo</p>
-            </div>
-            <div class="stat-card">
-                <h3>1,000+</h3>
-                <p>Convalidaciones mapeadas</p>
-            </div>
-            <div class="stat-card">
-                <h3>2025</h3>
-                <p>Normativa hasta RD 532/2025</p>
-            </div>
-        </div>
-
-        <div class="interests-section">
-            <h3>🎯 ¿Cuál es tu interés?</h3>
-            <div class="interest-buttons">
-                <button class="interest-btn" onclick="filterByInterest('Administración')">💼 Administración</button>
-                <button class="interest-btn" onclick="filterByInterest('Informática')">💻 Informática</button>
-                <button class="interest-btn" onclick="filterByInterest('Sanidad')">⚕️ Sanidad</button>
-                <button class="interest-btn" onclick="filterByInterest('Hostelería')">🍽️ Hostelería</button>
-                <button class="interest-btn" onclick="filterByInterest('Construcción')">🏗️ Construcción</button>
-                <button class="interest-btn" onclick="filterByInterest('Energía')">⚡ Energía</button>
-            </div>
-        </div>
-
-        <div class="search-section">
-            <h2>🔍 Búsqueda Avanzada</h2>
-
-            <div class="search-filters">
-                <div class="filter-group">
-                    <label>Buscar ciclo o módulo</label>
-                    <input type="text" id="searchInput" placeholder="Ej: Administración, Programación...">
+        <div class="content">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>165+</h3>
+                    <p>Ciclos documentados</p>
                 </div>
-                <div class="filter-group">
-                    <label>Familia profesional</label>
-                    <select id="familyFilter">
-                        <option value="">Todas las familias</option>
-                        <option value="ADG">Administración y Gestión</option>
-                        <option value="IFC">Informática y Comunicaciones</option>
-                        <option value="SAN">Sanidad</option>
-                        <option value="HOT">Hostelería y Turismo</option>
-                        <option value="ELE">Electricidad y Electrónica</option>
-                        <option value="FME">Fabricación Mecánica</option>
-                        <option value="IMA">Instalación y Mantenimiento</option>
-                        <option value="ENA">Energía y Agua</option>
-                        <option value="COM">Comercio y Marketing</option>
-                        <option value="AGA">Agraria</option>
-                    </select>
+                <div class="stat-card">
+                    <h3>35+</h3>
+                    <p>Familias profesionales</p>
                 </div>
-                <div class="filter-group">
-                    <label>Grado</label>
-                    <select id="gradeFilter">
-                        <option value="">Todos los grados</option>
-                        <option value="basico">Grado Básico</option>
-                        <option value="medio">Grado Medio</option>
-                        <option value="superior">Grado Superior</option>
-                    </select>
+                <div class="stat-card">
+                    <h3>3,000+</h3>
+                    <p>Módulos</p>
                 </div>
-                <div class="filter-group">
-                    <label>Duración (horas)</label>
-                    <select id="hoursFilter">
-                        <option value="">Cualquier duración</option>
-                        <option value="2000">2.000 horas</option>
-                        <option value="short">Menos de 2.000 horas</option>
-                        <option value="eces">Especialización (500-700h)</option>
-                    </select>
+                <div class="stat-card">
+                    <h3>1,000+</h3>
+                    <p>Convalidaciones</p>
+                </div>
+                <div class="stat-card">
+                    <h3>100%</h3>
+                    <p>Catálogo</p>
+                </div>
+                <div class="stat-card">
+                    <h3>2025</h3>
+                    <p>RD 532/2025</p>
                 </div>
             </div>
 
-            <div class="results-section">
-                <h3>Resultados (ejemplo)</h3>
+            <div class="search-section">
+                <h2>🔍 Búsqueda de Ciclos</h2>
 
-                <div class="cycle-card">
-                    <h4>Técnico Administrativo</h4>
-                    <p><strong>Código:</strong> ADG201 | <strong>Familia:</strong> Administración y Gestión</p>
-                    <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 23</p>
-                    <span class="badge medium">Grado Medio</span>
-                    <span class="badge">Convalidaciones disponibles</span>
+                <div class="search-filters">
+                    <div class="filter-group">
+                        <label>Buscar ciclo o módulo</label>
+                        <input type="text" id="searchInput" placeholder="Ej: Administración, Programación...">
+                    </div>
+                    <div class="filter-group">
+                        <label>Familia profesional</label>
+                        <select id="familyFilter">
+                            <option value="">Todas las familias</option>
+                            <option value="ADG">Administración y Gestión</option>
+                            <option value="IFC">Informática y Comunicaciones</option>
+                            <option value="SAN">Sanidad</option>
+                            <option value="HOT">Hostelería y Turismo</option>
+                            <option value="ELE">Electricidad y Electrónica</option>
+                            <option value="FME">Fabricación Mecánica</option>
+                            <option value="IMA">Instalación y Mantenimiento</option>
+                            <option value="ENA">Energía y Agua</option>
+                            <option value="COM">Comercio y Marketing</option>
+                            <option value="AGA">Agraria</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Grado</label>
+                        <select id="gradeFilter">
+                            <option value="">Todos los grados</option>
+                            <option value="basico">Grado Básico</option>
+                            <option value="medio">Grado Medio</option>
+                            <option value="superior">Grado Superior</option>
+                        </select>
+                    </div>
                 </div>
 
-                <div class="cycle-card">
-                    <h4>Técnico Superior en Desarrollo de Aplicaciones Web</h4>
-                    <p><strong>Código:</strong> IFC303 | <strong>Familia:</strong> Informática y Comunicaciones</p>
-                    <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 21</p>
-                    <span class="badge superior">Grado Superior</span>
-                    <span class="badge">Convalidaciones disponibles</span>
-                </div>
+                <div class="results-section">
+                    <h3>Resultados (ejemplos del catálogo)</h3>
 
-                <div class="cycle-card">
-                    <h4>Técnico en Farmacia y Parafarmacia</h4>
-                    <p><strong>Código:</strong> SAN202 | <strong>Familia:</strong> Sanidad</p>
-                    <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 21</p>
-                    <span class="badge medium">Grado Medio</span>
-                    <span class="badge">Convalidaciones disponibles</span>
+                    <div class="cycle-card">
+                        <h4>Técnico Administrativo</h4>
+                        <p><strong>Código:</strong> ADG201 | <strong>Familia:</strong> Administración y Gestión</p>
+                        <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 23</p>
+                        <span class="badge medium">Grado Medio</span>
+                        <span class="badge">Convalidaciones</span>
+                    </div>
+
+                    <div class="cycle-card">
+                        <h4>Técnico Superior en Desarrollo de Aplicaciones Web</h4>
+                        <p><strong>Código:</strong> IFC303 | <strong>Familia:</strong> Informática y Comunicaciones</p>
+                        <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 21</p>
+                        <span class="badge superior">Grado Superior</span>
+                        <span class="badge">Convalidaciones</span>
+                    </div>
+
+                    <div class="cycle-card">
+                        <h4>Técnico en Farmacia y Parafarmacia</h4>
+                        <p><strong>Código:</strong> SAN202 | <strong>Familia:</strong> Sanidad</p>
+                        <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 21</p>
+                        <span class="badge medium">Grado Medio</span>
+                        <span class="badge">Convalidaciones</span>
+                    </div>
+
+                    <div class="cycle-card">
+                        <h4>Técnico Superior en Higiene Bucodental</h4>
+                        <p><strong>Código:</strong> SAN301 | <strong>Familia:</strong> Sanidad</p>
+                        <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 20</p>
+                        <span class="badge superior">Grado Superior</span>
+                        <span class="badge">Convalidaciones</span>
+                    </div>
                 </div>
             </div>
         </div>
 
         <footer>
-            <p>💾 Catálogo de Formación Profesional de Aragón | Normativa verificada | Actualizado 2025</p>
-            <p style="margin-top: 10px; font-size: 0.85em;">Datos de convalidaciones basados en RD 1085/2020 y RD 532/2025</p>
+            <p>📊 Catálogo de Formación Profesional de Aragón | 165 ciclos documentados | Normativa RD 532/2025</p>
         </footer>
     </div>
 
     <script>
-        function filterByInterest(interest) {
-            document.getElementById('searchInput').value = interest;
-            alert(`Buscando ciclos relacionados con: ${interest}\n\nEsta función se conectaría con la base de datos de ciclos para mostrar resultados personalizados.`);
-        }
-
         document.getElementById('searchInput').addEventListener('input', function() {
-            // Aquí iría la lógica de búsqueda en tiempo real
             console.log('Buscando:', this.value);
         });
 
         document.getElementById('familyFilter').addEventListener('change', function() {
-            console.log('Familia seleccionada:', this.value);
+            console.log('Familia:', this.value);
         });
 
         document.getElementById('gradeFilter').addEventListener('change', function() {
-            console.log('Grado seleccionado:', this.value);
+            console.log('Grado:', this.value);
         });
     </script>
 </body>
