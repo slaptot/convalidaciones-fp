@@ -1,11 +1,10 @@
-// Generado por tools/build_data.py a partir de research/tmv204.json. No editar a mano.
-window.CICLOS = window.CICLOS || {};
-window.CICLOS["tmv204"] = {
+{
  "ciclo": {
   "codigo": "TMV204",
   "nombre": "Técnico en Electromecánica de Maquinaria",
   "grado": "medio",
   "familia": "Transporte y Mantenimiento de Vehículos",
+  "duracion_total_horas": 2000,
   "normas": [
    {
     "ref": "RD 255/2011, de 28 de febrero",
@@ -97,374 +96,441 @@ window.CICLOS["tmv204"] = {
     "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
     "nota": "BOA núm. 181, de 18/09/2025. Los optativos de oferta común pasan de A173/A171/A172 a AOP1001 (Comunicación profesional en Inglés GM), AOP1002 (Segunda lengua profesional Francés) y AOP1003 (Ofimática avanzada aplicada al sector profesional). No toca la tabla horaria de este ciclo."
    }
-  ],
-  "plan": "LOE"
+  ]
  },
  "modulos": [
   {
    "codigo": "0452",
    "nombre": "Motores",
+   "horas": 120,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
    "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 167,
-    "mefp": 160,
-    "loe": 192
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": 1
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 192,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0742",
    "nombre": "Sistemas auxiliares del motor diésel",
+   "horas": 60,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
    "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 167,
-    "mefp": 120,
-    "loe": 126
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 1,
-    "loe": 2
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 120,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 126,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0714",
    "nombre": "Sistemas de suspensión y guiado",
+   "horas": 140,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
    "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 200,
-    "mefp": 280,
-    "loe": 256
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 2,
-    "loe": 1
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 280,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 256,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0715",
    "nombre": "Sistemas de fuerza y detención",
+   "horas": 85,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
    "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 233,
-    "mefp": 220,
-    "loe": 168
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": 2
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 220,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 168,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0716",
    "nombre": "Sistemas de accionamiento de equipos y aperos",
+   "horas": 85,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
    "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 167,
-    "mefp": 260,
-    "loe": 147
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": 2
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 260,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 147,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0717",
    "nombre": "Equipos y aperos",
+   "horas": 70,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
    "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 133,
-    "mefp": 100,
-    "loe": 128
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": 1
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0456",
    "nombre": "Sistemas de carga y arranque",
+   "horas": 125,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
    "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 200,
-    "mefp": 160,
-    "loe": 224
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": 1
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 224,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0718",
    "nombre": "Circuitos eléctricos, electrónicos y de confortabilidad",
+   "horas": 60,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
    "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 133,
-    "mefp": 130,
-    "loe": 126
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 1,
-    "loe": 2
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 126,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0260",
    "nombre": "Mecanizado básico",
+   "horas": 50,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
    "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 67,
-    "mefp": 100,
-    "loe": 64
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": 1
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 64,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0156",
    "nombre": "Inglés Profesional (GM)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo IX (currículo básico); añadido por el RD 499/2024 (art. cuarto.Uno.c).2.º)",
+   "curso": null,
    "tipo": "comun",
-   "comun": "ingles",
-   "horas": {
-    "aragon": 67,
-    "mefp": 70,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
   },
   {
    "codigo": "1709",
    "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
    "tipo": "comun",
-   "comun": "ipe1",
-   "horas": {
-    "aragon": 100,
-    "mefp": 100,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
   },
   {
    "codigo": "1710",
    "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
    "tipo": "comun",
-   "comun": "ipe2",
-   "horas": {
-    "aragon": 67,
-    "mefp": 100,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
   },
   {
    "codigo": "1664",
    "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VI (currículo básico)",
+   "curso": null,
    "tipo": "comun",
-   "comun": "digitalizacion",
-   "horas": {
-    "aragon": 33,
-    "mefp": 35,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
   },
   {
    "codigo": "1708",
    "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
    "tipo": "comun",
-   "comun": "sostenibilidad",
-   "horas": {
-    "aragon": 33,
-    "mefp": 35,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 1,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
   },
   {
    "codigo": "1713",
    "nombre": "Proyecto intermodular",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 y RD 499/2024 (art. cuarto.Uno.c).2.º)",
+   "curso": null,
    "tipo": "proyecto",
-   "comun": "proyecto",
-   "horas": {
-    "aragon": 67,
-    "mefp": 50,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    }
+   }
   },
   {
-   "codigo": "OPT",
+   "codigo": null,
    "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 499/2024 art. cuarto y RD 659/2023 anexo IV",
+   "curso": null,
    "tipo": "optativo",
-   "comun": "optativo",
-   "horas": {
-    "aragon": 100,
-    "mefp": 80,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
   },
   {
    "codigo": "A997",
    "nombre": "Tutoría I (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 (Aragón), anexo XLV",
+   "curso": 1,
    "tipo": "comun",
-   "comun": "tutoria",
-   "horas": {
-    "aragon": 33,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    }
+   }
   },
   {
    "codigo": "A996",
    "nombre": "Tutoría II (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 (Aragón), anexo XLV",
+   "curso": 2,
    "tipo": "comun",
-   "comun": "tutoria",
-   "horas": {
-    "aragon": 33,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": null,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    }
+   }
   },
   {
    "codigo": "0719",
    "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h); suprimido por el RD 499/2024 (art. cuarto.Uno.c).1.º)",
+   "curso": null,
    "tipo": "comun",
-   "comun": "fol_loe",
-   "horas": {
-    "aragon": null,
-    "mefp": null,
-    "loe": 96
-   },
-   "curso": {
-    "aragon": null,
-    "mefp": null,
-    "loe": 1
-   },
-   "nota": null
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0720",
    "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h); suprimido por el RD 499/2024 (art. cuarto.Uno.c).1.º)",
+   "curso": null,
    "tipo": "comun",
-   "comun": "eie_loe",
-   "horas": {
-    "aragon": null,
-    "mefp": null,
-    "loe": 63
-   },
-   "curso": {
-    "aragon": null,
-    "mefp": null,
-    "loe": 2
-   },
-   "nota": null
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   },
   {
    "codigo": "0721",
    "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 255/2011 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h); suprimido por el RD 499/2024 (art. cuarto.Uno.c).1.º)",
+   "curso": null,
    "tipo": "empresa",
-   "comun": "empresa",
-   "horas": {
-    "aragon": null,
-    "mefp": null,
-    "loe": 410
-   },
-   "curso": {
-    "aragon": null,
-    "mefp": null,
-    "loe": 2
-   },
-   "nota": null
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 410,
+     "curso": 2,
+     "fuente": "Orden de 8 de mayo de 2014 (BOA núm. 106, de 03/06/2014, csv BOA20140603001), anexo I (duración del módulo); el curso se deduce de la duración (ver no_verificado)"
+    }
+   }
   }
  ],
  "convalidaciones_titulos_anteriores": [
   {
    "origen_titulo": "Técnico en Electromecánica de Vehículos (LOGSE, RD 1649/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
-   "origen_modulo": [
-    "Motores"
-   ],
+   "origen_modulo": "Motores",
    "destino_modulos": [
     "0452"
    ],
@@ -472,9 +538,7 @@ window.CICLOS["tmv204"] = {
   },
   {
    "origen_titulo": "Técnico en Electromecánica de Vehículos (LOGSE, RD 1649/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
-   "origen_modulo": [
-    "Sistemas auxiliares del motor"
-   ],
+   "origen_modulo": "Sistemas auxiliares del motor",
    "destino_modulos": [
     "0742"
    ],
@@ -482,9 +546,7 @@ window.CICLOS["tmv204"] = {
   },
   {
    "origen_titulo": "Técnico en Electromecánica de Vehículos (LOGSE, RD 1649/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
-   "origen_modulo": [
-    "Circuitos electrotécnicos básicos. Sistemas de carga y arranque del vehículo"
-   ],
+   "origen_modulo": "Circuitos electrotécnicos básicos. Sistemas de carga y arranque del vehículo",
    "destino_modulos": [
     "0456"
    ],
@@ -492,9 +554,7 @@ window.CICLOS["tmv204"] = {
   },
   {
    "origen_titulo": "Técnico en Electromecánica de Vehículos (LOGSE, RD 1649/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
-   "origen_modulo": [
-    "Técnicas de mecanizado para el mantenimiento de vehículos"
-   ],
+   "origen_modulo": "Técnicas de mecanizado para el mantenimiento de vehículos",
    "destino_modulos": [
     "0260"
    ],
@@ -502,9 +562,7 @@ window.CICLOS["tmv204"] = {
   },
   {
    "origen_titulo": "Técnico en Mantenimiento Ferroviario (LOGSE, RD 2047/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
-   "origen_modulo": [
-    "Técnicas de mecanizado para el mantenimiento y montaje"
-   ],
+   "origen_modulo": "Técnicas de mecanizado para el mantenimiento y montaje",
    "destino_modulos": [
     "0260"
    ],
@@ -512,9 +570,7 @@ window.CICLOS["tmv204"] = {
   },
   {
    "origen_titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (LOGSE, RD 2046/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
-   "origen_modulo": [
-    "Técnicas de mecanizado y unión para el montaje y mantenimiento de instalaciones"
-   ],
+   "origen_modulo": "Técnicas de mecanizado y unión para el montaje y mantenimiento de instalaciones",
    "destino_modulos": [
     "0260"
    ],
@@ -522,9 +578,7 @@ window.CICLOS["tmv204"] = {
   },
   {
    "origen_titulo": "Técnico en Mantenimiento Ferroviario (LOGSE, RD 2047/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
-   "origen_modulo": [
-    "Motor Diésel"
-   ],
+   "origen_modulo": "Motor Diésel",
    "destino_modulos": [
     "0742",
     "0452"
@@ -533,81 +587,95 @@ window.CICLOS["tmv204"] = {
   },
   {
    "origen_titulo": "Técnico en Instalación y Mantenimiento Electromecánico de Maquinaria y Conducción de Líneas (LOGSE, RD 2045/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
-   "origen_modulo": [
-    "Técnicas de mecanizado para el mantenimiento y montaje"
-   ],
+   "origen_modulo": "Técnicas de mecanizado para el mantenimiento y montaje",
    "destino_modulos": [
     "0260"
    ],
    "fuente": "OJO: RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Instalación y Mantenimiento Electromecánico de Maquinaria y Conducción de Líneas (RD 2045/1995) → Técnico en Mantenimiento de Material Rodante Ferroviario (RD 1145/2012)», fila «Técnicas de mecanizado para el mantenimiento y montaje → 0260». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque 0260 es el mismo módulo."
-  }
- ],
- "convalidaciones_loe": [
+  },
   {
-   "origen_codigos": [
-    "0453"
-   ],
-   "origen_nombre": "Sistemas auxiliares del motor",
    "origen_titulo": "Técnico en Electromecánica de Vehículos Automóviles (LOE, RD 453/2010, de 16 de abril)",
+   "origen_modulo": "0453. Sistemas auxiliares del motor",
    "destino_modulos": [
     "0742"
    ],
    "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Electromecánica de Vehículos Automóviles (RD 453/2010) → Técnico en Electromecánica de Maquinaria (RD 255/2011)», fila «0453 → 0742 Sistemas auxiliares del motor Diésel». Es la única fila del anexo IV B) de 2011 que el RD 1085/2020 reproduce."
   },
   {
-   "origen_codigos": [
-    "1173"
-   ],
-   "origen_nombre": "Procedimientos de mecanizado y soldadura en buques y embarcaciones",
    "origen_titulo": "Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (LOE, RD 1072/2012, de 13 de julio) (Marítimo-Pesquera)",
+   "origen_modulo": "1173. Procedimientos de mecanizado y soldadura en buques y embarcaciones",
    "destino_modulos": [
     "0260"
    ],
    "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (RD 1072/2012) (Marítimo Pesquera) → Técnico en Electromecánica de Maquinaria (RD 255/2011)», fila «1173 → 0260»."
   },
   {
-   "origen_codigos": [
-    "1172"
-   ],
-   "origen_nombre": "Mantenimiento de la planta propulsora y maquinaria auxiliar",
    "origen_titulo": "Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (LOE, RD 1072/2012, de 13 de julio) (Marítimo-Pesquera)",
+   "origen_modulo": "1172. Mantenimiento de la planta propulsora y maquinaria auxiliar",
    "destino_modulos": [
     "0452"
    ],
    "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (RD 1072/2012) (Marítimo Pesquera) → Técnico en Electromecánica de Maquinaria (RD 255/2011)» (segundo bloque con el mismo origen), fila «1172 → 0452. Motores»."
   },
   {
-   "origen_codigos": [
-    "1562"
-   ],
-   "origen_nombre": "Técnicas de mecanizado y unión",
    "origen_titulo": "Técnico en Redes y Estaciones de Tratamiento de Aguas (LOE, RD 114/2017, de 17 de febrero) (Energía y Agua)",
+   "origen_modulo": "1562. Técnicas de mecanizado y unión",
    "destino_modulos": [
     "0260"
    ],
    "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017) (Energía y agua) → Técnico en Electromecánica de Maquinaria (RD 255/2011)», fila «1562 → 0260»."
   },
   {
-   "origen_codigos": [
-    "1580"
-   ],
-   "origen_nombre": "Técnicas de montaje en instalaciones de agua",
    "origen_titulo": "Técnico Superior en Gestión del Agua (LOE, RD 113/2017, de 17 de febrero) (Energía y Agua)",
+   "origen_modulo": "1580. Técnicas de montaje en instalaciones de agua",
    "destino_modulos": [
     "0260"
    ],
    "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico Superior en Gestión del Agua (RD 113/2017) (Energía y Agua) → Técnico en Electromecánica de Maquinaria (RD 255/2011)», fila «1580 → 0260»."
   },
   {
-   "origen_codigos": [
-    "1308"
-   ],
-   "origen_nombre": "Organización del mantenimiento de planta propulsora y maquinaria auxiliar de buques",
    "origen_titulo": "Técnico Superior en Organización del Mantenimiento de Maquinaria de Buques y Embarcaciones (LOE, RD 1075/2012, de 13 de julio) (Marítimo-Pesquera)",
+   "origen_modulo": "1308. Organización del mantenimiento de planta propulsora y maquinaria auxiliar de buques",
    "destino_modulos": [
     "0452"
    ],
    "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico Superior en Organización del Mantenimiento de Maquinaria de Buques y Embarcaciones (RD 1075/2012) (Marítimo Pesquera) → Técnico en Electromecánica de Maquinaria (RD 255/2011)», fila «1308 → 0452. Motores»."
+  },
+  {
+   "origen_titulo": "Técnico en Electromecánica de Maquinaria (LOE, RD 255/2011, de 28 de febrero)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0407"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Agraria», grado medio, bloque «Técnico en Electromecánica de Maquinaria (RD 255/2011) (Transporte y Mantenimiento de Vehículos) → Técnico en Jardinería y Floristería (RD 1129/2010)», fila «Ciclo Completo → 0407. Taller y equipos de tracción». Sentido inverso: este título APORTA la formación (exige el título completo). Coincide con research/aga204.json (y, por la DA 5.ª, con aga201.json).",
+   "destino_titulo": "Técnico en Jardinería y Floristería (LOE, RD 1129/2010, de 10 de septiembre) (Agraria)"
+  },
+  {
+   "origen_titulo": "Técnico en Electromecánica de Maquinaria (LOE, RD 255/2011, de 28 de febrero)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0407"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Agraria», grado medio, bloque «Técnico en Electromecánica de Maquinaria (RD 255/2011) (Transporte y Mantenimiento de Vehículos) → Técnico en Producción Agroecológica (RD 1633/2009)», fila «Ciclo Completo → 0407. Taller y equipos de tracción». Sentido inverso: este título APORTA la formación (exige el título completo). Coincide con research/aga202.json.",
+   "destino_titulo": "Técnico en Producción Agroecológica (LOE, RD 1633/2009, de 30 de octubre) (Agraria)"
+  },
+  {
+   "origen_titulo": "Técnico en Electromecánica de Maquinaria (LOE, RD 255/2011, de 28 de febrero)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0052"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Sanidad», grado medio, bloque «Técnico en Electromecánica de Maquinaria (RD 255/2011) (Transporte y Mantenimiento de Vehículos) → Técnico en Emergencias Sanitarias (RD 1397/2007)», fila «Ciclo completo → 0052. Mantenimiento mecánico preventivo del vehículo». Sentido inverso: este título APORTA la formación (exige el título completo). Coincide con research/san203.json.",
+   "destino_titulo": "Técnico en Emergencias Sanitarias (LOE, RD 1397/2007, de 29 de octubre) (Sanidad)"
+  },
+  {
+   "origen_titulo": "Técnico en Electromecánica de Maquinaria (LOE, RD 255/2011, de 28 de febrero)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "1210"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Electromecánica de Maquinaria (RD 255/2011) → Técnico en Conducción de Vehículos de Transporte por Carretera (RD 555/2012)», fila «Ciclo completo → 1210. Mantenimiento básico de vehículos». Sentido inverso: este título APORTA la formación (exige el título completo).",
+   "destino_titulo": "Técnico en Conducción de Vehículos de Transporte por Carretera (LOE, RD 555/2012, de 23 de marzo)"
   }
  ],
  "uc_a_modulos": [
@@ -618,7 +686,8 @@ window.CICLOS["tmv204"] = {
    "modulos": [
     "0714"
    ],
-   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título)."
+   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título).",
+   "vigente": true
   },
   {
    "uc": [
@@ -627,7 +696,8 @@ window.CICLOS["tmv204"] = {
    "modulos": [
     "0715"
    ],
-   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título)."
+   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título).",
+   "vigente": true
   },
   {
    "uc": [
@@ -636,7 +706,8 @@ window.CICLOS["tmv204"] = {
    "modulos": [
     "0716"
    ],
-   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título)."
+   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título).",
+   "vigente": true
   },
   {
    "uc": [
@@ -645,7 +716,8 @@ window.CICLOS["tmv204"] = {
    "modulos": [
     "0717"
    ],
-   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título)."
+   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título).",
+   "vigente": true
   },
   {
    "uc": [
@@ -655,7 +727,8 @@ window.CICLOS["tmv204"] = {
     "0452",
     "0742"
    ],
-   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título). Una sola UC convalida los dos módulos de la celda de destino."
+   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título). Una sola UC convalida los dos módulos de la celda de destino.",
+   "vigente": true
   },
   {
    "uc": [
@@ -665,7 +738,8 @@ window.CICLOS["tmv204"] = {
     "0456",
     "0718"
    ],
-   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título). Una sola UC convalida los dos módulos de la celda de destino."
+   "fuente": "RD 255/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 499/2024 no modifica el art. 6 ni los anexos V de este título). Una sola UC convalida los dos módulos de la celda de destino.",
+   "vigente": true
   },
   {
    "uc": [
@@ -679,9 +753,77 @@ window.CICLOS["tmv204"] = {
    "modulos": [
     "0260"
    ],
-   "fuente": "RD 255/2011 anexo V A), NOTA final: quien tenga acreditadas TODAS las UC incluidas en el título (RD 1224/2009) tiene convalidado «0260. Mecanizado básico». Hacen falta las seis."
+   "fuente": "RD 255/2011 anexo V A), NOTA final: quien tenga acreditadas TODAS las UC incluidas en el título (RD 1224/2009) tiene convalidado «0260. Mecanizado básico». Hacen falta las seis.",
+   "vigente": true
   }
  ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0714"
+   ],
+   "uc": [
+    "UC0849_2"
+   ],
+   "fuente": "RD 255/2011 anexo V B), redacción original de 2011, VIGENTE (el RD 499/2024 no la modifica).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0715"
+   ],
+   "uc": [
+    "UC0850_2"
+   ],
+   "fuente": "RD 255/2011 anexo V B), redacción original de 2011, VIGENTE (el RD 499/2024 no la modifica).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0716"
+   ],
+   "uc": [
+    "UC0851_2"
+   ],
+   "fuente": "RD 255/2011 anexo V B), redacción original de 2011, VIGENTE (el RD 499/2024 no la modifica). La tabla escribe «Sistemas de accionamientos» (sic).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0717"
+   ],
+   "uc": [
+    "UC0852_2"
+   ],
+   "fuente": "RD 255/2011 anexo V B), redacción original de 2011, VIGENTE (el RD 499/2024 no la modifica).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0452",
+    "0742"
+   ],
+   "uc": [
+    "UC0629_2"
+   ],
+   "fuente": "RD 255/2011 anexo V B), redacción original de 2011, VIGENTE (el RD 499/2024 no la modifica). Hacen falta los dos módulos (misma celda; art. 15.4 según el RD 499/2024).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0456",
+    "0718"
+   ],
+   "uc": [
+    "UC0853_2"
+   ],
+   "fuente": "RD 255/2011 anexo V B), redacción original de 2011, VIGENTE (el RD 499/2024 no la modifica). Hacen falta los dos módulos (misma celda; art. 15.4 según el RD 499/2024).",
+   "vigente": true
+  }
+ ],
+ "equivalencias_uc": {},
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
  "uc_descripciones": {
   "UC0849_2": "«Mantener los sistemas de dirección y suspensión de maquinaria agrícola, de industrias extractivas y de edificación y obra civil» [ECP0849_2]. Cualificación TMV265_2 (RD 815/2007). Por sí sola convalida 0714.",
   "UC0850_2": "«Mantener los sistemas de transmisión y frenos de maquinaria agrícola, de industrias extractivas y de edificación y obra civil» [ECP0850_2]. TMV265_2. Por sí sola convalida 0715.",
@@ -690,7 +832,54 @@ window.CICLOS["tmv204"] = {
   "UC0629_2": "«Mantener motores diésel» (hoy «Mantener motores diésel y sistemas auxiliares») [ECP0629_2]. TMV266_2. Por sí sola convalida 0452 y 0742.",
   "UC0853_2": "«Mantener los sistemas eléctricos, de seguridad y confortabilidad de maquinaria agrícola, de industrias extractivas y de edificación y obra civil» [ECP0853_2]. TMV266_2. Por sí sola convalida 0456 y 0718."
  },
- "uc_equivalencias": {},
+ "cualificaciones": [
+  {
+   "codigo": "TMV265_2",
+   "nombre_2010": "Mantenimiento de sistemas de rodaje y transmisión de maquinaria agrícola, de industrias extractivas y de edificación y obra civil, sus equipos y aperos",
+   "nombre_vigente": "Mantenimiento de sistemas de rodaje y transmisión de maquinaria agrícola, de industrias extractivas y de edificación y obra civil, sus equipos y aperos",
+   "completa": true,
+   "uc": [
+    "UC0849_2",
+    "UC0850_2",
+    "UC0851_2",
+    "UC0852_2"
+   ],
+   "uc_2010": [
+    "UC0849_2",
+    "UC0850_2",
+    "UC0851_2",
+    "UC0852_2"
+   ],
+   "uc_vigente": [
+    "UC0849_2",
+    "UC0850_2",
+    "UC0851_2",
+    "UC0852_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 815/2007, de 22 de junio (anexo CCLXV; actualizada por la Orden EFP/63/2021 según el análisis del BOE). Art. 6.a) del RD 255/2011. Sin cambios de código en el RD 532/2025 (ECP0849_2-ECP0852_2)."
+  },
+  {
+   "codigo": "TMV266_2",
+   "nombre_2010": "Mantenimiento del motor y de los sistemas eléctricos, de seguridad y confortabilidad de maquinaria agrícola, de industrias extractivas y de edificación y obra civil",
+   "nombre_vigente": "Mantenimiento del motor y de los sistemas eléctricos, de seguridad y confortabilidad de maquinaria agrícola, de industrias extractivas y de edificación y obra civil",
+   "completa": true,
+   "uc": [
+    "UC0629_2",
+    "UC0853_2"
+   ],
+   "uc_2010": [
+    "UC0629_2",
+    "UC0853_2"
+   ],
+   "uc_vigente": [
+    "UC0629_2",
+    "UC0853_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 815/2007, de 22 de junio (anexo CCLXVI, sustituido por el anexo III del RD 919/2024, de 17 de septiembre). Art. 6.b) del RD 255/2011. Sin cambios de código (ECP0629_2, ECP0853_2)."
+  }
+ ],
  "notas": [
   "El campo «horas» es el de enseñanzas mínimas / currículo básico (RD 255/2011 anexo I, 1.100 h = 55 % de 2.000 h; RD 659/2023 y RD 499/2024 para los comunes nuevos). «horas_otras»: aragon = Orden ECD/842/2024 anexo XLV (diurno); mefp = Orden EFD/657/2024 anexo LXI; loe = Orden de 8 de mayo de 2014 de Aragón, anexo I.",
   "Denominación y código confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=TMV204): TMV204 «Electromecánica de Maquinaria», CFGM, familia Transporte y Mantenimiento de Vehículos (TMV), 2.000 h, solo DIURNO; horas y cursos coinciden módulo a módulo con la Orden ECD/842/2024 y con research/catalogo-aragon.json. El título es el RD 255/2011 (no el RD 1794/2010).",
@@ -713,5 +902,292 @@ window.CICLOS["tmv204"] = {
   "Cualificaciones: no se han leído las horas de formación asociada de TMV265_2 y TMV266_2 («formacion_asociada_horas» es null). La actualización de TMV265_2 por la Orden EFP/63/2021 se toma del análisis del BOE del RD 815/2007 (https://www.boe.es/buscar/doc.php?id=BOE-A-2007-12801), sin abrir la orden.",
   "No se han revisado los anexos de convalidaciones de reales decretos de títulos posteriores al 05/03/2017 (salvo los RD 113/2017 y 114/2017, que el RD 1085/2020 ya recoge) para ver si alguno aporta o recibe módulos de este ciclo.",
   "No se ha abierto la Orden EDU/1296/2011 (currículo LOE del Ministerio); id del BOE resuelto por ELI. Páginas del BOA de la Orden ECD/842/2024 no comprobadas; se cita el anexo y el csv: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404"
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "Filas de los anexos IV A) y IV B) originales del RD 255/2011 (derogados por la disp. derogatoria única.2 del RD 1085/2020) que el RD 1085/2020 no reproduce. Se recogen por trazabilidad; NO aplicar.",
+  "filas": [
+   {
+    "origen_titulo": "Técnico en Electromecánica de Vehículos (LOGSE, RD 1649/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
+    "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa",
+    "destino_modulos": [
+     "0720"
+    ],
+    "fuente": "RD 255/2011 anexo IV A), texto original de 2011, DEROGADO. Hoy: tabla general de EIE del anexo II del RD 1085/2020 → 1710 (DA 6.ª)."
+   },
+   {
+    "origen_titulo": "Técnico en Electromecánica de Vehículos (LOGSE, RD 1649/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
+    "origen_modulo": "Formación en centro de trabajo",
+    "destino_modulos": [
+     "0721"
+    ],
+    "fuente": "RD 255/2011 anexo IV A), texto original de 2011, DEROGADO (celda «Formación en centro de trabajo del título de Técnico en Electromecánica de Vehículos → 0721»). La formación en empresa no se convalida."
+   },
+   {
+    "origen_titulo": "Técnico en Electromecánica de Vehículos Automóviles (LOE, RD 453/2010, de 16 de abril)",
+    "origen_modulo": "0457. Circuitos eléctricos auxiliares del vehículo + 0458. Sistemas de seguridad y confortabilidad",
+    "destino_modulos": [
+     "0718"
+    ],
+    "fuente": "RD 255/2011 anexo IV B), texto original de 2011, DEROGADO. El bloque «Electromecánica de Vehículos Automóviles → Electromecánica de Maquinaria» del anexo III del RD 1085/2020 solo contiene «0453 → 0742»; esta fila no se reproduce."
+   }
+  ]
+ },
+ "pruebas": [
+  {
+   "descripcion": "LOGSE Electromecánica de Vehículos: Motores → 0452 y Sistemas auxiliares del motor → 0742; no 0714",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Electromecánica de Vehículos",
+     "modulo": "Motores",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Electromecánica de Vehículos",
+     "modulo": "Sistemas auxiliares del motor",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0452": "convalidable",
+    "0742": "convalidable"
+   },
+   "no_espera": {
+    "0714": "convalidable",
+    "0456": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOGSE Electromecánica de Vehículos: Circuitos electrotécnicos básicos → 0456 y Técnicas de mecanizado → 0260; no 0718",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Electromecánica de Vehículos",
+     "modulo": "Circuitos electrotécnicos básicos. Sistemas de carga y arranque del vehículo",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Electromecánica de Vehículos",
+     "modulo": "Técnicas de mecanizado para el mantenimiento de vehículos",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0456": "convalidable",
+    "0260": "convalidable"
+   },
+   "no_espera": {
+    "0718": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOGSE Mantenimiento Ferroviario: Motor Diésel → 0742 y 0452 (DA 5.ª) y Técnicas de mecanizado → 0260",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Mantenimiento Ferroviario",
+     "modulo": "Motor Diésel",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Mantenimiento Ferroviario",
+     "modulo": "Técnicas de mecanizado para el mantenimiento y montaje",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0742": "convalidable",
+    "0452": "convalidable",
+    "0260": "convalidable"
+   },
+   "no_espera": {
+    "0456": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOE: 0453 de Vehículos Automóviles → 0742; 1172 de Buques → 0452; 1562 de Redes de Aguas → 0260",
+   "aporta": [
+    {
+     "tipo": "modulo_loe",
+     "codigo": "0453",
+     "nombre": "Sistemas auxiliares del motor",
+     "titulo": "Técnico en Electromecánica de Vehículos Automóviles",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_loe",
+     "codigo": "1172",
+     "nombre": "Mantenimiento de la planta propulsora y maquinaria auxiliar",
+     "titulo": "Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_loe",
+     "codigo": "1562",
+     "nombre": "Técnicas de mecanizado y unión",
+     "titulo": "Técnico en Redes y Estaciones de Tratamiento de Aguas",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0742": "convalidable",
+    "0452": "convalidable",
+    "0260": "convalidable"
+   },
+   "no_espera": {
+    "0718": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOE: 0457 + 0458 de Vehículos Automóviles ya no convalidan 0718 (fila derogada); 0456 superado allí se traslada",
+   "aporta": [
+    {
+     "tipo": "modulo_loe",
+     "codigo": "0457",
+     "nombre": "Circuitos eléctricos auxiliares del vehículo",
+     "titulo": "Técnico en Electromecánica de Vehículos Automóviles",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_loe",
+     "codigo": "0458",
+     "nombre": "Sistemas de seguridad y confortabilidad",
+     "titulo": "Técnico en Electromecánica de Vehículos Automóviles",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_loe",
+     "codigo": "0456",
+     "nombre": "Sistemas de carga y arranque",
+     "titulo": "Técnico en Electromecánica de Vehículos Automóviles",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0456": "superado"
+   },
+   "no_espera": {
+    "0718": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0629_2 sola convalida 0452 y 0742, pero no 0260 (hacen falta las seis UC)",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0629_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0452": "convalidable",
+    "0742": "convalidable"
+   },
+   "no_espera": {
+    "0260": "convalidable",
+    "0456": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Cinco UC (falta UC0853_2) convalidan 0714-0717, 0452 y 0742, pero no 0260 ni 0456",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0849_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0850_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0851_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0852_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0629_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0714": "convalidable",
+    "0715": "convalidable",
+    "0716": "convalidable",
+    "0717": "convalidable",
+    "0452": "convalidable"
+   },
+   "no_espera": {
+    "0260": "convalidable",
+    "0456": "convalidable",
+    "0718": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Las seis UC del título convalidan también 0260 (NOTA del anexo V A), 0456 y 0718",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0849_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0850_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0851_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0852_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0629_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0853_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0260": "convalidable",
+    "0456": "convalidable",
+    "0718": "convalidable",
+    "0742": "convalidable"
+   },
+   "no_espera": {
+    "1709": "convalidable"
+   }
+  }
  ]
-};
+}
