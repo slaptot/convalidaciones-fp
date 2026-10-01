@@ -1,0 +1,230 @@
+{
+  "titulo": "Referencia Rápida - Ciclos FPB Investigados",
+  "fecha": "2026-10-01",
+  "tabla_comparativa": [
+    {
+      "codigo": "FPB108",
+      "nombre": "Servicios Administrativos",
+      "codigo_boe": "ADG",
+      "familia": "Administración y Gestión",
+      "horas": 2000,
+      "anos": 2,
+      "rd_principal": "RD 127/2014",
+      "boe_publicacion": "BOE 55/2014 (5-III-2014)",
+      "modulos_profesionales": 2,
+      "ocupaciones": 9,
+      "actualizacion": "RD 498/2024",
+      "url_boe": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360"
+    },
+    {
+      "codigo": "FPB115",
+      "nombre": "Act. Domésticas y Limpieza Edificios",
+      "codigo_boe": "SSC",
+      "familia": "Servicios Socioculturales y Comunidad",
+      "horas": 2000,
+      "anos": 2,
+      "rd_principal": "RD 127/2014",
+      "boe_publicacion": "BOE 55/2014 (5-III-2014)",
+      "modulos_profesionales": 4,
+      "ocupaciones": 8,
+      "actualizacion": "RD 498/2024",
+      "url_boe": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360"
+    },
+    {
+      "codigo": "FPB116",
+      "nombre": "Operaciones Viveros y Jardines",
+      "codigo_boe": "AGA",
+      "familia": "Agraria",
+      "horas": 2000,
+      "anos": 2,
+      "rd_principal": "RD 127/2014",
+      "boe_publicacion": "BOE 55/2014 (5-III-2014)",
+      "modulos_profesionales": 2,
+      "ocupaciones": 6,
+      "cualificacion": "AGA164_1",
+      "actualizacion": "RD 498/2024",
+      "url_boe": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360"
+    },
+    {
+      "codigo": "FPB117",
+      "nombre": "Mantenimiento Electromecánico Máquinas",
+      "codigo_boe": "IMA",
+      "familia": "Instalación y Mantenimiento",
+      "horas": 2000,
+      "anos": 2,
+      "rd_principal": "RD 127/2014",
+      "boe_publicacion": "BOE 55/2014 (5-III-2014)",
+      "modulos_profesionales": 3,
+      "ocupaciones": 6,
+      "grado_medio_relacionado": "RD 1589/2011",
+      "actualizacion": "RD 498/2024 / RD 288/2023",
+      "url_boe": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360"
+    },
+    {
+      "codigo": "FPB119",
+      "nombre": "Operaciones Básicas de Cocina",
+      "codigo_boe": "HOT",
+      "familia": "Hostelería y Turismo",
+      "horas": 2000,
+      "anos": 2,
+      "rd_principal": "RD 127/2014",
+      "boe_publicacion": "BOE 55/2014 (5-III-2014)",
+      "modulos_profesionales": 2,
+      "ocupaciones": 6,
+      "cualificacion": "HOT091_1",
+      "actualizacion": "RD 498/2024",
+      "url_boe": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360"
+    },
+    {
+      "codigo": "FPB122",
+      "nombre": "Actividades Panadería y Pastelería",
+      "codigo_boe": "INA/HOT",
+      "familia": "Industrias Alimentarias",
+      "horas": 2000,
+      "anos": 2,
+      "rd_principal": "RD 774/2015",
+      "boe_publicacion": "BOE 2015",
+      "modulos_profesionales": 3,
+      "ocupaciones": 7,
+      "actualizacion": "RD 498/2024",
+      "url_boe": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-9466"
+    },
+    {
+      "codigo": "FPB124",
+      "nombre": "Servicios Recepción y Alojamiento",
+      "codigo_boe": "HOT",
+      "familia": "Hostelería y Turismo",
+      "horas": 2000,
+      "anos": 2,
+      "rd_principal": "RD 127/2014",
+      "boe_publicacion": "BOE 55/2014 (5-III-2014)",
+      "modulos_profesionales": 3,
+      "ocupaciones": 7,
+      "actualizacion": "RD 498/2024 / RD 213/2025",
+      "url_boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7295"
+    }
+  ],
+  "sumario_familias": {
+    "ADG": {
+      "nombre": "Administración y Gestión",
+      "ciclos": ["FPB108"],
+      "codigo_boe": "ADG",
+      "cfgm_acceso": "Ciclos de Grado Medio de la familia ADG"
+    },
+    "SSC": {
+      "nombre": "Servicios Socioculturales y a la Comunidad",
+      "ciclos": ["FPB115"],
+      "codigo_boe": "SSC",
+      "cfgm_acceso": "Ciclos de Grado Medio de la familia SSC"
+    },
+    "AGA": {
+      "nombre": "Agraria",
+      "ciclos": ["FPB116"],
+      "codigo_boe": "AGA",
+      "cfgm_acceso": "Ciclos de Grado Medio de la familia Agraria"
+    },
+    "IMA": {
+      "nombre": "Instalación y Mantenimiento",
+      "ciclos": ["FPB117"],
+      "codigo_boe": "IMA",
+      "cfgm_acceso": "Ciclos de Grado Medio de la familia IMA"
+    },
+    "HOT": {
+      "nombre": "Hostelería y Turismo",
+      "ciclos": ["FPB119", "FPB124"],
+      "codigo_boe": "HOT",
+      "cfgm_acceso": "Ciclos de Grado Medio de la familia Hostelería y Turismo"
+    },
+    "INA": {
+      "nombre": "Industrias Alimentarias",
+      "ciclos": ["FPB122"],
+      "codigo_boe": "INA",
+      "cfgm_acceso": "Ciclos de Grado Medio de la familia INA"
+    }
+  },
+  "resumen_normativo": {
+    "decretos_principales": [
+      {
+        "cod": "RD 127/2014",
+        "fecha": "28 febrero 2014",
+        "boe": "55/2014",
+        "descripcion": "Regula aspectos específicos de FP Básica, establece 14 títulos profesionales básicos",
+        "ciclos_afectados": ["FPB108", "FPB115", "FPB116", "FPB117", "FPB119", "FPB124"],
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360"
+      },
+      {
+        "cod": "RD 774/2015",
+        "fecha": "28 agosto 2015",
+        "descripcion": "Establece ciclos FP Básica adicionales, incluyendo Panadería y Pastelería",
+        "ciclos_afectados": ["FPB122"],
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-9466"
+      },
+      {
+        "cod": "RD 1085/2020",
+        "fecha": "9 diciembre 2020",
+        "boe": "340/2020",
+        "descripcion": "Convalidaciones de módulos profesionales de FP",
+        "aplicacion": "Todos los ciclos",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17274"
+      },
+      {
+        "cod": "RD 498/2024",
+        "fecha": "21 mayo 2024",
+        "boe": "BOE-A-2024-10683",
+        "descripcion": "Modificación de RD de FP Básica, adaptación a RD 659/2023",
+        "ciclos_afectados": ["Todos"],
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10683"
+      },
+      {
+        "cod": "RD 213/2025",
+        "fecha": "18 marzo 2025",
+        "boe": "BOE-A-2025-7295",
+        "descripcion": "Grados A, B y C para familia Hostelería y Turismo",
+        "ciclos_afectados": ["FPB119", "FPB124"],
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7295"
+      }
+    ],
+    "ordenes_curriculum": [
+      {
+        "cod": "Orden ECD/1030/2014",
+        "fecha": "11 junio 2014",
+        "descripcion": "Currículum de 14 ciclos de FP Básica",
+        "boe": "147/2014 (18 junio 2014)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-6431"
+      },
+      {
+        "cod": "Orden ECD/76/2013",
+        "fecha": "23 enero 2013",
+        "descripcion": "Currículum Grado Medio - Mantenimiento Electromecánico",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-958"
+      }
+    ]
+  },
+  "criterios_acceso": {
+    "requisitos_acceso": "Sin requisitos de ESO completa",
+    "destinatarios": "Alumnos que no han completado Educación Secundaria Obligatoria",
+    "edad_minima": "No especificada en normativa básica",
+    "edad_recomendada": "16 años o más"
+  },
+  "valor_academico": {
+    "nivel": "Grado Básico de Formación Profesional",
+    "validez": "Nacional - Válido en todo el territorio español",
+    "progresion_academica": "Acceso a ciclos de Grado Medio (CFGM) de la misma familia profesional",
+    "complementos": "Permite obtener Graduado en ESO bajo cumplimiento de requisitos adicionales"
+  },
+  "notas_especiales": {
+    "codigos_boe": "Los códigos FPB (FPB108, FPB115, etc.) no son códigos oficiales BOE. Los códigos oficiales BOE utilizan prefijos alfabéticos de familia profesional",
+    "duracion_uniforme": "Todos los ciclos tienen duración de 2000 horas distribuidas en 2 años académicos",
+    "modulos_comunes": "Todos incluyen módulo de Comunicación y Sociedad que permite convalidaciones",
+    "evolucion": "El sistema está en transición hacia grados A, B y C (RD 659/2023) con nuevos decretos en 2024-2025"
+  },
+  "enlaces_utiles": {
+    "boe_oficial": "https://www.boe.es",
+    "incual": "https://incual.educacion.gob.es",
+    "sepe": "https://www.sepe.es",
+    "todofp": "https://www.todofp.es",
+    "educacion_ministerio": "https://www.educacion.gob.es"
+  },
+  "fecha_investigacion": "2026-10-01",
+  "investigador": "Claude Haiku 4.5"
+}

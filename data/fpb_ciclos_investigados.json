@@ -1,0 +1,578 @@
+{
+  "metadata": {
+    "investigacion": "Ciclos de Grados Básicos (FPB) - Investigación BOE",
+    "fecha_investigacion": "2026-10-01",
+    "fuentes": [
+      "Real Decreto 127/2014, de 28 de febrero",
+      "Orden ECD/1030/2014, de 11 de junio",
+      "Real Decreto 498/2024, de 21 de mayo",
+      "Real Decreto 1085/2020, de 9 de diciembre",
+      "Real Decreto 213/2025, de 18 de marzo",
+      "Boletín Oficial del Estado (BOE)"
+    ],
+    "notas": "Los códigos FPB utilizados (FPB108, FPB115, etc.) se corresponden con códigos internos. Los códigos oficiales BOE utilizan prefijos alfabéticos por familia profesional (ADG, SSC, AGA, HOT, IMA, INA, IEE, etc.)"
+  },
+  "ciclos": {
+    "FPB108": {
+      "codigo_oficial_boe": "ADG",
+      "nombre_oficial": "Técnico Básico en Servicios Administrativos",
+      "titulo": "Título Profesional Básico en Servicios Administrativos",
+      "familia_profesional": "Administración y Gestión (ADG)",
+      "nivel": "Formación Profesional Básica (Grado Básico)",
+      "duracion": {
+        "total_horas": 2000,
+        "anos_academicos": 2,
+        "horas_ano": 1000
+      },
+      "normativa": {
+        "rd_establecimiento": "RD 127/2014",
+        "rd_fecha": "28 de febrero de 2014",
+        "boe_publicacion": "BOE núm. 55, 5 de marzo de 2014",
+        "rd_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360",
+        "orden_curriculum": "Orden ECD/1030/2014, de 11 de junio de 2014",
+        "orden_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-6431",
+        "modificaciones": [
+          {
+            "tipo": "Modificación",
+            "decreto": "RD 498/2024",
+            "fecha": "21 de mayo de 2024",
+            "boe": "BOE-A-2024-10683",
+            "descripcion": "Modificación de reales decretos de títulos de FP básica y adaptación a RD 659/2023"
+          }
+        ]
+      },
+      "competencia_general": "Realizar operaciones básicas de administración y gestión con autonomía, responsabilidad e iniciativa personal, operando con la calidad indicada, observando las normas de aplicación vigente, y comunicándose oralmente y por escrito en español y, cuando sea el caso, en la lengua cooficial y en alguna lengua extranjera.",
+      "modulos": [
+        {
+          "codigo": "ADG-M01",
+          "nombre": "Operaciones Administrativas Básicas",
+          "horas": "Variable",
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "ADG-M02",
+          "nombre": "Tratamiento Informático de la Información",
+          "horas": "Variable",
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "ADG-M03",
+          "nombre": "Comunicación y Sociedad",
+          "horas": "Variable",
+          "tipo": "Transversal"
+        }
+      ],
+      "ocupaciones": [
+        "Auxiliar de oficina",
+        "Auxiliar de servicios generales",
+        "Archivador/a",
+        "Operador/a de datos",
+        "Telefonista",
+        "Clasificador/a de correspondencia",
+        "Auxiliar de información",
+        "Vendedor/a",
+        "Cajero/a"
+      ],
+      "acceso_posterior": "Ciclos de Grado Medio (CFGM) de la familia profesional Administración y Gestión",
+      "referencias": [
+        "https://ies-pnegras.centros.castillalamancha.es/content/fpb-servicios-administrativos",
+        "https://www.educantabria.es/fp/formacion-profesional/oferta-educativa/ciclos-formativos-grado-basico/-/asset_publisher/H9R3k7zBPh2C/content/fpb-servicios-administrativos"
+      ]
+    },
+    "FPB115": {
+      "codigo_oficial_boe": "SSC",
+      "nombre_oficial": "Técnico Básico en Actividades Domésticas y Limpieza de Edificios",
+      "titulo": "Título Profesional Básico en Actividades Domésticas y Limpieza de Edificios",
+      "familia_profesional": "Servicios Socioculturales y a la Comunidad (SSC)",
+      "nivel": "Formación Profesional Básica (Grado Básico)",
+      "duracion": {
+        "total_horas": 2000,
+        "anos_academicos": 2,
+        "horas_ano": 1000
+      },
+      "normativa": {
+        "rd_establecimiento": "RD 127/2014",
+        "rd_fecha": "28 de febrero de 2014",
+        "boe_publicacion": "BOE núm. 55, 5 de marzo de 2014",
+        "rd_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360",
+        "orden_curriculum": "Orden ECD/1030/2014, de 11 de junio de 2014",
+        "orden_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-6431"
+      },
+      "competencia_general": "Realizar actividades básicas de limpieza en domicilios particulares, edificios, oficinas y locales comerciales, así como realizar actividades domésticas de cocina, cuidado de ropa y apoyo a personas en el ámbito doméstico, siguiendo instrucciones y respetando normas de calidad, seguridad e higiene ambiental y laboral.",
+      "modulos": [
+        {
+          "codigo": "SSC-M01",
+          "nombre": "Mantenimiento de Prendas de Vestir y Ropa de Hogar",
+          "horas": 233,
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "SSC-M02",
+          "nombre": "Cocina Doméstica",
+          "horas": 200,
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "SSC-M03",
+          "nombre": "Limpieza de Domicilios Particulares, Edificios, Oficinas y Locales",
+          "horas": 166,
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "SSC-M04",
+          "nombre": "Limpieza con Máquinas",
+          "horas": 166,
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "SSC-M05",
+          "nombre": "Comunicación y Sociedad",
+          "horas": 235,
+          "tipo": "Transversal"
+        }
+      ],
+      "ocupaciones": [
+        "Limpiador/a doméstico",
+        "Cocinero/a doméstico",
+        "Planchero/a",
+        "Empleado/a de hogar",
+        "Limpiador/a general",
+        "Operario/a especializado en limpieza",
+        "Especialista en limpieza",
+        "Limpiador/a de ventanas"
+      ],
+      "acceso_posterior": "Ciclos de Grado Medio (CFGM) de la familia profesional Servicios Socioculturales y a la Comunidad",
+      "referencias": [
+        "https://www.juntadeandalucia.es/educacion/portals/delegate/content/5dcdff44-61cb-4daa-9168-18e1b0686ab0/Anexo%20XXII%20Curr%C3%ADculo%20Actividades%20Dom%C3%A9sticas%20y%20Limpieza%20de%20Edificios",
+        "https://portal.edu.gva.es/ieslarabi/fpb-actividades-domesticas-y-limpieza-de-edificios/"
+      ]
+    },
+    "FPB116": {
+      "codigo_oficial_boe": "AGA",
+      "nombre_oficial": "Técnico Básico en Operaciones en Viveros y Jardines",
+      "titulo": "Título Profesional Básico en Agro-jardinería y Composiciones Florales",
+      "familia_profesional": "Agraria (AGA)",
+      "nivel": "Formación Profesional Básica (Grado Básico)",
+      "duracion": {
+        "total_horas": 2000,
+        "anos_academicos": 2,
+        "horas_ano": 1000
+      },
+      "normativa": {
+        "rd_establecimiento": "RD 127/2014",
+        "rd_fecha": "28 de febrero de 2014",
+        "boe_publicacion": "BOE núm. 55, 5 de marzo de 2014",
+        "rd_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360",
+        "orden_curriculum": "Orden ECD/1030/2014, de 11 de junio de 2014",
+        "orden_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-6431",
+        "cualificacion_profesional": "AGA164_1",
+        "cualificacion_nombre": "Actividades auxiliares en viveros, jardines y centros de jardinería",
+        "boe_cualificacion": "BOE 5 de septiembre de 2008"
+      },
+      "competencia_general": "Realizar operaciones básicas de producción y mantenimiento de plantas en viveros y centros de jardinería, así como realizar instalación de composiciones paisajísticas y mantenimiento de jardines, parques y áreas verdes, siguiendo instrucciones y respetando normas de seguridad, calidad e higiene ambiental.",
+      "modulos": [
+        {
+          "codigo": "AGA-M01",
+          "nombre": "Operaciones Básicas en Viveros y Centros de Jardinería",
+          "horas": 230,
+          "tipo": "Profesional",
+          "submodulos": [
+            "MF0520_1: Operaciones básicas en viveros y centros de jardinería (90h)",
+            "MF0521_1: Operaciones básicas para la instalación de jardines, parques y áreas verdes (90h)",
+            "MF0522_1: Operaciones básicas para el mantenimiento de jardines, parques y áreas verdes (70h)"
+          ]
+        },
+        {
+          "codigo": "AGA-M02",
+          "nombre": "Composiciones Florales",
+          "horas": "Variable",
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "AGA-M03",
+          "nombre": "Comunicación y Sociedad",
+          "horas": "Variable",
+          "tipo": "Transversal"
+        }
+      ],
+      "ocupaciones": [
+        "Ayudante en viveros",
+        "Operario de mantenimiento de jardines",
+        "Peón de jardinería",
+        "Auxiliar en paisajismo",
+        "Trabajador en centros de jardinería",
+        "Operario de parques y áreas verdes"
+      ],
+      "acceso_posterior": "Ciclos de Grado Medio (CFGM) de la familia profesional Agraria",
+      "referencias": [
+        "https://incual.educacion.gob.es/documents/20195/94271/AGA164_1_RV+-+Q_Documento+publicado/90e798b9-0603-49f9-9cbf-35ebb040ea5b",
+        "https://www.sepe.es/SiteSepe/contenidos/personas/formacion/certificados_de_profesionalidad/pdf/fichasCertificados/AGAO0108_ficha.pdf"
+      ]
+    },
+    "FPB117": {
+      "codigo_oficial_boe": "IMA",
+      "nombre_oficial": "Técnico Básico en Mantenimiento Electromecánico de Máquinas",
+      "titulo": "Título Profesional Básico en Instalaciones Eléctricas y Automáticas / Mantenimiento Electromecánico",
+      "familia_profesional": "Instalación y Mantenimiento (IMA)",
+      "nivel": "Formación Profesional Básica (Grado Básico)",
+      "duracion": {
+        "total_horas": 2000,
+        "anos_academicos": 2,
+        "horas_ano": 1000
+      },
+      "normativa": {
+        "rd_establecimiento": "RD 127/2014",
+        "rd_fecha": "28 de febrero de 2014",
+        "boe_publicacion": "BOE núm. 55, 5 de marzo de 2014",
+        "rd_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360",
+        "orden_curriculum": "Orden ECD/1030/2014, de 11 de junio de 2014",
+        "orden_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-6431",
+        "rd_grado_medio": "RD 1589/2011, de 4 de noviembre (Técnico en Mantenimiento Electromecánico - Grado Medio)",
+        "orden_grado_medio": "Orden ECD/76/2013, de 23 de enero (Currículum Grado Medio)",
+        "rd_actualizacion": "RD 288/2023, de 18 de abril (Actualización de títulos)"
+      },
+      "competencia_general": "Realizar operaciones básicas de montaje y mantenimiento de maquinaria y equipos industriales, así como de líneas de producción automatizadas, de acuerdo con lo establecido en la regulación vigente, siguiendo protocolos de calidad, seguridad y prevención de riesgos laborales.",
+      "modulos": [
+        {
+          "codigo": "IMA-M01",
+          "nombre": "Operaciones Básicas de Mantenimiento",
+          "horas": "Variable",
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "IMA-M02",
+          "nombre": "Máquinas Eléctricas Rotativas",
+          "horas": 105,
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "IMA-M03",
+          "nombre": "Comunicación y Sociedad",
+          "horas": "Variable",
+          "tipo": "Transversal"
+        }
+      ],
+      "ocupaciones": [
+        "Peón de mantenimiento",
+        "Auxiliar de mantenimiento electromecánico",
+        "Operario de montaje",
+        "Técnico auxiliar de mantenimiento",
+        "Peón industrial"
+      ],
+      "acceso_posterior": "Ciclos de Grado Medio (CFGM) de la familia profesional Instalación y Mantenimiento",
+      "referencias": [
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19538",
+        "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-958"
+      ]
+    },
+    "FPB119": {
+      "codigo_oficial_boe": "HOT",
+      "nombre_oficial": "Técnico Básico en Operaciones Básicas de Cocina",
+      "titulo": "Título Profesional Básico en Operaciones Básicas de Cocina",
+      "familia_profesional": "Hostelería y Turismo (HOT)",
+      "nivel": "Formación Profesional Básica (Grado Básico)",
+      "duracion": {
+        "total_horas": 2000,
+        "anos_academicos": 2,
+        "horas_ano": 1000
+      },
+      "normativa": {
+        "rd_establecimiento": "RD 127/2014",
+        "rd_fecha": "28 de febrero de 2014",
+        "boe_publicacion": "BOE núm. 55, 5 de marzo de 2014",
+        "rd_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360",
+        "orden_curriculum": "Orden ECD/1030/2014, de 11 de junio de 2014",
+        "orden_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-6431",
+        "cualificacion_profesional": "HOT091_1",
+        "cualificacion_nombre": "Operaciones básicas de cocina",
+        "boe_cualificacion": "BOE 6 de septiembre de 2008"
+      },
+      "competencia_general": "Realizar operaciones básicas de preparación y conservación de elaboraciones culinarias sencillas en el ámbito de la producción de cocina, siguiendo protocolos de calidad, observando normas de higiene, prevención de riesgos laborales y protección ambiental.",
+      "modulos": [
+        {
+          "codigo": "HOT-M01",
+          "nombre": "Aprovisionamiento, Preelaboración y Conservación Culinarios",
+          "horas": 120,
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "HOT-M02",
+          "nombre": "Elaboración Culinaria Básica",
+          "horas": 120,
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "HOT-M03",
+          "nombre": "Comunicación y Sociedad",
+          "horas": "Variable",
+          "tipo": "Transversal"
+        }
+      ],
+      "ocupaciones": [
+        "Ayudante de cocina",
+        "Operario de cocina",
+        "Cocinero auxiliar",
+        "Peón de cocina",
+        "Asistente de producción culinaria"
+      ],
+      "acceso_posterior": "Ciclos de Grado Medio (CFGM) de la familia profesional Hostelería y Turismo",
+      "referencias": [
+        "https://incual.educacion.gob.es/documents/20195/94271/HOT091_1_RV+-+Q_Documento+publicado/4ae8bceb-abd2-4327-b64d-84f7cefab969",
+        "https://www.sepe.es/SiteSepe/contenidos/personas/formacion/certificados_de_profesionalidad/pdf/fichasCertificados/HOTR0108_ficha.pdf"
+      ]
+    },
+    "FPB122": {
+      "codigo_oficial_boe": "INA/HOT",
+      "nombre_oficial": "Técnico Básico en Actividades de Panadería y Pastelería",
+      "titulo": "Título Profesional Básico en Actividades de Panadería y Pastelería",
+      "familia_profesional": "Industrias Alimentarias (INA) / Hostelería y Turismo (HOT)",
+      "nivel": "Formación Profesional Básica (Grado Básico)",
+      "duracion": {
+        "total_horas": 2000,
+        "anos_academicos": 2,
+        "horas_ano": 1000
+      },
+      "normativa": {
+        "rd_establecimiento": "RD 774/2015",
+        "rd_fecha": "28 de agosto de 2015",
+        "boe_publicacion": "Boletín Oficial del Estado",
+        "rd_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-9466",
+        "orden_curriculum": "Disponible a través de las comunidades autónomas",
+        "modificaciones": [
+          {
+            "tipo": "Modificación",
+            "decreto": "RD 498/2024",
+            "fecha": "21 de mayo de 2024",
+            "boe": "BOE-A-2024-10683",
+            "descripcion": "Actualización de módulos y adaptación a RD 659/2023"
+          }
+        ]
+      },
+      "competencia_general": "Recibir materias primas, preelaborar y elaborar productos básicos de panadería y pastelería, presentarlos para su venta y distribuirlos, aplicando los protocolos establecidos, normas de higiene alimentaria, prevención de riesgos laborales, protección ambiental, y comunicándose oralmente y por escrito en español y, cuando proceda, en la lengua cooficial y en alguna lengua extranjera.",
+      "modulos": [
+        {
+          "codigo": "INA-M01",
+          "nombre": "Procesos Básicos de Panadería",
+          "horas": 405,
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "INA-M02",
+          "nombre": "Operaciones Auxiliares en la Industria Alimentaria",
+          "horas": "Variable",
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "INA-M03",
+          "nombre": "Atención al Cliente",
+          "horas": "Variable",
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "INA-M04",
+          "nombre": "Comunicación y Sociedad",
+          "horas": "Variable",
+          "tipo": "Transversal"
+        }
+      ],
+      "ocupaciones": [
+        "Auxiliar de panadería",
+        "Auxiliar de pastelería",
+        "Auxiliar de almacén de pastelería",
+        "Empleado de pastelería",
+        "Auxiliar de almacén",
+        "Auxiliar de ventas"
+      ],
+      "acceso_posterior": "Ciclos de Grado Medio (CFGM) de la familia profesional Industrias Alimentarias",
+      "referencias": [
+        "https://www.todofp.es/que-estudiar/familias-profesionales/industrias-alimentarias/actividades-panaderia-pasteleria.html",
+        "https://www.escuelahosteleria.org/formacion-reglada/fpb/panaderia-pasteleria/"
+      ]
+    },
+    "FPB124": {
+      "codigo_oficial_boe": "HOT",
+      "nombre_oficial": "Técnico Básico en Servicios de Recepción y Alojamiento",
+      "titulo": "Título Profesional Básico en Servicios de Recepción y Alojamiento",
+      "familia_profesional": "Hostelería y Turismo (HOT)",
+      "nivel": "Formación Profesional Básica (Grado Básico)",
+      "duracion": {
+        "total_horas": 2000,
+        "anos_academicos": 2,
+        "horas_ano": 1000
+      },
+      "normativa": {
+        "rd_establecimiento": "RD 127/2014",
+        "rd_fecha": "28 de febrero de 2014",
+        "boe_publicacion": "BOE núm. 55, 5 de marzo de 2014",
+        "rd_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-2360",
+        "orden_curriculum": "Orden ECD/1030/2014, de 11 de junio de 2014",
+        "orden_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-6431",
+        "actualizacion_2025": "RD 213/2025, de 18 de marzo de 2025",
+        "actualizacion_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7295",
+        "actualizacion_desc": "Aspectos específicos de grados A, B y C para Hostelería y Turismo"
+      },
+      "competencia_general": "Realizar actividades básicas de recepción y atención al cliente en establecimientos de alojamiento, así como operaciones de apoyo en áreas de servicio, siguiendo protocolos de calidad, observando normas de seguridad e higiene laboral, y comunicándose oralmente y por escrito en español y, cuando sea el caso, en lengua cooficial y alguna lengua extranjera.",
+      "modulos": [
+        {
+          "codigo": "HOT-M01",
+          "nombre": "Recepción de Clientes en Establecimientos de Alojamiento",
+          "horas": 40,
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "HOT-M02",
+          "nombre": "Atención al Cliente",
+          "horas": "Variable",
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "HOT-M03",
+          "nombre": "Operaciones de Apoyo en Alojamientos",
+          "horas": "Variable",
+          "tipo": "Profesional"
+        },
+        {
+          "codigo": "HOT-M04",
+          "nombre": "Comunicación y Sociedad",
+          "horas": "Variable",
+          "tipo": "Transversal"
+        }
+      ],
+      "ocupaciones": [
+        "Recepcionista de hotel",
+        "Auxiliar de recepción",
+        "Auxiliar administrativo de alojamiento",
+        "Portero/a",
+        "Botones",
+        "Auxiliar de servicios"
+      ],
+      "acceso_posterior": "Ciclos de Grado Medio (CFGM) de la familia profesional Hostelería y Turismo",
+      "referencias": [
+        "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7295",
+        "https://sede.sepe.gob.es/es/portaltrabaja/resources/pdf/especialidades/HOTA0308.pdf"
+      ]
+    }
+  },
+  "equivalencias_convalidaciones": {
+    "normativa_general": "RD 1085/2020, de 9 de diciembre",
+    "boe_publicacion": "BOE núm. 340, 30 de diciembre de 2020",
+    "boe_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17274",
+    "descripcion": "Establece convalidaciones de módulos profesionales entre diferentes títulos de Formación Profesional",
+    "aspectos_clave": [
+      "Los módulos profesionales FPB con códigos idénticos se convalidan sin importar el ciclo",
+      "Los módulos con denominaciones idénticas pero códigos diferentes también pueden ser validados",
+      "Los módulos FOL LOE de grado básico NO convalidan otros grados",
+      "Módulos de grado básico solo convalidan dentro del mismo nivel",
+      "Las validaciones requieren que se cumplan criterios de contenidos, competencias y duración"
+    ],
+    "modulos_transversales_convalidables": [
+      {
+        "nombre": "Comunicación y Sociedad",
+        "codigo_variable": "Varía según familia profesional",
+        "tipo": "Transversal",
+        "nota": "Se aplica a todos los ciclos FPB"
+      },
+      {
+        "nombre": "Formación y Orientación Laboral (FOL)",
+        "codigo_variable": "FOL LOE",
+        "tipo": "Transversal",
+        "nota": "Módulo común en ciclos de grado medio y superior"
+      }
+    ]
+  },
+  "cambios_normativos_2024_2025": {
+    "RD_498_2024": {
+      "fecha": "21 de mayo de 2024",
+      "titulo": "Modificación de reales decretos de FP básica",
+      "boe": "BOE-A-2024-10683",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10683",
+      "cambios": [
+        "Actualización de nómina de módulos profesionales",
+        "Adaptación a lo establecido en RD 659/2023",
+        "Adaptación de intermodularidad requerida",
+        "Actualización de cuerpos del profesorado (RD 800/2022)",
+        "Actualización de contenidos de anexos"
+      ]
+    },
+    "RD_207_2025": {
+      "fecha": "18 de marzo de 2025",
+      "titulo": "Grados A, B y C para familias profesionales: Administración y Gestión; Agraria; Informática y Comunicaciones; Madera, Mueble y Corcho",
+      "boe": "BOE-A-2025-6797",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6797"
+    },
+    "RD_208_2025": {
+      "fecha": "18 de marzo de 2025",
+      "titulo": "Grados A, B y C para familias profesionales: Artes Gráficas; Fabricación Mecánica; Servicios Socioculturales y a la Comunidad; Vidrio y Cerámica",
+      "boe": "BOE-A-2025-7040",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7040"
+    },
+    "RD_210_2025": {
+      "fecha": "18 de marzo de 2025",
+      "titulo": "Grados A, B y C para familias profesionales: Edificación y Obra Civil; Electricidad y Electrónica; Energía y Agua; Industrias Extractivas",
+      "boe": "BOE-A-2025-7588",
+      "url": "https://www.boe.es/eli/es/rd/2025/03/18/210"
+    },
+    "RD_213_2025": {
+      "fecha": "18 de marzo de 2025",
+      "titulo": "Grados A, B y C para familias profesionales: Hostelería y Turismo",
+      "boe": "BOE-A-2025-7295",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7295"
+    },
+    "Orden_EFD_658_2024": {
+      "fecha": "25 de junio de 2024",
+      "titulo": "Currículum y aspectos organizativos para ciclos formativos de grado básico en ámbito de gestión del MFP",
+      "boe": "BOE-A-2024-13180",
+      "url": "https://www.boe.es/eli/es/o/2024/06/25/efd658"
+    }
+  },
+  "marcos_normativos_relacionados": {
+    "RD_659_2023": {
+      "fecha": "18 de julio de 2023",
+      "titulo": "Ordenación del Sistema de Formación Profesional",
+      "boe": "BOE-A-2023-16889",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-16889",
+      "importancia": "Marco principal que ordena el nuevo sistema de FP con grados A, B y C"
+    },
+    "RD_800_2022": {
+      "titulo": "Cuerpos del profesorado de Formación Profesional",
+      "importancia": "Afecta a las cualificaciones del profesorado en FPB"
+    },
+    "LOE_2006": {
+      "titulo": "Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+      "importancia": "Ley marco del sistema educativo español"
+    }
+  },
+  "resumen_investigacion": {
+    "ciclos_identificados": 7,
+    "ciclos_investigados": [
+      "FPB108 - Servicios Administrativos (ADG)",
+      "FPB115 - Actividades Domésticas y Limpieza de Edificios (SSC)",
+      "FPB116 - Operaciones en Viveros y Jardines (AGA)",
+      "FPB117 - Mantenimiento Electromecánico de Máquinas (IMA)",
+      "FPB119 - Operaciones Básicas de Cocina (HOT)",
+      "FPB122 - Actividades de Panadería y Pastelería (INA/HOT)",
+      "FPB124 - Servicios de Recepción y Alojamiento (HOT)"
+    ],
+    "familias_profesionales": [
+      "ADG - Administración y Gestión",
+      "SSC - Servicios Socioculturales y a la Comunidad",
+      "AGA - Agraria",
+      "IMA - Instalación y Mantenimiento",
+      "HOT - Hostelería y Turismo",
+      "INA - Industrias Alimentarias"
+    ],
+    "datos_comunes": {
+      "duracion": "2000 horas (2 años académicos)",
+      "acceso": "Alumnos que no han completado ESO",
+      "valor_academico": "Permite acceso a ciclos de Grado Medio (CFGM)",
+      "validez": "Nacional en territorio español"
+    },
+    "notas_importantes": [
+      "Todos los ciclos incluyen módulos transversales de Comunicación y Sociedad",
+      "La normativa fundamental es RD 127/2014 con modificaciones posteriores",
+      "El sistema está evolucionando hacia grados A, B y C (RD 659/2023)",
+      "Las convalidaciones entre ciclos se rigen por RD 1085/2020",
+      "Hay actualizaciones importantes en 2024-2025 para adaptación a nuevo sistema"
+    ]
+  }
+}
