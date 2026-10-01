@@ -1,0 +1,651 @@
+// Generado por tools/build_data.py a partir de research/tmv201.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["tmv201"] = {
+ "ciclo": {
+  "codigo": "TMV201",
+  "nombre": "Técnico en Carrocería",
+  "grado": "medio",
+  "familia": "Transporte y Mantenimiento de Vehículos",
+  "normas": [
+   {
+    "ref": "RD 176/2008, de 8 de febrero",
+    "boe": "BOE-A-2008-3524",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2008-3524",
+    "nota": "Establece el título de Técnico en Carrocería (BOE núm. 48, de 25/02/2008, págs. 11036-11061). 2.000 h; mínimas 1.100 h. Sin texto consolidado en el BOE (la API devuelve 404); el XML del diario trae articulado y anexos. Art. 1.2 y DA 3.ª.2: sustituye al LOGSE Técnico en Carrocería (RD 1650/1994), con los mismos efectos. Anexo IV (LOGSE→LOE) derogado por el RD 1085/2020. El RD 499/2024 modifica los arts. 2, 10, 12 y 15 y los anexos I y III, pero NO el art. 6 ni los anexos V A) y V B)."
+   },
+   {
+    "ref": "RD 295/2004, de 20 de febrero",
+    "boe": "BOE-A-2004-4219",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-4219",
+    "nota": "Establece TMV044_2 «Pintura de vehículos» (anexo XLIV: UC0122_2 y UC0123_2), TMV045_2 «Mantenimiento de estructuras de carrocerías de vehículos» (anexo XLV: UC0124_2-UC0126_2) y TMV046_2 «Mantenimiento de elementos no estructurales de carrocerías de vehículos» (anexo XLVI: UC0127_2-UC0129_2), las tres completas en el art. 6 del título. Horas de formación asociada no recogidas (ver no_verificado)."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Su disp. derogatoria única.2 deroga el anexo IV (LOGSE→LOE) del RD 176/2008. Filas vigentes: anexo II (tabla «Transporte y Mantenimiento de Vehículos», grado medio: cuatro bloques con destino este título) y anexo III (misma tabla: tres bloques, todos a 0260). Texto consolidado. DA 5.ª: las filas se aplican al módulo en cualquier ciclo que lo incluya (0260 es común a TMV201, TMV202, TMV204 y Material Rodante Ferroviario). DA 6.ª (RD 500/2024): destino FOL se entiende 1709 y destino EIE, 1710."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP. Currículo básico de 1709 y 1710 (anexo V, 50 h), 1664 (anexo VI, 30 h), 1708 (anexo VIII, 30 h) y 0156 (anexo IX, 50 h); anexo IV: optativo de 80 h. Arts. 126-128 y 131: convalidación y exención; art. 126.4: no se convalidan la formación en empresa ni el proyecto intermodular."
+   },
+   {
+    "ref": "RD 499/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10684",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
+    "nota": "Adapta los títulos de grado medio a la LO 3/2022. Este título está en el art. primero.Dos.a), ordinal 8.º. Art. cuarto.Uno.c).1.º: suprime FOL, EIE y FCT (0261, 0262 y 0263); c).2.º y e): añade 0156, 1709, 1710, 1664, 1708, 1713 y un optativo de 80 h. Art. tercero: NO contiene ningún apartado para el RD 176/2008 (art. 6 y anexos V A) y V B) siguen en la redacción de 2008). Art. sexto: nuevo art. 15 (remite al RD 1085/2020; varias UC en una misma celda se exigen todas a la vez). Art. octavo.Ocho y anexo X: nuevo anexo III (profesorado). DA 2.ª: la referencia a FOL de la DA 3.ª se entiende hecha a 1709."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Homólogo para grado superior; su disp. final 1.ª.2 añade la DA 6.ª al RD 1085/2020 (FOL→IPE I, EIE→IPE II)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra las UC como Estándares de Competencia Profesional (ECP). Anexo I: catálogo UC→ECP. Anexos II-a y II-b: equivalencias entre UC suprimidas y ECP vigentes (ver «equivalencias_uc»)."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo vigente del ámbito del Ministerio (BOE núm. 158, de 01/07/2024). Este ciclo está en el anexo LIX (letra ay)); 1.º con 30 h/semana y 985 h, 2.º con 31 h/semana y 1.015 h. El optativo son 80 h. Deroga la Orden EDU/2214/2009."
+   },
+   {
+    "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+    "nota": "Currículo vigente de Aragón para grado medio (BOA núm. 148, de 31/07/2024, csv BOA20240731003). Este ciclo está en el anexo XLIII (art. 1.2.v).1.º y art. 5.3.ao)): distribución horaria (diurno, 30 h/semana en 1.º y en 2.º), espacios y equipamientos. Disp. adicional única: un módulo LOE con el mismo código se reconoce automáticamente. Disp. transitoria segunda: tabla FOL→1709 y EIE→1710."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025. Modifica los arts. 11, 12 y 15 de la Orden ECD/842/2024: los optativos de oferta común pasan de A173/A171/A172 a AOP1001 (Comunicación profesional en Inglés GM), AOP1002 (Segunda lengua profesional Francés) y AOP1003 (Ofimática avanzada aplicada al sector profesional). No toca la tabla horaria de este ciclo."
+   },
+   {
+    "ref": "Resolución de 6 de junio de 2025, del Director General de Planificación, Centros y Formación Profesional (Aragón)",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/5514380/CSV511IT4T1J71T0XFIL+RESOLUCI%C3%93N+M%C3%93DULOS+OPTATIVOS+FP+ARAG%C3%93N.pdf",
+    "nota": "Autoriza módulos optativos de diseño propio (implantación 2025/2026). No figura ninguno para TMV201 (sí para TMV202, entre ellos AOP1038 «Carrocería básica»)."
+   },
+   {
+    "ref": "RD 1650/1994, de 22 de julio",
+    "boe": null,
+    "url": "https://www.boe.es/eli/es/rd/1994/07/22/1650",
+    "nota": "Título LOGSE de Técnico en Carrocería (familia Mantenimiento de Vehículos Autopropulsados), derogado y sustituido por este título (art. 1.2, DA 3.ª.2 y disp. derogatoria única.1 del RD 176/2008). No abierto: los nombres de sus módulos se toman del RD 1085/2020, que coinciden con los seis módulos LOE 0254-0259."
+   },
+   {
+    "ref": "Orden EDU/2214/2009, de 3 de julio",
+    "boe": "BOE-A-2009-13335",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-13335",
+    "nota": "Currículo LOE del ciclo en el ámbito del Ministerio. No abierta. Derogada por la Orden EFD/657/2024 (disp. derogatoria única, familia Transporte y Mantenimiento, 1.º)."
+   },
+   {
+    "ref": "Orden de 26 de mayo de 2009, de la Consejera de Educación, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=375795652525",
+    "nota": "Currículo LOE del ciclo en Aragón (BOA núm. 112, de 15/06/2009, págs. 14676-14725). Su anexo I da la duración de cada módulo (suman 2.000 h); no hay tabla por cursos. Derogada por la Orden ECD/842/2024 (disp. derogatoria única, v).1)."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "0254",
+   "nombre": "Elementos amovibles",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": 160,
+    "loe": 224
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0255",
+   "nombre": "Elementos metálicos y sintéticos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": 260,
+    "loe": 288
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0256",
+   "nombre": "Elementos fijos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": 260,
+    "loe": 288
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0257",
+   "nombre": "Preparación de superficies",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": 250,
+    "loe": 210
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0258",
+   "nombre": "Elementos estructurales del vehículo",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 220,
+    "loe": 168
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0259",
+   "nombre": "Embellecimiento de superficies",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": 280,
+    "loe": 189
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0260",
+   "nombre": "Mecanizado básico",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0156",
+   "nombre": "Inglés Profesional (GM)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1664",
+   "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1713",
+   "nombre": "Proyecto intermodular",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A997",
+   "nombre": "Tutoría I (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "tutoria",
+   "horas": {
+    "aragon": 33,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A996",
+   "nombre": "Tutoría II (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "tutoria",
+   "horas": {
+    "aragon": 33,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0261",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "fol_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0262",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "eie_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0263",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 410
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico en Carrocería (LOGSE, RD 1650/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
+   "origen_modulo": [
+    "Elementos amovibles"
+   ],
+   "destino_modulos": [
+    "0254"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Carrocería (RD 1650/1994) → Técnico en Carrocería (RD 176/2008)», fila «Elementos amovibles → 0254». Sustituye a la fila idéntica del anexo IV del RD 176/2008, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Carrocería (LOGSE, RD 1650/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
+   "origen_modulo": [
+    "Elementos metálicos y sintéticos"
+   ],
+   "destino_modulos": [
+    "0255"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Carrocería (RD 1650/1994) → Técnico en Carrocería (RD 176/2008)», fila «Elementos metálicos y sintéticos → 0255». Sustituye a la fila idéntica del anexo IV del RD 176/2008, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Carrocería (LOGSE, RD 1650/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
+   "origen_modulo": [
+    "Elementos fijos"
+   ],
+   "destino_modulos": [
+    "0256"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Carrocería (RD 1650/1994) → Técnico en Carrocería (RD 176/2008)», fila «Elementos fijos → 0256». Sustituye a la fila idéntica del anexo IV del RD 176/2008, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Carrocería (LOGSE, RD 1650/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
+   "origen_modulo": [
+    "Preparación de superficies"
+   ],
+   "destino_modulos": [
+    "0257"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Carrocería (RD 1650/1994) → Técnico en Carrocería (RD 176/2008)», fila «Preparación de superficies → 0257». Sustituye a la fila idéntica del anexo IV del RD 176/2008, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Carrocería (LOGSE, RD 1650/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
+   "origen_modulo": [
+    "Elementos estructurales del vehículo"
+   ],
+   "destino_modulos": [
+    "0258"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Carrocería (RD 1650/1994) → Técnico en Carrocería (RD 176/2008)», fila «Elementos estructurales del vehículo → 0258». Sustituye a la fila idéntica del anexo IV del RD 176/2008, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Carrocería (LOGSE, RD 1650/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
+   "origen_modulo": [
+    "Embellecimiento de superficies"
+   ],
+   "destino_modulos": [
+    "0259"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Carrocería (RD 1650/1994) → Técnico en Carrocería (RD 176/2008)», fila «Embellecimiento de superficies → 0259». Sustituye a la fila idéntica del anexo IV del RD 176/2008, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Electromecánica de Vehículos (LOGSE, RD 1649/1994, de 22 de julio) (Mantenimiento de Vehículos Autopropulsados)",
+   "origen_modulo": [
+    "Técnicas de mecanizado para el mantenimiento de vehículos"
+   ],
+   "destino_modulos": [
+    "0260"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Electromecánica de Vehículos (RD 1649/1994) → Técnico en Carrocería (RD 176/2008)», fila «Técnicas de mecanizado para el mantenimiento de vehículos → 0260». Bloque NUEVO (no estaba en el anexo IV de 2008)."
+  },
+  {
+   "origen_titulo": "Técnico en Mantenimiento Ferroviario (LOGSE, RD 2047/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": [
+    "Técnicas de mecanizado para el mantenimiento y montaje"
+   ],
+   "destino_modulos": [
+    "0260"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Mantenimiento Ferroviario (RD 2047/1995) → Técnico en Carrocería (RD 176/2008)», fila «Técnicas de mecanizado para el mantenimiento y montaje → 0260». Bloque NUEVO (no estaba en el anexo IV del título)."
+  },
+  {
+   "origen_titulo": "Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (LOGSE, RD 2046/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": [
+    "Técnicas de mecanizado y unión para el montaje y mantenimiento de instalaciones"
+   ],
+   "destino_modulos": [
+    "0260"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Montaje y Mantenimiento de Instalaciones de Frío, Climatización y Producción de Calor (RD 2046/1995) → Técnico en Carrocería (RD 176/2008)», fila «Técnicas de mecanizado y unión para el montaje y mantenimiento de instalaciones → 0260». Bloque NUEVO."
+  },
+  {
+   "origen_titulo": "Técnico en Instalación y Mantenimiento Electromecánico de Maquinaria y Conducción de Líneas (LOGSE, RD 2045/1995, de 22 de diciembre) (Mantenimiento y Servicios a la Producción)",
+   "origen_modulo": [
+    "Técnicas de mecanizado para el mantenimiento y montaje"
+   ],
+   "destino_modulos": [
+    "0260"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo II (LOGSE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Instalación y Mantenimiento Electromecánico de Maquinaria y Conducción de Líneas (RD 2045/1995) → Técnico en Mantenimiento de Material Rodante Ferroviario (RD 1145/2012)», fila «Técnicas de mecanizado para el mantenimiento y montaje → 0260». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque 0260 es el mismo módulo (mismo código)."
+  }
+ ],
+ "convalidaciones_loe": [
+  {
+   "origen_codigos": [
+    "1562"
+   ],
+   "origen_nombre": "Técnicas de mecanizado y unión",
+   "origen_titulo": "Técnico en Redes y Estaciones de Tratamiento de Aguas (LOE, RD 114/2017, de 17 de febrero) (Energía y Agua)",
+   "destino_modulos": [
+    "0260"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Redes y Estaciones de Tratamiento de Aguas (RD 114/2017) → Técnico en Carrocería (RD 176/2008)», fila «1562 → 0260»."
+  },
+  {
+   "origen_codigos": [
+    "1580"
+   ],
+   "origen_nombre": "Técnicas de montaje en instalaciones de agua",
+   "origen_titulo": "Técnico Superior en Gestión del Agua (LOE, RD 113/2017, de 17 de febrero) (Energía y Agua)",
+   "destino_modulos": [
+    "0260"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico Superior en Gestión del Agua (RD 113/2017) → Técnico en Carrocería (RD 176/2008)», fila «1580 → 0260»."
+  },
+  {
+   "origen_codigos": [
+    "1173"
+   ],
+   "origen_nombre": "Procedimientos de mecanizado y soldadura en buques y embarcaciones",
+   "origen_titulo": "Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (LOE, RD 1072/2012, de 13 de julio) (Marítimo Pesquera)",
+   "destino_modulos": [
+    "0260"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Transporte y Mantenimiento de Vehículos», grado medio, bloque «Técnico en Mantenimiento y Control de la Maquinaria de Buques y Embarcaciones (RD 1072/2012) → Técnico en Carrocería (RD 176/2008)», fila «1173 → 0260»."
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0122_2"
+   ],
+   "modulos": [
+    "0257"
+   ],
+   "fuente": "RD 176/2008 anexo V A) (texto original de 2008, vigente: el RD 499/2024 no modifica el art. 6 ni los anexos V de este título)."
+  },
+  {
+   "uc": [
+    "UC0123_2"
+   ],
+   "modulos": [
+    "0259"
+   ],
+   "fuente": "RD 176/2008 anexo V A) (texto original de 2008, vigente: el RD 499/2024 no modifica el art. 6 ni los anexos V de este título)."
+  },
+  {
+   "uc": [
+    "UC0124_2",
+    "UC0129_2"
+   ],
+   "modulos": [
+    "0256"
+   ],
+   "fuente": "RD 176/2008 anexo V A) (texto original de 2008, vigente: el RD 499/2024 no modifica el art. 6 ni los anexos V de este título) Las dos UC están en la misma celda: se exigen a la vez (nuevo art. 15.3, RD 499/2024 art. sexto)."
+  },
+  {
+   "uc": [
+    "UC0125_2"
+   ],
+   "modulos": [
+    "0258"
+   ],
+   "fuente": "RD 176/2008 anexo V A) (texto original de 2008, vigente: el RD 499/2024 no modifica el art. 6 ni los anexos V de este título)."
+  },
+  {
+   "uc": [
+    "UC0126_2",
+    "UC0128_2"
+   ],
+   "modulos": [
+    "0255"
+   ],
+   "fuente": "RD 176/2008 anexo V A) (texto original de 2008, vigente: el RD 499/2024 no modifica el art. 6 ni los anexos V de este título) Las dos UC están en la misma celda: se exigen a la vez (nuevo art. 15.3, RD 499/2024 art. sexto)."
+  },
+  {
+   "uc": [
+    "UC0127_2"
+   ],
+   "modulos": [
+    "0254"
+   ],
+   "fuente": "RD 176/2008 anexo V A) (texto original de 2008, vigente: el RD 499/2024 no modifica el art. 6 ni los anexos V de este título)."
+  }
+ ],
+ "uc_descripciones": {
+  "UC0122_2": "«Realizar la preparación, protección e igualación de superficies de vehículos» [ECP0122_2]. Cualificación TMV044_2 (RD 295/2004). Por sí sola convalida 0257.",
+  "UC0123_2": "«Efectuar el embellecimiento de superficies» [ECP0123_2]. TMV044_2. Por sí sola convalida 0259.",
+  "UC0124_2": "«Sustituir elementos fijos del vehículo total o parcialmente» [ECP0124_2]. TMV045_2. Convalida 0256 junto con UC0129_2.",
+  "UC0125_2": "«Reparar la estructura del vehículo» [ECP0125_2]. TMV045_2. Por sí sola convalida 0258.",
+  "UC0126_2": "«Realizar el conformado de elementos metálicos y reformas de importancia» [ECP0126_2]. TMV045_2. Convalida 0255 junto con UC0128_2.",
+  "UC0127_2": "«Sustituir y/o reparar elementos amovibles de un vehículo» [ECP0127_2]. TMV046_2. Por sí sola convalida 0254.",
+  "UC0128_2": "«Realizar la reparación de elementos metálicos y sintéticos» [ECP0128_2]. TMV046_2. Convalida 0255 junto con UC0126_2.",
+  "UC0129_2": "«Sustituir y/o reparar elementos fijos no estructurales del vehículo total o parcialmente» [ECP0129_2]. TMV046_2. Convalida 0256 junto con UC0124_2."
+ },
+ "uc_equivalencias": {},
+ "notas": [
+  "El campo «horas» es el del currículo básico / enseñanzas mínimas (RD 176/2008 anexo I para los módulos específicos, 1.100 h = 55 % de 2.000 h; RD 659/2023 y RD 499/2024 para los comunes nuevos). Las horas de impartición están en «horas_otras» (aragon = Orden ECD/842/2024 anexo XLIII, diurno; mefp = Orden EFD/657/2024 anexo LIX; loe = Orden de 26 de mayo de 2009 de Aragón, anexo I).",
+  "Denominación y código confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=TMV201): TMV201 «Carrocería», CFGM, familia Transporte y Mantenimiento de Vehículos (TMV), 2.000 h, solo DIURNO; horas y cursos coinciden módulo a módulo con la Orden ECD/842/2024 y con research/catalogo-aragon.json.",
+  "Aragón (Orden ECD/842/2024, anexo XLIII, diurno, TMV201): 30 h/semana en 1.º y en 2.º. 1.º: 0254 (233 h, 7 h/sem), 0255 (233, 7), 0256 (233, 7), 0260 (67, 2), A997 (33, 1), 1709 (100, 3), 1664 (33, 1), 0156 (67, 2). 2.º: 0257 (267, 8), 0258 (167, 5), 0259 (267, 8), A996 (33, 1), 1710 (67, 2), 1708 (33, 1), 1713 (67, 2), optativo (100, 3).",
+  "Ministerio (Orden EFD/657/2024, anexo LIX): 1.º (985 h, 30 h/sem): 0260 100, 0254 160, 0255 260, 0256 260, 1709 100, 1708 35, 0156 70. 2.º (1.015 h, 31 h/sem): 0258 220, 0257 250, 0259 280, 1710 100, 1664 35, optativo 80, 1713 50.",
+  "Plan LOE de Aragón (Orden de 26 de mayo de 2009, anexo I): 1.º (960 h): 0254 224, 0255 288, 0256 288, 0260 64, 0261 FOL 96. 2.º (1.040 h): 0257 210, 0258 168, 0259 189, 0262 EIE 63 y 0263 FCT 410. El reparto por cursos es deducido (ver no_verificado).",
+  "CONVALIDACIÓN DESDE TÍTULOS LOGSE (anexo II del RD 1085/2020, tabla «Transporte y Mantenimiento de Vehículos», grado medio): cuatro bloques con destino este título. Carrocería (RD 1650/1994): seis filas, módulo a módulo de igual nombre, 0254-0259. Electromecánica de Vehículos (RD 1649/1994), Mantenimiento Ferroviario (RD 2047/1995) y Frío, Climatización y Producción de Calor (RD 2046/1995): su módulo de técnicas de mecanizado → 0260.",
+  "CONVALIDACIÓN LOE→LOE (anexo III, misma tabla): solo hay filas hacia 0260: 1562 (Redes y Estaciones de Tratamiento de Aguas), 1580 (TS Gestión del Agua) y 1173 (Mantenimiento y Control de la Maquinaria de Buques). No hay ninguna fila de «Ciclo completo» con destino este título.",
+  "SENTIDO INVERSO: el Técnico en Carrocería (RD 176/2008) no aparece como formación aportada en ninguna tabla de los anexos II y III del RD 1085/2020; sus módulos solo sirven en otro ciclo por identidad de código (0260).",
+  "MÓDULOS COMPARTIDOS POR CÓDIGO: 0260 Mecanizado básico (50 h mínimas) está también en Electromecánica de Vehículos Automóviles (TMV202), Electromecánica de Maquinaria (TMV204) y Mantenimiento de Material Rodante Ferroviario: superado en uno se traslada la nota. Por la DA 5.ª del RD 1085/2020 se ha añadido, marcada «OJO», la fila del LOGSE Instalación y Mantenimiento Electromecánico de Maquinaria y Conducción de Líneas (RD 2045/1995) → 0260, que la tabla solo recoge con destino Material Rodante Ferroviario.",
+  "UC: el art. 6 y los anexos V A)/V B) siguen en la redacción de 2008 y las ocho UC conservan su código como ECP (RD 532/2025 anexo I): no hay equivalencias. Por sí solas: UC0122_2 → 0257, UC0123_2 → 0259, UC0125_2 → 0258 y UC0127_2 → 0254. Solo juntas (misma celda): UC0124_2 + UC0129_2 → 0256 y UC0126_2 + UC0128_2 → 0255. Ninguna UC convalida 0260.",
+  "«Administración, gestión y comercialización en la pequeña empresa» (LOGSE) convalidaba EIE en el anexo IV original; hoy lo resuelve la tabla general de EIE del anexo II del RD 1085/2020, que por la DA 6.ª se entiende hecha a 1710. FOL y FCT: reglas generales; la formación en empresa nunca se convalida (RD 659/2023 art. 126.4).",
+  "DA 3.ª del RD 176/2008: el LOGSE Técnico en Carrocería (RD 1650/1994) tiene los mismos efectos profesionales y académicos, y los Técnicos Auxiliares Chapista del Automóvil y Chapa y pintura (Metal) y Carrocería del Automóvil, Carrocería y Chapa y pintura de vehículos (Automoción), los mismos efectos profesionales.",
+  "Optativos de Aragón: AOP1001 (Inglés GM), AOP1002 (Francés) y AOP1003 (Ofimática avanzada) de oferta común (Decreto 107/2025); la Resolución de 6 de junio de 2025 no autoriza ningún optativo de diseño propio para TMV201."
+ ],
+ "no_verificado": [
+  "El RD 176/2008 NO tiene texto consolidado (https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2008-3524/texto devuelve 404): se ha usado el XML del diario (https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-3524) más el RD 499/2024. El análisis del BOE no lista correcciones de errores.",
+  "No se ha abierto el RD 1650/1994 (Carrocería LOGSE) ni los RD 1649/1994, 2045/1995, 2046/1995 y 2047/1995: los nombres de sus módulos se han copiado tal como los escribe el RD 1085/2020 (https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274), sin el punto final.",
+  "Horas de formación asociada de TMV044_2, TMV045_2 y TMV046_2 no recogidas: el XML del RD 295/2004 (https://www.boe.es/diario_boe/xml.php?id=BOE-A-2004-4219) solo contiene el articulado. Tampoco se ha comprobado si esas cualificaciones han sido actualizadas después (el RD 532/2025 anexo I las sigue citando por el RD 295/2004).",
+  "Curso de cada módulo en el plan LOE de Aragón: la Orden de 26 de mayo de 2009 (https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=375795652525) no trae tabla por cursos; se ha deducido (múltiplos de 32 h = 1.º, 960 h; múltiplos de 21 h y FCT = 2.º, 1.040 h). No se ha buscado una resolución de distribución horaria posterior ni la Orden EDU/2214/2009 del Ministerio.",
+  "No se han revisado los anexos de convalidaciones de reales decretos de títulos posteriores al 05/03/2017 (aplicables por el art. 15 vigente) para ver si alguno aporta o recibe módulos de este ciclo; solo se ha usado el texto consolidado del RD 1085/2020.",
+  "Páginas del BOA de la Orden ECD/842/2024 no comprobadas página a página; se cita el anexo y el csv. Fuente: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404"
+ ]
+};
