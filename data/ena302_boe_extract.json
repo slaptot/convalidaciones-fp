@@ -1,0 +1,346 @@
+{
+  "uc_a_modulos": {
+    "UC1531_3": [],
+    "UC1532_3": [],
+    "UC1533_2": [
+      {
+        "codigo": "0669",
+        "titulo": "Subestaciones eléctricas."
+      },
+      {
+        "codigo": "0670",
+        "titulo": "Telecontrol y automatismos."
+      }
+    ],
+    "UC1530_2": [
+      {
+        "codigo": "0671",
+        "titulo": "Prevención de riesgos eléctricos."
+      }
+    ],
+    "UC0842_3": [],
+    "UC0843_3": [
+      {
+        "codigo": "0681",
+        "titulo": "Configuración de instalaciones solares fotovoltaicas."
+      }
+    ],
+    "UC0844_3": [],
+    "UC0845_3": [
+      {
+        "codigo": "0682",
+        "titulo": "Gestión del montaje de instalaciones solares fotovoltaicas.0670 Telecontrol y automatismos."
+      }
+    ],
+    "UC0615_3": [],
+    "UC0618_2": [
+      {
+        "codigo": "0684",
+        "titulo": "Operación y mantenimiento de parques eólicos."
+      }
+    ],
+    "UC0619_2": [
+      {
+        "codigo": "0683",
+        "titulo": "Gestión del montaje de parques eólicos."
+      }
+    ],
+    "UC0616_3": [],
+    "UC0617_3": []
+  },
+  "modulos_a_uc": {
+    "0669. Subestaciones eléctricas.": [],
+    "0670. Telecontrol y automatismos.": [
+      {
+        "codigo": "UC1531_3",
+        "descripcion": "Gestionar y supervisar el montaje de subestaciones eléctricas."
+      },
+      {
+        "codigo": "UC1532_3",
+        "descripcion": "Gestionar y supervisar la operación y el mantenimiento de subestaciones eléctricas."
+      },
+      {
+        "codigo": "UC1533_2",
+        "descripcion": "Operar localmente y realizar el mantenimiento de primer nivel en subestaciones eléctricas."
+      }
+    ],
+    "0670 Telecontrol y automatismos.": [],
+    "0682 Gestión del montaje de instalaciones solares fotovoltaicas.": [
+      {
+        "codigo": "UC0844_3",
+        "descripcion": "Organizar y controlar el montaje de instalaciones solares fotovoltaicas."
+      },
+      {
+        "codigo": "UC0845_3",
+        "descripcion": "Organizar y controlar el mantenimiento de instalaciones solares fotovoltaicas."
+      }
+    ],
+    "0671. Prevención de riesgos eléctricos.": [
+      {
+        "codigo": "UC1531_3",
+        "descripcion": "Gestionar y supervisar el montaje de subestaciones eléctricas."
+      },
+      {
+        "codigo": "UC1530_2",
+        "descripcion": "Prevenir riesgos en instalaciones eléctricas de alta tensión."
+      }
+    ],
+    "0681. Configuración de instalaciones solares fotovoltaicas.": [
+      {
+        "codigo": "UC0842_3",
+        "descripcion": "Determinar la viabilidad de proyectos de instalaciones solares."
+      },
+      {
+        "codigo": "UC0843_3",
+        "descripcion": "Desarrollar proyectos de instalaciones solares fotovoltaicas."
+      }
+    ],
+    "0682. Gestión del montaje de instalaciones solares fotovoltaicas.": [
+      {
+        "codigo": "UC0844_3",
+        "descripcion": "Organizar y controlar el montaje de instalaciones solares fotovoltaicas."
+      },
+      {
+        "codigo": "UC0845_3",
+        "descripcion": "Organizar y controlar el mantenimiento de instalaciones solares fotovoltaicas."
+      }
+    ],
+    "0683. Gestión del montaje de parques eólicos.": [
+      {
+        "codigo": "UC0615_3",
+        "descripcion": "Desarrollar proyectos de montaje de instalaciones de energía eólica."
+      },
+      {
+        "codigo": "UC0618_2",
+        "descripcion": "Prevenir riesgos profesionales y actuar en casos de emergencia en parques eólicos."
+      },
+      {
+        "codigo": "UC0619_2",
+        "descripcion": "Montar y mantener instalaciones de energía eólica."
+      }
+    ],
+    "0684. Operación y mantenimiento de parques eólicos.": [
+      {
+        "codigo": "UC0616_3",
+        "descripcion": "Gestionar la puesta en servicio y operación de instalaciones de energía eólica."
+      },
+      {
+        "codigo": "UC0617_3",
+        "descripcion": "Gestionar el mantenimiento de instalaciones de energía eólica."
+      },
+      {
+        "codigo": "UC0618_2",
+        "descripcion": "Prevenir riesgos profesionales y actuar en casos de emergencia en parques eólicos."
+      }
+    ]
+  },
+  "uc_descripciones": {
+    "UC0615_3": {
+      "codigo": "UC0615_3",
+      "descripcion": "Desarrollar proyectos de montaje de instalaciones de energía eólica.",
+      "nivel": "3"
+    },
+    "UC0616_3": {
+      "codigo": "UC0616_3",
+      "descripcion": "Gestionar la puesta en servicio y operación de instalaciones de energía eólica.",
+      "nivel": "3"
+    },
+    "UC0617_3": {
+      "codigo": "UC0617_3",
+      "descripcion": "Gestionar el mantenimiento de instalaciones de energía eólica.",
+      "nivel": "3"
+    },
+    "UC0618_2": {
+      "codigo": "UC0618_2",
+      "descripcion": "Prevenir riesgos profesionales y actuar en casos de emergencia en parques eólicos.",
+      "nivel": "2"
+    },
+    "UC0619_2": {
+      "codigo": "UC0619_2",
+      "descripcion": "Montar y mantener instalaciones de energía eólica.",
+      "nivel": "2"
+    },
+    "UC0842_3": {
+      "codigo": "UC0842_3",
+      "descripcion": "Determinar la viabilidad de proyectos de instalaciones solares.",
+      "nivel": "3"
+    },
+    "UC0843_3": {
+      "codigo": "UC0843_3",
+      "descripcion": "Desarrollar proyectos de instalaciones solares fotovoltaicas.",
+      "nivel": "3"
+    },
+    "UC0844_3": {
+      "codigo": "UC0844_3",
+      "descripcion": "Organizar y controlar el montaje de instalaciones solares fotovoltaicas.",
+      "nivel": "3"
+    },
+    "UC0845_3": {
+      "codigo": "UC0845_3",
+      "descripcion": "Organizar y controlar el mantenimiento de instalaciones solares fotovoltaicas.",
+      "nivel": "3"
+    },
+    "UC1531_3": {
+      "codigo": "UC1531_3",
+      "descripcion": "Gestionar y supervisar el montaje de subestaciones eléctricas.",
+      "nivel": "3"
+    },
+    "UC1532_3": {
+      "codigo": "UC1532_3",
+      "descripcion": "Gestionar y supervisar la operación y el mantenimiento de subestaciones eléctricas.",
+      "nivel": "3"
+    },
+    "UC1533_2": {
+      "codigo": "UC1533_2",
+      "descripcion": "Operar localmente y realizar el mantenimiento de primer nivel en subestaciones eléctricas.",
+      "nivel": "2"
+    },
+    "UC1530_2": {
+      "codigo": "UC1530_2",
+      "descripcion": "Prevenir riesgos en instalaciones eléctricas de alta tensión.",
+      "nivel": "2"
+    }
+  },
+  "cualificaciones": [
+    {
+      "codigo": "ENA193_3",
+      "titulo": "Gestión del montaje y mantenimiento de parques eólicos",
+      "decreto": "",
+      "ucs": [
+        {
+          "codigo": "UC0615_3",
+          "descripcion": "Desarrollar proyectos de montaje de instalaciones de energía eólica.",
+          "nivel": "3"
+        },
+        {
+          "codigo": "UC0616_3",
+          "descripcion": "Gestionar la puesta en servicio y operación de instalaciones de energía eólica.",
+          "nivel": "3"
+        },
+        {
+          "codigo": "UC0617_3",
+          "descripcion": "Gestionar el mantenimiento de instalaciones de energía eólica.",
+          "nivel": "3"
+        },
+        {
+          "codigo": "UC0618_2",
+          "descripcion": "Prevenir riesgos profesionales y actuar en casos de emergencia en parques eólicos.",
+          "nivel": "2"
+        },
+        {
+          "codigo": "UC0619_2",
+          "descripcion": "Montar y mantener instalaciones de energía eólica.",
+          "nivel": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "ENA263_3",
+      "titulo": "Organización y proyectos de instalaciones solares fotovoltaicas",
+      "decreto": "",
+      "ucs": [
+        {
+          "codigo": "UC0842_3",
+          "descripcion": "Determinar la viabilidad de proyectos de instalaciones solares.",
+          "nivel": "3"
+        },
+        {
+          "codigo": "UC0843_3",
+          "descripcion": "Desarrollar proyectos de instalaciones solares fotovoltaicas.",
+          "nivel": "3"
+        },
+        {
+          "codigo": "UC0844_3",
+          "descripcion": "Organizar y controlar el montaje de instalaciones solares fotovoltaicas.",
+          "nivel": "3"
+        },
+        {
+          "codigo": "UC0845_3",
+          "descripcion": "Organizar y controlar el mantenimiento de instalaciones solares fotovoltaicas.",
+          "nivel": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "ENA474_3",
+      "titulo": "Gestión del montaje, operación y mantenimiento de subestaciones eléctricas",
+      "decreto": "",
+      "ucs": [
+        {
+          "codigo": "UC1531_3",
+          "descripcion": "Gestionar y supervisar el montaje de subestaciones eléctricas.",
+          "nivel": "3"
+        },
+        {
+          "codigo": "UC1532_3",
+          "descripcion": "Gestionar y supervisar la operación y el mantenimiento de subestaciones eléctricas.",
+          "nivel": "3"
+        },
+        {
+          "codigo": "UC1533_2",
+          "descripcion": "Operar localmente y realizar el mantenimiento de primer nivel en subestaciones eléctricas.",
+          "nivel": "2"
+        },
+        {
+          "codigo": "UC1530_2",
+          "descripcion": "Prevenir riesgos en instalaciones eléctricas de alta tensión.",
+          "nivel": "2"
+        }
+      ]
+    }
+  ],
+  "modulos_ena302": {
+    "0668": {
+      "codigo": "0668",
+      "titulo": "Sistemas eléctricos en centrales."
+    },
+    "0669": {
+      "codigo": "0669",
+      "titulo": "Subestaciones eléctricas."
+    },
+    "0670": {
+      "codigo": "0670",
+      "titulo": "Telecontrol y automatismos."
+    },
+    "0671": {
+      "codigo": "0671",
+      "titulo": "Prevención de riesgos eléctricos."
+    },
+    "0680": {
+      "codigo": "0680",
+      "titulo": "Sistemas de energías renovables."
+    },
+    "0681": {
+      "codigo": "0681",
+      "titulo": "Configuración de instalaciones solares fotovoltaicas."
+    },
+    "0682": {
+      "codigo": "0682",
+      "titulo": "Gestión del montaje de instalaciones solares fotovoltaicas."
+    },
+    "0683": {
+      "codigo": "0683",
+      "titulo": "Gestión del montaje de parques eólicos."
+    },
+    "0684": {
+      "codigo": "0684",
+      "titulo": "Operación y mantenimiento de parques eólicos."
+    },
+    "0686": {
+      "codigo": "0686",
+      "titulo": "Proyecto de energías renovables."
+    },
+    "0687": {
+      "codigo": "0687",
+      "titulo": "Formación y orientación laboral."
+    },
+    "0688": {
+      "codigo": "0688",
+      "titulo": "Empresa e iniciativa emprendedora."
+    },
+    "0689": {
+      "codigo": "0689",
+      "titulo": "Formación en centros de trabajo."
+    }
+  }
+}

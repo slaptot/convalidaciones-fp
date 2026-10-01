@@ -112,6 +112,34 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Coordinación de Emergencias y Protección Civil | SEA302 | Superior | LO 3/2022 |
 | Química y Salud Ambiental | SEA303 | Superior | LO 3/2022 |
 | Prevención de riesgos profesionales | SEA304 | Superior | LO 3/2022 |
+| Laboratorio de Análisis y de Control de Calidad | QUI301 | Superior | LO 3/2022 |
+| Operaciones de Laboratorio | QUI201 | Medio | LO 3/2022 |
+| Planta Química | QUI204 | Medio | LO 3/2022 |
+| Fabricación de Productos Farmacéuticos, Biotecnológicos y Afines | QUI302 | Superior | LO 3/2022 |
+| Química Industrial | QUI304 | Superior | LO 3/2022 |
+| Impresión Gráfica | ARG202 | Medio | LO 3/2022 |
+| Preimpresión Digital | ARG203 | Medio | LO 3/2022 |
+| Diseño y Edición de Publicaciones Impresas y Multimedia | ARG301 | Superior | LO 3/2022 |
+| redes y estaciones de tratamiento de aguas | ENA201 | Medio | LO 3/2022 |
+| Eficiencia Energética y Energía Solar Térmica | ENA301 | Superior | LO 3/2022 |
+| Energías Renovables | ENA302 | Superior | LO 3/2022 |
+| Instalación y Amueblamiento | MAM201 | Medio | LO 3/2022 |
+| Carpintería y Mueble | MAM202 | Medio | LO 3/2022 |
+| Diseño y Amueblamiento | MAM301 | Superior | LO 3/2022 |
+| Servicios Administrativos | FPB101 | Básico | LO 3/2022 |
+| Fabricación y Montaje | FPB103 | Básico | LO 3/2022 |
+| Cocina y Restauración | FPB105 | Básico | LO 3/2022 |
+| Mantenimiento de Vehículos | FPB106 | Básico | LO 3/2022 |
+| Agrojardinería y Composiciones Florales | FPB107 | Básico | LO 3/2022 |
+| Servicios Comerciales | FPB109 | Básico | LO 3/2022 |
+| Carpintería y Mueble | FPB110 | Básico | LO 3/2022 |
+| Reforma y Mantenimiento de Edificios | FPB111 | Básico | LO 3/2022 |
+| Arreglo y Reparación de Artículos Textiles y de Piel | FPB112 | Básico | LO 3/2022 |
+| Recepción y Alojamiento | HOT202 | Medio | LO 3/2022 |
+| Extracción y Procesamiento de Minerales y Rocas Industriales | IEX201 | Medio | LO 3/2022 |
+| Prótesis Dentales | MSP304 | Superior | LO 3/2022 |
+| Transportes y Logística | TCP202 | Medio | LO 3/2022 |
+| Transporte y Logística | TCP301 | Superior | LO 3/2022 |
 
 Además, el **catálogo completo de Aragón** (150 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas. De ellos, **139 tienen ya la correspondencia módulo ↔ estándar de competencia** descargada de esa misma herramienta (2.930 filas), así que convalidan por unidades de competencia acreditadas; lo que les falta es el anexo de convalidaciones con títulos anteriores, que hay que leer del BOE. La web lo avisa en pantalla, porque esas correspondencias no están contrastadas con el anexo V de cada real decreto.
 

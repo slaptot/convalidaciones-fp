@@ -1,0 +1,681 @@
+{
+  "familia_profesional": "Imagen Personal",
+  "codigo_familia": "IMP",
+  "ciclos": [
+    {
+      "codigo": "IMP202",
+      "nivel": "Grado Medio (GM)",
+      "nombre_oficial": "Técnico en Estética y Belleza",
+      "duracion_horas": 2000,
+      "rd_principal": {
+        "numero": "RD 256/2011",
+        "fecha": "2011-02-28",
+        "titulo": "Real Decreto por el que se establece el título de Técnico en Estética y Belleza y se fijan sus enseñanzas mínimas",
+        "boe": "BOE-A-2011-6232",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-6232"
+      },
+      "orden_curricular": {
+        "numero": "Orden EDU/1294/2011",
+        "fecha": "2011-05-13",
+        "titulo": "Orden por la que se establece el currículo del ciclo formativo de Grado Medio correspondiente al título de Técnico en Estética y Belleza",
+        "boe": "BOE-A-2011-8907",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-8907"
+      },
+      "actualizaciones": [
+        {
+          "numero": "RD 499/2024",
+          "fecha": "2024-05-21",
+          "descripcion": "Modifica aspectos generales de títulos de Grado Medio"
+        }
+      ],
+      "modulos": [
+        {
+          "codigo": "0633",
+          "nombre": "Técnicas de higiene facial y corporal",
+          "horas": 190
+        },
+        {
+          "codigo": "0634",
+          "nombre": "Maquillaje",
+          "horas": 190
+        },
+        {
+          "codigo": "0635",
+          "nombre": "Depilación mecánica y decoloración del vello",
+          "horas": 155
+        },
+        {
+          "codigo": "0636",
+          "nombre": "Estética de manos y pies",
+          "horas": 135
+        },
+        {
+          "codigo": "0637",
+          "nombre": "Técnicas de uñas artificiales",
+          "horas": 85
+        },
+        {
+          "codigo": "0638",
+          "nombre": "Análisis estético",
+          "horas": 95
+        },
+        {
+          "codigo": "0639",
+          "nombre": "Actividades en cabina de estética",
+          "horas": 155
+        },
+        {
+          "codigo": "0640",
+          "nombre": "Imagen corporal y hábitos saludables",
+          "horas": 95
+        },
+        {
+          "codigo": "0641",
+          "nombre": "Cosmetología para estética y belleza",
+          "horas": 165
+        },
+        {
+          "codigo": "0642",
+          "nombre": "Perfumería y cosmética natural",
+          "horas": 100
+        },
+        {
+          "codigo": "0643",
+          "nombre": "Marketing y venta en imagen personal",
+          "horas": 85
+        },
+        {
+          "codigo": "0644",
+          "nombre": "Formación y orientación laboral (FOL)",
+          "horas": 90
+        },
+        {
+          "codigo": "0645",
+          "nombre": "Empresa e iniciativa emprendedora",
+          "horas": 60
+        },
+        {
+          "codigo": "0646",
+          "nombre": "Formación en centros de trabajo (FCT)",
+          "horas": 400
+        }
+      ],
+      "convalidaciones": {
+        "rd_principal": "RD 1085/2020",
+        "anexos": ["Anexo II", "Anexo III"],
+        "descripcion": "Módulos con convalidaciones en RD 1085/2020"
+      }
+    },
+    {
+      "codigo": "IMP203",
+      "nivel": "Grado Medio (GM)",
+      "nombre_oficial": "Técnico en Peluquería y Cosmética Capilar",
+      "duracion_horas": 2000,
+      "rd_principal": {
+        "numero": "RD 1588/2011",
+        "fecha": "2011-11-04",
+        "titulo": "Real Decreto por el que se establece el Título de Técnico en Peluquería y Cosmética Capilar y se fijan sus enseñanzas mínimas",
+        "boe": "BOE-A-2011-19537",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19537"
+      },
+      "orden_curricular": {
+        "numero": "Orden ECD/344/2012",
+        "fecha": "2012-02-15",
+        "titulo": "Orden por la que se establece el currículo del ciclo formativo de Grado Medio correspondiente al título de Técnico en Peluquería y Cosmética Capilar",
+        "boe": "BOE-A-2012-2759",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2012-2759"
+      },
+      "actualizaciones": [
+        {
+          "numero": "Orden ECD/1962/2015",
+          "fecha": "2015-09-24",
+          "descripcion": "Modifica el anexo II del currículo"
+        },
+        {
+          "numero": "RD 499/2024",
+          "fecha": "2024-05-21",
+          "descripcion": "Modifica aspectos generales de títulos de Grado Medio"
+        }
+      ],
+      "modulos": [
+        {
+          "codigo": "0842",
+          "nombre": "Peinados y recogidos",
+          "horas": 235
+        },
+        {
+          "codigo": "0843",
+          "nombre": "Coloración del cabello",
+          "horas": 205
+        },
+        {
+          "codigo": "0844",
+          "nombre": "Cosméticos para peluquería",
+          "horas": 155
+        },
+        {
+          "codigo": "0845",
+          "nombre": "Técnicas de corte del cabello",
+          "horas": 200
+        },
+        {
+          "codigo": "0846",
+          "nombre": "Cambios permanentes de la forma del cabello",
+          "horas": 130
+        },
+        {
+          "codigo": "0848",
+          "nombre": "Peluquería masculina y estilismo",
+          "horas": 135
+        },
+        {
+          "codigo": "0849",
+          "nombre": "Análisis del cabello",
+          "horas": 95
+        },
+        {
+          "codigo": "0636",
+          "nombre": "Estética de manos y pies",
+          "horas": 120
+        },
+        {
+          "codigo": "0640",
+          "nombre": "Imagen corporal y hábitos saludables",
+          "horas": 90
+        },
+        {
+          "codigo": "0643",
+          "nombre": "Marketing y venta en imagen personal",
+          "horas": 85
+        },
+        {
+          "codigo": "0851",
+          "nombre": "Formación y orientación laboral (FOL)",
+          "horas": 90
+        },
+        {
+          "codigo": "0852",
+          "nombre": "Empresa e iniciativa emprendedora",
+          "horas": 60
+        },
+        {
+          "codigo": "0853",
+          "nombre": "Formación en centros de trabajo (FCT)",
+          "horas": 400
+        }
+      ],
+      "convalidaciones": {
+        "rd_principal": "RD 1085/2020",
+        "anexos": ["Anexo II", "Anexo III"],
+        "descripcion": "Módulos con convalidaciones en RD 1085/2020"
+      }
+    },
+    {
+      "codigo": "IMP301",
+      "nivel": "Grado Superior (GS)",
+      "nombre_oficial": "Técnico Superior en Asesoría de Imagen Personal y Corporativa",
+      "duracion_horas": 2000,
+      "rd_principal": {
+        "numero": "RD 1685/2011",
+        "fecha": "2011-11-18",
+        "titulo": "Real Decreto por el que se establece el título de Técnico Superior en Asesoría de Imagen Personal y Corporativa y se fijan sus enseñanzas mínimas",
+        "boe": "BOE-A-2011-20273",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-20273"
+      },
+      "orden_curricular": {
+        "numero": "Orden ECD/84/2013",
+        "fecha": "2013-01-23",
+        "titulo": "Orden por la que se establece el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Asesoría de Imagen Personal y Corporativa",
+        "boe": "BOE-A-2013-966",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-966"
+      },
+      "actualizaciones": [
+        {
+          "numero": "RD 500/2024",
+          "fecha": "2024-05-21",
+          "descripcion": "Modifica RD 1685/2011 para adaptar a nuevo sistema FP"
+        }
+      ],
+      "modulos": [
+        {
+          "codigo": "1181",
+          "nombre": "Asesoría cosmética",
+          "horas": 105
+        },
+        {
+          "codigo": "1182",
+          "nombre": "Diseño de imagen integral",
+          "horas": 150
+        },
+        {
+          "codigo": "1183",
+          "nombre": "Estilismo en vestuario y complementos",
+          "horas": 200
+        },
+        {
+          "codigo": "1184",
+          "nombre": "Asesoría de peluquería",
+          "horas": 150
+        },
+        {
+          "codigo": "1185",
+          "nombre": "Protocolo y organización de eventos",
+          "horas": 130
+        },
+        {
+          "codigo": "1186",
+          "nombre": "Usos sociales",
+          "horas": 80
+        },
+        {
+          "codigo": "1187",
+          "nombre": "Asesoría estética",
+          "horas": 175
+        },
+        {
+          "codigo": "1188",
+          "nombre": "Habilidades comunicativas",
+          "horas": 110
+        },
+        {
+          "codigo": "1189",
+          "nombre": "Imagen corporativa",
+          "horas": 90
+        },
+        {
+          "codigo": "1071",
+          "nombre": "Dirección y comercialización",
+          "horas": 90
+        },
+        {
+          "codigo": "1190",
+          "nombre": "Proyecto de asesoría de imagen personal y corporativa",
+          "horas": 40
+        },
+        {
+          "codigo": "1191",
+          "nombre": "Formación y orientación laboral (FOL)",
+          "horas": 90
+        },
+        {
+          "codigo": "1192",
+          "nombre": "Empresa e iniciativa emprendedora",
+          "horas": 60
+        },
+        {
+          "codigo": "1193",
+          "nombre": "Formación en centros de trabajo (FCT)",
+          "horas": 400
+        }
+      ],
+      "convalidaciones": {
+        "rd_principal": "RD 1085/2020",
+        "anexos": ["Anexo III"],
+        "descripcion": "Módulos con convalidaciones en RD 1085/2020"
+      }
+    },
+    {
+      "codigo": "IMP302",
+      "nivel": "Grado Superior (GS)",
+      "nombre_oficial": "Técnico Superior en Estética Integral y Bienestar",
+      "duracion_horas": 2000,
+      "rd_principal": {
+        "numero": "RD 881/2011",
+        "fecha": "2011-06-24",
+        "titulo": "Real Decreto por el que se establece el título de Técnico Superior en Estética Integral y Bienestar y se fijan sus enseñanzas mínimas",
+        "boe": "BOE-A-2011-12722",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-12722"
+      },
+      "orden_curricular": {
+        "numero": "Orden EDU/3152/2011",
+        "fecha": "2011-11-11",
+        "titulo": "Orden por la que se establece el currículo del ciclo formativo de Grado Superior correspondiente al título de Técnico Superior en Estética Integral y Bienestar",
+        "boe": "BOE-A-2011-18196",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-18196"
+      },
+      "actualizaciones": [
+        {
+          "numero": "RD 500/2024",
+          "fecha": "2024-05-21",
+          "descripcion": "Modifica RD 881/2011 para adaptar a nuevo sistema FP"
+        }
+      ],
+      "modulos": [
+        {
+          "codigo": "0744",
+          "nombre": "Aparatología estética",
+          "horas": 125
+        },
+        {
+          "codigo": "0745",
+          "nombre": "Estética hidrotermal",
+          "horas": 125
+        },
+        {
+          "codigo": "0746",
+          "nombre": "Depilación avanzada",
+          "horas": 125
+        },
+        {
+          "codigo": "0747",
+          "nombre": "Masaje estético",
+          "horas": 185
+        },
+        {
+          "codigo": "0748",
+          "nombre": "Drenaje estético y técnicas por presión",
+          "horas": 115
+        },
+        {
+          "codigo": "0749",
+          "nombre": "Micropigmentación",
+          "horas": 105
+        },
+        {
+          "codigo": "0750",
+          "nombre": "Procesos fisiológicos y de higiene en imagen personal",
+          "horas": 105
+        },
+        {
+          "codigo": "0751",
+          "nombre": "Dermoestética",
+          "horas": 105
+        },
+        {
+          "codigo": "0752",
+          "nombre": "Cosmética aplicada a estética y bienestar",
+          "horas": 155
+        },
+        {
+          "codigo": "0753",
+          "nombre": "Tratamientos estéticos integrales",
+          "horas": 135
+        },
+        {
+          "codigo": "0754",
+          "nombre": "Proyecto de estética integral y bienestar",
+          "horas": 40
+        },
+        {
+          "codigo": "0755",
+          "nombre": "Formación y orientación laboral (FOL)",
+          "horas": 90
+        },
+        {
+          "codigo": "0756",
+          "nombre": "Empresa e iniciativa emprendedora",
+          "horas": 60
+        },
+        {
+          "codigo": "0757",
+          "nombre": "Formación en centros de trabajo (FCT)",
+          "horas": 400
+        }
+      ],
+      "convalidaciones": {
+        "rd_principal": "RD 1085/2020",
+        "anexos": ["Anexo III"],
+        "descripcion": "Módulos con convalidaciones en RD 1085/2020"
+      }
+    },
+    {
+      "codigo": "IMP303",
+      "nivel": "Grado Superior (GS)",
+      "nombre_oficial": "Técnico Superior en Estilismo y Dirección de Peluquería",
+      "duracion_horas": 2000,
+      "rd_principal": {
+        "numero": "RD 1577/2011",
+        "fecha": "2011-11-04",
+        "titulo": "Real Decreto por el que se establece el Título de Técnico Superior en Estilismo y Dirección de Peluquería y se fijan sus enseñanzas mínimas",
+        "boe": "BOE-A-2011-19352",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19352"
+      },
+      "orden_curricular": {
+        "numero": "Orden ECD/104/2013",
+        "fecha": "2013-01-23",
+        "titulo": "Orden por la que se establece el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Estilismo y Dirección de Peluquería",
+        "boe": "BOE-A-2013-1035",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-1035"
+      },
+      "actualizaciones": [],
+      "modulos": [
+        {
+          "codigo": "1064",
+          "nombre": "Dermotricología",
+          "horas": 135
+        },
+        {
+          "codigo": "1065",
+          "nombre": "Recursos técnicos y cosméticos",
+          "horas": 170
+        },
+        {
+          "codigo": "1066",
+          "nombre": "Tratamientos capilares",
+          "horas": 90
+        },
+        {
+          "codigo": "1067",
+          "nombre": "Procedimientos y técnicas de peluquería",
+          "horas": 260
+        },
+        {
+          "codigo": "1068",
+          "nombre": "Peinados para producciones audiovisuales y de moda",
+          "horas": 105
+        },
+        {
+          "codigo": "1069",
+          "nombre": "Estilismo en peluquería",
+          "horas": 130
+        },
+        {
+          "codigo": "1070",
+          "nombre": "Estudio de la imagen",
+          "horas": 90
+        },
+        {
+          "codigo": "0750",
+          "nombre": "Procesos fisiológicos y de higiene en imagen personal",
+          "horas": 125
+        },
+        {
+          "codigo": "1071",
+          "nombre": "Dirección y comercialización",
+          "horas": 90
+        },
+        {
+          "codigo": "1072",
+          "nombre": "Peluquería en cuidados especiales",
+          "horas": 85
+        },
+        {
+          "codigo": "1073",
+          "nombre": "Proyecto de estilismo y dirección de peluquería",
+          "horas": 40
+        },
+        {
+          "codigo": "1074",
+          "nombre": "Formación y orientación laboral (FOL)",
+          "horas": 90
+        },
+        {
+          "codigo": "1075",
+          "nombre": "Empresa e iniciativa emprendedora",
+          "horas": 60
+        },
+        {
+          "codigo": "1076",
+          "nombre": "Formación en centros de trabajo (FCT)",
+          "horas": 400
+        }
+      ],
+      "convalidaciones": {
+        "rd_principal": "RD 1085/2020",
+        "anexos": ["Anexo III"],
+        "descripcion": "Módulos con convalidaciones en RD 1085/2020"
+      }
+    },
+    {
+      "codigo": "IMP304",
+      "nivel": "Grado Superior (GS)",
+      "nombre_oficial": "Técnico Superior en Termalismo y Bienestar",
+      "duracion_horas": 2000,
+      "rd_principal": {
+        "numero": "RD 699/2019",
+        "fecha": "2019-11-29",
+        "titulo": "Real Decreto por el que se establece el título de Técnico Superior en Termalismo y bienestar y se fijan los aspectos básicos del currículo",
+        "boe": "BOE-A-2020-341",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-341",
+        "nota": "Título establecido bajo nuevo sistema (LPFP - Ley de Formación Profesional)"
+      },
+      "orden_curricular": {
+        "numero": "Orden EFP/81/2021",
+        "fecha": "2021-01-28",
+        "titulo": "Orden por la que se establece el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Termalismo y bienestar",
+        "boe": "BOE-A-2021-1618",
+        "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2021-1618"
+      },
+      "actualizaciones": [
+        {
+          "numero": "RD 500/2024",
+          "fecha": "2024-05-21",
+          "descripcion": "Modifica RD 699/2019"
+        }
+      ],
+      "modulos": [
+        {
+          "codigo": "desconocido",
+          "nombre": "Estética hidrotermal",
+          "horas": 75,
+          "nota": "Módulos parcialmente documentados en búsqueda"
+        },
+        {
+          "codigo": "desconocido",
+          "nombre": "Masaje estético",
+          "horas": 65
+        },
+        {
+          "codigo": "desconocido",
+          "nombre": "Acondicionamiento físico en el agua",
+          "horas": 75
+        },
+        {
+          "codigo": "desconocido",
+          "nombre": "Proyecto de Termalismo y bienestar",
+          "horas": 25
+        }
+      ],
+      "nota_completitud": "Requiere lectura completa del BOE para lista definitiva de módulos",
+      "convalidaciones": {
+        "rd_principal": "RD 1085/2020",
+        "nota": "Aplicable aunque es título más reciente"
+      }
+    }
+  ],
+  "convalidaciones": {
+    "documento": "RD 1085/2020",
+    "fecha": "2020-12-09",
+    "titulo": "Real Decreto por el que se establecen convalidaciones de módulos profesionales de los títulos de Formación Profesional",
+    "boe": "BOE-A-2020-17274",
+    "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17274",
+    "anexos": {
+      "anexo_i": "Convalidaciones de títulos derivados de LO 1/1990",
+      "anexo_ii": "Convalidaciones entre títulos de LO 1/1990",
+      "anexo_iii": "Convalidaciones para títulos de LO 2/2006 (sistema actual)",
+      "aplicable_a_imp": "Anexo II y III contienen módulos de Imagen Personal"
+    },
+    "modulos_ejemplo": [
+      "Depilación mecánica y técnicas complementarias",
+      "Maquillaje",
+      "Anatomía y fisiología humanas básicas",
+      "Estética Personal Decorativa",
+      "Peluquería",
+      "Asesoría de Imagen Personal"
+    ]
+  },
+  "equivalencias_uc": {
+    "documento": "RD 532/2025",
+    "fecha": "2025-06-24",
+    "titulo": "Real Decreto por el que se incluyen estándares de competencias profesionales y se integran las antiguas unidades de competencia",
+    "boe": "BOE-A-2025-13147",
+    "referencia_boe": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-13147",
+    "correccion": "BOE-A-2025-23619",
+    "sistema": "UC (Unidades de Competencia) → ECP (Estándares de Competencias Profesionales)",
+    "ejemplos_imagen_personal": [
+      {
+        "uc": "UC0291_2",
+        "ecp": ["ECP2568_2", "ECP2569_2"],
+        "descripcion": "Higiene y seguridad en peluquería"
+      },
+      {
+        "uc": "UC0293_2",
+        "ecp": "ECP2584_2",
+        "requisito": "Requiere UC0294_2 acreditada"
+      },
+      {
+        "uc": "UC0294_2",
+        "ecp": "ECP2584_2",
+        "requisito": "Requiere UC0293_2 acreditada"
+      },
+      {
+        "uc": "UC0036_2",
+        "ecp": "ECP0711_2"
+      },
+      {
+        "uc": "UC0310_2",
+        "ecp": "ECP0711_2"
+      },
+      {
+        "uc": "UC0352_2",
+        "descripcion": "Venta de productos y servicios de imagen personal"
+      },
+      {
+        "uc": "UC1262_3",
+        "descripcion": "Tratamientos estéticos capilares en seguridad e higiene"
+      },
+      {
+        "uc": "UC0795_3",
+        "descripcion": "Gestión de actividades en empresas de imagen personal"
+      }
+    ]
+  },
+  "actualizaciones_recientes": [
+    {
+      "numero": "RD 500/2024",
+      "fecha": "2024-05-21",
+      "titulo": "Modifica RD 1685/2011, RD 881/2011, RD 699/2019",
+      "boe": "BOE-A-2024-10685",
+      "descripcion": "Adaptación a nuevo sistema FP (RD 659/2023)"
+    },
+    {
+      "numero": "RD 209/2025",
+      "fecha": "2025-03-18",
+      "titulo": "Regula grados A, B, C de FP para Imagen Personal",
+      "boe": "BOE-A-2025-6699",
+      "contenido": {
+        "grado_c": "Certificados profesionales",
+        "grado_b": "Certificados de competencia (Ej: IMP_B_0634 Maquillaje 160h, IMP_B_0643 Marketing y venta 120h)",
+        "grado_a": "Acreditaciones parciales (25-30 horas)"
+      }
+    },
+    {
+      "numero": "RD 1024/2024",
+      "fecha": "2024-10-08",
+      "titulo": "Actualiza cualificaciones profesionales Imagen Personal",
+      "descripcion": "Catálogo Nacional de Cualificaciones Profesionales"
+    },
+    {
+      "numero": "RD 917/2024",
+      "fecha": "2024-09-17",
+      "titulo": "Actualiza cualificaciones profesionales Imagen Personal"
+    }
+  ],
+  "notas": {
+    "completitud": "Información verificada para IMP202, IMP203, IMP301, IMP302, IMP303",
+    "pendiente_completar": "Módulos detallados de IMP304 requieren lectura completa BOE PDF",
+    "convalidaciones_detalle": "Requerida lectura PDF RD 1085/2020 anexos para detalles específicos módulo a módulo",
+    "fecha_investigacion": "2024-10-01",
+    "fuente": "Boletín Oficial del Estado (BOE.es)"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "FPB101": {
+    "codigo": "FPB101",
+    "nombre": "Técnico Básico en Servicios Administrativos",
+    "familia": "Administración y Gestión",
+    "duracion_total_horas": 2000,
+    "norma": "RD 127/2014, de 28 de febrero - Anexo I",
+    "boe": "BOE-A-2014-2360",
+    "modulos": [
+      {
+        "codigo": "3001",
+        "nombre": "Tratamiento informático de datos",
+        "horas": 145
+      },
+      {
+        "codigo": "3002",
+        "nombre": "Aplicaciones básicas de ofimática",
+        "horas": 100
+      },
+      {
+        "codigo": "3003",
+        "nombre": "Técnicas administrativas básicas",
+        "horas": 140
+      },
+      {
+        "codigo": "3004",
+        "nombre": "Archivo y comunicación",
+        "horas": 85
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "horas": 40
+      },
+      {
+        "codigo": "3006",
+        "nombre": "Preparación de pedidos y venta de productos",
+        "horas": 40
+      },
+      {
+        "codigo": "3009",
+        "nombre": "Ciencias aplicadas I",
+        "horas": 90
+      },
+      {
+        "codigo": "3010",
+        "nombre": "Ciencias aplicadas II",
+        "horas": 90
+      },
+      {
+        "codigo": "3011",
+        "nombre": "Comunicación y sociedad I",
+        "horas": 120
+      },
+      {
+        "codigo": "3012",
+        "nombre": "Comunicación y sociedad II",
+        "horas": 120
+      },
+      {
+        "codigo": "3008",
+        "nombre": "Formación en centros de trabajo",
+        "horas": 130
+      }
+    ],
+    "cualificaciones": [
+      {
+        "codigo": "ADG305_1",
+        "nombre": "Operaciones auxiliares de servicios administrativos y generales",
+        "ucs": ["UC0969_1", "UC0970_1", "UC0971_1"]
+      },
+      {
+        "codigo": "ADG306_1",
+        "nombre": "Operaciones de grabación y tratamiento de datos y documentos",
+        "ucs": ["UC0973_1", "UC0974_1", "UC0971_1"]
+      },
+      {
+        "codigo": "COM412_1",
+        "nombre": "Actividades auxiliares de comercio",
+        "ucs": ["UC1329_1", "UC1326_1"]
+      }
+    ],
+    "modulos_a_uc": [
+      {"modulo": "3001", "uc": "UC0973_1"},
+      {"modulo": "3002", "uc": "UC0974_1"},
+      {"modulo": "3003", "uc": "UC0969_1"},
+      {"modulo": "3004", "uc": "UC0970_1"},
+      {"modulo": "3004", "uc": "UC0971_1"},
+      {"modulo": "3005", "uc": "UC1329_1"},
+      {"modulo": "3006", "uc": "UC1326_1"}
+    ],
+    "uc_a_modulos": [
+      {"uc": "UC0969_1", "modulo": "3003"},
+      {"uc": "UC0970_1", "modulo": "3004"},
+      {"uc": "UC0971_1", "modulo": "3004"},
+      {"uc": "UC0973_1", "modulo": "3001"},
+      {"uc": "UC0974_1", "modulo": "3002"},
+      {"uc": "UC1329_1", "modulo": "3005"},
+      {"uc": "UC1326_1", "modulo": "3006"}
+    ]
+  },
+  "FPB103": {
+    "codigo": "FPB103",
+    "nombre": "Técnico Básico en Fabricación y Montaje",
+    "familia": "Fabricación Mecánica e Instalación y Mantenimiento",
+    "duracion_total_horas": 2000,
+    "norma": "RD 127/2014, de 28 de febrero - Anexo III",
+    "boe": "BOE-A-2014-2360",
+    "modulos": [
+      {
+        "codigo": "3020",
+        "nombre": "Operaciones básicas de fabricación",
+        "horas": 180
+      },
+      {
+        "codigo": "3021",
+        "nombre": "Soldadura y carpintería metálica",
+        "horas": 115
+      },
+      {
+        "codigo": "3022",
+        "nombre": "Carpintería de aluminio y PVC",
+        "horas": 140
+      },
+      {
+        "codigo": "3023",
+        "nombre": "Redes de evacuación",
+        "horas": 115
+      },
+      {
+        "codigo": "3024",
+        "nombre": "Fontanería y calefacción básica",
+        "horas": 90
+      },
+      {
+        "codigo": "3025",
+        "nombre": "Montaje de equipos de climatización",
+        "horas": 90
+      },
+      {
+        "codigo": "3009",
+        "nombre": "Ciencias aplicadas I",
+        "horas": 120
+      },
+      {
+        "codigo": "3019",
+        "nombre": "Ciencias aplicadas II",
+        "horas": 120
+      },
+      {
+        "codigo": "3011",
+        "nombre": "Comunicación y sociedad I",
+        "horas": 120
+      },
+      {
+        "codigo": "3012",
+        "nombre": "Comunicación y sociedad II",
+        "horas": 120
+      },
+      {
+        "codigo": "3027",
+        "nombre": "Formación en centros de trabajo",
+        "horas": 130
+      }
+    ],
+    "cualificaciones": "PENDIENTE_EXTRACCIÓN_COMPLETA_DEL_BOE",
+    "modulos_a_uc": "PENDIENTE_EXTRACCIÓN_COMPLETA_DEL_BOE",
+    "uc_a_modulos": "PENDIENTE_EXTRACCIÓN_COMPLETA_DEL_BOE",
+    "nota": "Módulos extraídos del Anexo III. Las tablas de correspondencia requieren más extracción del documento."
+  },
+  "FPB105": {
+    "codigo": "FPB105",
+    "nombre": "Técnico Básico en Cocina y Restauración",
+    "familia": "Hostelería y Turismo",
+    "duracion_total_horas": 2000,
+    "norma": "RD 127/2014, de 28 de febrero - Anexo V",
+    "boe": "BOE-A-2014-2360",
+    "modulos": "NO_DISPONIBLE_EN_EXTRACTO_DE_TEXTO",
+    "cualificaciones": "NO_DISPONIBLE_EN_EXTRACTO_DE_TEXTO",
+    "modulos_a_uc": "NO_DISPONIBLE_EN_EXTRACTO_DE_TEXTO",
+    "uc_a_modulos": "NO_DISPONIBLE_EN_EXTRACTO_DE_TEXTO",
+    "nota": "El documento de texto del BOE extraído solo contiene hasta Anexo IV. El Anexo V (Cocina y Restauración) no está incluido."
+  },
+  "FPB106": {
+    "codigo": "FPB106",
+    "nombre": "Técnico Básico en Mantenimiento de Vehículos",
+    "familia": "Automoción",
+    "duracion_total_horas": 2000,
+    "norma": "RD 127/2014, de 28 de febrero - Anexo VI",
+    "boe": "BOE-A-2014-2360",
+    "modulos": "NO_DISPONIBLE_EN_EXTRACTO_DE_TEXTO",
+    "cualificaciones": "NO_DISPONIBLE_EN_EXTRACTO_DE_TEXTO",
+    "modulos_a_uc": "NO_DISPONIBLE_EN_EXTRACTO_DE_TEXTO",
+    "uc_a_modulos": "NO_DISPONIBLE_EN_EXTRACTO_DE_TEXTO",
+    "nota": "El documento de texto del BOE extraído solo contiene hasta Anexo IV. El Anexo VI (Mantenimiento de Vehículos) no está incluido."
+  }
+}

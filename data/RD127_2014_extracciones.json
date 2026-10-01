@@ -1,0 +1,415 @@
+{
+  "FPB101": {
+    "codigo": "FPB101",
+    "nombre": "Servicios Administrativos",
+    "familia": "Administración y Gestión",
+    "modulos": [
+      {
+        "codigo": "3001",
+        "nombre": "Tratamiento informático de datos",
+        "horas": 145
+      },
+      {
+        "codigo": "3002",
+        "nombre": "Aplicaciones básicas de ofimática",
+        "horas": 100
+      },
+      {
+        "codigo": "3003",
+        "nombre": "Técnicas administrativas básicas",
+        "horas": 140
+      },
+      {
+        "codigo": "3004",
+        "nombre": "Archivo y comunicación",
+        "horas": 85
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "horas": 40
+      },
+      {
+        "codigo": "3006",
+        "nombre": "Preparación de pedidos y venta de productos",
+        "horas": 40
+      },
+      {
+        "codigo": "3009",
+        "nombre": "Ciencias aplicadas I",
+        "horas": 90
+      },
+      {
+        "codigo": "3010",
+        "nombre": "Ciencias aplicadas II",
+        "horas": 90
+      },
+      {
+        "codigo": "3011",
+        "nombre": "Comunicación y sociedad I",
+        "horas": 120
+      },
+      {
+        "codigo": "3012",
+        "nombre": "Comunicación y sociedad II",
+        "horas": 120
+      },
+      {
+        "codigo": "3008",
+        "nombre": "Formación en centros de trabajo",
+        "horas": 130
+      }
+    ],
+    "cualificaciones": [
+      {
+        "codigo": "ADG305_1",
+        "nombre": "Operaciones auxiliares de servicios administrativos y generales",
+        "ucs": [
+          "UC0969_1",
+          "UC0970_1",
+          "UC0971_1"
+        ]
+      },
+      {
+        "codigo": "ADG306_1",
+        "nombre": "Operaciones de grabación y tratamiento de datos y documentos",
+        "ucs": [
+          "UC0973_1",
+          "UC0974_1",
+          "UC0971_1"
+        ]
+      },
+      {
+        "codigo": "COM412_1",
+        "nombre": "Actividades auxiliares de comercio",
+        "ucs": [
+          "UC1329_1",
+          "UC1326_1"
+        ]
+      }
+    ],
+    "modulos_a_uc": [
+      {
+        "modulo": "3001",
+        "uc": "UC0973_1"
+      },
+      {
+        "modulo": "3002",
+        "uc": "UC0974_1"
+      },
+      {
+        "modulo": "3003",
+        "uc": "UC0969_1"
+      },
+      {
+        "modulo": "3004",
+        "uc": "UC0970_1"
+      },
+      {
+        "modulo": "3004",
+        "uc": "UC0971_1"
+      },
+      {
+        "modulo": "3005",
+        "uc": "UC1329_1"
+      },
+      {
+        "modulo": "3006",
+        "uc": "UC1326_1"
+      }
+    ],
+    "uc_a_modulos": [
+      {
+        "uc": "UC0973_1",
+        "modulo": "3001"
+      },
+      {
+        "uc": "UC0974_1",
+        "modulo": "3002"
+      },
+      {
+        "uc": "UC0969_1",
+        "modulo": "3003"
+      },
+      {
+        "uc": "UC0970_1",
+        "modulo": "3004"
+      },
+      {
+        "uc": "UC0971_1",
+        "modulo": "3004"
+      },
+      {
+        "uc": "UC1329_1",
+        "modulo": "3005"
+      },
+      {
+        "uc": "UC1326_1",
+        "modulo": "3006"
+      }
+    ]
+  },
+  "FPB102": {
+    "codigo": "FPB102",
+    "nombre": "Electricidad y Electrónica",
+    "familia": "Electricidad y Electrónica",
+    "modulos": [
+      {
+        "codigo": "3013",
+        "nombre": "Instalaciones eléctricas y domóticas",
+        "horas": 180
+      },
+      {
+        "codigo": "3014",
+        "nombre": "Instalaciones de telecomunicaciones",
+        "horas": 115
+      },
+      {
+        "codigo": "3015",
+        "nombre": "Equipos eléctricos y electrónicos",
+        "horas": 140
+      },
+      {
+        "codigo": "3016",
+        "nombre": "Instalación y mantenimiento de redes para transmisión de datos",
+        "horas": 115
+      },
+      {
+        "codigo": "3009",
+        "nombre": "Ciencias aplicadas I",
+        "horas": 90
+      },
+      {
+        "codigo": "3019",
+        "nombre": "Ciencias aplicadas II",
+        "horas": 90
+      },
+      {
+        "codigo": "3011",
+        "nombre": "Comunicación y sociedad I",
+        "horas": 120
+      },
+      {
+        "codigo": "3012",
+        "nombre": "Comunicación y sociedad II",
+        "horas": 120
+      },
+      {
+        "codigo": "3018",
+        "nombre": "Formación en centros de trabajo",
+        "horas": 130
+      }
+    ],
+    "cualificaciones": [
+      {
+        "codigo": "ELE255_1",
+        "nombre": "Operaciones auxiliares de montaje de instalaciones electrotécnicas y de telecomunicaciones en edificios",
+        "ucs": [
+          "UC0816_1",
+          "UC0817_1"
+        ]
+      },
+      {
+        "codigo": "ELE481_1",
+        "nombre": "Operaciones auxiliares de montaje y mantenimiento de equipos eléctricos y electrónicos",
+        "ucs": [
+          "UC1559_1",
+          "UC1560_1",
+          "UC1561_1"
+        ]
+      },
+      {
+        "codigo": "IFC361_1",
+        "nombre": "Operaciones auxiliares de montaje y mantenimiento de sistemas microinformáticos",
+        "ucs": [
+          "UC1207_1"
+        ]
+      }
+    ],
+    "modulos_a_uc": [
+      {
+        "modulo": "3013",
+        "uc": "UC0816_1"
+      },
+      {
+        "modulo": "3014",
+        "uc": "UC0817_1"
+      },
+      {
+        "modulo": "3015",
+        "uc": "UC1559_1"
+      },
+      {
+        "modulo": "3015",
+        "uc": "UC1560_1"
+      },
+      {
+        "modulo": "3015",
+        "uc": "UC1561_1"
+      },
+      {
+        "modulo": "3016",
+        "uc": "UC1207_1"
+      }
+    ],
+    "uc_a_modulos": [
+      {
+        "uc": "UC0816_1",
+        "modulo": "3013"
+      },
+      {
+        "uc": "UC0817_1",
+        "modulo": "3014"
+      },
+      {
+        "uc": "UC1559_1",
+        "modulo": "3015"
+      },
+      {
+        "uc": "UC1560_1",
+        "modulo": "3015"
+      },
+      {
+        "uc": "UC1561_1",
+        "modulo": "3015"
+      },
+      {
+        "uc": "UC1207_1",
+        "modulo": "3016"
+      }
+    ]
+  },
+  "FPB103": {
+    "codigo": "FPB103",
+    "nombre": "Fabricación y Montaje",
+    "familia": "Fabricación Mecánica e Instalación y Mantenimiento",
+    "modulos": [
+      {
+        "codigo": "3020",
+        "nombre": "Operaciones básicas de fabricación",
+        "horas": "no especificada en el documento"
+      },
+      {
+        "codigo": "3021",
+        "nombre": "Soldadura y carpintería metálica",
+        "horas": 85
+      },
+      {
+        "codigo": "3022",
+        "nombre": "Carpintería de aluminio y PVC",
+        "horas": 85
+      },
+      {
+        "codigo": "3023",
+        "nombre": "Redes de evacuación",
+        "horas": 110
+      },
+      {
+        "codigo": "3024",
+        "nombre": "Fontanería y calefacción básica",
+        "horas": 125
+      },
+      {
+        "codigo": "3025",
+        "nombre": "Montaje de equipos de climatización",
+        "horas": 55
+      },
+      {
+        "codigo": "3009",
+        "nombre": "Ciencias aplicadas I",
+        "horas": 90
+      },
+      {
+        "codigo": "3019",
+        "nombre": "Ciencias aplicadas II",
+        "horas": 90
+      },
+      {
+        "codigo": "3011",
+        "nombre": "Comunicación y sociedad I",
+        "horas": 120
+      },
+      {
+        "codigo": "3012",
+        "nombre": "Comunicación y sociedad II",
+        "horas": 120
+      },
+      {
+        "codigo": "3027",
+        "nombre": "Formación en centros de trabajo",
+        "horas": 130
+      }
+    ],
+    "cualificaciones": [
+      {
+        "codigo": "FME031_1",
+        "nombre": "Operaciones auxiliares de fabricación mecánica",
+        "ucs": [
+          "UC0087_1",
+          "UC0088_1"
+        ]
+      },
+      {
+        "codigo": "IMA367_1",
+        "nombre": "Operaciones de fontanería y calefacción-climatización doméstica",
+        "ucs": [
+          "UC1154_1",
+          "UC1155_1"
+        ]
+      }
+    ],
+    "modulos_a_uc": [
+      {
+        "modulo": "3020",
+        "uc": "UC0087_1"
+      },
+      {
+        "modulo": "3021",
+        "uc": "UC0088_1"
+      },
+      {
+        "modulo": "3022",
+        "uc": "UC0088_1"
+      },
+      {
+        "modulo": "3023",
+        "uc": "UC1154_1"
+      },
+      {
+        "modulo": "3024",
+        "uc": "UC1155_1"
+      },
+      {
+        "modulo": "3025",
+        "uc": "UC1155_1"
+      }
+    ],
+    "uc_a_modulos": [
+      {
+        "uc": "UC0087_1",
+        "modulo": "3020"
+      },
+      {
+        "uc": "UC0088_1",
+        "modulo": "3021"
+      },
+      {
+        "uc": "UC0088_1",
+        "modulo": "3022"
+      },
+      {
+        "uc": "UC1154_1",
+        "modulo": "3023"
+      },
+      {
+        "uc": "UC1155_1",
+        "modulo": "3024"
+      },
+      {
+        "uc": "UC1155_1",
+        "modulo": "3025"
+      }
+    ]
+  },
+  "nota": "El archivo BOE proporcionado contiene 4 anexos (FPB101, FPB102, FPB103, FPB104). No contiene información de FPB105 (Cocina y Restauración) ni FPB106 (Mantenimiento de Vehículos) que fueron solicitados. Los datos han sido extraídos literalmente del RD 127/2014 de 28 de febrero de 2014."
+}
