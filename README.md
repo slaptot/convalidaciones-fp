@@ -140,6 +140,29 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Prótesis Dentales | MSP304 | Superior | LO 3/2022 |
 | Transportes y Logística | TCP202 | Medio | LO 3/2022 |
 | Transporte y Logística | TCP301 | Superior | LO 3/2022 |
+| Implementación de Redes 5G | CEMELE01 | Medio | LO 3/2022 |
+| Panadería y Bollería Artesanales | CEMHOT01 | Medio | LO 3/2022 |
+| Robótica Colaborativa | CESELE01 | Superior | LO 3/2022 |
+| Auditoría Energética | CESENA01 | Superior | LO 3/2022 |
+| Fabricación aditiva | CESFME01 | Superior | LO 3/2022 |
+| Ciberseguridad en Entornos de las Tecnologías de la Información | CESIFC01 | Superior | LO 3/2022 |
+| Inteligencia Artificial y Big Data | CESIFC02 | Superior | LO 3/2022 |
+| Desarrollo de Videojuegos y Realidad Virtual | CESIFC03 | Superior | LO 3/2022 |
+| Recursos y Servicios en la Nube | CESIFC04 | Superior | LO 3/2022 |
+| Desarrollo de Aplicaciones en Lenguaje Python | CESIFC05 | Superior | LO 3/2022 |
+| Digitalización del Mantenimiento Industrial | CESIMA01 | Superior | LO 3/2022 |
+| Fabricación Inteligente | CESIMA02 | Superior | LO 3/2022 |
+| Modelado de la Información de la Construcción (BIM) | CESIMA03 | Superior | LO 3/2022 |
+| Mantenimiento y Seguridad en Sistemas de Vehículos Híbridos y Eléctricos | CESTMV01 | Superior | LO 3/2022 |
+| Aeronaves pilotadas de forma remota - drones | CESTMV02 | Superior | LO 3/2022 |
+| Actividades Agropecuarias | FPB115 | Básico | LO 3/2022 |
+| Aprovechamientos Forestales | FPB116 | Básico | LO 3/2022 |
+| Artes Gráficas | FPB117 | Básico | LO 3/2022 |
+| Industrias Alimentarias | FPB119 | Básico | LO 3/2022 |
+| Actividades de Panadería y Pastelería | FPB122 | Básico | LO 3/2022 |
+| Mantenimiento de Viviendas | FPB124 | Básico | LO 3/2022 |
+| Cocina y Gastronomía/Servicios de Restauración | HOT201-203 | Medio | LO 3/2022 |
+| Dirección de Servicios en Restauración/Dirección de Cocina | HOT304-305 | Superior | LO 3/2022 |
 
 Además, el **catálogo completo de Aragón** (150 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas. De ellos, **139 tienen ya la correspondencia módulo ↔ estándar de competencia** descargada de esa misma herramienta (2.930 filas), así que convalidan por unidades de competencia acreditadas; lo que les falta es el anexo de convalidaciones con títulos anteriores, que hay que leer del BOE. La web lo avisa en pantalla, porque esas correspondencias no están contrastadas con el anexo V de cada real decreto.
 
