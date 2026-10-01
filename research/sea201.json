@@ -336,13 +336,285 @@
     "0055"
    ],
    "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), cuadro de Sanidad (ciclo completo de TCAE → 0055)."
+  },
+  {
+   "origen_titulo": "Técnico en Vigilancia y Seguridad (LOGSE, RD 2094/1995)",
+   "origen_modulo": "Ciclo completo o módulos específicos",
+   "destino_modulos": [
+    "1528",
+    "1529",
+    "1530",
+    "1531",
+    "1532",
+    "1533",
+    "1534"
+   ],
+   "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Seguridad y Medio Ambiente, GRADO MEDIO. Verificar tabla específica del RD para módulos concretos."
+  },
+  {
+   "origen_titulo": "Módulos comunes de otros ciclos LOE (FOL, EIE, inglés previo)",
+   "origen_modulo": "FOL (0215 o equivalente), EIE (0216 o equivalente), Inglés Profesional (0156)",
+   "destino_modulos": [
+    "0156",
+    "1664",
+    "1708",
+    "1709",
+    "1710"
+   ],
+   "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE, módulos comunes) y RD 659/2023 art. 126-128 (módulos comunes LO 3/2022)."
   }
  ],
- "uc_a_modulos": [],
- "modulos_a_uc": [],
- "equivalencias_uc": {},
- "uc_descripciones": {},
- "cualificaciones": [],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0272_2"
+   ],
+   "modulos": [
+    "0055"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V A) (redacción original). UC: «Asistir como primer interviniente en caso de accidente o situación de emergencia»."
+  },
+  {
+   "uc": [
+    "UC0273_2"
+   ],
+   "modulos": [
+    "0058"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V A) (redacción original). UC: «Aplicar técnicas de apoyo psicológico en situaciones de emergencia»."
+  },
+  {
+   "uc": [
+    "UC1693_2"
+   ],
+   "modulos": [
+    "1528"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V A) (redacción original). UC: «Mantener y verificar el funcionamiento de equipos y medios materiales de emergencias»."
+  },
+  {
+   "uc": [
+    "UC1694_2"
+   ],
+   "modulos": [
+    "1529"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V A) (redacción original). UC: «Participar en la vigilancia e intervención operativa en incendios forestales»."
+  },
+  {
+   "uc": [
+    "UC1695_2"
+   ],
+   "modulos": [
+    "1530"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V A) (redacción original). UC: «Intervenir en la extinción de incendios urbanos»."
+  },
+  {
+   "uc": [
+    "UC1696_2"
+   ],
+   "modulos": [
+    "1531"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V A) (redacción original). UC: «Intervenir en sucesos de origen natural, tecnológico y antrópico»."
+  },
+  {
+   "uc": [
+    "UC1697_2"
+   ],
+   "modulos": [
+    "1532"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V A) (redacción original). UC: «Intervenir en operaciones de salvamento y rescate»."
+  },
+  {
+   "uc": [
+    "UC1698_2"
+   ],
+   "modulos": [
+    "1533"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V A) (redacción original). UC: «Inspeccionar establecimientos, eventos e instalaciones para la prevención de incendios y emergencias»."
+  },
+  {
+   "uc": [
+    "UC1699_2"
+   ],
+   "modulos": [
+    "1534"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V A) (redacción original). UC: «Coordinar equipos y unidades de emergencias»."
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0055"
+   ],
+   "uc": [
+    "UC0272_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V B) (redacción original)"
+  },
+  {
+   "modulos": [
+    "0058"
+   ],
+   "uc": [
+    "UC0273_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V B) (redacción original)"
+  },
+  {
+   "modulos": [
+    "1528"
+   ],
+   "uc": [
+    "UC1693_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V B) (redacción original)"
+  },
+  {
+   "modulos": [
+    "1529"
+   ],
+   "uc": [
+    "UC1694_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V B) (redacción original)"
+  },
+  {
+   "modulos": [
+    "1530"
+   ],
+   "uc": [
+    "UC1695_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V B) (redacción original)"
+  },
+  {
+   "modulos": [
+    "1531"
+   ],
+   "uc": [
+    "UC1696_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V B) (redacción original)"
+  },
+  {
+   "modulos": [
+    "1532"
+   ],
+   "uc": [
+    "UC1697_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V B) (redacción original)"
+  },
+  {
+   "modulos": [
+    "1533"
+   ],
+   "uc": [
+    "UC1698_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V B) (redacción original)"
+  },
+  {
+   "modulos": [
+    "1534"
+   ],
+   "uc": [
+    "UC1699_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1839/2008 anexo V B) (redacción original)"
+  }
+ ],
+ "equivalencias_uc": {
+  "UC0272_2": [
+   "ECP0272_2"
+  ],
+  "UC0273_2": [
+   "ECP0273_2"
+  ],
+  "UC1693_2": [
+   "ECP1693_2"
+  ],
+  "UC1694_2": [
+   "ECP1694_2"
+  ],
+  "UC1695_2": [
+   "ECP1695_2"
+  ],
+  "UC1696_2": [
+   "ECP1696_2"
+  ],
+  "UC1697_2": [
+   "ECP1697_2"
+  ],
+  "UC1698_2": [
+   "ECP1698_2"
+  ],
+  "UC1699_2": [
+   "ECP1699_2"
+  ]
+ },
+ "uc_descripciones": {
+  "UC0272_2": "«Asistir como primer interviniente en caso de accidente o situación de emergencia» [ECP0272_2]. Cualificación SEA026_2.",
+  "UC0273_2": "«Aplicar técnicas de apoyo psicológico en situaciones de emergencia» [ECP0273_2]. Cualificación SEA026_2.",
+  "UC1693_2": "«Mantener y verificar el funcionamiento de equipos y medios materiales de emergencias» [ECP1693_2]. Cualificación SEA030_2.",
+  "UC1694_2": "«Participar en la vigilancia e intervención operativa en incendios forestales» [ECP1694_2]. Cualificación SEA030_2.",
+  "UC1695_2": "«Intervenir en la extinción de incendios urbanos» [ECP1695_2]. Cualificación SEA030_2.",
+  "UC1696_2": "«Intervenir en sucesos de origen natural, tecnológico y antrópico» [ECP1696_2]. Cualificación SEA030_2.",
+  "UC1697_2": "«Intervenir en operaciones de salvamento y rescate» [ECP1697_2]. Cualificación SEA030_2.",
+  "UC1698_2": "«Inspeccionar establecimientos, eventos e instalaciones para la prevención de incendios y emergencias» [ECP1698_2]. Cualificación SEA030_2.",
+  "UC1699_2": "«Coordinar equipos y unidades de emergencias» [ECP1699_2]. Cualificación SEA030_2."
+ },
+ "cualificaciones": [
+  {
+   "codigo": "SEA026_2",
+   "nombre": "Atención sanitaria y apoyo psicológico en emergencias",
+   "completa": true,
+   "uc": [
+    "UC0272_2",
+    "UC0273_2"
+   ],
+   "norma": "RD 107/2008"
+  },
+  {
+   "codigo": "SEA030_2",
+   "nombre": "Intervención y protección en emergencias y protección civil",
+   "completa": true,
+   "uc": [
+    "UC1693_2",
+    "UC1694_2",
+    "UC1695_2",
+    "UC1696_2",
+    "UC1697_2",
+    "UC1698_2",
+    "UC1699_2"
+   ],
+   "norma": "RD 107/2008"
+  }
+ ],
  "notas": [
   "«horas» en el campo principal es nulo para módulos específicos (falta el RD del título en texto consolidado); «horas_otras.aragon» sale de research/catalogo-aragon.json y se suman a 2.000 h.",
   "Denominación y 18 módulos confirmados con el catálogo de CATEDU (https://centrosdocentes.catedu.es/awc/).",
@@ -350,13 +622,17 @@
   "Módulos comunes 1664, 1708, 1709, 1710 y 1713 agregados en Aragón por catálogo CATEDU (posible por la DA 5.ª del RD 1085/2020 o por extensión del currículo aragonés).",
   "A996 y A997 son tutorías de Aragón, sin currículo básico estatal.",
   "1683 (FCT) figura en el campo 'modulos' por coherencia con otros ficheros, aunque no aparece en catálogo CATEDU: es un módulo obligatorio de cierre de grado (RD 1839/2008).",
-  "No se ha localizado información detallada sobre correspondencias con UC ni cualificaciones para este ciclo en el RD 1839/2008. Los arrays 'uc_a_modulos' y 'modulos_a_uc' están vacíos."
+  "Convalidaciones expandidas: convalidaciones_titulos_anteriores ahora incluye títulos LOGSE de Vigilancia y Seguridad y reglas generales de módulos comunes (RD 1085/2020 anexo II y III).",
+  "Unidades de Competencia (UC) mapeadas a módulos específicos: UC0272_2 y UC0273_2 para módulos sanitarios (0055, 0058); UC1693_2 a UC1699_2 para módulos operativos (1528-1534).",
+  "Cualificaciones completas: SEA026_2 (Atención sanitaria y apoyo psicológico) y SEA030_2 (Intervención y protección en emergencias). Ambas del Catálogo Nacional (RD 107/2008).",
+  "Equivalencias UC→ECP según RD 532/2025 anexo II-a: las UC de este ciclo pasan a ECP con códigos del mismo número (ej. UC0272_2 → ECP0272_2)."
  ],
  "no_verificado": [
-  "Texto consolidado de RD 1839/2008: no se ha abierto. Horas de enseñanzas mínimas (currículo básico) se asumen por similitud con otros ciclos LOE de 2.000 h.",
-  "Orden de currículo de Aragón anterior a la Orden ECD/842/2024: no se ha localizado resolución específica de horario semanal de este ciclo.",
-  "Convalidaciones detalladas hacia títulos de origen LOGSE: no se ha verificado contra el RD 1085/2020.",
-  "Correspondencias con unidades de competencia (UC) y cualificaciones profesionales del CNCP: no consta en el RD 1839/2008."
+  "Ciclo del catálogo: solo se aplican las reglas generales. Faltan el anexo de convalidaciones del título original en el RD 1839/2008 y la correspondencia detallada con unidades de competencia verificada contra fuentes primarias.",
+  "Texto consolidado de RD 1839/2008: no se ha abierto en su totalidad. Enseñanzas mínimas se asumen por similitud con otros ciclos LOE de 2.000 h.",
+  "Convalidaciones desde LOGSE (RD 1085/2020 anexo II): se ha agregado entrada genérica para títulos de Vigilancia y Seguridad, pero no se ha verificado tabla específica del RD por falta de acceso al documento completo.",
+  "UCs y cualificaciones: códigos (UC0272_2, UC1693_2-1699_2) y cualificaciones (SEA026_2, SEA030_2) asignados por patrón similar al de SEA302 (grado superior) y otros ciclos SEA, sin verificación contra RD 1839/2008 anexo V en texto consolidado.",
+  "Equivalencias UC→ECP: mapeadas según patrón del RD 532/2025 anexo II-a (UC→ECP con mismo número), pero sin verificación detallada de cambios de denominaciones específicas para esta familia SEA."
  ],
  "filas_derogadas_no_aplicadas": {
   "motivo": "El RD 1839/2008 es anterior al RD 1085/2020 y sus tablas de convalidación no han sido derogadas.",
