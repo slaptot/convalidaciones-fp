@@ -11,7 +11,7 @@
     <div>
       <h1>Convalidaciones FP</h1>
       <p class="lead">Análisis de documentación por reglas normativas</p>
-      <div id="progreso" class="progreso"></div>
+      <p class="lead" id="catalogo-info">165 ciclos de Aragón • Básico: — • Medio: — • Superior: —</p>
     </div>
     <nav class="acciones">
       <button id="btn-vista" class="icono" type="button" aria-pressed="false"></button>
@@ -292,6 +292,26 @@
   <script src="data/catalogo.js"></script>
   <script src="data/competencias.js"></script>
   <script src="js/engine.js"></script>
+  <script>
+    // Cargar conteo de ciclos por grado
+    function actualizarCatalogo() {
+      const catalogo = window.CATALOGO || {};
+      let basico = 0, medio = 0, superior = 0, total = 0;
+      for (const codigo in catalogo) {
+        const ciclo = catalogo[codigo];
+        total++;
+        if (ciclo.grado === 'basico') basico++;
+        else if (ciclo.grado === 'medio') medio++;
+        else if (ciclo.grado === 'superior') superior++;
+      }
+      const info = document.getElementById('catalogo-info');
+      if (info) {
+        info.textContent = `${total} ciclos de Aragón • Básico: ${basico} • Medio: ${medio} • Superior: ${superior}`;
+      }
+    }
+    document.addEventListener('DOMContentLoaded', actualizarCatalogo);
+    window.addEventListener('load', actualizarCatalogo);
+  </script>
   <script src="js/app.js"></script>
 </body>
 </html>
