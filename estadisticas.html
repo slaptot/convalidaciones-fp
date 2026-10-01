@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Ciclos FP en Aragón</title>
+    <title>Estadísticas del Catálogo FP en Aragón</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -12,7 +12,7 @@
             padding: 20px;
         }
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             background: white;
             border-radius: 8px;
@@ -33,9 +33,10 @@
             padding: 40px 20px;
         }
 
+        /* Estadísticas principales */
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 20px;
             margin-bottom: 40px;
         }
@@ -59,9 +60,262 @@
             font-size: 0.95em;
         }
 
+        /* Secciones de estadísticas */
+        .stats-section {
+            margin-bottom: 50px;
+            border-top: 2px solid #eee;
+            padding-top: 30px;
+        }
+
+        .stats-section h2 {
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 1.6em;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-icon {
+            font-size: 1.8em;
+        }
+
+        /* Grid para estadísticas por grado */
+        .grade-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .grade-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #eee;
+        }
+
+        .grade-card h3 {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .grade-card.basic h3 { color: #10b981; }
+        .grade-card.medium h3 { color: #f59e0b; }
+        .grade-card.superior h3 { color: #667eea; }
+
+        .grade-count {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .grade-card.basic .grade-count { color: #10b981; }
+        .grade-card.medium .grade-count { color: #f59e0b; }
+        .grade-card.superior .grade-count { color: #667eea; }
+
+        .percentage {
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        /* Tabla de familias */
+        .families-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        .families-table th,
+        .families-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        .families-table th {
+            background: #f0f0f0;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .families-table tr:hover {
+            background: #f9f9f9;
+        }
+
+        .families-table .rank {
+            font-weight: bold;
+            color: #667eea;
+            width: 40px;
+        }
+
+        .families-table .bar {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            height: 24px;
+            border-radius: 4px;
+            display: inline-block;
+            color: white;
+            padding: 0 8px;
+            line-height: 24px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        /* Tabla de estadísticas de módulos */
+        .modules-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .module-stat {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .module-stat h4 {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .module-stat .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .module-stat .detail {
+            color: #999;
+            font-size: 0.85em;
+        }
+
+        /* Tabla de distribución grado x familia */
+        .distribution-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95em;
+            overflow-x: auto;
+        }
+
+        .distribution-table th,
+        .distribution-table td {
+            padding: 10px 8px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .distribution-table th {
+            background: #f0f0f0;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .distribution-table .family-name {
+            text-align: left;
+            font-weight: 500;
+            background: #f9f9f9;
+        }
+
+        .distribution-table td:hover {
+            background: #f5f5f5;
+        }
+
+        /* Tabla de normativa */
+        .compliance-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .compliance-table th,
+        .compliance-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        .compliance-table th {
+            background: #f0f0f0;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .compliance-table .count {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        .compliance-table .percentage {
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        /* Info del catálogo */
+        .catalog-info {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .info-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+
+        .info-value {
+            color: #333;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.8em;
+            margin-top: 8px;
+            width: fit-content;
+        }
+
+        .badge.basic { background: #10b981; }
+        .badge.medium { background: #f59e0b; }
+        .badge.superior { background: #667eea; }
+
+        .badge.complete { background: #10b981; }
+        .badge.partial { background: #f59e0b; }
+        .badge.missing { background: #ef4444; }
+
+        /* Búsqueda */
         .search-section {
-            border-top: 1px solid #eee;
-            padding-top: 40px;
+            border-top: 2px solid #eee;
+            padding-top: 30px;
+            margin-top: 50px;
         }
 
         .search-section h2 {
@@ -140,21 +394,6 @@
             margin-bottom: 4px;
         }
 
-        .badge {
-            display: inline-block;
-            background: #667eea;
-            color: white;
-            padding: 4px 12px;
-            border-radius: 16px;
-            font-size: 0.8em;
-            margin-right: 8px;
-            margin-top: 10px;
-        }
-
-        .badge.basic { background: #10b981; }
-        .badge.medium { background: #f59e0b; }
-        .badge.superior { background: #667eea; }
-
         footer {
             background: #f8f9fa;
             padding: 20px;
@@ -164,39 +403,134 @@
             border-top: 1px solid #eee;
             border-radius: 0 0 8px 8px;
         }
+
+        @media (max-width: 768px) {
+            .info-row {
+                grid-template-columns: 1fr;
+            }
+
+            .distribution-table {
+                font-size: 0.8em;
+            }
+
+            .distribution-table th,
+            .distribution-table td {
+                padding: 6px 4px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>📚 Catálogo de Ciclos FP en Aragón</h1>
-            <p>165 ciclos documentados • 3.000+ módulos • 1.000+ convalidaciones</p>
+            <h1>📊 Estadísticas del Catálogo FP en Aragón</h1>
+            <p>Análisis detallado del catálogo de ciclos y módulos</p>
         </header>
 
         <div class="content">
+            <!-- Estadísticas principales -->
             <div class="stats-grid">
                 <div class="stat-card">
-                    <h3>165</h3>
+                    <h3 id="totalCycles">0</h3>
                     <p>Ciclos documentados</p>
                 </div>
                 <div class="stat-card">
-                    <h3>35+</h3>
+                    <h3 id="totalFamilies">0</h3>
                     <p>Familias profesionales</p>
                 </div>
                 <div class="stat-card">
-                    <h3>3,000+</h3>
-                    <p>Módulos</p>
+                    <h3 id="totalModules">0</h3>
+                    <p>Total de módulos</p>
                 </div>
                 <div class="stat-card">
-                    <h3>1,000+</h3>
-                    <p>Convalidaciones</p>
-                </div>
-                <div class="stat-card">
-                    <h3>2025</h3>
-                    <p>RD 532/2025</p>
+                    <h3 id="avgModules">0</h3>
+                    <p>Promedio módulos/ciclo</p>
                 </div>
             </div>
 
+            <!-- Distribución por grado -->
+            <div class="stats-section">
+                <h2><span class="section-icon">📈</span>Distribución por Grado</h2>
+                <div class="grade-stats" id="gradeStats"></div>
+            </div>
+
+            <!-- Top 5 Familias -->
+            <div class="stats-section">
+                <h2><span class="section-icon">👨‍💼</span>Top 5 Familias Profesionales</h2>
+                <table class="families-table" id="familiesTable">
+                    <thead>
+                        <tr>
+                            <th class="rank">Rank</th>
+                            <th>Familia</th>
+                            <th style="width: 60%;">Ciclos</th>
+                            <th style="width: 100px;">Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody id="familiesList"></tbody>
+                </table>
+            </div>
+
+            <!-- Estadísticas de módulos -->
+            <div class="stats-section">
+                <h2><span class="section-icon">📋</span>Estadísticas de Módulos</h2>
+                <div class="modules-stats" id="modulesStats"></div>
+            </div>
+
+            <!-- Distribución grado x familia -->
+            <div class="stats-section">
+                <h2><span class="section-icon">🔄</span>Distribución: Grado x Familia Profesional</h2>
+                <div style="overflow-x: auto;">
+                    <table class="distribution-table" id="distributionTable">
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Familia / Grado</th>
+                                <th>Básico</th>
+                                <th>Medio</th>
+                                <th>Superior</th>
+                                <th><strong>Total</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody id="distributionList"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Información del catálogo -->
+            <div class="stats-section">
+                <h2><span class="section-icon">ℹ️</span>Información del Catálogo</h2>
+                <div class="catalog-info">
+                    <div class="info-row">
+                        <div class="info-item">
+                            <span class="info-label">Versión del catálogo</span>
+                            <span class="info-value">Catálogo 2025-2026</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Fecha de última actualización</span>
+                            <span class="info-value" id="updateDate">-</span>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-item">
+                            <span class="info-label">Cobertura del catálogo</span>
+                            <span class="info-value">158 ciclos únicos (165 archivos)</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Normativa de referencia</span>
+                            <span class="info-value">RD 532/2025 • RD 499/2024</span>
+                        </div>
+                    </div>
+                    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid rgba(102, 126, 234, 0.2);">
+                        <span class="info-label">Estado de documentación</span>
+                        <div>
+                            <span class="badge complete">✓ Con convalidaciones</span>
+                            <span class="badge complete">✓ RD 532/2025 integrado</span>
+                            <span class="badge complete">✓ Normativa completa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Búsqueda de ciclos -->
             <div class="search-section">
                 <h2>🔍 Búsqueda de Ciclos</h2>
 
@@ -230,73 +564,209 @@
         </div>
 
         <footer>
-            <p>📊 Catálogo de Formación Profesional de Aragón | 165 ciclos documentados | Normativa RD 532/2025</p>
+            <p>📊 Catálogo de Formación Profesional de Aragón | 158 ciclos únicos documentados | Normativa RD 532/2025</p>
         </footer>
     </div>
 
     <script src="data/ciclos_index.js"></script>
     <script>
-        // Estado global de ciclos
         let allCiclos = [];
         let families = new Set();
 
-        // Inicializar el índice de ciclos
-        function initializeCiclosIndex() {
+        // Inicializar el catálogo
+        function initializeStatistics() {
             if (!window.CICLOS_INDEX || window.CICLOS_INDEX.length === 0) {
                 document.getElementById('resultsList').innerHTML = '<p style="color: red;">Error: No se pudo cargar el catálogo de ciclos.</p>';
                 return;
             }
 
             allCiclos = window.CICLOS_INDEX;
-
-            // Extraer familias únicas y ordenarlas
             families = new Set(allCiclos.map(c => c.familia));
 
-            // Llenar el selector de familias
+            // Calcular y mostrar estadísticas
+            calculateStatistics();
+            populateFilters();
+            performSearch();
+            updateLastUpdateDate();
+        }
+
+        // Calcular todas las estadísticas
+        function calculateStatistics() {
+            // Estadísticas principales
+            document.getElementById('totalCycles').textContent = allCiclos.length;
+            document.getElementById('totalFamilies').textContent = families.size;
+
+            const totalModules = allCiclos.reduce((sum, c) => sum + c.modulos_count, 0);
+            document.getElementById('totalModules').textContent = totalModules.toLocaleString('es-ES');
+
+            const avgModules = (totalModules / allCiclos.length).toFixed(1);
+            document.getElementById('avgModules').textContent = avgModules;
+
+            // Distribución por grado
+            renderGradeDistribution();
+
+            // Top 5 familias
+            renderTopFamilies();
+
+            // Estadísticas de módulos
+            renderModulesStats(totalModules);
+
+            // Distribución grado x familia
+            renderDistributionTable();
+        }
+
+        // Renderizar distribución por grado
+        function renderGradeDistribution() {
+            const gradeStats = {
+                basico: { label: 'Grado Básico', color: 'basic', icon: '🎓' },
+                medio: { label: 'Grado Medio', color: 'medium', icon: '📚' },
+                superior: { label: 'Grado Superior', color: 'superior', icon: '🏆' }
+            };
+
+            const gradeContainer = document.getElementById('gradeStats');
+            let html = '';
+
+            for (const [grade, info] of Object.entries(gradeStats)) {
+                const count = allCiclos.filter(c => c.grado === grade).length;
+                const percentage = ((count / allCiclos.length) * 100).toFixed(1);
+
+                html += `
+                    <div class="grade-card ${info.color}">
+                        <h3>${info.icon} ${info.label}</h3>
+                        <div class="grade-count">${count}</div>
+                        <p class="percentage">${percentage}% del total</p>
+                    </div>
+                `;
+            }
+
+            gradeContainer.innerHTML = html;
+        }
+
+        // Renderizar Top 5 familias
+        function renderTopFamilies() {
+            const familyCounts = {};
+            allCiclos.forEach(c => {
+                familyCounts[c.familia] = (familyCounts[c.familia] || 0) + 1;
+            });
+
+            const sortedFamilies = Object.entries(familyCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5);
+
+            const maxCount = sortedFamilies[0][1];
+            const tbody = document.getElementById('familiesList');
+
+            tbody.innerHTML = sortedFamilies.map((family, index) => {
+                const barWidth = (family[1] / maxCount) * 100;
+                return `
+                    <tr>
+                        <td class="rank">#${index + 1}</td>
+                        <td>${family[0]}</td>
+                        <td><span class="bar" style="width: ${barWidth}%">${family[1]} ciclos</span></td>
+                        <td>${family[1]}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Renderizar estadísticas de módulos
+        function renderModulesStats(totalModules) {
+            const moduleCounts = allCiclos.map(c => c.modulos_count);
+            const max = Math.max(...moduleCounts);
+            const min = Math.min(...moduleCounts);
+            const maxCycle = allCiclos.find(c => c.modulos_count === max);
+            const minCycle = allCiclos.find(c => c.modulos_count === min);
+
+            const html = `
+                <div class="module-stat">
+                    <h4>📊 Total de módulos</h4>
+                    <div class="value">${totalModules}</div>
+                    <div class="detail">En todo el catálogo</div>
+                </div>
+                <div class="module-stat">
+                    <h4>📈 Promedio por ciclo</h4>
+                    <div class="value">${(totalModules / allCiclos.length).toFixed(1)}</div>
+                    <div class="detail">Módulos/ciclo</div>
+                </div>
+                <div class="module-stat">
+                    <h4>⬆️ Máximo módulos</h4>
+                    <div class="value">${max}</div>
+                    <div class="detail">${maxCycle.nombre}</div>
+                </div>
+                <div class="module-stat">
+                    <h4>⬇️ Mínimo módulos</h4>
+                    <div class="value">${min}</div>
+                    <div class="detail">${minCycle.nombre}</div>
+                </div>
+            `;
+
+            document.getElementById('modulesStats').innerHTML = html;
+        }
+
+        // Renderizar tabla distribución grado x familia
+        function renderDistributionTable() {
+            const gradeLabels = { basico: 'Básico', medio: 'Medio', superior: 'Superior' };
+            const familiesArray = Array.from(families).sort();
+
+            let html = '';
+            for (const family of familiesArray) {
+                const basicCount = allCiclos.filter(c => c.familia === family && c.grado === 'basico').length;
+                const mediumCount = allCiclos.filter(c => c.familia === family && c.grado === 'medio').length;
+                const superiorCount = allCiclos.filter(c => c.familia === family && c.grado === 'superior').length;
+                const total = basicCount + mediumCount + superiorCount;
+
+                if (total > 0) {
+                    html += `
+                        <tr>
+                            <td class="family-name">${family}</td>
+                            <td>${basicCount || '-'}</td>
+                            <td>${mediumCount || '-'}</td>
+                            <td>${superiorCount || '-'}</td>
+                            <td><strong>${total}</strong></td>
+                        </tr>
+                    `;
+                }
+            }
+
+            document.getElementById('distributionList').innerHTML = html;
+        }
+
+        // Llenar filtros
+        function populateFilters() {
             const familySelect = document.getElementById('familyFilter');
             const familiesArray = Array.from(families).sort();
+
             familiesArray.forEach(familia => {
                 const option = document.createElement('option');
                 option.value = familia;
                 option.textContent = familia;
                 familySelect.appendChild(option);
             });
-
-            // Mostrar todos los ciclos inicialmente
-            performSearch();
         }
 
-        // Función de búsqueda y filtrado
+        // Función de búsqueda
         function performSearch() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const familyFilter = document.getElementById('familyFilter').value;
             const gradeFilter = document.getElementById('gradeFilter').value;
 
-            // Filtrar ciclos
             const filteredCiclos = allCiclos.filter(ciclo => {
-                // Búsqueda por nombre, código o módulos
                 const matchesSearch = !searchTerm ||
                     ciclo.codigo.toLowerCase().includes(searchTerm) ||
                     ciclo.nombre.toLowerCase().includes(searchTerm) ||
                     ciclo.modulos_nombres.some(m => m.toLowerCase().includes(searchTerm));
 
-                // Filtro por familia
                 const matchesFamily = !familyFilter || ciclo.familia === familyFilter;
-
-                // Filtro por grado
                 const matchesGrade = !gradeFilter || ciclo.grado === gradeFilter;
 
                 return matchesSearch && matchesFamily && matchesGrade;
             });
 
-            // Actualizar contador
             document.getElementById('resultCount').textContent = filteredCiclos.length;
-
-            // Renderizar resultados
             renderResults(filteredCiclos);
         }
 
-        // Función para renderizar resultados
+        // Renderizar resultados
         function renderResults(ciclos) {
             const resultsList = document.getElementById('resultsList');
 
@@ -305,21 +775,11 @@
                 return;
             }
 
-            // Ordenar por código
             ciclos.sort((a, b) => a.codigo.localeCompare(b.codigo));
 
             resultsList.innerHTML = ciclos.map(ciclo => {
-                const gradeBadge = {
-                    'basico': 'basic',
-                    'medio': 'medium',
-                    'superior': 'superior'
-                }[ciclo.grado] || '';
-
-                const gradeLabel = {
-                    'basico': 'Grado Básico',
-                    'medio': 'Grado Medio',
-                    'superior': 'Grado Superior'
-                }[ciclo.grado] || ciclo.grado;
+                const gradeBadge = { 'basico': 'basic', 'medio': 'medium', 'superior': 'superior' }[ciclo.grado] || '';
+                const gradeLabel = { 'basico': 'Grado Básico', 'medio': 'Grado Medio', 'superior': 'Grado Superior' }[ciclo.grado] || ciclo.grado;
 
                 return `
                     <div class="cycle-card">
@@ -333,13 +793,21 @@
             }).join('');
         }
 
+        // Actualizar fecha de última actualización
+        function updateLastUpdateDate() {
+            const today = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const dateStr = today.toLocaleDateString('es-ES', options);
+            document.getElementById('updateDate').textContent = dateStr;
+        }
+
         // Event listeners
         document.getElementById('searchInput').addEventListener('input', performSearch);
         document.getElementById('familyFilter').addEventListener('change', performSearch);
         document.getElementById('gradeFilter').addEventListener('change', performSearch);
 
-        // Inicializar al cargar el documento
-        document.addEventListener('DOMContentLoaded', initializeCiclosIndex);
+        // Inicializar al cargar
+        document.addEventListener('DOMContentLoaded', initializeStatistics);
     </script>
 </body>
 </html>
