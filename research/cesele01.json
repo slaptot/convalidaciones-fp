@@ -1,0 +1,117 @@
+{
+ "ciclo": {
+  "codigo": "CESELE01",
+  "nombre": "Robótica Colaborativa",
+  "grado": "superior",
+  "familia": "Electricidad y Electrónica",
+  "subfamilia": "ELE",
+  "nivel_catedu": "CES",
+  "nivel_nombre": "Curso de Especialización de Grado Superior",
+  "duracion_total_horas": 400,
+  "duracion_creditos_ects": 24.0,
+  "normas": [
+   {
+    "ref": "Catálogo CATEDU (Gobierno de Aragón)",
+    "boe": null,
+    "url": "https://centrosdocentes.catedu.es/awc/",
+    "nota": "Curso de Especialización de Grado Superior. Datos extraídos del catálogo oficial de CATEDU (Gobierno de Aragón, Departamento de Educación). No dispone de RD específico del título ni tabla de convalidaciones de módulos de títulos anteriores."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "5087",
+   "nombre": "Robótica colaborativa",
+   "horas": 80,
+   "creditos_ects": 5.0,
+   "horas_fuente": "Catálogo CATEDU 2026 - nivel CES",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 80,
+     "curso": 1,
+     "creditos_ects": 5.0
+    }
+   }
+  },
+  {
+   "codigo": "5088",
+   "nombre": "Configuración y programación",
+   "horas": 180,
+   "creditos_ects": 10.0,
+   "horas_fuente": "Catálogo CATEDU 2026 - nivel CES",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 180,
+     "curso": 1,
+     "creditos_ects": 10.0
+    }
+   }
+  },
+  {
+   "codigo": "5089",
+   "nombre": "Robots móviles autónomos",
+   "horas": 80,
+   "creditos_ects": 5.0,
+   "horas_fuente": "Catálogo CATEDU 2026 - nivel CES",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 80,
+     "curso": 1,
+     "creditos_ects": 5.0
+    }
+   }
+  },
+  {
+   "codigo": "5090",
+   "nombre": "Seguridad y mantenimiento",
+   "horas": 60,
+   "creditos_ects": 4.0,
+   "horas_fuente": "Catálogo CATEDU 2026 - nivel CES",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 60,
+     "curso": 1,
+     "creditos_ects": 4.0
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "equivalencias_uc": {},
+ "uc_descripciones": {},
+ "cualificaciones": [],
+ "notas": [
+  "Curso de Especialización de Grado Superior: no tiene anexo de convalidaciones ni correspondencia con unidades de competencia (UC) en el catálogo de CATEDU.",
+  "Total de horas: 400 (suma de 5087: 80 h + 5088: 180 h + 5089: 80 h + 5090: 60 h).",
+  "Créditos ECTS: 24.0 (suma de 5.0 + 10.0 + 5.0 + 4.0).",
+  "Familia: Electricidad y Electrónica (ELE).",
+  "Vigencia: Datos del catálogo CATEDU a 2026-09-29."
+ ],
+ "no_verificado": [
+  "No existe RD específico para este CES en la búsqueda de BOE.",
+  "No se ha verificado la existencia de una norma estatal (orden ministerial) que desarrolle el currículo de este ciclo de especialización.",
+  "Las correspondencias con unidades de competencia (UC/ECP) no están disponibles en el catálogo de CATEDU.",
+  "No se ha podido contrastar la denominación y las horas con fuentes normativas del Ministerio de Educación."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "No hay anexo de convalidaciones de módulos de títulos anteriores (LOE, LOGSE) en el catálogo de CATEDU.",
+  "filas": []
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": []
+}

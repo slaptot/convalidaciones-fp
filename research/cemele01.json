@@ -1,0 +1,77 @@
+{
+ "ciclo": {
+  "codigo": "CEMELE01",
+  "nombre": "Implementación de Redes 5G",
+  "grado": "medio",
+  "familia": "Electricidad y Electrónica",
+  "subfamilia": "ELE",
+  "nivel_catedu": "CEM",
+  "nivel_nombre": "Curso de Especialización de Grado Medio",
+  "duracion_total_horas": 300,
+  "normas": [
+   {
+    "ref": "Catálogo CATEDU (Gobierno de Aragón)",
+    "boe": null,
+    "url": "https://centrosdocentes.catedu.es/awc/",
+    "nota": "Curso de Especialización de Grado Medio. Datos extraídos del catálogo oficial de CATEDU (Gobierno de Aragón, Departamento de Educación). No dispone de RD específico del título ni tabla de convalidaciones de módulos de títulos anteriores."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "5053",
+   "nombre": "Implementación de redes 5G",
+   "horas": 200,
+   "horas_fuente": "Catálogo CATEDU 2026 - nivel CEM",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "5054",
+   "nombre": "Mantenimiento de infraestructuras y redes 5G",
+   "horas": 100,
+   "horas_fuente": "Catálogo CATEDU 2026 - nivel CEM",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "equivalencias_uc": {},
+ "uc_descripciones": {},
+ "cualificaciones": [],
+ "notas": [
+  "Curso de Especialización de Grado Medio: no tiene anexo de convalidaciones ni correspondencia con unidades de competencia (UC) en el catálogo de CATEDU.",
+  "Total de horas: 300 (suma de 5053: 200 h + 5054: 100 h).",
+  "Familia: Electricidad y Electrónica (ELE).",
+  "Vigencia: Datos del catálogo CATEDU a 2026-09-29."
+ ],
+ "no_verificado": [
+  "No existe RD específico para este CEM en la búsqueda de BOE.",
+  "No se ha verificado la existencia de una norma estatal (orden ministerial) que desarrolle el currículo de este ciclo de especialización.",
+  "Las correspondencias con unidades de competencia (UC/ECP) no están disponibles en el catálogo de CATEDU.",
+  "No se ha podido contrastar la denominación y las horas con fuentes normativas del Ministerio de Educación."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "No hay anexo de convalidaciones de módulos de títulos anteriores (LOE, LOGSE) en el catálogo de CATEDU.",
+  "filas": []
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": []
+}
