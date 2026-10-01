@@ -209,16 +209,6 @@
                         <label>Familia profesional</label>
                         <select id="familyFilter">
                             <option value="">Todas las familias</option>
-                            <option value="ADG">Administración y Gestión</option>
-                            <option value="IFC">Informática y Comunicaciones</option>
-                            <option value="SAN">Sanidad</option>
-                            <option value="HOT">Hostelería y Turismo</option>
-                            <option value="ELE">Electricidad y Electrónica</option>
-                            <option value="FME">Fabricación Mecánica</option>
-                            <option value="IMA">Instalación y Mantenimiento</option>
-                            <option value="ENA">Energía y Agua</option>
-                            <option value="COM">Comercio y Marketing</option>
-                            <option value="AGA">Agraria</option>
                         </select>
                     </div>
                     <div class="filter-group">
@@ -232,40 +222,9 @@
                     </div>
                 </div>
 
-                <div class="results-section">
-                    <h3>Resultados (ejemplos del catálogo)</h3>
-
-                    <div class="cycle-card">
-                        <h4>Técnico Administrativo</h4>
-                        <p><strong>Código:</strong> ADG201 | <strong>Familia:</strong> Administración y Gestión</p>
-                        <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 23</p>
-                        <span class="badge medium">Grado Medio</span>
-                        <span class="badge">Convalidaciones</span>
-                    </div>
-
-                    <div class="cycle-card">
-                        <h4>Técnico Superior en Desarrollo de Aplicaciones Web</h4>
-                        <p><strong>Código:</strong> IFC303 | <strong>Familia:</strong> Informática y Comunicaciones</p>
-                        <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 21</p>
-                        <span class="badge superior">Grado Superior</span>
-                        <span class="badge">Convalidaciones</span>
-                    </div>
-
-                    <div class="cycle-card">
-                        <h4>Técnico en Farmacia y Parafarmacia</h4>
-                        <p><strong>Código:</strong> SAN202 | <strong>Familia:</strong> Sanidad</p>
-                        <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 21</p>
-                        <span class="badge medium">Grado Medio</span>
-                        <span class="badge">Convalidaciones</span>
-                    </div>
-
-                    <div class="cycle-card">
-                        <h4>Técnico Superior en Higiene Bucodental</h4>
-                        <p><strong>Código:</strong> SAN301 | <strong>Familia:</strong> Sanidad</p>
-                        <p><strong>Duración:</strong> 2.000 horas | <strong>Módulos:</strong> 20</p>
-                        <span class="badge superior">Grado Superior</span>
-                        <span class="badge">Convalidaciones</span>
-                    </div>
+                <div class="results-section" id="resultsSection">
+                    <h3>Resultados (<span id="resultCount">0</span> ciclos)</h3>
+                    <div id="resultsList"></div>
                 </div>
             </div>
         </div>
@@ -275,18 +234,112 @@
         </footer>
     </div>
 
+    <script src="data/ciclos_index.js"></script>
     <script>
-        document.getElementById('searchInput').addEventListener('input', function() {
-            console.log('Buscando:', this.value);
-        });
+        // Estado global de ciclos
+        let allCiclos = [];
+        let families = new Set();
 
-        document.getElementById('familyFilter').addEventListener('change', function() {
-            console.log('Familia:', this.value);
-        });
+        // Inicializar el índice de ciclos
+        function initializeCiclosIndex() {
+            if (!window.CICLOS_INDEX || window.CICLOS_INDEX.length === 0) {
+                document.getElementById('resultsList').innerHTML = '<p style="color: red;">Error: No se pudo cargar el catálogo de ciclos.</p>';
+                return;
+            }
 
-        document.getElementById('gradeFilter').addEventListener('change', function() {
-            console.log('Grado:', this.value);
-        });
+            allCiclos = window.CICLOS_INDEX;
+
+            // Extraer familias únicas y ordenarlas
+            families = new Set(allCiclos.map(c => c.familia));
+
+            // Llenar el selector de familias
+            const familySelect = document.getElementById('familyFilter');
+            const familiesArray = Array.from(families).sort();
+            familiesArray.forEach(familia => {
+                const option = document.createElement('option');
+                option.value = familia;
+                option.textContent = familia;
+                familySelect.appendChild(option);
+            });
+
+            // Mostrar todos los ciclos inicialmente
+            performSearch();
+        }
+
+        // Función de búsqueda y filtrado
+        function performSearch() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const familyFilter = document.getElementById('familyFilter').value;
+            const gradeFilter = document.getElementById('gradeFilter').value;
+
+            // Filtrar ciclos
+            const filteredCiclos = allCiclos.filter(ciclo => {
+                // Búsqueda por nombre, código o módulos
+                const matchesSearch = !searchTerm ||
+                    ciclo.codigo.toLowerCase().includes(searchTerm) ||
+                    ciclo.nombre.toLowerCase().includes(searchTerm) ||
+                    ciclo.modulos_nombres.some(m => m.toLowerCase().includes(searchTerm));
+
+                // Filtro por familia
+                const matchesFamily = !familyFilter || ciclo.familia === familyFilter;
+
+                // Filtro por grado
+                const matchesGrade = !gradeFilter || ciclo.grado === gradeFilter;
+
+                return matchesSearch && matchesFamily && matchesGrade;
+            });
+
+            // Actualizar contador
+            document.getElementById('resultCount').textContent = filteredCiclos.length;
+
+            // Renderizar resultados
+            renderResults(filteredCiclos);
+        }
+
+        // Función para renderizar resultados
+        function renderResults(ciclos) {
+            const resultsList = document.getElementById('resultsList');
+
+            if (ciclos.length === 0) {
+                resultsList.innerHTML = '<p style="color: #666; padding: 20px; text-align: center;">No se encontraron ciclos que coincidan con los criterios de búsqueda.</p>';
+                return;
+            }
+
+            // Ordenar por código
+            ciclos.sort((a, b) => a.codigo.localeCompare(b.codigo));
+
+            resultsList.innerHTML = ciclos.map(ciclo => {
+                const gradeBadge = {
+                    'basico': 'basic',
+                    'medio': 'medium',
+                    'superior': 'superior'
+                }[ciclo.grado] || '';
+
+                const gradeLabel = {
+                    'basico': 'Grado Básico',
+                    'medio': 'Grado Medio',
+                    'superior': 'Grado Superior'
+                }[ciclo.grado] || ciclo.grado;
+
+                return `
+                    <div class="cycle-card">
+                        <h4>${ciclo.nombre}</h4>
+                        <p><strong>Código:</strong> ${ciclo.codigo} | <strong>Familia:</strong> ${ciclo.familia}</p>
+                        <p><strong>Módulos:</strong> ${ciclo.modulos_count} | <strong>Plan:</strong> ${ciclo.plan}</p>
+                        <span class="badge ${gradeBadge}">${gradeLabel}</span>
+                        <span class="badge">Documentado</span>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', performSearch);
+        document.getElementById('familyFilter').addEventListener('change', performSearch);
+        document.getElementById('gradeFilter').addEventListener('change', performSearch);
+
+        // Inicializar al cargar el documento
+        document.addEventListener('DOMContentLoaded', initializeCiclosIndex);
     </script>
 </body>
 </html>
