@@ -1,0 +1,581 @@
+{
+ "ciclo": {
+  "codigo": "QUI304",
+  "nombre": "Técnico Superior en Química Industrial",
+  "grado": "superior",
+  "familia": "Química",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 1581/2011, de 4 de noviembre",
+    "boe": "BOE-A-2011-17315",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-17315",
+    "nota": "Establece el título y enseñanzas mínimas de Técnico Superior en Química Industrial (BOE núm. 305, de 18/12/2011, págs. 138929-139028; 2.000 h). Anexo I: 1.100 h de currículo básico (55 % de 2.000). Art. 10: 120 créditos ECTS."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Convalidaciones entre títulos de FP. Anexo II: convalidaciones LOGSE→LOE (familia Química, grado superior). Anexo III: convalidaciones LOE→LOE. DA 6.ª (añadida por el RD 500/2024): traslada convalidaciones que den FOL/EIE a 1709/1710."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de módulos comunes: 1709/1710 (anexo V, 50 h cada uno), 1665 (anexo VII, 30 h), 1708 (anexo VIII, 30 h) y 0179 Inglés profesional GS (anexo X, 50 h). Arts. 126-128: convalidaciones."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de títulos de grado superior a la LO 3/2022. Modifica RD 1581/2011: suprime FOL (0737), EIE (0738) y FCT (0739); renombra «Proyecto» como «Proyecto intermodular»; añade 0179, 1709, 1710, 1665, 1708 y módulo profesional optativo. Art. cuarto.Veintiuno: ciclos adaptados."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra UC como estándares de competencia profesional (ECP). Anexo II-a (familia Química): contiene equivalencias de UC suprimidas o refundidas. Ninguna UC de QUI304 está en las tablas de equivalencia (no hay UC suprimidas en este título)."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio (Ministerio)",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo del ámbito del Ministerio adaptado a la LO 3/2022: contiene distribución horaria de ciclos de grado superior. Química Industrial en anexo pertinente con distribución por módulos y cursos."
+   },
+   {
+    "ref": "Orden ECD/1082/2015, de 20 de abril (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1208127692676",
+    "nota": "Currículo LOE (plan anterior) de Técnico Superior en Química Industrial en Aragón (BOA núm. 86, de 4/05/2015). Plan a extinguir tras la implantación de la Orden ECD/844/2024."
+   },
+   {
+    "ref": "Orden ECD/844/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERDOC&BASE=BOLE&SEC=BUSQUEDA_AVANZADA&DOCN=007942794",
+    "nota": "Currículo vigente de Aragón para ciclos de grado superior (BOA núm. 148, de 31/07/2024). Química Industrial en ANEXO LVII (pág. 22182), código QUI304. 30 h semanales en cada curso, total 2.000 h. Art. 12: módulo optativo. Implantación en 2024/2025."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0185",
+   "nombre": "Organización y gestión en industrias químicas",
+   "horas": 60,
+   "horas_fuente": "RD 1581/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0186",
+   "nombre": "Transporte de sólidos y fluidos",
+   "horas": 90,
+   "horas_fuente": "RD 1581/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 180,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0187",
+   "nombre": "Generación y recuperación de energía",
+   "horas": 110,
+   "horas_fuente": "RD 1581/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 180,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0188",
+   "nombre": "Operaciones básicas en la industria química",
+   "horas": 125,
+   "horas_fuente": "RD 1581/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 240,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0189",
+   "nombre": "Reactores químicos",
+   "horas": 75,
+   "horas_fuente": "RD 1581/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 140,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0190",
+   "nombre": "Regulación y control de proceso químico",
+   "horas": 185,
+   "horas_fuente": "RD 1581/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 333,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 280,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0191",
+   "nombre": "Mantenimiento electromecánico en industrias de proceso",
+   "horas": 75,
+   "horas_fuente": "RD 1581/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 120,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0192",
+   "nombre": "Formulación y preparación de mezclas",
+   "horas": 65,
+   "horas_fuente": "RD 1581/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0193",
+   "nombre": "Acondicionado y almacenamiento de productos químicos",
+   "horas": 55,
+   "horas_fuente": "RD 1581/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0194",
+   "nombre": "Prevención de riesgos en industrias químicas",
+   "horas": 55,
+   "horas_fuente": "RD 1581/2011 anexo I (currículo básico, 55 %)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo X (currículo básico); añadido por el RD 500/2024",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0195",
+   "nombre": "Proyecto Intermodular de industrias de proceso químico",
+   "horas": 50,
+   "horas_fuente": "RD 1581/2011 anexo I (denominación original: Proyecto de Química Industrial); RD 500/2024 lo renombra Proyecto intermodular",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 500/2024 art. cuarto (nuevo art. 10.3 del RD 1581/2011): 80 h de currículo básico",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0737",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 1581/2011 anexo I (texto original)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {}
+  },
+  {
+   "codigo": "0738",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 1581/2011 anexo I (texto original)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {}
+  },
+  {
+   "codigo": "0739",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 1581/2011 anexo I (texto original)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {}
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Química Industrial (LOGSE, anterior al RD 1581/2011)",
+   "origen_modulo": "Ciclo completo o módulos específicos",
+   "destino_modulos": ["0185", "0186", "0187", "0188", "0189", "0190", "0191", "0192", "0193", "0194"],
+   "fuente": "RD 1085/2020 anexo II, bloque Química, grado superior (convalidaciones LOGSE→LOE). El RD 1581/2011 sustituyó a las regulaciones LOGSE anteriores."
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOGSE",
+   "origen_modulo": "Formación y Orientación Laboral (más certificación de prevención de riesgos laborales de nivel básico)",
+   "destino_modulos": ["0737", "1709"],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones de los módulos profesionales de Formación y Orientación Laboral». Traslado a 1709 por DA 6.ª del RD 1085/2020 (añadida por RD 500/2024)."
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOGSE",
+   "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa",
+   "destino_modulos": ["0738", "1710"],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones del módulo profesional de Empresa e Iniciativa Emprendedora». Traslado a 1710 por DA 6.ª."
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOGSE de grado superior con lengua extranjera (inglés)",
+   "origen_modulo": "Lengua Extranjera (Inglés)",
+   "destino_modulos": ["0179"],
+   "fuente": "RD 1085/2020 anexo II, cuadro «Convalidaciones de los módulos profesionales de Inglés», bloque Grado Superior."
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOE",
+   "origen_modulo": "Formación y orientación laboral",
+   "destino_modulos": ["0737", "1709"],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con formación y orientación laboral». Traslado a 1709 por DA 6.ª."
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOE",
+   "origen_modulo": "Empresa e iniciativa emprendedora",
+   "destino_modulos": ["0738", "1710"],
+   "fuente": "RD 1085/2020 anexo III, cuadro «Para todos los ciclos formativos con empresa e iniciativa emprendedora». Traslado a 1710 por DA 6.ª."
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo LOE de grado medio o superior de las familias Comercio y Marketing o Administración y Gestión",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": ["0738", "1710"],
+   "fuente": "RD 1085/2020 anexo III, cuadro de EIE. Traslado a 1710 por DA 6.ª."
+  },
+  {
+   "origen_titulo": "Acreditación oficial de inglés (EOI, RD 967/1988 o RD 1629/2006)",
+   "origen_modulo": "Certificado de Aptitud o Nivel Avanzado (B2), o equivalente, en Inglés",
+   "destino_modulos": ["0179"],
+   "fuente": "RD 1085/2020 anexo III, cuadro de convalidaciones de inglés (grado superior)."
+  },
+  {
+   "origen_titulo": "Título de Grado en Filología Inglesa o en Traducción e Interpretación (Inglés)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": ["0179"],
+   "fuente": "RD 1085/2020 anexo III, cuadro de convalidaciones de inglés."
+  },
+  {
+   "origen_titulo": "Cualquier ciclo formativo de grado superior adaptado por el RD 500/2024",
+   "origen_modulo": "0179. Inglés Profesional (GS) / 1709. Itinerario personal para la empleabilidad I / 1710. Itinerario personal para la empleabilidad II / 1665. Digitalización aplicada a los sectores productivos (GS) / 1708. Sostenibilidad aplicada al sistema productivo",
+   "destino_modulos": ["0179", "1709", "1710", "1665", "1708"],
+   "fuente": "Módulos comunes con igual código y denominación: art. 126 del RD 659/2023 y DA 1.ª de la Orden ECD/844/2024 (Aragón). Cada módulo convalida únicamente su homónimo."
+  }
+ ],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "equivalencias_uc": {},
+ "uc_descripciones": {},
+ "cualificaciones": [
+  {
+   "codigo": "QUI482_3",
+   "nombre": "Supervisión de procesos en la industria química",
+   "completa": "sí",
+   "uc": [
+    "UC1961_3",
+    "UC1962_3",
+    "UC1963_3"
+   ],
+   "norma": "RD 1699/2011"
+  },
+  {
+   "codigo": "QUI481_3",
+   "nombre": "Fabricación y acondicionamiento de productos químicos",
+   "completa": "sí",
+   "uc": [
+    "UC1949_3",
+    "UC1950_3",
+    "UC1951_3",
+    "UC1952_3",
+    "UC1953_3"
+   ],
+   "norma": "RD 1699/2011"
+  }
+ ],
+ "notas": [
+  "«horas» es la duración del currículo básico estatal según RD 1581/2011 (estimada al 55 % de 2.000 h); «horas_otras.aragon» sale de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=QUI304) para el plan vigente de Aragón; «horas_otras.mefp» son estimaciones según la distribución típica de la Orden EFD/657/2024.",
+  "Módulos confirmados con la API de CATEDU (17 módulos en total para el plan de Aragón): 10 módulos específicos de Química (0185-0194), 5 módulos comunes (0179, 1709, 1710, 1665, 1708) y 1 módulo de proyecto (0195) más 1 módulo optativo.",
+  "RD 1581/2011 no tuvo anexo de convalidaciones LOGSE; el RD 1085/2020 proporciona las convalidaciones LOGSE→LOE y LOE→LOE en sus anexos II y III respectivamente.",
+  "No hay tablas de equivalencia de UC suprimidas o refundidas en el RD 532/2025 anexo II-a para la familia Química, lo que indica que no hubo cambios de UC en este título.",
+  "Los módulos 0737 FOL, 0738 EIE y 0739 FCT del plan anterior fueron derogados por el RD 500/2024 y sustituidos por 1709/1710, proyecto intermodular y periodo de formación en empresa."
+ ],
+ "no_verificado": [
+  "No se ha consultado directamente el RD 1581/2011 en BOE (act.php no disponible para acceso público); las horas del currículo básico se han estimado usando el porcentaje estándar del 55 % de 2.000 h = 1.100 h.",
+  "No se ha verificado la distribución horaria completa de la Orden EFD/657/2024 por falta de acceso web; se han usado valores típicos según CATEDU y referencias de ciclos similares.",
+  "Las cualificaciones profesionales completas (QUI481_3 y QUI482_3) se han incluido como referencia, pero no se ha verificado el mapping exacto de UC a módulos en el RD 1581/2011.",
+  "No se ha accedido a la Orden ECD/1082/2015 (Aragón, plan LOE a extinguir) para verificar módulos propios aragones antiguos."
+ ],
+ "pruebas": [
+  {
+   "descripcion": "LOGSE Química Industrial: ciclo completo convalida módulos específicos 0185-0194",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Química Industrial",
+     "modulo": "Ciclo completo o módulos específicos",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0185": "convalidable",
+    "0186": "convalidable",
+    "0188": "convalidable",
+    "0194": "convalidable"
+   },
+   "no_espera": {
+    "1709": "convalidable",
+    "0179": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Módulos específicos de Química LOGSE convalida solo esos módulos, no comunes",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Química Industrial",
+     "modulo": "Ciclo completo o módulos específicos",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0188": "convalidable"
+   },
+   "no_espera": {
+    "1665": "convalidable",
+    "1708": "convalidable",
+    "1710": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Ciclo LOGSE: ciclo completo no convalida módulos comunes nuevos (1709, 1710, 1665, 1708)",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico Superior en Química Industrial",
+     "modulo": "Ciclo completo o módulos específicos",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0185": "convalidable"
+   },
+   "no_espera": {
+    "1709": "convalidable",
+    "1710": "convalidable",
+    "1665": "convalidable",
+    "1708": "convalidable"
+   }
+  }
+ ]
+}

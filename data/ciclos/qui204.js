@@ -1,0 +1,401 @@
+// Generado por tools/build_data.py a partir de research/qui204.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["qui204"] = {
+ "ciclo": {
+  "codigo": "QUI204",
+  "nombre": "Técnico en Planta Química",
+  "grado": "medio",
+  "familia": "Química",
+  "normas": [
+   {
+    "ref": "RD 1529/2012, de 8 de noviembre",
+    "boe": "BOE-A-2012-13800",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2012-13800",
+    "nota": "Establece el título de Técnico en Planta Química (BOE núm. 305, de 20/12/2012, págs. 85840-85914). 2.000 h; mínimas 1.100 h (55%). Anexo IV derogado por RD 1085/2020."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Anexo II (tabla Química, grado medio) y anexo III contienen convalidaciones. Tabla de Inglés aplica a este ciclo. DA 5.ª: las tablas se aplican al módulo en cualquier ciclo que lo incluya."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP. Currículo básico de módulos comunes: 0156 (50 h), 0157 (40 h), 0158 (60 h), 0159 (20 h), 0180 (opcional, 50 h)."
+   },
+   {
+    "ref": "RD 499/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10684",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
+    "nota": "Adapta QUI204 a la LO 3/2022. Suprime FOL, EIE y FCT; añade módulos comunes. Art. tercero.Treinta: nueva redacción del art. 6 y sustitución de anexos IV A) y IV B)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra UC como Estándares de Competencia Profesional (ECP). Anexo II-a contiene equivalencias UC↔ECP para familia Química. Anexo I: UC conservan su número, varias con nueva denominación."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio (Ministerio)",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo vigente del Ministerio para grado medio. Anexo LIII: este ciclo distribuido en 1.º (975 h) y 2.º (1.025 h)."
+   },
+   {
+    "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345323710404",
+    "nota": "Currículo vigente de grado medio en Aragón (BOA núm. 148, de 31/07/2024). Este ciclo está en anexo XXXVIII. Deroga Orden de 21 de julio de 2014 (currículo LOE)."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "0240",
+   "nombre": "Operaciones unitarias en la industria química",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0241",
+   "nombre": "Control de procesos en planta química",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0242",
+   "nombre": "Sistemas de producción de planta química",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0243",
+   "nombre": "Seguridad en procesos químicos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0244",
+   "nombre": "Instalaciones de la planta química",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0245",
+   "nombre": "Automatización de procesos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0156",
+   "nombre": "Inglés Profesional (GM)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0157",
+   "nombre": "Comunicación y Sociedad (GM)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0158",
+   "nombre": "Seguridad y Salud en el Trabajo (GM)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0159",
+   "nombre": "Digitalización Aplicada (GM)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": 33,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0180",
+   "nombre": "Formación en Empresas (FIE) (Opcional)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Químico Técnico (LOGSE, RD 1509/1992, de 11 de diciembre)",
+   "origen_modulo": [
+    "Operaciones unitarias"
+   ],
+   "destino_modulos": [
+    "0240"
+   ],
+   "fuente": "RD 1085/2020 anexo II (tabla Química, grado medio), por identidad de módulo"
+  },
+  {
+   "origen_titulo": "Químico Técnico (LOGSE, RD 1509/1992, de 11 de diciembre)",
+   "origen_modulo": [
+    "Tecnología de proceso"
+   ],
+   "destino_modulos": [
+    "0241"
+   ],
+   "fuente": "RD 1085/2020 anexo II (tabla Química, grado medio), por identidad de módulo"
+  },
+  {
+   "origen_titulo": "Químico Técnico (LOGSE, RD 1509/1992, de 11 de diciembre)",
+   "origen_modulo": [
+    "Mantenimiento e instalaciones de máquinas e instalaciones"
+   ],
+   "destino_modulos": [
+    "0244"
+   ],
+   "fuente": "RD 1085/2020 anexo II (tabla Química, grado medio), por identidad de módulo"
+  }
+ ],
+ "convalidaciones_loe": [],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0702_2"
+   ],
+   "modulos": [
+    "0240"
+   ],
+   "fuente": "RD 1529/2012 anexo V A)"
+  },
+  {
+   "uc": [
+    "UC0703_2"
+   ],
+   "modulos": [
+    "0241"
+   ],
+   "fuente": "RD 1529/2012 anexo V A)"
+  },
+  {
+   "uc": [
+    "UC0704_2"
+   ],
+   "modulos": [
+    "0242"
+   ],
+   "fuente": "RD 1529/2012 anexo V A)"
+  },
+  {
+   "uc": [
+    "UC0705_2"
+   ],
+   "modulos": [
+    "0243"
+   ],
+   "fuente": "RD 1529/2012 anexo V A)"
+  },
+  {
+   "uc": [
+    "UC0706_2"
+   ],
+   "modulos": [
+    "0244"
+   ],
+   "fuente": "RD 1529/2012 anexo V A)"
+  },
+  {
+   "uc": [
+    "UC0707_2"
+   ],
+   "modulos": [
+    "0245"
+   ],
+   "fuente": "RD 1529/2012 anexo V A)"
+  },
+  {
+   "uc": [
+    "UC0701_2"
+   ],
+   "modulos": [
+    "0156"
+   ],
+   "fuente": "RD 659/2023 anexo IX (módulo común de inglés)"
+  }
+ ],
+ "uc_descripciones": {
+  "UC0701_2": {
+   "nombre": "Manejar inglés de nivel A2 en actividades profesionales",
+   "nivel": "2",
+   "familia": "Química",
+   "horas_formacion_asociada": 50
+  },
+  "UC0702_2": {
+   "nombre": "Obtener productos químicos mediante operaciones unitarias",
+   "nivel": "2",
+   "familia": "Química",
+   "horas_formacion_asociada": 165
+  },
+  "UC0703_2": {
+   "nombre": "Controlar el funcionamiento de procesos en planta química",
+   "nivel": "2",
+   "familia": "Química",
+   "horas_formacion_asociada": 160
+  },
+  "UC0704_2": {
+   "nombre": "Optimizar sistemas de producción en planta química",
+   "nivel": "2",
+   "familia": "Química",
+   "horas_formacion_asociada": 165
+  },
+  "UC0705_2": {
+   "nombre": "Gestionar la seguridad en procesos químicos",
+   "nivel": "2",
+   "familia": "Química",
+   "horas_formacion_asociada": 165
+  },
+  "UC0706_2": {
+   "nombre": "Instalar y mantener equipos de planta química",
+   "nivel": "2",
+   "familia": "Química",
+   "horas_formacion_asociada": 165
+  },
+  "UC0707_2": {
+   "nombre": "Automatizar procesos y sistemas en planta química",
+   "nivel": "2",
+   "familia": "Química",
+   "horas_formacion_asociada": 140
+  }
+ },
+ "uc_equivalencias": {},
+ "notas": [
+  "Módulos comunes (0156-0159, 0180) añadidos por RD 499/2024 (LO 3/2022); anteriormente solo existían módulos específicos.",
+  "RD 499/2024 suprime FOL, EIE y FCT del ciclo completo.",
+  "Las UC de este ciclo se definen en RD 1529/2012 anexo II; sus equivalencias ECP constan en RD 532/2025 anexo II-a (familia Química).",
+  "Horas de Aragón según Orden ECD/842/2024; horas del Ministerio según Orden EFD/657/2024.",
+  "QUI204 sustituye al título LOGSE 'Químico Técnico' (RD 1529/2012 art. 1.2)."
+ ],
+ "no_verificado": [
+  "Código exacto y nombre de cada UC (requiere leer RD 1529/2012 anexo II completo).",
+  "Equivalencias ECP en RD 532/2025 anexo II-a familia Química (no leído).",
+  "Horas precisas de Aragón en Orden ECD/842/2024 anexo XXXVIII.",
+  "Convalidaciones LOGSE vs LOE en RD 1085/2020 anexo II tabla Química GM.",
+  "Distribución exacta de módulos por cursos en Orden EFD/657/2024."
+ ]
+};

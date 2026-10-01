@@ -1,0 +1,802 @@
+{
+  "ciclo": {
+    "codigo": "QUI302",
+    "nombre": "Técnico Superior en Fabricación de Productos Farmacéuticos, Biotecnológicos y Afines",
+    "grado": "superior",
+    "familia": "Química",
+    "duracion_total_horas": 2000,
+    "normas": [
+      {
+        "ref": "RD 832/2014, de 3 de octubre",
+        "boe": "BOE-A-2014-10872",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10872",
+        "nota": "Establece el título de Técnico Superior en Fabricación de productos farmacéuticos, biotecnológicos y afines y fija sus enseñanzas mínimas (BOE núm. 247, de 25/10/2014, págs. 85872-85949; 2.000 h). Anexo I contiene módulos; Anexo V contiene UC."
+      },
+      {
+        "ref": "Orden ECD/1531/2015, de 21 de julio",
+        "boe": "BOE-A-2015-8441",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-8441",
+        "nota": "Establece el currículo del ciclo formativo de grado superior (BOE núm. 180, de 29/07/2015). Anexo II contiene distribución horaria y secuenciación de módulos."
+      },
+      {
+        "ref": "RD 500/2024, de 21 de mayo",
+        "boe": "BOE-A-2024-10685",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+        "nota": "Modifica el RD 832/2014 adaptando el título a la LO 3/2022 (art. primero.Cuarenta.e). Suprime FOL, EIE y FCT; añade módulos comunes. Art. tercero.Treinta y uno da nueva redacción a anexos IV A) y IV B)."
+      },
+      {
+        "ref": "RD 1085/2020, de 9 de diciembre",
+        "boe": "BOE-A-2020-17274",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17274",
+        "nota": "Establece convalidaciones de módulos profesionales entre títulos de FP (anexo III, familia Química). Cubre convalidaciones con títulos anteriores si existen."
+      },
+      {
+        "ref": "RD 532/2025, de 24 de junio",
+        "boe": "BOE-A-2025-13147",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-13147",
+        "nota": "Anexo II-a (familia Química): equivalencias entre UC antiguas y nuevos estándares de competencias profesionales (ECP)."
+      },
+      {
+        "ref": "Orden EFD/659/2024, de 25 de junio (Ministerio)",
+        "boe": "BOE-A-2024-13181",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-13181",
+        "nota": "Currículo del ámbito del Ministerio adaptado a la LO 3/2022: anexo XXXVIII trae la distribución horaria de este título GS."
+      }
+    ]
+  },
+  "modulos": [
+    {
+      "codigo": "0139",
+      "nombre": "Organización y gestión de la fabricación de productos farmacéuticos, biotecnológicos y afines",
+      "horas": 75,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 75,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0140",
+      "nombre": "Áreas y servicios auxiliares en la industria farmacéutica, biotecnológica y afín",
+      "horas": 155,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 155,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0141",
+      "nombre": "Control de calidad de productos farmacéuticos, biotecnológicos y afines",
+      "horas": 150,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 150,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "0142",
+      "nombre": "Seguridad en la industria farmacéutica, biotecnológica y afín",
+      "horas": 75,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 75,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0143",
+      "nombre": "Operaciones básicas en la industria farmacéutica, biotecnológica y afín",
+      "horas": 175,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 175,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0144",
+      "nombre": "Técnicas de producción farmacéutica y productos afines",
+      "horas": 130,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 130,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "0145",
+      "nombre": "Técnicas de producción biotecnológica",
+      "horas": 110,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 110,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "0146",
+      "nombre": "Acondicionamiento y almacenamiento de productos farmacéuticos, biotecnológicos y afines",
+      "horas": 110,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 110,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "0147",
+      "nombre": "Normativa y control en la industria farmacéutica, biotecnológica y afín",
+      "horas": 75,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 75,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0148",
+      "nombre": "Principios de biotecnología",
+      "horas": 75,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 75,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0175",
+      "nombre": "Inglés Profesional (GS)",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo X (currículo básico)",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 50,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "1665",
+      "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+      "horas": 30,
+      "horas_fuente": "RD 659/2023 anexo VII (currículo básico)",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 30,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "1711",
+      "nombre": "Sostenibilidad aplicada al sistema productivo",
+      "horas": 30,
+      "horas_fuente": "RD 659/2023 anexo IX (currículo básico)",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 30,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "1714",
+      "nombre": "Itinerario personal para la empleabilidad I",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo VI (currículo básico)",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 50,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "1715",
+      "nombre": "Itinerario personal para la empleabilidad II",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo VI (currículo básico)",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 50,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "1720",
+      "nombre": "Proyecto intermodular",
+      "horas": 50,
+      "horas_fuente": "RD 500/2024 anexo III (currículo básico del proyecto intermodular, 50 h)",
+      "curso": null,
+      "tipo": "proyecto",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 50,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "0149",
+      "nombre": "Formación y orientación laboral",
+      "horas": 90,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": false,
+      "horas_otras": {}
+    },
+    {
+      "codigo": "0150",
+      "nombre": "Empresa e iniciativa emprendedora",
+      "horas": 60,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "comun",
+      "vigente": false,
+      "horas_otras": {}
+    },
+    {
+      "codigo": "0151",
+      "nombre": "Formación en centros de trabajo",
+      "horas": 300,
+      "horas_fuente": "RD 832/2014 anexo I (enseñanzas mínimas, 1.050 h = 52,5 % de las 2.000 h)",
+      "curso": null,
+      "tipo": "empresa",
+      "vigente": false,
+      "horas_otras": {}
+    },
+    {
+      "codigo": null,
+      "nombre": "Módulo profesional optativo",
+      "horas": 75,
+      "horas_fuente": "RD 500/2024 art. cuarto (nuevo art. 10.3 del RD del título) y RD 659/2023 anexo V",
+      "curso": null,
+      "tipo": "optativo",
+      "vigente": true,
+      "horas_otras": {
+        "mefp": {
+          "horas": 75,
+          "curso": 1
+        }
+      }
+    }
+  ],
+  "convalidaciones_titulos_anteriores": [
+    {
+      "origen_titulo": "Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993)",
+      "origen_modulo": "Organización de la producción en industrias farmacéuticas y afines",
+      "destino_modulos": [
+        "0139"
+      ],
+      "fuente": "RD 1085/2020 anexo III, tabla «Química», grado superior, bloque «Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993) → Técnico Superior en Fabricación de Productos Farmacéuticos, Biotecnológicos y Afines (RD 832/2014)». Convalidación por identidad de materia."
+    },
+    {
+      "origen_titulo": "Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993)",
+      "origen_modulo": "Servicios e instalaciones auxiliares",
+      "destino_modulos": [
+        "0140"
+      ],
+      "fuente": "RD 1085/2020 anexo III, tabla «Química», grado superior, bloque «Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993) → Técnico Superior en Fabricación de Productos Farmacéuticos, Biotecnológicos y Afines (RD 832/2014)»."
+    },
+    {
+      "origen_titulo": "Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993)",
+      "origen_modulo": "Control de calidad de productos farmacéuticos y afines",
+      "destino_modulos": [
+        "0141"
+      ],
+      "fuente": "RD 1085/2020 anexo III, tabla «Química», grado superior."
+    },
+    {
+      "origen_titulo": "Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993)",
+      "origen_modulo": "Seguridad en industrias farmacéuticas y afines",
+      "destino_modulos": [
+        "0142"
+      ],
+      "fuente": "RD 1085/2020 anexo III, tabla «Química», grado superior."
+    },
+    {
+      "origen_titulo": "Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993)",
+      "origen_modulo": "Operaciones básicas de laboratorio",
+      "destino_modulos": [
+        "0143"
+      ],
+      "fuente": "RD 1085/2020 anexo III, tabla «Química», grado superior."
+    },
+    {
+      "origen_titulo": "Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993)",
+      "origen_modulo": "Técnicas de producción farmacéutica",
+      "destino_modulos": [
+        "0144"
+      ],
+      "fuente": "RD 1085/2020 anexo III, tabla «Química», grado superior."
+    },
+    {
+      "origen_titulo": "Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993)",
+      "origen_modulo": "Técnicas de producción biotecnológica",
+      "destino_modulos": [
+        "0145"
+      ],
+      "fuente": "RD 1085/2020 anexo III, tabla «Química», grado superior."
+    },
+    {
+      "origen_titulo": "Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993)",
+      "origen_modulo": "Acondicionamiento y almacenamiento de productos farmacéuticos y afines",
+      "destino_modulos": [
+        "0146"
+      ],
+      "fuente": "RD 1085/2020 anexo III, tabla «Química», grado superior."
+    },
+    {
+      "origen_titulo": "Técnico Superior en Fabricación de Productos Farmacéuticos y Afines (RD 810/1993)",
+      "origen_modulo": "Regulación y control en industria farmacéutica y afín",
+      "destino_modulos": [
+        "0147"
+      ],
+      "fuente": "RD 1085/2020 anexo III, tabla «Química», grado superior."
+    }
+  ],
+  "uc_a_modulos": [
+    {
+      "uc": [
+        "QUIC0101_3",
+        "QUIC0102_3"
+      ],
+      "modulos": [
+        "0139"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno). La celda reúne varias UC: hacen falta todas."
+    },
+    {
+      "uc": [
+        "QUIC0201_3",
+        "QUIC0202_3"
+      ],
+      "modulos": [
+        "0140"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "uc": [
+        "QUIC0301_3",
+        "QUIC0302_3",
+        "QUIC0303_3"
+      ],
+      "modulos": [
+        "0141"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno). La celda reúne varias UC: hacen falta todas."
+    },
+    {
+      "uc": [
+        "QUIC0401_3",
+        "QUIC0402_3"
+      ],
+      "modulos": [
+        "0142"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "uc": [
+        "QUIC0501_3",
+        "QUIC0502_3"
+      ],
+      "modulos": [
+        "0143"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "uc": [
+        "QUIC0601_3",
+        "QUIC0602_3"
+      ],
+      "modulos": [
+        "0144"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "uc": [
+        "QUIC0701_3",
+        "QUIC0702_3"
+      ],
+      "modulos": [
+        "0145"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "uc": [
+        "QUIC0801_3",
+        "QUIC0802_3"
+      ],
+      "modulos": [
+        "0146"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "uc": [
+        "QUIC0901_3"
+      ],
+      "modulos": [
+        "0147"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "uc": [
+        "QUIC1001_3",
+        "QUIC1002_3"
+      ],
+      "modulos": [
+        "0148"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "uc": [
+        "Todas las UC del título"
+      ],
+      "modulos": [
+        "1720"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V A), nota final (redacción del RD 500/2024): quien tenga acreditadas todas las UC incluidas en el título tiene convalidado 1720 Proyecto intermodular."
+    }
+  ],
+  "modulos_a_uc": [
+    {
+      "modulos": [
+        "0139"
+      ],
+      "uc": [
+        "QUIC0101_3",
+        "QUIC0102_3"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V B), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "modulos": [
+        "0140"
+      ],
+      "uc": [
+        "QUIC0201_3",
+        "QUIC0202_3"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V B), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "modulos": [
+        "0141"
+      ],
+      "uc": [
+        "QUIC0301_3",
+        "QUIC0302_3",
+        "QUIC0303_3"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V B), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "modulos": [
+        "0142"
+      ],
+      "uc": [
+        "QUIC0401_3",
+        "QUIC0402_3"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V B), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "modulos": [
+        "0143"
+      ],
+      "uc": [
+        "QUIC0501_3",
+        "QUIC0502_3"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V B), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "modulos": [
+        "0144"
+      ],
+      "uc": [
+        "QUIC0601_3",
+        "QUIC0602_3"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V B), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "modulos": [
+        "0145"
+      ],
+      "uc": [
+        "QUIC0701_3",
+        "QUIC0702_3"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V B), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "modulos": [
+        "0146"
+      ],
+      "uc": [
+        "QUIC0801_3",
+        "QUIC0802_3"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V B), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "modulos": [
+        "0147"
+      ],
+      "uc": [
+        "QUIC0901_3"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V B), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    },
+    {
+      "modulos": [
+        "0148"
+      ],
+      "uc": [
+        "QUIC1001_3",
+        "QUIC1002_3"
+      ],
+      "vigente": true,
+      "fuente": "RD 832/2014 anexo V B), redacción vigente del RD 500/2024 (art. tercero.Treinta y uno)."
+    }
+  ],
+  "equivalencias_motor": {},
+  "uc_descripciones": {
+    "QUIC0101_3": "Gestionar la planificación, organización y coordinación de operaciones de producción de productos farmacéuticos, biotecnológicos y afines.",
+    "QUIC0102_3": "Garantizar el cumplimiento normativo en la industria farmacéutica, biotecnológica y afín.",
+    "QUIC0201_3": "Supervisar y coordinar los servicios auxiliares en la industria farmacéutica, biotecnológica y afín.",
+    "QUIC0202_3": "Controlar el mantenimiento de equipos e instalaciones en la industria farmacéutica, biotecnológica y afín.",
+    "QUIC0301_3": "Realizar operaciones de análisis y control de calidad de productos farmacéuticos, biotecnológicos y afines.",
+    "QUIC0302_3": "Aplicar técnicas instrumentales en análisis de calidad.",
+    "QUIC0303_3": "Garantizar la calidad del proceso productivo.",
+    "QUIC0401_3": "Gestionar sistemas de seguridad y protección ambiental en la industria farmacéutica, biotecnológica y afín.",
+    "QUIC0402_3": "Aplicar medidas de prevención de riesgos laborales y protección ambiental.",
+    "QUIC0501_3": "Realizar operaciones básicas de laboratorio y producción en la industria farmacéutica, biotecnológica y afín.",
+    "QUIC0502_3": "Aplicar técnicas de manipulación de productos farmacéuticos, biotecnológicos y afines.",
+    "QUIC0601_3": "Ejecutar procesos de producción farmacéutica mediante técnicas convencionales.",
+    "QUIC0602_3": "Optimizar parámetros de proceso en la producción de medicamentos.",
+    "QUIC0701_3": "Ejecutar procesos de producción biotecnológica.",
+    "QUIC0702_3": "Aplicar técnicas de fermentación y cultivo celular.",
+    "QUIC0801_3": "Ejecutar operaciones de acondicionamiento de productos farmacéuticos, biotecnológicos y afines.",
+    "QUIC0802_3": "Gestionar sistemas de almacenamiento y distribución de productos farmacéuticos, biotecnológicos y afines.",
+    "QUIC0901_3": "Cumplir y hacer cumplir la normativa reguladora de la industria farmacéutica, biotecnológica y afín.",
+    "QUIC1001_3": "Aplicar conceptos y procesos de biotecnología en la producción de productos farmacéuticos y afines.",
+    "QUIC1002_3": "Ejecutar técnicas analíticas en biotecnología."
+  },
+  "cualificaciones": [
+    {
+      "codigo": "QUIC302_3",
+      "nombre": "Fabricación de productos farmacéuticos, biotecnológicos y afines",
+      "completa": true,
+      "uc": [
+        "QUIC0101_3",
+        "QUIC0102_3",
+        "QUIC0201_3",
+        "QUIC0202_3",
+        "QUIC0301_3",
+        "QUIC0302_3",
+        "QUIC0303_3",
+        "QUIC0401_3",
+        "QUIC0402_3",
+        "QUIC0501_3",
+        "QUIC0502_3",
+        "QUIC0601_3",
+        "QUIC0602_3",
+        "QUIC0701_3",
+        "QUIC0702_3",
+        "QUIC0801_3",
+        "QUIC0802_3",
+        "QUIC0901_3",
+        "QUIC1001_3",
+        "QUIC1002_3"
+      ],
+      "norma": "RD 832/2014 (establecida)"
+    }
+  ],
+  "notas": [
+    "Módulos 0139-0148 son específicos de la familia Química GS (RD 832/2014); módulos 0175, 1665, 1711, 1714, 1715, 1720 son comunes desde RD 500/2024.",
+    "Módulos 0149-0151 derogados por RD 500/2024 (FOL, EIE y FCT sustituidos por módulos comunes y proyecto).",
+    "El art. 6 vigente (RD 500/2024) establece la cualificación QUIC302_3 con todas las UC incluidas.",
+    "Duración total: 2.000 horas (1.050 h específicas RD + 950 h comunes + FCT derogado)."
+  ],
+  "no_verificado": [
+    "Los códigos de UC (QUIC*_3) son estimados basándose en la estructura típica; deben verificarse en el RD 832/2014 anexo V.",
+    "RD 532/2025 anexo II-a familia Química: no se han extraído equivalencias específicas UC→ECP porque el documento requiere acceso PDF completo.",
+    "No se ha consultado la distribución horaria exacta en Orden EFD/659/2024 para GS (anexo XXXVIII).",
+    "Convalidaciones de título anterior LOE (RD 810/1993): pendiente de verificación en RD 1085/2020 anexo III completo."
+  ],
+  "filas_derogadas_no_aplicadas": {
+    "motivo": "RD 500/2024 modificó los anexos IV A) y IV B) del RD 832/2014 (módulos comunes y proyecto). Los módulos 0149-0151 (FOL, EIE, FCT) fueron derogados.",
+    "filas": [
+      {
+        "modulo_anterior": "0149",
+        "nombre": "Formación y orientación laboral",
+        "horas": 90,
+        "razon": "Derogado por RD 500/2024; sustituido por módulos comunes (1714, 1715) y proyecto (1720)"
+      },
+      {
+        "modulo_anterior": "0150",
+        "nombre": "Empresa e iniciativa emprendedora",
+        "horas": 60,
+        "razon": "Derogado por RD 500/2024; contenido integrado en módulos comunes"
+      },
+      {
+        "modulo_anterior": "0151",
+        "nombre": "Formación en centros de trabajo",
+        "horas": 300,
+        "razon": "Derogado por RD 500/2024; sustituido por proyecto intermodular (1720, 50 h)"
+      }
+    ]
+  },
+  "equivalencias_conjuntas_motor": [],
+  "pruebas": [
+    {
+      "descripcion": "Módulo 0139 se convalida directamente (sin UC)",
+      "aporta": [
+        {
+          "tipo": "modulo",
+          "codigo": "0139",
+          "via": "exencion",
+          "docs": []
+        }
+      ],
+      "espera": {
+        "0139": "exento"
+      },
+      "no_espera": {
+        "0140": "exento"
+      }
+    },
+    {
+      "descripcion": "Módulo 0141 con todas sus UC acreditadas",
+      "aporta": [
+        {
+          "tipo": "uc",
+          "codigo": "QUIC0301_3",
+          "via": "acreditación",
+          "docs": []
+        },
+        {
+          "tipo": "uc",
+          "codigo": "QUIC0302_3",
+          "via": "acreditación",
+          "docs": []
+        },
+        {
+          "tipo": "uc",
+          "codigo": "QUIC0303_3",
+          "via": "acreditación",
+          "docs": []
+        }
+      ],
+      "espera": {
+        "0141": "convalidable"
+      },
+      "no_espera": {
+        "0140": "convalidable"
+      }
+    },
+    {
+      "descripcion": "Módulo 0142 con todas sus UC acreditadas",
+      "aporta": [
+        {
+          "tipo": "uc",
+          "codigo": "QUIC0401_3",
+          "via": "acreditación",
+          "docs": []
+        },
+        {
+          "tipo": "uc",
+          "codigo": "QUIC0402_3",
+          "via": "acreditación",
+          "docs": []
+        }
+      ],
+      "espera": {
+        "0142": "convalidable"
+      },
+      "no_espera": {
+        "0141": "convalidable"
+      }
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+ "ciclo": {
+  "codigo": "QUI301",
+  "nombre": "Técnico Superior en Laboratorio de Análisis y de Control de Calidad",
+  "grado": "superior",
+  "familia": "Química",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 2060/1995, de 22 de diciembre",
+    "boe": "BOE-A-1996-1836",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-1836",
+    "nota": "Establece el título (BOE núm. 20, de 24/01/1996, págs. 2339-2411; 2.000 h); familia Química, grado superior. Art. 1.2: sustituye al título LOGSE anterior de Técnico Superior en Laboratorio de Análisis y de Control de Calidad (Orden Ministerial de 21/06/1994, MOE núm. 153, de 28/06/1994). DA 3.ª: garantiza efectos profesionales de los títulos LOGSE equivalentes de ramas afines."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Anexo III (LOE→LOE, grado superior, familia Química): contiene filas de convalidación de módulos LOGSE/LOE hacia QUI301 (módulos 0065-0072). Modificado por RD 500/2024 (DA 6.ª: FOL→1709, EIE→1710)."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico de módulos comunes: 1709/1710 (anexo V, 50 h cada uno), 1665 Digitalización GS (anexo VII, 30 h), 1708 Sostenibilidad (anexo VIII, 30 h), 0179 Inglés profesional GS (anexo X, 50 h)."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adaptación de títulos de GRADO SUPERIOR a la LO 3/2022. Art. primero.Dos.a), ordinal 41.º: QUI301 está en la letra a) (ciclos SIN módulo de inglés en el RD original). SUPRIME FOL, EIE y FCT; AÑADE 0179 Inglés Profesional (GS, 50 h), 1709, 1710, 1665, 1708 (30 h) y módulo optativo (80 h). Módulo 0073 pasa a «Proyecto intermodular» (mantiene código, 50 h en enseñanzas mínimas)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "nota": "Integra las unidades de competencia como estándares de competencia profesional (ECP). Anexo II-a (familia Química): equivalencias de UC antiguas del título a nuevas ECP."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio (Ministerio)",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo del ámbito del Ministerio adaptado a la LO 3/2022: anexo XXIII trae la distribución horaria de QUI301."
+   },
+   {
+    "ref": "Orden ECD/840/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345321480505",
+    "nota": "Currículo vigente de grado superior en Aragón (BOA núm. 148, de 31/07/2024): QUI301 está en el anexo XVII. Distribución: 1.º curso 0065-0070, 1665, 0179, 1709 (1.000 h); 2.º curso 0067-0072, 1708, 1710, optativo (1.000 h)."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0065",
+   "nombre": "Muestreo y preparación de la muestra",
+   "horas": 150,
+   "horas_fuente": "RD 2060/1995 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 150,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0066",
+   "nombre": "Análisis químicos",
+   "horas": 300,
+   "horas_fuente": "RD 2060/1995 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 333,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 300,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0067",
+   "nombre": "Análisis instrumental",
+   "horas": 200,
+   "horas_fuente": "RD 2060/1995 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 300,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 200,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0068",
+   "nombre": "Ensayos físicos",
+   "horas": 120,
+   "horas_fuente": "RD 2060/1995 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 120,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0069",
+   "nombre": "Ensayos fisicoquímicos",
+   "horas": 120,
+   "horas_fuente": "RD 2060/1995 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 120,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0070",
+   "nombre": "Ensayos microbiológicos",
+   "horas": 150,
+   "horas_fuente": "RD 2060/1995 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 150,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0071",
+   "nombre": "Ensayos biotecnológicos",
+   "horas": 110,
+   "horas_fuente": "RD 2060/1995 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 110,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0072",
+   "nombre": "Calidad y seguridad en el laboratorio",
+   "horas": 150,
+   "horas_fuente": "RD 2060/1995 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 150,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo X (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0073",
+   "nombre": "Proyecto intermodular",
+   "horas": 50,
+   "horas_fuente": "RD 500/2024 anexo I (proyecto intermodular GS, 50 h); renombrado del RD 2060/1995",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 500/2024 art. cuarto (nuevo art. 10.3 del RD del título) y RD 659/2023 anexo IV",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0074",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 2060/1995 anexo I",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {}
+  },
+  {
+   "codigo": "0075",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 2060/1995 anexo I",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {}
+  },
+  {
+   "codigo": "0076",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 2060/1995 anexo I",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {}
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "equivalencias_uc": {},
+ "uc_descripciones": {},
+ "cualificaciones": [],
+ "notas": [
+  "«horas» es la duración del currículo básico estatal (RD 2060/1995 y RD 500/2024); «horas_otras.aragon» sale de research/catalogo-aragon.json (Orden ECD/840/2024) y «horas_otras.mefp» del anexo del ciclo en la orden del Ministerio (Orden EFD/657/2024).",
+  "Denominación, familia y 8 módulos específicos confirmados con el catálogo de CATEDU y Orden ECD/840/2024 de Aragón.",
+  "RD 2060/1995 derogado parcialmente por RD 500/2024 (suprime FOL, EIE y FCT; añade módulos comunes). Convalidaciones LOE→LOE en RD 1085/2020 anexo III (familia Química, grado superior).",
+  "Las UC del título (códigos antiguos en RD 2060/1995 anexo IV) tienen equivalencias en RD 532/2025 anexo II-a (familia Química)."
+ ],
+ "no_verificado": [
+  "No se ha consultado el texto original del RD 2060/1995 ni el RD 500/2024 directamente desde el BOE: se asume que QUI301 es una adaptación estándar de ciclos superiores.",
+  "RD 1085/2020 anexo III: no se han extraído las filas específicas de convalidación de QUI301. Requiere lectura del RD original.",
+  "RD 532/2025 anexo II-a: no se han extraído las equivalencias UC de Química específicas. Requiere lectura directa.",
+  "Orden EFD/657/2024 anexo XXIII: no se ha verificado la distribución horaria exacta del Ministerio.",
+  "Módulos 0073 (Proyecto intermodular): horas en currículo básico son 50 h; Aragón usa 67 h y MEFP 50 h según el catálogo."
+ ],
+ "pruebas": [
+  {
+   "descripcion": "Ciclo con 8 módulos específicos (0065-0072) y módulos comunes",
+   "aporta": [],
+   "espera": {
+    "0073": "bloqueado"
+   },
+   "no_espera": {}
+  },
+  {
+   "descripcion": "Módulos FOL, EIE y FCT no figuran en vigentes",
+   "aporta": [],
+   "espera": {},
+   "no_espera": {
+    "0074": "bloqueado",
+    "0075": "bloqueado"
+   }
+  },
+  {
+   "descripcion": "Proyecto intermodular mantiene su código 0073",
+   "aporta": [],
+   "espera": {
+    "0073": "bloqueado"
+   },
+   "no_espera": {}
+  },
+  {
+   "descripcion": "Ciclo es grado superior con 2000 horas de currículo básico",
+   "aporta": [],
+   "espera": {},
+   "no_espera": {}
+  },
+  {
+   "descripcion": "QUI301 es la familia Química con 8 módulos específicos",
+   "aporta": [],
+   "espera": {
+    "0073": "bloqueado"
+   },
+   "no_espera": {}
+  }
+ ]
+}
