@@ -1,0 +1,1646 @@
+{
+ "ciclo": {
+  "codigo": "EOC203",
+  "nombre": "Técnico en Construcción",
+  "grado": "medio",
+  "familia": "Edificación y Obra Civil",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 1575/2011, de 4 de noviembre",
+    "boe": "BOE-A-2011-19440",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19440",
+    "nota": "Establece el título de Técnico en Construcción (BOE núm. 299, de 13/12/2011, págs. 133338-133422). 2.000 h; mínimas 1.100 h. Sin texto consolidado (la API devuelve 404): leído del XML del diario, con anexos. Art. 1.2 y DA 3.ª.2: sustituye a los LOGSE Técnico en Obras de Albañilería (RD 2212/1993) y Técnico en Obras de Hormigón (RD 2213/1993), con los mismos efectos. Anexo IV derogado por el RD 1085/2020."
+   },
+   {
+    "ref": "Corrección de errores del RD 1575/2011",
+    "boe": "BOE-A-2012-2311",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-2311",
+    "nota": "BOE núm. 40, de 16/02/2012. Art. 6: las cualificaciones EOC580_2, EOC582_2, EOC581_2, EOC579_2, EOC589_2 y EOC590_2 son del RD 1548/2011 (no del 1550/2011). Anexos V A) y V B): «UH_7040_2 / UH_7041_2» pasa a UC1912_2 / UC1913_2."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Su disp. derogatoria única.2 deroga el anexo IV (LOGSE→LOE) de este título. Filas vigentes: anexo II (LOGSE→LOE) y anexo III (LOE→LOE), tablas «Edificación y Obra Civil», grado medio. DA 5.ª: las tablas valen para el módulo en cualquier ciclo que lo incluya."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP. Currículo básico de 1709 y 1710 (anexo V, 50 h), 1664 (anexo VI, 30 h), 1708 (anexo VIII, 30 h) y 0156 (anexo IX, 50 h); optativo de 80 h. Arts. 126-128 y 131: convalidaciones y exención de la formación en empresa."
+   },
+   {
+    "ref": "RD 499/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10684",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
+    "nota": "Adapta los títulos de grado medio a la LO 3/2022. Este título está en el art. primero.Dos.a), ordinal 29.º. Art. cuarto.Uno.c): suprime FOL, EIE y FCT y añade 0156, 1709, 1710, 1664, 1708, 1713 y el optativo. Art. tercero.Catorce: nueva redacción del art. 6 y sustitución de los anexos V A) y V B). Art. sexto: nuevo art. 15. Art. octavo.Veintinueve: nuevo anexo III de profesorado (anexo XXXI)."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Homólogo para grado superior; su disp. final 1.ª.2 añade la DA 6.ª al RD 1085/2020 (FOL→IPE I, EIE→IPE II)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra las UC como Estándares de Competencia Profesional (ECP). Anexo I: catálogo UC→ECP. Anexos II-a y II-b: UC1360_2 ↔ ECP2327_2 sin requisitos adicionales (ver «equivalencias_uc»)."
+   },
+   {
+    "ref": "RD 1548/2011, de 31 de octubre",
+    "boe": null,
+    "url": "https://www.boe.es/eli/es/rd/2011/10/31/1548",
+    "nota": "Establece trece cualificaciones de Edificación y Obra Civil (entre ellas las EOC579_2 a EOC590_2 del art. 6). No abierto: códigos y nombres tomados del art. 6 del título y del anexo I del RD 532/2025."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo vigente del ámbito del Ministerio (BOE núm. 158, de 01/07/2024). Este ciclo está en el anexo XIX (letra m)); 1.º con 30 h/semana y 985 h, 2.º con 31 h/semana y 1.015 h. Deroga la Orden ECD/100/2013, de 23 de enero (currículo LOE del Ministerio, no abierta)."
+   },
+   {
+    "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+    "nota": "Currículo vigente de Aragón para grado medio (BOA núm. 148, de 31/07/2024). Este ciclo está en el anexo XI (art. 1.2.f).1.º): distribución horaria en diurno, 30 h/semana en cada curso. Deroga la Orden de 21 de mayo de 2013."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025. Renombra los optativos de oferta común: A173→AOP1001, A171→AOP1002, A172→AOP1003, A170→AOP1004."
+   },
+   {
+    "ref": "RD 2212/1993 y RD 2213/1993, de 17 de diciembre",
+    "boe": null,
+    "url": "https://www.boe.es/eli/es/rd/1993/12/17/2212",
+    "nota": "Títulos LOGSE de Técnico en Obras de Albañilería y Técnico en Obras de Hormigón, sustituidos por este título. No abiertos: los nombres de módulos se han contrastado con sus currículos (RD 140/1994 y RD 139/1994, BOE-A-1994-6006 y BOE-A-1994-6005)."
+   },
+   {
+    "ref": "RD 2211/1993, de 17 de diciembre",
+    "boe": null,
+    "url": "https://www.boe.es/eli/es/rd/1993/12/17/2211",
+    "nota": "Título LOGSE de Técnico en Acabados de Construcción (lo sustituye Obras de Interior, Decoración y Rehabilitación). Aporta dos filas a este título en el anexo II del RD 1085/2020. No abierto; módulos contrastados con su currículo (RD 141/1994, BOE-A-1994-6007)."
+   },
+   {
+    "ref": "Orden de 21 de mayo de 2013, de la Consejera de Educación, Universidad, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=738976083636",
+    "nota": "Currículo LOE del ciclo en Aragón (BOA núm. 119, de 19/06/2013). Distribución por cursos: Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013, https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=740947264343)."
+   },
+   {
+    "ref": "Resolución de 6 de junio de 2025, del Director General de Planificación, Centros y Formación Profesional (Aragón)",
+    "boe": null,
+    "url": "https://educa.aragon.es/documents/20126/5514380/CSV511IT4T1J71T0XFIL+RESOLUCI%C3%93N+M%C3%93DULOS+OPTATIVOS+FP+ARAG%C3%93N.pdf",
+    "nota": "Autoriza optativos de diseño propio (implantación 2025/2026). Para EOC203 autoriza AOP1012 «Medios auxiliares en obras de construcción»."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0995",
+   "nombre": "Construcción",
+   "horas": 75,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "0996",
+   "nombre": "Interpretación de planos de construcción",
+   "horas": 55,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "0997",
+   "nombre": "Fábricas",
+   "horas": 105,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "0998",
+   "nombre": "Revestimientos",
+   "horas": 55,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 128,
+     "curso": 1,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "0999",
+   "nombre": "Encofrados",
+   "horas": 105,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 168,
+     "curso": 2,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "1000",
+   "nombre": "Hormigón armado",
+   "horas": 90,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    },
+    "loe": {
+     "horas": 105,
+     "curso": 2,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "1001",
+   "nombre": "Organización de trabajos de construcción",
+   "horas": 55,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 150,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "1002",
+   "nombre": "Obras de urbanización",
+   "horas": 55,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 150,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 105,
+     "curso": 2,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "1003",
+   "nombre": "Solados, alicatados y chapados",
+   "horas": 100,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 233,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 288,
+     "curso": 1,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "1004",
+   "nombre": "Cubiertas",
+   "horas": 65,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 126,
+     "curso": 2,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "1005",
+   "nombre": "Impermeabilizaciones y aislamientos",
+   "horas": 35,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    },
+    "loe": {
+     "horas": 64,
+     "curso": 1,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "0156",
+   "nombre": "Inglés Profesional (GM)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo IX (currículo básico); añadido por el RD 499/2024 (art. cuarto.Uno.c).2.º)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1664",
+   "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VI (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1713",
+   "nombre": "Proyecto intermodular",
+   "horas": 50,
+   "horas_fuente": "RD 499/2024 anexo II (currículo básico del proyecto intermodular, 50 h; el art. séptimo lo cita como «anexo I»)",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 499/2024 art. cuarto.Uno.e) (nuevo art. 10.3 del RD del título) y RD 659/2023 anexo IV",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "A997",
+   "nombre": "Tutoría I (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 anexo XI (no hay currículo básico estatal)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "A996",
+   "nombre": "Tutoría II (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 anexo XI (no hay currículo básico estatal)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1006",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 96,
+     "curso": 1,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "1343",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 63,
+     "curso": 2,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  },
+  {
+   "codigo": "1344",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 1575/2011 anexo I (enseñanzas mínimas; 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {
+    "loe": {
+     "horas": 410,
+     "curso": 2,
+     "fuente": "Resolución de 19 de junio de 2013 (BOA núm. 127, de 01/07/2013), distribución horaria en diurno (currículo: Orden de 21 de mayo de 2013, BOA núm. 119, de 19/06/2013)"
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico en Obras de Albañilería (LOGSE, RD 2212/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Obras de fábrica",
+   "destino_modulos": [
+    "0997"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Obras de Albañilería (RD 2212/1993) → Técnico en Construcción (RD 1575/2011)», fila «Obras de fábrica → 0997. Fábricas». Sustituye a la fila idéntica del anexo IV del RD 1575/2011, derogado."
+  },
+  {
+   "origen_titulo": "Técnico en Obras de Albañilería (LOGSE, RD 2212/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Revestimientos continuos conglomerados",
+   "destino_modulos": [
+    "0998"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Obras de Albañilería (RD 2212/1993) → Técnico en Construcción (RD 1575/2011)», fila «Revestimientos continuos conglomerados → 0998. Revestimientos». Sustituye a la fila idéntica del anexo IV del RD 1575/2011, derogado."
+  },
+  {
+   "origen_titulo": "Técnico en Obras de Albañilería (LOGSE, RD 2212/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Organización de los trabajos de obras de albañilería",
+   "destino_modulos": [
+    "1001"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Obras de Albañilería (RD 2212/1993) → Técnico en Construcción (RD 1575/2011)», fila «Organización de los trabajos de obras de albañilería → 1001. Organización de trabajos de construcción». Sustituye a la fila idéntica del anexo IV del RD 1575/2011, derogado."
+  },
+  {
+   "origen_titulo": "Técnico en Obras de Albañilería (LOGSE, RD 2212/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Conducciones lineales sin presión",
+   "destino_modulos": [
+    "1002"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Obras de Albañilería (RD 2212/1993) → Técnico en Construcción (RD 1575/2011)», fila «Conducciones lineales sin presión → 1002. Obras de urbanización». Sustituye a la fila idéntica del anexo IV del RD 1575/2011, derogado."
+  },
+  {
+   "origen_titulo": "Técnico en Obras de Albañilería (LOGSE, RD 2212/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Cubiertas e impermeabilizaciones",
+   "destino_modulos": [
+    "1004",
+    "1005"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Obras de Albañilería (RD 2212/1993) → Técnico en Construcción (RD 1575/2011)», fila «Cubiertas e impermeabilizaciones → 1004. Cubiertas / 1005. Impermeabilizaciones y aislamientos». La celda de destino contiene los dos módulos: se convalidan ambos. Sustituye a la fila idéntica del anexo IV del RD 1575/2011, derogado."
+  },
+  {
+   "origen_titulo": "Técnico en Obras de Hormigón (LOGSE, RD 2213/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Encofrados y entibaciones",
+   "destino_modulos": [
+    "0999"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Obras de Hormigón (RD 2213/1993) → Técnico en Construcción (RD 1575/2011)», fila «Encofrados y entibaciones → 0999. Encofrados». Sustituye a la fila idéntica del anexo IV del RD 1575/2011, derogado."
+  },
+  {
+   "origen_titulo": "Técnico en Obras de Hormigón (LOGSE, RD 2213/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Hormigón + Armaduras",
+   "destino_modulos": [
+    "1000"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Obras de Hormigón (RD 2213/1993) → Técnico en Construcción (RD 1575/2011)», fila «Hormigón. Armaduras. → 1000. Hormigón armado». Son dos módulos LOGSE distintos en una misma celda: se exigen los dos (así figuraban, en dos líneas de una celda, en el anexo IV derogado)."
+  },
+  {
+   "origen_titulo": "Técnico en Obras de Hormigón (LOGSE, RD 2213/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Organización de los trabajos de obras de hormigón",
+   "destino_modulos": [
+    "1001"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Obras de Hormigón (RD 2213/1993) → Técnico en Construcción (RD 1575/2011)», fila «Organización de los trabajos de obras de hormigón → 1001. Organización de trabajos de construcción». Sustituye a la fila idéntica del anexo IV del RD 1575/2011, derogado."
+  },
+  {
+   "origen_titulo": "Técnico en Obras de Hormigón (LOGSE, RD 2213/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Conducciones lineales sin presión",
+   "destino_modulos": [
+    "1002"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Obras de Hormigón (RD 2213/1993) → Técnico en Construcción (RD 1575/2011)», fila «Conducciones lineales sin presión → 1002. Obras de urbanización». Sustituye a la fila idéntica del anexo IV del RD 1575/2011, derogado."
+  },
+  {
+   "origen_titulo": "Técnico en Acabados de Construcción (LOGSE, RD 2211/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Revestimientos continuos conglomerados",
+   "destino_modulos": [
+    "0998"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Acabados de construcción (RD 2211/1993) → Técnico en Construcción (RD 1575/2011)», fila «Revestimientos continuos conglomerados → 0998. Revestimientos». El módulo LOGSE existe con el mismo nombre en Acabados y en Albañilería."
+  },
+  {
+   "origen_titulo": "Técnico en Acabados de Construcción (LOGSE, RD 2211/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": "Solados y alicatados",
+   "destino_modulos": [
+    "1003"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico en Acabados de construcción (RD 2211/1993) → Técnico en Construcción (RD 1575/2011)», fila «Solados y alicatados → 1003. Solados, alicatados y chapados». Sustituye a la fila idéntica del anexo IV del RD 1575/2011, derogado."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Proyectos de Edificación (LOE, RD 690/2010, de 20 de mayo) (Edificación y Obra Civil)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0996"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico Superior en Proyectos de Edificación (RD 690/2010) → Técnico en Construcción (RD 1575/2011)», fila «Ciclo Completo → 0996. Interpretación de planos de construcción». Exige el título completo, no módulos sueltos."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Proyectos de Obra Civil (LOE, RD 386/2011, de 18 de marzo) (Edificación y Obra Civil)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0996"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Edificación y Obra Civil», grado medio, bloque «Técnico Superior en Proyectos de Obra Civil (RD 386/2011) → Técnico en Construcción (RD 1575/2011)», fila «Ciclo Completo → 0996. Interpretación de planos de construcción». Exige el título completo, no módulos sueltos."
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0143_2",
+    "UC1375_2"
+   ],
+   "modulos": [
+    "0997"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Catorce). Las UC están en la misma celda: se exigen a la vez (art. 15.3).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1938_2"
+   ],
+   "modulos": [
+    "0998"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Catorce).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1912_2",
+    "UC1913_2"
+   ],
+   "modulos": [
+    "0999"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Catorce). Las UC están en la misma celda: se exigen a la vez (art. 15.3).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1905_2"
+   ],
+   "modulos": [
+    "1000"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Catorce).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1929_2",
+    "UC1930_2",
+    "UC1931_2"
+   ],
+   "modulos": [
+    "1002"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Catorce). Las UC están en la misma celda: se exigen a la vez (art. 15.3).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1942_2",
+    "UC1943_2"
+   ],
+   "modulos": [
+    "1003"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Catorce). Las UC están en la misma celda: se exigen a la vez (art. 15.3).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1908_2",
+    "UC1909_2",
+    "UC1910_2"
+   ],
+   "modulos": [
+    "1004"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Catorce). Las UC están en la misma celda: se exigen a la vez (art. 15.3).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC1917_2",
+    "UC1918_2",
+    "UC1919_2"
+   ],
+   "modulos": [
+    "1005"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Catorce). Las UC están en la misma celda: se exigen a la vez (art. 15.3).",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0141_2",
+    "UC1932_2",
+    "UC1911_2",
+    "UC2327_2"
+   ],
+   "modulos": [
+    "0995",
+    "0996",
+    "1001"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Catorce). Cuatro UC en una celda (se exigen todas) y tres módulos en la de destino (se convalidan los tres). UC2327_2 sustituye a UC1360_2.",
+   "vigente": true
+  },
+  {
+   "uc": [
+    "UC0143_2",
+    "UC1375_2"
+   ],
+   "modulos": [
+    "0997"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), texto ORIGINAL de 2011, sustituido por el RD 499/2024; se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC1938_2"
+   ],
+   "modulos": [
+    "0998"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), texto ORIGINAL de 2011, sustituido por el RD 499/2024; se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC1912_2",
+    "UC1913_2"
+   ],
+   "modulos": [
+    "0999"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), texto ORIGINAL de 2011, sustituido por el RD 499/2024; se conserva por trazabilidad. El BOE publicó «UH_7040_2 / UH_7041_2»; la corrección de errores (BOE de 16/02/2012) lo cambia por UC1912_2 / UC1913_2.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC1905_2"
+   ],
+   "modulos": [
+    "1000"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), texto ORIGINAL de 2011, sustituido por el RD 499/2024; se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC1929_2",
+    "UC1930_2",
+    "UC1931_2"
+   ],
+   "modulos": [
+    "1002"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), texto ORIGINAL de 2011, sustituido por el RD 499/2024; se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC1942_2",
+    "UC1943_2"
+   ],
+   "modulos": [
+    "1003"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), texto ORIGINAL de 2011, sustituido por el RD 499/2024; se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC1908_2",
+    "UC1909_2",
+    "UC1910_2"
+   ],
+   "modulos": [
+    "1004"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), texto ORIGINAL de 2011, sustituido por el RD 499/2024; se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC1917_2",
+    "UC1918_2",
+    "UC1919_2"
+   ],
+   "modulos": [
+    "1005"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), texto ORIGINAL de 2011, sustituido por el RD 499/2024; se conserva por trazabilidad.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "UC0141_2",
+    "UC1932_2",
+    "UC1911_2",
+    "UC1360_2"
+   ],
+   "modulos": [
+    "0995",
+    "0996",
+    "1001"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), texto ORIGINAL de 2011, sustituido por el RD 499/2024; se conserva por trazabilidad. Única fila que cambia: UC1360_2 en lugar de UC2327_2.",
+   "vigente": false
+  },
+  {
+   "uc": [
+    "Todas las UC del título"
+   ],
+   "modulos": [
+    "0995",
+    "0996"
+   ],
+   "fuente": "RD 1575/2011 anexo V A), texto ORIGINAL de 2011, sustituido por el RD 499/2024; se conserva por trazabilidad. Nota al pie del anexo original (acreditación de todas las UC del título por el RD 1224/2009); la redacción vigente no la reproduce.",
+   "vigente": false
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0997"
+   ],
+   "uc": [
+    "UC0143_2",
+    "UC1375_2",
+    "UC0142_1"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), redacción vigente del RD 499/2024 (art. tercero.Catorce).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0998"
+   ],
+   "uc": [
+    "UC1938_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), redacción vigente del RD 499/2024 (art. tercero.Catorce).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0999"
+   ],
+   "uc": [
+    "UC1912_2",
+    "UC1913_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), redacción vigente del RD 499/2024 (art. tercero.Catorce).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1000"
+   ],
+   "uc": [
+    "UC1905_2",
+    "UC0869_1"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), redacción vigente del RD 499/2024 (art. tercero.Catorce).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1002"
+   ],
+   "uc": [
+    "UC1929_2",
+    "UC1930_2",
+    "UC1931_2",
+    "UC1321_1"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), redacción vigente del RD 499/2024 (art. tercero.Catorce).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1003"
+   ],
+   "uc": [
+    "UC1942_2",
+    "UC1943_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), redacción vigente del RD 499/2024 (art. tercero.Catorce).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1004"
+   ],
+   "uc": [
+    "UC1908_2",
+    "UC1909_2",
+    "UC1910_2",
+    "UC0870_1"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), redacción vigente del RD 499/2024 (art. tercero.Catorce).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "1005"
+   ],
+   "uc": [
+    "UC1917_2",
+    "UC1918_2",
+    "UC1919_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), redacción vigente del RD 499/2024 (art. tercero.Catorce).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0995",
+    "0996",
+    "1001"
+   ],
+   "uc": [
+    "UC0141_2",
+    "UC1932_2",
+    "UC1911_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), redacción vigente del RD 499/2024 (art. tercero.Catorce). Hacen falta los tres módulos (art. 15.4).",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0995",
+    "0996",
+    "0997",
+    "0998",
+    "0999",
+    "1000",
+    "1001",
+    "1002",
+    "1003",
+    "1004",
+    "1005"
+   ],
+   "uc": [
+    "UC2327_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), redacción vigente del RD 499/2024 (art. tercero.Catorce). Nota al pie: quien supere todos los módulos del anexo V B) acredita además UC2327_2.",
+   "vigente": true
+  },
+  {
+   "modulos": [
+    "0997"
+   ],
+   "uc": [
+    "UC0143_2",
+    "UC1375_2",
+    "UC0142_1"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), texto ORIGINAL de 2011 (con la corrección de errores de 16/02/2012), sustituido por el RD 499/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0998"
+   ],
+   "uc": [
+    "UC1938_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), texto ORIGINAL de 2011 (con la corrección de errores de 16/02/2012), sustituido por el RD 499/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0999"
+   ],
+   "uc": [
+    "UC1912_2",
+    "UC1913_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), texto ORIGINAL de 2011 (con la corrección de errores de 16/02/2012), sustituido por el RD 499/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "1000"
+   ],
+   "uc": [
+    "UC1905_2",
+    "UC0869_1"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), texto ORIGINAL de 2011 (con la corrección de errores de 16/02/2012), sustituido por el RD 499/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "1002"
+   ],
+   "uc": [
+    "UC1929_2",
+    "UC1930_2",
+    "UC1931_2",
+    "UC1321_1"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), texto ORIGINAL de 2011 (con la corrección de errores de 16/02/2012), sustituido por el RD 499/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "1003"
+   ],
+   "uc": [
+    "UC1942_2",
+    "UC1943_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), texto ORIGINAL de 2011 (con la corrección de errores de 16/02/2012), sustituido por el RD 499/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "1004"
+   ],
+   "uc": [
+    "UC1908_2",
+    "UC1909_2",
+    "UC1910_2",
+    "UC0870_1"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), texto ORIGINAL de 2011 (con la corrección de errores de 16/02/2012), sustituido por el RD 499/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "1005"
+   ],
+   "uc": [
+    "UC1917_2",
+    "UC1918_2",
+    "UC1919_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), texto ORIGINAL de 2011 (con la corrección de errores de 16/02/2012), sustituido por el RD 499/2024.",
+   "vigente": false
+  },
+  {
+   "modulos": [
+    "0995",
+    "0996",
+    "1001"
+   ],
+   "uc": [
+    "UC0141_2",
+    "UC1932_2",
+    "UC1911_2",
+    "UC1360_2"
+   ],
+   "fuente": "RD 1575/2011 anexo V B), texto ORIGINAL de 2011 (con la corrección de errores de 16/02/2012), sustituido por el RD 499/2024. Única fila que cambia: incluía UC1360_2.",
+   "vigente": false
+  }
+ ],
+ "equivalencias_uc": {
+  "UC1360_2": [
+   "ECP2327_2"
+  ]
+ },
+ "equivalencias_motor": {
+  "UC1360_2": [
+   "UC2327_2"
+  ]
+ },
+ "equivalencias_conjuntas_motor": [],
+ "uc_descripciones": {
+  "UC0143_2": "«Construir fábricas vistas» [ECP0143_2]. EOC052_2. Convalida 0997 junto con UC1375_2.",
+  "UC1375_2": "«Colocar mampostería, sillería y perpiaño» [ECP1375_2]. IEX427_2. Convalida 0997 junto con UC0143_2.",
+  "UC1938_2": "«Ejecutar recrecidos planos para revestimiento en construcción» [ECP1938_2]. EOC589_2. Por sí sola convalida 0998.",
+  "UC1912_2": "«Poner en obra encofrados verticales» [ECP1912_2]. EOC581_2. Convalida 0999 junto con UC1913_2.",
+  "UC1913_2": "«Poner en obra encofrados horizontales» [ECP1913_2]. EOC581_2. Convalida 0999 junto con UC1912_2.",
+  "UC1905_2": "«Realizar el armado manual y colocación en obra de armaduras» [ECP1905_2] (el RD 532/2025 la rotula «Elaborar ferralla armada manualmente y puesta en obra»). EOC579_2. Por sí sola convalida 1000.",
+  "UC1929_2": "«Ejecutar pavimentos de urbanización» [ECP1929_2]. EOC586_2. Convalida 1002 junto con UC1930_2 y UC1931_2.",
+  "UC1930_2": "«Ejecutar elementos complementarios de pavimentos de urbanización» [ECP1930_2]. EOC586_2. Convalida 1002 junto con UC1929_2 y UC1931_2.",
+  "UC1931_2": "«Tender tubos de saneamiento y construir registros y cámaras» [ECP1931_2]. EOC586_2. Convalida 1002 junto con UC1929_2 y UC1930_2.",
+  "UC1942_2": "«Ejecutar alicatados y chapados» [ECP1942_2]. EOC590_2. Convalida 1003 junto con UC1943_2.",
+  "UC1943_2": "«Ejecutar solados con piezas rígidas» [ECP1943_2]. EOC590_2. Convalida 1003 junto con UC1942_2.",
+  "UC1908_2": "«Montar estructura metálica ligera para cubiertas» [ECP1908_2]. EOC580_2. Convalida 1004 junto con UC1909_2 y UC1910_2.",
+  "UC1909_2": "«Construir tableros y coberturas con chapa conformada, paneles y placas» [ECP1909_2]. EOC580_2. Convalida 1004 junto con UC1908_2 y UC1910_2.",
+  "UC1910_2": "«Construir la cobertura con teja y pizarra» [ECP1910_2]. EOC580_2. Convalida 1004 junto con UC1908_2 y UC1909_2.",
+  "UC1917_2": "«Ejecutar las capas y elementos del sistema de impermeabilización complementarios de la membrana» [ECP1917_2]. EOC582_2. Convalida 1005 junto con UC1918_2 y UC1919_2.",
+  "UC1918_2": "«Impermeabilizar con membranas bituminosas» [ECP1918_2]. EOC582_2. Convalida 1005 junto con UC1917_2 y UC1919_2.",
+  "UC1919_2": "«Impermeabilizar con membranas sintéticas» [ECP1919_2]. EOC582_2. Convalida 1005 junto con UC1917_2 y UC1918_2.",
+  "UC0141_2": "«Organizar trabajos de albañilería» [ECP0141_2]. EOC052_2. Convalida 0995, 0996 y 1001 solo junto con las otras tres UC de organización y prevención (UC0141_2, UC1932_2, UC1911_2 y UC2327_2).",
+  "UC1932_2": "«Organizar trabajos de albañilería de urbanización» [ECP1932_2]. EOC586_2. Convalida 0995, 0996 y 1001 solo junto con las otras tres UC de organización y prevención (UC0141_2, UC1932_2, UC1911_2 y UC2327_2).",
+  "UC1911_2": "«Organizar trabajos de cubiertas e impermeabilizaciones» [ECP1911_2]. EOC580_2 y EOC582_2. Convalida 0995, 0996 y 1001 solo junto con las otras tres UC de organización y prevención (UC0141_2, UC1932_2, UC1911_2 y UC2327_2).",
+  "UC2327_2": "«Realizar las funciones de nivel básico para la prevención de riesgos en construcción» [ECP2327_2] (familia Seguridad y Medio Ambiente). Sustituye a UC1360_2 en EOC586_2, EOC580_2 y EOC582_2. Convalida 0995, 0996 y 1001 solo junto con las otras tres UC de organización y prevención (UC0141_2, UC1932_2, UC1911_2 y UC2327_2).",
+  "UC1360_2": "«Controlar a nivel básico riesgos en construcción». SUPRIMIDA: equivale por sí sola a ECP2327_2 (RD 532/2025 anexo II-a); figuraba en el art. 6 y el anexo V A) originales.",
+  "UC0142_1": "«Construir fábricas para revestir» [ECP0142_1]. EOC052_2. No convalida ningún módulo; se acredita al superar 0997 (anexo V B).",
+  "UC0869_1": "«Elaborar pastas, morteros, adhesivos y hormigones» [ECP0869_1]. EOC052_2, EOC586_2, EOC580_2 y EOC582_2. No convalida ningún módulo; se acredita al superar 1000 (anexo V B).",
+  "UC1321_1": "«Pavimentar con hormigón impreso y adoquinados» [ECP1321_1]. EOC586_2. No convalida ningún módulo; se acredita al superar 1002 (anexo V B).",
+  "UC0870_1": "«Construir faldones para cubiertas» [ECP0870_1]. EOC580_2. No convalida ningún módulo; se acredita al superar 1004 (anexo V B)."
+ },
+ "cualificaciones": [
+  {
+   "codigo": "EOC052_2",
+   "nombre_2010": "Fábricas de albañilería",
+   "nombre_vigente": "Fábricas de albañilería",
+   "completa": true,
+   "uc": [
+    "UC0869_1",
+    "UC0141_2",
+    "UC0142_1",
+    "UC0143_2"
+   ],
+   "uc_2010": [
+    "UC0869_1",
+    "UC0141_2",
+    "UC0142_1",
+    "UC0143_2"
+   ],
+   "uc_vigente": [
+    "UC0869_1",
+    "UC0141_2",
+    "UC0142_1",
+    "UC0143_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 295/2004, de 20 de febrero (modificado por el RD 872/2007). Completa en el art. 6.1.a) original. Sin cambios de código (ECP en el RD 532/2025 anexo I)."
+  },
+  {
+   "codigo": "EOC586_2",
+   "nombre_2010": "Pavimentos y albañilería de urbanización",
+   "nombre_vigente": "Pavimentos y albañilería de urbanización",
+   "completa": true,
+   "uc": [
+    "UC0869_1",
+    "UC1321_1",
+    "UC1929_2",
+    "UC1930_2",
+    "UC1931_2",
+    "UC1932_2",
+    "UC2327_2"
+   ],
+   "uc_2010": [
+    "UC0869_1",
+    "UC1321_1",
+    "UC1929_2",
+    "UC1930_2",
+    "UC1931_2",
+    "UC1932_2",
+    "UC1360_2"
+   ],
+   "uc_vigente": [
+    "UC0869_1",
+    "UC1321_1",
+    "UC1929_2",
+    "UC1930_2",
+    "UC1931_2",
+    "UC1932_2",
+    "UC2327_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 1548/2011, de 31 de octubre. Completa en el art. 6.1.b) original. La redacción del RD 499/2024 sustituye UC1360_2 por UC2327_2 (equivalentes, RD 532/2025 anexo II)."
+  },
+  {
+   "codigo": "EOC580_2",
+   "nombre_2010": "Cubiertas inclinadas",
+   "nombre_vigente": "Cubiertas inclinadas",
+   "completa": true,
+   "uc": [
+    "UC0869_1",
+    "UC0870_1",
+    "UC1908_2",
+    "UC1909_2",
+    "UC1910_2",
+    "UC1911_2",
+    "UC2327_2"
+   ],
+   "uc_2010": [
+    "UC0869_1",
+    "UC0870_1",
+    "UC1908_2",
+    "UC1909_2",
+    "UC1910_2",
+    "UC1911_2",
+    "UC1360_2"
+   ],
+   "uc_vigente": [
+    "UC0869_1",
+    "UC0870_1",
+    "UC1908_2",
+    "UC1909_2",
+    "UC1910_2",
+    "UC1911_2",
+    "UC2327_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 1548/2011, de 31 de octubre (el BOE publicó «RD 1550/2011»; corregido el 16/02/2012). Completa en el art. 6.1.c) original. La redacción del RD 499/2024 sustituye UC1360_2 por UC2327_2 (equivalentes, RD 532/2025 anexo II)."
+  },
+  {
+   "codigo": "EOC582_2",
+   "nombre_2010": "Impermeabilización mediante membranas formadas con láminas",
+   "nombre_vigente": "Impermeabilización mediante membranas formadas con láminas",
+   "completa": true,
+   "uc": [
+    "UC0869_1",
+    "UC1917_2",
+    "UC1918_2",
+    "UC1919_2",
+    "UC1911_2",
+    "UC2327_2"
+   ],
+   "uc_2010": [
+    "UC0869_1",
+    "UC1917_2",
+    "UC1918_2",
+    "UC1919_2",
+    "UC1911_2",
+    "UC1360_2"
+   ],
+   "uc_vigente": [
+    "UC0869_1",
+    "UC1917_2",
+    "UC1918_2",
+    "UC1919_2",
+    "UC1911_2",
+    "UC2327_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 1548/2011, de 31 de octubre. Completa en el art. 6.1.d) original. La redacción del RD 499/2024 sustituye UC1360_2 por UC2327_2 (equivalentes, RD 532/2025 anexo II)."
+  },
+  {
+   "codigo": "EOC581_2",
+   "nombre_2010": "Encofrados",
+   "nombre_vigente": "Encofrados",
+   "completa": false,
+   "uc": [
+    "UC1912_2",
+    "UC1913_2"
+   ],
+   "uc_2010": [
+    "UC1912_2",
+    "UC1913_2"
+   ],
+   "uc_vigente": [
+    "UC1912_2",
+    "UC1913_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 1548/2011, de 31 de octubre. Incompleta (art. 6.2.a) original); el anexo I del RD 532/2025 la rotula «Ejecución de encofrados». Sin cambios de código (ECP en el RD 532/2025 anexo I)."
+  },
+  {
+   "codigo": "EOC579_2",
+   "nombre_2010": "Armaduras pasivas para hormigón",
+   "nombre_vigente": "Armaduras pasivas para hormigón",
+   "completa": false,
+   "uc": [
+    "UC1905_2"
+   ],
+   "uc_2010": [
+    "UC1905_2"
+   ],
+   "uc_vigente": [
+    "UC1905_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 1548/2011, de 31 de octubre. Incompleta (art. 6.2.b) original). Sin cambios de código (ECP en el RD 532/2025 anexo I)."
+  },
+  {
+   "codigo": "EOC589_2",
+   "nombre_2010": "Revestimientos con pastas y morteros en construcción",
+   "nombre_vigente": "Revestimientos con pastas y morteros en construcción",
+   "completa": false,
+   "uc": [
+    "UC1938_2"
+   ],
+   "uc_2010": [
+    "UC1938_2"
+   ],
+   "uc_vigente": [
+    "UC1938_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 1548/2011, de 31 de octubre. Incompleta (art. 6.2.c) original). Sin cambios de código (ECP en el RD 532/2025 anexo I)."
+  },
+  {
+   "codigo": "EOC590_2",
+   "nombre_2010": "Revestimientos con piezas rígidas por adherencia en construcción",
+   "nombre_vigente": "Revestimientos con piezas rígidas por adherencia en construcción",
+   "completa": false,
+   "uc": [
+    "UC1942_2",
+    "UC1943_2"
+   ],
+   "uc_2010": [
+    "UC1942_2",
+    "UC1943_2"
+   ],
+   "uc_vigente": [
+    "UC1942_2",
+    "UC1943_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 1548/2011, de 31 de octubre. Incompleta (art. 6.2.d) original). Sin cambios de código (ECP en el RD 532/2025 anexo I)."
+  },
+  {
+   "codigo": "IEX427_2",
+   "nombre_2010": "Colocación de piedra natural",
+   "nombre_vigente": "Colocación de piedra natural",
+   "completa": false,
+   "uc": [
+    "UC1375_2"
+   ],
+   "uc_2010": [
+    "UC1375_2"
+   ],
+   "uc_vigente": [
+    "UC1375_2"
+   ],
+   "formacion_asociada_horas": null,
+   "norma": "RD 1956/2009, de 18 de diciembre (familia Industrias Extractivas). Incompleta (art. 6.2.e) original). Sin cambios de código (ECP en el RD 532/2025 anexo I)."
+  }
+ ],
+ "notas": [
+  "El campo «horas» es el del currículo básico / enseñanzas mínimas (RD 1575/2011 anexo I, 1.100 h; RD 659/2023 y RD 499/2024 para los comunes nuevos). Las horas de impartición están en «horas_otras» (aragon = Orden ECD/842/2024 anexo XI, diurno; mefp = Orden EFD/657/2024 anexo XIX; loe = Resolución de 19 de junio de 2013 de Aragón).",
+  "Denominación y código confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=EOC203): EOC203 «Construcción», CFGM, familia Edificación y Obra Civil, 1.999 h (2.000 en la Orden), DIURNO; horas y cursos coinciden con la Orden ECD/842/2024 y con research/catalogo-aragon.json.",
+  "Aragón (Orden ECD/842/2024, anexo XI, EOC203): 1.º: 0995 (133 h), 0996 (100), 0997 (133), 0998 (100), 1003 (233), 1005 (67), A997 (33), 1709 (100), 1664 (33), 0156 (67). 2.º: 0999 (200), 1000 (133), 1001 (67), 1002 (133), 1004 (167), A996 (33), 1710 (67), 1708 (33), 1713 (67), optativo (100).",
+  "Ministerio (Orden EFD/657/2024, anexo XIX): 1.º (985 h): 0996 100, 0998 100, 0995 130, 1000 130, 0999 160, 0997 160, 1709 100, 1708 35, 0156 70. 2.º (1.015 h): 1005 100, 1002 150, 1001 150, 1004 160, 1003 190, 1710 100, 1664 35, optativo 80, 1713 50. 0999, 1000, 1003 y 1005 cambian de curso respecto de Aragón.",
+  "Plan LOE de Aragón (Resolución de 19 de junio de 2013, diurno): 1.º: 0995 128, 0996 128, 0997 128, 0998 128, 1003 288, 1005 64, 1006 FOL 96 (960 h). 2.º: 0999 168, 1000 105, 1001 63, 1002 105, 1004 126, 1343 EIE 63 y 1344 FCT 410 (1.040 h).",
+  "CONVALIDACIÓN DESDE TÍTULOS LOGSE (anexo II del RD 1085/2020, tabla «Edificación y Obra Civil», grado medio): Obras de Albañilería (5 filas: 0997, 0998, 1001, 1002 y 1004 + 1005), Obras de Hormigón (4 filas: 0999, 1000 —exige Hormigón y Armaduras—, 1001 y 1002) y Acabados de Construcción (0998 y 1003). 0995 y 0996 no tienen fila LOGSE.",
+  "CONVALIDACIÓN LOE→LOE (anexo III, tabla «Edificación y Obra Civil», grado medio): solo el ciclo completo de Técnico Superior en Proyectos de Edificación o en Proyectos de Obra Civil → 0996. No hay fila desde Organización y Control de Obras de Construcción (RD 636/2015).",
+  "SENTIDO INVERSO: el RD 1085/2020 no contiene ninguna fila en la que este título o sus módulos sean la formación aportada (ni hacia EOC301, EOC302 o EOC303 ni hacia otras familias); el anexo I (LOGSE→LOGSE) solo afecta a los títulos de 1993.",
+  "MÓDULOS COMPARTIDOS POR CÓDIGO con Obras de Interior, Decoración y Rehabilitación (EOC201): 0995 (75 h mínimas), 0996 (55 h) y 1003 (100 h); superados en un ciclo se trasladan al otro. Las filas del bloque de EOC201 con destino 1003 (Acabados: Solados y alicatados) coinciden con las de este título, así que la DA 5.ª no añade filas.",
+  "UC: el RD 499/2024 reescribe el art. 6 (ya no distingue cualificaciones completas e incompletas) y los anexos V; la única diferencia es UC1360_2 → UC2327_2. Solo UC1938_2 (0998) y UC1905_2 (1000) convalidan por sí solas; el resto exige todas las UC de su celda, y 0995 + 0996 + 1001 exigen a la vez UC0141_2, UC1932_2, UC1911_2 y UC2327_2. UC0142_1, UC0869_1, UC1321_1 y UC0870_1 solo se acreditan (anexo V B).",
+  "EQUIVALENCIAS (RD 532/2025): solo cambia de número UC1360_2, que equivale por sí sola a ECP2327_2 (anexo II-a, sin requisitos adicionales; anexo II-b a la inversa). Ninguna equivalencia exige acreditar otras UC a la vez; las demás UC conservan el código como ECP (anexo I).",
+  "El anexo IV original convalidaba FOL con «Formación y orientación laboral + Seguridad en la construcción» y EIE con «Administración, gestión y comercialización en la pequeña empresa»; hoy rigen las tablas generales de FOL y EIE del anexo II del RD 1085/2020 (DA 6.ª: se entienden hechas a 1709 y 1710). La formación en empresa nunca se convalida (RD 659/2023 art. 126.4).",
+  "DA 3.ª del RD 1575/2011: tienen los mismos efectos profesionales los Técnicos Auxiliares (LGE) en Albañilería, Techador, Cubrimiento de Edificios, Hormigón Armado, Hormigón, Portlandista (rama Construcción y Obras) y Minero-Cantero (rama Minera); y los mismos efectos profesionales y académicos los LOGSE de Obras de Albañilería y Obras de Hormigón.",
+  "Optativos de Aragón: AOP1001 (Inglés GM), AOP1002 (Francés) y AOP1003 (Ofimática avanzada) de oferta común (Decreto 107/2025), más AOP1012 «Medios auxiliares en obras de construcción» de diseño propio (Resolución de 6 de junio de 2025)."
+ ],
+ "no_verificado": [
+  "El RD 1575/2011 NO tiene texto consolidado (https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2011-19440/texto devuelve 404): se ha leído el XML del diario (https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19440), la corrección de errores de 16/02/2012 y el RD 499/2024, aplicando las modificaciones a mano.",
+  "Fila «Hormigón. Armaduras. → 1000» (anexo II del RD 1085/2020, https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274): se ha interpretado que exige los dos módulos LOGSE, como en el anexo IV derogado (dos líneas en una celda); el RD 139/1994 confirma que son módulos distintos, pero la tabla no dice expresamente «ambos».",
+  "No se han abierto los RD 2211/1993, 2212/1993 y 2213/1993 (https://www.boe.es/eli/es/rd/1993/12/17/2212); los nombres de módulos LOGSE proceden del RD 1085/2020 y de los currículos RD 139/1994, 140/1994 y 141/1994.",
+  "Horas de formación asociada de las cualificaciones no recogidas: no se han abierto el RD 1548/2011 (https://www.boe.es/eli/es/rd/2011/10/31/1548), el RD 295/2004 ni el RD 1956/2009.",
+  "No se han abierto la Orden ECD/100/2013 (currículo LOE del Ministerio, https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-1031) ni el articulado completo de la Orden de 21 de mayo de 2013 de Aragón; la clave «loe» sale de la Resolución de 19 de junio de 2013 (https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=740947264343), cuyas horas coinciden con el anexo I de la Orden.",
+  "No se han revisado los anexos de convalidaciones de reales decretos de títulos posteriores al 05/03/2017 para ver si alguno aporta o recibe módulos de este ciclo; solo el texto consolidado del RD 1085/2020 (https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274).",
+  "research/competencias-catedu.json asocia 0995 y 0996 también al grupo de UC de organización de EOC201 (UC1941_2 + UC1923_2 + UC1935_2 + UC2327_2); aquí solo se aplica el anexo V A) de este título (https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684), sin extender el del otro."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "Filas del anexo IV original del RD 1575/2011 (derogado por la disp. derogatoria única.2 del RD 1085/2020) que el RD 1085/2020 no reproduce en los bloques de este título: FOL y EIE pasan a las tablas generales y la FCT no se convalida. Las demás filas pasaron al anexo II. Se recogen por trazabilidad; NO aplicar.",
+  "filas": [
+   {
+    "origen_titulo": "Técnico en Obras de Albañilería / Técnico en Obras de Hormigón (LOGSE, RD 2212/1993 y RD 2213/1993) (Edificación y Obra Civil)",
+    "origen_modulo": "Formación y orientación laboral + Seguridad en la construcción",
+    "destino_modulos": [
+     "1006"
+    ],
+    "fuente": "RD 1575/2011 anexo IV, texto original de 2011, DEROGADO. Hoy: tabla general de FOL del anexo II del RD 1085/2020 → 1709 (DA 6.ª)."
+   },
+   {
+    "origen_titulo": "Técnico en Obras de Albañilería / Técnico en Obras de Hormigón (LOGSE, RD 2212/1993 y RD 2213/1993) (Edificación y Obra Civil)",
+    "origen_modulo": "Administración, gestión y comercialización en la pequeña empresa",
+    "destino_modulos": [
+     "1343"
+    ],
+    "fuente": "RD 1575/2011 anexo IV, texto original de 2011, DEROGADO. Hoy: tabla general de EIE del anexo II del RD 1085/2020 → 1710 (DA 6.ª)."
+   },
+   {
+    "origen_titulo": "Técnico en Obras de Albañilería / Técnico en Obras de Hormigón (LOGSE, RD 2212/1993 y RD 2213/1993) (Edificación y Obra Civil)",
+    "origen_modulo": "Formación en centro de trabajo",
+    "destino_modulos": [
+     "1344"
+    ],
+    "fuente": "RD 1575/2011 anexo IV, texto original de 2011, DEROGADO. La formación en empresa no se convalida (solo exención por experiencia)."
+   }
+  ]
+ },
+ "pruebas": [
+  {
+   "descripcion": "LOGSE Albañilería: Cubiertas e impermeabilizaciones convalida 1004 y 1005, no 1002",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Obras de Albañilería",
+     "modulo": "Cubiertas e impermeabilizaciones",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "1004": "convalidable",
+    "1005": "convalidable"
+   },
+   "no_espera": {
+    "1002": "convalidable",
+    "0997": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOGSE Hormigón: Hormigón solo no convalida 1000 (hace falta también Armaduras)",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Obras de Hormigón",
+     "modulo": "Hormigón",
+     "docs": []
+    }
+   ],
+   "espera": {},
+   "no_espera": {
+    "1000": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOGSE Hormigón: Hormigón + Armaduras convalidan 1000, no 0999",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Obras de Hormigón",
+     "modulo": "Hormigón",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Obras de Hormigón",
+     "modulo": "Armaduras",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "1000": "convalidable"
+   },
+   "no_espera": {
+    "0999": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOGSE Acabados: Solados y alicatados convalida 1003; Revestimientos continuos conglomerados, 0998",
+   "aporta": [
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Acabados de Construcción",
+     "modulo": "Solados y alicatados",
+     "docs": []
+    },
+    {
+     "tipo": "modulo_logse",
+     "titulo": "Técnico en Acabados de Construcción",
+     "modulo": "Revestimientos continuos conglomerados",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "1003": "convalidable",
+    "0998": "convalidable"
+   },
+   "no_espera": {
+    "0997": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Ciclo completo de Proyectos de Obra Civil convalida 0996, no 0995",
+   "aporta": [
+    {
+     "tipo": "titulo",
+     "titulo": "Técnico Superior en Proyectos de Obra Civil",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0996": "convalidable"
+   },
+   "no_espera": {
+    "0995": "convalidable",
+    "1001": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC1912_2 sola no convalida 0999 (hace falta también UC1913_2); UC1905_2 sola convalida 1000",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1912_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1905_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "1000": "convalidable"
+   },
+   "no_espera": {
+    "0999": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0141_2 + UC1932_2 + UC1911_2 sin la de prevención no convalidan 0995",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0141_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1932_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1911_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {},
+   "no_espera": {
+    "0995": "convalidable",
+    "0996": "convalidable",
+    "1001": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Con UC1360_2 (suprimida, equivale a UC2327_2) las tres de organización convalidan 0995, 0996 y 1001",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0141_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1932_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1911_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1360_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0995": "convalidable",
+    "0996": "convalidable",
+    "1001": "convalidable"
+   },
+   "no_espera": {
+    "0997": "convalidable"
+   }
+  }
+ ]
+}

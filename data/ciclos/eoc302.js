@@ -1,0 +1,742 @@
+// Generado por tools/build_data.py a partir de research/eoc302.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["eoc302"] = {
+ "ciclo": {
+  "codigo": "EOC302",
+  "nombre": "Técnico Superior en Proyectos de Obra Civil",
+  "grado": "superior",
+  "familia": "Edificación y Obra Civil",
+  "normas": [
+   {
+    "ref": "RD 386/2011, de 18 de marzo",
+    "boe": "BOE-A-2011-6711",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-6711",
+    "nota": "Establece el título de Técnico Superior en Proyectos de Obra Civil (BOE núm. 89, de 14/04/2011, págs. 38561-38636). 2.000 h; mínimas 1.100 h. No tiene texto consolidado en el BOE. Art. 1.2: sustituye al LOGSE Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (RD 2209/1993 y 1411/1994). Anexo IV derogado por el RD 1085/2020."
+   },
+   {
+    "ref": "RD 1228/2006, de 27 de octubre",
+    "boe": "BOE-A-2007-96",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2007-96",
+    "nota": "Establece EOC202_3 «Representación de proyectos de obra civil» (UC0638_3, UC0641_3, UC0642_3). No abierto; versión vigente leída en el RD 916/2024."
+   },
+   {
+    "ref": "RD 872/2007, de 2 de julio",
+    "boe": null,
+    "url": "https://www.boe.es/eli/es/rd/2007/07/02/872",
+    "nota": "Establece EOC273_3 «Control de proyectos y obras de construcción» (UC0874_3, UC0875_3, UC0876_3) y EOC274_3 «Levantamientos y replanteos» (UC0877_3, UC0878_3, UC0879_3). No abierto; versión vigente leída en el RD 916/2024."
+   },
+   {
+    "ref": "RD 2209/1993, de 17 de diciembre",
+    "boe": "BOE-A-1994-3974",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-3974",
+    "nota": "Título LOGSE publicado como «Levantamientos y Desarrollos Urbanísticos» (BOE núm. 43, de 19/02/1994); los RD 386/2011 y 1085/2020 lo llaman Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (RD 1411/1994, no abierto). Módulos: Trabajos de campo y gabinete; Trazados viarios y abastecimientos; Ordenación urbana; Replanteos de obra; Planes de urbanismo; Proyecto de urbanización; Administración, gestión y comercialización en la pequeña empresa; FOL; FCT."
+   },
+   {
+    "ref": "RD 2208/1993, de 17 de diciembre",
+    "boe": "BOE-A-1994-3973",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-3973",
+    "nota": "Título LOGSE de Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (BOE núm. 43, de 19/02/1994). Módulos leídos en el XML del diario: Normas y proyectos de construcción; Representaciones de construcción; Mediciones y valoraciones; Planes de obra; Proyecto de edificación; Proyecto de obra civil; Administración, gestión y comercialización en una pequeña empresa; FOL; FCT."
+   },
+   {
+    "ref": "RD 2210/1993, de 17 de diciembre",
+    "boe": "BOE-A-1994-5510",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-5510",
+    "nota": "Título LOGSE de Técnico Superior en Realización y Planes de Obra («…Planes de Obras» en el BOE núm. 58, de 09/03/1994). Módulos: Replanteos de obra; Planes de obra; Organización de tajos de obra; Planes de seguridad en la construcción; Administración, gestión y comercialización en la pequeña empresa."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Su disp. derogatoria única.2 deroga el anexo IV (LOGSE→LOE) del RD 386/2011. Las filas vigentes están en su anexo II (tabla «Edificación y Obra Civil», grado superior) y en su anexo III (LOE→LOE). Texto consolidado (actualización de 15/04/2026). DA 5.ª: las filas se aplican al módulo en cualquier ciclo que lo incluya."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP. Currículo básico de 1709 y 1710 (anexo V, 50 h), 1665 (anexo VII, 30 h), 1708 (anexo VIII, 30 h) y 0179 (anexo X, 50 h); anexo IV: optativo de 80 h. Art. 126.4: no se convalidan la formación en empresa ni el proyecto intermodular."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adapta los títulos de grado superior a la LO 3/2022. Este título está en el art. primero.Dos.a), ordinal 27.º. Art. cuarto.Uno.c): suprime FOL, EIE y FCT, el «Proyecto» pasa a «Proyecto intermodular» con el mismo código y añade 0179, 1709, 1710, 1665, 1708 y un optativo de 80 h. Art. sexto.Uno: nuevo art. 15 (remite al RD 1085/2020). El art. tercero no cita este RD: art. 6 y anexos V A) y V B) no cambian. Sustituye el anexo III (profesorado)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra las UC como Estándares de Competencia Profesional (ECP). Anexo I: las UC de este título conservan su número (UC0638_3 → ECP0638_3, etc.). Ninguna aparece en los anexos II-a y II-b, por lo que «equivalencias_uc» está vacío."
+   },
+   {
+    "ref": "RD 916/2024, de 17 de septiembre",
+    "boe": "BOE-A-2024-20401",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20401",
+    "nota": "BOE núm. 244, de 09/10/2024. Actualiza EOC201_3 y EOC202_3 (añade UC2786_3), EOC273_3 (pasa a «Seguimiento de proyectos y obras de construcción», añade UC2327_2) y EOC274_3 («Levantamientos topográficos y replanteos», añade UC2327_2). Las UC del título conservan su código."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito del Ministerio para grado superior (BOE núm. 158, de 01/07/2024). Este ciclo está en el art. 1.2.g).3.º y en el anexo XXII (letra p)); 1.º con 995 h y 2.º con 1.005 h. Optativa(s): 80 h. Deroga la Orden EDU/1546/2011 (disp. derogatoria única, g).3.º)."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+    "nota": "Currículo vigente de Aragón para grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004). Este ciclo está en el art. 1.2.f).3.º, art. 5.3.o) y anexo XVI (código EOC302): distribución horaria, espacios y equipamientos. Deroga la Orden de 23 de mayo de 2013 (disp. derogatoria única, f).3)."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025. Modifica los optativos de oferta común de la Orden ECD/843/2024: AOP1004 (Comunicación profesional en Inglés GS), AOP1002 (Francés) y AOP1003 (Ofimática avanzada). No toca la tabla horaria de este ciclo."
+   },
+   {
+    "ref": "Orden EDU/1546/2011, de 1 de junio",
+    "boe": "BOE-A-2011-9991",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-9991",
+    "nota": "Currículo LOE del ciclo en el ámbito del Ministerio. Derogada por la Orden EFD/659/2024. No abierta."
+   },
+   {
+    "ref": "Orden de 23 de mayo de 2013 (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=739665483636&type=pdf",
+    "nota": "Currículo LOE del ciclo en Aragón (BOA núm. 122, de 24/06/2013): duración de cada módulo, incluidos los propios A073 y A074. Derogada por la Orden ECD/843/2024."
+   },
+   {
+    "ref": "Resolución de 24 de junio de 2013, del Director General de Ordenación Académica (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=742156785252&type=pdf",
+    "nota": "BOA núm. 132, de 08/07/2013 (csv BOA20130708019). Distribución horaria por cursos del plan LOE en régimen presencial."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "0562",
+   "nombre": "Estructuras de construcción",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0563",
+   "nombre": "Representaciones de construcción",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 333,
+    "mefp": 290,
+    "loe": 352
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0564",
+   "nombre": "Mediciones y valoraciones de construcción",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 100,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0565",
+   "nombre": "Replanteos de construcción",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 130,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0566",
+   "nombre": "Planificación de construcción",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": 84
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0769",
+   "nombre": "Urbanismo y obra civil",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 130,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0770",
+   "nombre": "Redes y servicios en obra civil",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 140,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0771",
+   "nombre": "Levantamientos topográficos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 220,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0772",
+   "nombre": "Desarrollo de proyectos urbanísticos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 160,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0773",
+   "nombre": "Desarrollo de proyectos de obras lineales",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": 160,
+    "loe": 126
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0774",
+   "nombre": "Proyecto intermodular en obra civil",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": 40
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0775",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "fol_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0776",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "eie_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0777",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 370
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A073",
+   "nombre": "Lengua extranjera profesional: inglés 1 (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A074",
+   "nombre": "Lengua extranjera profesional: inglés 2 (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 42
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (LOGSE, RD 2209/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Replanteos de obra"
+   ],
+   "destino_modulos": [
+    "0565"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (RD 2209/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Replanteos de obra → 0565. Replanteos de construcción»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (LOGSE, RD 2209/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Ordenación urbana",
+    "Trazados viarios y abastecimientos"
+   ],
+   "destino_modulos": [
+    "0769"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (RD 2209/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Ordenación urbana / Trazados viarios y abastecimientos → 0769. Urbanismo y obra civil». La celda de origen nombra dos módulos: se exigen los dos."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (LOGSE, RD 2209/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Planes de urbanismo",
+    "Proyecto de urbanización"
+   ],
+   "destino_modulos": [
+    "0770",
+    "0772",
+    "0563"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (RD 2209/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Planes de urbanismo. Proyecto de urbanización → 0770. Redes y servicios en obra civil / 0772. Desarrollo de proyectos urbanísticos / 0563. Representaciones de construcción». La celda de origen nombra dos módulos: se exigen los dos."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (LOGSE, RD 2209/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Trabajos de campo y gabinete"
+   ],
+   "destino_modulos": [
+    "0771"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (RD 2209/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Trabajos de campo y gabinete → 0771. Levantamientos topográficos»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (LOGSE, RD 2209/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Trazados viarios y abastecimientos"
+   ],
+   "destino_modulos": [
+    "0770",
+    "0773"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas (RD 2209/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Trazados viarios y abastecimientos → 0770. Redes y servicios en obra civil / 0773. Desarrollo de proyectos de obras lineales»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (LOGSE, RD 2208/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Normas y proyectos de construcción"
+   ],
+   "destino_modulos": [
+    "0562"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (RD 2208/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Normas y proyectos de construcción → 0562. Estructuras de construcción»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (LOGSE, RD 2208/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Representaciones de construcción"
+   ],
+   "destino_modulos": [
+    "0563"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (RD 2208/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Representaciones de construcción → 0563. Representaciones de construcción»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (LOGSE, RD 2208/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Mediciones y valoraciones"
+   ],
+   "destino_modulos": [
+    "0564"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (RD 2208/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Mediciones y valoraciones → 0564. Mediciones y valoraciones de construcción»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (LOGSE, RD 2208/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Planes de obra"
+   ],
+   "destino_modulos": [
+    "0566"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (RD 2208/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Planes de obra → 0566. Planificación de construcción»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (LOGSE, RD 2208/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Proyecto de obra civil"
+   ],
+   "destino_modulos": [
+    "0770",
+    "0772"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción (RD 2208/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Proyecto de obra civil → 0770. Redes y servicios en obra civil / 0772. Desarrollo de proyectos urbanísticos»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Realización y Planes de Obra (LOGSE, RD 2210/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Organización de tajos de obra"
+   ],
+   "destino_modulos": [
+    "0564"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Realización y Planes de Obra (RD 2210/1993) → Técnico Superior en Proyectos de Obra Civil (RD 386/2011, de 18 de marzo)», fila «Organización de tajos de obra → 0564. Mediciones y valoraciones de construcción»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Realización y Planes de Obra (LOGSE, RD 2210/1993, de 17 de diciembre) (Edificación y Obra Civil)",
+   "origen_modulo": [
+    "Planes de obra"
+   ],
+   "destino_modulos": [
+    "0566"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo II (LOGSE→LOE), tabla «Edificación y Obra Civil», grado superior, bloque «Técnico Superior en Realización y Planes de Obra (RD 2210/1993) → Técnico Superior en Proyectos de Edificación (RD 690/2010, de 20 de mayo)», fila «Planes de obra → 0566. Planificación de construcción». El destino de la tabla es Proyectos de Edificación (y Organización y Control de Obras de Construcción); se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque 0566 tiene el mismo código."
+  }
+ ],
+ "convalidaciones_loe": [],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0638_3"
+   ],
+   "modulos": [
+    "0563"
+   ],
+   "fuente": "RD 386/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 500/2024 no la modifica)."
+  },
+  {
+   "uc": [
+    "UC0641_3",
+    "UC0876_3"
+   ],
+   "modulos": [
+    "0773",
+    "0772"
+   ],
+   "fuente": "RD 386/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 500/2024 no la modifica). La celda de origen contiene las dos UC: hacen falta las dos."
+  },
+  {
+   "uc": [
+    "UC0642_3"
+   ],
+   "modulos": [
+    "0770"
+   ],
+   "fuente": "RD 386/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 500/2024 no la modifica)."
+  },
+  {
+   "uc": [
+    "UC0874_3"
+   ],
+   "modulos": [
+    "0566"
+   ],
+   "fuente": "RD 386/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 500/2024 no la modifica)."
+  },
+  {
+   "uc": [
+    "UC0875_3"
+   ],
+   "modulos": [
+    "0564"
+   ],
+   "fuente": "RD 386/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 500/2024 no la modifica)."
+  },
+  {
+   "uc": [
+    "UC0877_3",
+    "UC0878_3"
+   ],
+   "modulos": [
+    "0771"
+   ],
+   "fuente": "RD 386/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 500/2024 no la modifica). La celda de origen contiene las dos UC: hacen falta las dos."
+  },
+  {
+   "uc": [
+    "UC0879_3"
+   ],
+   "modulos": [
+    "0565"
+   ],
+   "fuente": "RD 386/2011 anexo V A), redacción original de 2011, VIGENTE (el RD 500/2024 no la modifica)."
+  },
+  {
+   "uc": [
+    "UC0638_3",
+    "UC0641_3",
+    "UC0642_3",
+    "UC0874_3",
+    "UC0875_3",
+    "UC0876_3",
+    "UC0877_3",
+    "UC0878_3",
+    "UC0879_3"
+   ],
+   "modulos": [
+    "0769"
+   ],
+   "fuente": "RD 386/2011 anexo V A), NOTA final: quien tenga acreditadas TODAS las UC incluidas en el título tiene convalidado 0769. Hacen falta las nueve UC del art. 6."
+  }
+ ],
+ "uc_descripciones": {
+  "UC0638_3": "«Realizar representaciones de construcción» [ECP0638_3; hoy «Realizar representaciones de dibujos y planos de proyectos»]. Cualificaciones EOC201_3 y EOC202_3 (RD 1228/2006).",
+  "UC0641_3": "«Realizar y supervisar desarrollos de proyectos de carreteras y de urbanización» [ECP0641_3; hoy «Representar proyectos de obras públicas»]. Cualificación EOC202_3.",
+  "UC0642_3": "«Representar servicios en obra civil» [ECP0642_3; hoy «Representar planes urbanísticos y proyectos de urbanización»]. Cualificación EOC202_3.",
+  "UC0874_3": "«Realizar el seguimiento de la planificación en construcción» [ECP0874_3]. Cualificación EOC273_3 (RD 872/2007).",
+  "UC0875_3": "«Procesar el control de costes en construcción» [ECP0875_3]. Cualificación EOC273_3.",
+  "UC0876_3": "«Gestionar sistemas de documentación de proyectos de construcción» [ECP0876_3]. Cualificación EOC273_3.",
+  "UC0877_3": "«Realizar trabajos de campo para levantamientos» [ECP0877_3]. Cualificación EOC274_3 (RD 872/2007).",
+  "UC0878_3": "«Realizar trabajos de gabinete para levantamientos» [ECP0878_3]. Cualificación EOC274_3.",
+  "UC0879_3": "«Realizar replanteos de proyectos» [ECP0879_3; hoy «Realizar replanteos de construcciones»]. Cualificación EOC274_3 (RD 872/2007)."
+ },
+ "uc_equivalencias": {},
+ "notas": [
+  "El campo «horas» es el de enseñanzas mínimas / currículo básico (RD 386/2011 anexo I; RD 659/2023 y RD 500/2024 para los comunes nuevos). «horas_otras»: aragon = Orden ECD/843/2024 anexo XVI; mefp = Orden EFD/659/2024 anexo XXII; loe = Orden de 23 de mayo de 2013 y Resolución de 24 de junio de 2013 (Aragón).",
+  "Denominación y código confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=EOC302): EOC302, CFGS, familia Edificación y Obra Civil, DIURNO; horas y cursos coinciden con la Orden ECD/843/2024 y con research/catalogo-aragon.json. Los módulos suman 1.999 h por redondeo; el anexo XVI rotula 2.000.",
+  "Aragón (Orden ECD/843/2024, anexo XVI): 1.º: 0562 (100 h, 3 sesiones), 0563 (333, 10), 0565 (100, 3), 0769 (133, 4), 0770 (133, 4), 1709 (100, 3), 1665 (33, 1), 0179 (67, 2). 2.º: 0564 (133, 4), 0566 (100, 3), 0771 (100, 3), 0772 (200, 6), 0773 (200, 6), 0774 (67, 2), 1710 (67, 2), 1708 (33, 1), optativo (100, 3).",
+  "Ministerio (Orden EFD/659/2024, anexo XXII): 1.º (995 h): 0562 100, 0565 130, 0770 140, 0769 130, 0563 290, 1709 100, 1708 35, 0179 70. 2.º (1.005 h): 0566 100, 0564 100, 0772 160, 0773 160, 0771 220, 1710 100, 1665 35, optativa(s) 80, 0774 50.",
+  "Plan LOE de Aragón (Resolución de 24/06/2013): 0562 96, 0563 352, 0565 96, 0769 128, 0770 128, A073 64, 0775 96 (1.º); 0564 105, 0566 84, 0771 105, 0772 105, 0773 126, A074 42, 0776 63, 0774 40, 0777 370 (2.º).",
+  "Filas LOGSE vigentes (RD 1085/2020 anexo II): del LOGSE Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas, cinco filas (0565; 0769 con Ordenación urbana + Trazados viarios; 0770 + 0772 + 0563 con Planes de urbanismo + Proyecto de urbanización; 0771; 0770 + 0773); de Desarrollo y Aplicación de Proyectos de Construcción, cinco (0562, 0563, 0564, 0566, 0770 + 0772); de Realización y Planes de Obra, Organización de tajos de obra → 0564.",
+  "Fila por la DA 5.ª (OJO): Planes de obra del LOGSE Realización y Planes de Obra → 0566, tomada del bloque de Proyectos de Edificación. El RD 1085/2020 ya no da 0565 a «Trabajos de campo y gabinete» (sí lo hacía el anexo IV original).",
+  "No hay filas LOE→LOE ni «Ciclo completo» hacia este título en el anexo III del RD 1085/2020. Sentidos inversos expresos: ciclo completo → 0996 (Técnico en Construcción y Técnico en Obras de Interior, Decoración y Rehabilitación); 0563 → 1287 (Organización y Control de Obras de Construcción); 0565 + 0566 → 1572 (Gestión del Agua).",
+  "0562, 0563, 0564, 0565 y 0566 tienen el mismo código, nombre y duración mínima en Proyectos de Edificación (RD 690/2010); 0562, 0564, 0565 y 0566 figuran también en Organización y Control de Obras de Construcción (RD 636/2015) según el RD 1085/2020: superados en uno, se trasladan (art. 3.2).",
+  "Anexo V A) vigente: una UC por módulo salvo 0772 + 0773 (UC0641_3 + UC0876_3 a la vez) y 0771 (UC0877_3 + UC0878_3 a la vez); con las nueve UC del título se convalida además 0769 (NOTA). 0562 no tiene UC asociada.",
+  "Equivalencias de UC (RD 532/2025): ninguna UC de este título cambia de número (anexo I: UC0638_3 → ECP0638_3, etc.) y ninguna figura en los anexos II-a y II-b, así que ninguna equivale a otra ni sola ni junto con otras; «equivalencias_uc», «equivalencias_motor» y «equivalencias_conjuntas_motor» están vacíos.",
+  "FOL, EIE y FCT están suprimidos (RD 500/2024); sus filas del anexo IV original y el destino 0565 de «Trabajos de campo y gabinete» van a «filas_derogadas_no_aplicadas». La formación en empresa y el proyecto intermodular nunca se convalidan (RD 659/2023 art. 126.4).",
+  "DA 3.ª.2 del RD 386/2011: el título LOGSE de Desarrollo de Proyectos Urbanísticos y Operaciones Topográficas tiene los mismos efectos académicos y profesionales que este; no es una convalidación de módulos.",
+  "Optativos de Aragón: AOP1004 (Inglés GS), AOP1002 (Francés) y AOP1003 (Ofimática avanzada) de oferta común (Decreto 107/2025). No se ha comprobado si hay optativos de diseño propio autorizados para EOC302."
+ ],
+ "no_verificado": [
+  "El RD 386/2011 NO tiene texto consolidado en el BOE (la API de datos abiertos devuelve 404). Se ha usado el XML del diario https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-6711 más el RD 500/2024 (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685), único que lo modifica según el análisis del BOE.",
+  "Cualificaciones: no se han abierto los RD 1228/2006 ni 872/2007; UC del art. 6 del RD 386/2011 y versión vigente de EOC202_3, EOC273_3 y EOC274_3 del RD 916/2024 (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20401).",
+  "Orden de 23 de mayo de 2013 (Aragón): solo se han leído las duraciones de los módulos; cursos tomados de la Resolución de 24/06/2013 (https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=742156785252&type=pdf). No se ha abierto la Orden EDU/1546/2011.",
+  "No se han revisado los anexos de convalidaciones de los reales decretos de títulos posteriores al 05/03/2017 (RD 1085/2020 anexo IV y art. 15.2.b) para ver si alguno aporta o recibe módulos de este ciclo. Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+  "Las filas «OJO» (DA 5.ª del RD 1085/2020) son una aplicación de la DA, no filas expresas del bloque de este título. Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+  "RD 1411/1994, de 25 de junio (cambio de denominación de los títulos LOGSE), no abierto: https://www.boe.es/eli/es/rd/1994/06/25/1411",
+  "Páginas del BOA de la Orden ECD/843/2024 no comprobadas página a página; se cita el anexo y el csv. Fuente: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf"
+ ]
+};
