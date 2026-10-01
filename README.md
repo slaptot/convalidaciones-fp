@@ -100,6 +100,12 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Panadería, Repostería y Confitería | INA207 | Medio | LO 3/2022 |
 | Procesos y Calidad en la Industria Alimentaria | INA301 | Superior | LO 3/2022 |
 | Vitivinicultura | INA302 | Superior | LO 3/2022 |
+| Vídeo Disc-jockey y Sonido | IMS202 | Medio | LO 3/2022 |
+| Iluminación, Captación y Tratamiento de Imagen | IMS301 | Superior | LO 3/2022 |
+| Producción de Audiovisuales y Espectáculos | IMS302 | Superior | LO 3/2022 |
+| Realización de Proyectos de Audiovisuales y Espectáculos | IMS303 | Superior | LO 3/2022 |
+| Sonido para Audiovisuales y Espectáculos | IMS304 | Superior | LO 3/2022 |
+| Animaciones 3D, Juegos y Entornos Interactivos | IMS305 | Superior | LO 3/2022 |
 
 Además, el **catálogo completo de Aragón** (150 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas. De ellos, **139 tienen ya la correspondencia módulo ↔ estándar de competencia** descargada de esa misma herramienta (2.930 filas), así que convalidan por unidades de competencia acreditadas; lo que les falta es el anexo de convalidaciones con títulos anteriores, que hay que leer del BOE. La web lo avisa en pantalla, porque esas correspondencias no están contrastadas con el anexo V de cada real decreto.
 

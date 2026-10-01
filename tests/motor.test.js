@@ -786,3 +786,14 @@ r = est('com303', tit('Técnico Superior en Administración y Finanzas (LOGSE, R
 assert.equal(r['0623'], 'convalidable'); assert.notEqual(r['0626'], 'convalidable', 'COM303: el título LOGSE no da 0626');
 assert.equal(est('com303', tit(CICLOS.adg301.ciclo.nombre, 'adg301'))['0626'], 'convalidable');
 console.log('OK: títulos LOGSE y LOE homónimos');
+
+// Imagen y Sonido: los títulos completos elegidos del catálogo casan con las filas de «ciclo completo» de los otros ciclos
+const titCat = (orig) => [{ tipo: 'titulo', titulo: CICLOS[orig].ciclo.nombre, ciclo: orig, docs: [] }];
+assert.equal(est('ims301', titCat('ims303'))['1158'], 'convalidable');
+assert.equal(est('ims302', titCat('ims303'))['0920'], 'convalidable');
+assert.equal(est('ims302', titCat('ims301'))['0910'], 'convalidable');
+assert.equal(est('ims303', titCat('ims301'))['0910'], 'convalidable');
+assert.equal(est('ims202', titCat('ims301'))['1304'], 'convalidable');
+['1298', '1299', '1300'].forEach((m) => assert.equal(est('ims202', titCat('ims304'))[m], 'convalidable', m));
+['1008', '1109'].forEach((m) => assert.equal(est('com304', titCat('ims302'))[m], 'convalidable', m));
+console.log('OK: Imagen y Sonido, ciclos completos entre títulos');
