@@ -1,0 +1,1032 @@
+// Generado por tools/build_data.py a partir de research/ina201.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["ina201"] = {
+ "ciclo": {
+  "codigo": "INA201",
+  "nombre": "Técnico en Elaboración de Productos Alimenticios",
+  "grado": "medio",
+  "familia": "Industrias Alimentarias",
+  "normas": [
+   {
+    "ref": "RD 452/2010, de 16 de abril",
+    "boe": "BOE-A-2010-8069",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-8069",
+    "nota": "Establece el título de Técnico en Elaboración de Productos Alimenticios (BOE núm. 123, de 20/05/2010). 2.000 h; mínimas 1.100 h. Art. 1.2: sustituye a los LOGSE Conservería Vegetal, Cárnica y de Pescado (RD 2052/1995), Matadero y Carnicería-Charcutería (RD 2051/1995) y Elaboración de Productos Lácteos (RD 2054/1995). Anexo IV derogado por el RD 1085/2020. El RD 499/2024 lo incluye en el art. primero.Dos.a), ordinal 16.º, y sustituye el art. 6 y los anexos V A) y V B) (art. tercero.Ocho)."
+   },
+   {
+    "ref": "RD 1087/2005, de 16 de septiembre, y RD 148/2022, de 22 de febrero",
+    "boe": null,
+    "url": "https://www.boe.es/eli/es/rd/2005/09/16/1087",
+    "nota": "Cualificaciones del art. 6: INA103_2 e INA106_2 (RD 1087/2005; el original citaba también INA104_2 e INA109_2) e INA773_2 e INA776_2 (RD 148/2022). No abiertos: códigos y nombres tomados del art. 6 y del RD 532/2025."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Su disp. derogatoria única.2 deroga el anexo IV (LOGSE→LOE) del RD 452/2010. Filas vigentes: anexo II (tabla «Industrias Alimentarias», grado medio: siete bloques LOGSE hacia este título), anexo III (LOE→LOE, tabla «Industrias Alimentarias») y anexo IV (Comercialización de productos alimentarios). DA 5.ª: las filas se aplican al módulo en cualquier ciclo que lo incluya (0030, 0031, 0116 y 0146 son comunes a otros títulos). DA 6.ª (RD 500/2024): destino FOL se entiende 1709 y destino EIE, 1710."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP. Currículo básico de 1709 y 1710 (anexo V, 50 h), 1664 (anexo VI, 30 h), 1708 (anexo VIII, 30 h) y 0156 (anexo IX, 50 h); anexo IV: optativo de 80 h. Arts. 126-128 y 131: convalidación y exención; art. 126.4: no se convalidan la formación en empresa ni el proyecto intermodular."
+   },
+   {
+    "ref": "RD 499/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10684",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
+    "nota": "Adapta los títulos de grado medio a la LO 3/2022. Este título está en el art. primero.Dos.a), ordinal 16.º. Art. cuarto.Uno: suprime FOL (0147), EIE (0148) y FCT (0149) y añade 0156, 1709, 1710, 1664, 1708, 1713 y un optativo de 80 h. Art. tercero.Ocho: nueva redacción del art. 6 y de los anexos V A) y V B). Art. sexto: nuevo art. 15 (remite al RD 1085/2020). Art. octavo.Dieciséis y anexo XVIII: nuevo anexo III (profesorado)."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Homólogo para grado superior; su disp. final 1.ª.2 añade la DA 6.ª al RD 1085/2020 (FOL→IPE I, EIE→IPE II)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra las UC como Estándares de Competencia Profesional (ECP). Anexo I: catálogo UC→ECP. Anexos II-a y II-b: equivalencias entre UC suprimidas y ECP vigentes (ver «equivalencias_uc»)."
+   },
+   {
+    "ref": "RD 2052/1995, RD 2051/1995 y RD 2054/1995, de 22 de diciembre",
+    "boe": null,
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-3215",
+    "nota": "Títulos LOGSE de Conservería Vegetal, Cárnica y de Pescado (BOE-A-1996-3215), Matadero y Carnicería-Charcutería (BOE-A-1996-5475) y Elaboración de Productos Lácteos (BOE-A-1996-3310), sustituidos por este título (art. 1.2 y DA 3.ª.1: mismos efectos). No abiertos: los nombres de sus módulos se toman del RD 1085/2020."
+   },
+   {
+    "ref": "Orden EDU/1998/2010, de 13 de julio",
+    "boe": "BOE-A-2010-11886",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-11886",
+    "nota": "Currículo LOE del ciclo en el ámbito del Ministerio. Derogada por la Orden EFD/657/2024 (disp. derogatoria única, m).2.º)."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo vigente del ámbito del Ministerio (BOE núm. 158, de 01/07/2024). Este ciclo está en el anexo XXXIV (letra aa)); 1.º con 30 h/semana y 975 h, 2.º con 31 h/semana y 1025 h. Art. 12: el optativo son 80 h. Deroga la Orden EDU/1998/2010."
+   },
+   {
+    "ref": "Orden de 1 de abril de 2011, de la Consejera de Educación, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=595490380404",
+    "nota": "Currículo LOE del ciclo en Aragón (BOA núm. 87, de 05/05/2011). Anexo I: duración de cada módulo; anexo VI: 0144 exige tener superado 0143. No trae tabla por cursos. Derogada por la Orden ECD/842/2024 (disp. derogatoria única, m).2)."
+   },
+   {
+    "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+    "nota": "Currículo vigente de Aragón para grado medio (BOA núm. 148, de 31/07/2024, csv BOA20240731003). Este ciclo está en el anexo XXVI (art. 1.2.m).2.º y art. 5.3.y)): distribución horaria (diurno, 30 h/semana en 1.º y en 2.º), espacios y equipamientos. Arts. 11 y 12: optativos (redacción del Decreto 107/2025). Disp. adicional única: un módulo LOE con el mismo código se reconoce automáticamente. Disp. transitoria segunda: tabla FOL→1709 y EIE→1710. Deroga la Orden de 1 de abril de 2011."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025. Modifica los arts. 11, 12 y 15 de la Orden ECD/842/2024: los optativos de oferta común pasan de A173/A171/A172 a AOP1001 (Comunicación profesional en Inglés GM), AOP1002 (Segunda lengua profesional Francés) y AOP1003 (Ofimática avanzada aplicada al sector profesional). No toca la tabla horaria de este ciclo."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "0141",
+   "nombre": "Materias primas en la industria alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 160,
+    "loe": 160
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0142",
+   "nombre": "Operaciones de acondicionado de materias primas",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 200,
+    "loe": 192
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0143",
+   "nombre": "Tratamientos de transformación y conservación",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": 250,
+    "loe": 256
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0144",
+   "nombre": "Procesado de productos alimenticios",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 500,
+    "mefp": 400,
+    "loe": 336
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0116",
+   "nombre": "Principios de mantenimiento electromecánico",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0145",
+   "nombre": "Procesos tecnológicos en la industria alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 160,
+    "loe": 192
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0146",
+   "nombre": "Venta y comercialización de productos alimentarios",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0030",
+   "nombre": "Operaciones y control de almacén en la industria alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 60,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0031",
+   "nombre": "Seguridad e higiene en la manipulación de alimentos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0156",
+   "nombre": "Inglés Profesional (GM)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1664",
+   "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1713",
+   "nombre": "Proyecto intermodular",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A997",
+   "nombre": "Tutoría I (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "tutoria",
+   "horas": {
+    "aragon": 33,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A996",
+   "nombre": "Tutoría II (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "tutoria",
+   "horas": {
+    "aragon": 33,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0147",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "fol_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0148",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "eie_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0149",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 410
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico en Conservería Vegetal, Cárnica y de Pescado (LOGSE, RD 2052/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Operaciones y control de almacén"
+   ],
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Conservería Vegetal, Cárnica y de Pescado (RD 2052/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Operaciones y control de almacén → 0030». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Conservería Vegetal, Cárnica y de Pescado (LOGSE, RD 2052/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Higiene y seguridad en la industria alimentaria"
+   ],
+   "destino_modulos": [
+    "0031"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Conservería Vegetal, Cárnica y de Pescado (RD 2052/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Higiene y seguridad en la industria alimentaria → 0031». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Conservería Vegetal, Cárnica y de Pescado (LOGSE, RD 2052/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Operaciones básicas de elaboración de conservas"
+   ],
+   "destino_modulos": [
+    "0142"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Conservería Vegetal, Cárnica y de Pescado (RD 2052/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Operaciones básicas de elaboración de conservas → 0142». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Conservería Vegetal, Cárnica y de Pescado (LOGSE, RD 2052/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Tratamientos finales de conservación",
+    "Envasado y embalaje"
+   ],
+   "destino_modulos": [
+    "0143"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Conservería Vegetal, Cárnica y de Pescado (RD 2052/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Tratamientos finales de conservación. Envasado y embalaje → 0143». La celda de origen nombra dos módulos LOGSE (en el anexo IV original, dos párrafos de una misma celda): se exigen los dos."
+  },
+  {
+   "origen_titulo": "Técnico en Conservería Vegetal, Cárnica y de Pescado (LOGSE, RD 2052/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Materias primas, procesos y productos en la industria conservera"
+   ],
+   "destino_modulos": [
+    "0141",
+    "0145"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Conservería Vegetal, Cárnica y de Pescado (RD 2052/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Materias primas, procesos y productos en la industria conservera → 0141 / 0145». La celda de destino contiene los dos módulos: se convalidan ambos."
+  },
+  {
+   "origen_titulo": "Técnico en Conservería Vegetal, Cárnica y de Pescado (LOGSE, RD 2052/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Sistemas de control y auxiliares de los procesos"
+   ],
+   "destino_modulos": [
+    "0116"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Conservería Vegetal, Cárnica y de Pescado (RD 2052/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Sistemas de control y auxiliares de los procesos → 0116». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Matadero y Carnicería-Charcutería (LOGSE, RD 2051/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Operaciones y control de almacén"
+   ],
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Matadero y Carnicería-Charcutería (RD 2051/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Operaciones y control de almacén → 0030». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Matadero y Carnicería-Charcutería (LOGSE, RD 2051/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Charcutería"
+   ],
+   "destino_modulos": [
+    "0142"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Matadero y Carnicería-Charcutería (RD 2051/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Charcutería → 0142». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Matadero y Carnicería-Charcutería (LOGSE, RD 2051/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Higiene y seguridad en la industria alimentaria"
+   ],
+   "destino_modulos": [
+    "0031"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Matadero y Carnicería-Charcutería (RD 2051/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Higiene y seguridad en la industria alimentaria → 0031». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Matadero y Carnicería-Charcutería (LOGSE, RD 2051/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Tecnología de la carne"
+   ],
+   "destino_modulos": [
+    "0141",
+    "0145"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Matadero y Carnicería-Charcutería (RD 2051/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Tecnología de la carne → 0141 / 0145». La celda de destino contiene los dos módulos: se convalidan ambos. Este bloque no trae fila hacia 0116."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Productos Lácteos (LOGSE, RD 2054/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Operaciones y control de almacén"
+   ],
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Productos Lácteos (RD 2054/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Operaciones y control de almacén → 0030». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Productos Lácteos (LOGSE, RD 2054/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Higiene y seguridad en la industria alimentaria"
+   ],
+   "destino_modulos": [
+    "0031"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Productos Lácteos (RD 2054/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Higiene y seguridad en la industria alimentaria → 0031». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Productos Lácteos (LOGSE, RD 2054/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Operaciones de proceso de leches de consumo y helados"
+   ],
+   "destino_modulos": [
+    "0142"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Productos Lácteos (RD 2054/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Operaciones de proceso de leches de consumo y helados → 0142». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Productos Lácteos (LOGSE, RD 2054/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Quesería y mantequería",
+    "Envasado y embalaje"
+   ],
+   "destino_modulos": [
+    "0143"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Productos Lácteos (RD 2054/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Quesería y mantequería. Envasado y embalaje → 0143». La celda de origen nombra dos módulos LOGSE (en el anexo IV original, dos párrafos de una misma celda): se exigen los dos."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Productos Lácteos (LOGSE, RD 2054/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Leche, productos lácteos y procesos"
+   ],
+   "destino_modulos": [
+    "0141",
+    "0145"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Productos Lácteos (RD 2054/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Leche, productos lácteos y procesos → 0141 / 0145». La celda de destino contiene los dos módulos: se convalidan ambos."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Productos Lácteos (LOGSE, RD 2054/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Sistemas de control y auxiliares de los procesos"
+   ],
+   "destino_modulos": [
+    "0116"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Productos Lácteos (RD 2054/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Sistemas de control y auxiliares de los procesos → 0116». Sustituye a la fila del anexo IV del RD 452/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Aceites y Jugos (LOGSE, RD 2053/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Sistemas de control y auxiliares de los procesos"
+   ],
+   "destino_modulos": [
+    "0116"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Aceites y Jugos (RD 2053/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Sistemas de control y auxiliares de los procesos → 0116». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Aceites y Jugos (LOGSE, RD 2053/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Operaciones y control de almacén"
+   ],
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Aceites y Jugos (RD 2053/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Operaciones y control de almacén → 0030». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Aceites y Jugos (LOGSE, RD 2053/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Higiene y seguridad en la industria alimentaria"
+   ],
+   "destino_modulos": [
+    "0031"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Aceites y Jugos (RD 2053/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Higiene y seguridad en la industria alimentaria → 0031». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Vinos y Otras Bebidas (LOGSE, RD 2055/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Sistemas de control y auxiliares de los procesos"
+   ],
+   "destino_modulos": [
+    "0116"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Vinos y Otras Bebidas (RD 2055/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Sistemas de control y auxiliares de los procesos → 0116». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Vinos y Otras Bebidas (LOGSE, RD 2055/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Operaciones y control de almacén"
+   ],
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Vinos y Otras Bebidas (RD 2055/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Operaciones y control de almacén → 0030». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Elaboración de Vinos y Otras Bebidas (LOGSE, RD 2055/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Higiene y seguridad en la industria alimentaria"
+   ],
+   "destino_modulos": [
+    "0031"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Elaboración de Vinos y Otras Bebidas (RD 2055/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Higiene y seguridad en la industria alimentaria → 0031». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Molinería e Industrias Cerealistas (LOGSE, RD 2056/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Sistemas de control y auxiliares de los procesos"
+   ],
+   "destino_modulos": [
+    "0116"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Molinería e Industrias Cerealistas (RD 2056/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Sistemas de control y auxiliares de los procesos → 0116». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Molinería e Industrias Cerealistas (LOGSE, RD 2056/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Operaciones y control de almacén"
+   ],
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Molinería e Industrias Cerealistas (RD 2056/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Operaciones y control de almacén → 0030». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Molinería e Industrias Cerealistas (LOGSE, RD 2056/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Higiene y seguridad en la industria alimentaria"
+   ],
+   "destino_modulos": [
+    "0031"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Molinería e Industrias Cerealistas (RD 2056/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Higiene y seguridad en la industria alimentaria → 0031». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Panificación y Repostería (LOGSE, RD 2057/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Sistemas de control y auxiliares de los procesos"
+   ],
+   "destino_modulos": [
+    "0116"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Panificación y Repostería (RD 2057/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Sistemas de control y auxiliares de los procesos → 0116». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Panificación y Repostería (LOGSE, RD 2057/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Operaciones y control de almacén"
+   ],
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Panificación y Repostería (RD 2057/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Operaciones y control de almacén → 0030». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Panificación y Repostería (LOGSE, RD 2057/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Higiene y seguridad en la industria alimentaria"
+   ],
+   "destino_modulos": [
+    "0031"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Panificación y Repostería (RD 2057/1995) → Técnico en Elaboración de Productos Alimenticios (RD 452/2010)», fila «Higiene y seguridad en la industria alimentaria → 0031». El anexo IV original no indicaba el título LOGSE de origen; el RD 1085/2020 nombra expresamente este bloque."
+  },
+  {
+   "origen_titulo": "Técnico en Pastelería y Panadería (LOGSE, RD 2220/1993, de 17 de diciembre) (Hostelería y Turismo)",
+   "origen_modulo": [
+    "Ofertas gastronómicas y sistemas de aprovisionamiento"
+   ],
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Pastelería y Panadería (RD 2220/1993) (Hostelería y turismo) → Técnico en Panadería, Repostería y Confitería (RD 1399/2007)», fila «Ofertas gastronómicas y sistemas de aprovisionamiento → 0030» (repetida en el bloque hacia Aceites de Oliva y Vinos). El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque el módulo 0030 es el mismo (mismo código)."
+  },
+  {
+   "origen_titulo": "Técnico en Producción de Hilatura y Tejeduría de Calada (LOGSE, RD 739/1994, de 22 de abril) (Textil, Confección y Piel)",
+   "origen_modulo": [
+    "Elementos, sistemas e instalaciones de máquinas textiles"
+   ],
+   "destino_modulos": [
+    "0116"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo II (LOGSE→LOE), tabla «Textil, Confección y Piel», grado medio, bloque «Técnico en Producción de Hilatura y Tejeduría de Calada (RD 739/1994) → Técnico en Fabricación y Ennoblecimiento de Productos Textiles (RD 1591/2011)», fila «Elementos, sistemas e instalaciones de máquinas textiles → 0116». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque el módulo 0116 es el mismo (mismo código)."
+  },
+  {
+   "origen_titulo": "Técnico en Producción de Tejidos de Punto (LOGSE, RD 740/1994, de 22 de abril) (Textil, Confección y Piel)",
+   "origen_modulo": [
+    "Elementos, sistemas e instalaciones de máquinas textiles"
+   ],
+   "destino_modulos": [
+    "0116"
+   ],
+   "fuente": "OJO: RD 1085/2020 anexo II (LOGSE→LOE), tabla «Textil, Confección y Piel», grado medio, bloque «Técnico en Producción de Tejidos de Punto (RD 740/1994) → Técnico en Fabricación y Ennoblecimiento de Productos Textiles (RD 1591/2011)», fila «Elementos, sistemas e instalaciones de máquinas textiles → 0116». El destino de la tabla es otro título; se aplica a este ciclo por la DA 5.ª del RD 1085/2020 porque el módulo 0116 es el mismo (mismo código)."
+  },
+  {
+   "origen_titulo": "Técnico en Actividades Comerciales (LOE, RD 1688/2011, de 18 de noviembre) (Comercio y Marketing)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0146"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Actividades Comerciales (RD 1688/2011) (Comercio y Marketing) → Técnico en Elaboración de Productos Alimentarios (sic) (RD 452/2010)», fila «Ciclo completo → 0146». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico en Mantenimiento Electromecánico (LOE, RD 1589/2011, de 4 de noviembre) (Instalación y Mantenimiento)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0116"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Mantenimiento Electromecánico (RD 1589/2011) (Instalación y Mantenimiento) → Técnico en Elaboración de Productos Alimentarios (sic) (RD 452/2010)», fila «Ciclo completo → 0116». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico en Mantenimiento de Material Rodante Ferroviario (LOE, RD 1145/2012, de 27 de julio) (Transporte y Mantenimiento de Vehículos)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0116"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Mantenimiento de Material Rodante Ferroviario (RD 1145/2012) (Transporte y Mantenimiento de Vehículos) → Técnico en Elaboración de Productos Alimentarios (sic) (RD 452/2010)», fila «Ciclo completo → 0116». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico en Comercialización de productos alimentarios (LOE, RD 189/2018, de 6 de abril)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo IV (títulos publicados desde el 05/03/2017), tabla c) «Comercio y Marketing/Hostelería y Turismo» del Técnico en Comercialización de productos alimentarios (RD 189/2018): fila «Ciclo completo → 0030 (en todos los ciclos formativos en los que aparece)». Exige el título completo."
+  }
+ ],
+ "convalidaciones_loe": [
+  {
+   "origen_codigos": [
+    "0032"
+   ],
+   "origen_nombre": "Presentación y venta de productos de panadería y pastelería",
+   "origen_titulo": "Técnico en Panadería, Repostería y Confitería (LOE, RD 1399/2007, de 29 de octubre) (Industrias Alimentarias)",
+   "destino_modulos": [
+    "0146"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Panadería, Repostería y Confitería (RD 1399/2007) → Técnico en Elaboración de Productos Alimentarios (sic) (RD 452/2010)», fila «0032 → 0146»."
+  },
+  {
+   "origen_codigos": [
+    "1228"
+   ],
+   "origen_nombre": "Técnicas de almacén",
+   "origen_titulo": "Técnico en Actividades Comerciales (LOE, RD 1688/2011, de 18 de noviembre) (Comercio y Marketing)",
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Actividades Comerciales (RD 1688/2011) (Comercio y Marketing) → Técnico en Elaboración de Productos Alimentarios (sic) (RD 452/2010)», fila «1228 → 0030»."
+  },
+  {
+   "origen_codigos": [
+    "0542"
+   ],
+   "origen_nombre": "Control de almacén",
+   "origen_titulo": "Técnico en Carpintería y Mueble (LOE, RD 1128/2010, de 10 de septiembre) (Madera, Mueble y Corcho); Técnico en Instalación y Amueblamiento (LOE, RD 880/2011, de 24 de junio) (Madera, Mueble y Corcho)",
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Carpintería y Mueble (RD 1128/2010) (Madera, Mueble y Corcho) → Técnico en Elaboración de Productos Alimentarios (sic) (RD 452/2010)», fila «0542 → 0030»."
+  },
+  {
+   "origen_codigos": [
+    "1209"
+   ],
+   "origen_nombre": "Operaciones de almacenaje",
+   "origen_titulo": "Técnico en Conducción de Vehículos de Transporte por Carretera (LOE, RD 555/2012, de 23 de marzo) (Transporte y Mantenimiento de Vehículos)",
+   "destino_modulos": [
+    "0030"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado medio, bloque «Técnico en Conducción de Vehículos de Transporte por Carretera (RD 555/2012) (Transporte y Mantenimiento de Vehículos) → Técnico en Elaboración de Productos Alimentarios (sic) (RD 452/2010)», fila «1209 → 0030»."
+  },
+  {
+   "origen_codigos": [
+    "1610"
+   ],
+   "origen_nombre": "Seguridad y calidad alimentaria en el comercio",
+   "origen_titulo": "Técnico en Comercialización de productos alimentarios (LOE, RD 189/2018, de 6 de abril)",
+   "destino_modulos": [
+    "0031"
+   ],
+   "fuente": "RD 1085/2020 anexo IV (títulos publicados desde el 05/03/2017), tabla c) «Comercio y Marketing/Hostelería y Turismo» del Técnico en Comercialización de productos alimentarios (RD 189/2018): fila «1610 → 0031 (en todos los ciclos formativos en los que aparece)»."
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0027_2"
+   ],
+   "modulos": [
+    "0030"
+   ],
+   "fuente": "RD 452/2010 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Ocho). Fila de una sola UC."
+  },
+  {
+   "uc": [
+    "UC2568_2",
+    "UC2569_2"
+   ],
+   "modulos": [
+    "0030",
+    "0141"
+   ],
+   "fuente": "RD 452/2010 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Ocho). Las dos UC están en la misma celda: hacen falta ambas (art. 15.3); se convalidan los dos módulos."
+  },
+  {
+   "uc": [
+    "UC0295_2"
+   ],
+   "modulos": [
+    "0030",
+    "0141"
+   ],
+   "fuente": "RD 452/2010 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Ocho). Por sí sola convalida los dos módulos."
+  },
+  {
+   "uc": [
+    "UC0302_2",
+    "UC0304_2"
+   ],
+   "modulos": [
+    "0142",
+    "0144",
+    "0031"
+   ],
+   "fuente": "RD 452/2010 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Ocho). Dos UC en la misma celda: hacen falta ambas; se convalidan los tres módulos."
+  },
+  {
+   "uc": [
+    "UC2584_2"
+   ],
+   "modulos": [
+    "0143",
+    "0144",
+    "0031"
+   ],
+   "fuente": "RD 452/2010 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Ocho). Por sí sola convalida los tres módulos (sustituye a UC0293_2 + UC0294_2 del texto original)."
+  },
+  {
+   "uc": [
+    "UC0298_2",
+    "UC0318_2",
+    "UC0319_2"
+   ],
+   "modulos": [
+    "0143",
+    "0144",
+    "0031"
+   ],
+   "fuente": "RD 452/2010 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Ocho). Tres UC en la misma celda: hacen falta las tres."
+  },
+  {
+   "uc": [
+    "UC0303_2",
+    "UC0304_2"
+   ],
+   "modulos": [
+    "0143",
+    "0144",
+    "0031"
+   ],
+   "fuente": "RD 452/2010 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Ocho). Dos UC en la misma celda: hacen falta ambas."
+  },
+  {
+   "uc": [
+    "UC0302_2",
+    "UC0303_2",
+    "UC0318_2"
+   ],
+   "modulos": [
+    "0031"
+   ],
+   "fuente": "RD 452/2010 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Ocho). Tres UC en la misma celda: hacen falta las tres."
+  },
+  {
+   "uc": [
+    "UC2568_2",
+    "UC2569_2",
+    "UC2584_2",
+    "UC0027_2",
+    "UC0302_2",
+    "UC0303_2",
+    "UC0304_2",
+    "UC0295_2",
+    "UC0298_2",
+    "UC0318_2",
+    "UC0319_2"
+   ],
+   "modulos": [
+    "0116",
+    "0145"
+   ],
+   "fuente": "RD 452/2010 anexo V A), redacción vigente del RD 499/2024 (art. tercero.Ocho). NOTA al pie: quien tenga acreditadas TODAS las UC incluidas en el título (las once del art. 6 vigente) tiene convalidados 0116 y 0145."
+  }
+ ],
+ "uc_descripciones": {
+  "UC0027_2": "«Realizar y conducir las operaciones de recepción, almacenamiento y tratamientos previos de la leche, y de otras materias primas lácteas» [ECP0027_2]. INA106_2. Por sí sola convalida 0030.",
+  "UC2568_2": "«Efectuar la recepción y el control de calidad de productos hortofrutícolas (frutas, hortalizas, setas y legumbres) y materias auxiliares» [ECP2568_2]. INA103_2 en el art. 6 vigente. Con UC2569_2 convalida 0030 y 0141.",
+  "UC2569_2": "«Efectuar el almacenamiento de productos hortofrutícolas frescos (frutas, hortalizas, setas y legumbres), y expedición de otros productos vegetales» [ECP2569_2]. Con UC2568_2 convalida 0030 y 0141.",
+  "UC0295_2": "«Efectuar la recepción, el control de calidad, el almacenamiento y expedición de las materias cárnicas, primas y auxiliares» [ECP0295_2]. INA773_2 en el art. 6 vigente. Por sí sola convalida 0030 y 0141.",
+  "UC0302_2": "«Conducir y controlar las operaciones de elaboración de leches de consumo, evaporadas, en polvo, condensadas y de nata, mantequilla, helados y similares» [ECP0302_2]. INA106_2. Con UC0304_2 convalida 0142, 0144 y 0031; con UC0303_2 y UC0318_2, 0031.",
+  "UC0303_2": "«Conducir y controlar las operaciones de elaboración de postres lácteos, yogures y leches fermentadas» [ECP0303_2]. INA106_2. Con UC0304_2 convalida 0143, 0144 y 0031.",
+  "UC0304_2": "«Conducir y controlar las operaciones de envasado y acondicionamiento de productos lácteos» [ECP0304_2]. INA106_2. Solo convalida junto con UC0302_2 o con UC0303_2.",
+  "UC2584_2": "«Conducir la aplicación de los tratamientos finales de conservas vegetales, zumos y platos cocinados» [ECP2584_2]. INA103_2. Por sí sola convalida 0143, 0144 y 0031.",
+  "UC0298_2": "«Elaborar derivados cárnicos a nivel industrial» [ECP0298_2]. INA773_2. Con UC0318_2 y UC0319_2 convalida 0143, 0144 y 0031.",
+  "UC0318_2": "«Obtener productos de la pesca y de la acuicultura en conserva, semiconservas y salazones» [ECP0318_2]. INA776_2. Con UC0298_2 y UC0319_2 convalida 0143, 0144 y 0031; con UC0302_2 y UC0303_2, 0031.",
+  "UC0319_2": "«Obtener derivados de productos de la pesca y de la acuicultura: masas, pastas, congelados y platos cocinados o precocinados» [ECP0319_2]. INA776_2. Con UC0298_2 y UC0318_2 convalida 0143, 0144 y 0031.",
+  "UC0291_2": "SUPRIMIDA. «Recepcionar, controlar y valorar las materias primas y auxiliares que intervienen en el proceso de producción de conservas vegetales y realizar el almacenamiento y la expedición de productos acabados». Equivale por sí sola a ECP2568_2 y ECP2569_2 (RD 532/2025 anexo II-a): convalida 0030 y 0141.",
+  "UC0292_2": "«Preparar las materias primas para su posterior elaboración y tratamiento…» (hoy «Realizar el acondicionamiento y exposición de productos hortofrutícolas», ECP0292_2, INA777_2). En el texto original convalidaba 0142 y 0031; ya no figura en el anexo V A) vigente.",
+  "UC0293_2": "SUPRIMIDA. «Realizar las operaciones de dosificación, llenado y cerrado de conservas vegetales, zumos y platos cocinados…». Solo junto con UC0294_2 equivale a ECP2584_2 (RD 532/2025 anexo II-a).",
+  "UC0294_2": "SUPRIMIDA. «Conducir la aplicación de los tratamientos finales de conservación…». Solo junto con UC0293_2 equivale a ECP2584_2 (RD 532/2025 anexo II-a)."
+ },
+ "uc_equivalencias": {
+  "UC0291_2": [
+   "UC2568_2",
+   "UC2569_2"
+  ]
+ },
+ "uc_equivalencias_conjuntas": [
+  {
+   "requiere": [
+    "UC0293_2",
+    "UC0294_2"
+   ],
+   "da": [
+    "UC2584_2"
+   ]
+  }
+ ],
+ "notas": [
+  "El campo «horas» es el de las enseñanzas mínimas (RD 452/2010 anexo I para los módulos específicos, 1.100 h; RD 659/2023 y RD 499/2024 para los comunes nuevos). Las horas de impartición están en «horas_otras» (aragon = Orden ECD/842/2024 anexo XXVI, diurno; mefp = Orden EFD/657/2024 anexo XXXIV; loe = Orden de 1 de abril de 2011 de Aragón).",
+  "Denominación y código confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=INA201): INA201 «Elaboración de Productos Alimenticios», CFGM, familia Industrias Alimentarias, 2.001 h (2.000 en la Orden); horas y cursos coinciden con la Orden ECD/842/2024 y con research/catalogo-aragon.json.",
+  "Aragón (Orden ECD/842/2024, anexo XXVI, diurno): 1.º: 0141 (133 h), 0142 (133), 0143 (267), 0145 (167), 0031 (67), A997 (33), 1709 (100), 1664 (33), 0156 (67). 2.º: 0144 (500), 0116 (67), 0146 (67), 0030 (67), A996 (33), 1710 (67), 1708 (33), 1713 (67), optativo (100).",
+  "Ministerio (Orden EFD/657/2024, anexo XXXIV): 1.º (975 h): 0141 160, 0145 160, 0142 200, 0143 250, 1709 100, 1708 35, 0156 70. 2.º (1.025 h): 0146 100, 0031 100, 0030 60, 0116 100, 0144 400, 1710 100, 1664 35, optativo 80, 1713 50. 0031 es de 2.º en el Ministerio y de 1.º en Aragón.",
+  "Plan LOE de Aragón (Orden de 1 de abril de 2011): 0141 160, 0142 192, 0143 256, 0145 192, 0031 64, FOL 96 (960 h, 1.º); 0144 336, 0116 105, 0146 63, 0030 63, EIE 63 y FCT 410 (1.040 h, 2.º).",
+  "CONVALIDACIÓN DESDE LOGSE (RD 1085/2020 anexo II, tabla «Industrias Alimentarias», grado medio): siete bloques con destino este título. Conservería (6 filas), Matadero (4, sin fila a 0116) y Lácteos (6) reproducen el anexo IV original repartido por título; Aceites y Jugos, Vinos y Otras Bebidas, Molinería y Panificación y Repostería solo dan 0116, 0030 y 0031. 0143 exige dos módulos LOGSE a la vez (… + Envasado y embalaje). 0144 y 0146 no tienen fila LOGSE.",
+  "CONVALIDACIÓN LOE→LOE (anexo III): 0032 de Panadería → 0146; ciclo completo de Actividades Comerciales → 0146; 1228 (Actividades Comerciales), 0542 (Carpintería y Mueble, Instalación y Amueblamiento) y 1209 (Conducción de Vehículos) → 0030; ciclo completo de Mantenimiento Electromecánico o de Material Rodante Ferroviario → 0116. Anexo IV: ciclo completo de Comercialización de productos alimentarios → 0030 y su módulo 1610 → 0031.",
+  "SENTIDO INVERSO (este título aporta): 0146 → 0032 (Panadería, Repostería y Confitería; coincide con research/ina207.json) y 0030 → 0542 Control de almacén (Carpintería y Mueble; Instalación y Amueblamiento).",
+  "MÓDULOS COMPARTIDOS POR CÓDIGO: 0030 y 0031 (35 h mínimas) están también en Panadería (INA207) y Aceites de Oliva y Vinos (INA204); 0031, además, en Cocina y Gastronomía y Servicios en Restauración (research/hot201.json y hot203.json); 0116 y 0146, en Aceites de Oliva y Vinos, y 0116 en títulos de otras familias (Química, Textil, Vidrio y Cerámica). Superado en uno, se traslada (mismo código). Por la DA 5.ª se añaden, marcadas «OJO», las filas de otros bloques con origen distinto: Pastelería y Panadería LOGSE → 0030 y dos LOGSE textiles → 0116.",
+  "UC: el RD 499/2024 sustituyó el art. 6 y los anexos V. Vigente: UC0027_2 → 0030; UC0295_2 → 0030 y 0141; UC2584_2 → 0143, 0144 y 0031; el resto exige varias UC a la vez (UC2568_2 + UC2569_2; UC0302_2 + UC0304_2; UC0303_2 + UC0304_2; UC0298_2 + UC0318_2 + UC0319_2; UC0302_2 + UC0303_2 + UC0318_2). 0116 y 0145 solo se convalidan con TODAS las UC del título (nota del anexo V A).",
+  "Equivalencias de UC (RD 532/2025 anexos II-a y II-b): UC0291_2 equivale por sí sola a ECP2568_2 y ECP2569_2 (a la inversa, cada ECP solo junto con el otro); UC0293_2 y UC0294_2 solo acreditadas juntas equivalen a ECP2584_2 (a la inversa, ECP2584_2 equivale a cada una sin requisito). UC0292_2 conserva su código (ECP0292_2) pero ya no convalida nada en este título.",
+  "«Administración, gestión y comercialización en la pequeña empresa» (LOGSE) convalidaba EIE (0148) en el anexo IV original; hoy lo resuelve la tabla general de EIE del anexo II del RD 1085/2020, que por la DA 6.ª se entiende hecha a 1710. La formación en empresa nunca se convalida (RD 659/2023 art. 126.4).",
+  "DA 3.ª del RD 452/2010: los tres títulos LOGSE sustituidos tienen los mismos efectos profesionales y académicos; el módulo 0031 garantiza la formación de manipulador de alimentos. Optativos de Aragón: AOP1001, AOP1002 y AOP1003 de oferta común (Decreto 107/2025); la Resolución de 6 de junio de 2025 no autoriza ninguno de diseño propio para INA201."
+ ],
+ "no_verificado": [
+  "Celdas «Tratamientos finales de conservación. Envasado y embalaje» y «Quesería y mantequería. Envasado y embalaje» del anexo II del RD 1085/2020 (https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274): se han leído como dos módulos LOGSE exigidos a la vez, porque el anexo IV original del RD 452/2010 los daba en dos párrafos de la misma celda; no se han abierto los RD 2052/1995 y 2054/1995 para confirmar las denominaciones.",
+  "No se han abierto los reales decretos LOGSE (2051 a 2057/1995, 2220/1993, 739/1994 y 740/1994): los nombres de sus módulos se copian del RD 1085/2020. El RD 1085/2020 escribe a veces «Elaboración de Productos Alimentarios» y «0030. Operaciones de control de almacén» (erratas).",
+  "Curso de la clave «loe»: la Orden de 1 de abril de 2011 (https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=595490380404) solo da la duración. Se ha deducido que son de 1.º los módulos múltiplos de 32 h (suman 960 h) y de 2.º los múltiplos de 21 h más la FCT (1.040 h); lo confirma el anexo VI (0144 exige 0143). No se ha localizado una resolución de distribución horaria.",
+  "Horas de formación asociada y composición actual completa de INA103_2, INA106_2, INA773_2 e INA776_2 no comprobadas: no se han abierto el RD 1087/2005 ni el RD 148/2022 (https://www.boe.es/eli/es/rd/2022/02/22/148).",
+  "No se han revisado los anexos de convalidaciones de los reales decretos de títulos posteriores al 05/03/2017 (salvo lo que recoge el anexo IV del RD 1085/2020) por si alguno aporta o recibe módulos de este ciclo. Tampoco se ha abierto la Orden EDU/1998/2010 del Ministerio.",
+  "Páginas del BOA de la Orden ECD/842/2024 no comprobadas página a página; se cita el anexo y el csv. Fuente: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404"
+ ]
+};

@@ -1,0 +1,792 @@
+// Generado por tools/build_data.py a partir de research/ina301.json. No editar a mano.
+window.CICLOS = window.CICLOS || {};
+window.CICLOS["ina301"] = {
+ "ciclo": {
+  "codigo": "INA301",
+  "nombre": "Técnico Superior en Procesos y Calidad en la Industria Alimentaria",
+  "grado": "superior",
+  "familia": "Industrias Alimentarias",
+  "normas": [
+   {
+    "ref": "RD 451/2010, de 16 de abril",
+    "boe": "BOE-A-2010-8068",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-8068",
+    "nota": "Establece el título de Técnico Superior en Procesos y Calidad en la Industria Alimentaria (BOE núm. 123, de 20/05/2010, págs. 43847-43931). 2.000 h; mínimas 1.100 h. Texto consolidado leído por la API de datos abiertos del BOE. Art. 1.2 y disp. derogatoria: sustituye y deroga el LOGSE Técnico Superior en Industria Alimentaria (RD 2050/1995). Anexo IV (LOGSE→LOE) derogado por el RD 1085/2020. El RD 500/2024 modifica los arts. 2, 10, 12 y 15 y los anexos I y III, pero NO el art. 6 ni los anexos V A) y V B), que siguen en la redacción de 2010. DA 3.ª: el título LOGSE y cinco títulos de Técnico Especialista tienen los mismos efectos que este."
+   },
+   {
+    "ref": "RD 1228/2006, de 27 de octubre",
+    "boe": "BOE-A-2007-96",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2007-96",
+    "nota": "Establece INA176_3, INA177_3, INA178_3 e INA180_3 (UC0556_3 a UC0567_3 y UC0571_3 a UC0573_3). Horas de formación asociada no leídas (ver no_verificado)."
+   },
+   {
+    "ref": "RD 729/2007, de 8 de junio",
+    "boe": "BOE-A-2007-12558",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2007-12558",
+    "nota": "Establece INA239_3 «Industrias cárnicas» (UC0765_3, UC0766_3, UC0767_3, además de las comunes UC0556_3 a UC0558_3). No abierto."
+   },
+   {
+    "ref": "RD 2050/1995, de 22 de diciembre",
+    "boe": "BOE-A-1996-5474",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-5474",
+    "nota": "Título LOGSE de Técnico Superior en Industria Alimentaria (BOE núm. 59, de 08/03/1996), sustituido y derogado por el RD 451/2010. Leído el XML del diario: sus diez módulos coinciden con los nombres que usa el RD 1085/2020."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Su disp. derogatoria única deroga el anexo IV (LOGSE→LOE) del RD 451/2010. Las filas vigentes están en su anexo II (tabla «Industrias Alimentarias», grado superior) y en su anexo III (LOE→LOE, tablas «Industrias Alimentarias», «Hostelería y Turismo» y «Química»). Texto consolidado del scratchpad compartido. DA 5.ª: las filas de los anexos se aplican al módulo en cualquier ciclo que lo incluya. DA 6.ª (RD 500/2024): destino FOL se entiende también 1709 y destino EIE, 1710."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP. Currículo básico de 1709 y 1710 (anexo V, 50 h), 1665 (anexo VII, 30 h), 1708 (anexo VIII, 30 h) y 0179 (anexo X, 50 h); anexo IV: optativo de 80 h. Art. 126.4: no se convalidan la formación en empresa ni el proyecto intermodular."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Integra las UC como Estándares de Competencia Profesional (ECP). Anexo I: las dieciocho UC de este título conservan su número (UC0556_3 → ECP0556_3, etc.). Ninguna aparece en los anexos II-a y II-b, por lo que «equivalencias_uc» está vacío."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adapta los títulos de grado superior a la LO 3/2022. Este título está en el art. primero.Dos.a) (ciclos sin módulo de inglés previo), ordinal 17.º. Art. cuarto.Uno.c).1.º: suprime 0472 (FOL), 0473 (EIE) y 0474 (FCT); c).2.º: el «Proyecto» 0471 pasa a «Proyecto intermodular» con el mismo código; c).3.º y e): añade 0179, 1709, 1710, 1665, 1708 y un optativo de 80 h. Art. tercero NO cita este RD: art. 6 y anexos V A) y V B) intactos. Art. sexto.Uno: nuevo art. 15 (remite al RD 1085/2020; varias UC en una celda se exigen todas). Art. octavo.Diecisiete y anexo XVIII: nuevo anexo III (profesorado). Disp. final 1.ª: añade la DA 6.ª al RD 1085/2020."
+   },
+   {
+    "ref": "Orden EDU/2001/2010, de 13 de julio",
+    "boe": "BOE-A-2010-11889",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-11889",
+    "nota": "Currículo LOE del ciclo en el ámbito del Ministerio. Derogada por la Orden EFD/659/2024 (disp. derogatoria única, letra n).1.º). No abierta."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+    "nota": "Currículo vigente del ámbito del Ministerio para grado superior (BOE núm. 158, de 01/07/2024). Este ciclo está en el art. 1.2.n).1.º y en el anexo LI (letra ar)); 1.º con 985 h y 2.º con 1.015 h, 30 sesiones semanales. Optativa(s): 80 h."
+   },
+   {
+    "ref": "Orden de 27 de abril de 2011, de la Consejera de Educación, Cultura y Deporte (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=601083290606&type=pdf",
+    "nota": "Currículo LOE del ciclo en Aragón (BOA núm. 106, de 01/06/2011, págs. 13081-13150; corrección de errores en BOA núm. 118, de 19/06/2012, sobre los contenidos de la UF0084_22). Anexo I: duración de cada módulo, incluidos los propios A048 y A049 (inglés). Derogada por la Orden ECD/843/2024 (disp. derogatoria única, letra m).1)."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+    "nota": "Currículo vigente de Aragón para grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004). Este ciclo está en el art. 1.2.m).1.º, art. 5.3.añ) y anexo XLII (código INA301, pág. 22089): distribución horaria diurna (30 sesiones en 1.º y en 2.º), espacios y equipamientos. Arts. 12 y 13: optativos (redacción del Decreto 107/2025). DA 1.ª: un módulo LOE con el mismo código se reconoce automáticamente. DT 2.ª: tabla 1709 ≡ FOL, 1710 ≡ EIE."
+   },
+   {
+    "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+    "nota": "BOA núm. 181, de 18/09/2025. Modifica los optativos de oferta común de la Orden ECD/843/2024: AOP1004 (Comunicación profesional en Inglés GS), AOP1002 (Francés) y AOP1003 (Ofimática avanzada). No toca la tabla horaria de este ciclo."
+   }
+  ],
+  "plan": "LOE"
+ },
+ "modulos": [
+  {
+   "codigo": "0462",
+   "nombre": "Tecnología alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 160,
+    "loe": 160
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0463",
+   "nombre": "Biotecnología alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0464",
+   "nombre": "Análisis de alimentos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 133,
+    "mefp": 100,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0465",
+   "nombre": "Tratamientos de preparación y conservación de los alimentos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": 220,
+    "loe": 192
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0466",
+   "nombre": "Organización de la producción alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0084",
+   "nombre": "Comercialización y logística en la industria alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 130,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0086",
+   "nombre": "Gestión de calidad y ambiental en la industria alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 130,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0191",
+   "nombre": "Mantenimiento electromecánico en industrias de proceso",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 130,
+    "loe": 105
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0467",
+   "nombre": "Control microbiológico y sensorial de los alimentos",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 100,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0468",
+   "nombre": "Nutrición y seguridad alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": 42
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0469",
+   "nombre": "Procesos integrados en la industria alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 167,
+    "mefp": 160,
+    "loe": 128
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0470",
+   "nombre": "Innovación alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": 130,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0471",
+   "nombre": "Proyecto intermodular en procesos y calidad en la industria alimentaria",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": 50,
+    "loe": 40
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": 70,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": 100,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": 35,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 1,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": 80,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": 2,
+    "loe": null
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0472",
+   "nombre": "Formación y orientación laboral",
+   "tipo": "comun",
+   "comun": "fol_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 96
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0473",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "tipo": "comun",
+   "comun": "eie_loe",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 63
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "0474",
+   "nombre": "Formación en centros de trabajo",
+   "tipo": "empresa",
+   "comun": "empresa",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 370
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A048",
+   "nombre": "Lengua extranjera profesional: inglés 1 (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 64
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 1
+   },
+   "nota": null
+  },
+  {
+   "codigo": "A049",
+   "nombre": "Lengua extranjera profesional: inglés 2 (módulo propio de Aragón)",
+   "tipo": "comun",
+   "comun": "comun",
+   "horas": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 42
+   },
+   "curso": {
+    "aragon": null,
+    "mefp": null,
+    "loe": 2
+   },
+   "nota": null
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico Superior en Industria Alimentaria (LOGSE, RD 2050/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Logística",
+    "Comercialización de productos alimentarios"
+   ],
+   "destino_modulos": [
+    "0084"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Industria Alimentaria (RD 2050/1995, de 22 de diciembre) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «Logística. / Comercialización de productos alimentarios. → 0084». La celda de origen nombra dos módulos LOGSE: se exigen los dos. Sustituye a la fila idéntica del anexo IV del RD 451/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Industria Alimentaria (LOGSE, RD 2050/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Gestión de calidad",
+    "Técnicas de protección ambiental"
+   ],
+   "destino_modulos": [
+    "0086"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Industria Alimentaria (RD 2050/1995, de 22 de diciembre) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «Gestión de calidad. / Técnicas de protección ambiental. → 0086». La celda de origen nombra dos módulos LOGSE: se exigen los dos. Sustituye a la fila idéntica del anexo IV del RD 451/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Industria Alimentaria (LOGSE, RD 2050/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Procesos en la industria alimentaria"
+   ],
+   "destino_modulos": [
+    "0462"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Industria Alimentaria (RD 2050/1995, de 22 de diciembre) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «Procesos en la industria alimentaria. → 0462». Sustituye a la fila idéntica del anexo IV del RD 451/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Industria Alimentaria (LOGSE, RD 2050/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Elaboración de productos alimentarios",
+    "Sistemas automáticos de producción en la industria alimentaria"
+   ],
+   "destino_modulos": [
+    "0465",
+    "0469",
+    "0191"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Industria Alimentaria (RD 2050/1995, de 22 de diciembre) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «Elaboración de productos alimentarios. Sistemas automáticos de producción en la industria alimentaria. → 0465 / 0469 / 0191». Se exigen los dos módulos LOGSE y se convalidan los tres de destino. Sustituye a la fila idéntica del anexo IV del RD 451/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Industria Alimentaria (LOGSE, RD 2050/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Organización y control de una unidad de producción"
+   ],
+   "destino_modulos": [
+    "0466"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Industria Alimentaria (RD 2050/1995, de 22 de diciembre) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «Organización y control de una unidad de producción. → 0466». Sustituye a la fila idéntica del anexo IV del RD 451/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Industria Alimentaria (LOGSE, RD 2050/1995, de 22 de diciembre) (Industrias Alimentarias)",
+   "origen_modulo": [
+    "Microbiología y química alimentarias"
+   ],
+   "destino_modulos": [
+    "0464",
+    "0467"
+   ],
+   "fuente": "RD 1085/2020 anexo II (LOGSE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Industria Alimentaria (RD 2050/1995, de 22 de diciembre) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «Microbiología y química alimentarias. → 0464 / 0467». Se convalidan los dos. Sustituye a la fila idéntica del anexo IV del RD 451/2010, derogado por el RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Gestión de Ventas y Espacios Comerciales (LOE, RD 1573/2011, de 4 de noviembre) (Comercio y Marketing)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0084"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Gestión de Ventas y Espacios Comerciales (RD 1573/2011, de 4 de noviembre) (Comercio y Marketing) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «Ciclo completo → 0084». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Laboratorio de Análisis y Control de Calidad (LOE, RD 1395/2007, de 29 de octubre) (Química)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0464"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Laboratorio de Análisis y Control de Calidad (RD 1395/2007, de 29 de octubre) (Química) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «Ciclo completo → 0464». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Mantenimiento de Instalaciones Térmicas y de Fluidos (LOE, RD 220/2008, de 15 de febrero) (Instalación y Mantenimiento)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0191"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Mantenimiento de Instalaciones Térmicas y de Fluidos (RD 220/2008, de 15 de febrero) (Instalación y Mantenimiento) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «Ciclo completo → 0191». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Transporte y Logística (LOE, RD 1572/2011, de 4 de noviembre) (Comercio y Marketing)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0084"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Transporte y Logística (RD 1572/2011, de 4 de noviembre) (Comercio y Marketing) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «Ciclo completo → 0084». Exige el título completo."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Organización del Mantenimiento de Maquinaria de Buques y Embarcaciones (LOE, RD 1075/2012, de 13 de julio) (Marítimo Pesquera)",
+   "origen_modulo": [
+    "Ciclo completo"
+   ],
+   "destino_modulos": [
+    "0191"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Química», grado superior, bloque «Técnico Superior en Organización del Mantenimiento de Maquinaria de Buques y Embarcaciones (RD 1075/2012, de 13 de julio) (Marítimo Pesquera) → Técnico Superior en Química Industrial (RD 175/2008, de 8 de febrero)», fila «Ciclo completo → 0191». OJO: fila del bloque de Química Industrial, aplicada aquí por la DA 5.ª del RD 1085/2020 por ser 0191 el mismo módulo; exige el título completo."
+  }
+ ],
+ "convalidaciones_loe": [
+  {
+   "origen_codigos": [
+    "1021"
+   ],
+   "origen_nombre": "Gestión medioambiental de los procesos acuícolas",
+   "origen_titulo": "Técnico Superior en Acuicultura (LOE, RD 1585/2011, de 4 de noviembre) (Marítimo Pesquera)",
+   "destino_modulos": [
+    "0086"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Acuicultura (RD 1585/2011, de 4 de noviembre) (Marítimo Pesquera) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «1021 → 0086»."
+  },
+  {
+   "origen_codigos": [
+    "0165"
+   ],
+   "origen_nombre": "Gestión de la calidad, prevención de riesgos laborales y protección ambiental",
+   "origen_titulo": "Técnico Superior en Construcciones Metálicas (LOE, RD 174/2008, de 8 de febrero) (Fabricación Mecánica); Técnico Superior en Desarrollo y Fabricación de Productos Cerámicos (LOE, RD 1797/2008, de 3 de noviembre) (Vidrio y Cerámica); Técnico Superior en Diseño y Producción de Calzado y Complementos (LOE, RD 689/2010, de 20 de mayo) (Textil, Confección y Piel); Técnico Superior en Patronaje y Moda (LOE, RD 954/2008, de 6 de junio) (Textil, Confección y Piel); Técnico Superior en Programación de la Producción en Fabricación Mecánica (LOE, RD 1687/2007, de 14 de diciembre) (Fabricación Mecánica); Técnico Superior en Programación de la Producción en Moldeo de Metales y Polímeros (LOE, RD 882/2011, de 24 de junio) (Fabricación Mecánica)",
+   "destino_modulos": [
+    "0086"
+   ],
+   "fuente": "RD 1085/2020 anexo III (LOE→LOE), tabla «Industrias Alimentarias», grado superior, bloque «Técnico Superior en Construcciones Metálicas (RD 174/2008, de 8 de febrero) (Fabricación Mecánica) → Técnico Superior en Procesos y Calidad en la Industria Alimentaria (RD 451/2010, de 16 de abril)», fila «0165 → 0086»."
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC0556_3"
+   ],
+   "modulos": [
+    "0084"
+   ],
+   "fuente": "RD 451/2010 anexo V A), redacción original de 2010, VIGENTE (el RD 500/2024 no la modifica)."
+  },
+  {
+   "uc": [
+    "UC0557_3"
+   ],
+   "modulos": [
+    "0466"
+   ],
+   "fuente": "RD 451/2010 anexo V A), redacción original de 2010, VIGENTE (el RD 500/2024 no la modifica)."
+  },
+  {
+   "uc": [
+    "UC0558_3"
+   ],
+   "modulos": [
+    "0086"
+   ],
+   "fuente": "RD 451/2010 anexo V A), redacción original de 2010, VIGENTE (el RD 500/2024 no la modifica)."
+  },
+  {
+   "uc": [
+    "UC0559_3",
+    "UC0565_3",
+    "UC0765_3"
+   ],
+   "modulos": [
+    "0462",
+    "0465",
+    "0468"
+   ],
+   "fuente": "RD 451/2010 anexo V A), redacción original de 2010, VIGENTE (el RD 500/2024 no la modifica). La celda de origen contiene todas las UC: hacen falta todas (art. 15.3), aunque sean de cualificaciones distintas."
+  },
+  {
+   "uc": [
+    "UC0562_3",
+    "UC0571_3"
+   ],
+   "modulos": [
+    "0462",
+    "0465",
+    "0468"
+   ],
+   "fuente": "RD 451/2010 anexo V A), redacción original de 2010, VIGENTE (el RD 500/2024 no la modifica). La celda de origen contiene todas las UC: hacen falta todas (art. 15.3), aunque sean de cualificaciones distintas."
+  },
+  {
+   "uc": [
+    "UC0560_3",
+    "UC0566_3",
+    "UC0766_3"
+   ],
+   "modulos": [
+    "0469",
+    "0465",
+    "0191"
+   ],
+   "fuente": "RD 451/2010 anexo V A), redacción original de 2010, VIGENTE (el RD 500/2024 no la modifica). La celda de origen contiene todas las UC: hacen falta todas (art. 15.3), aunque sean de cualificaciones distintas."
+  },
+  {
+   "uc": [
+    "UC0563_3",
+    "UC0572_3"
+   ],
+   "modulos": [
+    "0469",
+    "0465",
+    "0191"
+   ],
+   "fuente": "RD 451/2010 anexo V A), redacción original de 2010, VIGENTE (el RD 500/2024 no la modifica). La celda de origen contiene todas las UC: hacen falta todas (art. 15.3), aunque sean de cualificaciones distintas."
+  },
+  {
+   "uc": [
+    "UC0561_3",
+    "UC0567_3",
+    "UC0767_3"
+   ],
+   "modulos": [
+    "0464",
+    "0467",
+    "0468"
+   ],
+   "fuente": "RD 451/2010 anexo V A), redacción original de 2010, VIGENTE (el RD 500/2024 no la modifica). La celda de origen contiene todas las UC: hacen falta todas (art. 15.3), aunque sean de cualificaciones distintas."
+  },
+  {
+   "uc": [
+    "UC0564_3",
+    "UC0573_3"
+   ],
+   "modulos": [
+    "0464",
+    "0467",
+    "0468"
+   ],
+   "fuente": "RD 451/2010 anexo V A), redacción original de 2010, VIGENTE (el RD 500/2024 no la modifica). La celda de origen contiene todas las UC: hacen falta todas (art. 15.3), aunque sean de cualificaciones distintas."
+  }
+ ],
+ "uc_descripciones": {
+  "UC0556_3": "«Gestionar los aprovisionamientos, el almacén y las expediciones en la industria alimentaria y realizar actividades de apoyo a la comercialización» [ECP0556_3]. Común a INA176_3, INA177_3, INA178_3, INA180_3 (RD 1228/2006) e INA239_3 (RD 729/2007).",
+  "UC0557_3": "«Programar y gestionar la producción en la industria alimentaria» [ECP0557_3]. Común a INA176_3, INA177_3, INA178_3, INA180_3 (RD 1228/2006) e INA239_3 (RD 729/2007).",
+  "UC0558_3": "«Cooperar en la implantación y desarrollo del plan de calidad y gestión ambiental en la industria alimentaria» [ECP0558_3]. Común a INA176_3, INA177_3, INA178_3, INA180_3 (RD 1228/2006) e INA239_3 (RD 729/2007).",
+  "UC0559_3": "«Desarrollar los procesos y determinar los procedimientos operativos para la producción de conservas y jugos vegetales» [ECP0559_3]. Cualificación INA176_3 (RD 1228/2006).",
+  "UC0560_3": "«Controlar la fabricación de conservas y jugos vegetales y sus sistemas automáticos de producción» [ECP0560_3]. Cualificación INA176_3 (RD 1228/2006).",
+  "UC0561_3": "«Aplicar técnicas de control analítico y sensorial del proceso de elaboración de conservas y jugos vegetales» [ECP0561_3]. Cualificación INA176_3 (RD 1228/2006).",
+  "UC0562_3": "«Desarrollar los procesos y determinar los procedimientos operativos para la producción de derivados de cereales y de dulces» [ECP0562_3]. Cualificación INA177_3 (RD 1228/2006).",
+  "UC0563_3": "«Controlar la elaboración de derivados de cereales y de dulces y sus sistemas automáticos de producción» [ECP0563_3]. Cualificación INA177_3 (RD 1228/2006).",
+  "UC0564_3": "«Aplicar técnicas de control analítico y sensorial del proceso de elaboración de derivados de cereales y de dulces» [ECP0564_3]. Cualificación INA177_3 (RD 1228/2006).",
+  "UC0565_3": "«Desarrollar los procesos y determinar los procedimientos operativos para la elaboración de productos derivados de la pesca y de la acuicultura» [ECP0565_3]. Cualificación INA178_3 (RD 1228/2006).",
+  "UC0566_3": "«Controlar la elaboración de productos derivados de la pesca y de la acuicultura y sus sistemas automáticos de producción» [ECP0566_3]. Cualificación INA178_3 (RD 1228/2006).",
+  "UC0567_3": "«Aplicar técnicas de control analítico y sensorial del proceso de elaboración de productos derivados de la pesca y de la acuicultura» [ECP0567_3]. Cualificación INA178_3 (RD 1228/2006).",
+  "UC0571_3": "«Desarrollar los procesos y determinar los procedimientos operativos para la elaboración de leches de consumo y de productos lácteos» [ECP0571_3]. Cualificación INA180_3 (RD 1228/2006).",
+  "UC0572_3": "«Controlar la elaboración de leches de consumo y de productos lácteos y sus sistemas automáticos de producción» [ECP0572_3]. Cualificación INA180_3 (RD 1228/2006).",
+  "UC0573_3": "«Aplicar técnicas de control analítico y sensorial del proceso de elaboración de leches de consumo y de productos lácteos» [ECP0573_3]. Cualificación INA180_3 (RD 1228/2006).",
+  "UC0765_3": "«Desarrollar los procesos y determinar los procedimientos operativos para el sacrificio, faenado y despiece de animales de abasto, así como para la elaboración de productos y preparados cárnicos» [ECP0765_3]. Cualificación INA239_3 (RD 729/2007).",
+  "UC0766_3": "«Controlar la elaboración de productos y preparados cárnicos y sus sistemas automáticos de producción, así como el sacrificio, faenado y despiece de los animales» [ECP0766_3]. Cualificación INA239_3 (RD 729/2007).",
+  "UC0767_3": "«Aplicar técnicas de control analítico y sensorial del proceso de elaboración de productos y preparados cárnicos» [ECP0767_3]. Cualificación INA239_3 (RD 729/2007)."
+ },
+ "uc_equivalencias": {},
+ "notas": [
+  "El campo «horas» es el de enseñanzas mínimas / currículo básico (RD 451/2010 anexo I; RD 659/2023 y RD 500/2024 para los comunes nuevos). «horas_otras»: aragon = Orden ECD/843/2024 anexo XLII (diurno); mefp = Orden EFD/659/2024 anexo LI; loe = Orden de 27 de abril de 2011 de Aragón, anexo I.",
+  "Denominación y código confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=INA301): INA301, CFGS, familia Industrias Alimentarias (INA), 2.002 h por redondeo; horas y cursos coinciden módulo a módulo con la Orden ECD/843/2024 y con research/catalogo-aragon.json.",
+  "Aragón (Orden ECD/843/2024, anexo XLII, diurno): 1.º: 0462 (167 h, 5 sesiones), 0464 (133, 4), 0465 (233, 7), 0467 (167, 5), 0468 (100, 3), 1709 (100, 3), 1665 (33, 1), 0179 (67, 2). 2.º: 0463 (67, 2), 0466 (67, 2), 0084 (100, 3), 0086 (167, 5), 0191 (100, 3), 0469 (167, 5), 0470 (67, 2), 0471 (67, 2), 1710 (67, 2), 1708 (33, 1), optativo (100, 3). El anexo abrevia 0191 y 0471 («…en la industria de proceso», «Proyecto intermodular en la industria alimentaria»).",
+  "Ministerio (Orden EFD/659/2024, anexo LI): 1.º (985 h): 0466 70, 0464 100, 0191 130, 0463 100, 0462 160, 0465 220, 1709 100, 1708 35, 0179 70. 2.º (1.015 h): 0467 100, 0084 130, 0468 100, 0470 130, 0086 130, 0469 160, 1710 100, 1665 35, optativa(s) 80, 0471 50.",
+  "Plan LOE de Aragón (Orden de 27 de abril de 2011, anexo I): 0462 160, 0464 128, 0465 192, 0466 64, 0467 128, 0469 128, A048 64, 0472 96 (suman 960 h, 1.º); 0463 105, 0084 105, 0086 105, 0191 105, 0468 42, 0470 63, A049 42, 0471 40, 0473 63, 0474 370 (1.040 h, 2.º). El curso está deducido de la duración (múltiplos de 32 y de 21).",
+  "LOGSE Industria Alimentaria (anexo II del RD 1085/2020, seis filas): Logística + Comercialización → 0084; Gestión de calidad + Técnicas de protección ambiental → 0086; Procesos → 0462; Elaboración + Sistemas automáticos → 0465, 0469 y 0191; Organización y control → 0466; Microbiología y química → 0464 y 0467. Sin fila quedan 0463, 0468 y 0470.",
+  "Anexo III del RD 1085/2020 hacia este título: 0165 de seis títulos (Construcciones Metálicas, Productos Cerámicos, Calzado y Complementos, Patronaje y Moda, Programación de la Producción en Fabricación Mecánica y en Moldeo) y 1021 de Acuicultura → 0086; ciclo completo de Gestión de Ventas y de Transporte y Logística → 0084; de Laboratorio de Análisis → 0464; de Mantenimiento de Instalaciones Térmicas y de Fluidos → 0191. Coincide con las fichas ima301, fme301, fme304 y fme305.",
+  "0084 y 0086 tienen el mismo código en Vitivinicultura (INA302, RD 1688/2007) y 0191 en Química Industrial y en Fabricación de Productos Farmacéuticos: superados allí, se trasladan (mismo código). El bloque de Vitivinicultura del RD 1085/2020 repite para 0084 y 0086 las mismas filas que este; no hay filas expresas entre los dos títulos.",
+  "Fila «OJO» (DA 5.ª del RD 1085/2020): ciclo completo de Organización del Mantenimiento de Maquinaria de Buques → 0191, del bloque de Química Industrial. Sentido inverso expreso: 0086 + 0468 → 0501 de Dirección de Cocina.",
+  "Anexo V A) vigente: UC0556_3 → 0084, UC0557_3 → 0466 y UC0558_3 → 0086 por sí solas. Las demás celdas agrupan UC homólogas de cualificaciones distintas (3 de conservas, pesca y cárnicas; 2 de cereales y lácteas) y, según el art. 15.3 vigente, se exigen todas las de la celda: → 0462 + 0465 + 0468, → 0469 + 0465 + 0191 y → 0464 + 0467 + 0468. 0463 y 0470 no tienen fila.",
+  "Equivalencias de UC (RD 532/2025): ninguna UC de este título cambia de número (anexo I: UC0556_3 → ECP0556_3, etc.) y ninguna figura en los anexos II-a y II-b; por eso «equivalencias_uc», «equivalencias_motor» y «equivalencias_conjuntas_motor» están vacíos.",
+  "FOL, EIE y FCT están suprimidos (RD 500/2024); la fila de FCT del anexo IV original va a «filas_derogadas_no_aplicadas». La formación en empresa y el proyecto intermodular nunca se convalidan (RD 659/2023 art. 126.4).",
+  "Optativos de Aragón: AOP1004 (Inglés GS), AOP1002 (Francés) y AOP1003 (Ofimática avanzada) de oferta común (Decreto 107/2025). No se ha comprobado si hay optativos de diseño propio autorizados para INA301."
+ ],
+ "no_verificado": [
+  "Anexo V A) del RD 451/2010: las celdas con dos o tres UC reúnen UC equivalentes de cualificaciones distintas, lo que sugiere alternativas, pero el art. 15.3 (RD 500/2024) exige todas las de la celda; se ha aplicado la lectura literal. Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2010-8068",
+  "La fila «OJO» (Buques → 0191) es una aplicación de la DA 5.ª del RD 1085/2020, no una fila expresa del bloque de este título. Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+  "Orden de 27 de abril de 2011 (Aragón): solo da la duración de cada módulo; el curso de la clave «loe» está deducido (múltiplos de 32 en 1.º y de 21 en 2.º) y no se ha buscado la resolución de distribución horaria. Su anexo IV llama «Sistemas de control y auxiliares de los procesos» al módulo LOGSE que el RD 451/2010 y el RD 1085/2020 llaman «Sistemas automáticos de producción en la industria alimentaria». Fuente: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=601083290606&type=pdf",
+  "Cualificaciones: no se han leído los anexos de los RD 1228/2006 y 729/2007, por lo que «formacion_asociada_horas» es null; UC y nombres tomados del art. 6 del RD 451/2010 y del anexo I del RD 532/2025 (https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147).",
+  "No se han abierto los reales decretos de los títulos LOE de origen (RD 1585/2011, 174/2008, 1797/2008, 689/2010, 1573/2011, 1395/2007, 220/2008, 954/2008, 1687/2007, 882/2011, 1572/2011, 1075/2012) ni el RD 687/2010: nombres y códigos copiados del RD 1085/2020 (https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274).",
+  "No se han revisado los anexos de convalidaciones de reales decretos de títulos posteriores al 05/03/2017 distintos de los que recoge el anexo IV del RD 1085/2020, ni la Orden EDU/2001/2010 (https://www.boe.es/buscar/doc.php?id=BOE-A-2010-11889).",
+  "Orden ECD/843/2024: letra del art. 5.3 y página del anexo XLII tomadas del texto extraído del PDF, sin comprobar página a página. Fuente: https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf"
+ ]
+};

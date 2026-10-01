@@ -95,6 +95,11 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Proyectos de Edificación | EOC301 | Superior | LO 3/2022 |
 | Proyectos de Obra Civil | EOC302 | Superior | LO 3/2022 |
 | Organización y Control de Obras de Construcción | EOC303 | Superior | LO 3/2022 |
+| Elaboración de Productos Alimenticios | INA201 | Medio | LO 3/2022 |
+| Aceites de Oliva y Vinos | INA204 | Medio | LO 3/2022 |
+| Panadería, Repostería y Confitería | INA207 | Medio | LO 3/2022 |
+| Procesos y Calidad en la Industria Alimentaria | INA301 | Superior | LO 3/2022 |
+| Vitivinicultura | INA302 | Superior | LO 3/2022 |
 
 Además, el **catálogo completo de Aragón** (150 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas. De ellos, **139 tienen ya la correspondencia módulo ↔ estándar de competencia** descargada de esa misma herramienta (2.930 filas), así que convalidan por unidades de competencia acreditadas; lo que les falta es el anexo de convalidaciones con títulos anteriores, que hay que leer del BOE. La web lo avisa en pantalla, porque esas correspondencias no están contrastadas con el anexo V de cada real decreto.
 
