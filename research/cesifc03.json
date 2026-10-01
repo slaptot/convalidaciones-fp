@@ -1,28 +1,28 @@
 {
  "ciclo": {
-  "codigo": "CESTMV02",
-  "nombre": "Aeronaves pilotadas de forma remota - drones",
+  "codigo": "CESIFC03",
+  "nombre": "Desarrollo de Videojuegos y Realidad Virtual",
   "grado": "superior",
-  "familia": "Transporte y Mantenimiento de Vehículos",
+  "familia": "Informática y Comunicaciones",
   "plan": "LOE",
   "parcial": true,
   "normas": [
    {
     "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
     "url": "https://centrosdocentes.catedu.es/awc/",
-    "nota": "Módulos y horas del currículo de Aragón para Aeronaves pilotadas de forma remota - drones."
+    "nota": "Módulos y horas del currículo de Aragón para Desarrollo de Videojuegos y Realidad Virtual."
    }
   ],
-  "duracion_total_horas": 500
+  "duracion_total_horas": 600
  },
  "modulos": [
   {
-   "codigo": "5091",
-   "nombre": "Sistemas aéreos no tripulados",
+   "codigo": "5048",
+   "nombre": "Programación y motores de videojuegos",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 80,
+    "aragon": 146,
     "mefp": null,
     "loe": null
    },
@@ -33,12 +33,12 @@
    }
   },
   {
-   "codigo": "5092",
-   "nombre": "Partes y componentes",
+   "codigo": "5049",
+   "nombre": "Diseño gráfico 2d y 3d",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 50,
+    "aragon": 136,
     "mefp": null,
     "loe": null
    },
@@ -49,12 +49,12 @@
    }
   },
   {
-   "codigo": "5093",
-   "nombre": "Electrónica y sistemas",
+   "codigo": "5050",
+   "nombre": "Programación en red e inteligencia artificial",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 90,
+    "aragon": 91,
     "mefp": null,
     "loe": null
    },
@@ -65,12 +65,12 @@
    }
   },
   {
-   "codigo": "5094",
-   "nombre": "Configuración y control",
+   "codigo": "5051",
+   "nombre": "Realidad virtual y realidad aumentada",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 90,
+    "aragon": 91,
     "mefp": null,
     "loe": null
    },
@@ -81,44 +81,12 @@
    }
   },
   {
-   "codigo": "5095",
-   "nombre": "Mantenimiento y pruebas",
+   "codigo": "5052",
+   "nombre": "Diseño, gestión, publicación y producción",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 120,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   }
-  },
-  {
-   "codigo": "5096",
-   "nombre": "Aplicaciones profesionales",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 30,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   }
-  },
-  {
-   "codigo": "5097",
-   "nombre": "Legislación y procedimientos de aplicación",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 40,
+    "aragon": 136,
     "mefp": null,
     "loe": null
    },

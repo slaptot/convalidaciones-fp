@@ -1,88 +1,24 @@
 {
  "ciclo": {
-  "codigo": "CESTMV02",
-  "nombre": "Aeronaves pilotadas de forma remota - drones",
+  "codigo": "CESIFC04",
+  "nombre": "Recursos y Servicios en la Nube",
   "grado": "superior",
-  "familia": "Transporte y Mantenimiento de Vehículos",
+  "familia": "Informática y Comunicaciones",
   "plan": "LOE",
   "parcial": true,
   "normas": [
    {
     "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
     "url": "https://centrosdocentes.catedu.es/awc/",
-    "nota": "Módulos y horas del currículo de Aragón para Aeronaves pilotadas de forma remota - drones."
+    "nota": "Módulos y horas del currículo de Aragón para Recursos y Servicios en la Nube."
    }
   ],
   "duracion_total_horas": 500
  },
  "modulos": [
   {
-   "codigo": "5091",
-   "nombre": "Sistemas aéreos no tripulados",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 80,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   }
-  },
-  {
-   "codigo": "5092",
-   "nombre": "Partes y componentes",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 50,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   }
-  },
-  {
-   "codigo": "5093",
-   "nombre": "Electrónica y sistemas",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 90,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   }
-  },
-  {
-   "codigo": "5094",
-   "nombre": "Configuración y control",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 90,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   }
-  },
-  {
-   "codigo": "5095",
-   "nombre": "Mantenimiento y pruebas",
+   "codigo": "5160",
+   "nombre": "Fundamentos y configuración inicial de servicios en la nube",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
@@ -97,12 +33,12 @@
    }
   },
   {
-   "codigo": "5096",
-   "nombre": "Aplicaciones profesionales",
+   "codigo": "5161",
+   "nombre": "Administración de recursos de computación en la nube",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 30,
+    "aragon": 90,
     "mefp": null,
     "loe": null
    },
@@ -113,12 +49,44 @@
    }
   },
   {
-   "codigo": "5097",
-   "nombre": "Legislación y procedimientos de aplicación",
+   "codigo": "5162",
+   "nombre": "Administración de bases de datos y almacenamiento en la nube",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 40,
+    "aragon": 140,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "5163",
+   "nombre": "Administración de redes en la nube",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 90,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "5164",
+   "nombre": "Despliegue de servicios administrados en la nube",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 60,
     "mefp": null,
     "loe": null
    },

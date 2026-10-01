@@ -4,25 +4,13 @@
   "nombre": "Industrias Alimentarias",
   "grado": "basico",
   "familia": "Industrias Alimentarias",
-  "duracion_total_horas": 2000,
+  "plan": "LOE",
+  "parcial": true,
   "normas": [
    {
-    "ref": "RD 127/2014",
-    "boe": "BOE-A-2014-2360",
-    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-2360",
-    "nota": "Establece el título. Modificado por RD 498/2024."
-   },
-   {
-    "ref": "RD 498/2024",
-    "boe": "BOE-A-2024-10683",
-    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10683",
-    "nota": "Adaptación de TODOS los títulos de grado básico a la LO 3/2022 y al RD 659/2023."
-   },
-   {
-    "ref": "RD 659/2023",
-    "boe": "BOE-A-2023-16889",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
-    "nota": "Ordenación del Sistema de FP. Art. 85: ciclos grado básico constan de tres ámbitos más Proyecto intermodular."
+    "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
+    "url": "https://centrosdocentes.catedu.es/awc/",
+    "nota": "Módulos y horas del currículo de Aragón para Industrias Alimentarias."
    }
   ]
  },
@@ -30,211 +18,257 @@
   {
    "codigo": "3070",
    "nombre": "Operaciones auxiliares de almacenaje",
-   "horas": 133,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 2,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "especifico",
+   "horas": {
     "aragon": 133,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "3133",
    "nombre": "Operaciones auxiliares en la industria alimentaria",
-   "horas": 133,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 1,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "especifico",
+   "horas": {
     "aragon": 133,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "3134",
    "nombre": "Elaboración de productos alimentarios",
-   "horas": 267,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 1,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "especifico",
+   "horas": {
     "aragon": 267,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "3135",
    "nombre": "Limpieza y mantenimiento de instalaciones y equipos",
-   "horas": 167,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 1,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "especifico",
+   "horas": {
     "aragon": 167,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "3136",
    "nombre": "Operaciones básicas de laboratorio",
-   "horas": 200,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 2,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "especifico",
+   "horas": {
     "aragon": 200,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "3159",
    "nombre": "Itinerario personal para la empleabilidad",
-   "horas": 67,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 1,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "ipe_gb",
+   "horas": {
     "aragon": 67,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "3160",
    "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
-   "horas": 67,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 2,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "proyecto",
+   "horas": {
     "aragon": 67,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "3161",
    "nombre": "Ámbito de Comunicación y ciencias sociales I",
-   "horas": 133,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 1,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "ambito_comunicacion",
+   "horas": {
     "aragon": 133,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "3162",
    "nombre": "Ámbito de Comunicación y ciencias sociales II",
-   "horas": 133,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 2,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "ambito_comunicacion",
+   "horas": {
     "aragon": 133,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "3163",
    "nombre": "Ámbito de Ciencias Aplicadas I",
-   "horas": 133,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 1,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "ambito_ciencias",
+   "horas": {
     "aragon": 133,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "3164",
    "nombre": "Ámbito de Ciencias Aplicadas II",
-   "horas": 133,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 2,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "ambito_ciencias",
+   "horas": {
     "aragon": 133,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "A123",
    "nombre": "Prevención de riesgos laborales",
-   "horas": 33,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 1,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "prl_aragon",
+   "horas": {
     "aragon": 33,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "A134",
    "nombre": "Elaboración de productos alimentarios propios de la Comunidad Autónoma de Aragón",
-   "horas": 267,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 2,
    "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "especifico",
+   "horas": {
     "aragon": 267,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "A998",
    "nombre": "Tutoría I",
-   "horas": 67,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 1,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "tutoria",
+   "horas": {
     "aragon": 67,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
    }
   },
   {
    "codigo": "A999",
    "nombre": "Tutoría II",
-   "horas": 67,
-   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
-   "curso": 2,
    "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
+   "comun": "tutoria",
+   "horas": {
     "aragon": 67,
-    "mefp": {}
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
    }
   }
  ],
  "convalidaciones_titulos_anteriores": [],
+ "convalidaciones_loe": [],
  "uc_a_modulos": [],
- "modulos_a_uc": [],
  "uc_descripciones": {},
- "cualificaciones": [],
+ "uc_equivalencias": {},
  "notas": [
-  "Ciclo de grado básico de Industrias Alimentarias. Datos extraídos de catálogo de Aragón.",
-  "Módulos y horas según currículo de Aragón vigente (Orden ECD/841/2024)."
+  "Datos extraídos del catálogo de CATEDU (Gobierno de Aragón).",
+  "Esta ficha requiere verificación de RD y normativa correspondiente."
  ],
  "no_verificado": [
-  "No se ha abierto el currículo LOE completo.",
-  "No se han verificado todas las convalidaciones con títulos LOGSE.",
-  "Faltan descripciones de UC y cualificaciones profesionales."
+  "Ciclo del catálogo: solo se aplican las reglas generales.",
+  "Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.",
+  "Faltan RD y currículo de los ámbitos no profesionales.",
+  "Denominación y horas según la herramienta de CATEDU; conviene contrastarlas con el RD del título."
  ]
 }

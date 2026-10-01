@@ -1,28 +1,28 @@
 {
  "ciclo": {
-  "codigo": "CESTMV02",
-  "nombre": "Aeronaves pilotadas de forma remota - drones",
+  "codigo": "CESIFC01",
+  "nombre": "Ciberseguridad en Entornos de las Tecnologías de la Información",
   "grado": "superior",
-  "familia": "Transporte y Mantenimiento de Vehículos",
+  "familia": "Informática y Comunicaciones",
   "plan": "LOE",
   "parcial": true,
   "normas": [
    {
     "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
     "url": "https://centrosdocentes.catedu.es/awc/",
-    "nota": "Módulos y horas del currículo de Aragón para Aeronaves pilotadas de forma remota - drones."
+    "nota": "Módulos y horas del currículo de Aragón para Ciberseguridad en Entornos de las Tecnologías de la Información."
    }
   ],
-  "duracion_total_horas": 500
+  "duracion_total_horas": 720
  },
  "modulos": [
   {
-   "codigo": "5091",
-   "nombre": "Sistemas aéreos no tripulados",
+   "codigo": "5021",
+   "nombre": "Incidentes de ciberseguridad",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 80,
+    "aragon": 144,
     "mefp": null,
     "loe": null
    },
@@ -33,12 +33,12 @@
    }
   },
   {
-   "codigo": "5092",
-   "nombre": "Partes y componentes",
+   "codigo": "5022",
+   "nombre": "Bastionado de redes y sistemas",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 50,
+    "aragon": 171,
     "mefp": null,
     "loe": null
    },
@@ -49,12 +49,12 @@
    }
   },
   {
-   "codigo": "5093",
-   "nombre": "Electrónica y sistemas",
+   "codigo": "5023",
+   "nombre": "Puesta en producción segura",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 90,
+    "aragon": 117,
     "mefp": null,
     "loe": null
    },
@@ -65,12 +65,12 @@
    }
   },
   {
-   "codigo": "5094",
-   "nombre": "Configuración y control",
+   "codigo": "5024",
+   "nombre": "Análisis forense informático",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 90,
+    "aragon": 117,
     "mefp": null,
     "loe": null
    },
@@ -81,12 +81,12 @@
    }
   },
   {
-   "codigo": "5095",
-   "nombre": "Mantenimiento y pruebas",
+   "codigo": "5025",
+   "nombre": "Hacking ético",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 120,
+    "aragon": 117,
     "mefp": null,
     "loe": null
    },
@@ -97,28 +97,12 @@
    }
   },
   {
-   "codigo": "5096",
-   "nombre": "Aplicaciones profesionales",
+   "codigo": "5026",
+   "nombre": "Normativa de ciberseguridad",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 30,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   }
-  },
-  {
-   "codigo": "5097",
-   "nombre": "Legislación y procedimientos de aplicación",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 40,
+    "aragon": 54,
     "mefp": null,
     "loe": null
    },

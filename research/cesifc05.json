@@ -1,28 +1,28 @@
 {
  "ciclo": {
-  "codigo": "CESTMV02",
-  "nombre": "Aeronaves pilotadas de forma remota - drones",
+  "codigo": "CESIFC05",
+  "nombre": "Desarrollo de Aplicaciones en Lenguaje Python",
   "grado": "superior",
-  "familia": "Transporte y Mantenimiento de Vehículos",
+  "familia": "Informática y Comunicaciones",
   "plan": "LOE",
   "parcial": true,
   "normas": [
    {
     "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
     "url": "https://centrosdocentes.catedu.es/awc/",
-    "nota": "Módulos y horas del currículo de Aragón para Aeronaves pilotadas de forma remota - drones."
+    "nota": "Módulos y horas del currículo de Aragón para Desarrollo de Aplicaciones en Lenguaje Python."
    }
   ],
-  "duracion_total_horas": 500
+  "duracion_total_horas": 430
  },
  "modulos": [
   {
-   "codigo": "5091",
-   "nombre": "Sistemas aéreos no tripulados",
+   "codigo": "5098",
+   "nombre": "Entornos y sintaxis en Python",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 80,
+    "aragon": 60,
     "mefp": null,
     "loe": null
    },
@@ -33,24 +33,8 @@
    }
   },
   {
-   "codigo": "5092",
-   "nombre": "Partes y componentes",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 50,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   }
-  },
-  {
-   "codigo": "5093",
-   "nombre": "Electrónica y sistemas",
+   "codigo": "5099",
+   "nombre": "Estructuras de control en Python",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
@@ -65,12 +49,12 @@
    }
   },
   {
-   "codigo": "5094",
-   "nombre": "Configuración y control",
+   "codigo": "5100",
+   "nombre": "Programación orientada a objetos",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 90,
+    "aragon": 150,
     "mefp": null,
     "loe": null
    },
@@ -81,44 +65,12 @@
    }
   },
   {
-   "codigo": "5095",
-   "nombre": "Mantenimiento y pruebas",
+   "codigo": "5101",
+   "nombre": "Análisis de datos con Python",
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": 120,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   }
-  },
-  {
-   "codigo": "5096",
-   "nombre": "Aplicaciones profesionales",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 30,
-    "mefp": null,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": null,
-    "loe": null
-   }
-  },
-  {
-   "codigo": "5097",
-   "nombre": "Legislación y procedimientos de aplicación",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 40,
+    "aragon": 130,
     "mefp": null,
     "loe": null
    },

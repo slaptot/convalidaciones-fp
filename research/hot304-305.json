@@ -1,0 +1,386 @@
+{
+ "ciclo": {
+  "codigo": "HOT304-305",
+  "nombre": "Dirección de Servicios en Restauración/Dirección de Cocina",
+  "grado": "superior",
+  "familia": "Hostelería y Turismo",
+  "plan": "LOE",
+  "parcial": true,
+  "normas": [
+   {
+    "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
+    "url": "https://centrosdocentes.catedu.es/awc/",
+    "nota": "Módulos y horas del currículo de Aragón para Dirección de Servicios en Restauración/Dirección de Cocina."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "tipo": "comun",
+   "comun": "ingles",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0180",
+   "nombre": "Segunda lengua extranjera",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 100,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 3,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0496",
+   "nombre": "Control del aprovisionamiento de materias primas",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0497",
+   "nombre": "Procesos de preelaboración y conservación en cocina",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0498",
+   "nombre": "Elaboraciones de pastelería y repostería en cocina",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0499",
+   "nombre": "Procesos de elaboración culinaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 267,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0500",
+   "nombre": "Gestión de la producción en cocina",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 300,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 3,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0501",
+   "nombre": "Gestión de la calidad y de la seguridad e higiene alimentaria",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0502",
+   "nombre": "Gastronomía y nutrición",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0503",
+   "nombre": "Gestión administrativa y comercial en restauración",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 3,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0504",
+   "nombre": "Recursos humanos y dirección de equipos en restauración",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 3,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0505",
+   "nombre": "Proyecto Intermodular de dirección de cocina",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 3,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0509",
+   "nombre": "Procesos de servicios en bar-cafetería",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0510",
+   "nombre": "Procesos de servicios en restaurante",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 333,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0511",
+   "nombre": "Sumillería",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 200,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0512",
+   "nombre": "Planificación y dirección de servicios y eventos en restauración",
+   "tipo": "especifico",
+   "comun": "especifico",
+   "horas": {
+    "aragon": 233,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 3,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "0513",
+   "nombre": "Proyecto Intermodular de dirección de servicios en restauración",
+   "tipo": "proyecto",
+   "comun": "proyecto",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 3,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "tipo": "comun",
+   "comun": "digitalizacion",
+   "horas": {
+    "aragon": 33,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 1,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "tipo": "comun",
+   "comun": "sostenibilidad",
+   "horas": {
+    "aragon": 33,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "tipo": "comun",
+   "comun": "ipe1",
+   "horas": {
+    "aragon": 100,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 2,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "tipo": "comun",
+   "comun": "ipe2",
+   "horas": {
+    "aragon": 67,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 3,
+    "mefp": null,
+    "loe": null
+   }
+  },
+  {
+   "codigo": "OPT",
+   "nombre": "Módulo profesional optativo",
+   "tipo": "optativo",
+   "comun": "optativo",
+   "horas": {
+    "aragon": 100,
+    "mefp": null,
+    "loe": null
+   },
+   "curso": {
+    "aragon": 3,
+    "mefp": null,
+    "loe": null
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "convalidaciones_loe": [],
+ "uc_a_modulos": [],
+ "uc_descripciones": {},
+ "uc_equivalencias": {},
+ "notas": [
+  "Datos extraídos del catálogo de CATEDU (Gobierno de Aragón).",
+  "Esta ficha requiere verificación de RD y normativa correspondiente."
+ ],
+ "no_verificado": [
+  "Ciclo del catálogo: solo se aplican las reglas generales.",
+  "Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.",
+  "Faltan RD y currículo de los ámbitos no profesionales.",
+  "Denominación y horas según la herramienta de CATEDU; conviene contrastarlas con el RD del título."
+ ]
+}
