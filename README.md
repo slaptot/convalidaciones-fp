@@ -106,6 +106,12 @@ Aplica reglas y tablas normativas, sin IA. Ciclos incluidos:
 | Realización de Proyectos de Audiovisuales y Espectáculos | IMS303 | Superior | LO 3/2022 |
 | Sonido para Audiovisuales y Espectáculos | IMS304 | Superior | LO 3/2022 |
 | Animaciones 3D, Juegos y Entornos Interactivos | IMS305 | Superior | LO 3/2022 |
+| Emergencias y Protección Civil | SEA201 | Medio | LO 3/2022 |
+| Seguridad | SEA202 | Medio | LO 3/2022 |
+| Educación y Control Ambiental | SEA301 | Superior | LO 3/2022 |
+| Coordinación de Emergencias y Protección Civil | SEA302 | Superior | LO 3/2022 |
+| Química y Salud Ambiental | SEA303 | Superior | LO 3/2022 |
+| Prevención de riesgos profesionales | SEA304 | Superior | LO 3/2022 |
 
 Además, el **catálogo completo de Aragón** (150 ciclos más, extraídos de la herramienta de CATEDU) está cargado con sus módulos y horas. De ellos, **139 tienen ya la correspondencia módulo ↔ estándar de competencia** descargada de esa misma herramienta (2.930 filas), así que convalidan por unidades de competencia acreditadas; lo que les falta es el anexo de convalidaciones con títulos anteriores, que hay que leer del BOE. La web lo avisa en pantalla, porque esas correspondencias no están contrastadas con el anexo V de cada real decreto.
 

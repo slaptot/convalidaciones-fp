@@ -797,3 +797,9 @@ assert.equal(est('ims202', titCat('ims301'))['1304'], 'convalidable');
 ['1298', '1299', '1300'].forEach((m) => assert.equal(est('ims202', titCat('ims304'))[m], 'convalidable', m));
 ['1008', '1109'].forEach((m) => assert.equal(est('com304', titCat('ims302'))[m], 'convalidable', m));
 console.log('OK: Imagen y Sonido, ciclos completos entre títulos');
+
+// Ciclos sin plan LOE cargado: se avisa en lugar de mostrar una tabla vacía sin explicación
+assert.ok(full('sea304', [], 'loe').avisos.some((a) => /no tiene cargado el plan LOE/.test(a)));
+assert.ok(!full('sea304', [], 'aragon').avisos.some((a) => /no tiene cargado el plan LOE/.test(a)));
+assert.ok(!full('ifc301', [], 'loe').avisos.some((a) => /no tiene cargado el plan LOE/.test(a)));
+console.log('OK: aviso de plan LOE no cargado');

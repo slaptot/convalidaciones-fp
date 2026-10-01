@@ -1,0 +1,807 @@
+{
+ "ciclo": {
+  "codigo": "SEA202",
+  "nombre": "Técnico en Seguridad",
+  "grado": "medio",
+  "familia": "Seguridad y Medio Ambiente",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 570/2023, de 4 de julio",
+    "boe": "BOE-A-2023-17167",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-17167",
+    "nota": "Establece el título de grado medio de Técnico en Seguridad (BOE núm. 177, de 26/07/2023, págs. 108621-108698; 2.000 h), título nuevo sin antecedente LOGSE, cuyo anexo IV recoge las convalidaciones hacia 0020 y 0156."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Sus tablas de 0020 Primeros auxilios (ciclo completo de Cuidados Auxiliares de Enfermería en el anexo II y de Emergencias Sanitarias en el anexo III) se aplican a este ciclo por la DA 5.ª y coinciden con el anexo IV del título."
+   },
+   {
+    "ref": "RD 499/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10684",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
+    "nota": "Adapta el título a la LO 3/2022 (art. primero.Dos.b), ciclos con inglés previo, ordinal 6.º): suprime 1681 FOL, 1682 EIE y 1683 FCT, convierte 0156 en Inglés Profesional (GM) y añade los demás módulos comunes, sin tocar los anexos IV, V A) y V B)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Anexo II-a: UC0403_2 → ECP2290_2 (familia SEA) y diez UC de inglés suprimidas (UC0807_2, UC0977_2, UC1002_2, UC1006_2, UC1051_2, UC1057_2, UC1111_2, UC2176_2, UC2194_2 y UC2217_2) → ECP9998_2."
+   },
+   {
+    "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+    "nota": "Currículo vigente de grado medio en Aragón (BOA núm. 148, de 31/07/2024): este ciclo está en el anexo XL."
+   },
+   {
+    "ref": "Orden EFD/657/2024, de 25 de junio (Ministerio)",
+    "boe": "BOE-A-2024-13179",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+    "nota": "Currículo del ámbito del Ministerio adaptado a la LO 3/2022: el anexo LIV trae la distribución horaria de este título, que añade en 2.º el módulo 1711 Inglés Profesional II (GM) de 60 h, inexistente en Aragón."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0020",
+   "nombre": "Primeros auxilios",
+   "horas": 35,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 60,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0156",
+   "nombre": "Inglés Profesional (GM)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo IX (currículo básico); en el RD 570/2023 era «0156. Inglés» (90 h) y el RD 499/2024 (art. cuarto.Tres) lo convierte en Inglés Profesional (GM)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1664",
+   "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VI (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1674",
+   "nombre": "Ordenamiento jurídico en seguridad",
+   "horas": 120,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 267,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 260,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1675",
+   "nombre": "Habilidades Sociopersonales",
+   "horas": 80,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1676",
+   "nombre": "Tecnología aplicada a la seguridad",
+   "horas": 60,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1677",
+   "nombre": "Acondicionamiento físico y defensa personal",
+   "horas": 35,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1678",
+   "nombre": "Vigilancia e intervención operativa básica en incendios",
+   "horas": 40,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1679",
+   "nombre": "Vigilancia y protección",
+   "horas": 135,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 367,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 310,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1680",
+   "nombre": "Guarderío rural, cinegético, fluvial y marítimo",
+   "horas": 100,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 260,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1713",
+   "nombre": "Proyecto intermodular",
+   "horas": 50,
+   "horas_fuente": "RD 499/2024 anexo II (currículo básico del proyecto intermodular, 50 h)",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "A996",
+   "nombre": "Tutoría II (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 anexo XL (no hay currículo básico estatal)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "A997",
+   "nombre": "Tutoría I (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/842/2024 anexo XL (no hay currículo básico estatal)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 499/2024 art. cuarto (nuevo art. 10.3 del RD del título) y RD 659/2023 anexo IV",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1681",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {}
+  },
+  {
+   "codigo": "1682",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {}
+  },
+  {
+   "codigo": "1683",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 570/2023 anexo I (aspectos básicos del currículo, 1.000 h = 50 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {}
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [
+  {
+   "origen_titulo": "Técnico en Cuidados Auxiliares de Enfermería (LOGSE, RD 546/1995, de 7 de abril)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0020"
+   ],
+   "fuente": "RD 570/2023 anexo IV a) (LOGSE→LOE), fila «Ciclo formativo completo de grado medio de Técnico en Cuidados Auxiliares de Enfermería → MP 0020. Primeros auxilios», que coincide con la tabla «Convalidaciones del módulo profesional 0020 Primeros auxilios» del anexo II del RD 1085/2020."
+  },
+  {
+   "origen_titulo": "Técnico en Emergencias Sanitarias (LOE, RD 1397/2007, de 29 de octubre)",
+   "origen_modulo": "Ciclo completo",
+   "destino_modulos": [
+    "0020"
+   ],
+   "fuente": "RD 570/2023 anexo IV b) (LOE→LOE), fila «Ciclo formativo completo de grado medio de Técnico en Emergencias sanitarias → MP 0020. Primeros auxilios», que coincide con el anexo III del RD 1085/2020 (tabla «Para determinados ciclos formativos»)."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Acondicionamiento Físico (LOE, RD 651/2017, de 23 de junio)",
+   "origen_modulo": "1136. Valoración de la condición física e intervención en accidentes",
+   "destino_modulos": [
+    "0020"
+   ],
+   "fuente": "RD 570/2023 anexo IV b) (LOE→LOE), fila «1136. Valoración de la condición física e intervención en accidentes (Acondicionamiento físico; Enseñanza y animación sociodeportiva) → MP 0020. Primeros auxilios»."
+  },
+  {
+   "origen_titulo": "Técnico Superior en Enseñanza y Animación Sociodeportiva (LOE, RD 653/2017, de 23 de junio)",
+   "origen_modulo": "1136. Valoración de la condición física e intervención en accidentes",
+   "destino_modulos": [
+    "0020"
+   ],
+   "fuente": "RD 570/2023 anexo IV b) (LOE→LOE), fila «1136. Valoración de la condición física e intervención en accidentes (Acondicionamiento físico; Enseñanza y animación sociodeportiva) → MP 0020. Primeros auxilios»."
+  },
+  {
+   "origen_titulo": "Técnico en Guía en el medio natural y de tiempo libre (LOE, RD 402/2020)",
+   "origen_modulo": "1337. Socorrismo en el medio natural",
+   "destino_modulos": [
+    "0020"
+   ],
+   "fuente": "RD 570/2023 anexo IV b) (LOE→LOE), fila «MP 1337. Socorrismo en el medio natural (Guía en el medio natural y de tiempo libre) → MP 0020. Primeros auxilios»."
+  }
+ ],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC9998_2"
+   ],
+   "modulos": [
+    "0156"
+   ],
+   "vigente": true,
+   "fuente": "RD 570/2023 anexo V A) (redacción original; el RD 499/2024 no lo modifica)."
+  },
+  {
+   "uc": [
+    "UC1966_2",
+    "UC0272_2",
+    "UC2290_2"
+   ],
+   "modulos": [
+    "1678"
+   ],
+   "vigente": true,
+   "fuente": "RD 570/2023 anexo V A) (redacción original; el RD 499/2024 no lo modifica). La celda reúne varias UC: hacen falta todas."
+  },
+  {
+   "uc": [
+    "UC0080_2",
+    "UC0081_2",
+    "UC0082_2"
+   ],
+   "modulos": [
+    "1679"
+   ],
+   "vigente": true,
+   "fuente": "RD 570/2023 anexo V A) (redacción original; el RD 499/2024 no lo modifica). La celda reúne varias UC: hacen falta todas."
+  },
+  {
+   "uc": [
+    "UC0405_2",
+    "UC0406_2",
+    "UC0407_2"
+   ],
+   "modulos": [
+    "1680"
+   ],
+   "vigente": true,
+   "fuente": "RD 570/2023 anexo V A) (redacción original; el RD 499/2024 no lo modifica). La celda reúne varias UC: hacen falta todas."
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0156"
+   ],
+   "uc": [
+    "UC9998_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 570/2023 anexo V B) (redacción original; el RD 499/2024 no lo modifica)."
+  },
+  {
+   "modulos": [
+    "1678"
+   ],
+   "uc": [
+    "UC1966_2",
+    "UC0272_2",
+    "UC2290_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 570/2023 anexo V B) (redacción original; el RD 499/2024 no lo modifica)."
+  },
+  {
+   "modulos": [
+    "1679"
+   ],
+   "uc": [
+    "UC0080_2",
+    "UC0081_2",
+    "UC0082_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 570/2023 anexo V B) (redacción original; el RD 499/2024 no lo modifica)."
+  },
+  {
+   "modulos": [
+    "1680"
+   ],
+   "uc": [
+    "UC0405_2",
+    "UC0406_2",
+    "UC0407_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 570/2023 anexo V B) (redacción original; el RD 499/2024 no lo modifica)."
+  }
+ ],
+ "equivalencias_uc": {
+  "UC0403_2": [
+   "ECP2290_2"
+  ],
+  "UC0807_2": [
+   "ECP9998_2"
+  ],
+  "UC0977_2": [
+   "ECP9998_2"
+  ],
+  "UC1002_2": [
+   "ECP9998_2"
+  ],
+  "UC1006_2": [
+   "ECP9998_2"
+  ],
+  "UC1051_2": [
+   "ECP9998_2"
+  ],
+  "UC1057_2": [
+   "ECP9998_2"
+  ],
+  "UC1111_2": [
+   "ECP9998_2"
+  ],
+  "UC2176_2": [
+   "ECP9998_2"
+  ],
+  "UC2194_2": [
+   "ECP9998_2"
+  ],
+  "UC2217_2": [
+   "ECP9998_2"
+  ]
+ },
+ "uc_descripciones": {
+  "UC0080_2": "«Efectuar la vigilancia y protección de bienes y personas en espacios delimitados y del transporte de fondos y objetos valiosos» [ECP0080_2]. Cualificación SEA029_2.",
+  "UC0081_2": "«Efectuar el acompañamiento, defensa y protección de persona o grupos concretos» [ECP0081_2]. Cualificación SEA029_2.",
+  "UC0082_2": "«Efectuar la vigilancia y protección de fábricas, depósitos y transporte de explosivos, armas, cartuchería y sustancias peligrosas» [ECP0082_2]. Cualificación SEA029_2.",
+  "UC0272_2": "«Asistir como primer interviniente en caso de accidente o situación de emergencia» [ECP0272_2]. Cualificación SEA029_2.",
+  "UC0405_2": "«Efectuar la vigilancia y protección de personas, bienes, instalaciones agroforestales, industriales o comerciales en fincas rústicas» [ECP0405_2]. Cualificación SEA130_2.",
+  "UC0406_2": "«Efectuar la vigilancia, protección y conservación de los aspectos del régimen cinegético en fincas de caza y espacios de pesca fluvial» [ECP0406_2]. Cualificación SEA130_2.",
+  "UC0407_2": "«Efectuar la vigilancia y protección de los establecimientos de acuicultura y zonas marítimas con fines pesqueros» [ECP0407_2]. Cualificación SEA130_2.",
+  "UC2290_2": "«Realizar las operaciones de prevención y las acciones de contención en sucesos descontrolados de origen natural y tecnológico» [ECP2290_2]. Cualificación SEA676_2.",
+  "UC1966_2": "«Realizar labores de apoyo en contingencias en el medio natural y rural» [ECP1966_2]. Cualificación SEA595_2.",
+  "UC9998_2": "«Comunicarse en lengua inglesa con un nivel de usuario básico (A2), según el marco común europeo de referencia para las lenguas, en el ámbito profesional» [ECP9998_2]. Cualificación ADG307_2."
+ },
+ "cualificaciones": [
+  {
+   "codigo": "SEA029_2",
+   "nombre": "Vigilancia y seguridad privada",
+   "completa": true,
+   "uc": [
+    "UC0080_2",
+    "UC0081_2",
+    "UC0082_2",
+    "UC0272_2"
+   ],
+   "norma": "RD 932/2020"
+  },
+  {
+   "codigo": "SEA130_2",
+   "nombre": "Guarderío rural, cinegético y marítimo",
+   "completa": true,
+   "uc": [
+    "UC0405_2",
+    "UC0406_2",
+    "UC0407_2",
+    "UC0272_2"
+   ],
+   "norma": "RD 932/2020"
+  },
+  {
+   "codigo": "SEA676_2",
+   "nombre": "Prevención, extinción de incendios y salvamento",
+   "completa": false,
+   "uc": [
+    "UC2290_2"
+   ],
+   "norma": "RD 932/2020"
+  },
+  {
+   "codigo": "SEA595_2",
+   "nombre": "Operaciones de vigilancia y extinción de incendios forestales y apoyo a contingencias en el medio natural y rural",
+   "completa": false,
+   "uc": [
+    "UC1966_2",
+    "UC0272_2"
+   ],
+   "norma": "RD 1031/2011"
+  },
+  {
+   "codigo": "ADG307_2",
+   "nombre": "Actividades administrativas de recepción y relación con el cliente",
+   "completa": false,
+   "uc": [
+    "UC9998_2"
+   ],
+   "norma": "RD 107/2008"
+  }
+ ],
+ "notas": [
+  "«horas» es la duración del currículo básico estatal; «horas_otras.aragon» sale de research/catalogo-aragon.json y «horas_otras.mefp» del anexo del ciclo en la orden del Ministerio.",
+  "Denominación, familia y 17 módulos confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=SEA202).",
+  "Las filas de inglés del anexo IV (lengua extranjera LOGSE, 0179, certificado B1 de EOI o grado en Filología → 0156) no se escriben: las cubren las reglas generales.",
+  "DA 3.ª.1 del RD 570/2023: el título es la formación requerida para vigilantes de seguridad, vigilantes de explosivos, escoltas privados, guardas rurales, guardas de caza y guardapescas marítimos (Ley 5/2014, art. 29.1.a).",
+  "Solo 0156, 1678, 1679 y 1680 tienen correspondencia con UC; 0020, 1674, 1675, 1676 y 1677 no figuran en los anexos V A) y V B)."
+ ],
+ "no_verificado": [
+  "No se ha localizado un currículo LOE de Aragón anterior a la Orden ECD/842/2024 para este ciclo, por lo que los módulos no llevan «loe».",
+  "El RD del título no tiene texto consolidado en la API del BOE (404): se ha usado el XML del diario (https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-17167) y las modificaciones se han leído en el RD 499/2024.",
+  "Los reales decretos de los títulos de origen (546/1995, 1397/2007, 651/2017, 653/2017 y 402/2020) no se han abierto: el anexo IV solo da la denominación del ciclo y los números se toman de otras fichas del proyecto."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "El anexo IV del RD 570/2023 sigue vigente (título posterior al 05/03/2017) y el RD 1085/2020 no deroga ninguna de sus filas.",
+  "filas": []
+ },
+ "equivalencias_motor": {
+  "UC0403_2": [
+   "UC2290_2"
+  ],
+  "UC0807_2": [
+   "UC9998_2"
+  ],
+  "UC0977_2": [
+   "UC9998_2"
+  ],
+  "UC1002_2": [
+   "UC9998_2"
+  ],
+  "UC1006_2": [
+   "UC9998_2"
+  ],
+  "UC1051_2": [
+   "UC9998_2"
+  ],
+  "UC1057_2": [
+   "UC9998_2"
+  ],
+  "UC1111_2": [
+   "UC9998_2"
+  ],
+  "UC2176_2": [
+   "UC9998_2"
+  ],
+  "UC2194_2": [
+   "UC9998_2"
+  ],
+  "UC2217_2": [
+   "UC9998_2"
+  ]
+ },
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": [
+  {
+   "descripcion": "Ciclo completo de Emergencias Sanitarias → 0020; no 1678",
+   "aporta": [
+    {
+     "tipo": "titulo",
+     "titulo": "Técnico en Emergencias Sanitarias",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0020": "convalidable"
+   },
+   "no_espera": {
+    "1678": "convalidable",
+    "1679": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Ciclo completo LOGSE de Cuidados Auxiliares de Enfermería → 0020",
+   "aporta": [
+    {
+     "tipo": "titulo",
+     "titulo": "Técnico en Cuidados Auxiliares de Enfermería",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0020": "convalidable"
+   },
+   "no_espera": {
+    "1675": "convalidable"
+   }
+  },
+  {
+   "descripcion": "LOE: 1136 de Acondicionamiento Físico → 0020",
+   "aporta": [
+    {
+     "tipo": "modulo_loe",
+     "codigo": "1136",
+     "nombre": "Valoración de la condición física e intervención en accidentes",
+     "titulo": "Técnico Superior en Acondicionamiento Físico",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "0020": "convalidable"
+   },
+   "no_espera": {
+    "1677": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0080_2 + UC0081_2 no convalidan 1679 (falta UC0082_2)",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0080_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0081_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {},
+   "no_espera": {
+    "1679": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC0080_2 + UC0081_2 + UC0082_2 → 1679; UC1966_2 + UC0272_2 + UC0403_2 (equivale a UC2290_2) → 1678",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC0080_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0081_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0082_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1966_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0272_2",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC0403_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "1679": "convalidable",
+    "1678": "convalidable"
+   },
+   "no_espera": {
+    "1680": "convalidable"
+   }
+  }
+ ]
+}

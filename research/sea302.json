@@ -1,0 +1,759 @@
+{
+ "ciclo": {
+  "codigo": "SEA302",
+  "nombre": "Técnico Superior en Coordinación de Emergencias y Protección Civil",
+  "grado": "superior",
+  "familia": "Seguridad y Medio Ambiente",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 906/2013, de 22 de noviembre",
+    "boe": "BOE-A-2013-13163",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-13163",
+    "nota": "Establece el título (BOE núm. 301, de 17/12/2013, págs. 99337-99431; 2.000 h); no declara título LOGSE equivalente ni trae anexo de convalidaciones entre títulos."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "No contiene ningún bloque ni fila con este título ni con sus módulos 1501 a 1511, ni como origen ni como destino."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "nota": "Adapta el título a la LO 3/2022 (art. primero.Dos.a), ordinal 54.º): suprime 1512 FOL, 1513 EIE y 1514 FCT, renombra el proyecto 1511 y añade los módulos comunes y el optativo, sin tocar el art. 6 ni los anexos IV A) y IV B)."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
+    "nota": "Anexo II-a (familia SEA): UC1970_2 → ECP2519_2 sin requisitos adicionales, y anexo II-b a la inversa (ECP2519_2 → UC1970_2)."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+    "nota": "Currículo vigente de grado superior en Aragón (BOA núm. 148, de 31/07/2024): este ciclo está en el anexo LXII y la orden deroga la Orden ECD/1359/2018, de 31 de julio (currículo LOE)."
+   },
+   {
+    "ref": "Orden EFD/659/2024, de 25 de junio (Ministerio)",
+    "boe": "BOE-A-2024-13181",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+    "nota": "Currículo del ámbito del Ministerio adaptado a la LO 3/2022: el anexo LXXV trae la distribución horaria de este título."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0179",
+   "nombre": "Inglés Profesional (GS)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo X (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 70,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1501",
+   "nombre": "Planificación en emergencias y protección civil",
+   "horas": 90,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 190,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1502",
+   "nombre": "Evaluación de riesgos y medidas preventivas",
+   "horas": 90,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1503",
+   "nombre": "Planificación y desarrollo de acciones formativas, informativas y divulgativas en protección civil y emergencias",
+   "horas": 50,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1504",
+   "nombre": "Supervisión de la intervención en riesgos producidos por fenómenos naturales",
+   "horas": 60,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1505",
+   "nombre": "Supervisión de la intervención en riesgos tecnológicos y antrópicos",
+   "horas": 90,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 140,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1506",
+   "nombre": "Supervisión de la intervención en incendios forestales y quemas prescritas",
+   "horas": 90,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 140,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1507",
+   "nombre": "Supervisión de la intervención en operaciones de incendios urbanos y emergencias ordinarias",
+   "horas": 60,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 160,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1508",
+   "nombre": "Supervisión de la intervención en operaciones de salvamento y rescate",
+   "horas": 100,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 267,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 220,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1509",
+   "nombre": "Supervisión de las acciones de apoyo a las personas afectadas por desastres y catástrofes",
+   "horas": 80,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1510",
+   "nombre": "Gestión de recursos de emergencias y protección civil",
+   "horas": 60,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 130,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1511",
+   "nombre": "Proyecto intermodular de coordinación de emergencias y protección civil",
+   "horas": 25,
+   "horas_fuente": "RD 906/2013 anexo I (25 h como «Proyecto de coordinación de emergencias y protección civil»; renombrado por el RD 500/2024)",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 50,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1665",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 35,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 500/2024 art. cuarto.Uno.e) (nuevo art. 10.3 del RD del título) y RD 659/2023 anexo IV",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": 80,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1512",
+   "nombre": "Formación y orientación laboral",
+   "horas": 50,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {}
+  },
+  {
+   "codigo": "1513",
+   "nombre": "Empresa e iniciativa emprendedora",
+   "horas": 35,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": false,
+   "horas_otras": {}
+  },
+  {
+   "codigo": "1514",
+   "nombre": "Formación en centros de trabajo",
+   "horas": 220,
+   "horas_fuente": "RD 906/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
+   "curso": null,
+   "tipo": "empresa",
+   "vigente": false,
+   "horas_otras": {}
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [
+  {
+   "uc": [
+    "UC1751_3"
+   ],
+   "modulos": [
+    "1501"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV A) (redacción original; el RD 500/2024 no lo modifica)."
+  },
+  {
+   "uc": [
+    "UC1752_3",
+    "UC1968_3"
+   ],
+   "modulos": [
+    "1502"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV A) (redacción original; el RD 500/2024 no lo modifica). La celda reúne varias UC: hacen falta todas."
+  },
+  {
+   "uc": [
+    "UC1753_3",
+    "UC1968_3",
+    "UC1970_2"
+   ],
+   "modulos": [
+    "1503"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV A) (redacción original; el RD 500/2024 no lo modifica). La celda reúne varias UC: hacen falta todas."
+  },
+  {
+   "uc": [
+    "UC1754_3",
+    "UC1755_3",
+    "UC1970_2"
+   ],
+   "modulos": [
+    "1504",
+    "1505"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV A) (redacción original; el RD 500/2024 no lo modifica). La celda reúne varias UC: hacen falta todas."
+  },
+  {
+   "uc": [
+    "UC1968_3",
+    "UC1754_3",
+    "UC1970_2"
+   ],
+   "modulos": [
+    "1506",
+    "1507"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV A) (redacción original; el RD 500/2024 no lo modifica). La celda reúne varias UC: hacen falta todas."
+  },
+  {
+   "uc": [
+    "UC1969_3",
+    "UC1754_3",
+    "UC0272_2"
+   ],
+   "modulos": [
+    "1508",
+    "1509"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV A) (redacción original; el RD 500/2024 no lo modifica). La celda reúne varias UC: hacen falta todas."
+  },
+  {
+   "uc": [
+    "UC1967_3",
+    "UC1968_3"
+   ],
+   "modulos": [
+    "1510"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV A) (redacción original; el RD 500/2024 no lo modifica). La celda reúne varias UC: hacen falta todas."
+  }
+ ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "1501"
+   ],
+   "uc": [
+    "UC1751_3"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV B) (redacción original; el RD 500/2024 no lo modifica)."
+  },
+  {
+   "modulos": [
+    "1502"
+   ],
+   "uc": [
+    "UC1752_3",
+    "UC1968_3"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV B) (redacción original; el RD 500/2024 no lo modifica)."
+  },
+  {
+   "modulos": [
+    "1503"
+   ],
+   "uc": [
+    "UC1753_3",
+    "UC1968_3",
+    "UC1970_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV B) (redacción original; el RD 500/2024 no lo modifica)."
+  },
+  {
+   "modulos": [
+    "1504",
+    "1505"
+   ],
+   "uc": [
+    "UC1754_3",
+    "UC1755_3",
+    "UC1970_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV B) (redacción original; el RD 500/2024 no lo modifica). La celda reúne varios módulos: hacen falta todos."
+  },
+  {
+   "modulos": [
+    "1506",
+    "1507"
+   ],
+   "uc": [
+    "UC1968_3",
+    "UC1754_3",
+    "UC1970_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV B) (redacción original; el RD 500/2024 no lo modifica). La celda reúne varios módulos: hacen falta todos."
+  },
+  {
+   "modulos": [
+    "1508",
+    "1509"
+   ],
+   "uc": [
+    "UC1969_3",
+    "UC1754_3",
+    "UC0272_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV B) (redacción original; el RD 500/2024 no lo modifica). La celda reúne varios módulos: hacen falta todos."
+  },
+  {
+   "modulos": [
+    "1510"
+   ],
+   "uc": [
+    "UC1967_3",
+    "UC1968_3"
+   ],
+   "vigente": true,
+   "fuente": "RD 906/2013 anexo IV B) (redacción original; el RD 500/2024 no lo modifica)."
+  }
+ ],
+ "equivalencias_uc": {
+  "UC1970_2": [
+   "ECP2519_2"
+  ]
+ },
+ "uc_descripciones": {
+  "UC1751_3": "«Realizar operaciones de planificación de protección civil y emergencias en el ámbito de competencia asignado y participar en otros de superior nivel» [ECP1751_3]. Cualificación SEA536_3.",
+  "UC1752_3": "«Intervenir en la realización del catálogo de riesgos y fomentar el estudio de los mismos a entidades públicas o privadas en el ámbito de competencia asignado» [ECP1752_3]. Cualificación SEA536_3.",
+  "UC1753_3": "«Difundir y proponer medidas preventivas y de autoprotección corporativa y ciudadana en protección civil y emergencias en el ámbito de competencia asignada» [ECP1753_3]. Cualificación SEA536_3.",
+  "UC1754_3": "«Intervenir en las operaciones de protección civil y emergencias, previstas en los planes durante el transcurso de la emergencia» [ECP1754_3]. Cualificación SEA536_3.",
+  "UC1755_3": "«Participar en actividades destinadas a la rehabilitación de zonas afectadas por catástrofes en el ámbito de competencia asignada» [ECP1755_3]. Cualificación SEA536_3.",
+  "UC1967_3": "«Organizar los medios humanos y materiales de la unidad de intervención, en la lucha contra incendios forestales y apoyo a contingencias en el medio natural y rural» [ECP1967_3]. Cualificación SEA596_3.",
+  "UC1968_3": "«Planificar y coordinar las operaciones de vigilancia, detección, extinción y prevención de las unidades de intervención en incendios forestales» [ECP1968_3]. Cualificación SEA596_3.",
+  "UC1969_3": "«Coordinar las unidades de intervención en labores de apoyo a los grupos operativos de protección civil en contingencias en el medio natural y rural» [ECP1969_3]. Cualificación SEA596_3.",
+  "UC1970_2": "«Realizar las funciones de nivel básico para la prevención de riesgos laborales en el ámbito de la prevención y extinción de incendios forestales» (sin ECP del mismo número en el anexo I del RD 532/2025). Cualificación SEA596_3.",
+  "UC0272_2": "«Asistir como primer interviniente en caso de accidente o situación de emergencia» [ECP0272_2]. Cualificación SEA596_3."
+ },
+ "cualificaciones": [
+  {
+   "codigo": "SEA536_3",
+   "nombre": "Gestión y coordinación en protección civil y emergencia",
+   "completa": true,
+   "uc": [
+    "UC1751_3",
+    "UC1752_3",
+    "UC1753_3",
+    "UC1754_3",
+    "UC1755_3"
+   ],
+   "norma": "RD 1037/2011"
+  },
+  {
+   "codigo": "SEA596_3",
+   "nombre": "Coordinación de operaciones en incendios forestales y apoyo a contingencias en el medio rural",
+   "completa": true,
+   "uc": [
+    "UC1967_3",
+    "UC1968_3",
+    "UC1969_3",
+    "UC1970_2",
+    "UC0272_2"
+   ],
+   "norma": "RD 1031/2011"
+  }
+ ],
+ "notas": [
+  "«horas» es la duración del currículo básico estatal; «horas_otras.aragon» sale de research/catalogo-aragon.json y «horas_otras.mefp» del anexo del ciclo en la orden del Ministerio.",
+  "Denominación, familia y 17 módulos confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=SEA302).",
+  "No hay ninguna fila de títulos anteriores: ni el RD 906/2013 ni el RD 1085/2020 prevén convalidaciones de módulos LOGSE o LOE hacia este título, ni desde él.",
+  "Los anexos IV A) y IV B) siguen citando UC1970_2; «equivalencias_motor» traduce el estándar vigente ECP2519_2 a UC1970_2 (anexo II-b del RD 532/2025).",
+  "En las filas con dos módulos de destino (1504-1505, 1506-1507, 1508-1509) las tres UC de la celda convalidan ambos."
+ ],
+ "no_verificado": [
+  "No se ha abierto el currículo LOE de Aragón (Orden ECD/1359/2018, de 31 de julio, citada en la disposición derogatoria de la Orden ECD/843/2024), por lo que los módulos no llevan «loe» ni se dan horas de FOL, EIE y FCT del plan a extinguir.",
+  "El RD del título no tiene texto consolidado en la API del BOE (404): se ha usado el XML del diario (https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-13163) y las modificaciones se han leído en el RD 500/2024."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "El RD 906/2013 no tenía anexo de convalidaciones con títulos anteriores, de modo que no hay filas derogadas que el RD 1085/2020 deje de reproducir.",
+  "filas": []
+ },
+ "equivalencias_motor": {
+  "UC2519_2": [
+   "UC1970_2"
+  ]
+ },
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": [
+  {
+   "descripcion": "UC1751_3 → 1501; no 1502",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1751_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "1501": "convalidable"
+   },
+   "no_espera": {
+    "1502": "convalidable",
+    "1510": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC1752_3 sola no convalida 1502 (hace falta también UC1968_3)",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1752_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {},
+   "no_espera": {
+    "1502": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC1752_3 + UC1968_3 → 1502; 1510 exige UC1967_3",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1752_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1968_3",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "1502": "convalidable"
+   },
+   "no_espera": {
+    "1510": "convalidable",
+    "1503": "convalidable"
+   }
+  },
+  {
+   "descripcion": "UC1754_3 + UC1755_3 + UC1970_2 → 1504 y 1505; no 1506",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1754_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1755_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1970_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "1504": "convalidable",
+    "1505": "convalidable"
+   },
+   "no_espera": {
+    "1506": "convalidable",
+    "1507": "convalidable"
+   }
+  },
+  {
+   "descripcion": "Equivalencia RD 532/2025: UC2519_2 vale por UC1970_2 → 1504 y 1505",
+   "aporta": [
+    {
+     "tipo": "uc",
+     "codigo": "UC1754_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC1755_3",
+     "via": "acreditación",
+     "docs": []
+    },
+    {
+     "tipo": "uc",
+     "codigo": "UC2519_2",
+     "via": "acreditación",
+     "docs": []
+    }
+   ],
+   "espera": {
+    "1504": "convalidable",
+    "1505": "convalidable"
+   },
+   "no_espera": {
+    "1508": "convalidable"
+   }
+  }
+ ]
+}

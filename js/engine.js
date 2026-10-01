@@ -316,6 +316,8 @@
     }
 
     const avisosGlobales = [
+      ...(ambito === 'loe' && !ciclo.modulos.some((m) => m.horas && m.horas.loe != null)
+        ? ['Este ciclo no tiene cargado el plan LOE a extinguir (o el título nació ya con la LO 3/2022): elija uno de los planes de la LO 3/2022.'] : []),
       ...(ciclo.ciclo.parcial
         ? [ciclo.ciclo.competencias_catedu
             ? 'Ciclo del catálogo de Aragón: las correspondencias con estándares de competencia proceden de la herramienta de CATEDU y no se han contrastado con el anexo V del RD del título. Falta además el anexo de convalidaciones con títulos anteriores.'
