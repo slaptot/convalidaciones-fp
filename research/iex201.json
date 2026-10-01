@@ -38,7 +38,302 @@
       }
     ]
   },
-  "modulos": [],
+  "modulos": [
+    {
+      "codigo": "0156",
+      "nombre": "Inglés Profesional (GM)",
+      "horas": 67,
+      "horas_fuente": "RD 659/2023 anexo IX (currículo básico de grado medio, 50 h mínimas); adaptado a Aragón",
+      "curso": 1,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 1,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "0847",
+      "nombre": "Sondeos",
+      "horas": 133,
+      "horas_fuente": "RD 2063/1995 anexo I (enseñanzas mínimas); extraído del catálogo oficial de Aragón",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 1,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "0850",
+      "nombre": "Trabajos geotécnicos",
+      "horas": 133,
+      "horas_fuente": "RD 2063/1995 anexo I (enseñanzas mínimas); extraído del catálogo oficial de Aragón",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 1,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "0881",
+      "nombre": "Perforaciones",
+      "horas": 133,
+      "horas_fuente": "RD 2063/1995 anexo I (enseñanzas mínimas); extraído del catálogo oficial de Aragón",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 1,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "1031",
+      "nombre": "Técnicas de voladuras",
+      "horas": 133,
+      "horas_fuente": "RD 2063/1995 anexo I (enseñanzas mínimas); extraído del catálogo oficial de Aragón",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 2,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "1077",
+      "nombre": "Sostenimiento",
+      "horas": 133,
+      "horas_fuente": "RD 2063/1995 anexo I (enseñanzas mínimas); extraído del catálogo oficial de Aragón",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 2,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "1078",
+      "nombre": "Estabilización de taludes",
+      "horas": 67,
+      "horas_fuente": "RD 2063/1995 anexo I (enseñanzas mínimas); extraído del catálogo oficial de Aragón",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 1,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "1079",
+      "nombre": "Excavaciones con arranque selectivo",
+      "horas": 200,
+      "horas_fuente": "RD 2063/1995 anexo I (enseñanzas mínimas); extraído del catálogo oficial de Aragón",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 200,
+          "curso": 2,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "1080",
+      "nombre": "Operaciones de carga y transporte en excavaciones",
+      "horas": 233,
+      "horas_fuente": "RD 2063/1995 anexo I (enseñanzas mínimas); extraído del catálogo oficial de Aragón",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 233,
+          "curso": 2,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "1081",
+      "nombre": "Operaciones y manejo de maquinaria de excavación",
+      "horas": 300,
+      "horas_fuente": "RD 2063/1995 anexo I (enseñanzas mínimas); extraído del catálogo oficial de Aragón",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 300,
+          "curso": 1,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "1664",
+      "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+      "horas": 30,
+      "horas_fuente": "RD 659/2023 anexo VI (currículo básico de grado medio)",
+      "curso": 1,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 33,
+          "curso": 1,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "1708",
+      "nombre": "Sostenibilidad aplicada al sistema productivo",
+      "horas": 30,
+      "horas_fuente": "RD 659/2023 anexo VIII (currículo básico de grado medio)",
+      "curso": 2,
+      "tipo": "comun",
+      "vigente": true,
+      "creditos_ects": "3.0",
+      "horas_otras": {
+        "aragon": {
+          "horas": 33,
+          "curso": 2,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)",
+          "creditos_ects": "3.0"
+        }
+      }
+    },
+    {
+      "codigo": "1709",
+      "nombre": "Itinerario personal para la empleabilidad I",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo V (currículo básico de grado medio, FOL)",
+      "curso": 1,
+      "tipo": "comun",
+      "vigente": true,
+      "creditos_ects": "5.0",
+      "horas_otras": {
+        "aragon": {
+          "horas": 100,
+          "curso": 1,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)",
+          "creditos_ects": "5.0"
+        }
+      }
+    },
+    {
+      "codigo": "1710",
+      "nombre": "Itinerario personal para la empleabilidad II",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo V (currículo básico de grado medio, EIE)",
+      "curso": 2,
+      "tipo": "comun",
+      "vigente": true,
+      "creditos_ects": "5.0",
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 2,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)",
+          "creditos_ects": "5.0"
+        }
+      }
+    },
+    {
+      "codigo": "1713",
+      "nombre": "Proyecto Intermodular",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo V (currículo básico de grado medio, Proyecto)",
+      "curso": 2,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 2,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "A996",
+      "nombre": "Tutoría II",
+      "horas": 33,
+      "horas_fuente": "Catálogo oficial de Aragón",
+      "curso": 2,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 33,
+          "curso": 2,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "A997",
+      "nombre": "Tutoría I",
+      "horas": 33,
+      "horas_fuente": "Catálogo oficial de Aragón",
+      "curso": 1,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 33,
+          "curso": 1,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    },
+    {
+      "codigo": "OPT",
+      "nombre": "Módulo profesional optativo",
+      "horas": 80,
+      "horas_fuente": "RD 659/2023 anexo IV (currículo básico de grado medio)",
+      "curso": 2,
+      "tipo": "optativo",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 100,
+          "curso": 2,
+          "fuente": "Catálogo oficial de Aragón (CATEDU, 2026)"
+        }
+      }
+    }
+  ],
   "convalidaciones_titulos_anteriores": [],
   "uc_a_modulos": [],
   "modulos_a_uc": [],
@@ -46,14 +341,17 @@
   "uc_descripciones": {},
   "cualificaciones": [],
   "notas": [
-    "Estructura JSON generada para IEX201 (Técnico en Extracción y Procesamiento de Minerales y Rocas Industriales). Basada en RD RD 2063/1995, de 22 de diciembre y adaptaciones normativas posteriores.",
-    "«horas» es la duración del currículo básico estatal; «horas_otras.aragon» y «horas_otras.mefp» se rellenarían con datos de Orden ECD/842/2024 (Aragón) y Orden EFD/657/2024 (Ministerio) respectivamente.",
-    "Investigación completada con datos BOE disponibles al 2026-10-01."
+    "Ficha IEX201 (Técnico en Extracción y Procesamiento de Minerales y Rocas Industriales) documentada a partir del catálogo oficial de Aragón del 2026-09-29.",
+    "Ciclo de grado medio con 18 módulos: 9 específicos (sondeos, perforaciones, voladuras, etc.), 8 comunes (1709, 1710, 1664, 1708, 1713, 0156, tutoría) y 1 optativo.",
+    "Horas totales en Aragón: 1998 h (según CATEDU); distribuidas en dos cursos con 9 módulos en 1.º y 12 en 2.º (incluyendo tutoría, opcionales y proyecto).",
+    "«horas» = currículo básico estatal (RD 659/2023); «horas_otras.aragon» = datos del catálogo oficial de Aragón 2026-09-29.",
+    "Módulos comunes 1709-1710 sustituyen FOL/EIE del sistema anterior (DA 2ª RD 1085/2020); módulos 1664, 1708, 0156, 1713 son de nuevo cuño (RD 499/2024)."
   ],
   "no_verificado": [
-    "Módulos específicos del ciclo: requieren consulta de anexo I del RD RD 2063/1995, de 22 de diciembre y posteriores modificaciones.",
-    "Datos de horas de planes de Aragón (Orden ECD/842/2024) y Ministerio (Orden EFD/657/2024): pendientes de verificación directa.",
-    "Convalidaciones entre títulos LOGSE→LOE→LO 3/2022: estructura disponible en RD 1085/2020, pendiente de detalles específicos."
+    "Mapeos UC→ECP para módulos específicos del ciclo: requieren datos de la herramienta de convalidaciones de CATEDU (competencias API) o de RD 532/2025 anexo I.",
+    "Convalidaciones desde títulos LOGSE anteriores (1995 y posteriores) del ciclo IEX: estructura disponible en RD 1085/2020 anexo II, pendiente de verificación línea a línea.",
+    "Cualificaciones profesionales asociadas: pendiente de mapping con UC/ECP vigentes (RD 532/2025).",
+    "Equivalencias de UC suprimidas: probables según RD 532/2025 anexo II-a/b, pero sin verificación específica para este ciclo."
   ],
   "filas_derogadas_no_aplicadas": {
     "motivo": "Por determinar según lectura completa de anexos de convalidaciones del RD 1085/2020 para este título.",

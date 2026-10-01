@@ -5,57 +5,292 @@
     "grado": "superior",
     "familia": "Comercio y Marketing / Transporte y Logística",
     "duracion_total_horas": 2000,
+    "creditos_ects": 120,
     "normas": [
       {
         "ref": "RD 1572/2011, de 4 de noviembre",
         "boe": "BOE-A-2011-19437",
         "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19437",
-        "nota": "Establece el Título de Técnico Superior en Transporte y Logística y sus enseñanzas mínimas (BOE núm. 299, de 13/12/2011, págs. 133093-133168; 2.000 h; 120 ECTS)"
+        "nota": "Establece el Título de Técnico Superior en Transporte y Logística y sus enseñanzas mínimas (BOE núm. 299, de 13/12/2011, págs. 133093-133168; 2.000 h; 120 ECTS). Deroga el RD 1654/1994 (LOGSE Técnico Superior en Gestión del Transporte)."
       },
       {
         "ref": "Orden ECD/330/2012, de 15 de febrero",
         "boe": "BOE-A-2012-2677",
         "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2012-2677",
-        "nota": "Establece el currículo del ciclo formativo de Grado Superior de Técnico Superior en Transporte y Logística"
+        "nota": "Establece el currículo del ciclo formativo de Grado Superior de Técnico Superior en Transporte y Logística en el ámbito del Ministerio (LOE). Derogada por Orden EFD/659/2024."
       },
       {
         "ref": "RD 500/2024, de 21 de mayo",
         "boe": "BOE-A-2024-10685",
-        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10685",
-        "nota": "Modifica el RD 1572/2011 adaptando a LO 3/2022 para grado superior, ordinal TCP301 en anexo"
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+        "nota": "Adapta los títulos de grado superior a la LO 3/2022. TCP301 está en art. primero.Dos.c). Suprime FOL y FCT; proyecto pasa a 'Proyecto intermodular'; 0179 pasa a 'Inglés Profesional (GS)'; añade 1709, 1710, 1665, 1708 y optativo. Nueva redacción arts. 6 y 15. Implantación 2024-25."
       },
       {
         "ref": "RD 532/2025, de 24 de junio",
         "boe": "BOE-A-2025-13147",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
-        "nota": "Anexo II-a (familia TCP): equivalencias UC antiguas → UC nuevas / ECP"
+        "nota": "Integra UC del CNCP como Estándares de Competencia Profesional (ECP). Anexo I: catálogo UC→ECP; Anexos II-a/II-b: equivalencias antiguas→nuevas para familia COM (Comercio y Marketing)."
       },
       {
-        "ref": "Orden EFD/659/2024, de 25 de junio (Ministerio)",
+        "ref": "Orden EFD/659/2024, de 25 de junio",
         "boe": "BOE-A-2024-13181",
-        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-13181",
-        "nota": "Currículo del ámbito del Ministerio adaptado a la LO 3/2022 para grado superior, incluye ciclos formativos TCP301"
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13181",
+        "nota": "Currículo vigente del ámbito del Ministerio adaptado a LO 3/2022 para grado superior (BOE núm. 158, de 01/07/2024, anexo XIX letra n). TCP301: 1.º con 985 h y 2.º con 1.015 h, 30 sesiones semanales. Incluye 1712 Inglés Profesional II (60 h) y optativa(s) de 80 h. Deroga Orden ECD/330/2012."
+      },
+      {
+        "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+        "boe": null,
+        "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345326480505&type=pdf",
+        "nota": "Currículo vigente de Aragón para grado superior (BOA núm. 148, de 31/07/2024, csv BOA20240731004). TCP301/COM303 está en art. 1.2.e).4.º, art. 5.3.m) y anexo XIII: distribución horaria diurna. Deroga Orden de 21 de mayo de 2013."
+      },
+      {
+        "ref": "Decreto 107/2025, de 10 de septiembre (Aragón)",
+        "boe": null,
+        "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
+        "nota": "BOA núm. 181, de 18/09/2025. Renombra optativos comunes en Orden ECD/843/2024: A170→AOP1004, A171→AOP1002, A172→AOP1003, A173→AOP1001."
       }
     ]
   },
-  "modulos": [],
-  "convalidaciones_titulos_anteriores": [],
+  "modulos": [
+    {
+      "codigo": "0179",
+      "nombre": "Inglés Profesional (GS)",
+      "horas_aragon": 67,
+      "curso": 1,
+      "creditos_ects": 5.0,
+      "tipo": "común",
+      "nota": "Módulo común a grado superior (RD 659/2023, anexo X: mínimo 50 h). Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "0621",
+      "nombre": "Gestión administrativa del transporte y la logística",
+      "horas_aragon": 200,
+      "curso": 2,
+      "creditos_ects": 13.0,
+      "tipo": "específico",
+      "nota": "Módulo específico del ciclo TCP301 según RD 1572/2011. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "0622",
+      "nombre": "Transporte internacional de mercancías",
+      "horas_aragon": 200,
+      "curso": 1,
+      "creditos_ects": 13.0,
+      "tipo": "específico",
+      "nota": "Módulo específico del ciclo TCP301 según RD 1572/2011. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "0623",
+      "nombre": "Gestión económica y financiera de la empresa",
+      "horas_aragon": 167,
+      "curso": 1,
+      "creditos_ects": 13.0,
+      "tipo": "específico",
+      "nota": "Módulo específico del ciclo TCP301 según RD 1572/2011. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "0624",
+      "nombre": "Comercialización del transporte y la logística",
+      "horas_aragon": 133,
+      "curso": 2,
+      "creditos_ects": 8.0,
+      "tipo": "específico",
+      "nota": "Módulo específico del ciclo TCP301 según RD 1572/2011. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "0625",
+      "nombre": "Logística de almacenamiento",
+      "horas_aragon": 167,
+      "curso": 1,
+      "creditos_ects": 8.0,
+      "tipo": "específico",
+      "nota": "Módulo específico del ciclo TCP301 según RD 1572/2011. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "0626",
+      "nombre": "Logística de aprovisionamiento",
+      "horas_aragon": 133,
+      "curso": 2,
+      "creditos_ects": 7.0,
+      "tipo": "específico",
+      "nota": "Módulo específico del ciclo TCP301 según RD 1572/2011. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "0627",
+      "nombre": "Gestión administrativa del comercio internacional",
+      "horas_aragon": 267,
+      "curso": 1,
+      "creditos_ects": 13.0,
+      "tipo": "específico",
+      "nota": "Módulo específico del ciclo TCP301 según RD 1572/2011. Procede del título LOGSE RD 1653/1994 (Comercio Internacional modificado). Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "0628",
+      "nombre": "Organización del transporte de viajeros",
+      "horas_aragon": 133,
+      "curso": 2,
+      "creditos_ects": 6.0,
+      "tipo": "específico",
+      "nota": "Módulo específico del ciclo TCP301 según RD 1572/2011. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "0629",
+      "nombre": "Organización del transporte de mercancías",
+      "horas_aragon": 133,
+      "curso": 2,
+      "creditos_ects": 8.0,
+      "tipo": "específico",
+      "nota": "Módulo específico del ciclo TCP301 según RD 1572/2011. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "0630",
+      "nombre": "Proyecto Intermodular de transporte y logística",
+      "horas_aragon": 67,
+      "curso": 2,
+      "creditos_ects": 5.0,
+      "tipo": "específico",
+      "nota": "Proyecto intermodular sustituyendo al anterior módulo de proyecto (RD 500/2024). Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "1665",
+      "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+      "horas_aragon": 33,
+      "curso": 1,
+      "creditos_ects": 3.0,
+      "tipo": "común",
+      "nota": "Módulo común a grado superior (RD 659/2023, anexo VII: mínimo 30 h). Nuevo en RD 500/2024. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "1708",
+      "nombre": "Sostenibilidad aplicada al sistema productivo",
+      "horas_aragon": 33,
+      "curso": 2,
+      "creditos_ects": 3.0,
+      "tipo": "común",
+      "nota": "Módulo común a grado superior (RD 659/2023, anexo VIII: mínimo 30 h). Nuevo en RD 500/2024. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "1709",
+      "nombre": "Itinerario personal para la empleabilidad I",
+      "horas_aragon": 100,
+      "curso": 1,
+      "creditos_ects": 5.0,
+      "tipo": "común",
+      "nota": "Módulo común a grado superior (RD 659/2023, anexo V: mínimo 50 h). Nuevo en RD 500/2024. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "1710",
+      "nombre": "Itinerario personal para la empleabilidad II",
+      "horas_aragon": 67,
+      "curso": 2,
+      "creditos_ects": 5.0,
+      "tipo": "común",
+      "nota": "Módulo común a grado superior (RD 659/2023, anexo V: mínimo 50 h). Nuevo en RD 500/2024. Horas de Orden ECD/843/2024."
+    },
+    {
+      "codigo": "OPT",
+      "nombre": "Módulo profesional optativo",
+      "horas_aragon": 100,
+      "curso": 2,
+      "tipo": "optativo",
+      "nota": "Módulo optativo común a grado superior (RD 659/2023, anexo IV: 80 h). Redacción variable por Decreto 107/2025 (Aragón)."
+    }
+  ],
+  "convalidaciones_titulos_anteriores": [
+    {
+      "titulo_anterior": "Técnico Superior en Gestión del Transporte (LOGSE RD 1654/1994)",
+      "norma": "RD 1572/2011, art. 1.2 (derogación); RD 1085/2020, anexo II (convalidaciones LOGSE→LOE)",
+      "modulos_convalidables": [
+        {
+          "codigo_antiguo": "tcp_modulos_logse",
+          "codigo_nuevo": "especificar_con_anexo_iv_rd_1572",
+          "nota": "Pendiente consulta de anexo IV (derogado) de RD 1572/2011 y RD 1085/2020 anexo II."
+        }
+      ]
+    },
+    {
+      "titulo_anterior": "Técnico Superior en Comercio Internacional (LOGSE RD 1653/1994)",
+      "norma": "RD 1085/2020, anexo II, tabla Comercio y Marketing",
+      "modulos_convalidables": [
+        {
+          "codigo_antiguo": "0625",
+          "codigo_nuevo": "0625",
+          "nombre": "Logística de almacenamiento",
+          "nota": "Convalidación directa por código igual."
+        },
+        {
+          "codigo_antiguo": "0627",
+          "codigo_nuevo": "0627",
+          "nombre": "Gestión administrativa del comercio internacional",
+          "nota": "Convalidación directa por código igual."
+        },
+        {
+          "codigo_antiguo": "0622",
+          "codigo_nuevo": "0622",
+          "nombre": "Transporte internacional de mercancías",
+          "nota": "Convalidación directa por código igual."
+        }
+      ]
+    }
+  ],
   "uc_a_modulos": [],
   "modulos_a_uc": [],
   "equivalencias_uc": {},
   "uc_descripciones": {},
-  "cualificaciones": [],
+  "cualificaciones": [
+    {
+      "codigo": "COM315_3",
+      "nombre": "Gestión del transporte por carretera",
+      "horas_asociadas": "sin_especificar_pendiente_rd_109_2008",
+      "nota": "Cualificación asociada (RD 109/2008). Módulos: 0621, 0628, 0629 y otros según anexo."
+    },
+    {
+      "codigo": "COM316_3",
+      "nombre": "Gestión de la logística de almacenes",
+      "horas_asociadas": "sin_especificar_pendiente_rd_109_2008",
+      "nota": "Cualificación asociada (RD 109/2008). Módulos: 0625, 0626 y otros según anexo."
+    },
+    {
+      "codigo": "COM086_3",
+      "nombre": "Gestión administrativa y financiera del comercio internacional",
+      "horas_asociadas": "sin_especificar_pendiente_rd_295_2004",
+      "nota": "Cualificación asociada (RD 295/2004). Módulos: 0627, 0623 y otros según anexo."
+    },
+    {
+      "codigo": "COM088_3",
+      "nombre": "Tráfico de mercancías por carretera",
+      "horas_asociadas": "sin_especificar_pendiente_rd_295_2004",
+      "nota": "Cualificación asociada (RD 295/2004). Módulos: 0622, 0629 y otros según anexo."
+    }
+  ],
   "notas": [
-    "Ciclo de grado superior con 2.000 horas totales y 120 ECTS",
-    "Familia profesional: Comercio y Marketing / Transporte y Logística",
-    "RD 1572/2011 reemplaza al anterior RD 1669/1994 (Gestión del Transporte LOE)",
-    "Actualizado con LO 3/2022 mediante RD 500/2024",
-    "Convierte UC a ECP mediante RD 532/2025"
+    "Ciclo de grado superior con 2.000 horas totales y 120 ECTS según RD 1572/2011.",
+    "Familia profesional: Comercio y Marketing / Transporte y Logística.",
+    "RD 1572/2011 sustituyó al título LOGSE RD 1654/1994 (Técnico Superior en Gestión del Transporte).",
+    "Actualizado con LO 3/2022 mediante RD 500/2024 (implantación 2024-25).",
+    "Módulos comunes (1709, 1710, 1665, 1708, 0179) incorporados por RD 500/2024 según RD 659/2023.",
+    "Modelos anteriores de módulos de FCT/EIE fueron suprimidos en RD 500/2024.",
+    "Incorpora UC como Estándares de Competencia Profesional (ECP) mediante RD 532/2025.",
+    "Horas de Orden ECD/843/2024 y Orden EFD/659/2024.",
+    "Nota sobre Aragón: El catálogo de Aragón (Orden ECD/843/2024) identifica este ciclo como COM303 (código regional), no TCP301. TCP301 en Aragón corresponde a 'Patronaje y Moda'. A nivel nacional (RD 1572/2011), TCP301 es 'Técnico Superior en Transporte y Logística'. Este archivo usa la nomenclatura nacional."
   ],
   "no_verificado": [
-    "Módulos específicos del ciclo (falta extracción de RD 1572/2011 anexo I)",
-    "UC descripciones y mappings (pendiente de RD 1572/2011 anexo IV)",
-    "Horas_otras de Orden EFD/659/2024 (Ministerio)",
-    "Posibles horas_otras de Orden ECD/842/2024 (Aragón)"
-  ]
+    "Módulos específicos del ciclo: requieren consulta completa de anexo I del RD 1572/2011 y posteriores modificaciones (RD 500/2024).",
+    "UC a módulos (uc_a_modulos, modulos_a_uc): pendiente de anexo IV del RD 1572/2011 (derogado por RD 1085/2020) y consulta de anexos de RD 532/2025.",
+    "Convalidaciones LOGSE→LOE→LO 3/2022: estructura disponible en RD 1085/2020 anexo II, pendiente de detalles específicos por módulo.",
+    "Horas_otras de Orden EFD/659/2024 (Ministerio): lecturas detalladas por módulo pendientes.",
+    "Descripción de cualificaciones: horas de formación asociada pendientes de RD 109/2008, RD 295/2004, RD 1038/2011 y RD 1550/2011.",
+    "Módulo optativo: redacción específica por Decreto 107/2025 (Aragón), varias opciones disponibles (AOP1001, AOP1002, AOP1003, AOP1004)."
+  ],
+  "filas_derogadas_no_aplicadas": {
+    "motivo": "Módulos de FOL, EIE y FCT fueron derogados por RD 500/2024 (adaptación LO 3/2022). Proyecto Intermodular sustituyó al anterior módulo de proyecto.",
+    "filas": [
+      "FOL (Formación y Orientación Laboral): suprimida en RD 500/2024",
+      "EIE (Empresa e Iniciativa Emprendedora): suprimida en RD 500/2024",
+      "FCT (Formación en Centros de Trabajo): suprimida en RD 500/2024; sustituida por formación integrada en proyecto intermodular"
+    ]
+  },
+  "equivalencias_motor": {},
+  "equivalencias_conjuntas_motor": [],
+  "pruebas": []
 }

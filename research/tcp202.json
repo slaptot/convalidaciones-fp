@@ -1,63 +1,434 @@
 {
   "ciclo": {
     "codigo": "TCP202",
-    "nombre": "Técnico en Transportes y Logística",
+    "nombre": "Técnico en Confección y Moda",
     "grado": "medio",
-    "familia": "Transporte y Mantenimiento de Vehículos",
+    "familia": "Textil, Confección y Piel",
     "duracion_total_horas": 2000,
+    "notas_catalogo_aragon": "Catálogo oficial de Aragón 2024. Horas totales registradas: 1999 h (suma de módulos del catálogo).",
     "normas": [
       {
-        "ref": "RD 1629/2009, de 30 de octubre",
-        "boe": "BOE-A-2009-17863",
-        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-17863",
-        "nota": "Establece el título de Técnico en Transporte y Logística y sus enseñanzas mínimas (LOE, duración 2.000 h)"
+        "ref": "RD 955/2008, de 6 de junio",
+        "boe": "BOE-A-2008-10468",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2008-10468",
+        "nota": "Establece el título de Técnico en Confección y Moda (LOE, duración 2.000 h mínimas). Familia profesional: Textil, Confección y Piel. Enseñanzas mínimas en anexo I."
       },
       {
         "ref": "RD 1085/2020, de 9 de diciembre",
         "boe": "BOE-A-2020-17274",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
-        "nota": "Anexos de convalidaciones entre títulos de FP. Establece convalidaciones de módulos LOGSE→LOE; texto consolidado (última actualización 07/04/2026)."
+        "nota": "Establece convalidaciones entre títulos de FP (LOGSE→LOE y LOE→LOE). Tabla «Textil, Confección y Piel» para grado medio. Texto consolidado a 07/04/2026."
       },
       {
         "ref": "RD 659/2023, de 18 de julio",
         "boe": "BOE-A-2023-16889",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
-        "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico común: módulos 1709-1710 (IPE I-II), 1664 (Digitalización), 1708 (Sostenibilidad), 0156 (Inglés GM), 1713 (Proyecto)."
+        "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico común a todos los ciclos GM: módulos 1709-1710 (IPE I-II, 50h c/u), 1664 (Digitalización, 30h), 1708 (Sostenibilidad, 30h), 0156 (Inglés Profesional, 50h), 1713 (Proyecto, 50h)."
       },
       {
-        "ref": "RD 499/2024",
+        "ref": "RD 499/2024, de 21 de mayo",
         "boe": "BOE-A-2024-10684",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
-        "nota": "Adapta los títulos de grado medio a la LO 3/2022. Suprime FOL/EIE/FCT; añade módulos comunes (1709, 1710, 1664, 1708, 1713) e inglés profesional (0156). Asigna nivel 4A del MECU. Implantación 2024-25."
+        "nota": "Adapta títulos GM a LO 3/2022. Suprime FOL/EIE/FCT. Añade módulos comunes (1709, 1710, 1664, 1708, 1713) e inglés profesional (0156). Asigna nivel 4A del MECU. Implantación 2024-25."
       },
       {
         "ref": "RD 532/2025, de 24 de junio",
         "boe": "BOE-A-2025-13147",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
-        "nota": "Integra UC del CNCP como ECP (Estándares de Competencia Profesional). Anexo I: catálogo UC→ECP; Anexo II-a/II-b: equivalencias antiguas→nuevas."
+        "nota": "Integración de UC como ECP. Anexo I: UC del CNCP pasan a ECP con mismo número. Anexo II-a/II-b: equivalencias antiguas→nuevas para esta familia."
+      },
+      {
+        "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
+        "boe": null,
+        "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+        "nota": "Currículo vigente Aragón GM (BOA 148, 31/07/2024). Ciclo TCP202 en anexo (distribución de módulos y horas por curso). Deroga orden 5/06/2013 (currículo LOE)."
+      },
+      {
+        "ref": "Orden EFD/657/2024, de 25 de junio (Ministerio)",
+        "boe": "BOE-A-2024-13179",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
+        "nota": "Currículo vigente MEFPD (Ministerio). Anexo correspondiente contiene distribución de módulos y horas para este ciclo."
       }
     ]
   },
-  "modulos": [],
-  "convalidaciones_titulos_anteriores": [],
+  "modulos": [
+    {
+      "codigo": "0116",
+      "nombre": "Principios de mantenimiento electromecánico",
+      "horas": 67,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0156",
+      "nombre": "Inglés Profesional (GM)",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo IX (currículo básico)",
+      "curso": 1,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0264",
+      "nombre": "Moda y Tendencias",
+      "horas": 133,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "creditos_ects": "5.0",
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0265",
+      "nombre": "Patrones",
+      "horas": 200,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 200,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0267",
+      "nombre": "Corte de materiales",
+      "horas": 167,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 167,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "0268",
+      "nombre": "Confección a medida",
+      "horas": 233,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 233,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "0269",
+      "nombre": "Confección industrial",
+      "horas": 300,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 300,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "0270",
+      "nombre": "Acabados en confección",
+      "horas": 133,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "0271",
+      "nombre": "Información y atención al cliente",
+      "horas": 100,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 2,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 100,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "0275",
+      "nombre": "Materias textiles y piel",
+      "horas": 133,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 1,
+      "tipo": "especifico",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 133,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "1664",
+      "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+      "horas": 30,
+      "horas_fuente": "RD 659/2023 anexo VI (currículo básico)",
+      "curso": 1,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 33,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "1708",
+      "nombre": "Sostenibilidad aplicada al sistema productivo",
+      "horas": 30,
+      "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+      "curso": 2,
+      "tipo": "comun",
+      "vigente": true,
+      "creditos_ects": "3.0",
+      "horas_otras": {
+        "aragon": {
+          "horas": 33,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "1709",
+      "nombre": "Itinerario personal para la empleabilidad I",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+      "curso": 1,
+      "tipo": "comun",
+      "vigente": true,
+      "creditos_ects": "5.0",
+      "horas_otras": {
+        "aragon": {
+          "horas": 100,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": "1710",
+      "nombre": "Itinerario personal para la empleabilidad II",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+      "curso": 2,
+      "tipo": "comun",
+      "vigente": true,
+      "creditos_ects": "5.0",
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "1713",
+      "nombre": "Proyecto Intermodular",
+      "horas": 50,
+      "horas_fuente": "RD 659/2023 anexo II (currículo básico)",
+      "curso": 2,
+      "tipo": "proyecto",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 67,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "A996",
+      "nombre": "Tutoría II",
+      "horas": 33,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 2,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 33,
+          "curso": 2
+        }
+      }
+    },
+    {
+      "codigo": "A997",
+      "nombre": "Tutoría I",
+      "horas": 33,
+      "horas_fuente": "Catálogo Aragón 2024",
+      "curso": 1,
+      "tipo": "comun",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 33,
+          "curso": 1
+        }
+      }
+    },
+    {
+      "codigo": null,
+      "nombre": "Módulo profesional optativo",
+      "horas": 80,
+      "horas_fuente": "RD 659/2023 anexo IV y RD 499/2024",
+      "curso": 2,
+      "tipo": "optativo",
+      "vigente": true,
+      "horas_otras": {
+        "aragon": {
+          "horas": 100,
+          "curso": 2
+        }
+      }
+    }
+  ],
+  "convalidaciones_titulos_anteriores": [
+    {
+      "origen_titulo": "Técnico en Confección y Moda (LOGSE, RD 2048/1995)",
+      "origen_modulos": [
+        {
+          "codigo": "0701",
+          "nombre": "Tecnología textil"
+        }
+      ],
+      "destino_modulos": [
+        "0275"
+      ],
+      "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Textil, Confección y Piel, GRADO MEDIO"
+    },
+    {
+      "origen_titulo": "Técnico en Confección y Moda (LOGSE, RD 2048/1995)",
+      "origen_modulos": [
+        {
+          "codigo": "0702",
+          "nombre": "Modas y tendencias"
+        }
+      ],
+      "destino_modulos": [
+        "0264"
+      ],
+      "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Textil, Confección y Piel, GRADO MEDIO"
+    },
+    {
+      "origen_titulo": "Técnico en Confección y Moda (LOGSE, RD 2048/1995)",
+      "origen_modulos": [
+        {
+          "codigo": "0703",
+          "nombre": "Patronaje y confección"
+        }
+      ],
+      "destino_modulos": [
+        "0265",
+        "0268"
+      ],
+      "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Textil, Confección y Piel, GRADO MEDIO"
+    }
+  ],
+  "convalidaciones_a_otros_titulos": [
+    {
+      "origen_titulo_actual": "Técnico en Confección y Moda (LOE, RD 955/2008)",
+      "origen_modulo": "0271",
+      "destino_titulo": "Técnico Superior en Marketing y Publicidad (LOE, RD 1571/2011)",
+      "destino_modulo": "1110",
+      "tipo": "aporta_el_presente_titulo",
+      "fuente": "RD 1085/2020 anexo III (convalidaciones LOE→LOE, tabla Textil, Confección y Piel)"
+    }
+  ],
   "uc_a_modulos": [],
   "modulos_a_uc": [],
   "equivalencias_uc": {},
   "uc_descripciones": {},
   "cualificaciones": [],
   "notas": [
-    "Estructura JSON generada para TCP202 (Técnico en Transportes y Logística). Basada en RD RD 1629/2009, de 30 de octubre y adaptaciones normativas posteriores.",
-    "«horas» es la duración del currículo básico estatal; «horas_otras.aragon» y «horas_otras.mefp» se rellenarían con datos de Orden ECD/842/2024 (Aragón) y Orden EFD/657/2024 (Ministerio) respectivamente.",
-    "Investigación completada con datos BOE disponibles al 2026-10-01."
+    "TCP202 es 'Técnico en Confección y Moda' (Familia: Textil, Confección y Piel). No debe confundirse con ciclos de Transporte y Logística (ej: COM303).",
+    "«horas» es duración del currículo básico estatal (RD 955/2008 y posteriores modificaciones); «horas_otras.aragon» del catálogo-aragon.json 2024.",
+    "Módulos confirmados con catálogo-aragon.json (2024), RD 955/2008, RD 499/2024 (modificaciones LOE→LO 3/2022) y Orden ECD/842/2024 (Aragón).",
+    "Horas totales catálogo Aragón: 1999 h (suma de módulos individuales).",
+    "Módulos comunes (1709, 1710, 1664, 1708, 0156, 1713) se incorporan por RD 659/2023 y RD 499/2024.",
+    "Convalidaciones desde títulos LOGSE (RD 2048/1995): disponibles en RD 1085/2020 anexo II."
   ],
   "no_verificado": [
-    "Módulos específicos del ciclo: requieren consulta de anexo I del RD RD 1629/2009, de 30 de octubre y posteriores modificaciones.",
-    "Datos de horas de planes de Aragón (Orden ECD/842/2024) y Ministerio (Orden EFD/657/2024): pendientes de verificación directa.",
-    "Convalidaciones entre títulos LOGSE→LOE→LO 3/2022: estructura disponible en RD 1085/2020, pendiente de detalles específicos."
+    "UC y cualificaciones profesionales específicas de este ciclo: requieren consulta del RD 955/2008 anexo IV y posteriores modificaciones.",
+    "Detalle completo de convalidaciones LOE→LOE: disponible en RD 1085/2020 anexo III, bloque Textil/Confección/Piel.",
+    "Datos de Ministerio (Orden EFD/657/2024): no verificados directamente (solo disponible catálogo Aragón).",
+    "Equivalencias UC→ECP según RD 532/2025 para este ciclo: pendiente de verificación."
   ],
   "filas_derogadas_no_aplicadas": {
-    "motivo": "Por determinar según lectura completa de anexos de convalidaciones del RD 1085/2020 para este título.",
-    "filas": []
+    "motivo": "FOL (0215), EIE (0216), FCT (0217) fueron derogados para GM por RD 499/2024. Módulos comunes 1709/1710/1664/1708/0156/1713 son de incorporación obligatoria por RD 659/2023 y RD 499/2024.",
+    "filas": [
+      {
+        "codigo": "0215",
+        "nombre": "Formación y orientación laboral",
+        "horas": 50,
+        "horas_fuente": "RD 955/2008 anexo I (derogado)",
+        "tipo": "comun",
+        "vigente": false,
+        "razon": "RD 499/2024 suprime FOL/EIE/FCT en GM"
+      },
+      {
+        "codigo": "0216",
+        "nombre": "Empresa e iniciativa emprendedora",
+        "horas": 35,
+        "horas_fuente": "RD 955/2008 anexo I (derogado)",
+        "tipo": "comun",
+        "vigente": false,
+        "razon": "RD 499/2024 suprime FOL/EIE/FCT en GM"
+      },
+      {
+        "codigo": "0217",
+        "nombre": "Formación en centros de trabajo",
+        "horas": 220,
+        "horas_fuente": "RD 955/2008 anexo I (derogado)",
+        "tipo": "empresa",
+        "vigente": false,
+        "razon": "RD 499/2024 suprime FOL/EIE/FCT en GM"
+      }
+    ]
   },
   "equivalencias_motor": {},
   "equivalencias_conjuntas_motor": [],
