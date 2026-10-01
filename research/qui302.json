@@ -57,6 +57,10 @@
         "mefp": {
           "horas": 75,
           "curso": 1
+        },
+        "aragon": {
+          "horas": 67,
+          "curso": 1
         }
       }
     },
@@ -71,6 +75,10 @@
       "horas_otras": {
         "mefp": {
           "horas": 155,
+          "curso": 1
+        },
+        "aragon": {
+          "horas": 133,
           "curso": 1
         }
       }
@@ -87,6 +95,10 @@
         "mefp": {
           "horas": 150,
           "curso": 2
+        },
+        "aragon": {
+          "horas": 167,
+          "curso": 1
         }
       }
     },
@@ -101,6 +113,10 @@
       "horas_otras": {
         "mefp": {
           "horas": 75,
+          "curso": 1
+        },
+        "aragon": {
+          "horas": 67,
           "curso": 1
         }
       }
@@ -117,6 +133,10 @@
         "mefp": {
           "horas": 175,
           "curso": 1
+        },
+        "aragon": {
+          "horas": 200,
+          "curso": 1
         }
       }
     },
@@ -131,6 +151,10 @@
       "horas_otras": {
         "mefp": {
           "horas": 130,
+          "curso": 2
+        },
+        "aragon": {
+          "horas": 200,
           "curso": 2
         }
       }
@@ -147,6 +171,10 @@
         "mefp": {
           "horas": 110,
           "curso": 2
+        },
+        "aragon": {
+          "horas": 200,
+          "curso": 2
         }
       }
     },
@@ -161,6 +189,10 @@
       "horas_otras": {
         "mefp": {
           "horas": 110,
+          "curso": 2
+        },
+        "aragon": {
+          "horas": 67,
           "curso": 2
         }
       }
@@ -177,6 +209,10 @@
         "mefp": {
           "horas": 75,
           "curso": 1
+        },
+        "aragon": {
+          "horas": 167,
+          "curso": 2
         }
       }
     },
@@ -191,6 +227,10 @@
       "horas_otras": {
         "mefp": {
           "horas": 75,
+          "curso": 1
+        },
+        "aragon": {
+          "horas": 167,
           "curso": 1
         }
       }
@@ -207,6 +247,10 @@
         "mefp": {
           "horas": 50,
           "curso": 2
+        },
+        "aragon": {
+          "horas": 67,
+          "curso": 1
         }
       }
     },
@@ -221,6 +265,10 @@
       "horas_otras": {
         "mefp": {
           "horas": 30,
+          "curso": 1
+        },
+        "aragon": {
+          "horas": 33,
           "curso": 1
         }
       }
@@ -237,6 +285,10 @@
         "mefp": {
           "horas": 30,
           "curso": 2
+        },
+        "aragon": {
+          "horas": 33,
+          "curso": 2
         }
       }
     },
@@ -251,6 +303,10 @@
       "horas_otras": {
         "mefp": {
           "horas": 50,
+          "curso": 1
+        },
+        "aragon": {
+          "horas": 100,
           "curso": 1
         }
       }
@@ -267,6 +323,10 @@
         "mefp": {
           "horas": 50,
           "curso": 2
+        },
+        "aragon": {
+          "horas": 67,
+          "curso": 2
         }
       }
     },
@@ -281,6 +341,10 @@
       "horas_otras": {
         "mefp": {
           "horas": 50,
+          "curso": 2
+        },
+        "aragon": {
+          "horas": 67,
           "curso": 2
         }
       }
@@ -327,6 +391,10 @@
         "mefp": {
           "horas": 75,
           "curso": 1
+        },
+        "aragon": {
+          "horas": 100,
+          "curso": 2
         }
       }
     }
