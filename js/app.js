@@ -887,8 +887,16 @@
   const CLAVE_VISTA = 'convalida-vista';
   function aplicarVista(arriba) {
     document.body.classList.toggle('vista-arriba', arriba);
+    // El icono dibuja la disposición a la que se cambia: paso 1 (azul), paso 2 (verde) y resultado (contorno)
+    const svg = (r) => `<svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true">${r}</svg>`;
+    const ICONO_ARRIBA = svg('<rect class="i1" x="2" y="3" width="7" height="6" rx="1.2"/><rect class="i2" x="11" y="3" width="7" height="6" rx="1.2"/><rect class="i3" x="2.6" y="11.6" width="14.8" height="5.4" rx="1.2"/>');
+    const ICONO_LADO = svg('<rect class="i1" x="2" y="3" width="6" height="6" rx="1.2"/><rect class="i2" x="2" y="11" width="6" height="6" rx="1.2"/><rect class="i3" x="10.6" y="3.6" width="6.8" height="12.8" rx="1.2"/>');
     const b = $('#btn-vista');
-    b.textContent = arriba ? 'Pasos 1 y 2 a la izquierda' : 'Pasos 1 y 2 arriba';
+    const texto = arriba ? 'Cambiar vista: pasos 1 y 2 a la izquierda y resultado a la derecha'
+      : 'Cambiar vista: pasos 1 y 2 arriba y resultado debajo';
+    b.innerHTML = arriba ? ICONO_LADO : ICONO_ARRIBA;
+    b.title = texto;
+    b.setAttribute('aria-label', texto);
     b.setAttribute('aria-pressed', String(arriba));
   }
   function iniciarVista() {
