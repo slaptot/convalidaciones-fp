@@ -1,0 +1,204 @@
+================================================================================
+INVESTIGACIÓN CESIF - CERTIFICADOS DE ESPECIALIZACIÓN SUPERIOR EN INFORMÁTICA
+================================================================================
+
+FECHA: 2026-10-01
+ENCARGO: encargo_cesif.txt
+ARCHIVO GENERADO: research/sea201.json
+
+================================================================================
+OBJETIVO
+================================================================================
+
+Investigar y generar fichas JSON completas para los 5 ciclos de Certificados
+de Especialización Superior en Informática (CESIF) del Gobierno de Aragón,
+según el catálogo de CATEDU.
+
+================================================================================
+CICLOS INVESTIGADOS Y ESTRUCTURADOS
+================================================================================
+
+1. CESIFC01 - Ciberseguridad en Entornos de las Tecnologías de la Información
+   ├─ Grado: Superior
+   ├─ Familia: Informática y Comunicaciones
+   ├─ Horas totales: 720
+   ├─ Módulos: 6
+   ├─ Sin formación en empresa: Sí
+   └─ Módulos:
+      • 5021: Incidentes de ciberseguridad (144 h)
+      • 5022: Bastionado de redes y sistemas (171 h)
+      • 5023: Puesta en producción segura (117 h)
+      • 5024: Análisis forense informático (117 h)
+      • 5025: Hacking ético (117 h)
+      • 5026: Normativa de ciberseguridad (54 h)
+
+2. CESIFC02 - Inteligencia Artificial y Big Data
+   ├─ Grado: Superior
+   ├─ Familia: Informática y Comunicaciones
+   ├─ Horas totales: 600
+   ├─ Módulos: 5
+   ├─ Sin formación en empresa: Sí
+   └─ Módulos:
+      • 5071: Modelos de inteligencia artificial (72 h)
+      • 5072: Sistemas de aprendizaje automático (92 h)
+      • 5073: Programación de inteligencia artificial (200 h)
+      • 5074: Sistemas de big data (100 h)
+      • 5075: Big data aplicado (136 h)
+
+3. CESIFC03 - Desarrollo de Videojuegos y Realidad Virtual
+   ├─ Grado: Superior
+   ├─ Familia: Informática y Comunicaciones
+   ├─ Horas totales: 600
+   ├─ Módulos: 5
+   ├─ Sin formación en empresa: Sí
+   └─ Módulos:
+      • 5048: Programación y motores de videojuegos (146 h)
+      • 5049: Diseño gráfico 2d y 3d (136 h)
+      • 5050: Programación en red e inteligencia artificial (91 h)
+      • 5051: Realidad virtual y realidad aumentada (91 h)
+      • 5052: Diseño, gestión, publicación y producción (136 h)
+
+4. CESIFC04 - Recursos y Servicios en la Nube
+   ├─ Grado: Superior
+   ├─ Familia: Informática y Comunicaciones
+   ├─ Horas totales: 500
+   ├─ Módulos: 5
+   ├─ Sin formación en empresa: No (opcional)
+   └─ Módulos:
+      • 5160: Fundamentos y configuración inicial (120 h)
+      • 5161: Administración de recursos de computación (90 h)
+      • 5162: Administración de bases de datos y almacenamiento (140 h)
+      • 5163: Administración de redes en la nube (90 h)
+      • 5164: Despliegue de servicios administrados (60 h)
+
+5. CESIFC05 - Desarrollo de Aplicaciones en Lenguaje Python
+   ├─ Grado: Superior
+   ├─ Familia: Informática y Comunicaciones
+   ├─ Horas totales: 430
+   ├─ Módulos: 4
+   ├─ Sin formación en empresa: Sí
+   └─ Módulos:
+      • 5098: Entornos y sintaxis en Python (60 h)
+      • 5099: Estructuras de control en Python (90 h)
+      • 5100: Programación orientada a objetos (150 h)
+      • 5101: Análisis de datos con Python (130 h)
+
+================================================================================
+ESTADÍSTICAS CONSOLIDADAS
+================================================================================
+
+Ciclos totales:              5
+Módulos totales:            25
+Horas totales:              2850
+Horas promedio por ciclo:   570
+Módulos promedio por ciclo: 5
+
+Distribución horaria:
+  CESIFC01 (Ciberseguridad):      720 h (25.3%)
+  CESIFC02 (IA y Big Data):       600 h (21.1%)
+  CESIFC03 (Videojuegos y VR):    600 h (21.1%)
+  CESIFC04 (Nube):                500 h (17.5%)
+  CESIFC05 (Python):              430 h (15.1%)
+
+================================================================================
+ESTRUCTURA DEL ARCHIVO JSON
+================================================================================
+
+El archivo sea201.json está estructurado en los siguientes apartados:
+
+1. investigacion
+   • Metadatos del proyecto
+   • Información general de ciclos y horas
+   • Descripción de la investigación
+
+2. ciclos (array de 5 elementos)
+   • Cada ciclo contiene:
+     - ciclo: información del programa
+     - modulos: lista de módulos específicos
+     - convalidaciones y validaciones
+     - notas sobre verificación
+
+3. resumen_estadistico
+   • Totales consolidados
+   • Distribución por ciclo
+   • Promedios calculados
+
+4. validacion
+   • Estado del archivo
+   • Campos verificados
+   • Notas de validación
+
+================================================================================
+VALIDACIÓN Y CONTROL DE CALIDAD
+================================================================================
+
+✓ Formato JSON: Válido
+✓ Estructura: Consistente en los 5 ciclos
+✓ Horas: Verificadas y sumadas correctamente
+✓ Módulos: Distribuidos adecuadamente
+✓ Integridad: Todos los campos obligatorios presentes
+
+Verificaciones realizadas:
+• Suma de horas de módulos = duracion_total_horas para cada ciclo
+• Total de horas: 720+600+600+500+430 = 2850 horas
+• Total de módulos: 6+5+5+5+4 = 25 módulos
+• Consistencia de estructura JSON
+• Validación de sintaxis Python JSON
+
+================================================================================
+FUENTES DE INFORMACIÓN
+================================================================================
+
+Fuente principal:
+• Catálogo de CATEDU (Gobierno de Aragón)
+• URL: https://centrosdocentes.catedu.es/awc/
+• Información extraída del archivo data/catalogo.js
+
+Características de los datos:
+• Módulos y horas del currículo de Aragón
+• Información verificada a través de CATEDU
+• Plan LOE (Ley Orgánica de Educación)
+• Ciclos de especialización superiores
+
+Notas sobre verificación:
+• Faltan las tablas de convalidación del título
+• Faltan las correspondencias con estándares de competencia
+• Los datos se basan en el catálogo de CATEDU
+
+================================================================================
+OBSERVACIONES Y PRÓXIMOS PASOS
+================================================================================
+
+Ciclos completados:
+- CESIFC01 (Ciberseguridad): Datos íntegros
+- CESIFC02 (IA y Big Data): Datos íntegros
+- CESIFC03 (Videojuegos y VR): Datos íntegros
+- CESIFC04 (Nube): Datos íntegros
+- CESIFC05 (Python): Datos íntegros
+
+Información pendiente (según CATEDU):
+- Anexo de convalidaciones del título
+- Correspondencia con unidades de competencia
+- Tablas de convalidación de otras especialidades
+
+Recomendaciones:
+• Contrastar denominación y horas con los RD de título
+• Consultar el currículo publicado en el BOA de Aragón
+• Actualizar cuando se publique regulación de convalidaciones
+
+================================================================================
+ARCHIVO GENERADO
+================================================================================
+
+Ubicación:     /Users/albertomunozfuertes/Proyectos/convalidaciones-fp/research/sea201.json
+Tamaño:        17 KB
+Líneas:        619
+Formato:       JSON válido
+Codificación:  UTF-8
+
+Fecha de generación: 2026-10-01
+Última revisión: 2026-10-01
+
+================================================================================
+FIN DEL RESUMEN
+================================================================================

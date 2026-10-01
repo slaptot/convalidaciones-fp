@@ -1,0 +1,7 @@
+# Certificados CESIF
+
+Ciclos: CESIFC01, CESIFC02, CESIFC03, CESIFC04, CESIFC05
+
+Objetivo: Fichas JSON completas.
+
+Modelo: research/sea201.json

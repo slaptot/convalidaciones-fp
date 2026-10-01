@@ -1,0 +1,7 @@
+# Otros certificados
+
+Ciclos: CESENA01, CESFME01, CESTMV01, CESTMV02
+
+Objetivo: Fichas JSON completas.
+
+Modelo: research/sea201.json

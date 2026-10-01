@@ -1,0 +1,7 @@
+# Hostelería ciclos finales
+
+Ciclos: HOT201, HOT202, HOT203, HOT204, HOT205, HOT304, HOT305
+
+Objetivo: Fichas JSON completas. Presupuesto: 50K tokens/ciclo máx.
+
+Modelo: research/sea201.json

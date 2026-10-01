@@ -1,0 +1,7 @@
+# Certificados de Empleo
+
+Ciclos: CEMELE01, CEMHOT01, CESEL01
+
+Objetivo: Fichas JSON completas. Presupuesto: 50K tokens/ciclo máx.
+
+Modelo: research/sea201.json

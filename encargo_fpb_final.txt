@@ -1,0 +1,7 @@
+# Grados Básicos finales
+
+Ciclos: FPB108, FPB115, FPB116, FPB117, FPB119, FPB122, FPB124
+
+Objetivo: Fichas JSON completas. Presupuesto: 50K tokens/ciclo máx.
+
+Modelo: research/sea201.json

@@ -1,0 +1,7 @@
+# Certificados CESIM
+
+Ciclos: CESIMA01, CESIMA02, CESIMA03
+
+Objetivo: Fichas JSON completas.
+
+Modelo: research/sea201.json
