@@ -1,0 +1,338 @@
+{
+ "ciclo": {
+  "codigo": "ARG301",
+  "nombre": "Técnico Superior en Diseño y Edición de Publicaciones Impresas y Multimedia",
+  "grado": "superior",
+  "familia": "Artes Gráficas",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 174/2013, de 8 de marzo",
+    "boe": "BOE-A-2013-3703",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-3703",
+    "nota": "Establece el título de Técnico Superior en Diseño y Edición de Publicaciones Impresas y Multimedia (2.000 h totales; 1.100 h mínimas = 55 %)."
+   },
+   {
+    "ref": "RD 404/2023, de 29 de mayo",
+    "boe": "BOE-A-2023-13220",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-13220",
+    "nota": "Actualiza el título ARG301 y moderniza sus enseñanzas mínimas junto con ARG302."
+   },
+   {
+    "ref": "Orden ECD/1528/2015, de 21 de julio",
+    "boe": "BOE-A-2015-8438",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-8438",
+    "nota": "Currículo del ciclo formativo de grado superior en el ámbito del Ministerio conforme a RD 174/2013."
+   },
+   {
+    "ref": "RD 1085/2020, de 9 de diciembre",
+    "boe": "BOE-A-2020-17274",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+    "nota": "Convalidaciones entre títulos de FP. Anexo III (GS) contiene convalidaciones de módulos LOE entre ciclos."
+   },
+   {
+    "ref": "RD 500/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10685",
+    "url": "https://boe.es/eli/es/rd/2024/05/21/500",
+    "nota": "Adapta el título a la LO 3/2022: modifica módulos comunes con nuevos 1709, 1710, 1713."
+   },
+   {
+    "ref": "RD 532/2025, de 24 de junio",
+    "boe": "BOE-A-2025-13147",
+    "url": "https://www.boe.es/eli/es/rd/2025/06/24/532",
+    "nota": "Anexo II-a (familia Artes Gráficas): equivalencias UC a ECP para módulos de ARG301."
+   },
+   {
+    "ref": "Orden ECD/843/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+    "nota": "Currículo vigente de grado superior en Aragón (BOA núm. 148, de 31/07/2024). ARG301 con módulos propios de Aragón."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "0156",
+   "nombre": "Inglés Profesional (GS)",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo X (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 63,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": null,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1417",
+   "nombre": "Materiales de producción gráfica",
+   "horas": 165,
+   "horas_fuente": "RD 174/2013 anexo I (enseñanzas mínimas), actualizado RD 404/2023",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": null,
+     "curso": null
+    },
+    "mefp": {
+     "horas": null,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1478",
+   "nombre": "Organización de procesos de preimpresión digital",
+   "horas": 297,
+   "horas_fuente": "RD 174/2013 anexo I (enseñanzas mínimas), actualizado RD 404/2023",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": null,
+     "curso": null
+    },
+    "mefp": {
+     "horas": null,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1479",
+   "nombre": "Diseño de productos gráficos",
+   "horas": 330,
+   "horas_fuente": "RD 174/2013 anexo I (enseñanzas mínimas), actualizado RD 404/2023",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": null,
+     "curso": null
+    },
+    "mefp": {
+     "horas": null,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1480",
+   "nombre": "Comercialización de productos gráficos y atención al cliente",
+   "horas": 99,
+   "horas_fuente": "RD 174/2013 anexo I (enseñanzas mínimas), actualizado RD 404/2023",
+   "curso": null,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": null,
+     "curso": null
+    },
+    "mefp": {
+     "horas": null,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1664",
+   "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 60,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": null,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 30,
+   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 42,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": null,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1709",
+   "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 120,
+     "curso": 1
+    },
+    "mefp": {
+     "horas": null,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1710",
+   "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 50,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 63,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": null,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "1713",
+   "nombre": "Proyecto intermodular",
+   "horas": 50,
+   "horas_fuente": "RD 500/2024 anexo II (proyecto intermodular, 50 h)",
+   "curso": null,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 50,
+     "curso": 2
+    },
+    "mefp": {
+     "horas": null,
+     "curso": null
+    }
+   }
+  },
+  {
+   "codigo": "A996",
+   "nombre": "Tutoría II (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/843/2024 (no hay currículo básico estatal)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "A997",
+   "nombre": "Tutoría I (módulo propio de Aragón)",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/843/2024 (no hay currículo básico estatal)",
+   "curso": null,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": null,
+   "nombre": "Módulo profesional optativo",
+   "horas": 80,
+   "horas_fuente": "RD 500/2024 art. cuarto y RD 659/2023 anexo IV",
+   "curso": null,
+   "tipo": "optativo",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 84,
+     "curso": 2
+    }
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "equivalencias_uc": {},
+ "uc_descripciones": {},
+ "cualificaciones": [
+  {
+   "codigo": "ARG_GS",
+   "nombre": "Cualificaciones de Gestión y Diseño en Artes Gráficas (Grado Superior)",
+   "completa": null,
+   "uc": [],
+   "norma": "CNCP"
+  }
+ ],
+ "notas": [
+  "«horas» es la duración de las enseñanzas mínimas del RD 174/2013 actualizado por RD 404/2023.",
+  "Módulos específicos: 1417, 1478-1480 (4 módulos núcleo año 1, ~891 h confirmados). Año 2 contiene módulos adicionales según RD 404/2023.",
+  "Módulos comunes vigentes (RD 500/2024): 0156, 1664, 1708, 1709, 1710, 1713.",
+  "Módulos propios de Aragón (Orden ECD/843/2024): A997 (Tutoría I), A996 (Tutoría II).",
+  "Total horas especialidad: ~1391 h. Total transversales: ~399 h. FCT no incluida en enseñanzas mínimas.",
+  "Cualificaciones profesionales: Nivel 3 (GS) de familia Artes Gráficas, específicas de gestión y diseño."
+ ],
+ "no_verificado": [
+  "Horas exactas de módulos adicionales Año 2 (Gestión, Producción, Diseño estructural, etc.) en RD 404/2023.",
+  "Horas exactas de módulos en Aragón y MEFP: no disponibles en búsqueda.",
+  "Convalidaciones exactas en RD 1085/2020 anexo III: búsqueda limitada.",
+  "UC a módulos y módulos a UC: no verificadas en anexos del RD.",
+  "Equivalencias UC a ECP (RD 532/2025 anexo II-a): no verificadas.",
+  "Cualificaciones profesionales específicas y sus UC asociadas: no confirmadas."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "RD 174/2013 no tenía anexo de convalidaciones con títulos anteriores LOGSE en su forma original.",
+  "filas": []
+ },
+ "equivalencias_motor": {},
+ "equivalencias_conjuntas_motor": [],
+ "pruebas": [
+  {
+   "descripcion": "Sin UC ni convalidaciones, no hay módulos convalidables",
+   "aporta": [],
+   "espera": {},
+   "no_espera": {
+    "1417": "convalidable",
+    "1478": "convalidable",
+    "1479": "convalidable"
+   }
+  }
+ ]
+}

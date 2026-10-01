@@ -1,0 +1,191 @@
+{
+  "ciclo": "ENA301",
+  "titulo": "Técnico Superior en Eficiencia Energética y Energía Solar Térmica",
+  "fuente": "RD 1177/2008, de 11 de julio (BOE-A-2008-12846) - Artículo 6 y Anexo IV.A",
+  "uc_a_modulos": {
+    "UC1194_3": [
+      {
+        "modulo_codigo": "0349",
+        "modulo_nombre": "Eficiencia energética de instalaciones"
+      }
+    ],
+    "UC1195_3": [
+      {
+        "modulo_codigo": "0350",
+        "modulo_nombre": "Certificación energética de edificios"
+      }
+    ],
+    "UC1196_3": [
+      {
+        "modulo_codigo": "0351",
+        "modulo_nombre": "Gestión eficiente del agua en edificación"
+      }
+    ],
+    "UC0842_3": [
+      {
+        "modulo_codigo": "0123",
+        "modulo_nombre": "Representación gráfica de instalaciones"
+      }
+    ],
+    "UC0846_3": [
+      {
+        "modulo_codigo": "0352",
+        "modulo_nombre": "Configuración de instalaciones solares térmicas"
+      }
+    ],
+    "UC0847_3": [
+      {
+        "modulo_codigo": "0122",
+        "modulo_nombre": "Procesos de montaje de instalaciones"
+      }
+    ],
+    "UC0848_3": [
+      {
+        "modulo_codigo": "0353",
+        "modulo_nombre": "Gestión del montaje y mantenimiento de instalaciones solares térmicas"
+      }
+    ],
+    "UC1197_3": [
+      {
+        "modulo_codigo": "0354",
+        "modulo_nombre": "Promoción del uso eficiente de la energía y del agua"
+      }
+    ]
+  },
+  "modulos_a_uc": {
+    "0122": {
+      "nombre": "Procesos de montaje de instalaciones",
+      "uc": "UC0847_3",
+      "uc_descripcion": "Organizar y controlar el montaje de instalaciones solares térmicas"
+    },
+    "0123": {
+      "nombre": "Representación gráfica de instalaciones",
+      "uc": "UC0842_3",
+      "uc_descripcion": "Determinar la viabilidad de proyectos de instalaciones solares"
+    },
+    "0349": {
+      "nombre": "Eficiencia energética de instalaciones",
+      "uc": "UC1194_3",
+      "uc_descripcion": "Evaluar la eficiencia energética de las instalaciones de edificios"
+    },
+    "0350": {
+      "nombre": "Certificación energética de edificios",
+      "uc": "UC1195_3",
+      "uc_descripcion": "Colaborar en el proceso de certificación energética de edificios"
+    },
+    "0351": {
+      "nombre": "Gestión eficiente del agua en edificación",
+      "uc": "UC1196_3",
+      "uc_descripcion": "Gestionar el uso eficiente del agua en edificación"
+    },
+    "0352": {
+      "nombre": "Configuración de instalaciones solares térmicas",
+      "uc": "UC0846_3",
+      "uc_descripcion": "Desarrollar proyectos de instalaciones solares térmicas"
+    },
+    "0353": {
+      "nombre": "Gestión del montaje y mantenimiento de instalaciones solares térmicas",
+      "uc": "UC0848_3",
+      "uc_descripcion": "Organizar y controlar el mantenimiento de instalaciones solares térmicas"
+    },
+    "0354": {
+      "nombre": "Promoción del uso eficiente de la energía y del agua",
+      "uc": "UC1197_3",
+      "uc_descripcion": "Promover el uso eficiente de la energía"
+    }
+  },
+  "uc_descripciones": {
+    "UC0842_3": {
+      "codigo": "UC0842_3",
+      "descripcion": "Determinar la viabilidad de proyectos de instalaciones solares",
+      "nivel": 3,
+      "cualificaciones": [
+        "ENA358_3",
+        "ENA264_3"
+      ]
+    },
+    "UC0846_3": {
+      "codigo": "UC0846_3",
+      "descripcion": "Desarrollar proyectos de instalaciones solares térmicas",
+      "nivel": 3,
+      "cualificaciones": [
+        "ENA264_3"
+      ]
+    },
+    "UC0847_3": {
+      "codigo": "UC0847_3",
+      "descripcion": "Organizar y controlar el montaje de instalaciones solares térmicas",
+      "nivel": 3,
+      "cualificaciones": [
+        "ENA264_3"
+      ]
+    },
+    "UC0848_3": {
+      "codigo": "UC0848_3",
+      "descripcion": "Organizar y controlar el mantenimiento de instalaciones solares térmicas",
+      "nivel": 3,
+      "cualificaciones": [
+        "ENA264_3"
+      ]
+    },
+    "UC1194_3": {
+      "codigo": "UC1194_3",
+      "descripcion": "Evaluar la eficiencia energética de las instalaciones de edificios",
+      "nivel": 3,
+      "cualificaciones": [
+        "ENA358_3"
+      ]
+    },
+    "UC1195_3": {
+      "codigo": "UC1195_3",
+      "descripcion": "Colaborar en el proceso de certificación energética de edificios",
+      "nivel": 3,
+      "cualificaciones": [
+        "ENA358_3"
+      ]
+    },
+    "UC1196_3": {
+      "codigo": "UC1196_3",
+      "descripcion": "Gestionar el uso eficiente del agua en edificación",
+      "nivel": 3,
+      "cualificaciones": [
+        "ENA358_3"
+      ]
+    },
+    "UC1197_3": {
+      "codigo": "UC1197_3",
+      "descripcion": "Promover el uso eficiente de la energía",
+      "nivel": 3,
+      "cualificaciones": [
+        "ENA358_3"
+      ]
+    }
+  },
+  "cualificaciones": [
+    {
+      "codigo": "ENA358_3",
+      "nombre": "Eficiencia energética de edificios",
+      "nivel": 3,
+      "referencia_legal": "Real Decreto 1698/2007, de 14 de diciembre",
+      "unidades_competencia": [
+        "UC1194_3",
+        "UC1195_3",
+        "UC1196_3",
+        "UC0842_3",
+        "UC1197_3"
+      ]
+    },
+    {
+      "codigo": "ENA264_3",
+      "nombre": "Organización y proyectos de instalaciones solares térmicas",
+      "nivel": 3,
+      "referencia_legal": "Real Decreto 1114/2007, de 24 de agosto",
+      "unidades_competencia": [
+        "UC0842_3",
+        "UC0846_3",
+        "UC0847_3",
+        "UC0848_3"
+      ]
+    }
+  ]
+}
