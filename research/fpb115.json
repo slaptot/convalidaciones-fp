@@ -1,0 +1,240 @@
+{
+ "ciclo": {
+  "codigo": "FPB115",
+  "nombre": "Actividades Agropecuarias",
+  "grado": "basico",
+  "familia": "Agraria",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 127/2014",
+    "boe": "BOE-A-2014-2360",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-2360",
+    "nota": "Establece el título. Modificado por RD 498/2024."
+   },
+   {
+    "ref": "RD 498/2024",
+    "boe": "BOE-A-2024-10683",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10683",
+    "nota": "Adaptación de TODOS los títulos de grado básico a la LO 3/2022 y al RD 659/2023."
+   },
+   {
+    "ref": "RD 659/2023",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP. Art. 85: ciclos grado básico constan de tres ámbitos más Proyecto intermodular."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "3051",
+   "nombre": "Operaciones auxiliares de preparación del terreno, plantación y siembra de cultivos",
+   "horas": 200,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 200,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3052",
+   "nombre": "Operaciones auxiliares de obtención y recolección de cultivos",
+   "horas": 267,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 267,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3111",
+   "nombre": "Envasado y distribución de materias primas agroalimentarias",
+   "horas": 133,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 133,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3113",
+   "nombre": "Operaciones auxiliares de cría y alimentación del ganado",
+   "horas": 233,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 233,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3114",
+   "nombre": "Operaciones básicas de manejo de la producción ganadera",
+   "horas": 200,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 200,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3115",
+   "nombre": "Operaciones auxiliares de mantenimiento e higiene en instalaciones ganaderas",
+   "horas": 133,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 133,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3159",
+   "nombre": "Itinerario personal para la empleabilidad",
+   "horas": 67,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 67,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3160",
+   "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+   "horas": 67,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 67,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3161",
+   "nombre": "Ámbito de Comunicación y ciencias sociales I",
+   "horas": 133,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 133,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3162",
+   "nombre": "Ámbito de Comunicación y ciencias sociales II",
+   "horas": 133,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 133,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3163",
+   "nombre": "Ámbito de Ciencias Aplicadas I",
+   "horas": 133,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 133,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3164",
+   "nombre": "Ámbito de Ciencias Aplicadas II",
+   "horas": 133,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 133,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "A123",
+   "nombre": "Prevención de riesgos laborales",
+   "horas": 33,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 33,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "A998",
+   "nombre": "Tutoría I",
+   "horas": 67,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 67,
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "A999",
+   "nombre": "Tutoría II",
+   "horas": 67,
+   "horas_fuente": "Orden ECD de Curriculum (Aragón)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": 67,
+    "mefp": {}
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "uc_descripciones": {},
+ "cualificaciones": [],
+ "notas": [
+  "Ciclo de grado básico de Agraria. Datos extraídos de catálogo de Aragón.",
+  "Módulos y horas según currículo de Aragón vigente (Orden ECD/841/2024)."
+ ],
+ "no_verificado": [
+  "No se ha abierto el currículo LOE completo.",
+  "No se han verificado todas las convalidaciones con títulos LOGSE.",
+  "Faltan descripciones de UC y cualificaciones profesionales."
+ ]
+}

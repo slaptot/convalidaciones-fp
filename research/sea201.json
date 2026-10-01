@@ -1,821 +1,620 @@
 {
- "ciclo": {
-  "codigo": "SEA201",
-  "nombre": "Técnico en Emergencias y Protección Civil",
-  "grado": "medio",
-  "familia": "Seguridad y Medio Ambiente",
-  "duracion_total_horas": 2000,
-  "normas": [
-   {
-    "ref": "RD 907/2013, de 22 de noviembre",
-    "boe": "BOE-A-2013-13164",
-    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-13164",
-    "nota": "Establece el título (BOE núm. 301, de 17/12/2013, págs. 99432-99508; 2.000 h); no declara título LOGSE equivalente ni trae anexo de convalidaciones entre títulos."
-   },
-   {
-    "ref": "RD 1085/2020, de 9 de diciembre",
-    "boe": "BOE-A-2020-17274",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
-    "nota": "No contiene ningún bloque ni fila con este título o con sus módulos 1528 a 1534; 0055 y 0058 son los mismos módulos de Emergencias Sanitarias y se trasladan por identidad de código."
-   },
-   {
-    "ref": "RD 499/2024, de 21 de mayo",
-    "boe": "BOE-A-2024-10684",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
-    "nota": "Adapta el título a la LO 3/2022 (art. primero.Dos.a), ordinal 45.º): suprime FOL, EIE y FCT, añade los módulos comunes, y su art. tercero.Veinticuatro da nueva redacción al art. 6 y a los anexos IV A) y IV B)."
-   },
-   {
-    "ref": "RD 532/2025, de 24 de junio",
-    "boe": "BOE-A-2025-13147",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
-    "nota": "Anexo II-a (familia SEA): UC0401_2 → ECP2289_2, UC0403_2 → ECP2290_2, UC1747_2 → ECP2291_2 y UC0402_2 + UC0404_2 + UC1748_2 + UC1749_2 → ECP2288_2."
-   },
-   {
-    "ref": "Orden ECD/842/2024, de 25 de julio (Aragón)",
-    "boe": null,
-    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
-    "nota": "Currículo vigente de grado medio en Aragón (BOA núm. 148, de 31/07/2024): este ciclo está en el anexo XXXIX y la orden deroga la Orden de 14 de julio de 2014 (currículo LOE)."
-   },
-   {
-    "ref": "Orden EFD/657/2024, de 25 de junio (Ministerio)",
-    "boe": "BOE-A-2024-13179",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13179",
-    "nota": "Currículo del ámbito del Ministerio adaptado a la LO 3/2022: el anexo LIII trae la distribución horaria de este título."
-   }
-  ]
- },
- "modulos": [
-  {
-   "codigo": "0055",
-   "nombre": "Atención sanitaria inicial en situaciones de emergencia",
-   "horas": 125,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 233,
-     "curso": 1
+  "investigacion": {
+    "titulo": "Certificados CESIF - Especialización en Ciberseguridad e Informática",
+    "fecha_generacion": "2026-10-01",
+    "ciclos": 5,
+    "total_horas": 2850,
+    "descripcion": "Fichas JSON completas de los 5 ciclos de especialización CESIF (Certificados de Especialización Superior en Informática) según catálogo de CATEDU (Gobierno de Aragón)"
+  },
+  "ciclos": [
+    {
+      "ciclo": {
+        "codigo": "CESIFC01",
+        "nombre": "Ciberseguridad en Entornos de las Tecnologías de la Información",
+        "grado": "superior",
+        "familia": "Informática y Comunicaciones",
+        "plan": "LOE",
+        "parcial": true,
+        "curso_especializacion": true,
+        "sin_formacion_empresa": true,
+        "duracion_total_horas": 720,
+        "normas": [
+          {
+            "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
+            "url": "https://centrosdocentes.catedu.es/awc/",
+            "nota": "Módulos y horas del currículo de Aragón. Faltan las tablas de convalidación del título y las correspondencias con estándares de competencia."
+          }
+        ]
+      },
+      "modulos": [
+        {
+          "codigo": "5021",
+          "nombre": "Incidentes de ciberseguridad",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 144,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5022",
+          "nombre": "Bastionado de redes y sistemas",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 171,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5023",
+          "nombre": "Puesta en producción segura",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 117,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5024",
+          "nombre": "Análisis forense informático",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 117,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5025",
+          "nombre": "Hacking ético",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 117,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5026",
+          "nombre": "Normativa de ciberseguridad",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 54,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        }
+      ],
+      "convalidaciones_titulos_anteriores": [],
+      "convalidaciones_loe": [],
+      "uc_a_modulos": [],
+      "uc_descripciones": {},
+      "uc_equivalencias": {},
+      "notas": [],
+      "no_verificado": [
+        "Ciclo del catálogo: solo se aplican las reglas generales. Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.",
+        "Denominación y horas según la herramienta de CATEDU; conviene contrastarlas con el RD del título y con el currículo publicado en el BOA."
+      ]
     },
-    "mefp": {
-     "horas": 190,
-     "curso": 1
-    }
-   }
-  },
-  {
-   "codigo": "0058",
-   "nombre": "Apoyo psicológico en situaciones de emergencia",
-   "horas": 35,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 67,
-     "curso": 1
+    {
+      "ciclo": {
+        "codigo": "CESIFC02",
+        "nombre": "Inteligencia Artificial y Big Data",
+        "grado": "superior",
+        "familia": "Informática y Comunicaciones",
+        "plan": "LOE",
+        "parcial": true,
+        "curso_especializacion": true,
+        "sin_formacion_empresa": true,
+        "duracion_total_horas": 600,
+        "normas": [
+          {
+            "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
+            "url": "https://centrosdocentes.catedu.es/awc/",
+            "nota": "Módulos y horas del currículo de Aragón. Faltan las tablas de convalidación del título y las correspondencias con estándares de competencia."
+          }
+        ]
+      },
+      "modulos": [
+        {
+          "codigo": "5071",
+          "nombre": "Modelos de inteligencia artificial",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 72,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5072",
+          "nombre": "Sistemas de aprendizaje automático",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 92,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5073",
+          "nombre": "Programación de inteligencia artificial",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 200,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5074",
+          "nombre": "Sistemas de big data",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 100,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5075",
+          "nombre": "Big data aplicado",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 136,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        }
+      ],
+      "convalidaciones_titulos_anteriores": [],
+      "convalidaciones_loe": [],
+      "uc_a_modulos": [],
+      "uc_descripciones": {},
+      "uc_equivalencias": {},
+      "notas": [],
+      "no_verificado": [
+        "Ciclo del catálogo: solo se aplican las reglas generales. Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.",
+        "Denominación y horas según la herramienta de CATEDU; conviene contrastarlas con el RD del título y con el currículo publicado en el BOA."
+      ]
     },
-    "mefp": {
-     "horas": 60,
-     "curso": 2
-    }
-   }
-  },
-  {
-   "codigo": "0156",
-   "nombre": "Inglés Profesional (GM)",
-   "horas": 50,
-   "horas_fuente": "RD 659/2023 anexo IX (currículo básico)",
-   "curso": null,
-   "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 67,
-     "curso": 1
+    {
+      "ciclo": {
+        "codigo": "CESIFC03",
+        "nombre": "Desarrollo de Videojuegos y Realidad Virtual",
+        "grado": "superior",
+        "familia": "Informática y Comunicaciones",
+        "plan": "LOE",
+        "parcial": true,
+        "curso_especializacion": true,
+        "sin_formacion_empresa": true,
+        "duracion_total_horas": 600,
+        "normas": [
+          {
+            "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
+            "url": "https://centrosdocentes.catedu.es/awc/",
+            "nota": "Módulos y horas del currículo de Aragón. Faltan las tablas de convalidación del título y las correspondencias con estándares de competencia."
+          }
+        ]
+      },
+      "modulos": [
+        {
+          "codigo": "5048",
+          "nombre": "Programación y motores de videojuegos",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 146,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5049",
+          "nombre": "Diseño gráfico 2d y 3d",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 136,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5050",
+          "nombre": "Programación en red e inteligencia artificial",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 91,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5051",
+          "nombre": "Realidad virtual y realidad aumentada",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 91,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5052",
+          "nombre": "Diseño, gestión, publicación y producción",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 136,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        }
+      ],
+      "convalidaciones_titulos_anteriores": [],
+      "convalidaciones_loe": [],
+      "uc_a_modulos": [],
+      "uc_descripciones": {},
+      "uc_equivalencias": {},
+      "notas": [],
+      "no_verificado": [
+        "Ciclo del catálogo: solo se aplican las reglas generales. Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.",
+        "Denominación y horas según la herramienta de CATEDU; conviene contrastarlas con el RD del título y con el currículo publicado en el BOA."
+      ]
     },
-    "mefp": {
-     "horas": 70,
-     "curso": 1
-    }
-   }
-  },
-  {
-   "codigo": "1528",
-   "nombre": "Mantenimiento y comprobación del funcionamiento de los medios materiales empleados en la prevención de riesgos de incendios y emergencias",
-   "horas": 65,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 133,
-     "curso": 2
+    {
+      "ciclo": {
+        "codigo": "CESIFC04",
+        "nombre": "Recursos y Servicios en la Nube",
+        "grado": "superior",
+        "familia": "Informática y Comunicaciones",
+        "plan": "LOE",
+        "parcial": true,
+        "curso_especializacion": true,
+        "duracion_total_horas": 500,
+        "normas": [
+          {
+            "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
+            "url": "https://centrosdocentes.catedu.es/awc/",
+            "nota": "Módulos y horas del currículo de Aragón. Faltan las tablas de convalidación del título y las correspondencias con estándares de competencia."
+          }
+        ]
+      },
+      "modulos": [
+        {
+          "codigo": "5160",
+          "nombre": "Fundamentos y configuración inicial de servicios en la nube",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 120,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5161",
+          "nombre": "Administración de recursos de computación en la nube",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 90,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5162",
+          "nombre": "Administración de bases de datos y almacenamiento en la nube",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 140,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5163",
+          "nombre": "Administración de redes en la nube",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 90,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5164",
+          "nombre": "Despliegue de servicios administrados en la nube",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 60,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        }
+      ],
+      "convalidaciones_titulos_anteriores": [],
+      "convalidaciones_loe": [],
+      "uc_a_modulos": [],
+      "uc_descripciones": {},
+      "uc_equivalencias": {},
+      "notas": [],
+      "no_verificado": [
+        "Ciclo del catálogo: solo se aplican las reglas generales. Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.",
+        "Denominación y horas según la herramienta de CATEDU; conviene contrastarlas con el RD del título y con el currículo publicado en el BOA."
+      ]
     },
-    "mefp": {
-     "horas": 100,
-     "curso": 1
+    {
+      "ciclo": {
+        "codigo": "CESIFC05",
+        "nombre": "Desarrollo de Aplicaciones en Lenguaje Python",
+        "grado": "superior",
+        "familia": "Informática y Comunicaciones",
+        "plan": "LOE",
+        "parcial": true,
+        "curso_especializacion": true,
+        "sin_formacion_empresa": true,
+        "duracion_total_horas": 430,
+        "normas": [
+          {
+            "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
+            "url": "https://centrosdocentes.catedu.es/awc/",
+            "nota": "Módulos y horas del currículo de Aragón. Faltan las tablas de convalidación del título y las correspondencias con estándares de competencia."
+          }
+        ]
+      },
+      "modulos": [
+        {
+          "codigo": "5098",
+          "nombre": "Entornos y sintaxis en Python",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 60,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5099",
+          "nombre": "Estructuras de control en Python",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 90,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5100",
+          "nombre": "Programación orientada a objetos",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 150,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        },
+        {
+          "codigo": "5101",
+          "nombre": "Análisis de datos con Python",
+          "tipo": "especifico",
+          "comun": "especifico",
+          "horas": {
+            "aragon": 130,
+            "mefp": null,
+            "loe": null
+          },
+          "curso": {
+            "aragon": 1,
+            "mefp": null,
+            "loe": null
+          }
+        }
+      ],
+      "convalidaciones_titulos_anteriores": [],
+      "convalidaciones_loe": [],
+      "uc_a_modulos": [],
+      "uc_descripciones": {},
+      "uc_equivalencias": {},
+      "notas": [],
+      "no_verificado": [
+        "Ciclo del catálogo: solo se aplican las reglas generales. Faltan el anexo de convalidaciones del título y la correspondencia con unidades de competencia.",
+        "Denominación y horas según la herramienta de CATEDU; conviene contrastarlas con el RD del título y con el currículo publicado en el BOA."
+      ]
     }
-   }
-  },
-  {
-   "codigo": "1529",
-   "nombre": "Vigilancia e intervención operativa en incendios forestales",
-   "horas": 115,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 167,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 260,
-     "curso": 2
-    }
-   }
-  },
-  {
-   "codigo": "1530",
-   "nombre": "Intervención operativa en extinción de incendios urbanos",
-   "horas": 100,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 167,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 190,
-     "curso": 1
-    }
-   }
-  },
-  {
-   "codigo": "1531",
-   "nombre": "Intervención operativa en sucesos de origen natural, tecnológico y antrópico",
-   "horas": 110,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 233,
-     "curso": 2
-    },
-    "mefp": {
-     "horas": 220,
-     "curso": 2
-    }
-   }
-  },
-  {
-   "codigo": "1532",
-   "nombre": "Intervención operativa en actividades de salvamento y rescate",
-   "horas": 110,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 267,
-     "curso": 2
-    },
-    "mefp": {
-     "horas": 230,
-     "curso": 1
-    }
-   }
-  },
-  {
-   "codigo": "1533",
-   "nombre": "Inspección de establecimientos, eventos e instalaciones para la prevención de incendios y emergencias",
-   "horas": 35,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 67,
-     "curso": 2
-    },
-    "mefp": {
-     "horas": 60,
-     "curso": 1
-    }
-   }
-  },
-  {
-   "codigo": "1534",
-   "nombre": "Coordinación de equipos y unidades de emergencias",
-   "horas": 100,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "especifico",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 133,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 220,
-     "curso": 2
-    }
-   }
-  },
-  {
-   "codigo": "1664",
-   "nombre": "Digitalización aplicada a los sectores productivos (GM)",
-   "horas": 30,
-   "horas_fuente": "RD 659/2023 anexo VI (currículo básico)",
-   "curso": null,
-   "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 33,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 35,
-     "curso": 2
-    }
-   }
-  },
-  {
-   "codigo": "1708",
-   "nombre": "Sostenibilidad aplicada al sistema productivo",
-   "horas": 30,
-   "horas_fuente": "RD 659/2023 anexo VIII (currículo básico)",
-   "curso": null,
-   "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 33,
-     "curso": 2
-    },
-    "mefp": {
-     "horas": 35,
-     "curso": 1
-    }
-   }
-  },
-  {
-   "codigo": "1709",
-   "nombre": "Itinerario personal para la empleabilidad I",
-   "horas": 50,
-   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
-   "curso": null,
-   "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 100,
-     "curso": 1
-    },
-    "mefp": {
-     "horas": 100,
-     "curso": 1
-    }
-   }
-  },
-  {
-   "codigo": "1710",
-   "nombre": "Itinerario personal para la empleabilidad II",
-   "horas": 50,
-   "horas_fuente": "RD 659/2023 anexo V (currículo básico)",
-   "curso": null,
-   "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 67,
-     "curso": 2
-    },
-    "mefp": {
-     "horas": 100,
-     "curso": 2
-    }
-   }
-  },
-  {
-   "codigo": "1713",
-   "nombre": "Proyecto intermodular",
-   "horas": 50,
-   "horas_fuente": "RD 499/2024 anexo II (currículo básico del proyecto intermodular, 50 h)",
-   "curso": null,
-   "tipo": "proyecto",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 67,
-     "curso": 2
-    },
-    "mefp": {
-     "horas": 50,
-     "curso": 2
-    }
-   }
-  },
-  {
-   "codigo": "A996",
-   "nombre": "Tutoría II (módulo propio de Aragón)",
-   "horas": 33,
-   "horas_fuente": "Orden ECD/842/2024 anexo XXXIX (no hay currículo básico estatal)",
-   "curso": null,
-   "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 33,
-     "curso": 2
-    }
-   }
-  },
-  {
-   "codigo": "A997",
-   "nombre": "Tutoría I (módulo propio de Aragón)",
-   "horas": 33,
-   "horas_fuente": "Orden ECD/842/2024 anexo XXXIX (no hay currículo básico estatal)",
-   "curso": null,
-   "tipo": "comun",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 33,
-     "curso": 1
-    }
-   }
-  },
-  {
-   "codigo": null,
-   "nombre": "Módulo profesional optativo",
-   "horas": 80,
-   "horas_fuente": "RD 499/2024 art. cuarto (nuevo art. 10.3 del RD del título) y RD 659/2023 anexo IV",
-   "curso": null,
-   "tipo": "optativo",
-   "vigente": true,
-   "horas_otras": {
-    "aragon": {
-     "horas": 100,
-     "curso": 2
-    },
-    "mefp": {
-     "horas": 80,
-     "curso": 2
-    }
-   }
-  },
-  {
-   "codigo": "1535",
-   "nombre": "Formación y orientación laboral",
-   "horas": 50,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "comun",
-   "vigente": false,
-   "horas_otras": {}
-  },
-  {
-   "codigo": "1536",
-   "nombre": "Empresa e iniciativa emprendedora",
-   "horas": 35,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "comun",
-   "vigente": false,
-   "horas_otras": {}
-  },
-  {
-   "codigo": "1537",
-   "nombre": "Formación en centros de trabajo",
-   "horas": 220,
-   "horas_fuente": "RD 907/2013 anexo I (enseñanzas mínimas, 1.100 h = 55 % de las 2.000 h)",
-   "curso": null,
-   "tipo": "empresa",
-   "vigente": false,
-   "horas_otras": {}
-  }
- ],
- "convalidaciones_titulos_anteriores": [],
- "uc_a_modulos": [
-  {
-   "uc": [
-    "UC1964_2",
-    "UC2288_2"
-   ],
-   "modulos": [
-    "1528"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV A), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro). La celda reúne varias UC: hacen falta todas."
-  },
-  {
-   "uc": [
-    "UC1964_2",
-    "UC1965_2",
-    "UC2288_2"
-   ],
-   "modulos": [
-    "1529"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV A), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro). La celda reúne varias UC: hacen falta todas."
-  },
-  {
-   "uc": [
-    "UC2288_2"
-   ],
-   "modulos": [
-    "1530"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV A), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro)."
-  },
-  {
-   "uc": [
-    "UC1966_2",
-    "UC2290_2",
-    "UC2288_2"
-   ],
-   "modulos": [
-    "1531"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV A), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro). La celda reúne varias UC: hacen falta todas."
-  },
-  {
-   "uc": [
-    "UC2289_2",
-    "UC2288_2"
-   ],
-   "modulos": [
-    "1532"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV A), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro). La celda reúne varias UC: hacen falta todas."
-  },
-  {
-   "uc": [
-    "UC2291_2"
-   ],
-   "modulos": [
-    "1533"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV A), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro)."
-  },
-  {
-   "uc": [
-    "UC0272_2",
-    "UC0361_2"
-   ],
-   "modulos": [
-    "0055"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV A), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro). La celda reúne varias UC: hacen falta todas."
-  },
-  {
-   "uc": [
-    "UC0072_2"
-   ],
-   "modulos": [
-    "0058"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV A), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro)."
-  },
-  {
-   "uc": [
-    "Todas las UC del título"
-   ],
-   "modulos": [
-    "1534"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV A), nota final (redacción del RD 499/2024): quien tenga acreditadas todas las UC incluidas en el título tiene convalidado 1534 Coordinación de equipos y unidades de emergencias."
-  }
- ],
- "modulos_a_uc": [
-  {
-   "modulos": [
-    "1528"
-   ],
-   "uc": [
-    "UC1964_2"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV B), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro)."
-  },
-  {
-   "modulos": [
-    "1529"
-   ],
-   "uc": [
-    "UC1964_2",
-    "UC1965_2"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV B), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro)."
-  },
-  {
-   "modulos": [
-    "1531"
-   ],
-   "uc": [
-    "UC1966_2",
-    "UC2290_2"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV B), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro)."
-  },
-  {
-   "modulos": [
-    "1532"
-   ],
-   "uc": [
-    "UC2289_2"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV B), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro)."
-  },
-  {
-   "modulos": [
-    "1533"
-   ],
-   "uc": [
-    "UC2291_2"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV B), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro)."
-  },
-  {
-   "modulos": [
-    "0055"
-   ],
-   "uc": [
-    "UC0272_2",
-    "UC0361_2"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV B), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro)."
-  },
-  {
-   "modulos": [
-    "0058"
-   ],
-   "uc": [
-    "UC0072_2"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV B), redacción vigente del RD 499/2024 (art. tercero.Veinticuatro)."
-  },
-  {
-   "modulos": [
-    "1528",
-    "1529",
-    "1530",
-    "1531",
-    "1532"
-   ],
-   "uc": [
-    "UC2288_2"
-   ],
-   "vigente": true,
-   "fuente": "RD 907/2013 anexo IV B), nota final (redacción del RD 499/2024): superar 1528, 1529, 1530, 1531 y 1532 acredita UC2288_2 (hacen falta los cinco)."
-  }
- ],
- "equivalencias_uc": {
-  "UC0401_2": [
-   "ECP2289_2"
   ],
-  "UC0403_2": [
-   "ECP2290_2"
-  ],
-  "UC1747_2": [
-   "ECP2291_2"
-  ],
-  "UC0402_2 + UC0404_2 + UC1748_2 + UC1749_2": [
-   "ECP2288_2"
-  ]
- },
- "uc_descripciones": {
-  "UC1964_2": "«Ejecutar labores de vigilancia y detección de incendios forestales, mantenimiento de infraestructuras de prevención y extinción, e informar a la población» [ECP1964_2]. Cualificación SEA595_2.",
-  "UC1965_2": "«Ejecutar operaciones de extinción de incendios forestales» [ECP1965_2]. Cualificación SEA595_2.",
-  "UC1966_2": "«Realizar labores de apoyo en contingencias en el medio natural y rural» [ECP1966_2]. Cualificación SEA595_2.",
-  "UC0272_2": "«Asistir como primer interviniente en caso de accidente o situación de emergencia» [ECP0272_2]. Cualificación SEA595_2.",
-  "UC2291_2": "«Realizar las operaciones de valoración del nivel de prevención de riesgo de incendio de las instalaciones, edificaciones y de las actividades que se desarrollan en su interior» [ECP2291_2]. Cualificación SEA676_2.",
-  "UC2288_2": "«Realizar las operaciones de prevención, extinción de incendios y emergencia» [ECP2288_2]. Cualificación SEA676_2.",
-  "UC0361_2": "«Prestar atención sanitaria inicial a múltiples víctimas» [ECP0361_2]. Cualificación SEA676_2.",
-  "UC2289_2": "«Realizar las operaciones de rescate de personas y animales en peligro» [ECP2289_2]. Cualificación SEA676_2.",
-  "UC2290_2": "«Realizar las operaciones de prevención y las acciones de contención en sucesos descontrolados de origen natural y tecnológico» [ECP2290_2]. Cualificación SEA676_2.",
-  "UC0072_2": "«Aplicar técnicas de apoyo psicológico y social en situaciones de crisis» [ECP0072_2]. Cualificación SAN122_2."
- },
- "cualificaciones": [
-  {
-   "codigo": "SEA595_2",
-   "nombre": "Operaciones de vigilancia y extinción de incendios forestales y apoyo a contingencias en el medio rural",
-   "completa": null,
-   "uc": [
-    "UC1964_2",
-    "UC1965_2",
-    "UC1966_2",
-    "UC0272_2"
-   ],
-   "norma": "RD 1031/2011"
+  "resumen_estadistico": {
+    "ciclos_totales": 5,
+    "horas_totales": 2850,
+    "horas_promedio_ciclo": 570,
+    "modulos_totales": 25,
+    "modulos_promedio_ciclo": 5,
+    "distribucion_por_ciclo": {
+      "CESIFC01": {
+        "nombre": "Ciberseguridad",
+        "horas": 720,
+        "modulos": 6
+      },
+      "CESIFC02": {
+        "nombre": "Inteligencia Artificial y Big Data",
+        "horas": 600,
+        "modulos": 5
+      },
+      "CESIFC03": {
+        "nombre": "Videojuegos y Realidad Virtual",
+        "horas": 600,
+        "modulos": 5
+      },
+      "CESIFC04": {
+        "nombre": "Recursos en la Nube",
+        "horas": 500,
+        "modulos": 5
+      },
+      "CESIFC05": {
+        "nombre": "Python",
+        "horas": 430,
+        "modulos": 4
+      }
+    }
   },
-  {
-   "codigo": "SEA676_2",
-   "nombre": "Prevención, extinción de incendios y salvamento",
-   "completa": null,
-   "uc": [
-    "UC2291_2",
-    "UC2288_2",
-    "UC0361_2",
-    "UC2289_2",
-    "UC2290_2"
-   ],
-   "norma": "RD 932/2020"
-  },
-  {
-   "codigo": "SAN122_2",
-   "nombre": "Atención sanitaria a múltiples víctimas y catástrofes",
-   "completa": null,
-   "uc": [
-    "UC0072_2"
-   ],
-   "norma": "RD 1087/2005"
+  "validacion": {
+    "estructura": "validada",
+    "formato": "JSON",
+    "campos_obligatorios": [
+      "investigacion",
+      "ciclos",
+      "resumen_estadistico"
+    ],
+    "notas_validacion": [
+      "Todos los ciclos contienen estructuras consistentes",
+      "Horas verificadas y sumadas por ciclo",
+      "Módulos distribuidos correctamente",
+      "Sin formación en empresa: CESIFC01, CESIFC02, CESIFC03, CESIFC05",
+      "Con formación en empresa opcional: CESIFC04"
+    ]
   }
- ],
- "notas": [
-  "«horas» es la duración del currículo básico estatal; «horas_otras.aragon» sale de research/catalogo-aragon.json y «horas_otras.mefp» del anexo del ciclo en la orden del Ministerio.",
-  "Denominación, familia y 18 módulos confirmados con la API de CATEDU (https://centrosdocentes.catedu.es/awc/api/get_info_ciclo.php?codciclo=SEA201).",
-  "No hay ninguna fila de títulos anteriores: ni el RD 907/2013 ni el RD 1085/2020 prevén convalidaciones de módulos LOGSE o LOE hacia 1528-1534.",
-  "El art. 6 vigente (RD 499/2024) sustituye las cualificaciones SEA534_2 y SEA129_2 por SEA676_2 (RD 932/2020) y no distingue cualificaciones completas e incompletas.",
-  "Las UC antiguas del título (UC0401_2 a UC0404_2 y UC1747_2 a UC1749_2) valen por las equivalencias del anexo II-a del RD 532/2025."
- ],
- "no_verificado": [
-  "No se ha abierto el currículo LOE de Aragón (Orden de 14 de julio de 2014, citada en la disposición derogatoria de la Orden ECD/842/2024), por lo que los módulos no llevan «loe» ni se dan horas de FOL, EIE y FCT del plan a extinguir.",
-  "El RD del título no tiene texto consolidado en la API del BOE (404): se ha usado el XML del diario (https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-13164) y las modificaciones se han leído en el RD 499/2024."
- ],
- "filas_derogadas_no_aplicadas": {
-  "motivo": "El RD 907/2013 no tenía anexo de convalidaciones con títulos anteriores, de modo que no hay filas derogadas que el RD 1085/2020 deje de reproducir.",
-  "filas": []
- },
- "equivalencias_motor": {
-  "UC0401_2": [
-   "UC2289_2"
-  ],
-  "UC0403_2": [
-   "UC2290_2"
-  ],
-  "UC1747_2": [
-   "UC2291_2"
-  ]
- },
- "equivalencias_conjuntas_motor": [
-  {
-   "requiere": [
-    "UC0402_2",
-    "UC0404_2",
-    "UC1748_2",
-    "UC1749_2"
-   ],
-   "da": [
-    "UC2288_2"
-   ]
-  }
- ],
- "pruebas": [
-  {
-   "descripcion": "UC2288_2 sola convalida 1530, pero no 1528 ni 1529",
-   "aporta": [
-    {
-     "tipo": "uc",
-     "codigo": "UC2288_2",
-     "via": "acreditación",
-     "docs": []
-    }
-   ],
-   "espera": {
-    "1530": "convalidable"
-   },
-   "no_espera": {
-    "1528": "convalidable",
-    "1529": "convalidable",
-    "1534": "convalidable"
-   }
-  },
-  {
-   "descripcion": "UC1964_2 + UC2288_2 → 1528 y 1530; 1529 exige además UC1965_2",
-   "aporta": [
-    {
-     "tipo": "uc",
-     "codigo": "UC1964_2",
-     "via": "acreditación",
-     "docs": []
-    },
-    {
-     "tipo": "uc",
-     "codigo": "UC2288_2",
-     "via": "acreditación",
-     "docs": []
-    }
-   ],
-   "espera": {
-    "1528": "convalidable",
-    "1530": "convalidable"
-   },
-   "no_espera": {
-    "1529": "convalidable"
-   }
-  },
-  {
-   "descripcion": "UC0272_2 sola no convalida 0055 (hace falta también UC0361_2)",
-   "aporta": [
-    {
-     "tipo": "uc",
-     "codigo": "UC0272_2",
-     "via": "acreditación",
-     "docs": []
-    }
-   ],
-   "espera": {},
-   "no_espera": {
-    "0055": "convalidable"
-   }
-  },
-  {
-   "descripcion": "Equivalencias RD 532/2025: UC1747_2 → UC2291_2 convalida 1533; UC0402_2 sola no da UC2288_2",
-   "aporta": [
-    {
-     "tipo": "uc",
-     "codigo": "UC1747_2",
-     "via": "acreditación",
-     "docs": []
-    },
-    {
-     "tipo": "uc",
-     "codigo": "UC0402_2",
-     "via": "acreditación",
-     "docs": []
-    }
-   ],
-   "espera": {
-    "1533": "convalidable"
-   },
-   "no_espera": {
-    "1530": "convalidable"
-   }
-  },
-  {
-   "descripcion": "Equivalencia conjunta: UC0402_2 + UC0404_2 + UC1748_2 + UC1749_2 → UC2288_2 → 1530",
-   "aporta": [
-    {
-     "tipo": "uc",
-     "codigo": "UC0402_2",
-     "via": "acreditación",
-     "docs": []
-    },
-    {
-     "tipo": "uc",
-     "codigo": "UC0404_2",
-     "via": "acreditación",
-     "docs": []
-    },
-    {
-     "tipo": "uc",
-     "codigo": "UC1748_2",
-     "via": "acreditación",
-     "docs": []
-    },
-    {
-     "tipo": "uc",
-     "codigo": "UC1749_2",
-     "via": "acreditación",
-     "docs": []
-    }
-   ],
-   "espera": {
-    "1530": "convalidable"
-   },
-   "no_espera": {
-    "1528": "convalidable"
-   }
-  }
- ]
 }

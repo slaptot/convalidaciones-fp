@@ -1,0 +1,98 @@
+{
+ "investigacion": {
+  "proyecto": "Convalidaciones FP - Ciclos CESIM",
+  "fecha": "2026-10-01",
+  "investigador": "Claude Haiku 4.5",
+  "fuentes": [
+   "Catálogo CATEDU (Gobierno de Aragón)",
+   "data/catalogo.js",
+   "research/catalogo-aragon.json"
+  ]
+ },
+ "ciclos_investigados": [
+  {
+   "codigo": "CESIMA01",
+   "nombre": "Digitalización del Mantenimiento Industrial",
+   "archivo_ficha": "research/cesima01.json",
+   "familia": "Instalación y Mantenimiento",
+   "grado": "superior",
+   "tipo": "Curso de Especialización de Grado Superior (CES)",
+   "horas": 600,
+   "modulos": 5,
+   "creditos_ects": 37.0,
+   "estado": "Ciclo parcial - sin normativa estatal registrada"
+  },
+  {
+   "codigo": "CESIMA02",
+   "nombre": "Fabricación Inteligente",
+   "archivo_ficha": "research/cesima02.json",
+   "familia": "Instalación y Mantenimiento",
+   "grado": "superior",
+   "tipo": "Curso de Especialización de Grado Superior (CES)",
+   "horas": 500,
+   "modulos": 4,
+   "creditos_ects": 36.0,
+   "estado": "Ciclo parcial - sin normativa estatal registrada"
+  },
+  {
+   "codigo": "CESIMA03",
+   "nombre": "Modelado de la Información de la Construcción (BIM)",
+   "archivo_ficha": "research/cesima03.json",
+   "familia": "Instalación y Mantenimiento",
+   "grado": "superior",
+   "tipo": "Curso de Especialización de Grado Superior (CES)",
+   "horas": 518,
+   "modulos": 4,
+   "creditos_ects": 31.0,
+   "estado": "Ciclo parcial - sin normativa estatal registrada"
+  }
+ ],
+ "estadisticas_consolidadas": {
+  "total_ciclos": 3,
+  "total_horas": 1618,
+  "total_modulos": 13,
+  "total_creditos_ects": 104.0,
+  "familia_unica": "Instalación y Mantenimiento",
+  "nivel_catedu": "CES - Cursos de Especialización de Grado Superior"
+ },
+ "modulos_compartidos": [
+  {
+   "codigo": "5012",
+   "nombre": "Metrología e instrumentación inteligente",
+   "presente_en": ["CESIMA01", "CESIMA02"],
+   "horas": 100,
+   "creditos_ects": 7.0
+  }
+ ],
+ "hallazgos_principales": [
+  "Los tres ciclos CESIM son cursos de especialización de grado superior (CES) regulados por CATEDU Aragón.",
+  "No se han encontrado decretos reguladores (RD) en el Boletín Oficial del Estado (BOE).",
+  "Los ciclos provienen del catálogo de CATEDU sin normativa estatal aparente (plan LOE/parcial).",
+  "El módulo 5012 (Metrología e instrumentación inteligente) es compartido por CESIMA01 y CESIMA02.",
+  "Los ciclos carecen de información sobre convalidaciones y correspondencias con unidades de competencia.",
+  "La información se ha obtenido del Catálogo de CATEDU y debe contrastarse con currículo oficial si existe.",
+  "No hay registro de convalidaciones de títulos anteriores en las fichas disponibles."
+ ],
+ "validacion_datos": {
+  "json_schema": "Válido",
+  "consistencia_horaria": [
+   "CESIMA01: 600 horas = 5 módulos (suma correcta)",
+   "CESIMA02: 500 horas = 4 módulos (suma correcta)",
+   "CESIMA03: 518 horas = 4 módulos (suma correcta)"
+  ],
+  "campos_obligatorios": "Completos en estructura de ficha",
+  "notas_no_verificadas": [
+   "Ausencia de decretos reguladores en BOE",
+   "Falta de normativa estatal específica",
+   "Ciclos parciales sin anexos de convalidación",
+   "Dependencia de datos de CATEDU Aragón"
+  ]
+ },
+ "recomendaciones": [
+  "Contrastar datos con decreto regulador estatal si existe normativa posterior a catálogo CATEDU.",
+  "Verificar si BOE contiene información específica sobre estos cursos de especialización.",
+  "Completar fichas con información de convalidaciones cuando se disponibilice.",
+  "Correlacionar módulos compartidos (5012) entre CESIMA01 y CESIMA02.",
+  "Investigar si existe currículo del ámbito del Ministerio para estos ciclos (similar a Orden EFD/657/2024)."
+ ]
+}

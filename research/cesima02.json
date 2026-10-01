@@ -1,0 +1,85 @@
+{
+ "ciclo": {
+  "codigo": "CESIMA02",
+  "nombre": "Fabricación Inteligente",
+  "grado": "superior",
+  "familia": "Instalación y Mantenimiento",
+  "plan": "LOE",
+  "parcial": true,
+  "curso_especializacion": true,
+  "duracion_total_horas": 500,
+  "nivel_catedu": "CES",
+  "nivel_nombre": "Curso de Especializacion de Grado Superior",
+  "normas": [
+   {
+    "ref": "Catálogo de CATEDU (Gobierno de Aragón)",
+    "url": "https://centrosdocentes.catedu.es/awc/",
+    "nota": "Módulos y horas del currículo de Aragón. Faltan las tablas de convalidación del título y las correspondencias con estándares de competencia."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "5011",
+   "nombre": "Procesos productivos inteligentes",
+   "horas": 200,
+   "horas_fuente": "Catálogo CATEDU (Gobierno de Aragón)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 15.0
+  },
+  {
+   "codigo": "5012",
+   "nombre": "Metrología e instrumentación inteligente",
+   "horas": 100,
+   "horas_fuente": "Catálogo CATEDU (Gobierno de Aragón)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 7.0
+  },
+  {
+   "codigo": "5013",
+   "nombre": "Entornos conectados a red e internet de las cosas",
+   "horas": 100,
+   "horas_fuente": "Catálogo CATEDU (Gobierno de Aragón)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 7.0
+  },
+  {
+   "codigo": "5014",
+   "nombre": "Virtualización de máquinas y procesos productivos",
+   "horas": 100,
+   "horas_fuente": "Catálogo CATEDU (Gobierno de Aragón)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "creditos_ects": 7.0
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "equivalencias_uc": {},
+ "uc_descripciones": {},
+ "cualificaciones": [],
+ "notas": [
+  "Curso de especialización de grado superior con 500 horas de formación.",
+  "Módulos y horas confirmados con el Catálogo de CATEDU (Gobierno de Aragón).",
+  "Ciclo sin información de convalidaciones ni correspondencias con unidades de competencia.",
+  "Ciclo parcial: faltan convalidaciones, uc_a_modulos y equivalencias con títulos anteriores."
+ ],
+ "no_verificado": [
+  "No se han encontrado decretos reguladores específicos en BOE; información proviene de catálogo CATEDU.",
+  "No hay anexo de convalidaciones ni correspondencia con estándares de competencia.",
+  "La estructura está basada en datos del Gobierno de Aragón; conviene contrastarla con el currículo oficial si existe normativa estatal."
+ ],
+ "filas_derogadas_no_aplicadas": {
+  "motivo": "No se ha identificado normativa anterior sobre convalidaciones para este ciclo de especialización.",
+  "filas": []
+ },
+ "pruebas": []
+}

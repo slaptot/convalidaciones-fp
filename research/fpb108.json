@@ -1,0 +1,207 @@
+{
+ "ciclo": {
+  "codigo": "FPB108",
+  "nombre": "Servicios Administrativos",
+  "grado": "basico",
+  "familia": "Administración y Gestión",
+  "duracion_total_horas": 2000,
+  "normas": [
+   {
+    "ref": "RD 127/2014, de 28 de febrero",
+    "boe": "BOE-A-2014-2360",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-2360",
+    "nota": "Establece el título de Grado Básico en Servicios Administrativos (anexo III). Anexo III: 2000 horas totales distribuidas en dos años académicos."
+   },
+   {
+    "ref": "RD 498/2024, de 21 de mayo",
+    "boe": "BOE-A-2024-10683",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10683",
+    "nota": "Adaptación de TODOS los títulos de grado básico a la LO 3/2022 (BOE núm. 129, de 28/05/2024, págs. 60948-61001). Modifica RD 127/2014: suprimes FCT y módulos transversales previos, añade ámbitos integrados y módulos comunes."
+   },
+   {
+    "ref": "RD 659/2023, de 18 de julio",
+    "boe": "BOE-A-2023-16889",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+    "nota": "Ordenación del Sistema de FP. Art. 85: ciclos grado básico constan de tres ámbitos (Comunicación y Ciencias Sociales, Ciencias Aplicadas, Profesional) más Proyecto intermodular."
+   },
+   {
+    "ref": "Orden ECD/841/2024, de 25 de julio (Aragón)",
+    "boe": null,
+    "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1345324460404",
+    "nota": "Currículo vigente de grado básico en Aragón (BOA núm. 148, de 31/07/2024): ciclo en anexo III. Orden deroga anterior ordenación LOE."
+   },
+   {
+    "ref": "Orden ECD/1030/2014, de 11 de junio",
+    "boe": "BOE-A-2014-6431",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-6431",
+    "nota": "Establece el currículo básico estatal. Plan a extinguir (sustituido por RD 498/2024)."
+   }
+  ]
+ },
+ "modulos": [
+  {
+   "codigo": "3001",
+   "nombre": "Operaciones administrativas básicas",
+   "horas": 200,
+   "horas_fuente": "RD 127/2014 anexo III (módulo específico)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3002",
+   "nombre": "Tratamiento informático de la información",
+   "horas": 200,
+   "horas_fuente": "RD 127/2014 anexo III (módulo específico)",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3159",
+   "nombre": "Itinerario personal para la empleabilidad",
+   "horas": 67,
+   "horas_fuente": "RD 498/2024 anexo I (módulo común de grado básico)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3160",
+   "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+   "horas": 67,
+   "horas_fuente": "RD 498/2024 anexo I (módulo común - proyecto)",
+   "curso": 2,
+   "tipo": "proyecto",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3161",
+   "nombre": "Ámbito de Comunicación y ciencias sociales I",
+   "horas": 133,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico de ESO integrado)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3162",
+   "nombre": "Ámbito de Comunicación y ciencias sociales II",
+   "horas": 133,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico de ESO integrado)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3163",
+   "nombre": "Ámbito de Ciencias Aplicadas I",
+   "horas": 133,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico de ESO integrado)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "3164",
+   "nombre": "Ámbito de Ciencias Aplicadas II",
+   "horas": 133,
+   "horas_fuente": "RD 659/2023 anexo V (currículo básico de ESO integrado)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "A123",
+   "nombre": "Prevención de riesgos laborales",
+   "horas": 33,
+   "horas_fuente": "Orden ECD/841/2024 (Aragón) - Anexo XXIV",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "A998",
+   "nombre": "Tutoría I",
+   "horas": 67,
+   "horas_fuente": "RD 659/2023 art. 87.4 (tutoría integrada)",
+   "curso": 1,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  },
+  {
+   "codigo": "A999",
+   "nombre": "Tutoría II",
+   "horas": 67,
+   "horas_fuente": "RD 659/2023 art. 87.4 (tutoría integrada)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {},
+    "mefp": {}
+   }
+  }
+ ],
+ "convalidaciones_titulos_anteriores": [],
+ "uc_a_modulos": [],
+ "modulos_a_uc": [],
+ "uc_descripciones": {},
+ "cualificaciones": [],
+ "notas": [
+  "Ciclo de grado básico de Administración y Gestión (ADG). Duración: 2.000 horas (2 años académicos x 1.000 h/año).",
+  "Competencia General: Realizar operaciones básicas de administración y gestión con autonomía y responsabilidad, observando normas de calidad y seguridad.",
+  "Acceso: Alumnado que no ha completado ESO; edad mínima 15 años.",
+  "Salida: Acceso a ciclos de Grado Medio (CFGM) de la familia ADG.",
+  "Estructura: 2 módulos profesionales específicos + 3 ámbitos integrados (Comunicación, Ciencias, Profesional) + Proyecto intermodular + Tutoría.",
+  "Ocupaciones: Auxiliar de oficina, Telefonista, Cajero, Operador de datos, Clasificador de correspondencia, Auxiliar de información."
+ ],
+ "no_verificado": [
+  "No se ha consultado el currículo de grado básico de Aragón vigente (Orden ECD/841/2024 anexo III) para verificar distribución horaria exacta.",
+  "No se han obtenido las descripciones de unidades de competencia (UC) ni sus correspondencias con cualificaciones profesionales.",
+  "No se han verificado convalidaciones con títulos LOGSE de Administración.",
+  "No se ha confirmado si Aragón autoriza ofertas nocturnas, a distancia o en régimen intensivo.",
+  "Módulos, horas y distribución proceden del RD 127/2014 y RD 498/2024; verificación pendiente con documentación de Aragón."
+ ],
+ "pruebas": []
+}
