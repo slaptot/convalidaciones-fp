@@ -53,12 +53,12 @@ window.CICLOS["qui302"] = {
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": null,
+    "aragon": 67,
     "mefp": 75,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 1,
     "mefp": 1,
     "loe": null
    },
@@ -70,12 +70,12 @@ window.CICLOS["qui302"] = {
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": null,
+    "aragon": 133,
     "mefp": 155,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 1,
     "mefp": 1,
     "loe": null
    },
@@ -87,12 +87,12 @@ window.CICLOS["qui302"] = {
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": null,
+    "aragon": 167,
     "mefp": 150,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 1,
     "mefp": 2,
     "loe": null
    },
@@ -104,12 +104,12 @@ window.CICLOS["qui302"] = {
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": null,
+    "aragon": 67,
     "mefp": 75,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 1,
     "mefp": 1,
     "loe": null
    },
@@ -121,12 +121,12 @@ window.CICLOS["qui302"] = {
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": null,
+    "aragon": 200,
     "mefp": 175,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 1,
     "mefp": 1,
     "loe": null
    },
@@ -138,12 +138,12 @@ window.CICLOS["qui302"] = {
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": null,
+    "aragon": 200,
     "mefp": 130,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 2,
     "mefp": 2,
     "loe": null
    },
@@ -155,12 +155,12 @@ window.CICLOS["qui302"] = {
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": null,
+    "aragon": 200,
     "mefp": 110,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 2,
     "mefp": 2,
     "loe": null
    },
@@ -172,12 +172,12 @@ window.CICLOS["qui302"] = {
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": null,
+    "aragon": 67,
     "mefp": 110,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 2,
     "mefp": 2,
     "loe": null
    },
@@ -189,12 +189,12 @@ window.CICLOS["qui302"] = {
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": null,
+    "aragon": 167,
     "mefp": 75,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 2,
     "mefp": 1,
     "loe": null
    },
@@ -206,12 +206,12 @@ window.CICLOS["qui302"] = {
    "tipo": "especifico",
    "comun": "especifico",
    "horas": {
-    "aragon": null,
+    "aragon": 167,
     "mefp": 75,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 1,
     "mefp": 1,
     "loe": null
    },
@@ -223,12 +223,12 @@ window.CICLOS["qui302"] = {
    "tipo": "comun",
    "comun": "comun",
    "horas": {
-    "aragon": null,
+    "aragon": 67,
     "mefp": 50,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 1,
     "mefp": 2,
     "loe": null
    },
@@ -240,12 +240,12 @@ window.CICLOS["qui302"] = {
    "tipo": "comun",
    "comun": "digitalizacion",
    "horas": {
-    "aragon": null,
+    "aragon": 33,
     "mefp": 30,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 1,
     "mefp": 1,
     "loe": null
    },
@@ -257,12 +257,12 @@ window.CICLOS["qui302"] = {
    "tipo": "comun",
    "comun": "comun",
    "horas": {
-    "aragon": null,
+    "aragon": 33,
     "mefp": 30,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 2,
     "mefp": 2,
     "loe": null
    },
@@ -274,12 +274,12 @@ window.CICLOS["qui302"] = {
    "tipo": "comun",
    "comun": "comun",
    "horas": {
-    "aragon": null,
+    "aragon": 100,
     "mefp": 50,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 1,
     "mefp": 1,
     "loe": null
    },
@@ -291,12 +291,12 @@ window.CICLOS["qui302"] = {
    "tipo": "comun",
    "comun": "comun",
    "horas": {
-    "aragon": null,
+    "aragon": 67,
     "mefp": 50,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 2,
     "mefp": 2,
     "loe": null
    },
@@ -308,12 +308,12 @@ window.CICLOS["qui302"] = {
    "tipo": "proyecto",
    "comun": "proyecto",
    "horas": {
-    "aragon": null,
+    "aragon": 67,
     "mefp": 50,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 2,
     "mefp": 2,
     "loe": null
    },
@@ -325,12 +325,12 @@ window.CICLOS["qui302"] = {
    "tipo": "optativo",
    "comun": "optativo",
    "horas": {
-    "aragon": null,
+    "aragon": 100,
     "mefp": 75,
     "loe": null
    },
    "curso": {
-    "aragon": null,
+    "aragon": 2,
     "mefp": 1,
     "loe": null
    },
