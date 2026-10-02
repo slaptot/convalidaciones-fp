@@ -198,6 +198,119 @@
             font-size: 0.85em;
         }
 
+        /* Tabla de módulos transversales */
+        .transversal-modules-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        .transversal-modules-table th,
+        .transversal-modules-table td {
+            padding: 14px 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        .transversal-modules-table th {
+            background: #f0f0f0;
+            font-weight: 600;
+            color: #333;
+            position: sticky;
+            top: 0;
+        }
+
+        .transversal-modules-table tr:hover {
+            background: #f9f9f9;
+        }
+
+        .transversal-modules-table .rank {
+            font-weight: bold;
+            color: #667eea;
+            width: 50px;
+            text-align: center;
+        }
+
+        .transversal-modules-table .module-name {
+            font-weight: 500;
+            max-width: 400px;
+        }
+
+        .transversal-modules-table .count {
+            text-align: center;
+            font-weight: 600;
+            width: 100px;
+        }
+
+        .transversal-modules-table .percentage {
+            text-align: center;
+            width: 100px;
+            font-weight: 500;
+        }
+
+        .module-bar-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+            min-width: 200px;
+        }
+
+        .module-bar {
+            height: 28px;
+            border-radius: 4px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.9em;
+            font-weight: 500;
+            min-width: 60px;
+            transition: all 0.3s;
+        }
+
+        .module-bar:hover {
+            transform: scaleX(1.05);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .module-bar.very-common {
+            background: linear-gradient(90deg, #10b981 0%, #059669 100%);
+        }
+
+        .module-bar.common {
+            background: linear-gradient(90deg, #f59e0b 0%, #d97706 100%);
+        }
+
+        .module-bar.specialized {
+            background: linear-gradient(90deg, #3b82f6 0%, #1d4ed8 100%);
+        }
+
+        .frequency-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .frequency-badge.mandatory {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .frequency-badge.common {
+            background: #fed7aa;
+            color: #92400e;
+        }
+
+        .frequency-badge.optional {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
         /* Tabla de distribución grado x familia */
         .distribution-table {
             width: 100%;
@@ -476,6 +589,37 @@
                 <div class="modules-stats" id="modulesStats"></div>
             </div>
 
+            <!-- Módulos más transversales -->
+            <div class="stats-section">
+                <h2><span class="section-icon">🏆</span>Módulos Más Transversales</h2>
+                <p style="color: #666; margin-bottom: 20px; font-size: 0.95em;">
+                    Análisis de los módulos más comunes entre los 165 ciclos del catálogo. Los módulos "transversales" aparecen en muchos ciclos de diferentes familias profesionales.
+                </p>
+                <div style="overflow-x: auto;">
+                    <table class="transversal-modules-table" id="transversalModulesTable">
+                        <thead>
+                            <tr>
+                                <th class="rank">Rank</th>
+                                <th style="width: 45%;">Módulo</th>
+                                <th class="count">Ciclos</th>
+                                <th class="percentage">%</th>
+                                <th style="width: 35%;">Frecuencia</th>
+                                <th>Tipo</th>
+                            </tr>
+                        </thead>
+                        <tbody id="transversalModulesList"></tbody>
+                    </table>
+                </div>
+                <div style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin-top: 20px; font-size: 0.9em; color: #666;">
+                    <p><strong>Interpretación:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.6;">
+                        <li><strong style="color: #10b981;">🟢 Módulos Mandatorios (>80%):</strong> Aparecen en casi todos los ciclos, son requeridos por normativa transversal (Inglés, Itinerarios de Empleabilidad, Digitalización, Sostenibilidad, etc.)</li>
+                        <li><strong style="color: #f59e0b;">🟡 Módulos Comunes (50-80%):</strong> Aparecen en muchos ciclos, frecuentes en familias afines pero no obligatorios en todas</li>
+                        <li><strong style="color: #3b82f6;">🔵 Módulos Especializados (<50%):</strong> Específicos de ciertas familias profesionales o niveles de grado</li>
+                    </ul>
+                </div>
+            </div>
+
             <!-- Distribución grado x familia -->
             <div class="stats-section">
                 <h2><span class="section-icon">🔄</span>Distribución: Grado x Familia Profesional</h2>
@@ -611,6 +755,9 @@
             // Estadísticas de módulos
             renderModulesStats(totalModules);
 
+            // Módulos más transversales
+            renderTransversalModules();
+
             // Distribución grado x familia
             renderDistributionTable();
         }
@@ -701,6 +848,70 @@
             `;
 
             document.getElementById('modulesStats').innerHTML = html;
+        }
+
+        // Renderizar módulos más transversales
+        function renderTransversalModules() {
+            // Contar la frecuencia de cada módulo
+            const moduleCounts = {};
+
+            allCiclos.forEach(ciclo => {
+                ciclo.modulos_nombres.forEach(modulo => {
+                    moduleCounts[modulo] = (moduleCounts[modulo] || 0) + 1;
+                });
+            });
+
+            // Ordenar por frecuencia descendente y tomar top 10
+            const sortedModules = Object.entries(moduleCounts)
+                .map(([nombre, count]) => ({
+                    nombre,
+                    count,
+                    percentage: ((count / allCiclos.length) * 100).toFixed(1)
+                }))
+                .sort((a, b) => b.count - a.count)
+                .slice(0, 10);
+
+            // Renderizar tabla
+            const maxCount = sortedModules[0].count;
+            const tbody = document.getElementById('transversalModulesList');
+
+            tbody.innerHTML = sortedModules.map((module, index) => {
+                const barWidth = (module.count / maxCount) * 100;
+
+                // Determinar tipo según porcentaje
+                let typeClass = '';
+                let typeLabel = '';
+                let frequencyClass = '';
+
+                if (module.percentage >= 80) {
+                    typeClass = 'very-common';
+                    typeLabel = 'Mandatorio';
+                    frequencyClass = 'mandatory';
+                } else if (module.percentage >= 50) {
+                    typeClass = 'common';
+                    typeLabel = 'Común';
+                    frequencyClass = 'common';
+                } else {
+                    typeClass = 'specialized';
+                    typeLabel = 'Especializado';
+                    frequencyClass = 'optional';
+                }
+
+                return `
+                    <tr>
+                        <td class="rank">#${index + 1}</td>
+                        <td class="module-name">${module.nombre}</td>
+                        <td class="count">${module.count}</td>
+                        <td class="percentage">${module.percentage}%</td>
+                        <td>
+                            <div class="module-bar-container">
+                                <div class="module-bar ${typeClass}" style="width: ${barWidth}%;" title="${module.count} ciclos de ${allCiclos.length}"></div>
+                            </div>
+                        </td>
+                        <td><span class="frequency-badge ${frequencyClass}">${typeLabel}</span></td>
+                    </tr>
+                `;
+            }).join('');
         }
 
         // Renderizar tabla distribución grado x familia
