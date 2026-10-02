@@ -983,13 +983,23 @@
             });
         }
 
+        // Obtener los top 5 ciclos con más módulos
+        function getTop5Cycles() {
+            return allCiclos
+                .sort((a, b) => b.modulos_count - a.modulos_count)
+                .slice(0, 5);
+        }
+
         // Función de búsqueda
         function performSearch() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const familyFilter = document.getElementById('familyFilter').value;
             const gradeFilter = document.getElementById('gradeFilter').value;
 
-            const filteredCiclos = allCiclos.filter(ciclo => {
+            // Determinar si hay búsqueda/filtros activos
+            const hasActiveSearch = searchTerm || familyFilter || gradeFilter;
+
+            let filteredCiclos = allCiclos.filter(ciclo => {
                 const matchesSearch = !searchTerm ||
                     ciclo.codigo.toLowerCase().includes(searchTerm) ||
                     ciclo.nombre.toLowerCase().includes(searchTerm) ||
@@ -1001,7 +1011,16 @@
                 return matchesSearch && matchesFamily && matchesGrade;
             });
 
-            document.getElementById('resultCount').textContent = filteredCiclos.length;
+            // Si NO hay búsqueda/filtros activos, mostrar solo los top 5 ciclos
+            if (!hasActiveSearch) {
+                filteredCiclos = getTop5Cycles();
+                const totalCycles = allCiclos.length;
+                const displayedCount = filteredCiclos.length;
+                document.getElementById('resultCount').textContent = `${displayedCount} de ${totalCycles}`;
+            } else {
+                document.getElementById('resultCount').textContent = filteredCiclos.length;
+            }
+
             renderResults(filteredCiclos);
         }
 
