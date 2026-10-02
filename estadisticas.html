@@ -855,15 +855,14 @@
         function renderTransversalModules() {
             // Lista de módulos base/comunes a EXCLUIR
             const excludedModules = [
-                /^IPE I$/i,
-                /^IPE II$/i,
+                /itinerario\s+personal\s+para\s+la\s+empleabilidad/i,  // Captura "Itinerario personal para la empleabilidad I", "Itinerario personal para la empleabilidad II", etc.
                 /^FOL$/i,
                 /^Formación y Orientación Laboral$/i,
                 /tutoría/i,  // Captura Tutoría I, Tutoría II, Tutorías, etc.
                 /^DASP$/i,
                 /Digitalización aplicada al sistema productivo/i,
                 /Módulo profesional optativo/i,
-                /Sostenibilidad aplicada al sistema productivo/i,
+                /Sostenibilidad aplicada/i,
                 /Formación en centros de trabajo/i,
                 /^FCT$/i
             ];
