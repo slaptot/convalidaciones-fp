@@ -591,9 +591,9 @@
 
             <!-- Módulos más transversales -->
             <div class="stats-section">
-                <h2><span class="section-icon">🏆</span>Módulos Más Transversales</h2>
+                <h2><span class="section-icon">🏆</span>Módulos Más Transversales (Especializados)</h2>
                 <p style="color: #666; margin-bottom: 20px; font-size: 0.95em;">
-                    Análisis de los módulos más comunes entre los 165 ciclos del catálogo. Los módulos "transversales" aparecen en muchos ciclos de diferentes familias profesionales.
+                    Ranking de módulos especializados que aparecen en múltiples ciclos de diferentes familias profesionales. <strong>Excluye módulos base/comunes</strong> (IPE, FOL, Tutorías, DASP, Sostenibilidad, FCT) que son mandatorios por normativa. Muestra los módulos que realmente viajan entre ciclos/familias por su valor profesional.
                 </p>
                 <div style="overflow-x: auto;">
                     <table class="transversal-modules-table" id="transversalModulesTable">
@@ -613,9 +613,10 @@
                 <div style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin-top: 20px; font-size: 0.9em; color: #666;">
                     <p><strong>Interpretación:</strong></p>
                     <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.6;">
-                        <li><strong style="color: #10b981;">🟢 Módulos Mandatorios (>80%):</strong> Aparecen en casi todos los ciclos, son requeridos por normativa transversal (Inglés, Itinerarios de Empleabilidad, Digitalización, Sostenibilidad, etc.)</li>
-                        <li><strong style="color: #f59e0b;">🟡 Módulos Comunes (50-80%):</strong> Aparecen en muchos ciclos, frecuentes en familias afines pero no obligatorios en todas</li>
-                        <li><strong style="color: #3b82f6;">🔵 Módulos Especializados (<50%):</strong> Específicos de ciertas familias profesionales o niveles de grado</li>
+                        <li><strong>📌 Nota importante:</strong> Este ranking <strong>excluye los módulos mandatorios por normativa</strong> (IPE I/II, FOL, Tutorías, DASP, Sostenibilidad, FCT) para mostrar solo los módulos especializados reales que viajan entre familias.</li>
+                        <li><strong style="color: #10b981;">🟢 Muy Transversales (>80%):</strong> Módulos especializados que aparecen en más del 80% de los ciclos (Ej: Inglés Profesional). Demuestran gran demanda del sector.</li>
+                        <li><strong style="color: #f59e0b;">🟡 Transversales (50-80%):</strong> Módulos especializados frecuentes en múltiples familias profesionales, pero no universales.</li>
+                        <li><strong style="color: #3b82f6;">🔵 Especializados (30-50%):</strong> Módulos específicos de ciertas familias o nichos, pero con suficiente presencia como para considerarse tendencia.</li>
                     </ul>
                 </div>
             </div>
@@ -852,12 +853,35 @@
 
         // Renderizar módulos más transversales
         function renderTransversalModules() {
+            // Lista de módulos base/comunes a EXCLUIR
+            const excludedModules = [
+                /^IPE I$/i,
+                /^IPE II$/i,
+                /^FOL$/i,
+                /^Formación y Orientación Laboral$/i,
+                /tutoría/i,  // Captura Tutoría I, Tutoría II, Tutorías, etc.
+                /^DASP$/i,
+                /Digitalización aplicada al sistema productivo/i,
+                /Módulo profesional optativo/i,
+                /Sostenibilidad aplicada al sistema productivo/i,
+                /Formación en centros de trabajo/i,
+                /^FCT$/i
+            ];
+
+            // Función para verificar si un módulo debe ser excluido
+            function isExcluded(moduleName) {
+                return excludedModules.some(pattern => pattern.test(moduleName));
+            }
+
             // Contar la frecuencia de cada módulo
             const moduleCounts = {};
 
             allCiclos.forEach(ciclo => {
                 ciclo.modulos_nombres.forEach(modulo => {
-                    moduleCounts[modulo] = (moduleCounts[modulo] || 0) + 1;
+                    // Solo contar módulos que NO están en la lista de exclusión
+                    if (!isExcluded(modulo)) {
+                        moduleCounts[modulo] = (moduleCounts[modulo] || 0) + 1;
+                    }
                 });
             });
 
