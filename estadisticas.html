@@ -589,34 +589,63 @@
                 <div class="modules-stats" id="modulesStats"></div>
             </div>
 
-            <!-- Módulos más transversales -->
+            <!-- Sectores Productivos / Familias Profesionales -->
             <div class="stats-section">
-                <h2><span class="section-icon">🏆</span>Módulos Más Transversales (Especializados)</h2>
-                <p style="color: #666; margin-bottom: 20px; font-size: 0.95em;">
-                    Ranking de módulos especializados que aparecen en múltiples ciclos de diferentes familias profesionales. <strong>Excluye módulos base/comunes</strong> (IPE, FOL, Tutorías, DASP, Sostenibilidad, FCT) que son mandatorios por normativa. Muestra los módulos que realmente viajan entre ciclos/familias por su valor profesional.
-                </p>
-                <div style="overflow-x: auto;">
-                    <table class="transversal-modules-table" id="transversalModulesTable">
-                        <thead>
-                            <tr>
-                                <th class="rank">Rank</th>
-                                <th style="width: 45%;">Módulo</th>
-                                <th class="count">Ciclos</th>
-                                <th class="percentage">%</th>
-                                <th style="width: 35%;">Frecuencia</th>
-                                <th>Tipo</th>
-                            </tr>
-                        </thead>
-                        <tbody id="transversalModulesList"></tbody>
-                    </table>
+                <h2><span class="section-icon">🏆</span>Sectores Productivos (Familias Profesionales)</h2>
+
+                <!-- Top 10 Sectores por Número de Ciclos -->
+                <div style="margin-bottom: 40px;">
+                    <h3 style="color: #444; margin-bottom: 15px; font-size: 1.2em;">📊 Top 10 Sectores por Número de Ciclos</h3>
+                    <p style="color: #666; margin-bottom: 20px; font-size: 0.95em;">
+                        Ranking de familias profesionales ordenadas por cantidad de ciclos formativos que ofrecen en el catálogo.
+                    </p>
+                    <div style="overflow-x: auto;">
+                        <table class="families-table" id="sectorsTable">
+                            <thead>
+                                <tr>
+                                    <th class="rank">Rank</th>
+                                    <th>Sector / Familia</th>
+                                    <th style="width: 50%;">Ciclos</th>
+                                    <th style="width: 80px;">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody id="sectorsList"></tbody>
+                        </table>
+                    </div>
                 </div>
-                <div style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin-top: 20px; font-size: 0.9em; color: #666;">
-                    <p><strong>Interpretación:</strong></p>
+
+                <!-- Familias Más Transversales -->
+                <div style="margin-bottom: 30px;">
+                    <h3 style="color: #444; margin-bottom: 15px; font-size: 1.2em;">🔄 Familias Más Transversales (Especialización Cruzada)</h3>
+                    <p style="color: #666; margin-bottom: 20px; font-size: 0.95em;">
+                        Ranking que muestra qué familias profesionales son más "transversales": sus módulos aparecen en ciclos de otras familias, indicando especialidades compartidas y competencias cross-sector.
+                    </p>
+                    <div style="overflow-x: auto;">
+                        <table class="transversal-modules-table" id="transversalFamiliesTable">
+                            <thead>
+                                <tr>
+                                    <th class="rank">Rank</th>
+                                    <th style="width: 30%;">Familia</th>
+                                    <th class="count">Ciclos Propios</th>
+                                    <th class="count">Módulos Compartidos</th>
+                                    <th class="percentage">Transversalidad %</th>
+                                    <th style="width: 35%;">Visualización</th>
+                                </tr>
+                            </thead>
+                            <tbody id="transversalFamiliesList"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div style="background: #f9f9f9; padding: 20px; border-radius: 8px; font-size: 0.9em; color: #666;">
+                    <p><strong>Interpretación de Transversalidad:</strong></p>
                     <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.6;">
-                        <li><strong>📌 Nota importante:</strong> Este ranking <strong>excluye los módulos mandatorios por normativa</strong> (IPE I/II, FOL, Tutorías, DASP, Sostenibilidad, FCT) para mostrar solo los módulos especializados reales que viajan entre familias.</li>
-                        <li><strong style="color: #10b981;">🟢 Muy Transversales (>80%):</strong> Módulos especializados que aparecen en más del 80% de los ciclos (Ej: Inglés Profesional). Demuestran gran demanda del sector.</li>
-                        <li><strong style="color: #f59e0b;">🟡 Transversales (50-80%):</strong> Módulos especializados frecuentes en múltiples familias profesionales, pero no universales.</li>
-                        <li><strong style="color: #3b82f6;">🔵 Especializados (30-50%):</strong> Módulos específicos de ciertas familias o nichos, pero con suficiente presencia como para considerarse tendencia.</li>
+                        <li><strong>Ciclos Propios:</strong> Número de ciclos formativos que tiene la familia en el catálogo.</li>
+                        <li><strong>Módulos Compartidos:</strong> Cantidad de veces que módulos de esta familia aparecen en ciclos de OTRAS familias profesionales.</li>
+                        <li><strong>Transversalidad %:</strong> Porcentaje que indica cuán transversal es la familia (cuánto sus conocimientos se utilizan en otros sectores).</li>
+                        <li><strong style="color: #10b981;">🟢 Alta Transversalidad (>60%):</strong> Familias cuyos módulos son muy demandados en otros sectores. Sus competencias son fundamentales para múltiples profesiones.</li>
+                        <li><strong style="color: #f59e0b;">🟡 Media Transversalidad (30-60%):</strong> Familias con presencia significativa en otros sectores, pero más especializadas.</li>
+                        <li><strong style="color: #3b82f6;">🔵 Baja Transversalidad (<30%):</strong> Familias muy especializadas cuyos módulos se aplican principalmente dentro de su propio sector.</li>
                     </ul>
                 </div>
             </div>
@@ -756,8 +785,9 @@
             // Estadísticas de módulos
             renderModulesStats(totalModules);
 
-            // Módulos más transversales
-            renderTransversalModules();
+            // Sectores y familias transversales
+            renderSectors();
+            renderTransversalFamilies();
 
             // Distribución grado x familia
             renderDistributionTable();
@@ -851,92 +881,120 @@
             document.getElementById('modulesStats').innerHTML = html;
         }
 
-        // Renderizar módulos más transversales
-        function renderTransversalModules() {
-            // Lista de módulos base/comunes a EXCLUIR
-            const excludedModules = [
-                /itinerario\s+personal\s+para\s+la\s+empleabilidad/i,  // Captura "Itinerario personal para la empleabilidad I", "Itinerario personal para la empleabilidad II", etc.
-                /^FOL$/i,
-                /^Formación y Orientación Laboral$/i,
-                /tutoría/i,  // Captura Tutoría I, Tutoría II, Tutorías, etc.
-                /^DASP$/i,
-                /Digitalización aplicada al sistema productivo/i,
-                /Módulo profesional optativo/i,
-                /Sostenibilidad aplicada/i,
-                /Formación en centros de trabajo/i,
-                /^FCT$/i,
-                /Empresa e iniciativa emprendedora/i,
-                /Digitalización aplicada a los sectores productivos/i,
-                /Proyecto intermodular/i,
-                /Inglés Profesional/i,
-                /^Ámbito/i
-            ];
+        // Renderizar Top 10 Sectores por Número de Ciclos
+        function renderSectors() {
+            const familyCounts = {};
+            allCiclos.forEach(c => {
+                familyCounts[c.familia] = (familyCounts[c.familia] || 0) + 1;
+            });
 
-            // Función para verificar si un módulo debe ser excluido
-            function isExcluded(moduleName) {
-                return excludedModules.some(pattern => pattern.test(moduleName));
-            }
+            const sortedFamilies = Object.entries(familyCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10);
 
-            // Contar la frecuencia de cada módulo
-            const moduleCounts = {};
+            const maxCount = sortedFamilies[0][1];
+            const tbody = document.getElementById('sectorsList');
 
+            tbody.innerHTML = sortedFamilies.map((family, index) => {
+                const barWidth = (family[1] / maxCount) * 100;
+                return `
+                    <tr>
+                        <td class="rank">#${index + 1}</td>
+                        <td>${family[0]}</td>
+                        <td><span class="bar" style="width: ${barWidth}%">${family[1]} ciclos</span></td>
+                        <td>${family[1]}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Renderizar Familias Más Transversales
+        function renderTransversalFamilies() {
+            const familyCounts = {};
+            const familyModulesByFamily = {};
+
+            // Agrupar módulos por familia
             allCiclos.forEach(ciclo => {
+                if (!familyCounts[ciclo.familia]) {
+                    familyCounts[ciclo.familia] = 0;
+                    familyModulesByFamily[ciclo.familia] = new Set();
+                }
+                familyCounts[ciclo.familia]++;
+
                 ciclo.modulos_nombres.forEach(modulo => {
-                    // Solo contar módulos que NO están en la lista de exclusión
-                    if (!isExcluded(modulo)) {
-                        moduleCounts[modulo] = (moduleCounts[modulo] || 0) + 1;
-                    }
+                    familyModulesByFamily[ciclo.familia].add(modulo);
                 });
             });
 
-            // Ordenar por frecuencia descendente y tomar top 10
-            const sortedModules = Object.entries(moduleCounts)
-                .map(([nombre, count]) => ({
-                    nombre,
-                    count,
-                    percentage: ((count / allCiclos.length) * 100).toFixed(1)
-                }))
-                .sort((a, b) => b.count - a.count)
-                .slice(0, 10);
+            // Calcular transversalidad para cada familia
+            const familiesTransversality = [];
 
-            // Renderizar tabla
-            const maxCount = sortedModules[0].count;
-            const tbody = document.getElementById('transversalModulesList');
+            for (const [familia, modulosSet] of Object.entries(familyModulesByFamily)) {
+                let sharedModulesCount = 0;
+                let cyclesWithSharedModules = new Set();
 
-            tbody.innerHTML = sortedModules.map((module, index) => {
-                const barWidth = (module.count / maxCount) * 100;
+                // Para cada módulo de esta familia
+                for (const modulo of modulosSet) {
+                    // Contar cuántos ciclos de OTRAS familias contienen este módulo
+                    allCiclos.forEach(ciclo => {
+                        if (ciclo.familia !== familia && ciclo.modulos_nombres.includes(modulo)) {
+                            sharedModulesCount++;
+                            cyclesWithSharedModules.add(ciclo.codigo);
+                        }
+                    });
+                }
 
-                // Determinar tipo según porcentaje
-                let typeClass = '';
-                let typeLabel = '';
-                let frequencyClass = '';
+                const ciclosCount = familyCounts[familia];
+                const otherFamiliesCyclesCount = allCiclos.filter(c => c.familia !== familia).length;
 
-                if (module.percentage >= 80) {
-                    typeClass = 'very-common';
-                    typeLabel = 'Mandatorio';
-                    frequencyClass = 'mandatory';
-                } else if (module.percentage >= 50) {
-                    typeClass = 'common';
-                    typeLabel = 'Común';
-                    frequencyClass = 'common';
+                // Calcular transversalidad como: ciclos de otras familias con módulos de esta / ciclos totales de otras familias
+                const transversalityPercentage = (otherFamiliesCyclesCount > 0) ?
+                    ((cyclesWithSharedModules.size / otherFamiliesCyclesCount) * 100).toFixed(1) : 0;
+
+                familiesTransversality.push({
+                    familia,
+                    ciclos: ciclosCount,
+                    sharedModules: sharedModulesCount,
+                    transversality: parseFloat(transversalityPercentage)
+                });
+            }
+
+            // Ordenar por transversalidad descendente
+            familiesTransversality.sort((a, b) => b.transversality - a.transversality);
+
+            const maxTransversality = Math.max(...familiesTransversality.map(f => f.transversality), 100);
+            const tbody = document.getElementById('transversalFamiliesList');
+
+            tbody.innerHTML = familiesTransversality.map((family, index) => {
+                const barWidth = (family.transversality / maxTransversality) * 100;
+
+                // Determinar nivel de transversalidad
+                let barClass = '';
+                let levelLabel = '';
+                if (family.transversality >= 60) {
+                    barClass = 'very-common';
+                    levelLabel = 'Alta';
+                } else if (family.transversality >= 30) {
+                    barClass = 'common';
+                    levelLabel = 'Media';
                 } else {
-                    typeClass = 'specialized';
-                    typeLabel = 'Especializado';
-                    frequencyClass = 'optional';
+                    barClass = 'specialized';
+                    levelLabel = 'Baja';
                 }
 
                 return `
                     <tr>
                         <td class="rank">#${index + 1}</td>
-                        <td class="module-name">${module.nombre}</td>
-                        <td class="count">${module.count}</td>
-                        <td class="percentage">${module.percentage}%</td>
+                        <td>${family.familia}</td>
+                        <td class="count">${family.ciclos}</td>
+                        <td class="count">${family.sharedModules}</td>
+                        <td class="percentage">${family.transversality}%</td>
                         <td>
                             <div class="module-bar-container">
-                                <div class="module-bar ${typeClass}" style="width: ${barWidth}%;" title="${module.count} ciclos de ${allCiclos.length}"></div>
+                                <div class="module-bar ${barClass}" style="width: ${Math.min(barWidth, 100)}%;" title="${family.transversality}% transversalidad"></div>
+                                <span style="font-size: 0.85em; color: #666; margin-left: 8px;">${levelLabel}</span>
                             </div>
                         </td>
-                        <td><span class="frequency-badge ${frequencyClass}">${typeLabel}</span></td>
                     </tr>
                 `;
             }).join('');
