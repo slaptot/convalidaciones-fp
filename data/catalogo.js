@@ -51190,171 +51190,18 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "0206",
-        "nombre": "Montaje y mantenimiento de equipos",
+        "codigo": "0223",
+        "nombre": "Aplicaciones ofimáticas",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
           "aragon": 200,
-          "mefp": 132,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0207",
-        "nombre": "Sistemas operativos monousuario",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 200,
-          "mefp": 100,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0208",
-        "nombre": "Sistemas operativos multiusuario",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 167,
-          "mefp": 100,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0209",
-        "nombre": "Redes de área local",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 200,
-          "mefp": 100,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0210",
-        "nombre": "Internet, intranet e interconexión de redes",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 200,
-          "mefp": 100,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0211",
-        "nombre": "Servicios en red",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 200,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0212",
-        "nombre": "Instalación y mantenimiento de servicios de internet",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 133,
-          "mefp": 70,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0213",
-        "nombre": "TCP/IP",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 167,
-          "mefp": 70,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0214",
-        "nombre": "Seguridad informática",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 200,
-          "mefp": 70,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0156",
-        "nombre": "Inglés Profesional (GM)",
-        "tipo": "comun",
-        "comun": "ingles",
-        "horas": {
-          "aragon": 100,
-          "mefp": 100,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -51363,32 +51210,32 @@ Object.assign(window.CICLOS, {
         "codigo": "1664",
         "nombre": "Digitalización aplicada a los sectores productivos (GM)",
         "tipo": "comun",
-        "comun": "digitalizacion",
+        "comun": "comun",
         "horas": {
           "aragon": 33,
-          "mefp": 35,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "1708",
-        "nombre": "Sostenibilidad aplicada al sistema productivo",
+        "codigo": "0156",
+        "nombre": "Inglés Profesional (GM)",
         "tipo": "comun",
-        "comun": "sostenibilidad",
+        "comun": "comun",
         "horas": {
-          "aragon": 33,
-          "mefp": 35,
+          "aragon": 67,
+          "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": 2,
-          "mefp": 2,
+          "aragon": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -51397,15 +51244,100 @@ Object.assign(window.CICLOS, {
         "codigo": "1709",
         "nombre": "Itinerario personal para la empleabilidad I",
         "tipo": "comun",
-        "comun": "ipe1",
+        "comun": "comun",
         "horas": {
           "aragon": 100,
-          "mefp": 100,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0221",
+        "nombre": "Montaje y mantenimiento de equipos informáticos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0225",
+        "nombre": "Redes locales",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0222",
+        "nombre": "Sistemas operativos monopuesto",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A997",
+        "nombre": "Tutoría I",
+        "tipo": "tutoria",
+        "comun": "tutoria",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0228",
+        "nombre": "Aplicaciones web",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -51414,32 +51346,100 @@ Object.assign(window.CICLOS, {
         "codigo": "1710",
         "nombre": "Itinerario personal para la empleabilidad II",
         "tipo": "comun",
-        "comun": "ipe2",
+        "comun": "comun",
         "horas": {
           "aragon": 67,
-          "mefp": 50,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
         "codigo": "1713",
-        "nombre": "Proyecto intermodular",
+        "nombre": "Proyecto Intermodular",
         "tipo": "proyecto",
         "comun": "proyecto",
         "horas": {
           "aragon": 67,
-          "mefp": 50,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0226",
+        "nombre": "Seguridad informática",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0227",
+        "nombre": "Servicios en red",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0224",
+        "nombre": "Sistemas operativos en red",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1708",
+        "nombre": "Sostenibilidad aplicada al sistema productivo",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -51451,12 +51451,29 @@ Object.assign(window.CICLOS, {
         "comun": "optativo",
         "horas": {
           "aragon": 100,
-          "mefp": 80,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A996",
+        "nombre": "Tutoría II",
+        "tipo": "tutoria",
+        "comun": "tutoria",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
