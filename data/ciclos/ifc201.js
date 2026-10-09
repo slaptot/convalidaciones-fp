@@ -6,6 +6,7 @@ window.CICLOS["ifc201"] = {
   "nombre": "Técnico en Sistemas Microinformáticos y Redes",
   "grado": "medio",
   "familia": "Informática y Comunicaciones",
+  "duracion_total_horas": 2000,
   "normas": [
    {
     "ref": "RD 1147/2011, de 29 de julio",
@@ -55,289 +56,269 @@ window.CICLOS["ifc201"] = {
     "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1411653420404",
     "nota": "BOA 181, 18/09/2025. Modifica Orden ECD/842/2024: renombra módulos optativos a AOP1001/1002/1003. No toca anexo XXXVII de este ciclo."
    }
-  ],
-  "plan": "LOE"
+  ]
  },
  "modulos": [
   {
-   "codigo": "0206",
-   "nombre": "Montaje y mantenimiento de equipos",
+   "codigo": "0223",
+   "nombre": "Aplicaciones ofimáticas",
+   "horas": 200,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 1,
    "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 200,
-    "mefp": 132,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": null
-   },
-   "nota": null
-  },
-  {
-   "codigo": "0207",
-   "nombre": "Sistemas operativos monousuario",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 200,
-    "mefp": 100,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": null
-   },
-   "nota": null
-  },
-  {
-   "codigo": "0208",
-   "nombre": "Sistemas operativos multiusuario",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 167,
-    "mefp": 100,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": null
-   },
-   "nota": null
-  },
-  {
-   "codigo": "0209",
-   "nombre": "Redes de área local",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 200,
-    "mefp": 100,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": null
-   },
-   "nota": null
-  },
-  {
-   "codigo": "0210",
-   "nombre": "Internet, intranet e interconexión de redes",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 200,
-    "mefp": 100,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
-  },
-  {
-   "codigo": "0211",
-   "nombre": "Servicios en red",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 200,
-    "mefp": 60,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
-  },
-  {
-   "codigo": "0212",
-   "nombre": "Instalación y mantenimiento de servicios de internet",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 133,
-    "mefp": 70,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
-  },
-  {
-   "codigo": "0213",
-   "nombre": "TCP/IP",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 167,
-    "mefp": 70,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
-  },
-  {
-   "codigo": "0214",
-   "nombre": "Seguridad informática",
-   "tipo": "especifico",
-   "comun": "especifico",
-   "horas": {
-    "aragon": 200,
-    "mefp": 70,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
-  },
-  {
-   "codigo": "0156",
-   "nombre": "Inglés Profesional (GM)",
-   "tipo": "comun",
-   "comun": "ingles",
-   "horas": {
-    "aragon": 100,
-    "mefp": 100,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    }
+   }
   },
   {
    "codigo": "1664",
    "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+   "horas": 33,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 1,
    "tipo": "comun",
-   "comun": "digitalizacion",
-   "horas": {
-    "aragon": 33,
-    "mefp": 35,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    }
+   }
   },
   {
-   "codigo": "1708",
-   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "codigo": "0156",
+   "nombre": "Inglés Profesional (GM)",
+   "horas": 67,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 1,
    "tipo": "comun",
-   "comun": "sostenibilidad",
-   "horas": {
-    "aragon": 33,
-    "mefp": 35,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 1
+    }
+   }
   },
   {
    "codigo": "1709",
    "nombre": "Itinerario personal para la empleabilidad I",
+   "horas": 100,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 1,
    "tipo": "comun",
-   "comun": "ipe1",
-   "horas": {
-    "aragon": 100,
-    "mefp": 100,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 1,
-    "mefp": 1,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0221",
+   "nombre": "Montaje y mantenimiento de equipos informáticos",
+   "horas": 200,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0225",
+   "nombre": "Redes locales",
+   "horas": 200,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0222",
+   "nombre": "Sistemas operativos monopuesto",
+   "horas": 167,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 1,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "A997",
+   "nombre": "Tutoría I",
+   "horas": 33,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 1,
+   "tipo": "tutoria",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 1
+    }
+   }
+  },
+  {
+   "codigo": "0228",
+   "nombre": "Aplicaciones web",
+   "horas": 200,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    }
+   }
   },
   {
    "codigo": "1710",
    "nombre": "Itinerario personal para la empleabilidad II",
+   "horas": 67,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 2,
    "tipo": "comun",
-   "comun": "ipe2",
-   "horas": {
-    "aragon": 67,
-    "mefp": 50,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    }
+   }
   },
   {
    "codigo": "1713",
-   "nombre": "Proyecto intermodular",
+   "nombre": "Proyecto Intermodular",
+   "horas": 67,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 2,
    "tipo": "proyecto",
-   "comun": "proyecto",
-   "horas": {
-    "aragon": 67,
-    "mefp": 50,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 67,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0226",
+   "nombre": "Seguridad informática",
+   "horas": 133,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 133,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0227",
+   "nombre": "Servicios en red",
+   "horas": 167,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 167,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "0224",
+   "nombre": "Sistemas operativos en red",
+   "horas": 200,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 2,
+   "tipo": "especifico",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 200,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "1708",
+   "nombre": "Sostenibilidad aplicada al sistema productivo",
+   "horas": 33,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 2,
+   "tipo": "comun",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    }
+   }
   },
   {
    "codigo": "OPT",
    "nombre": "Módulo profesional optativo",
+   "horas": 100,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 2,
    "tipo": "optativo",
-   "comun": "optativo",
-   "horas": {
-    "aragon": 100,
-    "mefp": 80,
-    "loe": null
-   },
-   "curso": {
-    "aragon": 2,
-    "mefp": 2,
-    "loe": null
-   },
-   "nota": null
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 100,
+     "curso": 2
+    }
+   }
+  },
+  {
+   "codigo": "A996",
+   "nombre": "Tutoría II",
+   "horas": 33,
+   "horas_fuente": "centrosdocentes.catedu.es (oferta oficial Aragón, horario diurno)",
+   "curso": 2,
+   "tipo": "tutoria",
+   "vigente": true,
+   "horas_otras": {
+    "aragon": {
+     "horas": 33,
+     "curso": 2
+    }
+   }
   }
  ],
  "convalidaciones_titulos_anteriores": [
   {
    "origen_titulo": "Técnico en Sistemas Microinformáticos y Redes (LOGSE, RD 1659/1994)",
-   "origen_modulo": [
-    "Redes de área local"
-   ],
+   "origen_modulo": "Redes de área local",
    "destino_modulos": [
     "0209"
    ],
@@ -345,16 +326,13 @@ window.CICLOS["ifc201"] = {
   },
   {
    "origen_titulo": "Técnico en Sistemas Microinformáticos y Redes (LOGSE, RD 1659/1994)",
-   "origen_modulo": [
-    "TCP/IP"
-   ],
+   "origen_modulo": "TCP/IP",
    "destino_modulos": [
     "0213"
    ],
    "fuente": "RD 1085/2020 anexo II (convalidaciones LOGSE→LOE), bloque Informática y Comunicaciones, GRADO MEDIO"
   }
  ],
- "convalidaciones_loe": [],
  "uc_a_modulos": [
   {
    "uc": [
@@ -363,6 +341,7 @@ window.CICLOS["ifc201"] = {
    "modulos": [
     "0206"
    ],
+   "vigente": true,
    "fuente": "RD 1147/2011 anexo V A) (redacción RD 499/2024)"
   },
   {
@@ -372,6 +351,7 @@ window.CICLOS["ifc201"] = {
    "modulos": [
     "0207"
    ],
+   "vigente": true,
    "fuente": "RD 1147/2011 anexo V A) (redacción RD 499/2024)"
   },
   {
@@ -381,6 +361,7 @@ window.CICLOS["ifc201"] = {
    "modulos": [
     "0208"
    ],
+   "vigente": true,
    "fuente": "RD 1147/2011 anexo V A) (redacción RD 499/2024)"
   },
   {
@@ -390,6 +371,7 @@ window.CICLOS["ifc201"] = {
    "modulos": [
     "0209"
    ],
+   "vigente": true,
    "fuente": "RD 1147/2011 anexo V A) (redacción RD 499/2024)"
   },
   {
@@ -399,6 +381,7 @@ window.CICLOS["ifc201"] = {
    "modulos": [
     "0210"
    ],
+   "vigente": true,
    "fuente": "RD 1147/2011 anexo V A) (redacción RD 499/2024)"
   },
   {
@@ -408,9 +391,92 @@ window.CICLOS["ifc201"] = {
    "modulos": [
     "0211"
    ],
+   "vigente": true,
    "fuente": "RD 1147/2011 anexo V A) (redacción RD 499/2024)"
   }
  ],
+ "modulos_a_uc": [
+  {
+   "modulos": [
+    "0206"
+   ],
+   "uc": [
+    "UC0224_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1147/2011 anexo V B) (redacción RD 499/2024)"
+  },
+  {
+   "modulos": [
+    "0207"
+   ],
+   "uc": [
+    "UC0225_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1147/2011 anexo V B) (redacción RD 499/2024)"
+  },
+  {
+   "modulos": [
+    "0208"
+   ],
+   "uc": [
+    "UC0226_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1147/2011 anexo V B) (redacción RD 499/2024)"
+  },
+  {
+   "modulos": [
+    "0209"
+   ],
+   "uc": [
+    "UC0227_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1147/2011 anexo V B) (redacción RD 499/2024)"
+  },
+  {
+   "modulos": [
+    "0210"
+   ],
+   "uc": [
+    "UC0228_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1147/2011 anexo V B) (redacción RD 499/2024)"
+  },
+  {
+   "modulos": [
+    "0211"
+   ],
+   "uc": [
+    "UC0229_2"
+   ],
+   "vigente": true,
+   "fuente": "RD 1147/2011 anexo V B) (redacción RD 499/2024)"
+  }
+ ],
+ "equivalencias_uc": {
+  "UC0224_2": [
+   "ECP0224_2"
+  ],
+  "UC0225_2": [
+   "ECP0225_2"
+  ],
+  "UC0226_2": [
+   "ECP0226_2"
+  ],
+  "UC0227_2": [
+   "ECP0227_2"
+  ],
+  "UC0228_2": [
+   "ECP0228_2"
+  ],
+  "UC0229_2": [
+   "ECP0229_2"
+  ]
+ },
  "uc_descripciones": {
   "UC0224_2": "«Montar y mantener equipos microinformáticos» [ECP0224_2]. Cualificación IFC051_2.",
   "UC0225_2": "«Instalar, configurar y verificar sistemas operativos monousuario» [ECP0225_2]. Cualificación IFC051_2.",
@@ -419,13 +485,54 @@ window.CICLOS["ifc201"] = {
   "UC0228_2": "«Gestionar y conectar redes locales a internet» [ECP0228_2]. Cualificación IFC091_2.",
   "UC0229_2": "«Prestar servicios de comunicación mediante redes telemáticas» [ECP0229_2]. Cualificación IFC052_2."
  },
- "uc_equivalencias": {},
+ "cualificaciones": [
+  {
+   "codigo": "IFC051_2",
+   "nombre": "Montaje y reparación de sistemas microinformáticos",
+   "completa": true,
+   "uc": [
+    "UC0224_2",
+    "UC0225_2"
+   ],
+   "norma": "RD 107/2008"
+  },
+  {
+   "codigo": "IFC052_2",
+   "nombre": "Administración de redes de área local",
+   "completa": true,
+   "uc": [
+    "UC0226_2",
+    "UC0227_2",
+    "UC0229_2"
+   ],
+   "norma": "RD 107/2008"
+  },
+  {
+   "codigo": "IFC091_2",
+   "nombre": "Gestión de redes telemáticas",
+   "completa": true,
+   "uc": [
+    "UC0228_2"
+   ],
+   "norma": "RD 107/2008"
+  },
+  {
+   "codigo": "IFC053_2",
+   "nombre": "Operación de redes telemáticas",
+   "completa": false,
+   "uc": [
+    "UC0226_2"
+   ],
+   "norma": "RD 107/2008"
+  }
+ ],
  "notas": [
   "«horas» es duración del currículo básico estatal; «horas_otras.aragon» del catálogo-aragon.json; «horas_otras.mefp» de Orden EFD/657/2024 anexo LIII",
   "Módulos confirmados con RD 1147/2011, RD 499/2024 (modificaciones) y Orden ECD/842/2024 (Aragón)",
   "RD 1147/2011 originalmente: 0213 «Inglés técnico» → renombrado 0156 «Inglés Profesional (GM)» por RD 499/2024",
   "UC antiguas (UC0224_2 a UC0229_2) pasan a ECP con mismo número según RD 532/2025 anexo I",
-  "No hay convalidaciones intrafamilia IFC201→IFC301/302/303 documentadas (se prueban a nivel motor)"
+  "No hay convalidaciones intrafamilia IFC201→IFC301/302/303 documentadas (se prueban a nivel motor)",
+  "Módulos y horas: oferta oficial de Aragón (centrosdocentes.catedu.es), 1.º y 2.º curso ≈1000 h c/u. Códigos 0221–0228 y 0223 son los de Aragón; no coinciden con 0206–0214 del RD 1147/2011."
  ],
  "no_verificado": [
   "Datos de Aragón extraídos del catálogo-aragon.json contienen solo horas (sin códigos/nombres de módulos): completados desde RD 1147/2011 y Orden ECD/842/2024",
