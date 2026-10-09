@@ -63588,17 +63588,17 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "0212",
-        "nombre": "Características y necesidades de las personas en situación de dependencia",
+        "codigo": "1151",
+        "nombre": "Acondicionamiento físico en el agua",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 200,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -63610,29 +63610,63 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 233,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "1136",
-        "nombre": "Valoración de la condición física e intervención en accidentes",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "1665",
+        "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 33,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0179",
+        "nombre": "Inglés Profesional (GS)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1709",
+        "nombre": "Itinerario personal para la empleabilidad I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -63644,12 +63678,46 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 167,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1136",
+        "nombre": "Valoración de la condición física e intervención en accidentes",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0212",
+        "nombre": "Características y necesidades de las personas en situación de dependencia",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 333,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -63661,29 +63729,12 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "1152",
-        "nombre": "Técnicas de hidrocinesia",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -63695,29 +63746,29 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "1151",
-        "nombre": "Acondicionamiento físico en el agua",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "1710",
+        "nombre": "Itinerario personal para la empleabilidad II",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -63729,80 +63780,12 @@ Object.assign(window.CICLOS, {
         "tipo": "proyecto",
         "comun": "proyecto",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": "Antes 'Proyecto de Termalismo y bienestar'; renombrado por RD 500/2024 (DA 7ª), mismo código 1647."
-      },
-      {
-        "codigo": "0179",
-        "nombre": "Inglés profesional (GS)",
-        "tipo": "comun",
-        "comun": "ingles",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": "Antes '0179. Inglés' (130 h MEFP); RD 500/2024 lo renombra 'Inglés Profesional (GS)', mismo código, currículo básico del anexo X del RD 659/2023 (50 h, 5 ECTS). En Aragón (Orden ECD/843/2024) figura '0179. Inglés' con 0 h y '0179. Inglés profesional' con 67 h."
-      },
-      {
-        "codigo": "1709",
-        "nombre": "Itinerario personal para la empleabilidad I",
-        "tipo": "comun",
-        "comun": "ipe1",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "1710",
-        "nombre": "Itinerario personal para la empleabilidad II",
-        "tipo": "comun",
-        "comun": "ipe2",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "1665",
-        "nombre": "Digitalización aplicada a los sectores productivos (GS)",
-        "tipo": "comun",
-        "comun": "digitalizacion",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -63812,35 +63795,35 @@ Object.assign(window.CICLOS, {
         "codigo": "1708",
         "nombre": "Sostenibilidad aplicada al sistema productivo",
         "tipo": "comun",
-        "comun": "sostenibilidad",
+        "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 33,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "1712",
-        "nombre": "Inglés profesional II (GS)",
-        "tipo": "comun",
-        "comun": "ingles2",
+        "codigo": "1152",
+        "nombre": "Técnicas de hidrocinesia",
+        "tipo": "especifico",
+        "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
-        "nota": "Solo en el plan del MEFP (Orden EFD/659/2024, art. 11.3, anexo II); no figura en el RD del título ni en el currículo de Aragón."
+        "nota": null
       },
       {
         "codigo": "OPT",
@@ -63848,16 +63831,16 @@ Object.assign(window.CICLOS, {
         "tipo": "optativo",
         "comun": "optativo",
         "horas": {
-          "aragon": null,
+          "aragon": 100,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
-        "nota": "Sin código estatal; 80 h de currículo básico (RD 500/2024 art. 4). Repertorio MEFP: Resolución 27/06/2025 (BOE-A-2025-14430)."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [
