@@ -47394,64 +47394,6 @@ Object.assign(window.CICLOS, {
       "UC0261_2 y UC0262_2 se funden en UC2816_2 (RD 1023/2024 y RD 532/2025), que solo se obtiene con las dos: no se traducen por separado. La herramienta de CATEDU da ECP2816_2 con solo 0047 o solo 0048, lo que no cuadra con el anexo V B."
     ]
   },
-  "hot202": {
-    "ciclo": {
-      "codigo": "HOT202",
-      "nombre": "Técnico en Recepción y Alojamiento",
-      "grado": "medio",
-      "familia": "Hostelería y Turismo",
-      "normas": [
-        {
-          "ref": "RD 1657/1994, de 22 de julio",
-          "boe": "BOE-A-1994-15951",
-          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-15951",
-          "nota": "Establecidas enseñanzas mínimas para el título de Técnico en Recepción y Alojamiento (LOE: RD 1657/1994) (LOE, duración 2.000 h)"
-        },
-        {
-          "ref": "RD 1085/2020, de 9 de diciembre",
-          "boe": "BOE-A-2020-17274",
-          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
-          "nota": "Anexos de convalidaciones entre títulos de FP. Establece convalidaciones de módulos LOGSE→LOE; texto consolidado (última actualización 07/04/2026)."
-        },
-        {
-          "ref": "RD 659/2023, de 18 de julio",
-          "boe": "BOE-A-2023-16889",
-          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
-          "nota": "Ordenación del Sistema de FP (LO 3/2022). Currículo básico común: módulos 1709-1710 (IPE I-II), 1664 (Digitalización), 1708 (Sostenibilidad), 0156 (Inglés GM), 1713 (Proyecto)."
-        },
-        {
-          "ref": "RD 499/2024",
-          "boe": "BOE-A-2024-10684",
-          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10684",
-          "nota": "Adapta los títulos de grado medio a la LO 3/2022. Suprime FOL/EIE/FCT; añade módulos comunes (1709, 1710, 1664, 1708, 1713) e inglés profesional (0156). Asigna nivel 4A del MECU. Implantación 2024-25."
-        },
-        {
-          "ref": "RD 532/2025, de 24 de junio",
-          "boe": "BOE-A-2025-13147",
-          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
-          "nota": "Integra UC del CNCP como ECP (Estándares de Competencia Profesional). Anexo I: catálogo UC→ECP; Anexo II-a/II-b: equivalencias antiguas→nuevas."
-        }
-      ],
-      "plan": "LOE",
-      "parcial": false
-    },
-    "modulos": [],
-    "convalidaciones_titulos_anteriores": [],
-    "convalidaciones_loe": [],
-    "uc_a_modulos": [],
-    "uc_descripciones": {},
-    "uc_equivalencias": {},
-    "notas": [
-      "Estructura JSON generada para HOT202 (Técnico en Recepción y Alojamiento). Basada en RD RD 1657/1994, de 22 de julio y adaptaciones normativas posteriores.",
-      "«horas» es la duración del currículo básico estatal; «horas_otras.aragon» y «horas_otras.mefp» se rellenarían con datos de Orden ECD/842/2024 (Aragón) y Orden EFD/657/2024 (Ministerio) respectivamente.",
-      "Investigación completada con datos BOE disponibles al 2026-10-01."
-    ],
-    "no_verificado": [
-      "Módulos específicos del ciclo: requieren consulta de anexo I del RD RD 1657/1994, de 22 de julio y posteriores modificaciones.",
-      "Datos de horas de planes de Aragón (Orden ECD/842/2024) y Ministerio (Orden EFD/657/2024): pendientes de verificación directa.",
-      "Convalidaciones entre títulos LOGSE→LOE→LO 3/2022: estructura disponible en RD 1085/2020, pendiente de detalles específicos."
-    ]
-  },
   "hot203": {
     "ciclo": {
       "codigo": "HOT203",
@@ -76041,66 +75983,6 @@ Object.assign(window.CICLOS, {
       "Equivalencias UC a ECP (RD 532/2025 anexo II-a): no verificadas.",
       "Cualificaciones profesionales asociadas.",
       "Módulos propios de Aragón (tutorías A996, A997 no incluidas en datos del catálogo para GS)."
-    ]
-  },
-  "msp304": {
-    "ciclo": {
-      "codigo": "MSP304",
-      "nombre": "Técnico Superior en Prótesis Dentales",
-      "grado": "superior",
-      "familia": "Sanidad",
-      "normas": [
-        {
-          "ref": "RD 1687/2011, de 18 de noviembre",
-          "boe": "BOE-A-2011-19603",
-          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19603",
-          "nota": "Establece el título de Técnico Superior en Prótesis Dentales y sus enseñanzas mínimas (BOE núm. 295, de 8/12/2011; 2.000 h; 120 ECTS)"
-        },
-        {
-          "ref": "RD 287/2023, de 18 de abril",
-          "boe": "BOE-A-2023-10393",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-10393",
-          "nota": "Actualiza el título de Técnico Superior en Prótesis Dentales de la familia profesional Sanidad con nuevas enseñanzas mínimas"
-        },
-        {
-          "ref": "RD 500/2024, de 21 de mayo",
-          "boe": "BOE-A-2024-10685",
-          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10685",
-          "nota": "Modifica el RD 1687/2011 adaptando a LO 3/2022 para grado superior, MSP304 incluido en anexo"
-        },
-        {
-          "ref": "RD 532/2025, de 24 de junio",
-          "boe": "BOE-A-2025-13147",
-          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13147",
-          "nota": "Anexo II-a (familia MSP): equivalencias UC antiguas → UC nuevas / ECP (Estándares de Competencia Profesional)"
-        },
-        {
-          "ref": "Orden EFD/659/2024, de 25 de junio (Ministerio)",
-          "boe": "BOE-A-2024-13181",
-          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-13181",
-          "nota": "Currículo del ámbito del Ministerio adaptado a la LO 3/2022 para grado superior, incluye MSP304"
-        }
-      ],
-      "plan": "LOE",
-      "parcial": false
-    },
-    "modulos": [],
-    "convalidaciones_titulos_anteriores": [],
-    "convalidaciones_loe": [],
-    "uc_a_modulos": [],
-    "uc_descripciones": {},
-    "uc_equivalencias": {},
-    "notas": [
-      "Ciclo de grado superior con 2.000 horas totales y 120 ECTS",
-      "Familia profesional: Sanidad",
-      "Actualizado por RD 287/2023 y RD 500/2024 en marco LO 3/2022",
-      "RD 532/2025 convierte UC (Unidades de Competencia) a ECP (Estándares de Competencia Profesional)"
-    ],
-    "no_verificado": [
-      "Módulos específicos del ciclo (falta extracción de RD 1687/2011 y RD 287/2023 anexos)",
-      "UC descripciones y mappings completos (pendiente de RD 287/2023 anexo IV)",
-      "Cualificaciones profesionales exactas y completas",
-      "Horas_otras de Orden EFD/659/2024 (Ministerio)"
     ]
   },
   "qui201": {

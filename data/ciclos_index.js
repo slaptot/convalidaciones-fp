@@ -2146,15 +2146,6 @@ window.CICLOS_INDEX = [
     "plan": "LOE"
   },
   {
-    "codigo": "HOT202",
-    "nombre": "Técnico en Recepción y Alojamiento",
-    "grado": "medio",
-    "familia": "Hostelería y Turismo",
-    "modulos_count": 0,
-    "modulos_nombres": [],
-    "plan": "LOE"
-  },
-  {
     "codigo": "HOT203",
     "nombre": "Técnico en Servicios en Restauración",
     "grado": "medio",
@@ -3216,15 +3207,6 @@ window.CICLOS_INDEX = [
       "Itinerario personal para la empleabilidad II",
       "Módulo profesional optativo"
     ],
-    "plan": "LOE"
-  },
-  {
-    "codigo": "MSP304",
-    "nombre": "Técnico Superior en Prótesis Dentales",
-    "grado": "superior",
-    "familia": "Sanidad",
-    "modulos_count": 0,
-    "modulos_nombres": [],
     "plan": "LOE"
   },
   {
