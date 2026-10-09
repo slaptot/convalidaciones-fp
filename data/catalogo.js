@@ -34795,80 +34795,131 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
-        "horas": {
-          "aragon": 67,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
         "codigo": "3163",
         "nombre": "Ámbito de Ciencias Aplicadas I",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3004",
+        "nombre": "Archivo y comunicación",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3003",
+        "nombre": "Técnicas administrativas básicas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3001",
+        "nombre": "Tratamiento informático de datos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
           "mefp": null,
           "loe": null
         },
@@ -34883,9 +34934,111 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3002",
+        "nombre": "Aplicaciones básicas de ofimática",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 367,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3006",
+        "nombre": "Preparación de pedidos y venta de productos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A999",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
           "mefp": null,
           "loe": null
         },
@@ -35033,38 +35186,38 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3013",
-        "nombre": "Instalaciones eléctricas y domóticas",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 300,
-          "mefp": 285,
-          "loe": 289
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "mefp": null,
+          "loe": null
         },
-        "nota": "MISMO CÓDIGO y misma denominación en Instalaciones Electrotécnicas y Mecánica (FPB126, anexo V del RD 774/2015; en Aragón también 300 h en 1.º): procede TRASLADO DE LA CALIFICACIÓN (ap. 3 del anexo VIII del Decreto 91/2024). Comparados los textos originales: mismos 5 resultados de aprendizaje y mismos contenidos básicos (salvo puntuación), pero DURACIÓN DISTINTA (180 h en el anexo II del RD 127/2014 frente a 175 h en el anexo V del RD 774/2015; con la DA 1.ª, 205/235 h frente a 200/230 h) y en el RA 4 el anexo II tiene nueve criterios de evaluación y el anexo V ocho (el II contiene dos criterios casi idénticos sobre operar con herramientas y materiales con la calidad y seguridad requerida). Único módulo de este título con duración estatal distinta a la de otro título. NO está en Fabricación y Montaje (FPB103). Curso: 1.º en Aragón y en el MEFPD."
+        "nota": null
       },
       {
-        "codigo": "3014",
-        "nombre": "Instalaciones de telecomunicaciones",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 233,
-          "mefp": 355,
-          "loe": 208
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
         },
-        "nota": "MISMO CÓDIGO y misma denominación en Instalaciones Electrotécnicas y Mecánica (FPB126, anexo V del RD 774/2015; en Aragón 233 h en 2.º en ambos): procede TRASLADO DE LA CALIFICACIÓN. Comparados los textos originales (RD 127/2014 anexo II y RD 774/2015 anexo V): misma duración (115 h), mismos 4 resultados de aprendizaje y mismos contenidos básicos; los criterios de evaluación solo difieren en puntuación, en la concordancia de uno («Se han identificado el cableado» / «Se ha identificado el cableado») y en que el anexo V empieza a rotular los criterios del RA 4 por la letra b). Curso: 2.º en Aragón y en el MEFPD."
+        "nota": null
       },
       {
         "codigo": "3015",
@@ -35073,53 +35226,19 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 167,
-          "mefp": 355,
-          "loe": 220
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": 1
-        },
-        "nota": "MISMO CÓDIGO y misma denominación en Informática y Comunicaciones (FPB104, anexo IV del RD 127/2014) y en Fabricación de Elementos Metálicos (FPB125, anexo IV del RD 774/2015): procede TRASLADO DE LA CALIFICACIÓN. Los tres textos dan 140 h y los mismos 5 resultados de aprendizaje. Frente al anexo IV del RD 127/2014 hay CINCO criterios con redacción distinta (no dos): RA1 c) y d) (solo la enumeración de herramientas y equipos), RA3 i) («observado los requerimientos de seguridad establecidos» / «aplicado las medidas de prevención de riesgos laborales pertinentes»), RA5 e) («operaciones a realizar» / «que hay que realizar») y RA5 h) («observando las medidas de seguridad previstas para los componentes y personales» / «aplicado las medidas de prevención y seguridad previstas»); los contenidos básicos coinciden salvo puntuación. El anexo IV del RD 774/2015 sigue la redacción de criterios del anexo II (con retoques de puntuación y gramática) pero desarrolla los contenidos básicos con más detalle. Curso: 1.º en Aragón y en el MEFPD (en FPB104 es 2.º en el MEFPD)."
-      },
-      {
-        "codigo": "3016",
-        "nombre": "Instalación y mantenimiento de redes para transmisión de datos",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 267,
-          "mefp": 245,
-          "loe": 180
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": "MISMO CÓDIGO y misma denominación en Informática y Comunicaciones (FPB104, anexo IV del RD 127/2014) y en Informática de Oficina (FPB121, anexo VII del RD 356/2014): procede TRASLADO DE LA CALIFICACIÓN. Los tres anexos dan 115 h y, comparados los textos originales, los mismos 6 resultados de aprendizaje, los mismos 44 criterios de evaluación y los mismos contenidos básicos (salvo puntuación). Curso: 2.º en Aragón y en el MEFPD."
-      },
-      {
-        "codigo": "A124",
-        "nombre": "Instalaciones de sistemas automáticos y fotovoltaicos (módulo propio de Aragón)",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 100,
           "mefp": null,
-          "loe": 95
+          "loe": null
         },
-        "curso": {
-          "aragon": 2,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "Módulo de diseño propio de Aragón, EXCLUSIVO de este ciclo (en la Orden ECD/841/2024 solo figura en el anexo II). Ya se impartía en el plan LOE de Aragón (Orden ECD/884/2016, art. 10 y anexo VI: 95 h en 1.º, 3 h semanales); en el plan vigente pasa a 2.º (100 h, 3 h semanales)."
+        "nota": null
       },
       {
         "codigo": "A130",
-        "nombre": "Iniciación a la interpretación gráfica (módulo propio de Aragón)",
+        "nombre": "Iniciación a la interpretación gráfica",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
@@ -35132,89 +35251,72 @@ Object.assign(window.CICLOS, {
           "mefp": null,
           "loe": null
         },
-        "nota": "Módulo de diseño propio de Aragón, COMPARTIDO con Instalaciones Electrotécnicas y Mecánica (FPB126): mismo código, misma denominación y mismo currículo (un único anexo, el XXXI), 100 h en 1.º en ambos ciclos según CATEDU: traslado de la calificación. NO figuraba en el plan LOE de este título (Orden ECD/884/2016): es nuevo desde 2024-2025."
+        "nota": null
+      },
+      {
+        "codigo": "3013",
+        "nombre": "Instalaciones eléctricas y domóticas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 300,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
       },
       {
         "codigo": "3159",
         "nombre": "Itinerario personal para la empleabilidad",
         "tipo": "comun",
-        "comun": "ipe_gb",
+        "comun": "comun",
         "horas": {
           "aragon": 67,
-          "mefp": 80,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
           "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3163",
-        "nombre": "Ámbito de Ciencias Aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito_ciencias",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -35223,171 +35325,120 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3016",
+        "nombre": "Instalación y mantenimiento de redes para transmisión de datos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A124",
+        "nombre": "Instalaciones de sistemas automáticos y fotovoltaicos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3014",
+        "nombre": "Instalaciones de telecomunicaciones",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "En el plan LOE de Aragón de este título (Orden ECD/884/2016, anexo VI) también eran 33 h en 1.º."
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I. Es el código de este módulo en ESTE título (RD 127/2014, Orden ECD/884/2016 y Orden ECD/1030/2014, donde tenía 160 h en 1.º)."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Es el código de Ciencias aplicadas II que usó ARAGÓN en el plan LOE de ESTE título (Orden ECD/884/2016). Se sustituye por el ámbito 3164 Ciencias Aplicadas II. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162."
-      },
-      {
-        "codigo": "3018",
-        "nombre": "Formación en centros de trabajo",
-        "tipo": "empresa",
-        "comun": "empresa",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 240
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el periodo de formación en empresa u organismo equiparado (400 h, art. 88.2 del RD 659/2023 y art. 56.1 del Decreto 91/2024), que NO es convalidable: solo cabe exención total o parcial. En el ámbito del MECD (Orden ECD/1030/2014) eran 240 h. Código 3018 (el de FPB104 era 3032)."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [
@@ -36200,38 +36251,38 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3029",
-        "nombre": "Montaje y mantenimiento de sistemas y componentes informáticos",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 233,
-          "mefp": 355,
-          "loe": 194
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "mefp": null,
+          "loe": null
         },
-        "nota": "MISMO CÓDIGO y misma denominación en Informática de Oficina (FPB121, anexo VII del RD 356/2014): procede TRASLADO DE LA CALIFICACIÓN, no convalidación (art. 3.2 del RD 1085/2020 y ap. 3 del anexo VIII del Decreto 91/2024). Comparados los textos originales de ambos reales decretos: mismas duración (180 h) y mismos resultados de aprendizaje y criterios de evaluación. Curso: 1.º en Aragón y en el MEFPD."
+        "nota": null
       },
       {
-        "codigo": "3030",
-        "nombre": "Operaciones auxiliares para la configuración y la explotación",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 333,
-          "mefp": 285,
-          "loe": 208
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 2,
-          "mefp": 1,
-          "loe": 2
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
         },
-        "nota": "MISMO CÓDIGO y misma denominación en Informática de Oficina (FPB121): procede TRASLADO DE LA CALIFICACIÓN. Comparados los textos originales (RD 127/2014 anexo IV y RD 356/2014 anexo VII): misma duración (115 h) y mismos resultados de aprendizaje; solo difieren la puntuación y las remisiones a objetivos/competencias de las orientaciones pedagógicas. Curso: 2.º en Aragón y 1.º en el MEFPD."
+        "nota": null
       },
       {
         "codigo": "3015",
@@ -36240,131 +36291,97 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 167,
-          "mefp": 355,
-          "loe": 220
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 2,
-          "loe": 1
-        },
-        "nota": "MISMO CÓDIGO y misma denominación en Electricidad y Electrónica (FPB102, anexo II del RD 127/2014): procede TRASLADO DE LA CALIFICACIÓN. Ambos anexos dan 140 h. Ojo: en la comparación de los textos originales, dos criterios de evaluación de resultados de aprendizaje tienen redacción distinta entre el anexo II y el anexo IV (p. ej. «medidas de prevención de riesgos laborales pertinentes» frente a «requerimientos de seguridad establecidos»); no se ha comprobado si la Administración los considera idénticos a los efectos del ap. 3 del anexo VIII del Decreto 91/2024. Curso: 1.º en Aragón y 2.º en el MEFPD."
-      },
-      {
-        "codigo": "3016",
-        "nombre": "Instalación y mantenimiento de redes para transmisión de datos",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 267,
-          "mefp": 245,
-          "loe": 180
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": "MISMO CÓDIGO y misma denominación en Electricidad y Electrónica (FPB102, anexo II del RD 127/2014) y en Informática de Oficina (FPB121, anexo VII del RD 356/2014): procede TRASLADO DE LA CALIFICACIÓN. Los tres anexos dan 115 h y, en la comparación de los textos originales, los mismos resultados de aprendizaje y criterios de evaluación. Curso: 2.º en Aragón y en el MEFPD."
-      },
-      {
-        "codigo": "A127",
-        "nombre": "Taller de montaje de equipos informáticos (módulo propio de Aragón)",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 167,
           "mefp": null,
-          "loe": 190
+          "loe": null
         },
         "curso": {
           "aragon": 1,
           "mefp": null,
-          "loe": 1
+          "loe": null
         },
-        "nota": "Módulo de diseño propio de Aragón, EXCLUSIVO de este ciclo (en la Orden ECD/841/2024 solo figura en el anexo IV). Ya se impartía en el plan LOE de Aragón (Orden ECD/906/2016, art. 10 y anexo VI: 190 h en 1.º). No figura en la lista de módulos propios que ha dado el coordinador (A123, A998, A999), pero está en el anexo IV de la orden y en la API de CATEDU (167 h, 1.º)."
+        "nota": null
       },
       {
         "codigo": "3159",
         "nombre": "Itinerario personal para la empleabilidad",
         "tipo": "comun",
-        "comun": "ipe_gb",
+        "comun": "comun",
         "horas": {
           "aragon": 67,
-          "mefp": 80,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
+        "codigo": "3029",
+        "nombre": "Montaje y mantenimiento de sistemas y componentes informáticos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A127",
+        "nombre": "Taller de montaje de equipos informáticos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
           "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3163",
-        "nombre": "Ámbito de Ciencias Aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito_ciencias",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -36373,171 +36390,103 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3016",
+        "nombre": "Instalación y mantenimiento de redes para transmisión de datos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3030",
+        "nombre": "Operaciones auxiliares para la configuración y la explotación",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 333,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "En el plan LOE de Aragón de este título (Orden ECD/906/2016, anexo VI) también eran 33 h en 1.º."
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I. Es el código de este módulo en ESTE título (RD 127/2014 y Orden ECD/906/2016). En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Es el código de Ciencias aplicadas II que usó ARAGÓN en el plan LOE de ESTE título (Orden ECD/906/2016). Se sustituye por el ámbito 3164 Ciencias Aplicadas II. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162."
-      },
-      {
-        "codigo": "3032",
-        "nombre": "Formación en centros de trabajo",
-        "tipo": "empresa",
-        "comun": "empresa",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 240
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el periodo de formación en empresa u organismo equiparado (400 h, art. 88.2 del RD 659/2023 y art. 56.1 del Decreto 91/2024), que NO es convalidable: solo cabe exención total o parcial. En el ámbito del MECD (Orden ECD/1030/2014) eran 240 h. Código 3032 (el de FPB121 era 3033)."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [
@@ -37646,86 +37595,154 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
-        "horas": {
-          "aragon": 67,
-          "mefp": 80,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
         "codigo": "3163",
         "nombre": "Ámbito de Ciencias Aplicadas I",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 130,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3051",
+        "nombre": "Operaciones auxiliares de preparación del terreno, plantación y siembra de cultivos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3053",
+        "nombre": "Operaciones básicas de producción y mantenimiento de plantas en viveros y centros de jardinería",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3055",
+        "nombre": "Operaciones básicas en instalación de jardines, parques y zonas verdes",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3050",
+        "nombre": "Actividades de riego, abonado y tratamientos en cultivos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -37734,154 +37751,120 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3057",
+        "nombre": "Materiales de floristería",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3054",
+        "nombre": "Operaciones auxiliares en la elaboración de composiciones con flores y plantas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3056",
+        "nombre": "Operaciones básicas para el mantenimiento de jardines, parques y zonas verdes",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Se sustituye por el ámbito 3164 Ciencias Aplicadas II. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162. En el ámbito del MECD (Orden ECD/1030/2014) tenía 190 h en 2.º."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [],
@@ -38051,19 +38034,53 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3060",
-        "nombre": "Preparación del entorno profesional",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 100,
-          "mefp": 105,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
@@ -38074,47 +38091,30 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 167,
-          "mefp": 215,
-          "loe": 157
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 2,
-          "loe": 1
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3062",
-        "nombre": "Depilación mecánica y decoloración del vello superfluo",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
-          "aragon": 167,
-          "mefp": 140,
-          "loe": 157
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 2,
-          "mefp": 1,
-          "loe": 1
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3063",
-        "nombre": "Maquillaje",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 200,
-          "mefp": 285,
-          "loe": 154
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
@@ -38125,131 +38125,63 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 233,
-          "mefp": 215,
-          "loe": 223
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3065",
-        "nombre": "Cambio de color del cabello",
+        "codigo": "3060",
+        "nombre": "Preparación del entorno profesional",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": 233,
-          "mefp": 175,
-          "loe": 181
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 1,
-          "loe": 2
-        },
-        "nota": "El BOE lo denomina «Cambio de color del cabello» en la lista del ap. 3.2 y en los aps. 6 y 6 bis, pero «Cambios de color del cabello» en el encabezado de su desarrollo curricular (ap. 3.3). La herramienta de CATEDU usa el plural; el BOA de Aragón, el singular."
-      },
-      {
-        "codigo": "3005",
-        "nombre": "Atención al cliente",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 67,
-          "mefp": 105,
-          "loe": 54
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 2,
-          "loe": 2
+          "mefp": null,
+          "loe": null
         },
-        "nota": "Módulo con el MISMO código en otros ocho ciclos de grado básico ofertados en Aragón (FPB101, FPB105, FPB109, FPB110, FPB112, FPB117, FPB122 y FPB127) y en títulos de los RD 356/2014, RD 774/2015 y RD 73/2018. Al coincidir código y denominación procede TRASLADO DE LA CALIFICACIÓN (art. 3.2 del RD 1085/2020 y ap. 3 del anexo VIII del Decreto 91/2024), no convalidación."
+        "nota": null
       },
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
         "tipo": "comun",
-        "comun": "ipe_gb",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
           "aragon": 67,
-          "mefp": 80,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3163",
-        "nombre": "Ámbito de Ciencias Aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito_ciencias",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -38258,171 +38190,120 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3065",
+        "nombre": "Cambios de color del cabello",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3062",
+        "nombre": "Depilación mecánica y decoloración del vello superfluo",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3063",
+        "nombre": "Maquillaje",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Se sustituye por el ámbito 3164 Ciencias Aplicadas II. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162. En el ámbito del MECD (Orden ECD/1030/2014) tenía 190 h en 2.º."
-      },
-      {
-        "codigo": "3067",
-        "nombre": "Formación en centros de trabajo",
-        "tipo": "empresa",
-        "comun": "empresa",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 240
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el periodo de formación en empresa u organismo equiparado (400 h, art. 88.2 del RD 659/2023 y art. 56.1 del Decreto 91/2024), que NO es convalidable: solo cabe exención total o parcial. En el ámbito del MECD (Orden ECD/1030/2014) eran 240 h en 6 semanas."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [
@@ -38893,86 +38774,137 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
-        "horas": {
-          "aragon": 67,
-          "mefp": 80,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
         "codigo": "3163",
         "nombre": "Ámbito de Ciencias Aplicadas I",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 130,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3070",
+        "nombre": "Operaciones auxiliares de almacenaje",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3069",
+        "nombre": "Técnicas básicas de merchandising",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3001",
+        "nombre": "Tratamiento informático de datos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -38981,154 +38913,120 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3002",
+        "nombre": "Aplicaciones básicas de ofimática",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 367,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3006",
+        "nombre": "Preparación de pedidos y venta de productos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Se sustituye por el ámbito 3164 Ciencias Aplicadas II. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162. En el ámbito del MECD (Orden ECD/1030/2014) tenía 190 h en 2.º."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [],
@@ -39298,86 +39196,137 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
-        "horas": {
-          "aragon": 67,
-          "mefp": 80,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
         "codigo": "3163",
         "nombre": "Ámbito de Ciencias Aplicadas I",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 130,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3075",
+        "nombre": "Instalación de elementos de carpintería y mueble",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3074",
+        "nombre": "Operaciones básicas de mecanizado de madera y derivados",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 367,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3076",
+        "nombre": "Acabados básicos de la madera",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -39386,154 +39335,120 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3077",
+        "nombre": "Materiales y productos textiles",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3078",
+        "nombre": "Tapizado de muebles",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Se sustituye por el ámbito 3164 Ciencias Aplicadas II. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162. En el ámbito del MECD (Orden ECD/1030/2014) tenía 190 h en 2.º."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [],
@@ -39703,69 +39618,18 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
+        "codigo": "3082",
+        "nombre": "Albañilería básica",
+        "tipo": "especifico",
+        "comun": "especifico",
         "horas": {
-          "aragon": 67,
-          "mefp": 80,
+          "aragon": 300,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -39774,15 +39638,117 @@ Object.assign(window.CICLOS, {
         "codigo": "3163",
         "nombre": "Ámbito de Ciencias Aplicadas I",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 130,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3083",
+        "nombre": "Guarnecidos y enlucidos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3085",
+        "nombre": "Pintura y empapelado",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -39791,154 +39757,120 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3084",
+        "nombre": "Falsos techos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3086",
+        "nombre": "Reformas y mantenimiento básico de edificios",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3087",
+        "nombre": "Trabajos de pavimentación exterior y de urbanización",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Se sustituye por el ámbito 3164 Ciencias Aplicadas II. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162. En el ámbito del MECD (Orden ECD/1030/2014) tenía 190 h en 2.º."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [],
@@ -40108,86 +40040,154 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
-        "horas": {
-          "aragon": 67,
-          "mefp": 80,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
         "codigo": "3163",
         "nombre": "Ámbito de Ciencias Aplicadas I",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 130,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3101",
+        "nombre": "Confección de artículos textiles para decoración",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3077",
+        "nombre": "Materiales y productos textiles",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3091",
+        "nombre": "Reparación de artículos de marroquinería y elaboración de pequeños artículos de guarnicionería",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -40196,154 +40196,103 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3095",
+        "nombre": "Arreglos y adaptaciones en prendas de vestir y ropa de hogar",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 300,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3092",
+        "nombre": "Reparación de calzado y actividades complementarias",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 300,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Se sustituye por el ámbito 3164 Ciencias Aplicadas II. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161. En el ámbito del MECD (Orden ECD/1030/2014) tenía 160 h en 1.º."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162. En el ámbito del MECD (Orden ECD/1030/2014) tenía 190 h en 2.º."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [],
@@ -41650,38 +41599,72 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
         "codigo": "3029",
         "nombre": "Montaje y mantenimiento de sistemas y componentes informáticos",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
           "aragon": 233,
-          "mefp": 355,
-          "loe": 194
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "mefp": null,
+          "loe": null
         },
-        "nota": "MISMO CÓDIGO, denominación y resultados de aprendizaje que el módulo 3029 de Informática y Comunicaciones (FPB104, RD 127/2014 anexo IV): procede el traslado de la calificación (ap. 3 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3030",
-        "nombre": "Operaciones auxiliares para la configuración y la explotación",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 333,
-          "mefp": 285,
-          "loe": 208
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 1,
-          "loe": 2
-        },
-        "nota": "MISMO CÓDIGO, denominación y resultados de aprendizaje que el módulo 3030 de Informática y Comunicaciones (FPB104): traslado de calificación. Aragón: 333 h según la corrección de errores de 26/02/2025 (el anexo XVII original imprimía 300 h). Curso: 2.º en Aragón y 1.º en el MEFPD."
+        "nota": null
       },
       {
         "codigo": "3031",
@@ -41690,114 +41673,46 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 333,
-          "mefp": 355,
-          "loe": 410
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 2,
-          "loe": 1
+          "mefp": null,
+          "loe": null
         },
-        "nota": "Módulo EXCLUSIVO de este título entre los de grado básico (ningún otro título lo incluye ni hay otro módulo con esa denominación). Curso: 1.º en Aragón y 2.º en el MEFPD."
+        "nota": null
       },
       {
-        "codigo": "3016",
-        "nombre": "Instalación y mantenimiento de redes para transmisión de datos",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 267,
-          "mefp": 245,
-          "loe": 180
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": "MISMO CÓDIGO, denominación y resultados de aprendizaje que el módulo 3016 de Informática y Comunicaciones (FPB104) y de Electricidad y Electrónica (FPB102): traslado de calificación. Aragón: 267 h según la corrección de errores de 26/02/2025 (el anexo XVII original imprimía 300 h)."
-      },
-      {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
         "tipo": "comun",
-        "comun": "ipe_gb",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
           "aragon": 67,
-          "mefp": 80,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3163",
-        "nombre": "Ámbito de Ciencias Aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito_ciencias",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -41806,171 +41721,103 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3016",
+        "nombre": "Instalación y mantenimiento de redes para transmisión de datos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3030",
+        "nombre": "Operaciones auxiliares para la configuración y la explotación",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 333,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "En el plan LOE de Aragón de este título (Orden ECD/913/2016, anexo VI) también eran 33 h."
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Es el código de Ciencias aplicadas II de este título en el plan LOE de ARAGÓN, mientras que el RD 356/2014 (y la Orden ECD/1633/2014 del MEFPD) usan 3019. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto del RD 498/2024. Se sustituye por el ámbito 3161."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto del RD 498/2024. Se sustituye por el ámbito 3162."
-      },
-      {
-        "codigo": "3033",
-        "nombre": "Formación en centros de trabajo",
-        "tipo": "empresa",
-        "comun": "empresa",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 240
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto del RD 498/2024. Se sustituye por el periodo de formación en empresa u organismo equiparado (400 h, art. 88.2 del RD 659/2023 y art. 56.1 del Decreto 91/2024), que NO es convalidable: solo cabe exención total o parcial. Código 3033 (el de FPB128 era 3147 y el de FPB108 3067)."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [
@@ -43000,72 +42847,55 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3015",
-        "nombre": "Equipos eléctricos y electrónicos",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 167,
-          "mefp": 355,
-          "loe": 220
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 1
-        },
-        "nota": "MISMO CÓDIGO y misma denominación en Electricidad y Electrónica (FPB102, anexo II del RD 127/2014) y en Informática y Comunicaciones (FPB104, anexo IV del RD 127/2014): procede TRASLADO DE LA CALIFICACIÓN. Los tres textos dan 140 h, los mismos 5 resultados de aprendizaje y 38 criterios de evaluación. El anexo IV del RD 774/2015 sigue la redacción de criterios del anexo II del RD 127/2014 (con retoques de puntuación y gramática) y difiere algo más de la del anexo IV del RD 127/2014; sus contenidos básicos están más desarrollados que en los dos (59 líneas frente a 50). La afirmación de la ficha de FPB102 (3015 común a FPB102, FPB104 y FPB125) SE SOSTIENE. NO está en FPB126. Curso: 2.º en Aragón y en el MEFPD (en FPB102 y FPB104 es 1.º en Aragón). En el plan LOE de Aragón estaba en 1.º."
-      },
-      {
-        "codigo": "3020",
-        "nombre": "Operaciones básicas de fabricación",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 167,
-          "mefp": 175,
-          "loe": 128
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "mefp": null,
+          "loe": null
         },
-        "nota": "MISMO CÓDIGO y misma denominación en Fabricación y Montaje (FPB103, anexo III del RD 127/2014) y en Instalaciones Electrotécnicas y Mecánica (FPB126, anexo V del RD 774/2015): procede TRASLADO DE LA CALIFICACIÓN. Comparados los textos originales del RD 127/2014 (anexo III) y del RD 774/2015 (anexos IV y V): 90 h en los tres, mismos 5 resultados de aprendizaje, mismos 42 criterios de evaluación y mismos contenidos básicos, sin ninguna diferencia de redacción. En Aragón, 167 h en 1.º en FPB103, FPB125 y FPB126 (anexos III, XXI y XXII de la Orden ECD/841/2024). Curso: 1.º en Aragón y en el MEFPD."
+        "nota": null
       },
       {
-        "codigo": "3021",
-        "nombre": "Soldadura y carpintería metálica",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 200,
-          "mefp": 175,
-          "loe": 185
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 2,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
         },
-        "nota": "MISMO CÓDIGO y misma denominación en Fabricación y Montaje (FPB103, anexo III del RD 127/2014) y en Instalaciones Electrotécnicas y Mecánica (FPB126, anexo V del RD 774/2015): procede TRASLADO DE LA CALIFICACIÓN. Comparados los textos originales del RD 127/2014 (anexo III) y del RD 774/2015 (anexos IV y V): 85 h en los tres, mismos 6 resultados de aprendizaje, mismos 55 criterios de evaluación y mismos contenidos básicos; las únicas diferencias son tildes («maquinas»/«máquinas»), una coma y una errata («Preparciación») en el anexo V. En Aragón, 200 h en 2.º en FPB103, FPB125 y FPB126. Curso: 2.º en Aragón y 1.º en el MEFPD (en el plan LOE de Aragón estaba en 1.º). Junto con 3022 acredita UC0088_1 (celda única del ap. 6)."
+        "nota": null
       },
       {
-        "codigo": "3022",
-        "nombre": "Carpintería de aluminio y PVC",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
-          "aragon": 167,
-          "mefp": 250,
-          "loe": 102
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
         },
-        "nota": "MISMO CÓDIGO y misma denominación en Fabricación y Montaje (FPB103, anexo III del RD 127/2014) y en Instalaciones Electrotécnicas y Mecánica (FPB126, anexo V del RD 774/2015): procede TRASLADO DE LA CALIFICACIÓN. Comparados los textos originales del RD 127/2014 (anexo III) y del RD 774/2015 (anexos IV y V): 85 h en los tres, mismos 5 resultados de aprendizaje, mismos 43 criterios de evaluación y mismos contenidos básicos; las únicas diferencias son una tilde, una coma y una concordancia («seleccionados»/«seleccionado»). En Aragón, 167 h en 2.º en FPB103, FPB125 y FPB126. Curso: 2.º en Aragón y en el MEFPD. Junto con 3021 acredita UC0088_1 (celda única del ap. 6)."
+        "nota": null
       },
       {
         "codigo": "3073",
@@ -43074,114 +42904,63 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 400,
-          "mefp": 285,
-          "loe": 297
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": 2
+          "mefp": null,
+          "loe": null
         },
-        "nota": "Módulo EXCLUSIVO de este título: el código 3073 no figura en ningún otro anexo de los RD 127/2014, 356/2014, 774/2015 ni 73/2018, ni en ningún otro ciclo de grado básico de Aragón (API de CATEDU). 4 resultados de aprendizaje y 26 criterios de evaluación. NO tiene correspondencia con unidades de competencia: no figura en el ap. 6 ni en el ap. 6 bis del anexo IV, y la herramienta de CATEDU lo muestra sin grupos de UC. No se confunde con A125 «Iniciación a la calderería» / «Introducción a los desarrollos de calderería» de FPB103 (otro código y otra denominación). Curso: 1.º en Aragón y en el MEFPD (en el plan LOE de Aragón estaba en 2.º)."
+        "nota": null
       },
       {
-        "codigo": "A126",
-        "nombre": "Montaje de estructuras metálicas (módulo propio de Aragón)",
+        "codigo": "3020",
+        "nombre": "Operaciones básicas de fabricación",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": 67,
+          "aragon": 167,
           "mefp": null,
-          "loe": 60
+          "loe": null
         },
         "curso": {
-          "aragon": 2,
+          "aragon": 1,
           "mefp": null,
-          "loe": 1
+          "loe": null
         },
-        "nota": "Módulo de diseño propio de Aragón, COMPARTIDO con Fabricación y Montaje (FPB103): mismo código, misma denominación y mismo currículo (un único anexo, el XXVII de la Orden ECD/841/2024), 67 h en 2.º (2 h semanales) en ambos ciclos (anexos III y XXI y API de CATEDU): traslado de la calificación. Ya existía en el plan LOE de este título (Orden ECD/892/2016, art. 10 y anexo VI: 60 h en 1.º, 2 h semanales) y en el de FPB103 (Orden ECD/972/2016, anexo VI: 60 h en 1.º); en el plan vigente pasa a 2.º con 67 h. NO está en FPB126."
+        "nota": null
       },
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
         "tipo": "comun",
-        "comun": "ipe_gb",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
           "aragon": 67,
-          "mefp": 80,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3163",
-        "nombre": "Ámbito de Ciencias Aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito_ciencias",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -43190,171 +42969,137 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3022",
+        "nombre": "Carpintería de aluminio y PVC",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3015",
+        "nombre": "Equipos eléctricos y electrónicos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A126",
+        "nombre": "Montaje de estructuras metálicas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3021",
+        "nombre": "Soldadura y carpintería metálica",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "En el plan LOE de Aragón de este título (Orden ECD/892/2016, anexo VI) también eran 33 h en 1.º."
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I. Es el código de este módulo en ESTE título (RD 774/2015, Orden ECD/892/2016 y Orden ECD/648/2016, donde tenía 160 h en 1.º)."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Es el código de Ciencias aplicadas II que usó ARAGÓN en el plan LOE de ESTE título (Orden ECD/892/2016). Se sustituye por el ámbito 3164 Ciencias Aplicadas II. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162."
-      },
-      {
-        "codigo": "3079",
-        "nombre": "Formación en centros de trabajo",
-        "tipo": "empresa",
-        "comun": "empresa",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 240
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el periodo de formación en empresa u organismo equiparado (400 h, art. 88.2 del RD 659/2023 y art. 56.1 del Decreto 91/2024), que NO es convalidable: solo cabe exención total o parcial. En el ámbito del MECD (Orden ECD/648/2016) eran 240 h. Código 3079 (el de FPB102 era 3018, el de FPB126 3081)."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [
@@ -43827,38 +43572,89 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A130",
+        "nombre": "Iniciación a la interpretación gráfica",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
         "codigo": "3013",
         "nombre": "Instalaciones eléctricas y domóticas",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
           "aragon": 300,
-          "mefp": 285,
-          "loe": 289
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "mefp": null,
+          "loe": null
         },
-        "nota": "MISMO CÓDIGO y misma denominación en Electricidad y Electrónica (FPB102, anexo II del RD 127/2014; en Aragón también 300 h en 1.º): procede TRASLADO DE LA CALIFICACIÓN (ap. 3 del anexo VIII del Decreto 91/2024). Comparados los textos originales de los RD 127/2014 (anexo II) y 774/2015 (anexo V): mismos 5 resultados de aprendizaje y mismos contenidos básicos (29 líneas, iguales salvo puntuación) y misma carga en Aragón (300 h en 1.º en ambos ciclos, anexos II y XXII de la Orden ECD/841/2024), pero DURACIÓN ESTATAL DISTINTA (180 h en el RD 127/2014 frente a 175 h en el RD 774/2015; con la DA 1.ª del RD 498/2024, 235 h frente a 230 h sin lengua cooficial) y un criterio de evaluación menos en el anexo V (46 frente a 47: en el RA 4 el anexo II repite casi literalmente el criterio de «operar con las herramientas y materiales con la calidad y seguridad requerida»). El ap. 3 del anexo VIII del Decreto 91/2024 exige mismo código, denominación y resultados de aprendizaje, condiciones que se cumplen; el art. 3.2 del RD 1085/2020 exige además misma duración y contenidos (véase no_verificado). La afirmación de la ficha de FPB102 SE SOSTIENE. NO está en Fabricación y Montaje (FPB103) ni en Fabricación de Elementos Metálicos (FPB125). Curso: 1.º en Aragón y en el MEFPD."
+        "nota": null
       },
       {
-        "codigo": "3014",
-        "nombre": "Instalaciones de telecomunicaciones",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
-          "aragon": 233,
-          "mefp": 355,
-          "loe": 208
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
         },
-        "nota": "MISMO CÓDIGO y misma denominación en Electricidad y Electrónica (FPB102, anexo II del RD 127/2014): procede TRASLADO DE LA CALIFICACIÓN. Comparados los textos originales de los RD 127/2014 (anexo II) y 774/2015 (anexo V): 115 h en ambos, mismos 4 resultados de aprendizaje, 35 criterios de evaluación en cada uno y mismos contenidos básicos; los criterios solo difieren en puntuación, en la concordancia de uno («Se han identificado el cableado» / «Se ha identificado el cableado») y en la rotulación por letras de los criterios del RA 4. En Aragón, 233 h en 2.º en ambos ciclos. La afirmación de la ficha de FPB102 («3014 es idéntico») SE SOSTIENE. Curso: 2.º en Aragón y en el MEFPD."
+        "nota": null
       },
       {
         "codigo": "3020",
@@ -43867,148 +43663,46 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 167,
-          "mefp": 175,
-          "loe": 128
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
-        },
-        "nota": "MISMO CÓDIGO y misma denominación en Fabricación y Montaje (FPB103, anexo III del RD 127/2014) y en Fabricación de Elementos Metálicos (FPB125, anexo IV del RD 774/2015): procede TRASLADO DE LA CALIFICACIÓN. Comparados los textos originales del RD 127/2014 (anexo III) y del RD 774/2015 (anexos IV y V): 90 h en los tres, mismos 5 resultados de aprendizaje, mismos 42 criterios de evaluación y mismos contenidos básicos, sin ninguna diferencia de redacción. En Aragón, 167 h en 1.º en FPB103, FPB125 y FPB126 (anexos III, XXI y XXII de la Orden ECD/841/2024). Curso: 1.º en Aragón y en el MEFPD."
-      },
-      {
-        "codigo": "3021",
-        "nombre": "Soldadura y carpintería metálica",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 200,
-          "mefp": 175,
-          "loe": 185
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 1,
-          "loe": 1
-        },
-        "nota": "MISMO CÓDIGO y misma denominación en Fabricación y Montaje (FPB103, anexo III del RD 127/2014) y en Fabricación de Elementos Metálicos (FPB125, anexo IV del RD 774/2015): procede TRASLADO DE LA CALIFICACIÓN. Comparados los textos originales del RD 127/2014 (anexo III) y del RD 774/2015 (anexos IV y V): 85 h en los tres, mismos 6 resultados de aprendizaje, mismos 55 criterios de evaluación y mismos contenidos básicos; las únicas diferencias son tildes («maquinas»/«máquinas»), una coma y una errata («Preparciación») en el anexo V. En Aragón, 200 h en 2.º en FPB103, FPB125 y FPB126. Curso: 2.º en Aragón y 1.º en el MEFPD (en el plan LOE de Aragón estaba en 1.º). Junto con 3022 acredita UC0088_1 (celda única del ap. 6)."
-      },
-      {
-        "codigo": "3022",
-        "nombre": "Carpintería de aluminio y PVC",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 167,
-          "mefp": 250,
-          "loe": 102
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": "MISMO CÓDIGO y misma denominación en Fabricación y Montaje (FPB103, anexo III del RD 127/2014) y en Fabricación de Elementos Metálicos (FPB125, anexo IV del RD 774/2015): procede TRASLADO DE LA CALIFICACIÓN. Comparados los textos originales del RD 127/2014 (anexo III) y del RD 774/2015 (anexos IV y V): 85 h en los tres, mismos 5 resultados de aprendizaje, mismos 43 criterios de evaluación y mismos contenidos básicos; las únicas diferencias son una tilde, una coma y una concordancia («seleccionados»/«seleccionado»). En Aragón, 167 h en 2.º en FPB103, FPB125 y FPB126. Curso: 2.º en Aragón y en el MEFPD. Junto con 3021 acredita UC0088_1 (celda única del ap. 6)."
-      },
-      {
-        "codigo": "A130",
-        "nombre": "Iniciación a la interpretación gráfica (módulo propio de Aragón)",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 100,
           "mefp": null,
-          "loe": 80
+          "loe": null
         },
         "curso": {
           "aragon": 1,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "Módulo de diseño propio de Aragón, COMPARTIDO con Electricidad y Electrónica (FPB102): mismo código, misma denominación y mismo currículo (un único anexo, el XXXI de la Orden ECD/841/2024), 100 h en 1.º (3 h semanales) en ambos ciclos (anexos II y XXII y API de CATEDU): traslado de la calificación. La afirmación de la ficha de FPB102 SE SOSTIENE. Ya existía en el plan LOE de ESTE título (Orden ECD/932/2016, art. 10 y anexo VI: 80 h en 2.º, 3 h semanales); en el plan vigente pasa a 1.º con 100 h. No existía en el plan LOE de FPB102 (Orden ECD/884/2016)."
+        "nota": null
       },
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
         "tipo": "comun",
-        "comun": "ipe_gb",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
           "aragon": 67,
-          "mefp": 80,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3163",
-        "nombre": "Ámbito de Ciencias Aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito_ciencias",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -44017,171 +43711,120 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3022",
+        "nombre": "Carpintería de aluminio y PVC",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3014",
+        "nombre": "Instalaciones de telecomunicaciones",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3021",
+        "nombre": "Soldadura y carpintería metálica",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 33
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "En el plan LOE de Aragón de este título (Orden ECD/932/2016, anexo VI) también eran 33 h en 1.º."
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I. Es el código de este módulo en ESTE título (RD 774/2015, Orden ECD/932/2016 y Orden ECD/648/2016, donde tenía 160 h en 1.º)."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO. Es el código de Ciencias aplicadas II que usó ARAGÓN en el plan LOE de ESTE título (Orden ECD/932/2016). Se sustituye por el ámbito 3164 Ciencias Aplicadas II. La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 132
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 162
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162."
-      },
-      {
-        "codigo": "3081",
-        "nombre": "Formación en centros de trabajo",
-        "tipo": "empresa",
-        "comun": "empresa",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 240
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el periodo de formación en empresa u organismo equiparado (400 h, art. 88.2 del RD 659/2023 y art. 56.1 del Decreto 91/2024), que NO es convalidable: solo cabe exención total o parcial. En el ámbito del MECD (Orden ECD/648/2016) eran 240 h. Código 3081 (el de FPB102 era 3018, el de FPB125 3079)."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 27
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [
@@ -44668,182 +44311,12 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 67,
-          "mefp": 70,
-          "loe": 58
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
-        },
-        "nota": "Módulo EXCLUSIVO de este título entre los de grado básico (ningún otro título lo incluye ni hay otro módulo con esa denominación). Aragón: 67 h en 1.º (2 h/sem); MEFPD: 70 h en 1.º."
-      },
-      {
-        "codigo": "3149",
-        "nombre": "Asistencia en la organización de espacios, actividades y reparto de material en la instalación físico-deportiva",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 267,
-          "mefp": 250,
-          "loe": 165
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": "Módulo EXCLUSIVO de este título. Mismo curso (2.º) en Aragón y en el MEFPD."
-      },
-      {
-        "codigo": "3150",
-        "nombre": "Reparación de averías y reposición de enseres",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 233,
-          "mefp": 210,
-          "loe": 206
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
-        },
-        "nota": "Módulo EXCLUSIVO de este título. Mismo curso (1.º) en Aragón y en el MEFPD."
-      },
-      {
-        "codigo": "3151",
-        "nombre": "Operaciones básicas de prevención en las instalaciones deportivas",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 233,
-          "mefp": 250,
-          "loe": 146
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": "Módulo EXCLUSIVO de este título. Mismo curso (2.º) en Aragón y en el MEFPD."
-      },
-      {
-        "codigo": "3003",
-        "nombre": "Técnicas administrativas básicas",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 200,
-          "mefp": 215,
-          "loe": 192
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
-        },
-        "nota": "MISMO CÓDIGO, denominación, duración (140 h) y resultados de aprendizaje que el módulo 3003 de Servicios Administrativos (FPB101, RD 127/2014 anexo I): procede el traslado de la calificación (ap. 3 del anexo VIII del Decreto 91/2024). Aragón: 200 h según la API de CATEDU (el anexo XXIII de la Orden ECD/841/2024 imprime 167 h con 6 h/sem; ver no_verificado)."
-      },
-      {
-        "codigo": "3004",
-        "nombre": "Archivo y comunicación",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 100,
-          "mefp": 140,
-          "loe": 127
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 1,
-          "loe": 1
-        },
-        "nota": "MISMO CÓDIGO, denominación, duración (85 h) y resultados de aprendizaje que el módulo 3004 de Servicios Administrativos (FPB101, RD 127/2014 anexo I): traslado de calificación. Curso: 2.º en Aragón (en FPB101 es 1.º), 1.º en el MEFPD y 1.º en el plan LOE de Aragón."
-      },
-      {
-        "codigo": "3005",
-        "nombre": "Atención al cliente",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 67,
-          "mefp": 105,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": "MISMO CÓDIGO, denominación, duración (40 h) y resultados de aprendizaje que 3005 en otros siete ciclos de grado básico ofertados en Aragón (FPB101, FPB105, FPB108, FPB109, FPB110, FPB112, FPB117 y FPB122): traslado de calificación. Aragón: 67 h según la API de CATEDU (el anexo XXIII de la Orden ECD/841/2024 imprime 100 h con 2 h/sem; ver no_verificado). Curso: 1.º en Aragón y 2.º en el MEFPD."
-      },
-      {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
-        "horas": {
-          "aragon": 67,
-          "mefp": 80,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -44852,15 +44325,134 @@ Object.assign(window.CICLOS, {
         "codigo": "3163",
         "nombre": "Ámbito de Ciencias Aplicadas I",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 130,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3150",
+        "nombre": "Reparación de averías y reposición de enseres",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3003",
+        "nombre": "Técnicas administrativas básicas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -44869,171 +44461,120 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3004",
+        "nombre": "Archivo y comunicación",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3149",
+        "nombre": "Asistencia en la organización de espacios, actividades y reparto de material en la instalación físico-deportiva",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3151",
+        "nombre": "Operaciones básicas de prevención en las instalaciones deportivas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 35
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "En el plan LOE de Aragón de este título (Orden ECD/1813/2022, anexo III) eran 35 h."
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 140
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I."
-      },
-      {
-        "codigo": "3010",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 174
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto del RD 498/2024. Es el código de Ciencias aplicadas II de ESTE título tanto en el RD 73/2018 como en el plan LOE de ARAGÓN (a diferencia de FPB121, donde el RD usa 3019 y Aragón 3010). La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 140
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto del RD 498/2024. Se sustituye por el ámbito 3161."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 174
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto del RD 498/2024. Se sustituye por el ámbito 3162."
-      },
-      {
-        "codigo": "3152",
-        "nombre": "Formación en centros de trabajo",
-        "tipo": "empresa",
-        "comun": "empresa",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 240
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto del RD 498/2024. Se sustituye por el periodo de formación en empresa u organismo equiparado (400 h, art. 88.2 del RD 659/2023 y art. 56.1 del Decreto 91/2024), que NO es convalidable: solo cabe exención total o parcial. Código 3152 (el de FPB121 era 3033). El curso de la FCT en el plan LOE de Aragón (2.º) no figura en el anexo III de la Orden ECD/1813/2022; se ha tomado el habitual."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 29
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [
@@ -45468,19 +45009,36 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3098",
-        "nombre": "Mantenimiento de prendas de vestir y ropa de hogar",
-        "tipo": "especifico",
-        "comun": "especifico",
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 233,
-          "mefp": 250,
-          "loe": 192
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 2,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
@@ -45491,13 +45049,30 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 233,
-          "mefp": 250,
-          "loe": 210
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
@@ -45508,30 +45083,64 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 200,
-          "mefp": 285,
-          "loe": 192
+          "mefp": null,
+          "loe": null
         },
         "curso": {
           "aragon": 1,
-          "mefp": 2,
-          "loe": 1
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3116",
-        "nombre": "Limpieza con máquinas",
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3146",
+        "nombre": "Seguridad en el ámbito doméstico",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": 167,
-          "mefp": 140,
-          "loe": 75
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
@@ -45542,114 +45151,12 @@ Object.assign(window.CICLOS, {
         "comun": "especifico",
         "horas": {
           "aragon": 200,
-          "mefp": 140,
-          "loe": 140
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 1,
-          "loe": 2
-        },
-        "nota": "La denominación del BOE original (art. 7 y ap. 3.2 del RD 774/2015) escribe «no dependienes»; el ap. 3.3 y el consolidado dicen «no dependientes». Sin correspondencia con unidades de competencia (no figura en los aps. 6 ni 6 bis)."
-      },
-      {
-        "codigo": "3146",
-        "nombre": "Seguridad en el ámbito doméstico",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": 133,
-          "mefp": 175,
-          "loe": 139
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": "Sin correspondencia con unidades de competencia (no figura en los aps. 6 ni 6 bis). En el plan LOE de Aragón (Orden ECD/1814/2022) se cursaba en 2.º; en el plan vigente de Aragón, en 1.º."
-      },
-      {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
-        "horas": {
-          "aragon": 67,
-          "mefp": 80,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": 67,
-          "mefp": 60,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": "NO es convalidable en ningún caso (art. 126.4.b del RD 659/2023 y ap. 5 del anexo VIII del Decreto 91/2024)."
-      },
-      {
-        "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
-        "horas": {
-          "aragon": 133,
-          "mefp": 150,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3163",
-        "nombre": "Ámbito de Ciencias Aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito_ciencias",
-        "horas": {
-          "aragon": 133,
-          "mefp": 130,
-          "loe": null
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": 1,
+          "mefp": null,
           "loe": null
         },
         "nota": null
@@ -45658,171 +45165,103 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
           "aragon": 133,
-          "mefp": 150,
+          "mefp": null,
           "loe": null
         },
         "curso": {
           "aragon": 2,
-          "mefp": 2,
+          "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "A998",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 66
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
         },
         "curso": {
-          "aragon": 1,
-          "mefp": 1,
-          "loe": 1
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3116",
+        "nombre": "Limpieza con máquinas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3098",
+        "nombre": "Mantenimiento de prendas de vestir y ropa de hogar",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
         },
         "nota": null
       },
       {
         "codigo": "A999",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": 67,
-          "mefp": 30,
-          "loe": 54
-        },
-        "curso": {
-          "aragon": 2,
-          "mefp": 2,
-          "loe": 2
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A123",
-        "nombre": "Prevención de riesgos laborales (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "prl_aragon",
-        "horas": {
-          "aragon": 33,
-          "mefp": null,
-          "loe": 35
-        },
-        "curso": {
-          "aragon": 1,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "En el plan LOE de Aragón de este título (Orden ECD/1814/2022, anexo III) eran 35 h, no 33."
-      },
-      {
-        "codigo": "3009",
-        "nombre": "Ciencias aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 140
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3163 Ciencias Aplicadas I."
-      },
-      {
-        "codigo": "3042",
-        "nombre": "Ciencias aplicadas II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 174
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Es el código de Ciencias aplicadas II de ESTE título tanto en el RD 774/2015 como en el plan LOE de Aragón (Orden ECD/1814/2022; a diferencia de FPB108, que usó 3010). La DA 3.ª del RD 498/2024 y el ap. 6.12 del anexo VIII del Decreto 91/2024 reconocen 3010, 3019, 3042 y 3059 como equivalentes a 3164."
-      },
-      {
-        "codigo": "3011",
-        "nombre": "Comunicación y sociedad I",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 140
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 1
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3161."
-      },
-      {
-        "codigo": "3012",
-        "nombre": "Comunicación y sociedad II",
-        "tipo": "ambito",
-        "comun": "ambito",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 174
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el ámbito 3162."
-      },
-      {
-        "codigo": "3147",
-        "nombre": "Formación en centros de trabajo",
-        "tipo": "empresa",
-        "comun": "empresa",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 240
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": 2
-        },
-        "nota": "SUPRIMIDO por el art. quinto.Dos del RD 498/2024. Se sustituye por el periodo de formación en empresa u organismo equiparado (400 h, art. 88.2 del RD 659/2023 y art. 56.1 del Decreto 91/2024), que NO es convalidable: solo cabe exención total o parcial. Código 3147 (el de FPB108 era 3067)."
-      },
-      {
-        "codigo": "A133",
-        "nombre": "Orientación laboral (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
         "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
-          "loe": 29
+          "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
-          "loe": 2
+          "loe": null
         },
-        "nota": "SUPRIMIDO: la Orden ECD/841/2024 no lo incluye en ningún currículo de grado básico. Su función la asume el módulo estatal 3159 Itinerario personal para la empleabilidad, pero NO se ha localizado ninguna norma que establezca la convalidación de A133 por 3159 ni al revés."
+        "nota": null
       }
     ],
     "convalidaciones_titulos_anteriores": [
