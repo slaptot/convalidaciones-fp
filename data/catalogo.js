@@ -13418,7 +13418,110 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "5024",
+        "nombre": "Análisis forense informático",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 117,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5022",
+        "nombre": "Bastionado de redes y sistemas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 171,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5025",
+        "nombre": "Hacking ético",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 117,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5021",
+        "nombre": "Incidentes de ciberseguridad",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 144,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5026",
+        "nombre": "Normativa de ciberseguridad",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 54,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5023",
+        "nombre": "Puesta en producción segura",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 117,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -13451,7 +13554,93 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "5075",
+        "nombre": "Big data aplicado",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 136,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5071",
+        "nombre": "Modelos de inteligencia artificial",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 72,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5073",
+        "nombre": "Programación de inteligencia artificial",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5072",
+        "nombre": "Sistemas de aprendizaje automático",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 92,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5074",
+        "nombre": "Sistemas de big data",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -13484,7 +13673,93 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "5049",
+        "nombre": "Diseño gráfico 2d y 3d",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 136,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5052",
+        "nombre": "Diseño, gestión, publicación y producción",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 136,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5050",
+        "nombre": "Programación en red e inteligencia artificial",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 91,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5048",
+        "nombre": "Programación y motores de videojuegos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 146,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5051",
+        "nombre": "Realidad virtual y realidad aumentada",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 91,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -13517,7 +13792,93 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "5162",
+        "nombre": "Administración de bases de datos y almacenamiento en la nube",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 140,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5161",
+        "nombre": "Administración de recursos de computación en la nube",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 90,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5163",
+        "nombre": "Administración de redes en la nube",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 90,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5164",
+        "nombre": "Despliegue de servicios administrados en la nube",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 60,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5160",
+        "nombre": "Fundamentos y configuración inicial de servicios en la nube",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 120,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -13550,7 +13911,76 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "5101",
+        "nombre": "Análisis de datos con Python",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 130,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5098",
+        "nombre": "Entornos y sintaxis en Python",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 60,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5099",
+        "nombre": "Estructuras de control en Python",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 90,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5100",
+        "nombre": "Programación orientada a objetos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 150,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -13585,51 +14015,34 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "5012",
-        "nombre": "Metrología e instrumentación inteligente",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
         "codigo": "5032",
         "nombre": "Estrategias del mantenimiento industrial",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 164,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "5033",
-        "nombre": "Seguridad en el mantenimiento industrial",
+        "codigo": "5012",
+        "nombre": "Metrología e instrumentación inteligente",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 100,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -13641,12 +14054,29 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 82,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5033",
+        "nombre": "Seguridad en el mantenimiento industrial",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 118,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -13658,12 +14088,12 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 136,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -13705,17 +14135,17 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "5011",
-        "nombre": "Procesos productivos inteligentes",
+        "codigo": "5013",
+        "nombre": "Entornos conectados a red e internet de las cosas",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 100,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -13727,29 +14157,29 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 100,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "5013",
-        "nombre": "Entornos conectados a red e internet de las cosas",
+        "codigo": "5011",
+        "nombre": "Procesos productivos inteligentes",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 200,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -13761,12 +14191,12 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 100,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -13813,12 +14243,12 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 100,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -13830,29 +14260,12 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 155,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "5057",
-        "nombre": "Modelos de instalaciones mecánicas y sostenibilidad",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -13864,12 +14277,29 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 118,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5057",
+        "nombre": "Modelos de instalaciones mecánicas y sostenibilidad",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 145,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -14036,7 +14466,127 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "5096",
+        "nombre": "Aplicaciones profesionales",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 30,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5094",
+        "nombre": "Configuración y control",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 90,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5093",
+        "nombre": "Electrónica y sistemas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 90,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5097",
+        "nombre": "Legislación y procedimientos de aplicación",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 40,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5095",
+        "nombre": "Mantenimiento y pruebas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 120,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5092",
+        "nombre": "Partes y componentes",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 50,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "5091",
+        "nombre": "Sistemas aéreos no tripulados",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 80,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -35237,34 +35787,17 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -35272,50 +35805,135 @@ Object.assign(window.CICLOS, {
       },
       {
         "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
         "tipo": "ambito",
-        "comun": "ambito_comunicacion",
+        "comun": "ambito",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
+        "codigo": "3024",
+        "nombre": "Fontanería y calefacción básica",
+        "tipo": "especifico",
+        "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 233,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3163",
-        "nombre": "Ámbito de Ciencias Aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "codigo": "A125",
+        "nombre": "Iniciación a la calderería",
+        "tipo": "especifico",
+        "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 100,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3025",
+        "nombre": "Montaje de equipos de climatización",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3020",
+        "nombre": "Operaciones básicas de fabricación",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -35325,14 +35943,133 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3022",
+        "nombre": "Carpintería de aluminio y PVC",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A126",
+        "nombre": "Montaje de estructuras metálicas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3023",
+        "nombre": "Redes de evacuación",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3021",
+        "nombre": "Soldadura y carpintería metálica",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A999",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -36187,34 +36924,17 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -36222,50 +36942,118 @@ Object.assign(window.CICLOS, {
       },
       {
         "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
         "tipo": "ambito",
-        "comun": "ambito_comunicacion",
+        "comun": "ambito",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
+        "codigo": "3036",
+        "nombre": "Aprovisionamiento y conservación de materias primas e higiene en la manipulación",
+        "tipo": "especifico",
+        "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 100,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3163",
-        "nombre": "Ámbito de Ciencias Aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3034",
+        "nombre": "Técnicas elementales de preelaboración",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3037",
+        "nombre": "Técnicas elementales de servicio",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -36275,14 +37063,133 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3039",
+        "nombre": "Preparación y montaje de materiales para colectividades y catering",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3038",
+        "nombre": "Procesos básicos de preparación de alimentos y bebidas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3035",
+        "nombre": "Procesos básicos de producción culinaria",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A999",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -36347,34 +37254,17 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "3159",
-        "nombre": "Itinerario personal para la empleabilidad",
-        "tipo": "comun",
-        "comun": "ipe_gb",
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "3160",
-        "nombre": "Proyecto intermodular de aprendizaje colaborativo",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -36382,50 +37272,118 @@ Object.assign(window.CICLOS, {
       },
       {
         "codigo": "3161",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales I",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
         "tipo": "ambito",
-        "comun": "ambito_comunicacion",
+        "comun": "ambito",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3162",
-        "nombre": "Ámbito de Comunicación y Ciencias Sociales II",
-        "tipo": "ambito",
-        "comun": "ambito_comunicacion",
+        "codigo": "3046",
+        "nombre": "Electricidad del vehículo",
+        "tipo": "especifico",
+        "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
         "nota": null
       },
       {
-        "codigo": "3163",
-        "nombre": "Ámbito de Ciencias Aplicadas I",
-        "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3047",
+        "nombre": "Mecánica del vehículo",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3043",
+        "nombre": "Mecanizado y soldadura",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -36435,14 +37393,99 @@ Object.assign(window.CICLOS, {
         "codigo": "3164",
         "nombre": "Ámbito de Ciencias Aplicadas II",
         "tipo": "ambito",
-        "comun": "ambito_ciencias",
+        "comun": "ambito",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3044",
+        "nombre": "Amovibles",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3045",
+        "nombre": "Preparación de superficies",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 367,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A999",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -39347,7 +40390,263 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3113",
+        "nombre": "Operaciones auxiliares de cría y alimentación del ganado",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3115",
+        "nombre": "Operaciones auxiliares de mantenimiento e higiene en instalaciones ganaderas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3051",
+        "nombre": "Operaciones auxiliares de preparación del terreno, plantación y siembra de cultivos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3164",
+        "nombre": "Ámbito de Ciencias Aplicadas II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3111",
+        "nombre": "Envasado y distribución de materias primas agroalimentarias",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3052",
+        "nombre": "Operaciones auxiliares de obtención y recolección de cultivos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3114",
+        "nombre": "Operaciones básicas de manejo de la producción ganadera",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A999",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -39380,7 +40679,263 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3053",
+        "nombre": "Operaciones básicas de producción y mantenimiento de plantas en viveros y centros de jardinería",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3121",
+        "nombre": "Recolección de productos forestales",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3118",
+        "nombre": "Repoblación e infraestructuras forestales",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3164",
+        "nombre": "Ámbito de Ciencias Aplicadas II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3056",
+        "nombre": "Operaciones básicas para el mantenimiento de jardines, parques y zonas verdes",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3120",
+        "nombre": "Silvicultura y plagas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3119",
+        "nombre": "Trabajos de aprovechamientos forestales",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A999",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -39413,7 +40968,280 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "3125",
+        "nombre": "Acabados en reprografía y finalización de productos gráficos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3123",
+        "nombre": "Informática básica aplicada en industrias gráficas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3124",
+        "nombre": "Trabajos de reprografía",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3164",
+        "nombre": "Ámbito de Ciencias Aplicadas II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3128",
+        "nombre": "Manipulados en industrias gráficas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3126",
+        "nombre": "Operaciones de almacén en industrias gráficas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3127",
+        "nombre": "Operaciones de producción gráfica",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A999",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -39446,7 +41274,263 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3134",
+        "nombre": "Elaboración de productos alimentarios",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3135",
+        "nombre": "Limpieza y mantenimiento de instalaciones y equipos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3133",
+        "nombre": "Operaciones auxiliares en la industria alimentaria",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3164",
+        "nombre": "Ámbito de Ciencias Aplicadas II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A134",
+        "nombre": "Elaboración de productos alimentarios propios de la Comunidad Autónoma de Aragón",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3070",
+        "nombre": "Operaciones auxiliares de almacenaje",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3136",
+        "nombre": "Operaciones básicas de laboratorio",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A999",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -40222,7 +42306,246 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3133",
+        "nombre": "Operaciones auxiliares en la industria alimentaria",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3007",
+        "nombre": "Procesos básicos de panadería",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 433,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3164",
+        "nombre": "Ámbito de Ciencias Aplicadas II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3005",
+        "nombre": "Atención al cliente",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3026",
+        "nombre": "Dispensación en panadería y pastelería",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3017",
+        "nombre": "Procesos básicos de pastelería",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 400,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A999",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -40255,7 +42578,297 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "3163",
+        "nombre": "Ámbito de Ciencias Aplicadas I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3161",
+        "nombre": "Ámbito de Comunicación y ciencias sociales I",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3159",
+        "nombre": "Itinerario personal para la empleabilidad",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3088",
+        "nombre": "Mantenimiento básico de instalaciones electrotécnicas en viviendas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3090",
+        "nombre": "Operaciones de conservación en la vivienda y montaje de accesorios",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A123",
+        "nombre": "Prevención de riesgos laborales",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3023",
+        "nombre": "Redes de evacuación",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A998",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3164",
+        "nombre": "Ámbito de Ciencias Aplicadas II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3162",
+        "nombre": "Ámbito de Comunicación y ciencias sociales II",
+        "tipo": "ambito",
+        "comun": "ambito",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A128",
+        "nombre": "Energía solar en la edificación",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3024",
+        "nombre": "Fontanería y calefacción básica",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A129",
+        "nombre": "Instalaciones básicas de telecomunicaciones",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3025",
+        "nombre": "Montaje de equipos de climatización",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "3160",
+        "nombre": "Proyecto Intermodular de aprendizaje colaborativo",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A174",
+        "nombre": "Soldadura y operaciones auxiliares básicas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A999",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -49019,7 +51632,382 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "0496",
+        "nombre": "Control del aprovisionamiento de materias primas",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1665",
+        "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0498",
+        "nombre": "Elaboraciones de pastelería y repostería en cocina",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0501",
+        "nombre": "Gestión de la calidad y de la seguridad e higiene alimentaria",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0179",
+        "nombre": "Inglés Profesional (GS)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0497",
+        "nombre": "Procesos de preelaboración y conservación en cocina",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0509",
+        "nombre": "Procesos de servicios en bar-cafetería",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0502",
+        "nombre": "Gastronomía y nutrición",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1709",
+        "nombre": "Itinerario personal para la empleabilidad I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0499",
+        "nombre": "Procesos de elaboración culinaria",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 267,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0510",
+        "nombre": "Procesos de servicios en restaurante",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 333,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1708",
+        "nombre": "Sostenibilidad aplicada al sistema productivo",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0511",
+        "nombre": "Sumillería",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0503",
+        "nombre": "Gestión administrativa y comercial en restauración",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 3,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0500",
+        "nombre": "Gestión de la producción en cocina",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 300,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 3,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1710",
+        "nombre": "Itinerario personal para la empleabilidad II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 3,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0512",
+        "nombre": "Planificación y dirección de servicios y eventos en restauración",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 3,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0505",
+        "nombre": "Proyecto Intermodular de dirección de cocina",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 3,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0513",
+        "nombre": "Proyecto Intermodular de dirección de servicios en restauración",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 3,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0504",
+        "nombre": "Recursos humanos y dirección de equipos en restauración",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 3,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0180",
+        "nombre": "Segunda lengua extranjera",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 3,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "OPT",
+        "nombre": "Módulo profesional optativo",
+        "tipo": "optativo",
+        "comun": "optativo",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 3,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -51112,7 +54100,314 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "1664",
+        "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1078",
+        "nombre": "Estabilización de taludes",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0156",
+        "nombre": "Inglés Profesional (GM)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1709",
+        "nombre": "Itinerario personal para la empleabilidad I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1081",
+        "nombre": "Operaciones y manejo de maquinaria de excavación",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 300,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0881",
+        "nombre": "Perforaciones",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0847",
+        "nombre": "Sondeos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0850",
+        "nombre": "Trabajos geotécnicos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A997",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1079",
+        "nombre": "Excavaciones con arranque selectivo",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1710",
+        "nombre": "Itinerario personal para la empleabilidad II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1080",
+        "nombre": "Operaciones de carga y transporte en excavaciones",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1713",
+        "nombre": "Proyecto Intermodular",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1708",
+        "nombre": "Sostenibilidad aplicada al sistema productivo",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1077",
+        "nombre": "Sostenimiento",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1031",
+        "nombre": "Técnicas de voladuras",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "OPT",
+        "nombre": "Módulo profesional optativo",
+        "tipo": "optativo",
+        "comun": "optativo",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A996",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -86384,51 +89679,17 @@ Object.assign(window.CICLOS, {
     },
     "modulos": [
       {
-        "codigo": "0210",
-        "nombre": "Organización de la atención a las personas en situación de dependencia",
+        "codigo": "0216",
+        "nombre": "Atención sanitaria",
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 233,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0211",
-        "nombre": "Destrezas sociales",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0212",
-        "nombre": "Características y necesidades de las personas en situación de dependencia",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -86440,12 +89701,131 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 200,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0212",
+        "nombre": "Características y necesidades de las personas en situación de dependencia",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0211",
+        "nombre": "Destrezas sociales",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1664",
+        "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0156",
+        "nombre": "Inglés Profesional (GM)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1709",
+        "nombre": "Itinerario personal para la empleabilidad I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0020",
+        "nombre": "Primeros auxilios",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A997",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
           "mefp": null,
           "loe": null
         },
@@ -86457,12 +89837,12 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 67,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -86474,29 +89854,12 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 233,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0216",
-        "nombre": "Atención sanitaria",
-        "tipo": "especifico",
-        "comun": "especifico",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -86508,12 +89871,80 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1710",
+        "nombre": "Itinerario personal para la empleabilidad II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0210",
+        "nombre": "Organización de la atención a las personas en situación de dependencia",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1713",
+        "nombre": "Proyecto Intermodular",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1708",
+        "nombre": "Sostenibilidad aplicada al sistema productivo",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -86525,131 +89956,12 @@ Object.assign(window.CICLOS, {
         "tipo": "especifico",
         "comun": "especifico",
         "horas": {
-          "aragon": null,
+          "aragon": 133,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0020",
-        "nombre": "Primeros auxilios",
-        "tipo": "especifico",
-        "comun": "primeros_auxilios",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "0156",
-        "nombre": "Inglés profesional (GM)",
-        "tipo": "comun",
-        "comun": "ingles",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "1709",
-        "nombre": "Itinerario personal para la empleabilidad I",
-        "tipo": "comun",
-        "comun": "ipe1",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "1710",
-        "nombre": "Itinerario personal para la empleabilidad II",
-        "tipo": "comun",
-        "comun": "ipe2",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "1664",
-        "nombre": "Digitalización aplicada a los sectores productivos (GM)",
-        "tipo": "comun",
-        "comun": "digitalizacion",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "1708",
-        "nombre": "Sostenibilidad aplicada al sistema productivo",
-        "tipo": "comun",
-        "comun": "sostenibilidad",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "1713",
-        "nombre": "Proyecto intermodular",
-        "tipo": "proyecto",
-        "comun": "proyecto",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -86661,29 +89973,12 @@ Object.assign(window.CICLOS, {
         "tipo": "optativo",
         "comun": "optativo",
         "horas": {
-          "aragon": null,
+          "aragon": 100,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A997",
-        "nombre": "Tutoría I (módulo propio de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -86691,33 +89986,16 @@ Object.assign(window.CICLOS, {
       },
       {
         "codigo": "A996",
-        "nombre": "Tutoría II (módulo propio de Aragón)",
+        "nombre": "Tutoría II",
         "tipo": "comun",
-        "comun": "tutoria",
+        "comun": "comun",
         "horas": {
-          "aragon": null,
+          "aragon": 33,
           "mefp": null,
           "loe": null
         },
         "curso": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "nota": null
-      },
-      {
-        "codigo": "A995",
-        "nombre": "Tutoría III (solo en el horario nocturno de Aragón)",
-        "tipo": "comun",
-        "comun": "tutoria",
-        "horas": {
-          "aragon": null,
-          "mefp": null,
-          "loe": null
-        },
-        "curso": {
-          "aragon": null,
+          "aragon": 2,
           "mefp": null,
           "loe": null
         },
@@ -91596,7 +94874,314 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "0268",
+        "nombre": "Confección a medida",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 233,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1664",
+        "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0156",
+        "nombre": "Inglés Profesional (GM)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1709",
+        "nombre": "Itinerario personal para la empleabilidad I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0275",
+        "nombre": "Materias textiles y piel",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0264",
+        "nombre": "Moda y Tendencias",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0265",
+        "nombre": "Patrones",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 200,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0116",
+        "nombre": "Principios de mantenimiento electromecánico",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A997",
+        "nombre": "Tutoría I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0270",
+        "nombre": "Acabados en confección",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0269",
+        "nombre": "Confección industrial",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 300,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0267",
+        "nombre": "Corte de materiales",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0271",
+        "nombre": "Información y atención al cliente",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1710",
+        "nombre": "Itinerario personal para la empleabilidad II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1713",
+        "nombre": "Proyecto Intermodular",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1708",
+        "nombre": "Sostenibilidad aplicada al sistema productivo",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "OPT",
+        "nombre": "Módulo profesional optativo",
+        "tipo": "optativo",
+        "comun": "optativo",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "A996",
+        "nombre": "Tutoría II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
@@ -91654,7 +95239,297 @@ Object.assign(window.CICLOS, {
       "plan": "LOE",
       "parcial": false
     },
-    "modulos": [],
+    "modulos": [
+      {
+        "codigo": "1665",
+        "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0179",
+        "nombre": "Inglés Profesional (GS)",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1709",
+        "nombre": "Itinerario personal para la empleabilidad I",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0276",
+        "nombre": "Materiales en textil, confección y piel",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0264",
+        "nombre": "Moda y Tendencias",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0285",
+        "nombre": "Patronaje industrial en textil y piel",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 300,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0278",
+        "nombre": "Procesos en confección industrial",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0277",
+        "nombre": "Técnicas en confección",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 1,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0283",
+        "nombre": "Análisis de diseños en textil y piel",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0284",
+        "nombre": "Elaboración de prototipos",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0165",
+        "nombre": "Gestión de la calidad, prevención de riesgos laborales y protección ambiental",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0286",
+        "nombre": "Industrialización y escalado de patrones",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 167,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1710",
+        "nombre": "Itinerario personal para la empleabilidad II",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0280",
+        "nombre": "Organización de la producción en confección industrial",
+        "tipo": "especifico",
+        "comun": "especifico",
+        "horas": {
+          "aragon": 133,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "0287",
+        "nombre": "Proyecto intermodular de patronaje y moda",
+        "tipo": "proyecto",
+        "comun": "proyecto",
+        "horas": {
+          "aragon": 67,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "1708",
+        "nombre": "Sostenibilidad aplicada al sistema productivo",
+        "tipo": "comun",
+        "comun": "comun",
+        "horas": {
+          "aragon": 33,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      },
+      {
+        "codigo": "OPT",
+        "nombre": "Módulo profesional optativo",
+        "tipo": "optativo",
+        "comun": "optativo",
+        "horas": {
+          "aragon": 100,
+          "mefp": null,
+          "loe": null
+        },
+        "curso": {
+          "aragon": 2,
+          "mefp": null,
+          "loe": null
+        },
+        "nota": null
+      }
+    ],
     "convalidaciones_titulos_anteriores": [],
     "convalidaciones_loe": [],
     "uc_a_modulos": [],
